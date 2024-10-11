@@ -71,11 +71,11 @@ internal static class FunctionExtensions
         return results;
     }
 
-    public static Dictionary<string[], Function> GetFunctions(this Type type, IEnumerable<Type> compatible_types)
+    public static Dictionary<string[], IFunction> GetFunctions(this Type type, IEnumerable<Type> compatible_types)
     {
-        Dictionary<string[], Function> candidates = [];
+        Dictionary<string[], IFunction> candidates = [];
 
-        foreach (MethodInfo method in type.GetMethods())
+        foreach (MethodInfo method in type.GetMethods().Where(x => x.IsStatic))
         {
             string name = method.Name;
             BuiltInFunctionAttribute? bif = method.GetCustomAttribute<BuiltInFunctionAttribute>();

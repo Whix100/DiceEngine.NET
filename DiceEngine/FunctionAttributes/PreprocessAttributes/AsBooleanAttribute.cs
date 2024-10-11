@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Expressions;
+using DiceEngine.Expressions.Interfaces;
 
 namespace DiceEngine.FunctionAttributes.PreprocessAttributes;
 
@@ -6,13 +7,6 @@ public class AsBooleanAttribute : PreprocessAttribute
 {
     public override IExpression Preprocess(IExpression expression)
     {
-        if (Constant.UNDEFINED.Equals(expression))
-            return Constant.UNDEFINED;
-        else if (Constant.TRUE.Equals(expression) || Constant.FALSE.Equals(expression))
-            return expression;
-        else if (new Number(0).Equals(expression))
-            return Constant.FALSE;
-        else // Any value that is not 0 or undefined should result in true.
-            return Constant.TRUE;
+        return (IExpression?)ILogicalConvertible.ConvertToLogical(expression) ?? Undefined.UNDEFINED;
     }
 }

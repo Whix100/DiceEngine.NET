@@ -39,7 +39,7 @@ public class Function(IEnumerable<IParameter> parameters, Delegate body, bool is
             object?[]? processed_args = ((IFunction)this).ProcessArguments(arguments, context);
 
             if (processed_args is null)
-                return Constant.UNDEFINED;
+                return Undefined.UNDEFINED;
 
             int i = 0;
 
@@ -51,7 +51,7 @@ public class Function(IEnumerable<IParameter> parameters, Delegate body, bool is
                 .ProcessArguments(arguments.Select(arg => arg.Evaluate(context)), context);
 
             if (processed_args is null)
-                return Constant.UNDEFINED;
+                return Undefined.UNDEFINED;
 
             args = [.. processed_args];
         }
@@ -60,7 +60,7 @@ public class Function(IEnumerable<IParameter> parameters, Delegate body, bool is
 
         if (result is null)
         {
-            return Constant.UNDEFINED;
+            return Undefined.UNDEFINED;
         }
         else if (result is IExpression expr)
         {
@@ -74,7 +74,7 @@ public class Function(IEnumerable<IParameter> parameters, Delegate body, bool is
                     : Body.Method.ReturnType;
             ITypeConverter[] converter = context.GetTypeConverters(return_type);
 
-            return converter.ConvertToExpression(result) ?? Constant.UNDEFINED;
+            return converter.ConvertToExpression(result) ?? Undefined.UNDEFINED;
         }
     }
 
@@ -152,7 +152,7 @@ public interface IFunction : IExpression
     public static IExpression ForEach(IFunction function, IEnumerable<IExpression> arguments, ExpressionContext context)
     {
         if (arguments.Count() != function.Parameters.Where(p => p is not ContextParameter).Count())
-            return Constant.UNDEFINED;
+            return Undefined.UNDEFINED;
 
         if (function.IsElementwise && arguments.Any(arg => arg is IEnumerableExpression))
         {

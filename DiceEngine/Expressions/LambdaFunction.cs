@@ -21,7 +21,7 @@ public class LambdaFunction(IEnumerable<Parameter> parameters, IExpression body)
         IExpression[]? args = ((IFunction)this).ProcessArguments(arguments, context)?.Cast<IExpression>().ToArray();
 
         if (args is null)
-            return Constant.UNDEFINED;
+            return Undefined.UNDEFINED;
 
         foreach ((IParameter parameter, IExpression? argument) in _parameters.Zip(args))
             if (parameter is Parameter param)

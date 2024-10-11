@@ -1,6 +1,7 @@
-﻿using DiceEngine.BuiltInFunctions;
-using DiceEngine.Context;
+﻿using DiceEngine.Context;
 using DiceEngine.Expressions.Collections;
+using DiceEngine.Expressions.Interfaces;
+using System.ComponentModel;
 
 namespace DiceEngine.Expressions;
 
@@ -12,40 +13,31 @@ namespace DiceEngine.Expressions;
 /// <param name="right">The <see cref="IExpression"/> right operand for this operator.</param>
 public class BinaryOperator(string op, IExpression left, IExpression right) : IExpression
 {
-    private static readonly Dictionary<string, Func<IExpression, IExpression, ExpressionContext, IExpression>> _operators
-        = new Dictionary<string, Func<IExpression, IExpression, ExpressionContext, IExpression>>
-        {
-            { "+", Add },
-            { "-", Subtract },
-            { "*", Multiply },
-            { "×", Multiply },
-            { "/", Divide },
-            { "÷", Divide },
-            { "^", Exponent },
-            { "%", EuclideanModulus },
-            { "%%", TruncatedModulus },
-            { "//", IntDivide },
-            { "&&", (a, b, cxt) => IFunction.ForEach(new Function(LogicalFunctions.And, true), [a, b], cxt) },
-            { "∧", (a, b, cxt) => IFunction.ForEach(new Function(LogicalFunctions.And, true), [a, b], cxt) },
-            { "||", (a, b, cxt) => IFunction.ForEach(new Function(LogicalFunctions.Or, true), [a, b], cxt) },
-            { "∨", (a, b, cxt) => IFunction.ForEach(new Function(LogicalFunctions.Or, true), [a, b], cxt) },
-            { "⊕", (a, b, cxt) => IFunction.ForEach(new Function(LogicalFunctions.Xor, true), [a, b], cxt) },
-            { "==", IsEqual },
-            { "!=", IsNotEqual },
-            { "≠", IsNotEqual },
-            { "<>", IsNotEqual },
-            { "<", IsLessThan },
-            { "<=", IsLessThanOrEqualTo },
-            { "≤", IsLessThanOrEqualTo },
-            { ">", IsGreaterThan },
-            { ">=", IsGreaterThanOrEqualTo },
-            { "≥", IsGreaterThanOrEqualTo },
-        };
-
-    private Func<IExpression, IExpression, ExpressionContext, IExpression> _operation
-        => (a, b, vars) => Constant.UNDEFINED.Equals(a) || Constant.UNDEFINED.Equals(b)
-            ? Constant.UNDEFINED
-            : _operators[Identifier](a.Evaluate(vars), b.Evaluate(vars), vars);
+    public const string ADDITION = "+";
+    public const string SUBTRACTION = "-";
+    public const string MULTIPLICATION = "*";
+    public const string CROSS_MULTIPLICATION = "×";
+    public const string SLASH_DIVISION = "/";
+    public const string DIVISION = "÷";
+    public const string EXPONENT = "^";
+    public const string EUCLIDEAN_MODULUS = "%";
+    public const string TRUC_MODULUS = "%%";
+    public const string INT_DIVISION = "//";
+    public const string AND = "&&";
+    public const string AND_ALT = "∧";
+    public const string OR = "||";
+    public const string OR_ALT = "∨";
+    public const string XOR = "⊕";
+    public const string IS_EQUAL = "==";
+    public const string NOT_EQUAL = "!=";
+    public const string NOT_EQUAL_ALT = "≠";
+    public const string GREATER_OR_LESS_THAN = "<>";
+    public const string LESS_THAN = "<";
+    public const string LESS_THAN_OR_EQUAL = "<=";
+    public const string LESS_THAN_OR_EQUAL_ALT = "≤";
+    public const string GREATER_THAN = ">";
+    public const string GREATER_THAN_OR_EQUAL = ">=";
+    public const string GREATER_THAN_OR_EQUAL_ALT = "≥";
 
     public readonly string Identifier = op;
     public readonly IExpression Left = left;
@@ -54,21 +46,26 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
     public IExpression Evaluate()
         => Evaluate(new ExpressionContext());
 
-    public IExpression Evaluate(ExpressionContext variables)
-        => _operation(Left, Right, variables);
+    public IExpression Evaluate(ExpressionContext context)
+    {
+        IExpression leftEvaluated = Left.Evaluate(context);
+        IExpression rightEvaluated = Right.Evaluate(context);
+
+        return IBinaryOperable.Operate(Identifier, leftEvaluated, rightEvaluated, context);
+    }
 
     public IExpression StepEvaluate()
         => StepEvaluate(new ExpressionContext());
 
-    public IExpression StepEvaluate(ExpressionContext variables)
+    public IExpression StepEvaluate(ExpressionContext context)
     {
-        IExpression l = Left.StepEvaluate(variables);
+        IExpression l = Left.StepEvaluate(context);
 
         if (l.Equals(Left))
         {
-            IExpression r = Right.StepEvaluate(variables);
+            IExpression r = Right.StepEvaluate(context);
 
-            return r.Equals(Right) ? _operation(l, r, variables) : new BinaryOperator(Identifier, Left, r);
+            return r.Equals(Right) ? Evaluate(context) : new BinaryOperator(Identifier, Left, r);
         }
 
         return new BinaryOperator(Identifier, l, Right);
@@ -102,17 +99,17 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
         {
             return new Number(a_num.Value + b_num.Value).Evaluate();
         }
-        else if (Constant.INFINITY.Equals(a_eval) || Constant.INFINITY.Equals(b_eval) &&
+        else if (Infinity.POSITIVE.Equals(a_eval) || Infinity.POSITIVE.Equals(b_eval) &&
             (a_eval is Number || b_eval is Number ||
-            (Constant.INFINITY.Equals(a_eval) && Constant.INFINITY.Equals(b_eval))))
+            (Infinity.POSITIVE.Equals(a_eval) && Infinity.POSITIVE.Equals(b_eval))))
         { 
-            return Constant.INFINITY;
+            return Infinity.POSITIVE;
         }
-        else if ((Constant.NEGATIVE_INFINITY.Equals(a_eval) || Constant.NEGATIVE_INFINITY.Equals(b_eval)) &&
+        else if ((Infinity.NEGATIVE.Equals(a_eval) || Infinity.NEGATIVE.Equals(b_eval)) &&
             ((a_eval is Number || b_eval is Number) ||
-            (Constant.NEGATIVE_INFINITY.Equals(a_eval) && Constant.NEGATIVE_INFINITY.Equals(b_eval))))
+            (Infinity.NEGATIVE.Equals(a_eval) && Infinity.NEGATIVE.Equals(b_eval))))
         {
-            return new UnaryOperator("-", true, Constant.INFINITY);
+            return Infinity.NEGATIVE;
         }
         else if (a_eval is IEnumerableExpression a_enum_expr)
         {
@@ -126,7 +123,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return b_enum_expr.Map(e => Add(a_eval, e, context));
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression Subtract(IExpression a, IExpression b, ExpressionContext context)
@@ -138,15 +135,15 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
         {
             return new Number(a_num.Value - b_num.Value).Evaluate();
         }
-        else if ((a_eval is Number || Constant.INFINITY.Equals(a_eval)) &&
-            (b_eval is Number || Constant.NEGATIVE_INFINITY.Equals(b_eval)))
+        else if ((a_eval is Number || Infinity.POSITIVE.Equals(a_eval)) &&
+            (b_eval is Number || Infinity.NEGATIVE.Equals(b_eval)))
         {
-            return Constant.INFINITY;
+            return Infinity.POSITIVE;
         }
-        else if ((a_eval is Number || Constant.NEGATIVE_INFINITY.Equals(a_eval)) &&
-            (b_eval is Number || Constant.INFINITY.Equals(b_eval)))
+        else if ((a_eval is Number || Infinity.NEGATIVE.Equals(a_eval)) &&
+            (b_eval is Number || Infinity.POSITIVE.Equals(b_eval)))
         {
-            return new UnaryOperator("-", true, Constant.INFINITY);
+            return Infinity.NEGATIVE;
         }
         else if (a_eval is IEnumerableExpression a_enum_expr)
         {
@@ -160,7 +157,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return b_enum_expr.Map(e => Subtract(a_eval, e, context));
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression Multiply(IExpression a, IExpression b, ExpressionContext context)
@@ -172,18 +169,18 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
         {
             return new Number(num_a.Value * num_b.Value).Evaluate();
         }
-        else if ((a_eval is Number a_num && a_num.Value != 0 && Constant.INFINITY.Equals(b_eval)) ||
-            (b_eval is Number b_num && b_num.Value != 0 && Constant.INFINITY.Equals(a_eval)) ||
-            (Constant.INFINITY.Equals(a_eval) && Constant.INFINITY.Equals(b_eval)) ||
-            (Constant.NEGATIVE_INFINITY.Equals(a_eval) && Constant.NEGATIVE_INFINITY.Equals(b_eval)))
+        else if ((a_eval is Number a_num && a_num.Value != 0 && Infinity.POSITIVE.Equals(b_eval)) ||
+            (b_eval is Number b_num && b_num.Value != 0 && Infinity.POSITIVE.Equals(a_eval)) ||
+            (Infinity.POSITIVE.Equals(a_eval) && Infinity.POSITIVE.Equals(b_eval)) ||
+            (Infinity.NEGATIVE.Equals(a_eval) && Infinity.NEGATIVE.Equals(b_eval)))
         {
-            return Constant.INFINITY;
+            return Infinity.POSITIVE;
         }
-        else if ((Constant.NEGATIVE_INFINITY.Equals(a_eval) && (b_eval is Number ||
-                Constant.INFINITY.Equals(b_eval))) ||
-            (Constant.NEGATIVE_INFINITY.Equals(b_eval) && (a_eval is Number || Constant.INFINITY.Equals(a_eval))))
+        else if ((Infinity.NEGATIVE.Equals(a_eval) && (b_eval is Number ||
+                Infinity.POSITIVE.Equals(b_eval))) ||
+            (Infinity.NEGATIVE.Equals(b_eval) && (a_eval is Number || Infinity.POSITIVE.Equals(a_eval))))
         {
-            return new UnaryOperator("-", true, Constant.INFINITY);
+            return Infinity.NEGATIVE;
         }
         else if (a_eval is IEnumerableExpression a_enum_expr)
         {
@@ -197,7 +194,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return b_enum_expr.Map(e => Multiply(a_eval, e, context));
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression Divide(IExpression a, IExpression b, ExpressionContext context)
@@ -209,17 +206,17 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
         {
             return new Number(a_num.Value / b_num.Value);
         }
-        else if (a_eval is Number && (Constant.INFINITY.Equals(b_eval) || Constant.NEGATIVE_INFINITY.Equals(b_eval)))
+        else if (a_eval is Number && (Infinity.POSITIVE.Equals(b_eval) || Infinity.NEGATIVE.Equals(b_eval)))
         {
             return new Number(0);
         }
-        else if (Constant.INFINITY.Equals(a_eval) && b_eval is Number b_n && b_n.Value != 0)
+        else if (Infinity.POSITIVE.Equals(a_eval) && b_eval is Number b_n && b_n.Value != 0)
         {
-            return Constant.INFINITY;
+            return Infinity.POSITIVE;
         }
-        else if (Constant.NEGATIVE_INFINITY.Equals(a_eval) && b_eval is Number)
+        else if (Infinity.NEGATIVE.Equals(a_eval) && b_eval is Number)
         {
-            return new UnaryOperator("-", true, Constant.INFINITY);
+            return Infinity.NEGATIVE;
         }
         else if (a_eval is IEnumerableExpression a_enum_expr)
         {
@@ -233,7 +230,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return b_enum_expr.Map(e => Divide(a_eval, e, context));
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression Exponent(IExpression a, IExpression b, ExpressionContext context)
@@ -245,32 +242,32 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
         {
             return new Number(Math.Pow(a_num.Value, b_num.Value));
         }
-        else if (Constant.INFINITY.Equals(a_eval) && b_eval is Number b_num_inf)
+        else if (Infinity.POSITIVE.Equals(a_eval) && b_eval is Number b_num_inf)
         {
             if (b_num_inf.Value < 0)
                 return new Number(0);
             else if (b_num_inf.Value > 0)
-                return Constant.INFINITY;
+                return Infinity.POSITIVE;
         }
-        else if (Constant.NEGATIVE_INFINITY.Equals(a_eval) && b_eval is Number b_num_neg_inf)
+        else if (Infinity.NEGATIVE.Equals(a_eval) && b_eval is Number b_num_neg_inf)
         {
             if (b_num_neg_inf.Value < 0)
                 return new Number(0);
             else if (b_num_neg_inf.Value > 0)
                 if (b_num_neg_inf.Value % 2 == 0)
-                    return Constant.INFINITY;
+                    return Infinity.POSITIVE;
                 else if (b_num_neg_inf.Value % 2 == 1)
-                    return Constant.NEGATIVE_INFINITY;
+                    return Infinity.NEGATIVE;
         }
-        else if ((Constant.INFINITY.Equals(a_eval) || Constant.NEGATIVE_INFINITY.Equals(a_eval)) &&
-            Constant.INFINITY.Equals(b_eval))
+        else if ((Infinity.POSITIVE.Equals(a_eval) || Infinity.NEGATIVE.Equals(a_eval)) &&
+            Infinity.POSITIVE.Equals(b_eval))
         {
-            return Constant.INFINITY;
+            return Infinity.POSITIVE;
         }
-        else if ((Constant.NEGATIVE_INFINITY.Equals(b_eval) && ((a_eval is Number a_num_neg_inf &&
+        else if ((Infinity.NEGATIVE.Equals(b_eval) && ((a_eval is Number a_num_neg_inf &&
             (a_num_neg_inf.Value != 0 &&
-                a_num_neg_inf.Value != 1 && a_num_neg_inf.Value != -1)) || Constant.INFINITY.Equals(a_eval))) &&
-            (a_eval is Number a_n && a_n.Value == 0 && Constant.INFINITY.Equals(b_eval)))
+                a_num_neg_inf.Value != 1 && a_num_neg_inf.Value != -1)) || Infinity.POSITIVE.Equals(a_eval))) &&
+            (a_eval is Number a_n && a_n.Value == 0 && Infinity.POSITIVE.Equals(b_eval)))
         {
             return new Number(0);
         }
@@ -286,7 +283,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return b_enum_expr.Map(e => Exponent(a_eval, e, context));
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression EuclideanModulus(IExpression a, IExpression b, ExpressionContext context)
@@ -310,7 +307,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return b_enum_expr.Map(e => EuclideanModulus(a_eval, e, context));
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression TruncatedModulus(IExpression a, IExpression b, ExpressionContext context)
@@ -334,7 +331,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return b_enum_expr.Map(e => TruncatedModulus(a_eval, e, context));
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression IntDivide(IExpression a, IExpression b, ExpressionContext context)
@@ -358,7 +355,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return b_enum_expr.Map(e => IntDivide(a_eval, e, context));
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression IsEqual(IExpression a, IExpression b, ExpressionContext context)
@@ -381,11 +378,15 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
         {
             return new Number(a_num.Equals(b_eval) ? 1 : 0);
         }
-        else if (a_eval is Constant a_const)
+        else if (a_eval is Logical a_logic && b_eval is Logical b_logic)
         {
-            return new Number(a_const.Equals(b_eval) ? 1 : 0);
+            return new Number(a_logic.Value == b_logic.Value ? 1 : 0);
         }
-        else if (a_eval is UnaryOperator a_unop)
+        else if (a_eval is Constant || a_eval is Infinity || a_eval is Undefined)
+        {
+            return new Number(a_eval.Equals(b_eval) ? 1 : 0);
+        }
+        else if (a_eval is PrefixOperator a_unop)
         {
             return new Number(a_unop.Equals(b) ? 1 : 0);
         }
@@ -394,7 +395,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return new Number(a_eval.Equals(b_eval) ? 1 : 0);
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression IsNotEqual(IExpression a, IExpression b, ExpressionContext context)
@@ -417,7 +418,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
 
         return IsEqual(a, b, context) is Number equals
             ? new Number((equals.Value - 1) * -1)
-            : Constant.UNDEFINED;
+            : Undefined.UNDEFINED;
     }
 
     private static IExpression IsLessThan(IExpression a, IExpression b, ExpressionContext context)
@@ -429,11 +430,11 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
         {
             return new Number(a_num.Value < b_num.Value ? 1 : 0);
         }
-        else if (Constant.INFINITY.Equals(a_eval) || Constant.NEGATIVE_INFINITY.Equals(b_eval))
+        else if (Infinity.POSITIVE.Equals(a_eval) || Infinity.NEGATIVE.Equals(b_eval))
         {
             return new Number(0);
         }
-        else if (Constant.INFINITY.Equals(b_eval) || Constant.NEGATIVE_INFINITY.Equals(a_eval))
+        else if (Infinity.POSITIVE.Equals(b_eval) || Infinity.NEGATIVE.Equals(a_eval))
         {
             return new Number(1);
         }
@@ -449,7 +450,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return b_enum_expr.Map(e => IsLessThan(a_eval, e, context));
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression IsLessThanOrEqualTo(IExpression a, IExpression b, ExpressionContext context)
@@ -476,7 +477,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
                 return IsLessThan(a, b, context);
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression IsGreaterThan(IExpression a, IExpression b, ExpressionContext context)
@@ -488,11 +489,11 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
         {
             return new Number(a_num.Value > b_num.Value ? 1 : 0);
         }
-        else if (Constant.INFINITY.Equals(b_eval) || Constant.NEGATIVE_INFINITY.Equals(a_eval))
+        else if (Infinity.POSITIVE.Equals(b_eval) || Infinity.NEGATIVE.Equals(a_eval))
         {
             return new Number(0);
         }
-        else if (Constant.INFINITY.Equals(a_eval) || Constant.NEGATIVE_INFINITY.Equals(b_eval))
+        else if (Infinity.POSITIVE.Equals(a_eval) || Infinity.NEGATIVE.Equals(b_eval))
         {
             return new Number(1);
         }
@@ -508,7 +509,7 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
             return b_enum_expr.Map(e => IsGreaterThan(a_eval, e, context));
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     private static IExpression IsGreaterThanOrEqualTo(IExpression a, IExpression b, ExpressionContext context)
@@ -535,6 +536,6 @@ public class BinaryOperator(string op, IExpression left, IExpression right) : IE
                 return IsGreaterThan(a, b, context);
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 }

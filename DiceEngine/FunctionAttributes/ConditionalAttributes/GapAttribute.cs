@@ -1,22 +1,24 @@
-﻿using DiceEngine.Expressions;
+﻿using DiceEngine.Context;
+using DiceEngine.Expressions;
+using DiceEngine.Expressions.Interfaces;
 
 namespace DiceEngine.FunctionAttributes.ConditionalAttributes;
 
-public class GapAttribute(double start, double end, bool allow_undefined = false, bool inclusive = false)
+public class GapAttribute(double start, double end, bool allowUndefined = false, bool inclusive = false)
     : ConditionAttribute
 {
     public readonly IExpression Start = ((Number)start).Evaluate();
     public readonly IExpression End = ((Number)end).Evaluate();
-    public readonly bool AllowUndefined = allow_undefined;
+    public readonly bool AllowUndefined = allowUndefined;
     public readonly bool Inclusive = inclusive;
 
     public override bool CheckCondition(IExpression expression)
     {
-        IExpression lower_condition_result = new BinaryOperator(Inclusive ? "<" : "<=", expression, Start).Evaluate();
+        IExpression lowerConditionResult = IBinaryOperable.Operate(Inclusive ? "<" : "<=", expression, Start);
 
-        if (lower_condition_result is Number low_num)
+        if (lowerConditionResult is Logical isLower)
         {
-            if (low_num.Value == 1)
+            if (isLower.Value)
             {
                 return true;
             }
@@ -26,8 +28,8 @@ public class GapAttribute(double start, double end, bool allow_undefined = false
             return false;
         }
 
-        IExpression upper_condition_result = new BinaryOperator(Inclusive ? ">" : ">=", expression, End).Evaluate();
+        IExpression upperConditionResult = IBinaryOperable.Operate(Inclusive ? ">" : ">=", expression, End);
 
-        return upper_condition_result is Number high_num ? high_num.Value == 1 : AllowUndefined;
+        return upperConditionResult is Logical isHigher ? isHigher.Value : AllowUndefined;
     }
 }

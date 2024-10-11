@@ -100,11 +100,11 @@ internal static class ParseMatchFunctions
         => new BinaryOperator(match.Value, parser.Parse(input[..match.Index]),
             parser.Parse(input[(match.Index + match.Length)..]));
 
-    internal static UnaryOperator ParseMatchPrefix(string input, Token match, Parser parser)
-        => new UnaryOperator(match.Value, true, parser.Parse(input[(match.Index + match.Length)..]));
+    internal static PrefixOperator ParseMatchPrefix(string input, Token match, Parser parser)
+        => new PrefixOperator(match.Value, parser.Parse(input[(match.Index + match.Length)..]));
 
-    internal static UnaryOperator ParseMatchPostfix(string input, Token match, Parser parser)
-        => new UnaryOperator(match.Value, false, parser.Parse(input[..match.Index]));
+    internal static PostfixOperator ParseMatchPostfix(string input, Token match, Parser parser)
+        => new PostfixOperator(match.Value, parser.Parse(input[..match.Index]));
 
     internal static IExpression ParseMatchDice(string _, Token match, Parser __)
     {
@@ -145,6 +145,20 @@ internal static class ParseMatchFunctions
 
     internal static Indexer ParseMatchIndexer(string input, Token match, Parser parser)
         => new Indexer(parser.Parse(input[..match.Index]), parser.Parse(match[1..^1]));
+
+    internal static Undefined ParseMatchUndefined(string _, Token match, Parser __)
+        => match.Value switch
+        {
+            "undefined" => Undefined.UNDEFINED,
+            "dne" => Undefined.DNE,
+            _ => throw new Exception($"The input was not in the correct format: '{match.Value}'")
+        };
+
+    internal static Logical ParseMatchLogical(string _, Token match, Parser __)
+        => new Logical(Boolean.Parse(match.Value));
+
+    internal static Infinity ParseMatchInfinity(string _, Token match, Parser __)
+        => new Infinity(match.Value);
 
     internal static Constant ParseMatchConstant(string _, Token match, Parser __)
         => new Constant(match.Value);

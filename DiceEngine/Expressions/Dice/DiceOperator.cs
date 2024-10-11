@@ -43,7 +43,7 @@ public class DiceOperator(string op, IExpression inside, ResultSelector selector
             !((Identifier == "ma" || Identifier == "mi") && Selector.Selector != ""))
             return new RollResult(operate(rollResult, Selector, context.Random), rollResult.Die);
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     public IExpression StepEvaluate()

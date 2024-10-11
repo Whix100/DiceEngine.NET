@@ -15,7 +15,7 @@ public class DecimalTypeConverter : ITypeConverter<decimal?>
         {
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     public decimal? ConvertFromExpression(IExpression? expression)

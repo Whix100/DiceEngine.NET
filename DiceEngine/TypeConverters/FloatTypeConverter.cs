@@ -13,11 +13,11 @@ public class FloatTypeConverter<T> : ITypeConverter<T?>
             if (value.HasValue)
             {
                 if (T.IsPositiveInfinity(value.Value))
-                    return Constant.INFINITY;
+                    return Infinity.POSITIVE;
                 else if (T.IsNegativeInfinity(value.Value))
-                    return Constant.NEGATIVE_INFINITY;
+                    return Infinity.NEGATIVE;
                 else if (T.IsNaN(value.Value))
-                    return Constant.UNDEFINED;
+                    return Undefined.UNDEFINED;
 
                 return (Number)Convert.ToDouble(value.Value);
             }
@@ -26,7 +26,7 @@ public class FloatTypeConverter<T> : ITypeConverter<T?>
         {
         }
 
-        return Constant.UNDEFINED;
+        return Undefined.UNDEFINED;
     }
 
     public T? ConvertFromExpression(IExpression? expression)
@@ -42,12 +42,17 @@ public class FloatTypeConverter<T> : ITypeConverter<T?>
                 
                 return (T?)Convert.ChangeType(num.Value, typeof(T));
             }
-            else if (expression is Constant)
+            else if (expression is Infinity infinity)
             {
-                if (Constant.INFINITY.Equals(expression))
-                    return T.PositiveInfinity;
-                else if (Constant.NEGATIVE_INFINITY.Equals(expression))
-                    return T.NegativeInfinity;
+                return infinity.IsPositive ? T.PositiveInfinity : T.NegativeInfinity;
+            }
+            else if (expression is Logical logical)
+            {
+                return logical.Value ? T.One : T.Zero;
+            }
+            else if (expression is Undefined)
+            {
+                return T.NaN;
             }
         }
         catch

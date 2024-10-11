@@ -14,7 +14,7 @@ public class TestRules
     public void TestRule()
     {
         string name = "RuleName";
-        IExpression parsed = Constant.TRUE;
+        IExpression parsed = Logical.TRUE;
         Token matched = new Token("Rule", 0);
         Rule rule = new Rule(name, (_, _, _) => parsed, (_, _) => matched);
 
@@ -33,7 +33,7 @@ public class TestRules
         string regex = "[A-Z][a-z]+";
         RegexRuleOptions options = RegexRuleOptions.Trim;
         Token[] matches = [new Token("Input", 0), new Token("String", 5)];
-        IExpression parsed = Constant.TRUE;
+        IExpression parsed = Logical.TRUE;
         RegexRule rule = new RegexRule(name, regex, options, (_, _, _) => parsed);
         string input = "InputString";
 
@@ -61,7 +61,7 @@ public class TestRules
         string regex = @"[A-Z][a-z]+(\s*String\s*)";
         RegexRuleOptions options = RegexRuleOptions.Trim | RegexRuleOptions.PadReferences;
         Token[] matches = [new Token("New String ", 0), new Token("Input String", 11)];
-        IExpression parsed = Constant.TRUE;
+        IExpression parsed = Logical.TRUE;
         NestedRegexRule rule = new NestedRegexRule(name, regex_template, options, (_, _, _) => parsed);
         string input = "New String Input String";
 
@@ -91,7 +91,7 @@ public class TestRules
         string regex = @"[A-Z][a-z]+(\s*String\s*)";
         RegexRuleOptions options = RegexRuleOptions.Trim | RegexRuleOptions.PadReferences;
         Token[] matches = [new Token("New String ", 0), new Token("Input String", 11)];
-        IExpression parsed = Constant.UNDEFINED;
+        IExpression parsed = Undefined.UNDEFINED;
         ReferenceRegexRule rule = new ReferenceRegexRule(name, regex_template, options);
         string input = "New String Input String";
 
