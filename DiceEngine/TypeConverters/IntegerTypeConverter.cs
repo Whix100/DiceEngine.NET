@@ -12,11 +12,11 @@ public class IntegerTypeConverter<T> : ITypeConverter<T?>
         {
             return value.HasValue
                 ? (Number)Convert.ToDouble(value.Value)
-                : Constant.UNDEFINED;
+                : Undefined.UNDEFINED;
         }
         catch
         {
-            return Constant.UNDEFINED;
+            return Undefined.UNDEFINED;
         }
     }
 

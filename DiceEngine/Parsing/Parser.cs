@@ -26,7 +26,8 @@ public class Parser
     /// <param name="build_rules">Whether or not grammar rules should be prebuilt.</param>
     public Parser(bool build_rules = true)
         : this ([
-            new ReferenceRegexRule("DiscreteOperand", "({Prefix}*({Variable}|{Constant}|{Number}|{Token}){Postfix}*)",
+            new ReferenceRegexRule("DiscreteOperand",
+                "({Prefix}*({Variable}|{Undefined}|{Logical}|{Infinity}|{Constant}|{Number}|{Token}){Postfix}*)",
                 RegexRuleOptions.PadReferences),
             new ReferenceRegexRule("Operand", @"[\[\{]?({DiscreteOperand}|{Parameter}|{TokenizedParameter})[\]\}]?"),
             new ReferenceRegexRule("Token", @"\[\d+\]"),
@@ -71,7 +72,13 @@ public class Parser
             new RegexRule("Postfix", @"((\+{2})|(\-{2})|((?<![A-Za-zΑ-Ωα-ω0-9](!!)*!)!!)|[!%#])",
                 RegexRuleOptions.RightToLeft | RegexRuleOptions.Right | RegexRuleOptions.TrimRight, ParseMatchPostfix),
             new Rule("Indexer", ParseMatchIndexer, MatchIndexer),
-            new RegexRule("Constant", "(∞|(inf(inity)?)|π|pi|τ|tau|true|false|undefined|dne|(empty(_set)?)|∅|e)",
+            new RegexRule("Undefined", "undefined|dne", RegexRuleOptions.Only | RegexRuleOptions.Trim,
+                ParseMatchUndefined),
+            new RegexRule("Logical", "true|false", RegexRuleOptions.Only | RegexRuleOptions.Trim,
+                ParseMatchLogical),
+            new RegexRule("Infinity", "∞|(inf(inity)?)", RegexRuleOptions.Only | RegexRuleOptions.Trim,
+                ParseMatchInfinity),
+            new RegexRule("Constant", "(π|pi|τ|tau|(empty(_set)?)|∅|e)",
                 RegexRuleOptions.Only | RegexRuleOptions.Trim, ParseMatchConstant),
             new RegexRule("Variable", "([A-Za-zΑ-Ωα-ω]+(_[A-Za-zΑ-Ωα-ω0-9]+)*)",
                 RegexRuleOptions.Only | RegexRuleOptions.Trim, ParseMatchVariable),
@@ -207,6 +214,9 @@ public class Parser
 
         try
         {
+            if (GrammarContains(rule.Name))
+                return false;
+
             if (index <= 0)
                 _grammar.Insert(0, rule);
             else if (index >= _grammar.Count)
@@ -229,17 +239,24 @@ public class Parser
     /// Removes the <see cref="IRule"/> with the specified name from the grammar of the <see cref="Parser"/>.
     /// </summary>
     /// <param name="name">The name of the <see cref="IRule"/> to be removed.</param>
-    /// <param name="build_rules">Whether or not grammar rules should be rebuilt.</param>
+    /// <param name="buildRules">Whether or not grammar rules should be rebuilt.</param>
     /// <returns>
-    /// <see langword="true"/> if the <see cref="IRule"/> was successfully removed; otherwise, <see langword="false"/>.
+    /// The index of the removed rule if the <see cref="IRule"/> was successfully removed; otherwise, -1.
     /// </returns>
-    public bool RemoveGrammarRule(string name, bool build_rules = true)
+    public int RemoveGrammarRule(string name, bool buildRules = true)
     {
         for (int i = 0; i < _grammar.Count; i++)
+        {
             if (_grammar[i].Name == name)
-                return RemoveGrammarRuleAt(i, build_rules);
+            {
+                if (RemoveGrammarRuleAt(i, buildRules))
+                    return i;
+                else
+                    break;
+            }
+        }
 
-        return false;
+        return -1;
     }
 
     /// <summary>
@@ -265,6 +282,31 @@ public class Parser
         {
             return false;
         }
+    }
+
+    /// <summary>
+    /// Replaces the current <see cref="IRule"/> with the specified name with a new <see cref="IRule"/>.
+    /// </summary>
+    /// <param name="newRule">The new rule to replace the old rule.</param>
+    /// <param name="buildRules">Whether or not grammar rules should be rebuilt.</param>
+    /// <returns>
+    /// The index of the replaced rule if the <see cref="IRule"/> was successfully replaced; otherwise, -1.
+    /// </returns>
+    public int ReplaceGrammarRule(IRule newRule, bool buildRules = true)
+    {
+        for (int i = 0; i < _grammar.Count; i++)
+        {
+            if (_grammar[i].Name == newRule.Name)
+            {
+                _grammar[i] = newRule;
+                return i;
+            }
+        }
+
+        if (buildRules)
+            RebuildGrammarRules();
+
+        return -1;
     }
 
     /// <summary>

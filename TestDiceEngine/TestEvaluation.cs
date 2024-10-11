@@ -131,7 +131,7 @@ public class TestEvaluation
 
                 // Test the random function with the integer argument set to true.
                 IEnumerableExpression results = (IEnumerableExpression)new FunctionCall("random",
-                        [(Number)i, min, max, Constant.TRUE])
+                        [(Number)i, min, max, Logical.TRUE])
                     .Evaluate(new ExpressionContext());
 
                 Assert.AreEqual(i, results.Count(), "The number of elements in the enumeration is incorrect.");
@@ -145,7 +145,7 @@ public class TestEvaluation
                         (t_max == t_min && max.Value - min.Value < 1 &&
                             min.Value != t_min && Math.Sign(min.Value) == Math.Sign(max.Value)))
                     {
-                        Assert.AreEqual(Constant.UNDEFINED, element,
+                        Assert.AreEqual(Undefined.UNDEFINED, element,
                             $"Min: {min.Value}. Max: {max.Value}. Element is not undefined.");
                         continue;
                     }
@@ -165,7 +165,7 @@ public class TestEvaluation
                 }
 
                 // Test the random function with the integer argument set to false.
-                results = (IEnumerableExpression)new FunctionCall("random", [(Number)i, min, max, Constant.FALSE])
+                results = (IEnumerableExpression)new FunctionCall("random", [(Number)i, min, max, Logical.FALSE])
                     .Evaluate(new ExpressionContext());
 
                 Assert.AreEqual(i, results.Count(), "The number of elements in the enumeration is incorrect.");

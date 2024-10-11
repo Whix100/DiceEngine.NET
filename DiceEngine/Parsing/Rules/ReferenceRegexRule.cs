@@ -14,7 +14,7 @@ namespace DiceEngine.Parsing.Rules;
 /// </param>
 [ReferenceRule]
 public class ReferenceRegexRule(string name, string regex, RegexRuleOptions options = RegexRuleOptions.None)
-    : NestedRegexRule(name, regex, options, (_, _, _) => Constant.UNDEFINED)
+    : NestedRegexRule(name, regex, options, (_, _, _) => Undefined.UNDEFINED)
 {
     /// <summary>
     /// A rule to be used as a reference for a <see cref="NestedRegexRule"/>.

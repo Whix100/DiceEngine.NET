@@ -34,7 +34,7 @@ public class TestSet
     {
         IExpression[][] sets = [
             [(Number)1, (Number)1, (Number)2],
-            [Constant.UNDEFINED, Constant.UNDEFINED, Constant.UNDEFINED],
+            [Undefined.UNDEFINED, Undefined.UNDEFINED, Undefined.UNDEFINED],
             [.. UtilFunctions.Range<Vector>(1, 10)],
         ];
 

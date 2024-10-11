@@ -59,7 +59,7 @@ internal class RandomValue(double? min, double? max,
         => obj is not null &&
         ((obj is RandomValue value && value.Min == Min && value.Max == Max && value.Validate == Validate) ||
         (obj is IExpression expr &&
-            (!Min.HasValue || !Constant.FALSE.Equals(new BinaryOperator(">=", expr, (Number)Min.Value).Evaluate())) &&
-            (!Max.HasValue || !Constant.FALSE.Equals(new BinaryOperator("<=", expr, (Number)Max.Value).Evaluate())) &&
+            (!Min.HasValue || !Logical.FALSE.Equals(new BinaryOperator(">=", expr, (Number)Min.Value).Evaluate())) &&
+            (!Max.HasValue || !Logical.FALSE.Equals(new BinaryOperator("<=", expr, (Number)Max.Value).Evaluate())) &&
             (Validate is null || Validate(expr))));
 }

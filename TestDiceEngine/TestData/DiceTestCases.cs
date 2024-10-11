@@ -202,7 +202,7 @@ public static partial class TestCases
             new DiceOperator("ma", new RandomRollResult(10, 10, 1, 10,
                 enumerableValidator: x => CompareDieToResult(new DiceSet(10, 10), x)), new ResultSelector("", 5))),
         new TestCase("10d10<=1", new BinaryOperator("<=", new DiceSet(10, 10), (Number)1),
-            (Number)0,
+            Logical.FALSE,
             new BinaryOperator("<=", new RandomRollResult(10, 10, 1, 10,
                 enumerableValidator: x => CompareDieToResult(new DiceSet(10, 10), x)), (Number)1),
             new BinaryOperator("<=", new RandomValue(10, 100), (Number)1)),

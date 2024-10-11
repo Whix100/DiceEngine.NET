@@ -10,7 +10,11 @@ public class TestExpressionContext
     [TestMethod]
     public void TestInit()
     {
-        ExpressionContext context = new ExpressionContext(TestCases.ContextVariables, TestCases.ContextFunctions);
+        ExpressionContext context = new ExpressionContext(TestCases.ContextVariables, false);
+
+        // TODO: Replace with streamlined function when created.
+        foreach (KeyValuePair<string, IFunction> func in TestCases.ContextFunctions)
+            context.SetFunction(func.Key, func.Value);
 
         foreach (string variable in TestCases.ContextVariables.Keys)
         {
@@ -43,7 +47,7 @@ public class TestExpressionContext
             Assert.AreEqual(TestCases.ContextVariables[variable], context[variable]);
             context.RemoveVariable(variable);
             Assert.IsFalse(context.ContainsVariable(variable));
-            Assert.AreEqual(Constant.UNDEFINED, context[variable]);
+            Assert.AreEqual(Undefined.UNDEFINED, context[variable]);
         }
     }
 
@@ -61,7 +65,7 @@ public class TestExpressionContext
             Assert.IsTrue(context.RemoveVariable(function));
             Assert.IsFalse(context.ContainsVariable(function));
             Assert.IsFalse(context.ContainsFunction(function));
-            Assert.AreEqual(Constant.UNDEFINED, context[function]);
+            Assert.AreEqual(Undefined.UNDEFINED, context[function]);
 
             Assert.IsTrue(context.SetFunction(function, TestCases.ContextFunctions[function]));
             Assert.IsTrue(context.ContainsVariable(function));
@@ -70,7 +74,30 @@ public class TestExpressionContext
             Assert.IsTrue(context.RemoveFunction(function));
             Assert.IsFalse(context.ContainsVariable(function));
             Assert.IsFalse(context.ContainsFunction(function));
-            Assert.AreEqual(Constant.UNDEFINED, context[function]);
+            Assert.AreEqual(Undefined.UNDEFINED, context[function]);
         }
+    }
+
+    private class ExtendedContext : ExpressionContext
+    {
+        public override IExpression this[string name]
+        {
+            get => Undefined.UNDEFINED;
+        }
+
+        public ExtendedContext() : base([], false)
+        {
+            SetVariable("abcd", Infinity.POSITIVE);
+        }
+    }
+
+    [TestMethod]
+    public void TestExention()
+    {
+        ExtendedContext context = new ExtendedContext();
+        Variable variable = new Variable("abcd");
+
+        Assert.IsTrue(context.ContainsVariable("abcd"));
+        Assert.AreEqual(Undefined.UNDEFINED, variable.Evaluate(context));
     }
 }

@@ -1,10 +1,11 @@
 ﻿using DiceEngine.Context;
+using DiceEngine.Expressions.Interfaces;
 using System.Collections;
 using System.Diagnostics.CodeAnalysis;
 
 namespace DiceEngine.Expressions.Collections;
 
-public class Set(IEnumerable<IExpression> elements) : IEnumerableExpression
+public class Set(IEnumerable<IExpression> elements) : IEnumerableExpression, IBinaryOperable
 {
     private readonly struct HashedExpression(IExpression value) : IComparable
     {
@@ -57,6 +58,34 @@ public class Set(IEnumerable<IExpression> elements) : IEnumerableExpression
 
     public IExpression EvaluateDice(ExpressionContext context)
         => new Set(this.Select(x => x.EvaluateDice(context)));
+
+    public IExpression? BinaryLeftOperate(string identifier, IExpression right, ExpressionContext _)
+    {
+        if (right is IEnumerableExpression)
+            return identifier switch
+            {
+                BinaryOperator.IS_EQUAL => (Logical)Equals(right),
+                BinaryOperator.NOT_EQUAL or BinaryOperator.NOT_EQUAL_ALT or BinaryOperator.GREATER_OR_LESS_THAN
+                    => (Logical)!Equals(right),
+                _ => null
+            };
+
+        return null;
+    }
+
+    public IExpression? BinaryRightOperate(string identifier, IExpression left, ExpressionContext _)
+    {
+        if (left is IEnumerableExpression)
+            return identifier switch
+            {
+                BinaryOperator.IS_EQUAL => (Logical)Equals(left),
+                BinaryOperator.NOT_EQUAL or BinaryOperator.NOT_EQUAL_ALT or BinaryOperator.GREATER_OR_LESS_THAN
+                    => (Logical)!Equals(left),
+                _ => null
+            };
+
+        return null;
+    }
 
     public IEnumerableExpression Map(Func<IExpression, IExpression> map)
         => new Set(_elements.Select(x => map(x.Value)));
