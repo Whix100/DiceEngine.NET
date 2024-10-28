@@ -1,11 +1,11 @@
 ﻿using DiceEngine.Context;
+using DiceEngine.Expressions.Terminals;
 using DiceEngine.FunctionAttributes;
 using DiceEngine.TypeConverters;
-using System;
 
 namespace DiceEngine.Expressions.Components;
 
-public struct TypeParameter<T>(IEnumerable<FunctionAttribute> attributes, bool allow_null) : IParameter
+public readonly struct TypeParameter<T>(IEnumerable<FunctionAttribute> attributes, bool allow_null) : IParameter
 {
     public readonly Type ParameterType = typeof(T);
 
@@ -13,7 +13,7 @@ public struct TypeParameter<T>(IEnumerable<FunctionAttribute> attributes, bool a
 
     public bool AllowNull { get; } = allow_null;
 
-    public object? ProcessArgument(IExpression argument, ExpressionContext context)
+    public readonly object? ProcessArgument(IExpression argument, ExpressionContext context)
     {
         IExpression? expression = IParameter.ApplyAttributes(argument, Attributes);
         ITypeConverter[] converters = context.GetTypeConverters<T>();
@@ -23,10 +23,10 @@ public struct TypeParameter<T>(IEnumerable<FunctionAttribute> attributes, bool a
             : TypeParameter.ConvertFromExpression(converters, expression);
     }
 
-    public override int GetHashCode()
+    public readonly override int GetHashCode()
         => HashCode.Combine(ParameterType, AllowNull);
 
-    public override bool Equals(object? obj)
+    public readonly override bool Equals(object? obj)
         => obj is TypeParameter<T> parameter && ParameterType == parameter.ParameterType &&
             AllowNull == parameter.AllowNull;
 }
@@ -72,14 +72,14 @@ public static class TypeParameter
     /// <param name="converters">The <see cref="ITypeConverter"/>s to use.</param>"/>
     /// <param name="value">The value to convert.</param>
     /// <returns>An <see cref="IExpression"/> representing the value.</returns>
-    public static IExpression? ConvertToExpression(this IEnumerable<ITypeConverter> converters, object? value)
+    public static Terminal? ConvertToExpression(this IEnumerable<ITypeConverter> converters, object? value)
     {
         foreach (ITypeConverter converter in converters)
         {
             object? result = converter.GetType().GetMethod("ConvertToExpression")?.Invoke(converter, [value]);
 
             if (result is not null)
-                return (IExpression?)result;
+                return (Terminal?)result;
         }
 
         return null;

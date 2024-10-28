@@ -1,5 +1,6 @@
 ﻿using DiceEngine.Context;
 using DiceEngine.Expressions.Interfaces;
+using DiceEngine.Expressions.Terminals;
 using System.Collections;
 
 namespace DiceEngine.Expressions.Collections;
@@ -20,11 +21,11 @@ public class Vector(IEnumerable<IExpression> elements) : IEnumerableExpression, 
     public Vector() : this([])
     { }
 
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => Evaluate(new ExpressionContext());
 
-    public IExpression Evaluate(ExpressionContext context)
-        => new Vector(this.Select(x => x.Evaluate(context)));
+    public Terminal Evaluate(ExpressionContext context)
+        => new TerminalCollection<Vector>(this.Select(x => x.Evaluate(context)));
 
     public IExpression StepEvaluate()
         => StepEvaluate(new ExpressionContext());
@@ -36,7 +37,12 @@ public class Vector(IEnumerable<IExpression> elements) : IEnumerableExpression, 
             IExpression evaluated = this[i].StepEvaluate(context);
 
             if (!this[i].Equals(evaluated))
-                return new Vector(this[..i].Append(evaluated).Concat(this[(i + 1)..]));
+            {
+                IExpression[] elements = [.. this];
+
+                elements[i] = evaluated;
+                return TerminalCollection.ConvertIEnumerable(new Vector(elements));
+            }
         }
 
         return this;
@@ -48,7 +54,7 @@ public class Vector(IEnumerable<IExpression> elements) : IEnumerableExpression, 
     public IExpression EvaluateDice(ExpressionContext context)
         => new Vector(this.Select(x => x.EvaluateDice(context)));
 
-    public IExpression? BinaryLeftOperate(string identifier, IExpression right, ExpressionContext _)
+    public Terminal? BinaryLeftOperate(string identifier, IExpression right, ExpressionContext _)
     {
         if (right is IEnumerableExpression)
             return identifier switch
@@ -62,7 +68,7 @@ public class Vector(IEnumerable<IExpression> elements) : IEnumerableExpression, 
         return null;
     }
 
-    public IExpression? BinaryRightOperate(string identifier, IExpression left, ExpressionContext _)
+    public Terminal? BinaryRightOperate(string identifier, IExpression left, ExpressionContext _)
     {
         if (left is IEnumerableExpression)
             return identifier switch
@@ -96,12 +102,11 @@ public class Vector(IEnumerable<IExpression> elements) : IEnumerableExpression, 
 
     public override bool Equals(object? obj)
     {
-        if (obj is not null && obj is Vector vect)
+        if (obj is IEnumerableExpression enumExpr and (Vector or TerminalCollection<Vector>))
         {
-            bool elements_equal = vect.Length == Length &&
-                (Length == 0 || !vect.Select((arg, i) => arg.Equals(this[i])).Any(x => !x));
+            bool elementsEqual = enumExpr.SequenceEqual(this);
 
-            return elements_equal;
+            return elementsEqual;
         }
 
         return false;

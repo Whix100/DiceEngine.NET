@@ -1,25 +1,26 @@
 ﻿using DiceEngine.Context;
 using DiceEngine.Expressions.Collections;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.Expressions.Interfaces;
 
 public interface IPrefixOperable
 {
-    IExpression PrefixOperate(string identifier, ExpressionContext context);
+    Terminal PrefixOperate(string identifier, ExpressionContext context);
 
-    public static IExpression Operate(string identifier, IExpression inside, ExpressionContext? context = null)
+    public static Terminal Operate(string identifier, IExpression inside, ExpressionContext? context = null)
     {
         context ??= new ExpressionContext();
 
         if (inside is IPrefixOperable operable)
         {
-            IExpression result = operable.PrefixOperate(identifier, context);
+            Terminal result = operable.PrefixOperate(identifier, context);
 
             return result;
         }
         else if (inside is IEnumerableExpression enumExpr)
         {
-            return enumExpr.Map(e => Operate(identifier, e, context));
+            return TerminalCollection.TerminateCollection(enumExpr.Map(e => Operate(identifier, e, context)));
         }
 
         return Undefined.UNDEFINED;

@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Expressions;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.TypeConverters;
 
@@ -8,8 +9,8 @@ public interface ITypeConverter<T> : ITypeConverter
     /// Converts from a value to an expression.
     /// </summary>
     /// <param name="value">The value to convert.</param>
-    /// <returns>An <see cref="IExpression"/> representing the value.</returns>
-    IExpression ConvertToExpression(T value);
+    /// <returns>An <see cref="Terminal"/> representing the value.</returns>
+    Terminal ConvertToExpression(T value);
 
     /// <summary>
     /// Converts from an expression to a value.

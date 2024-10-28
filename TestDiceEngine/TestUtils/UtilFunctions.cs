@@ -1,5 +1,6 @@
 ﻿using DiceEngine.Expressions;
 using DiceEngine.Expressions.Collections;
+using DiceEngine.Expressions.Terminals;
 using TestDiceEngine.TestModels;
 
 namespace TestDiceEngine.TestUtils;
@@ -30,29 +31,29 @@ internal static class UtilFunctions
         return new int[count].Select(i => (Number)(random.Next(min, max) + random.NextDouble()));
     }
 
-    public static void AreEqual(IExpression expected, IExpression actual, int decimal_places = 0, string message = "")
+    public static void AreEqual(IExpression expected, IExpression actual, int decimalPlaces = 0, string message = "")
     {
         if (expected is RandomCollection || expected is RandomRollResult)
         {
             Assert.AreEqual(expected, actual, message);
             return;
         }
-        else if (expected is IEnumerable<IExpression> exp_enum && actual is IEnumerable<IExpression> act_enum)
+        else if (expected is IEnumerable<IExpression> expEnum && actual is IEnumerable<IExpression> actEnum)
         {
-            if (exp_enum.GetType() == act_enum.GetType() && exp_enum.Count() == act_enum.Count())
+            if (MatchingEnumerableTypes(expEnum.GetType(), actEnum.GetType()) && expEnum.Count() == actEnum.Count())
             {
-                IEnumerator<IExpression> exp_enumerator = exp_enum.GetEnumerator();
-                IEnumerator<IExpression> act_enumerator = act_enum.GetEnumerator();
+                IEnumerator<IExpression> exp_enumerator = expEnum.GetEnumerator();
+                IEnumerator<IExpression> act_enumerator = actEnum.GetEnumerator();
 
                 while (exp_enumerator.MoveNext() && act_enumerator.MoveNext())
-                    AreEqual(exp_enumerator.Current, act_enumerator.Current, decimal_places, message);
+                    AreEqual(exp_enumerator.Current, act_enumerator.Current, decimalPlaces, message);
 
                 return;
             }
         }
         else if (expected is Number exp_num && actual is Number act_num)
         {
-            Assert.AreEqual(Math.Round(exp_num.Value, decimal_places), Math.Round(act_num.Value, decimal_places),
+            Assert.AreEqual(Math.Round(exp_num.Value, decimalPlaces), Math.Round(act_num.Value, decimalPlaces),
                 message);
             return;
         }
@@ -120,5 +121,11 @@ internal static class UtilFunctions
             text += $" {message}";
 
         throw new AssertFailedException(text);
+    }
+
+    private static bool MatchingEnumerableTypes(Type a, Type b)
+    {
+        return a == b || (a.IsGenericType && a.GetGenericArguments().SingleOrDefault() == b) ||
+            (b.IsGenericType && a == b.GetGenericArguments().SingleOrDefault());
     }
 }

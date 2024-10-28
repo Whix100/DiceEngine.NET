@@ -1,6 +1,8 @@
 ﻿using DiceEngine.Expressions;
 using DiceEngine.Expressions.Collections;
 using DiceEngine.Expressions.Components;
+using DiceEngine.Expressions.Functions;
+using DiceEngine.Expressions.Terminals;
 using DiceEngine.FunctionAttributes.ConditionalAttributes;
 using TestDiceEngine.TestUtils;
 
@@ -551,7 +553,7 @@ public static partial class TestCases
             new BinaryOperator("^", Infinity.NEGATIVE, Infinity.NEGATIVE)),
     ];
 
-    public readonly static Dictionary<string, IExpression> ContextVariables = new Dictionary<string, IExpression>()
+    public readonly static Dictionary<string, Terminal> ContextVariables = new Dictionary<string, Terminal>()
     {
         { "abc_1", new Number(1) },
         { "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz", new Number(2) },
@@ -559,14 +561,14 @@ public static partial class TestCases
         { "abc_123", new Number(4) },
         { "αβγ_123", new Number(5) },
         { "abcd_αβγ_xyz", new Number(6) },
-        { "p", new Function(TestValues.P) },
+        { "p", new NativeFunction(TestValues.P) },
         { "n", new Number(5) }
     };
 
-    public readonly static Dictionary<string, IFunction> ContextFunctions = new Dictionary<string, IFunction>
+    public readonly static Dictionary<string, Function> ContextFunctions = new Dictionary<string, Function>
     {
-        { "f", new Function(TestValues.F) },
-        { "g", new Function(TestValues.G) },
+        { "f", new NativeFunction(TestValues.F) },
+        { "g", new NativeFunction(TestValues.G) },
         { "l", new LambdaFunction(["a", "b", "c", "d"], new BinaryOperator("+", new BinaryOperator("+",
             new BinaryOperator("+", new Variable("a"), new Variable("b")), new Variable("c")), new Variable("d"))) },
         { "triangle", new LambdaFunction(["n"], new BinaryOperator("/", new BinaryOperator("*",

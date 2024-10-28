@@ -30,4 +30,12 @@ public interface IEnumerableExpression : IExpression, IEnumerable<IExpression>
     /// <returns><see cref="IEnumerableExpression"/> with the combined elements.</returns>
     IEnumerableExpression Combine(IEnumerable<IExpression> expressions,
         Func<IExpression, IExpression, IExpression> combine);
+
+    public static IEnumerableExpression ConvertIEnumerable(Type type, IEnumerable<IExpression> expressions)
+    {
+        if (!typeof(IEnumerableExpression).IsAssignableFrom(type))
+            throw new ArgumentException($"{nameof(type)} must implement {nameof(IEnumerableExpression)}");
+
+        return (IEnumerableExpression)type.GetMethod(nameof(ConvertIEnumerable))?.Invoke(null, [expressions])!;
+    }
 }

@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Context;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.Expressions.Dice;
 
@@ -8,10 +9,10 @@ public class Die(int size) : IDie
 
     public Die(uint size) : this((int)size) { }
 
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => Evaluate(new ExpressionContext());
 
-    public IExpression Evaluate(ExpressionContext context)
+    public Terminal Evaluate(ExpressionContext context)
         => new RollResult(Roll(context.Random), this);
 
     public IExpression StepEvaluate()

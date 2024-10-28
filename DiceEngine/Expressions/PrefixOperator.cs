@@ -1,11 +1,12 @@
 ﻿using DiceEngine.Context;
 using DiceEngine.Expressions.Collections;
 using DiceEngine.Expressions.Interfaces;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.Expressions;
 
 /// <summary>
-/// Initializes a new instance of the the <see cref="PrefixOperator"/> class.
+/// Initializes a new instance of the <see cref="PrefixOperator"/> class.
 /// </summary>
 /// <param name="op">The identifier for the operator.</param>
 /// <param name="expression">The <see cref="IExpression"/> operand for this operator.</param>
@@ -22,12 +23,12 @@ public class PrefixOperator(string op, IExpression expression) : IExpression
     public readonly string Identifier = op;
     public readonly IExpression Inside = expression;
 
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => Evaluate(new ExpressionContext());
 
-    public IExpression Evaluate(ExpressionContext context)
+    public Terminal Evaluate(ExpressionContext context)
     {
-        IExpression evaluated = Inside.Evaluate(context);
+        Terminal evaluated = Inside.Evaluate(context);
 
         return IPrefixOperable.Operate(Identifier, evaluated, context);
     }

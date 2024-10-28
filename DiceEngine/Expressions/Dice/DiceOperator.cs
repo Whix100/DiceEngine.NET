@@ -1,6 +1,7 @@
 ﻿using DiceEngine.Context;
 using DiceEngine.Exceptions;
 using DiceEngine.Expressions.Components;
+using DiceEngine.Expressions.Terminals;
 using System.Collections.ObjectModel;
 
 namespace DiceEngine.Expressions.Dice;
@@ -31,12 +32,12 @@ public class DiceOperator(string op, IExpression inside, ResultSelector selector
     public readonly IExpression Inside = inside;
     public readonly ResultSelector Selector = selector;
 
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => Evaluate(new ExpressionContext());
 
-    public IExpression Evaluate(ExpressionContext context)
+    public Terminal Evaluate(ExpressionContext context)
     {
-        IExpression result = Inside.Evaluate(context);
+        Terminal result = Inside.Evaluate(context);
 
         if (result is RollResult rollResult &&
             OPERATORS.TryGetValue(Identifier, out Func<RollResult, ResultSelector, Random, IEnumerable<RollValue>>? operate) &&

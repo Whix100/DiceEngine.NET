@@ -1,4 +1,6 @@
-﻿namespace DiceEngine.Expressions.Interfaces;
+﻿using DiceEngine.Expressions.Terminals;
+
+namespace DiceEngine.Expressions.Interfaces;
 
 public interface ILogicalConvertible : IExpression
 {

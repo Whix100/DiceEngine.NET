@@ -2,6 +2,7 @@
 using DiceEngine.Context;
 using DiceEngine.Expressions;
 using DiceEngine.Expressions.Components;
+using DiceEngine.Expressions.Functions;
 using DiceEngine.FunctionAttributes;
 using DiceEngine.FunctionAttributes.ConditionalAttributes;
 using System.Linq.Expressions;
@@ -71,20 +72,20 @@ internal static class FunctionExtensions
         return results;
     }
 
-    public static Dictionary<string[], IFunction> GetFunctions(this Type type, IEnumerable<Type> compatible_types)
+    public static Dictionary<string[], Function> GetFunctions(this Type type, IEnumerable<Type> compatible_types)
     {
-        Dictionary<string[], IFunction> candidates = [];
+        Dictionary<string[], Function> candidates = [];
 
         foreach (MethodInfo method in type.GetMethods().Where(x => x.IsStatic))
         {
             string name = method.Name;
-            BuiltInFunctionAttribute? bif = method.GetCustomAttribute<BuiltInFunctionAttribute>();
+            NativeFunctionAttribute? bif = method.GetCustomAttribute<NativeFunctionAttribute>();
             Type return_type = method.ReturnType.IsGenericType &&
                 method.ReturnType.GetGenericTypeDefinition() == typeof(Nullable<>)
                     ? method.ReturnType.GetGenericArguments().Single()
                     : method.ReturnType;
 
-            if (bif is not null && (method.ReturnType.IsAssignableFrom(typeof(IExpression)) ||
+            if (bif is not null && (method.ReturnType.IsAssignableTo(typeof(IExpression)) ||
                 compatible_types.Contains(return_type)))
             {
                 List<IParameter>? parameters = method.GetParameters().ToParameters(compatible_types);
@@ -92,7 +93,7 @@ internal static class FunctionExtensions
                 if (parameters is not null)
                 {
                     bool is_elementwise = method.GetCustomAttribute<ElementwiseAttribute>() is not null;
-                    Function function = new Function(parameters, method.ToDelegate(), is_elementwise);
+                    NativeFunction function = new NativeFunction(parameters, method.ToDelegate(), is_elementwise);
 
                     candidates[bif.Aliases] = function;
                 }

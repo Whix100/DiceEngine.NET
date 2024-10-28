@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Expressions;
+using DiceEngine.Expressions.Terminals;
 using System.Numerics;
 
 namespace DiceEngine.TypeConverters;
@@ -6,7 +7,7 @@ namespace DiceEngine.TypeConverters;
 public class FloatTypeConverter<T> : ITypeConverter<T?>
     where T : struct, IFloatingPointIeee754<T>, IMinMaxValue<T>
 {
-    public IExpression ConvertToExpression(T? value)
+    public Terminal ConvertToExpression(T? value)
     {
         try
         {
@@ -19,7 +20,7 @@ public class FloatTypeConverter<T> : ITypeConverter<T?>
                 else if (T.IsNaN(value.Value))
                     return Undefined.UNDEFINED;
 
-                return (Number)Convert.ToDouble(value.Value);
+                return (Terminal)Convert.ToDouble(value.Value);
             }
         }
         catch
