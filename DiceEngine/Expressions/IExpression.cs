@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Context;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.Expressions;
 
@@ -8,18 +9,18 @@ public interface IExpression
     /// Evaluates and calculates the value of the <see cref="IExpression"/>.
     /// </summary>
     /// <returns>
-    /// A new <see cref="IExpression"/> containing the value of the current <see cref="IExpression"/>.
+    /// A new <see cref="Terminal"/> containing the value of the current <see cref="IExpression"/>.
     /// </returns>
-    public IExpression Evaluate();
+    public Terminal Evaluate();
 
     /// <summary>
     /// Evaluates and calculates the value of the <see cref="IExpression"/>.
     /// </summary>
     /// <param name="context">The values for each variable that could appear in the <see cref="IExpression"/>.</param>
     /// <returns>
-    /// A new <see cref="IExpression"/> containing the value of the current <see cref="IExpression"/>.
+    /// A new <see cref="Terminal"/> containing the value of the current <see cref="IExpression"/>.
     /// </returns>
-    public IExpression Evaluate(ExpressionContext context);
+    public Terminal Evaluate(ExpressionContext context);
 
     /// <summary>
     /// Evaluates and calculates one step towards the value of the <see cref="IExpression"/>.

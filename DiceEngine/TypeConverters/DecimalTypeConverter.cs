@@ -1,15 +1,16 @@
 ﻿using DiceEngine.Expressions;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.TypeConverters;
 
 public class DecimalTypeConverter : ITypeConverter<decimal?>
 {
-    public IExpression ConvertToExpression(decimal? value)
+    public Terminal ConvertToExpression(decimal? value)
     {
         try
         {
             if (value.HasValue)
-                return (Number)Convert.ToDouble(value.Value);
+                return (Terminal)Convert.ToDouble(value.Value);
         }
         catch
         {

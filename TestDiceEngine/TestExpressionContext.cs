@@ -1,5 +1,7 @@
 ﻿using DiceEngine.Context;
 using DiceEngine.Expressions;
+using DiceEngine.Expressions.Functions;
+using DiceEngine.Expressions.Terminals;
 using TestDiceEngine.TestData;
 
 namespace TestDiceEngine;
@@ -13,14 +15,14 @@ public class TestExpressionContext
         ExpressionContext context = new ExpressionContext(TestCases.ContextVariables, false);
 
         // TODO: Replace with streamlined function when created.
-        foreach (KeyValuePair<string, IFunction> func in TestCases.ContextFunctions)
+        foreach (KeyValuePair<string, Function> func in TestCases.ContextFunctions)
             context.SetFunction(func.Key, func.Value);
 
         foreach (string variable in TestCases.ContextVariables.Keys)
         {
             Assert.IsTrue(context.ContainsVariable(variable));
 
-            if (TestCases.ContextVariables[variable] is Function)
+            if (TestCases.ContextVariables[variable] is NativeFunction)
                 Assert.IsTrue(context.ContainsFunction(variable));
         }
 
@@ -41,7 +43,7 @@ public class TestExpressionContext
             context.SetVariable(variable, TestCases.ContextVariables[variable]);
             Assert.IsTrue(context.ContainsVariable(variable));
 
-            if (TestCases.ContextVariables[variable].GetType() == typeof(Function))
+            if (TestCases.ContextVariables[variable].GetType() == typeof(NativeFunction))
                 Assert.IsTrue(context.ContainsFunction(variable));
 
             Assert.AreEqual(TestCases.ContextVariables[variable], context[variable]);
@@ -80,7 +82,7 @@ public class TestExpressionContext
 
     private class ExtendedContext : ExpressionContext
     {
-        public override IExpression this[string name]
+        public override Terminal this[string name]
         {
             get => Undefined.UNDEFINED;
         }

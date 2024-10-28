@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Expressions;
+using DiceEngine.Expressions.Terminals;
 using DiceEngine.Parsing;
 using DiceEngine.Parsing.Rules;
 

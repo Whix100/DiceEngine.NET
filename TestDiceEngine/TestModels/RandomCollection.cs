@@ -1,5 +1,6 @@
 ﻿using DiceEngine.Context;
 using DiceEngine.Expressions;
+using DiceEngine.Expressions.Terminals;
 using System.Collections;
 using System.Text;
 
@@ -16,10 +17,10 @@ internal class RandomCollection(int? minCount, int? maxCount, double? min, doubl
     public readonly Func<IExpression, bool>? ElementValidator = elementValidator;
     public readonly Func<IEnumerable<IExpression>, bool>? CollectionValidator = collectionValidator;
 
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => throw new NotImplementedException();
 
-    public IExpression Evaluate(ExpressionContext context)
+    public Terminal Evaluate(ExpressionContext context)
         => throw new NotImplementedException();
 
     public IExpression StepEvaluate()

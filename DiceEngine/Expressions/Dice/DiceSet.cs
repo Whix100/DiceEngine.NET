@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Context;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.Expressions.Dice;
 
@@ -19,10 +20,10 @@ public class DiceSet(int size, IDie die) : IDie
     /// <param name="die">The number of sides on the <see cref="Dice.Die"/>.</param>
     public DiceSet(int size, int die) : this(size, new Die(die)) { }
 
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => Evaluate(new ExpressionContext());
 
-    public IExpression Evaluate(ExpressionContext context)
+    public Terminal Evaluate(ExpressionContext context)
         => new RollResult(Enumerable.Range(1, Size).Select(x => Roll(context.Random)), this);
 
     public IExpression StepEvaluate()

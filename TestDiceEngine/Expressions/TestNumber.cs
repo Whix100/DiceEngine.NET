@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Expressions;
+using DiceEngine.Expressions.Terminals;
 
 namespace TestDiceEngine.Expressions;
 
@@ -15,7 +16,7 @@ public class TestNumber
 
         for (int i = 0; i < 100; i++)
         {
-            double val = random.NextDouble() * (double.MaxValue - double.MinValue) + double.MinValue;
+            double val = random.NextDouble() * double.MaxValue * (random.Next(2) == 0 ? -1 : 1);
 
             Assert.AreEqual(val, new Number(val).Value);
         }

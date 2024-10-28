@@ -1,4 +1,6 @@
 using DiceEngine.Expressions;
+using DiceEngine.Expressions.Functions;
+using DiceEngine.Expressions.Terminals;
 using DiceEngine.TypeConverters;
 using System.Collections.ObjectModel;
 
@@ -27,7 +29,7 @@ public partial class ExpressionContext
         }.AsReadOnly();
     protected internal static readonly IReadOnlyList<Type> DEFAULT_TYPES = [.. DEFAULT_CONVERTERS.Keys];
 
-    protected readonly Dictionary<string, IExpression> _variables;
+    protected readonly Dictionary<string, Terminal> _variables;
     protected readonly ReadOnlyDictionary<Type, List<ITypeConverter>> _type_converters;
     protected readonly Dictionary<string, bool> _aliases;
 
@@ -36,7 +38,7 @@ public partial class ExpressionContext
     public string[] Variables
         => [.. _aliases.Keys];
 
-    public virtual IExpression this[string name]
+    public virtual Terminal this[string name]
     {
         get
         {
@@ -50,20 +52,19 @@ public partial class ExpressionContext
         set => SetVariable(name, value);
     }
 
-    public ExpressionContext(Dictionary<string, IExpression>? variables = null,
-        bool register_default_functions = true, int? seed = null,
-        IEnumerable<ITypeConverter>? type_converters = null)
+    public ExpressionContext(Dictionary<string, Terminal>? variables = null,
+        bool register_default_functions = true, int? seed = null, IEnumerable<ITypeConverter>? type_converters = null)
     {
         Dictionary<string, bool> aliases = [];
-        Dictionary<string, IExpression> vars = [];
-        Dictionary<string, IFunction> funcs = [];
+        Dictionary<string, Terminal> vars = [];
+        Dictionary<string, Function> funcs = [];
         Dictionary<Type, List<ITypeConverter>> types = [];
 
         if (variables is not null)
         {
             foreach (string var in variables.Keys)
             {
-                if (variables[var] is IFunction func)
+                if (variables[var] is Function func)
                 {
                     funcs[var] = func;
                     aliases[var] = true;
@@ -116,8 +117,8 @@ public partial class ExpressionContext
 
     public virtual ExpressionContext Clone()
     {
-        Dictionary<string, IExpression> vars = [];
-        Dictionary<string, IFunction> funcs = [];
+        Dictionary<string, Terminal> vars = [];
+        Dictionary<string, Function> funcs = [];
 
         foreach (string var in _variables.Keys)
             vars.Add(var, _variables[var]);
@@ -128,18 +129,18 @@ public partial class ExpressionContext
         foreach (string func in _functions.Keys)
             funcs.Add(func, _functions[func]);
 
-        foreach (KeyValuePair<string, IFunction> func in _functions)
+        foreach (KeyValuePair<string, Function> func in _functions)
             result.SetFunction(func.Key, func.Value);
 
         return result;
     }
 
-    public virtual bool SetVariable(string name, IExpression expression)
+    public virtual bool SetVariable(string name, Terminal expression)
     {
         if (expression is null)
             return RemoveVariable(name);
 
-        if (expression is not IFunction function)
+        if (expression is not Function function)
         {
             _functions.Remove(name);
             _aliases[name] = false;

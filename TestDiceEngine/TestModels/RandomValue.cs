@@ -1,21 +1,20 @@
 ﻿using DiceEngine.Context;
 using DiceEngine.Expressions;
+using DiceEngine.Expressions.Terminals;
 using System.Text;
 
 namespace TestDiceEngine.TestModels;
 
-internal class RandomValue(double? min, double? max,
-    Func<IExpression, bool>? validate = null)
-    : IExpression
+internal class RandomValue(double? min, double? max, Func<IExpression, bool>? validate = null) : IExpression
 {
     public readonly double? Min = min;
     public readonly double? Max = max;
     public readonly Func<IExpression, bool>? Validate = validate;
 
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => throw new NotImplementedException();
 
-    public IExpression Evaluate(ExpressionContext context)
+    public Terminal Evaluate(ExpressionContext context)
         => throw new NotImplementedException();
 
     public IExpression StepEvaluate()

@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Context;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.Expressions;
 
@@ -10,10 +11,10 @@ public class Parentheses(IExpression inside) : IExpression
 {
     public readonly IExpression Inside = inside;
 
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => Evaluate(new ExpressionContext());
 
-    public IExpression Evaluate(ExpressionContext variables)
+    public Terminal Evaluate(ExpressionContext variables)
         => Inside.Evaluate(variables);
 
     public IExpression StepEvaluate()

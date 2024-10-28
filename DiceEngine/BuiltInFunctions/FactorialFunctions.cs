@@ -1,10 +1,10 @@
 ﻿using DiceEngine.Attributes;
 
-namespace DiceEngine.BuiltInFunctions;
+namespace DiceEngine.NativeFunctions;
 
 public static class FactorialFunctions
 {
-    [BuiltInFunction("factorial")]
+    [NativeFunction("factorial")]
     [Elementwise]
     public static double Factorial(double x)
     {
@@ -29,7 +29,7 @@ public static class FactorialFunctions
         return Double.NaN;
     }
 
-    [BuiltInFunction("subfactorial")]
+    [NativeFunction("subfactorial")]
     [Elementwise]
     public static double Subfactorial(double x)
     {
@@ -54,7 +54,7 @@ public static class FactorialFunctions
         return Double.NaN;
     }
 
-    [BuiltInFunction("primorial")]
+    [NativeFunction("primorial")]
     [Elementwise]
     public static double Primorial(double x)
     {
@@ -96,7 +96,7 @@ public static class FactorialFunctions
         return [.. primes];
     }
 
-    [BuiltInFunction("double_factorial")]
+    [NativeFunction("double_factorial")]
     [Elementwise]
     public static double DoubleFactorial(double x)
     {

@@ -6,6 +6,8 @@ using DiceEngine.Parsing.Rules;
 using System.Text.RegularExpressions;
 using System.Reflection;
 using DiceEngine.Expressions.Dice;
+using DiceEngine.Expressions.Functions;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.Parsing;
 

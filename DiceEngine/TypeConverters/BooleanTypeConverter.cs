@@ -1,11 +1,12 @@
 ﻿using DiceEngine.Expressions;
+using DiceEngine.Expressions.Terminals;
 using DiceEngine.FunctionAttributes.PreprocessAttributes;
 
 namespace DiceEngine.TypeConverters;
 
 public class BooleanTypeConverter : ITypeConverter<bool?>
 {
-    public IExpression ConvertToExpression(bool? value)
+    public Terminal ConvertToExpression(bool? value)
     {
         if (value.HasValue)
         {

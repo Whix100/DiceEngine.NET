@@ -1,13 +1,14 @@
 ﻿using DiceEngine.Context;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.Expressions.Dice;
 
 public class FateDie : IDie
 {
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => Evaluate(new ExpressionContext());
 
-    public IExpression Evaluate(ExpressionContext context)
+    public Terminal Evaluate(ExpressionContext context)
         => new RollResult(Roll(context.Random), this);
 
     public IExpression StepEvaluate()

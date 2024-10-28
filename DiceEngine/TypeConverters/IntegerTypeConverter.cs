@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Expressions;
+using DiceEngine.Expressions.Terminals;
 using System.Numerics;
 
 namespace DiceEngine.TypeConverters;
@@ -6,12 +7,12 @@ namespace DiceEngine.TypeConverters;
 public class IntegerTypeConverter<T> : ITypeConverter<T?>
     where T : struct, IBinaryInteger<T>, IMinMaxValue<T>
 {
-    public IExpression ConvertToExpression(T? value)
+    public Terminal ConvertToExpression(T? value)
     {
         try
         {
             return value.HasValue
-                ? (Number)Convert.ToDouble(value.Value)
+                ? (Terminal)Convert.ToDouble(value.Value)
                 : Undefined.UNDEFINED;
         }
         catch

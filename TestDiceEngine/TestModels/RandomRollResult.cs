@@ -1,6 +1,7 @@
 ﻿using DiceEngine.Context;
 using DiceEngine.Expressions;
 using DiceEngine.Expressions.Dice;
+using DiceEngine.Expressions.Terminals;
 using System.Collections;
 using System.Text;
 
@@ -24,10 +25,10 @@ internal class RandomRollResult(int? minCount, int? maxCount, RollValue? min, Ro
     {
     }
 
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => throw new NotImplementedException();
 
-    public IExpression Evaluate(ExpressionContext context)
+    public Terminal Evaluate(ExpressionContext context)
         => throw new NotImplementedException();
 
     public IExpression StepEvaluate()

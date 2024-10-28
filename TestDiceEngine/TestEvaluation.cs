@@ -3,6 +3,7 @@ using DiceEngine.Exceptions;
 using DiceEngine.Expressions;
 using DiceEngine.Expressions.Collections;
 using DiceEngine.Expressions.Dice;
+using DiceEngine.Expressions.Terminals;
 using System.Reflection;
 using TestDiceEngine.TestData;
 using TestDiceEngine.TestUtils;
@@ -104,7 +105,7 @@ public class TestEvaluation
                 {
                     int j = i++ % test_case.FunctionAliases.Length;
 
-                    IExpression result = new FunctionCall(test_case.FunctionAliases[j], args)
+                    Terminal result = new FunctionCall(test_case.FunctionAliases[j], args)
                         .Evaluate(test_case.Context ?? new ExpressionContext());
                     string error_message = "Test case: " +
                         $"'{test_case.FunctionAliases[j]}({String.Join(", ", args.Select(x => x.ToString()))})'.";

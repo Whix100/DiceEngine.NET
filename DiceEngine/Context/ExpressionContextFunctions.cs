@@ -1,4 +1,6 @@
 ﻿using DiceEngine.Expressions;
+using DiceEngine.Expressions.Functions;
+using DiceEngine.Expressions.Terminals;
 using DiceEngine.Extensions;
 using System.Reflection;
 
@@ -6,18 +8,18 @@ namespace DiceEngine.Context;
 
 public partial class ExpressionContext
 {
-    protected readonly Dictionary<string, IFunction> _functions;
+    protected readonly Dictionary<string, Function> _functions;
 
     public string[] Functions
         => [.. _functions.Keys];
 
-    public virtual IExpression InvokeFunction(string function, IEnumerable<IExpression> arguments)
+    public virtual Terminal InvokeFunction(string function, IEnumerable<IExpression> arguments)
     {
         if (ContainsFunction(function))
         {
-            IFunction func = _functions[function];
+            Function func = _functions[function];
 
-            return IFunction.ForEach(func, arguments, this);
+            return Function.ForEach(func, arguments, this);
         }
 
         return Undefined.UNDEFINED;
@@ -27,25 +29,25 @@ public partial class ExpressionContext
     {
         foreach (Type t in assembly.GetTypes())
         {
-            Dictionary<string[], IFunction> built_in_functions = t.GetFunctions(_type_converters.Keys);
+            Dictionary<string[], Function> built_in_functions = t.GetFunctions(_type_converters.Keys);
 
             SetFunctions(built_in_functions);
         }
     }
 
-    public virtual void SetFunctions(IEnumerable<KeyValuePair<string[], IFunction>> functions)
+    public virtual void SetFunctions(IEnumerable<KeyValuePair<string[], Function>> functions)
     {
-        foreach (KeyValuePair<string[], IFunction> func in functions)
+        foreach (KeyValuePair<string[], Function> func in functions)
             SetFunctions(func.Key.ToDictionary(k => k, k => func.Value));
     }
 
-    public virtual void SetFunctions(IEnumerable<KeyValuePair<string, IFunction>> functions)
+    public virtual void SetFunctions(IEnumerable<KeyValuePair<string, Function>> functions)
     {
-        foreach (KeyValuePair<string, IFunction> func in functions)
+        foreach (KeyValuePair<string, Function> func in functions)
             SetFunction(func.Key, func.Value);
     }
 
-    public virtual bool SetFunction(string name, IFunction function)
+    public virtual bool SetFunction(string name, Function function)
     {
         if (function is null)
             return _functions.Remove(name) && _aliases.Remove(name);

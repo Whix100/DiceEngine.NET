@@ -1,5 +1,7 @@
 ﻿using DiceEngine.Expressions;
 using DiceEngine.Expressions.Components;
+using DiceEngine.Expressions.Functions;
+using DiceEngine.Expressions.Terminals;
 using System.Linq.Expressions;
 using System.Reflection;
 using TestDiceEngine.Extensions;
@@ -20,14 +22,14 @@ public class TestFunction
         {
             Delegate del = method.ToDelegate();
             IParameter[] parameters = [.. method.GetParameters().ToParameters([])];
-            Function function = new Function(del);
+            NativeFunction function = new NativeFunction(del);
 
             Assert.AreEqual(method, function.Body.Method);
 
             for (int i = 0; i < parameters.Length; i++)
                 Assert.AreEqual(parameters[i], function.Parameters[i]);
 
-            function = new Function(parameters, del);
+            function = new NativeFunction(parameters, del);
             Assert.AreEqual(method, function.Body.Method);
 
             for (int i = 0; i < parameters.Length; i++)

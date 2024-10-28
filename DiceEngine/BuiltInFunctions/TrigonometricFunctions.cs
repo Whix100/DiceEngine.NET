@@ -1,21 +1,21 @@
 ﻿using DiceEngine.Attributes;
 using DiceEngine.FunctionAttributes.ConditionalAttributes;
 
-namespace DiceEngine.BuiltInFunctions;
+namespace DiceEngine.NativeFunctions;
 
 public static class TrigonometricFunctions
 {
-    [BuiltInFunction("sin")]
+    [NativeFunction("sin")]
     [Elementwise]
     public static double Sin(double x)
         => Math.Sin(x);
 
-    [BuiltInFunction("cos")]
+    [NativeFunction("cos")]
     [Elementwise]
     public static double Cos(double x)
         => Math.Cos(x);
 
-    [BuiltInFunction("tan")]
+    [NativeFunction("tan")]
     [Elementwise]
     public static double Tan(double x)
     {        
@@ -24,17 +24,17 @@ public static class TrigonometricFunctions
             : Math.Tan(x);
     }
 
-    [BuiltInFunction("asin", "arcsin", "arsin")]
+    [NativeFunction("asin", "arcsin", "arsin")]
     [Elementwise]
     public static double Asin(double x)
         => Math.Asin(x);
 
-    [BuiltInFunction("acos", "arccos", "arcos")]
+    [NativeFunction("acos", "arccos", "arcos")]
     [Elementwise]
     public static double Acos(double x)
         => Math.Acos(x);
 
-    [BuiltInFunction("atan", "arctan", "artan")]
+    [NativeFunction("atan", "arctan", "artan")]
     [Elementwise]
     public static double Atan(double x)
         => Double.IsFinite(x)
@@ -45,7 +45,7 @@ public static class TrigonometricFunctions
                     ? -Math.PI / 2
                     : Double.NaN;
 
-    [BuiltInFunction("csc")]
+    [NativeFunction("csc")]
     [Elementwise]
     public static double Csc(double x)
     {
@@ -54,7 +54,7 @@ public static class TrigonometricFunctions
             : 1 / Math.Sin(x);
     }
 
-    [BuiltInFunction("sec")]
+    [NativeFunction("sec")]
     [Elementwise]
     public static double Sec(double x)
     {
@@ -63,7 +63,7 @@ public static class TrigonometricFunctions
             : 1 / Math.Cos(x);
     }
 
-    [BuiltInFunction("cot")]
+    [NativeFunction("cot")]
     [Elementwise]
     public static double Cot(double x)
     {
@@ -72,7 +72,7 @@ public static class TrigonometricFunctions
             : 1 / Math.Tan(x);
     }
 
-    [BuiltInFunction("acsc", "arccsc", "arcsc")]
+    [NativeFunction("acsc", "arccsc", "arcsc")]
     [Elementwise]
     public static double Acsc([Gap(-1, 1)] double x)
         => Double.IsFinite(x)
@@ -81,7 +81,7 @@ public static class TrigonometricFunctions
                 ? 0
                 : Double.NaN;
 
-    [BuiltInFunction("asec", "arcsec", "arsec")]
+    [NativeFunction("asec", "arcsec", "arsec")]
     [Elementwise]
     public static double Asec([Gap(-1, 1)] double x)
         => Double.IsFinite(x)
@@ -90,7 +90,7 @@ public static class TrigonometricFunctions
                 ? Math.PI / 2
                 : Double.NaN;
 
-    [BuiltInFunction("acot", "arccot", "arcot")]
+    [NativeFunction("acot", "arccot", "arcot")]
     [Elementwise]
     public static double Acot(double x)
         => Double.IsFinite(x)
@@ -101,7 +101,7 @@ public static class TrigonometricFunctions
                     ? Math.PI
                     : Double.NaN;
 
-    [BuiltInFunction("sinh")]
+    [NativeFunction("sinh")]
     [Elementwise]
     public static double Sinh(double x)
         => Double.IsFinite(x)
@@ -110,7 +110,7 @@ public static class TrigonometricFunctions
                 ? x
                 : Double.NaN;
 
-    [BuiltInFunction("cosh")]
+    [NativeFunction("cosh")]
     [Elementwise]
     public static double Cosh(double x)
         => Double.IsFinite(x)
@@ -119,7 +119,7 @@ public static class TrigonometricFunctions
                 ? Double.PositiveInfinity
                 : Double.NaN;
 
-    [BuiltInFunction("tanh")]
+    [NativeFunction("tanh")]
     [Elementwise]
     public static double Tanh(double x)
         => Double.IsFinite(x)
@@ -130,7 +130,7 @@ public static class TrigonometricFunctions
                     ? -1
                     : Double.NaN;
 
-    [BuiltInFunction("asinh", "arcsinh", "arsinh")]
+    [NativeFunction("asinh", "arcsinh", "arsinh")]
     [Elementwise]
     public static double Asinh(double x)
         => Double.IsFinite(x)
@@ -141,7 +141,7 @@ public static class TrigonometricFunctions
                     ? Double.NegativeInfinity
                     : Double.NaN;
 
-    [BuiltInFunction("acosh", "arccosh", "arcosh")]
+    [NativeFunction("acosh", "arccosh", "arcosh")]
     [Elementwise]
     public static double Acosh([Minimum(1)] double x)
         => Double.IsFinite(x)
@@ -150,12 +150,12 @@ public static class TrigonometricFunctions
                 ? Double.PositiveInfinity
                 : Double.NaN;
 
-    [BuiltInFunction("atanh", "arctanh", "artanh")]
+    [NativeFunction("atanh", "arctanh", "artanh")]
     [Elementwise]
     public static double Atanh(double x)
         => Math.Atanh(x);
 
-    [BuiltInFunction("csch")]
+    [NativeFunction("csch")]
     [Elementwise]
     public static double Csch([Gap(0, 0, inclusive: true)] double x)
         => Double.IsFinite(x)
@@ -164,7 +164,7 @@ public static class TrigonometricFunctions
                 ? 0
                 : Double.NaN;
 
-    [BuiltInFunction("sech")]
+    [NativeFunction("sech")]
     [Elementwise]
     public static double Sech(double x)
         => Double.IsFinite(x)
@@ -173,7 +173,7 @@ public static class TrigonometricFunctions
                 ? 0
                 : Double.NaN;
 
-    [BuiltInFunction("coth")]
+    [NativeFunction("coth")]
     [Elementwise]
     public static double Coth([Gap(0, 0, inclusive: true)] double x)
         => Double.IsFinite(x)
@@ -184,7 +184,7 @@ public static class TrigonometricFunctions
                     ? -1
                     : Double.NaN;
 
-    [BuiltInFunction("acsch", "arccsch", "arcsch")]
+    [NativeFunction("acsch", "arccsch", "arcsch")]
     [Elementwise]
     public static double Acsch([Gap(0, 0, inclusive: true)] double x)
         => Double.IsFinite(x)
@@ -193,12 +193,12 @@ public static class TrigonometricFunctions
                 ? 0
                 : Double.NaN;
 
-    [BuiltInFunction("asech", "arcsech", "arsech")]
+    [NativeFunction("asech", "arcsech", "arsech")]
     [Elementwise]
     public static double Asech([Range(0, 1)] double x)
         => Acosh(1 / x);
 
-    [BuiltInFunction("acoth", "arccoth", "arcoth")]
+    [NativeFunction("acoth", "arccoth", "arcoth")]
     [Elementwise]
     public static double Acoth([Gap(-1, 1)] double x)
         => Double.IsFinite(x)

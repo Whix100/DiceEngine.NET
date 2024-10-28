@@ -1,5 +1,6 @@
 ﻿using DiceEngine.Context;
 using DiceEngine.Expressions.Collections;
+using DiceEngine.Expressions.Terminals;
 using DiceEngine.Extensions;
 
 namespace DiceEngine.Expressions;
@@ -10,20 +11,20 @@ public class Indexer(IExpression collection, IExpression index) : IExpression
 
     public IExpression Index { get; } = index;
 
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => Evaluate(new ExpressionContext());
 
-    public IExpression Evaluate(ExpressionContext context)
+    public Terminal Evaluate(ExpressionContext context)
     {
-        IExpression collection_eval = Collection.Evaluate(context);
-        IExpression index_eval = Index.Evaluate(context);
+        Terminal collection_eval = Collection.Evaluate(context);
+        Terminal index_eval = Index.Evaluate(context);
 
         if (collection_eval is IEnumerableExpression collection_enum && index_eval is Number index_num &&
             index_num.Value > -collection_enum.Count() - 1 && index_num.Value < collection_enum.Count())
         {
             int index = EnumerableExtensions.NormalizeIndex(index_num.Value, collection_enum.Count());
 
-            return collection_enum.ElementAt(index);
+            return (Terminal)collection_enum.ElementAt(index);
         }
 
         return Undefined.UNDEFINED;

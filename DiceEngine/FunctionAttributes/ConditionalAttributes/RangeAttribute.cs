@@ -1,14 +1,14 @@
-﻿using DiceEngine.Context;
-using DiceEngine.Expressions;
+﻿using DiceEngine.Expressions;
 using DiceEngine.Expressions.Interfaces;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.FunctionAttributes.ConditionalAttributes;
 
 public class RangeAttribute(double minimum, double maximum, bool allowUndefined = false, bool inclusive = true)
     : ConditionAttribute
 {
-    public readonly IExpression Minimum = ((Number)minimum).Evaluate();
-    public readonly IExpression Maximum = ((Number)maximum).Evaluate();
+    public readonly Terminal Minimum = (Terminal)minimum;
+    public readonly Terminal Maximum = (Terminal)maximum;
     public readonly bool AllowUndefined = allowUndefined;
     public readonly bool Inclusive = inclusive;
 

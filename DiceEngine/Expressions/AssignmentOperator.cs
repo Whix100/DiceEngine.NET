@@ -1,39 +1,32 @@
 ﻿using DiceEngine.Context;
 using DiceEngine.Exceptions;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.Expressions;
 
-public class AssignmentOperator : IExpression
+/// <summary>
+/// Initializes a new instance of the <see cref="AssignmentOperator"/> class.
+/// </summary>
+/// <param name="assignedVariable">
+/// The <see cref="IExpression"/> variable that's getting assigned to. If <paramref name="assignedVariable"/> is
+/// not a <see cref="Variable"/>, an exception is thrown.
+/// </param>
+/// <param name="value">
+/// The <see cref="IExpression"/> value being assigned to <paramref name="assignedVariable"/>.
+/// </param>
+public class AssignmentOperator(IExpression assignedVariable, IExpression value) : IExpression
 {
-    public readonly Variable AssignedVariable;
-    public readonly IExpression Value;
+    public readonly Variable AssignedVariable = assignedVariable is Variable v
+        ? v
+        : throw new InvalidAssignmentException(assignedVariable);
+    public readonly IExpression Value = value;
 
-    /// <summary>
-    /// Initializes a new instance of the <see cref="AssignmentOperator"/> class.
-    /// </summary>
-    /// <param name="assigned_variable">
-    /// The <see cref="IExpression"/> variable that's getting assigned to. If <paramref name="assigned_variable"/> is
-    /// not a <see cref="Variable"/>, an exception is thrown.
-    /// </param>
-    /// <param name="value">
-    /// The <see cref="IExpression"/> value being assigned to <paramref name="assigned_variable"/>.
-    /// </param>
-    public AssignmentOperator(IExpression assigned_variable, IExpression value)
-    {
-        AssignedVariable = assigned_variable is Variable v
-            ? v
-            : throw new InvalidAssignmentException(assigned_variable);
-        Value = value;
-    }
-
-    public IExpression Evaluate()
+    public Terminal Evaluate()
         => Evaluate(new ExpressionContext());
 
-    public IExpression Evaluate(ExpressionContext context)
+    public Terminal Evaluate(ExpressionContext context)
     {
-        context ??= new ExpressionContext();
-
-        IExpression eval = Value.Evaluate(context);
+        Terminal eval = Value.Evaluate(context);
 
         context[AssignedVariable.Name] = eval;
         return eval;
@@ -44,13 +37,11 @@ public class AssignmentOperator : IExpression
 
     public IExpression StepEvaluate(ExpressionContext context)
     {
-        context ??= new ExpressionContext();
-
         IExpression eval = Value.StepEvaluate(context);
 
-        if (eval.Equals(Value))
+        if (eval.Equals(Value) && eval is Terminal term)
         {
-            context[AssignedVariable.Name] = eval;
+            context[AssignedVariable.Name] = term;
             return eval;
         }
 

@@ -1,5 +1,6 @@
 ﻿using DiceEngine.Expressions;
 using DiceEngine.Expressions.Collections;
+using DiceEngine.Expressions.Terminals;
 using TestDiceEngine.TestUtils;
 
 namespace TestDiceEngine.Expressions.Collections;

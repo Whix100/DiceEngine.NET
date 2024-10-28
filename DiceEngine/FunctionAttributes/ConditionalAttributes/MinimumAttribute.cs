@@ -1,12 +1,12 @@
-﻿using DiceEngine.Context;
-using DiceEngine.Expressions;
+﻿using DiceEngine.Expressions;
 using DiceEngine.Expressions.Interfaces;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.FunctionAttributes.ConditionalAttributes;
 
 public class MinimumAttribute(double minimum, bool allowUndefined = false, bool inclusive = true) : ConditionAttribute
 {
-    public readonly IExpression Minimum = ((Number)minimum).Evaluate();
+    public readonly Terminal Minimum = (Terminal)minimum;
     public readonly bool AllowUndefined = allowUndefined;
     public readonly bool Inclusive = inclusive;
 

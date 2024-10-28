@@ -1,5 +1,7 @@
 ﻿using DiceEngine.Expressions;
 using DiceEngine.Expressions.Collections;
+using DiceEngine.Expressions.Functions;
+using DiceEngine.Expressions.Terminals;
 using TestDiceEngine.TestUtils;
 
 namespace TestDiceEngine.TestData;
@@ -10,37 +12,37 @@ public static partial class TestCases
     [
         new FunctionTestCase("map", new Dictionary<IExpression[], IExpression>
         {
-            { [new Vector(), new Function(TestValues.F)], new Vector() },
-            { [UtilFunctions.Range<Vector>(1, 10), new Function(TestValues.F)], UtilFunctions.Range<Vector>(1, 10) },
-            { [UtilFunctions.Range<Vector>(1, 10), new Function(TestValues.SubFromTen)],
+            { [new Vector(), new NativeFunction(TestValues.F)], new Vector() },
+            { [UtilFunctions.Range<Vector>(1, 10), new NativeFunction(TestValues.F)], UtilFunctions.Range<Vector>(1, 10) },
+            { [UtilFunctions.Range<Vector>(1, 10), new NativeFunction(TestValues.SubFromTen)],
                 UtilFunctions.Range<Vector>(9, 10, -1) },
-            { [new Set(), new Function(TestValues.F)], new Set() },
-            { [UtilFunctions.Range<Set>(1, 10), new Function(TestValues.F)], UtilFunctions.Range<Set>(1, 10) },
-            { [UtilFunctions.Range<Set>(1, 10), new Function(TestValues.SubFromTen)],
+            { [new Set(), new NativeFunction(TestValues.F)], new Set() },
+            { [UtilFunctions.Range<Set>(1, 10), new NativeFunction(TestValues.F)], UtilFunctions.Range<Set>(1, 10) },
+            { [UtilFunctions.Range<Set>(1, 10), new NativeFunction(TestValues.SubFromTen)],
                 UtilFunctions.Range<Set>(9, 10, -1) },
         }),
         new FunctionTestCase(["filter", "where"], new Dictionary<IExpression[], IExpression>
         {
-            { [new Vector(), new Function(TestValues.IsEven)], new Vector() },
-            { [UtilFunctions.Range<Vector>(1, 10), new Function(TestValues.IsEven)],
+            { [new Vector(), new NativeFunction(TestValues.IsEven)], new Vector() },
+            { [UtilFunctions.Range<Vector>(1, 10), new NativeFunction(TestValues.IsEven)],
                 UtilFunctions.Range<Vector>(2, 5, 2) },
-            { [UtilFunctions.Range<Vector>(2, 10, 2), new Function(TestValues.IsEven)],
+            { [UtilFunctions.Range<Vector>(2, 10, 2), new NativeFunction(TestValues.IsEven)],
                 UtilFunctions.Range<Vector>(2, 10, 2) },
-            { [UtilFunctions.Range<Vector>(1, 10, 2), new Function(TestValues.IsEven)], new Vector() },
-            { [new Set(), new Function(TestValues.IsEven)], new Set() },
-            { [UtilFunctions.Range<Set>(1, 10), new Function(TestValues.IsEven)], UtilFunctions.Range<Set>(2, 5, 2) },
-            { [UtilFunctions.Range<Set>(2, 10, 2), new Function(TestValues.IsEven)],
+            { [UtilFunctions.Range<Vector>(1, 10, 2), new NativeFunction(TestValues.IsEven)], new Vector() },
+            { [new Set(), new NativeFunction(TestValues.IsEven)], new Set() },
+            { [UtilFunctions.Range<Set>(1, 10), new NativeFunction(TestValues.IsEven)], UtilFunctions.Range<Set>(2, 5, 2) },
+            { [UtilFunctions.Range<Set>(2, 10, 2), new NativeFunction(TestValues.IsEven)],
                 UtilFunctions.Range<Set>(2, 10, 2) },
-            { [UtilFunctions.Range<Set>(1, 10, 2), new Function(TestValues.IsEven)], new Set() },
+            { [UtilFunctions.Range<Set>(1, 10, 2), new NativeFunction(TestValues.IsEven)], new Set() },
         }),
         new FunctionTestCase("aggregate", new Dictionary<IExpression[], IExpression>
         {
-            { [new Vector(), new Function(TestValues.Aggregate)], TestValues.UNDEFINED },
-            { [UtilFunctions.Range<Vector>(1, 10), new Function(TestValues.Aggregate)], (Number)55 },
-            { [UtilFunctions.Range<Vector>(2, 10, 2), new Function(TestValues.Aggregate)], (Number)110 },
-            { [new Set(), new Function(TestValues.Aggregate)], TestValues.UNDEFINED },
-            { [UtilFunctions.Range<Set>(1, 10), new Function(TestValues.Aggregate)], (Number)55 },
-            { [UtilFunctions.Range<Set>(1, 10, 2), new Function(TestValues.Aggregate)], (Number)100 },
+            { [new Vector(), new NativeFunction(TestValues.Aggregate)], TestValues.UNDEFINED },
+            { [UtilFunctions.Range<Vector>(1, 10), new NativeFunction(TestValues.Aggregate)], (Number)55 },
+            { [UtilFunctions.Range<Vector>(2, 10, 2), new NativeFunction(TestValues.Aggregate)], (Number)110 },
+            { [new Set(), new NativeFunction(TestValues.Aggregate)], TestValues.UNDEFINED },
+            { [UtilFunctions.Range<Set>(1, 10), new NativeFunction(TestValues.Aggregate)], (Number)55 },
+            { [UtilFunctions.Range<Set>(1, 10, 2), new NativeFunction(TestValues.Aggregate)], (Number)100 },
         }),
         new FunctionTestCase("range", new Dictionary<IExpression[], IExpression>
         {
@@ -133,25 +135,25 @@ public static partial class TestCases
         }),
         new FunctionTestCase(["any", "some"], new Dictionary<IExpression[], IExpression>
         {
-            { [new Vector(), new Function(TestValues.IsEven)], Logical.FALSE },
-            { [UtilFunctions.Range<Vector>(1, 10), new Function(TestValues.IsEven)], Logical.TRUE },
-            { [UtilFunctions.Range<Vector>(2, 10, 2), new Function(TestValues.IsEven)], Logical.TRUE },
-            { [UtilFunctions.Range<Vector>(1, 10, 2), new Function(TestValues.IsEven)], Logical.FALSE },
-            { [new Set(), new Function(TestValues.IsEven)], Logical.FALSE },
-            { [UtilFunctions.Range<Set>(1, 10), new Function(TestValues.IsEven)], Logical.TRUE },
-            { [UtilFunctions.Range<Set>(2, 10, 2), new Function(TestValues.IsEven)], Logical.TRUE },
-            { [UtilFunctions.Range<Set>(1, 10, 2), new Function(TestValues.IsEven)], Logical.FALSE },
+            { [new Vector(), new NativeFunction(TestValues.IsEven)], Logical.FALSE },
+            { [UtilFunctions.Range<Vector>(1, 10), new NativeFunction(TestValues.IsEven)], Logical.TRUE },
+            { [UtilFunctions.Range<Vector>(2, 10, 2), new NativeFunction(TestValues.IsEven)], Logical.TRUE },
+            { [UtilFunctions.Range<Vector>(1, 10, 2), new NativeFunction(TestValues.IsEven)], Logical.FALSE },
+            { [new Set(), new NativeFunction(TestValues.IsEven)], Logical.FALSE },
+            { [UtilFunctions.Range<Set>(1, 10), new NativeFunction(TestValues.IsEven)], Logical.TRUE },
+            { [UtilFunctions.Range<Set>(2, 10, 2), new NativeFunction(TestValues.IsEven)], Logical.TRUE },
+            { [UtilFunctions.Range<Set>(1, 10, 2), new NativeFunction(TestValues.IsEven)], Logical.FALSE },
         }),
         new FunctionTestCase("all", new Dictionary<IExpression[], IExpression>
         {
-            { [new Vector(), new Function(TestValues.IsEven)], Logical.TRUE },
-            { [UtilFunctions.Range<Vector>(1, 10), new Function(TestValues.IsEven)], Logical.FALSE },
-            { [UtilFunctions.Range<Vector>(2, 10, 2), new Function(TestValues.IsEven)], Logical.TRUE },
-            { [UtilFunctions.Range<Vector>(1, 10, 2), new Function(TestValues.IsEven)], Logical.FALSE },
-            { [new Set(), new Function(TestValues.IsEven)], Logical.TRUE },
-            { [UtilFunctions.Range<Set>(1, 10), new Function(TestValues.IsEven)], Logical.FALSE },
-            { [UtilFunctions.Range<Set>(2, 10, 2), new Function(TestValues.IsEven)], Logical.TRUE },
-            { [UtilFunctions.Range<Set>(1, 10, 2), new Function(TestValues.IsEven)], Logical.FALSE },
+            { [new Vector(), new NativeFunction(TestValues.IsEven)], Logical.TRUE },
+            { [UtilFunctions.Range<Vector>(1, 10), new NativeFunction(TestValues.IsEven)], Logical.FALSE },
+            { [UtilFunctions.Range<Vector>(2, 10, 2), new NativeFunction(TestValues.IsEven)], Logical.TRUE },
+            { [UtilFunctions.Range<Vector>(1, 10, 2), new NativeFunction(TestValues.IsEven)], Logical.FALSE },
+            { [new Set(), new NativeFunction(TestValues.IsEven)], Logical.TRUE },
+            { [UtilFunctions.Range<Set>(1, 10), new NativeFunction(TestValues.IsEven)], Logical.FALSE },
+            { [UtilFunctions.Range<Set>(2, 10, 2), new NativeFunction(TestValues.IsEven)], Logical.TRUE },
+            { [UtilFunctions.Range<Set>(1, 10, 2), new NativeFunction(TestValues.IsEven)], Logical.FALSE },
         }),
         new FunctionTestCase("find", new Dictionary<IExpression[], IExpression>
         {
@@ -187,10 +189,10 @@ public static partial class TestCases
         }),
         new FunctionTestCase("zip", new Dictionary<IExpression[], IExpression>
         {
-            { [new Set(), new Vector(), new Function(TestValues.Aggregate)], new Set() },
-            { [UtilFunctions.Range<Vector>(1, 10), UtilFunctions.Range<Set>(1, 10), new Function(TestValues.Aggregate)],
+            { [new Set(), new Vector(), new NativeFunction(TestValues.Aggregate)], new Set() },
+            { [UtilFunctions.Range<Vector>(1, 10), UtilFunctions.Range<Set>(1, 10), new NativeFunction(TestValues.Aggregate)],
                 new Vector(UtilFunctions.Range<Vector>(2, 10, 2)) },
-            { [new Set([(Number)3]), new Set([(Number)2]), new Function(TestValues.Aggregate)], new Set([(Number)5]) },
+            { [new Set([(Number)3]), new Set([(Number)2]), new NativeFunction(TestValues.Aggregate)], new Set([(Number)5]) },
         }),
     ];
 }
