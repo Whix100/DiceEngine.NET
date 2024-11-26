@@ -128,4 +128,26 @@ internal static class UtilFunctions
         return a == b || (a.IsGenericType && a.GetGenericArguments().SingleOrDefault() == b) ||
             (b.IsGenericType && a == b.GetGenericArguments().SingleOrDefault());
     }
+
+    public static void AreEqual<T>(IEnumerable<T> expected, IEnumerable<T> actual, string message = "")
+    {
+        if (expected.Count() == actual.Count())
+        {
+            IEnumerator<T> expEnum = expected.Order().GetEnumerator();
+            IEnumerator<T> actEnum = actual.Order().GetEnumerator();
+
+            while (expEnum.MoveNext() && actEnum.MoveNext())
+            {
+                if ((expEnum.Current is null && actEnum.Current is not null) ||
+                    (expEnum.Current is not null && !expEnum.Current.Equals(actEnum.Current)))
+                    HandleFail("UtilFunctions.AreEqual", $"Expected:{expEnum.Current}. Actual:{actEnum.Current}." +
+                        (string.IsNullOrEmpty(message) ? "" : $" {message}"));
+            }
+
+            return;
+        }
+
+        HandleFail("UtilFunctions.AreEqual", $"Expected count:{expected.Count()}. Actual:{actual.Count()}." +
+            (string.IsNullOrEmpty(message) ? "" : $" {message}"));
+    }
 }
