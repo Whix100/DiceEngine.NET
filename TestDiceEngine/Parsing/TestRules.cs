@@ -2,6 +2,9 @@
 using DiceEngine.Expressions.Terminals;
 using DiceEngine.Parsing;
 using DiceEngine.Parsing.Rules;
+using DiceEngine.Tokenization.Tokens;
+using System.Collections.Immutable;
+using System.Text.RegularExpressions;
 
 namespace TestDiceEngine.Parsing;
 
@@ -9,19 +12,19 @@ namespace TestDiceEngine.Parsing;
 public class TestRules
 {
     /// <summary>
-    /// Test Rules for initialization, parsing, and matching.
+    /// Test ParserRules for initialization, parsing, and matching.
     /// </summary>
     [TestMethod]
     public void TestRule()
     {
         string name = "RuleName";
         IExpression parsed = Logical.TRUE;
-        Token matched = new Token("Rule", 0);
-        Rule rule = new Rule(name, (_, _, _) => parsed, (_, _) => matched);
+        TokenMatch matched = new TokenMatch([new WordToken("Rule", 0)], 0);
+        ParserRule rule = new ParserRule(name, (_, _) => parsed, (_, _) => matched);
 
         Assert.AreEqual(name, rule.Name);
-        Assert.AreEqual(parsed, rule.Parse("", matched, null!));
-        Assert.AreEqual(matched, rule.Match("", []));
+        Assert.AreEqual(parsed, rule.Parse([], matched, null!));
+        Assert.AreEqual(matched, rule.Match([], []));
     }
 
     /// <summary>
@@ -31,82 +34,54 @@ public class TestRules
     public void TestRegexRule()
     {
         string name = "RegexRuleName";
-        string regex = "[A-Z][a-z]+";
-        RegexRuleOptions options = RegexRuleOptions.Trim;
-        Token[] matches = [new Token("Input", 0), new Token("String", 5)];
+        string regex = @"\w\d";
+        TokenMatch match = new TokenMatch([new WordToken("Input", 0), new NumberToken("123", 5)], 0);
         IExpression parsed = Logical.TRUE;
-        RegexRule rule = new RegexRule(name, regex, options, (_, _, _) => parsed);
-        string input = "InputString";
+        RegexRule rule = new RegexRule(name, regex, (_, _, _) => parsed);
+        ImmutableArray<IToken> input = [new WordToken("Input", 0), new NumberToken("123", 5)];
 
         Assert.AreEqual(name, rule.Name);
-        Assert.AreEqual(regex, rule.RegularExpression);
-        Assert.AreEqual(options, rule.Options);
-        Assert.AreEqual(parsed, rule.Parse("", matches[0], null!));
-        Assert.AreEqual(matches[0], rule.Match(input, []));
+        Assert.AreEqual(regex, rule.Regex);
+        Assert.AreEqual(RegexOptions.None, rule.Options);
+        Assert.AreEqual(parsed, rule.Parse(input, new Parser()));
 
         int i = 0;
 
-        foreach (Token match in rule.Matches(input, []))
-            Assert.AreEqual(matches[i++], match);
+        foreach (IToken token in rule.Match(input, [])?.Match ?? [])
+            Assert.AreEqual(match[i++], token);
     }
 
     /// <summary>
-    /// Test NestedRegexRules for initialization, building the regular expression, parsing, and matching.
+    /// Test TypeRules for initialization, parsing, and matching.
     /// </summary>
     [TestMethod]
-    public void TestNestedRegexRule()
+    public void TestTypeRule()
     {
-        string name = "NestedRegexRuleName";
-        string regex_template = "[A-Z][a-z]+{String}";
-        RegexRule string_rule = new RegexRule("String", "String", RegexRuleOptions.None, null!);
-        string regex = @"[A-Z][a-z]+(\s*String\s*)";
-        RegexRuleOptions options = RegexRuleOptions.Trim | RegexRuleOptions.PadReferences;
-        Token[] matches = [new Token("New String ", 0), new Token("Input String", 11)];
+        string name = "TypeRuleName";
         IExpression parsed = Logical.TRUE;
-        NestedRegexRule rule = new NestedRegexRule(name, regex_template, options, (_, _, _) => parsed);
-        string input = "New String Input String";
+        TokenMatch match = new TokenMatch([new WordToken("Input", 0)], 0);
+        TypeRule<WordToken> rule = new TypeRule<WordToken>(name, (_, _) => parsed);
+        ImmutableArray<IToken> input = [new WordToken("Input", 0)];
 
         Assert.AreEqual(name, rule.Name);
-        Assert.AreEqual(regex_template, rule.RegularExpressionTemplate);
-        Assert.IsNull(rule.RegularExpression);
-        Assert.AreEqual(options, rule.Options);
-        Assert.AreEqual(parsed, rule.Parse("", matches[0], null!));
-        Assert.AreEqual(matches[0].Value, rule.Match(input, [string_rule])?.Value);
-        Assert.AreEqual(regex, rule.RegularExpression);
-
-        int i = 0;
-
-        foreach (Token match in rule.Matches(input, []))
-            Assert.AreEqual(matches[i++].Value, match.Value);
+        Assert.AreEqual(parsed, rule.Parse([], match, null!));
+        Assert.AreEqual(match.Single(), rule.Match(input, [])?.Single());
     }
 
     /// <summary>
-    /// Test NestedRegexRules for initialization, building the regular expression, parsing, and matching.
+    /// Test OptionRules for initialization, parsing, and matching.
     /// </summary>
     [TestMethod]
-    public void TestReferenceRegexRule()
+    public void TestOptionRule()
     {
-        string name = "ReferenceRegexRuleName";
-        string regex_template = "[A-Z][a-z]+{String}";
-        RegexRule string_rule = new RegexRule("String", "String", RegexRuleOptions.None, null!);
-        string regex = @"[A-Z][a-z]+(\s*String\s*)";
-        RegexRuleOptions options = RegexRuleOptions.Trim | RegexRuleOptions.PadReferences;
-        Token[] matches = [new Token("New String ", 0), new Token("Input String", 11)];
-        IExpression parsed = Undefined.UNDEFINED;
-        ReferenceRegexRule rule = new ReferenceRegexRule(name, regex_template, options);
-        string input = "New String Input String";
+        string name = "OptionRuleName";
+        IExpression parsed = Logical.TRUE;
+        TokenMatch match = new TokenMatch([new WordToken("Input", 0)], 0);
+        OptionRule rule = new OptionRule(name, ["Input"], (_, _) => parsed);
+        ImmutableArray<IToken> input = [new WordToken("Input", 0)];
 
         Assert.AreEqual(name, rule.Name);
-        Assert.AreEqual(regex_template, rule.RegularExpressionTemplate);
-        Assert.IsNull(rule.RegularExpression);
-        Assert.AreEqual(options, rule.Options);
-        Assert.AreEqual(parsed, rule.Parse("", matches[0], null!));
-        Assert.AreEqual(matches[0], rule.Match(input, [string_rule]));
-        Assert.AreEqual(regex, rule.RegularExpression);
-
-        int i = 0;
-
-        foreach (Token match in rule.Matches(input, [string_rule]))
-            Assert.AreEqual(matches[i++], match);
+        Assert.AreEqual(parsed, rule.Parse([], match, null!));
+        Assert.AreEqual(match.Single(), rule.Match(input, [])?.Single());
     }
 }

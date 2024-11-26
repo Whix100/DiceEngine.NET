@@ -1,8 +1,10 @@
+using DiceEngine.Context;
+using DiceEngine.Extensions;
 using DiceEngine.FunctionAttributes;
-using System.Text.RegularExpressions;
 using DiceEngine.FunctionAttributes.ConditionalAttributes;
 using DiceEngine.FunctionAttributes.PreprocessAttributes;
-using DiceEngine.Context;
+using DiceEngine.Tokenization.Tokens;
+using System.Collections.Immutable;
 
 namespace DiceEngine.Expressions.Components;
 
@@ -17,7 +19,7 @@ public readonly struct Parameter(string name, IEnumerable<FunctionAttribute> att
     public Parameter(string name) : this(name, (IEnumerable<FunctionAttribute>)[])
     { }
 
-    public Parameter(string name, IEnumerable<string> attributes) : this(name, attributes.Select(GetAttribute))
+    public Parameter(string name, IEnumerable<ImmutableArray<IToken>> attributes) : this(name, attributes.Select(GetAttribute))
     { }
 
     public object? ProcessArgument(IExpression argument, ExpressionContext _)
@@ -25,20 +27,20 @@ public readonly struct Parameter(string name, IEnumerable<FunctionAttribute> att
         return IParameter.ApplyAttributes(argument, Attributes);
     }
 
-    private static FunctionAttribute GetAttribute(string attribute)
+    private static FunctionAttribute GetAttribute(ImmutableArray<IToken> attribute)
     {
-        string attribute_name = Regex.Match(attribute, @"(?<=^\s*)[A-Za-z][A-Za-z_0-9]*").Value;
-        Type? attribute_type = AppDomain.CurrentDomain.GetAssemblies()
+        string attributeName = attribute.First().Value;
+        Type? attributeType = AppDomain.CurrentDomain.GetAssemblies()
             .SelectMany(a => a.GetTypes())
-            .FirstOrDefault(t => t.Name == attribute_name + "Attribute");
+            .FirstOrDefault(t => t.Name == attributeName + "Attribute");
         
-        if (attribute_type is not null && attribute_type.BaseType != typeof(FunctionAttribute))
+        if (attributeType is not null && attributeType.BaseType != typeof(FunctionAttribute))
         {
-            double[] parameters = attribute.Contains('(')
-                ? Regex.Match(attribute, @"(?<=\().*?(?=\))").Value.Split(',')
-                    .Select(p => Convert.ToDouble(p.Trim().TrimStart('+'))).ToArray()
+            double[] parameters = attribute.Length > 3
+                ? attribute[2..^1].Split(',')
+                    .Select(p => Convert.ToDouble(p.JoinTokens())).ToArray()
                 : [];
-            var constructors = attribute_type.GetConstructors()
+            var constructors = attributeType.GetConstructors()
                 .Select(c => new
                 {
                     Constructor = c,
@@ -46,18 +48,18 @@ public readonly struct Parameter(string name, IEnumerable<FunctionAttribute> att
                     MinParameters = c.GetParameters().Where(p => !p.HasDefaultValue).Count()
                 })
                 .Where(c => parameters.Length >= c.MinParameters && parameters.Length <= c.Parameters.Length);
-            FunctionAttribute? result = null; // = (FunctionAttribute?)Activator.CreateInstance(attribute_type);
+            FunctionAttribute? result = null;
 
             foreach (var constructor in constructors)
             {
                 try
                 {
-                    object[] constructor_parameters = [.. constructor.Parameters
+                    object[] constructorParameters = [.. constructor.Parameters
                         .Select((p, i) => i < parameters.Length
                             ? (object?)Convert.ChangeType(parameters[i], p.ParameterType)
                             : p.DefaultValue)];
 
-                    result = (FunctionAttribute?)constructor.Constructor.Invoke(constructor_parameters);
+                    result = (FunctionAttribute?)constructor.Constructor.Invoke(constructorParameters);
                     break;
                 }
                 catch
