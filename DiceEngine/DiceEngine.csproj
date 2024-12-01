@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>DiceEngine.NET</PackageId>
     <Title>DiceEngine.NET</Title>
-    <Version>0.3.0-alpha</Version>
+    <Version>1.0.0</Version>
     <Authors>whix100</Authors>
     <Description>DiceEngine.NET is a versatile and efficient dice notation parsing engine developed in C# targeting .NET 8. This library allows you to parse strings containing dice notation expressions into expression trees and then evaluated to calculate the resulting value. Forked from andrewk17111/CalcExpr.NET</Description>
     <Copyright>2024</Copyright>
