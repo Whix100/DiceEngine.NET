@@ -1,7 +1,7 @@
 # DiceEngine.NET
 
 ![Lines of Code](https://tokei.rs/b1/github/whix100/DiceEngine.NET?style=flat-square)
-[![License](https://img.shields.io/github/license/whix100/DiceEngine.NET?style=flat-square)](https://github.com/whix100/DiceEngine.NET/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/whix100/DiceEngine.NET?style=flat-square)](https://github.com/whix100/DiceEngine.NET/blob/dev/LICENSE)
 [![Open Issues](https://img.shields.io/github/issues/whix100/DiceEngine.NET?style=flat-square)](https://github.com/whix100/DiceEngine.NET/issues)
 [![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/whix100/DiceEngine.NET?style=flat-square)](https://github.com/whix100/DiceEngine.NET/pulls)
 
