@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DiceEngine\DiceEngine.csproj" />
+    <ProjectReference Include="..\..\src\DiceEngine\DiceEngine.csproj" />
   </ItemGroup>
 
 </Project>
