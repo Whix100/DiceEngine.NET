@@ -1,120 +1,120 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes
-  commentId: N:CalcExpr.FunctionAttributes.ConditionalAttributes
-  id: CalcExpr.FunctionAttributes.ConditionalAttributes
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes
+  commentId: N:DiceEngine.FunctionAttributes.ConditionalAttributes
+  id: DiceEngine.FunctionAttributes.ConditionalAttributes
   children:
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.MaximumAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.RangeAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.MaximumAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute
   langs:
   - csharp
   - vb
-  name: CalcExpr.FunctionAttributes.ConditionalAttributes
-  nameWithType: CalcExpr.FunctionAttributes.ConditionalAttributes
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes
+  name: DiceEngine.FunctionAttributes.ConditionalAttributes
+  nameWithType: DiceEngine.FunctionAttributes.ConditionalAttributes
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute.html
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute.html
   name: AreNumbersAttribute
   nameWithType: AreNumbersAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html
   name: ConditionAttribute
   nameWithType: ConditionAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.html
   name: GapAttribute
   nameWithType: GapAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute.html
   name: IsExpressionTypeAttribute
   nameWithType: IsExpressionTypeAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute.html
   name: IsIntegerAttribute
   nameWithType: IsIntegerAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.IsNumberAttribute.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.IsNumberAttribute.html
   name: IsNumberAttribute
   nameWithType: IsNumberAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MaximumAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.MaximumAttribute
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.MaximumAttribute.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MaximumAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.MaximumAttribute
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.MaximumAttribute.html
   name: MaximumAttribute
   nameWithType: MaximumAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.MaximumAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.MaximumAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.html
   name: MinimumAttribute
   nameWithType: MinimumAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.html
   name: NotUndefinedAttribute
   nameWithType: NotUndefinedAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.RangeAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.RangeAttribute
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.RangeAttribute.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute.html
   name: RangeAttribute
   nameWithType: RangeAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.RangeAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes
-  commentId: N:CalcExpr.FunctionAttributes.ConditionalAttributes
-  href: CalcExpr.html
-  name: CalcExpr.FunctionAttributes.ConditionalAttributes
-  nameWithType: CalcExpr.FunctionAttributes.ConditionalAttributes
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes
+  commentId: N:DiceEngine.FunctionAttributes.ConditionalAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes.ConditionalAttributes
+  nameWithType: DiceEngine.FunctionAttributes.ConditionalAttributes
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes
     name: ConditionalAttributes
-    href: CalcExpr.FunctionAttributes.ConditionalAttributes.html
+    href: DiceEngine.FunctionAttributes.ConditionalAttributes.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes
     name: ConditionalAttributes
-    href: CalcExpr.FunctionAttributes.ConditionalAttributes.html
+    href: DiceEngine.FunctionAttributes.ConditionalAttributes.html

@@ -1,105 +1,105 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Parsing.Rules
-  commentId: N:CalcExpr.Parsing.Rules
-  id: CalcExpr.Parsing.Rules
+- uid: DiceEngine.Parsing.Rules
+  commentId: N:DiceEngine.Parsing.Rules
+  id: DiceEngine.Parsing.Rules
   children:
-  - CalcExpr.Parsing.Rules.IParserRule
-  - CalcExpr.Parsing.Rules.OptionRule
-  - CalcExpr.Parsing.Rules.ParserRule
-  - CalcExpr.Parsing.Rules.RegexRule
-  - CalcExpr.Parsing.Rules.TypeRule`1
+  - DiceEngine.Parsing.Rules.IParserRule
+  - DiceEngine.Parsing.Rules.OptionRule
+  - DiceEngine.Parsing.Rules.ParserRule
+  - DiceEngine.Parsing.Rules.RegexRule
+  - DiceEngine.Parsing.Rules.TypeRule`1
   langs:
   - csharp
   - vb
-  name: CalcExpr.Parsing.Rules
-  nameWithType: CalcExpr.Parsing.Rules
-  fullName: CalcExpr.Parsing.Rules
+  name: DiceEngine.Parsing.Rules
+  nameWithType: DiceEngine.Parsing.Rules
+  fullName: DiceEngine.Parsing.Rules
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Parsing.Rules.IParserRule
-  commentId: T:CalcExpr.Parsing.Rules.IParserRule
-  parent: CalcExpr.Parsing.Rules
-  href: CalcExpr.Parsing.Rules.IParserRule.html
+- uid: DiceEngine.Parsing.Rules.IParserRule
+  commentId: T:DiceEngine.Parsing.Rules.IParserRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.IParserRule.html
   name: IParserRule
   nameWithType: IParserRule
-  fullName: CalcExpr.Parsing.Rules.IParserRule
-- uid: CalcExpr.Parsing.Rules.OptionRule
-  commentId: T:CalcExpr.Parsing.Rules.OptionRule
-  parent: CalcExpr.Parsing.Rules
-  href: CalcExpr.Parsing.Rules.OptionRule.html
+  fullName: DiceEngine.Parsing.Rules.IParserRule
+- uid: DiceEngine.Parsing.Rules.OptionRule
+  commentId: T:DiceEngine.Parsing.Rules.OptionRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.OptionRule.html
   name: OptionRule
   nameWithType: OptionRule
-  fullName: CalcExpr.Parsing.Rules.OptionRule
-- uid: CalcExpr.Parsing.Rules.ParserRule
-  commentId: T:CalcExpr.Parsing.Rules.ParserRule
-  parent: CalcExpr.Parsing.Rules
-  href: CalcExpr.Parsing.Rules.ParserRule.html
+  fullName: DiceEngine.Parsing.Rules.OptionRule
+- uid: DiceEngine.Parsing.Rules.ParserRule
+  commentId: T:DiceEngine.Parsing.Rules.ParserRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.ParserRule.html
   name: ParserRule
   nameWithType: ParserRule
-  fullName: CalcExpr.Parsing.Rules.ParserRule
-- uid: CalcExpr.Parsing.Rules.RegexRule
-  commentId: T:CalcExpr.Parsing.Rules.RegexRule
-  parent: CalcExpr.Parsing.Rules
-  href: CalcExpr.Parsing.Rules.RegexRule.html
+  fullName: DiceEngine.Parsing.Rules.ParserRule
+- uid: DiceEngine.Parsing.Rules.RegexRule
+  commentId: T:DiceEngine.Parsing.Rules.RegexRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.RegexRule.html
   name: RegexRule
   nameWithType: RegexRule
-  fullName: CalcExpr.Parsing.Rules.RegexRule
-- uid: CalcExpr.Parsing.Rules.TypeRule`1
-  commentId: T:CalcExpr.Parsing.Rules.TypeRule`1
-  parent: CalcExpr.Parsing.Rules
-  href: CalcExpr.Parsing.Rules.TypeRule-1.html
+  fullName: DiceEngine.Parsing.Rules.RegexRule
+- uid: DiceEngine.Parsing.Rules.TypeRule`1
+  commentId: T:DiceEngine.Parsing.Rules.TypeRule`1
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.TypeRule-1.html
   name: TypeRule<T>
   nameWithType: TypeRule<T>
-  fullName: CalcExpr.Parsing.Rules.TypeRule<T>
+  fullName: DiceEngine.Parsing.Rules.TypeRule<T>
   nameWithType.vb: TypeRule(Of T)
-  fullName.vb: CalcExpr.Parsing.Rules.TypeRule(Of T)
+  fullName.vb: DiceEngine.Parsing.Rules.TypeRule(Of T)
   name.vb: TypeRule(Of T)
   spec.csharp:
-  - uid: CalcExpr.Parsing.Rules.TypeRule`1
+  - uid: DiceEngine.Parsing.Rules.TypeRule`1
     name: TypeRule
-    href: CalcExpr.Parsing.Rules.TypeRule-1.html
+    href: DiceEngine.Parsing.Rules.TypeRule-1.html
   - name: <
   - name: T
   - name: '>'
   spec.vb:
-  - uid: CalcExpr.Parsing.Rules.TypeRule`1
+  - uid: DiceEngine.Parsing.Rules.TypeRule`1
     name: TypeRule
-    href: CalcExpr.Parsing.Rules.TypeRule-1.html
+    href: DiceEngine.Parsing.Rules.TypeRule-1.html
   - name: (
   - name: Of
   - name: " "
   - name: T
   - name: )
-- uid: CalcExpr.Parsing.Rules
-  commentId: N:CalcExpr.Parsing.Rules
-  href: CalcExpr.html
-  name: CalcExpr.Parsing.Rules
-  nameWithType: CalcExpr.Parsing.Rules
-  fullName: CalcExpr.Parsing.Rules
+- uid: DiceEngine.Parsing.Rules
+  commentId: N:DiceEngine.Parsing.Rules
+  href: DiceEngine.html
+  name: DiceEngine.Parsing.Rules
+  nameWithType: DiceEngine.Parsing.Rules
+  fullName: DiceEngine.Parsing.Rules
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html
   - name: .
-  - uid: CalcExpr.Parsing.Rules
+  - uid: DiceEngine.Parsing.Rules
     name: Rules
-    href: CalcExpr.Parsing.Rules.html
+    href: DiceEngine.Parsing.Rules.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html
   - name: .
-  - uid: CalcExpr.Parsing.Rules
+  - uid: DiceEngine.Parsing.Rules
     name: Rules
-    href: CalcExpr.Parsing.Rules.html
+    href: DiceEngine.Parsing.Rules.html

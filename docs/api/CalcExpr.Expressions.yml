@@ -1,111 +1,111 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  id: CalcExpr.Expressions
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  id: DiceEngine.Expressions
   children:
-  - CalcExpr.Expressions.AssignmentOperator
-  - CalcExpr.Expressions.BinaryOperator
-  - CalcExpr.Expressions.Constant
-  - CalcExpr.Expressions.FunctionCall
-  - CalcExpr.Expressions.IExpression
-  - CalcExpr.Expressions.Indexer
-  - CalcExpr.Expressions.Parentheses
-  - CalcExpr.Expressions.PostfixOperator
-  - CalcExpr.Expressions.PrefixOperator
-  - CalcExpr.Expressions.Variable
+  - DiceEngine.Expressions.AssignmentOperator
+  - DiceEngine.Expressions.BinaryOperator
+  - DiceEngine.Expressions.Constant
+  - DiceEngine.Expressions.FunctionCall
+  - DiceEngine.Expressions.IExpression
+  - DiceEngine.Expressions.Indexer
+  - DiceEngine.Expressions.Parentheses
+  - DiceEngine.Expressions.PostfixOperator
+  - DiceEngine.Expressions.PrefixOperator
+  - DiceEngine.Expressions.Variable
   langs:
   - csharp
   - vb
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Expressions.AssignmentOperator
-  commentId: T:CalcExpr.Expressions.AssignmentOperator
-  href: CalcExpr.Expressions.AssignmentOperator.html
+- uid: DiceEngine.Expressions.AssignmentOperator
+  commentId: T:DiceEngine.Expressions.AssignmentOperator
+  href: DiceEngine.Expressions.AssignmentOperator.html
   name: AssignmentOperator
   nameWithType: AssignmentOperator
-  fullName: CalcExpr.Expressions.AssignmentOperator
-- uid: CalcExpr.Expressions.BinaryOperator
-  commentId: T:CalcExpr.Expressions.BinaryOperator
-  href: CalcExpr.Expressions.BinaryOperator.html
+  fullName: DiceEngine.Expressions.AssignmentOperator
+- uid: DiceEngine.Expressions.BinaryOperator
+  commentId: T:DiceEngine.Expressions.BinaryOperator
+  href: DiceEngine.Expressions.BinaryOperator.html
   name: BinaryOperator
   nameWithType: BinaryOperator
-  fullName: CalcExpr.Expressions.BinaryOperator
-- uid: CalcExpr.Expressions.Constant
-  commentId: T:CalcExpr.Expressions.Constant
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.Constant.html
+  fullName: DiceEngine.Expressions.BinaryOperator
+- uid: DiceEngine.Expressions.Constant
+  commentId: T:DiceEngine.Expressions.Constant
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.Constant.html
   name: Constant
   nameWithType: Constant
-  fullName: CalcExpr.Expressions.Constant
-- uid: CalcExpr.Expressions.FunctionCall
-  commentId: T:CalcExpr.Expressions.FunctionCall
-  href: CalcExpr.Expressions.FunctionCall.html
+  fullName: DiceEngine.Expressions.Constant
+- uid: DiceEngine.Expressions.FunctionCall
+  commentId: T:DiceEngine.Expressions.FunctionCall
+  href: DiceEngine.Expressions.FunctionCall.html
   name: FunctionCall
   nameWithType: FunctionCall
-  fullName: CalcExpr.Expressions.FunctionCall
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.Expressions.FunctionCall
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions.Indexer
-  commentId: T:CalcExpr.Expressions.Indexer
-  href: CalcExpr.Expressions.Indexer.html
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions.Indexer
+  commentId: T:DiceEngine.Expressions.Indexer
+  href: DiceEngine.Expressions.Indexer.html
   name: Indexer
   nameWithType: Indexer
-  fullName: CalcExpr.Expressions.Indexer
-- uid: CalcExpr.Expressions.Parentheses
-  commentId: T:CalcExpr.Expressions.Parentheses
-  href: CalcExpr.Expressions.Parentheses.html
+  fullName: DiceEngine.Expressions.Indexer
+- uid: DiceEngine.Expressions.Parentheses
+  commentId: T:DiceEngine.Expressions.Parentheses
+  href: DiceEngine.Expressions.Parentheses.html
   name: Parentheses
   nameWithType: Parentheses
-  fullName: CalcExpr.Expressions.Parentheses
-- uid: CalcExpr.Expressions.PostfixOperator
-  commentId: T:CalcExpr.Expressions.PostfixOperator
-  href: CalcExpr.Expressions.PostfixOperator.html
+  fullName: DiceEngine.Expressions.Parentheses
+- uid: DiceEngine.Expressions.PostfixOperator
+  commentId: T:DiceEngine.Expressions.PostfixOperator
+  href: DiceEngine.Expressions.PostfixOperator.html
   name: PostfixOperator
   nameWithType: PostfixOperator
-  fullName: CalcExpr.Expressions.PostfixOperator
-- uid: CalcExpr.Expressions.PrefixOperator
-  commentId: T:CalcExpr.Expressions.PrefixOperator
-  href: CalcExpr.Expressions.PrefixOperator.html
+  fullName: DiceEngine.Expressions.PostfixOperator
+- uid: DiceEngine.Expressions.PrefixOperator
+  commentId: T:DiceEngine.Expressions.PrefixOperator
+  href: DiceEngine.Expressions.PrefixOperator.html
   name: PrefixOperator
   nameWithType: PrefixOperator
-  fullName: CalcExpr.Expressions.PrefixOperator
-- uid: CalcExpr.Expressions.Variable
-  commentId: T:CalcExpr.Expressions.Variable
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.Variable.html
+  fullName: DiceEngine.Expressions.PrefixOperator
+- uid: DiceEngine.Expressions.Variable
+  commentId: T:DiceEngine.Expressions.Variable
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.Variable.html
   name: Variable
   nameWithType: Variable
-  fullName: CalcExpr.Expressions.Variable
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  fullName: DiceEngine.Expressions.Variable
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html

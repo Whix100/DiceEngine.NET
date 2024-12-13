@@ -1,37 +1,37 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
   id: NotUndefinedAttribute
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes
   children:
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
   langs:
   - csharp
   - vb
   name: NotUndefinedAttribute
   nameWithType: NotUndefinedAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
   type: Class
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/ConditionalAttributes/NotUndefinedAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/ConditionalAttributes/NotUndefinedAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: NotUndefinedAttribute
-    path: ../src/CalcExpr/FunctionAttributes/ConditionalAttributes/NotUndefinedAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/ConditionalAttributes/NotUndefinedAttribute.cs
     startLine: 5
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes.ConditionalAttributes
   syntax:
     content: 'public class NotUndefinedAttribute : ConditionAttribute'
     content.vb: Public Class NotUndefinedAttribute Inherits ConditionAttribute
   inheritance:
   - System.Object
   - System.Attribute
-  - CalcExpr.FunctionAttributes.FunctionAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  - DiceEngine.FunctionAttributes.FunctionAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
   inheritedMembers:
   - System.Attribute.Equals(System.Object)
   - System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
@@ -75,70 +75,70 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  id: CheckCondition(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  id: CheckCondition(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
   langs:
   - csharp
   - vb
   name: CheckCondition(IExpression)
   nameWithType: NotUndefinedAttribute.CheckCondition(IExpression)
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/ConditionalAttributes/NotUndefinedAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/ConditionalAttributes/NotUndefinedAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: CheckCondition
-    path: ../src/CalcExpr/FunctionAttributes/ConditionalAttributes/NotUndefinedAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/ConditionalAttributes/NotUndefinedAttribute.cs
     startLine: 7
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes.ConditionalAttributes
   example: []
   syntax:
     content: public override bool CheckCondition(IExpression expression)
     parameters:
     - id: expression
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
       type: System.Boolean
     content.vb: Public Overrides Function CheckCondition(expression As IExpression) As Boolean
-  overridden: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  overload: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition*
+  overridden: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  overload: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition*
 references:
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes
-  commentId: N:CalcExpr.FunctionAttributes.ConditionalAttributes
-  href: CalcExpr.html
-  name: CalcExpr.FunctionAttributes.ConditionalAttributes
-  nameWithType: CalcExpr.FunctionAttributes.ConditionalAttributes
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes
+  commentId: N:DiceEngine.FunctionAttributes.ConditionalAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes.ConditionalAttributes
+  nameWithType: DiceEngine.FunctionAttributes.ConditionalAttributes
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes
     name: ConditionalAttributes
-    href: CalcExpr.FunctionAttributes.ConditionalAttributes.html
+    href: DiceEngine.FunctionAttributes.ConditionalAttributes.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes
     name: ConditionalAttributes
-    href: CalcExpr.FunctionAttributes.ConditionalAttributes.html
+    href: DiceEngine.FunctionAttributes.ConditionalAttributes.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -158,20 +158,20 @@ references:
   name: Attribute
   nameWithType: Attribute
   fullName: System.Attribute
-- uid: CalcExpr.FunctionAttributes.FunctionAttribute
-  commentId: T:CalcExpr.FunctionAttributes.FunctionAttribute
-  parent: CalcExpr.FunctionAttributes
-  href: CalcExpr.FunctionAttributes.FunctionAttribute.html
+- uid: DiceEngine.FunctionAttributes.FunctionAttribute
+  commentId: T:DiceEngine.FunctionAttributes.FunctionAttribute
+  parent: DiceEngine.FunctionAttributes
+  href: DiceEngine.FunctionAttributes.FunctionAttribute.html
   name: FunctionAttribute
   nameWithType: FunctionAttribute
-  fullName: CalcExpr.FunctionAttributes.FunctionAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html
+  fullName: DiceEngine.FunctionAttributes.FunctionAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html
   name: ConditionAttribute
   nameWithType: ConditionAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
 - uid: System.Attribute.Equals(System.Object)
   commentId: M:System.Attribute.Equals(System.Object)
   parent: System.Attribute
@@ -1947,66 +1947,66 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.FunctionAttributes
-  commentId: N:CalcExpr.FunctionAttributes
-  href: CalcExpr.html
-  name: CalcExpr.FunctionAttributes
-  nameWithType: CalcExpr.FunctionAttributes
-  fullName: CalcExpr.FunctionAttributes
+- uid: DiceEngine.FunctionAttributes
+  commentId: N:DiceEngine.FunctionAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes
+  nameWithType: DiceEngine.FunctionAttributes
+  fullName: DiceEngine.FunctionAttributes
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#CalcExpr_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.FunctionAttributes.html
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#DiceEngine_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_DiceEngine_Expressions_IExpression_
   name: CheckCondition(IExpression)
   nameWithType: ConditionAttribute.CheckCondition(IExpression)
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
   spec.csharp:
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
     name: CheckCondition
-    href: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#CalcExpr_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#DiceEngine_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_DiceEngine_Expressions_IExpression_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
     name: CheckCondition
-    href: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#CalcExpr_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#DiceEngine_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_DiceEngine_Expressions_IExpression_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition*
-  commentId: Overload:CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.html#CalcExpr_FunctionAttributes_ConditionalAttributes_NotUndefinedAttribute_CheckCondition_CalcExpr_Expressions_IExpression_
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition*
+  commentId: Overload:DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.html#DiceEngine_FunctionAttributes_ConditionalAttributes_NotUndefinedAttribute_CheckCondition_DiceEngine_Expressions_IExpression_
   name: CheckCondition
   nameWithType: NotUndefinedAttribute.CheckCondition
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute.CheckCondition
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
+  fullName: DiceEngine.Expressions.IExpression
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -2018,25 +2018,25 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html

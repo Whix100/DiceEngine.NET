@@ -1,169 +1,169 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.Components.TypeParameter`1
-  commentId: T:CalcExpr.Expressions.Components.TypeParameter`1
+- uid: DiceEngine.Expressions.Components.TypeParameter`1
+  commentId: T:DiceEngine.Expressions.Components.TypeParameter`1
   id: TypeParameter`1
-  parent: CalcExpr.Expressions.Components
+  parent: DiceEngine.Expressions.Components
   children:
-  - CalcExpr.Expressions.Components.TypeParameter`1.#ctor(System.Collections.Generic.IEnumerable{CalcExpr.FunctionAttributes.FunctionAttribute},System.Boolean)
-  - CalcExpr.Expressions.Components.TypeParameter`1.AllowNull
-  - CalcExpr.Expressions.Components.TypeParameter`1.Attributes
-  - CalcExpr.Expressions.Components.TypeParameter`1.Equals(System.Object)
-  - CalcExpr.Expressions.Components.TypeParameter`1.GetHashCode
-  - CalcExpr.Expressions.Components.TypeParameter`1.ParameterType
-  - CalcExpr.Expressions.Components.TypeParameter`1.ProcessArgument(CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - DiceEngine.Expressions.Components.TypeParameter`1.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.FunctionAttributes.FunctionAttribute},System.Boolean)
+  - DiceEngine.Expressions.Components.TypeParameter`1.AllowNull
+  - DiceEngine.Expressions.Components.TypeParameter`1.Attributes
+  - DiceEngine.Expressions.Components.TypeParameter`1.Equals(System.Object)
+  - DiceEngine.Expressions.Components.TypeParameter`1.GetHashCode
+  - DiceEngine.Expressions.Components.TypeParameter`1.ParameterType
+  - DiceEngine.Expressions.Components.TypeParameter`1.ProcessArgument(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
   langs:
   - csharp
   - vb
   name: TypeParameter<T>
   nameWithType: TypeParameter<T>
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>
   type: Struct
   source:
     remote:
-      path: src/CalcExpr/Expressions/Components/TypeParameter.cs
+      path: src/DiceEngine/Expressions/Components/TypeParameter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: TypeParameter
-    path: ../src/CalcExpr/Expressions/Components/TypeParameter.cs
+    path: ../src/DiceEngine/Expressions/Components/TypeParameter.cs
     startLine: 7
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Components
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Components
   syntax:
     content: 'public readonly struct TypeParameter<T> : IParameter'
     typeParameters:
     - id: T
     content.vb: Public Structure TypeParameter(Of T) Implements IParameter
   implements:
-  - CalcExpr.Expressions.Components.IParameter
+  - DiceEngine.Expressions.Components.IParameter
   inheritedMembers:
   - System.ValueType.ToString
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.ReferenceEquals(System.Object,System.Object)
   nameWithType.vb: TypeParameter(Of T)
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T)
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T)
   name.vb: TypeParameter(Of T)
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.#ctor(System.Collections.Generic.IEnumerable{CalcExpr.FunctionAttributes.FunctionAttribute},System.Boolean)
-  commentId: M:CalcExpr.Expressions.Components.TypeParameter`1.#ctor(System.Collections.Generic.IEnumerable{CalcExpr.FunctionAttributes.FunctionAttribute},System.Boolean)
-  id: '#ctor(System.Collections.Generic.IEnumerable{CalcExpr.FunctionAttributes.FunctionAttribute},System.Boolean)'
-  parent: CalcExpr.Expressions.Components.TypeParameter`1
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.FunctionAttributes.FunctionAttribute},System.Boolean)
+  commentId: M:DiceEngine.Expressions.Components.TypeParameter`1.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.FunctionAttributes.FunctionAttribute},System.Boolean)
+  id: '#ctor(System.Collections.Generic.IEnumerable{DiceEngine.FunctionAttributes.FunctionAttribute},System.Boolean)'
+  parent: DiceEngine.Expressions.Components.TypeParameter`1
   langs:
   - csharp
   - vb
   name: TypeParameter(IEnumerable<FunctionAttribute>, bool)
   nameWithType: TypeParameter<T>.TypeParameter(IEnumerable<FunctionAttribute>, bool)
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.TypeParameter(System.Collections.Generic.IEnumerable<CalcExpr.FunctionAttributes.FunctionAttribute>, bool)
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.TypeParameter(System.Collections.Generic.IEnumerable<DiceEngine.FunctionAttributes.FunctionAttribute>, bool)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Expressions/Components/TypeParameter.cs
+      path: src/DiceEngine/Expressions/Components/TypeParameter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Expressions/Components/TypeParameter.cs
+    path: ../src/DiceEngine/Expressions/Components/TypeParameter.cs
     startLine: 7
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Components
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Components
   syntax:
     content: public TypeParameter(IEnumerable<FunctionAttribute> attributes, bool allow_null)
     parameters:
     - id: attributes
-      type: System.Collections.Generic.IEnumerable{CalcExpr.FunctionAttributes.FunctionAttribute}
+      type: System.Collections.Generic.IEnumerable{DiceEngine.FunctionAttributes.FunctionAttribute}
     - id: allow_null
       type: System.Boolean
     content.vb: Public Sub New(attributes As IEnumerable(Of FunctionAttribute), allow_null As Boolean)
-  overload: CalcExpr.Expressions.Components.TypeParameter`1.#ctor*
+  overload: DiceEngine.Expressions.Components.TypeParameter`1.#ctor*
   nameWithType.vb: TypeParameter(Of T).New(IEnumerable(Of FunctionAttribute), Boolean)
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).New(System.Collections.Generic.IEnumerable(Of CalcExpr.FunctionAttributes.FunctionAttribute), Boolean)
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).New(System.Collections.Generic.IEnumerable(Of DiceEngine.FunctionAttributes.FunctionAttribute), Boolean)
   name.vb: New(IEnumerable(Of FunctionAttribute), Boolean)
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.ParameterType
-  commentId: F:CalcExpr.Expressions.Components.TypeParameter`1.ParameterType
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.ParameterType
+  commentId: F:DiceEngine.Expressions.Components.TypeParameter`1.ParameterType
   id: ParameterType
-  parent: CalcExpr.Expressions.Components.TypeParameter`1
+  parent: DiceEngine.Expressions.Components.TypeParameter`1
   langs:
   - csharp
   - vb
   name: ParameterType
   nameWithType: TypeParameter<T>.ParameterType
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.ParameterType
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.ParameterType
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Components/TypeParameter.cs
+      path: src/DiceEngine/Expressions/Components/TypeParameter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ParameterType
-    path: ../src/CalcExpr/Expressions/Components/TypeParameter.cs
+    path: ../src/DiceEngine/Expressions/Components/TypeParameter.cs
     startLine: 9
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Components
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Components
   syntax:
     content: public readonly Type ParameterType
     return:
       type: System.Type
     content.vb: Public ReadOnly ParameterType As Type
   nameWithType.vb: TypeParameter(Of T).ParameterType
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).ParameterType
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.Attributes
-  commentId: P:CalcExpr.Expressions.Components.TypeParameter`1.Attributes
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).ParameterType
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.Attributes
+  commentId: P:DiceEngine.Expressions.Components.TypeParameter`1.Attributes
   id: Attributes
-  parent: CalcExpr.Expressions.Components.TypeParameter`1
+  parent: DiceEngine.Expressions.Components.TypeParameter`1
   langs:
   - csharp
   - vb
   name: Attributes
   nameWithType: TypeParameter<T>.Attributes
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.Attributes
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.Attributes
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Expressions/Components/TypeParameter.cs
+      path: src/DiceEngine/Expressions/Components/TypeParameter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Attributes
-    path: ../src/CalcExpr/Expressions/Components/TypeParameter.cs
+    path: ../src/DiceEngine/Expressions/Components/TypeParameter.cs
     startLine: 11
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Components
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Components
   example: []
   syntax:
     content: public FunctionAttribute[] Attributes { get; }
     parameters: []
     return:
-      type: CalcExpr.FunctionAttributes.FunctionAttribute[]
+      type: DiceEngine.FunctionAttributes.FunctionAttribute[]
     content.vb: Public ReadOnly Property Attributes As FunctionAttribute()
-  overload: CalcExpr.Expressions.Components.TypeParameter`1.Attributes*
+  overload: DiceEngine.Expressions.Components.TypeParameter`1.Attributes*
   implements:
-  - CalcExpr.Expressions.Components.IParameter.Attributes
+  - DiceEngine.Expressions.Components.IParameter.Attributes
   nameWithType.vb: TypeParameter(Of T).Attributes
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).Attributes
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.AllowNull
-  commentId: P:CalcExpr.Expressions.Components.TypeParameter`1.AllowNull
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).Attributes
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.AllowNull
+  commentId: P:DiceEngine.Expressions.Components.TypeParameter`1.AllowNull
   id: AllowNull
-  parent: CalcExpr.Expressions.Components.TypeParameter`1
+  parent: DiceEngine.Expressions.Components.TypeParameter`1
   langs:
   - csharp
   - vb
   name: AllowNull
   nameWithType: TypeParameter<T>.AllowNull
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.AllowNull
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.AllowNull
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Expressions/Components/TypeParameter.cs
+      path: src/DiceEngine/Expressions/Components/TypeParameter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: AllowNull
-    path: ../src/CalcExpr/Expressions/Components/TypeParameter.cs
+    path: ../src/DiceEngine/Expressions/Components/TypeParameter.cs
     startLine: 13
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Components
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Components
   example: []
   syntax:
     content: public bool AllowNull { get; }
@@ -171,71 +171,71 @@ items:
     return:
       type: System.Boolean
     content.vb: Public ReadOnly Property AllowNull As Boolean
-  overload: CalcExpr.Expressions.Components.TypeParameter`1.AllowNull*
+  overload: DiceEngine.Expressions.Components.TypeParameter`1.AllowNull*
   implements:
-  - CalcExpr.Expressions.Components.IParameter.AllowNull
+  - DiceEngine.Expressions.Components.IParameter.AllowNull
   nameWithType.vb: TypeParameter(Of T).AllowNull
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).AllowNull
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.ProcessArgument(CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Components.TypeParameter`1.ProcessArgument(CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  id: ProcessArgument(CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Components.TypeParameter`1
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).AllowNull
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.ProcessArgument(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Components.TypeParameter`1.ProcessArgument(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: ProcessArgument(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Components.TypeParameter`1
   langs:
   - csharp
   - vb
   name: ProcessArgument(IExpression, ExpressionContext)
   nameWithType: TypeParameter<T>.ProcessArgument(IExpression, ExpressionContext)
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.ProcessArgument(CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.ProcessArgument(DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Components/TypeParameter.cs
+      path: src/DiceEngine/Expressions/Components/TypeParameter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ProcessArgument
-    path: ../src/CalcExpr/Expressions/Components/TypeParameter.cs
+    path: ../src/DiceEngine/Expressions/Components/TypeParameter.cs
     startLine: 15
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Components
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Components
   example: []
   syntax:
     content: public object? ProcessArgument(IExpression argument, ExpressionContext context)
     parameters:
     - id: argument
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
       type: System.Object
     content.vb: Public Function ProcessArgument(argument As IExpression, context As ExpressionContext) As Object
-  overload: CalcExpr.Expressions.Components.TypeParameter`1.ProcessArgument*
+  overload: DiceEngine.Expressions.Components.TypeParameter`1.ProcessArgument*
   implements:
-  - CalcExpr.Expressions.Components.IParameter.ProcessArgument(CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - DiceEngine.Expressions.Components.IParameter.ProcessArgument(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
   nameWithType.vb: TypeParameter(Of T).ProcessArgument(IExpression, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).ProcessArgument(CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.GetHashCode
-  commentId: M:CalcExpr.Expressions.Components.TypeParameter`1.GetHashCode
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).ProcessArgument(DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.GetHashCode
+  commentId: M:DiceEngine.Expressions.Components.TypeParameter`1.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Expressions.Components.TypeParameter`1
+  parent: DiceEngine.Expressions.Components.TypeParameter`1
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: TypeParameter<T>.GetHashCode()
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.GetHashCode()
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Components/TypeParameter.cs
+      path: src/DiceEngine/Expressions/Components/TypeParameter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Expressions/Components/TypeParameter.cs
+    path: ../src/DiceEngine/Expressions/Components/TypeParameter.cs
     startLine: 25
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Components
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Components
   summary: Returns the hash code for this instance.
   example: []
   syntax:
@@ -245,31 +245,31 @@ items:
       description: A 32-bit signed integer that is the hash code for this instance.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.ValueType.GetHashCode
-  overload: CalcExpr.Expressions.Components.TypeParameter`1.GetHashCode*
+  overload: DiceEngine.Expressions.Components.TypeParameter`1.GetHashCode*
   nameWithType.vb: TypeParameter(Of T).GetHashCode()
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).GetHashCode()
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.Equals(System.Object)
-  commentId: M:CalcExpr.Expressions.Components.TypeParameter`1.Equals(System.Object)
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).GetHashCode()
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.Components.TypeParameter`1.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Expressions.Components.TypeParameter`1
+  parent: DiceEngine.Expressions.Components.TypeParameter`1
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: TypeParameter<T>.Equals(object?)
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.Equals(object?)
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Components/TypeParameter.cs
+      path: src/DiceEngine/Expressions/Components/TypeParameter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Expressions/Components/TypeParameter.cs
+    path: ../src/DiceEngine/Expressions/Components/TypeParameter.cs
     startLine: 28
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Components
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Components
   summary: Indicates whether this instance and a specified object are equal.
   example: []
   syntax:
@@ -283,48 +283,48 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.ValueType.Equals(System.Object)
-  overload: CalcExpr.Expressions.Components.TypeParameter`1.Equals*
+  overload: DiceEngine.Expressions.Components.TypeParameter`1.Equals*
   nameWithType.vb: TypeParameter(Of T).Equals(Object)
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).Equals(Object)
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).Equals(Object)
   name.vb: Equals(Object)
 references:
-- uid: CalcExpr.Expressions.Components
-  commentId: N:CalcExpr.Expressions.Components
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Components
-  nameWithType: CalcExpr.Expressions.Components
-  fullName: CalcExpr.Expressions.Components
+- uid: DiceEngine.Expressions.Components
+  commentId: N:DiceEngine.Expressions.Components
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Components
+  nameWithType: DiceEngine.Expressions.Components
+  fullName: DiceEngine.Expressions.Components
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Components
+  - uid: DiceEngine.Expressions.Components
     name: Components
-    href: CalcExpr.Expressions.Components.html
+    href: DiceEngine.Expressions.Components.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Components
+  - uid: DiceEngine.Expressions.Components
     name: Components
-    href: CalcExpr.Expressions.Components.html
-- uid: CalcExpr.Expressions.Components.IParameter
-  commentId: T:CalcExpr.Expressions.Components.IParameter
-  parent: CalcExpr.Expressions.Components
-  href: CalcExpr.Expressions.Components.IParameter.html
+    href: DiceEngine.Expressions.Components.html
+- uid: DiceEngine.Expressions.Components.IParameter
+  commentId: T:DiceEngine.Expressions.Components.IParameter
+  parent: DiceEngine.Expressions.Components
+  href: DiceEngine.Expressions.Components.IParameter.html
   name: IParameter
   nameWithType: IParameter
-  fullName: CalcExpr.Expressions.Components.IParameter
+  fullName: DiceEngine.Expressions.Components.IParameter
 - uid: System.ValueType.ToString
   commentId: M:System.ValueType.ToString
   parent: System.ValueType
@@ -487,25 +487,25 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.#ctor*
-  commentId: Overload:CalcExpr.Expressions.Components.TypeParameter`1.#ctor
-  href: CalcExpr.Expressions.Components.TypeParameter-1.html#CalcExpr_Expressions_Components_TypeParameter_1__ctor_System_Collections_Generic_IEnumerable_CalcExpr_FunctionAttributes_FunctionAttribute__System_Boolean_
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.#ctor*
+  commentId: Overload:DiceEngine.Expressions.Components.TypeParameter`1.#ctor
+  href: DiceEngine.Expressions.Components.TypeParameter-1.html#DiceEngine_Expressions_Components_TypeParameter_1__ctor_System_Collections_Generic_IEnumerable_DiceEngine_FunctionAttributes_FunctionAttribute__System_Boolean_
   name: TypeParameter
   nameWithType: TypeParameter<T>.TypeParameter
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.TypeParameter
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.TypeParameter
   nameWithType.vb: TypeParameter(Of T).New
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).New
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).New
   name.vb: New
-- uid: System.Collections.Generic.IEnumerable{CalcExpr.FunctionAttributes.FunctionAttribute}
-  commentId: T:System.Collections.Generic.IEnumerable{CalcExpr.FunctionAttributes.FunctionAttribute}
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.FunctionAttributes.FunctionAttribute}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.FunctionAttributes.FunctionAttribute}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<FunctionAttribute>
   nameWithType: IEnumerable<FunctionAttribute>
-  fullName: System.Collections.Generic.IEnumerable<CalcExpr.FunctionAttributes.FunctionAttribute>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.FunctionAttributes.FunctionAttribute>
   nameWithType.vb: IEnumerable(Of FunctionAttribute)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of CalcExpr.FunctionAttributes.FunctionAttribute)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.FunctionAttributes.FunctionAttribute)
   name.vb: IEnumerable(Of FunctionAttribute)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -513,9 +513,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: CalcExpr.FunctionAttributes.FunctionAttribute
+  - uid: DiceEngine.FunctionAttributes.FunctionAttribute
     name: FunctionAttribute
-    href: CalcExpr.FunctionAttributes.FunctionAttribute.html
+    href: DiceEngine.FunctionAttributes.FunctionAttribute.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -525,9 +525,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.FunctionAttributes.FunctionAttribute
+  - uid: DiceEngine.FunctionAttributes.FunctionAttribute
     name: FunctionAttribute
-    href: CalcExpr.FunctionAttributes.FunctionAttribute.html
+    href: DiceEngine.FunctionAttributes.FunctionAttribute.html
   - name: )
 - uid: System.Boolean
   commentId: T:System.Boolean
@@ -613,158 +613,158 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.Attributes*
-  commentId: Overload:CalcExpr.Expressions.Components.TypeParameter`1.Attributes
-  href: CalcExpr.Expressions.Components.TypeParameter-1.html#CalcExpr_Expressions_Components_TypeParameter_1_Attributes
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.Attributes*
+  commentId: Overload:DiceEngine.Expressions.Components.TypeParameter`1.Attributes
+  href: DiceEngine.Expressions.Components.TypeParameter-1.html#DiceEngine_Expressions_Components_TypeParameter_1_Attributes
   name: Attributes
   nameWithType: TypeParameter<T>.Attributes
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.Attributes
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.Attributes
   nameWithType.vb: TypeParameter(Of T).Attributes
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).Attributes
-- uid: CalcExpr.Expressions.Components.IParameter.Attributes
-  commentId: P:CalcExpr.Expressions.Components.IParameter.Attributes
-  parent: CalcExpr.Expressions.Components.IParameter
-  href: CalcExpr.Expressions.Components.IParameter.html#CalcExpr_Expressions_Components_IParameter_Attributes
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).Attributes
+- uid: DiceEngine.Expressions.Components.IParameter.Attributes
+  commentId: P:DiceEngine.Expressions.Components.IParameter.Attributes
+  parent: DiceEngine.Expressions.Components.IParameter
+  href: DiceEngine.Expressions.Components.IParameter.html#DiceEngine_Expressions_Components_IParameter_Attributes
   name: Attributes
   nameWithType: IParameter.Attributes
-  fullName: CalcExpr.Expressions.Components.IParameter.Attributes
-- uid: CalcExpr.FunctionAttributes.FunctionAttribute[]
+  fullName: DiceEngine.Expressions.Components.IParameter.Attributes
+- uid: DiceEngine.FunctionAttributes.FunctionAttribute[]
   isExternal: true
-  href: CalcExpr.FunctionAttributes.FunctionAttribute.html
+  href: DiceEngine.FunctionAttributes.FunctionAttribute.html
   name: FunctionAttribute[]
   nameWithType: FunctionAttribute[]
-  fullName: CalcExpr.FunctionAttributes.FunctionAttribute[]
+  fullName: DiceEngine.FunctionAttributes.FunctionAttribute[]
   nameWithType.vb: FunctionAttribute()
-  fullName.vb: CalcExpr.FunctionAttributes.FunctionAttribute()
+  fullName.vb: DiceEngine.FunctionAttributes.FunctionAttribute()
   name.vb: FunctionAttribute()
   spec.csharp:
-  - uid: CalcExpr.FunctionAttributes.FunctionAttribute
+  - uid: DiceEngine.FunctionAttributes.FunctionAttribute
     name: FunctionAttribute
-    href: CalcExpr.FunctionAttributes.FunctionAttribute.html
+    href: DiceEngine.FunctionAttributes.FunctionAttribute.html
   - name: '['
   - name: ']'
   spec.vb:
-  - uid: CalcExpr.FunctionAttributes.FunctionAttribute
+  - uid: DiceEngine.FunctionAttributes.FunctionAttribute
     name: FunctionAttribute
-    href: CalcExpr.FunctionAttributes.FunctionAttribute.html
+    href: DiceEngine.FunctionAttributes.FunctionAttribute.html
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.AllowNull*
-  commentId: Overload:CalcExpr.Expressions.Components.TypeParameter`1.AllowNull
-  href: CalcExpr.Expressions.Components.TypeParameter-1.html#CalcExpr_Expressions_Components_TypeParameter_1_AllowNull
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.AllowNull*
+  commentId: Overload:DiceEngine.Expressions.Components.TypeParameter`1.AllowNull
+  href: DiceEngine.Expressions.Components.TypeParameter-1.html#DiceEngine_Expressions_Components_TypeParameter_1_AllowNull
   name: AllowNull
   nameWithType: TypeParameter<T>.AllowNull
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.AllowNull
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.AllowNull
   nameWithType.vb: TypeParameter(Of T).AllowNull
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).AllowNull
-- uid: CalcExpr.Expressions.Components.IParameter.AllowNull
-  commentId: P:CalcExpr.Expressions.Components.IParameter.AllowNull
-  parent: CalcExpr.Expressions.Components.IParameter
-  href: CalcExpr.Expressions.Components.IParameter.html#CalcExpr_Expressions_Components_IParameter_AllowNull
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).AllowNull
+- uid: DiceEngine.Expressions.Components.IParameter.AllowNull
+  commentId: P:DiceEngine.Expressions.Components.IParameter.AllowNull
+  parent: DiceEngine.Expressions.Components.IParameter
+  href: DiceEngine.Expressions.Components.IParameter.html#DiceEngine_Expressions_Components_IParameter_AllowNull
   name: AllowNull
   nameWithType: IParameter.AllowNull
-  fullName: CalcExpr.Expressions.Components.IParameter.AllowNull
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.ProcessArgument*
-  commentId: Overload:CalcExpr.Expressions.Components.TypeParameter`1.ProcessArgument
-  href: CalcExpr.Expressions.Components.TypeParameter-1.html#CalcExpr_Expressions_Components_TypeParameter_1_ProcessArgument_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+  fullName: DiceEngine.Expressions.Components.IParameter.AllowNull
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.ProcessArgument*
+  commentId: Overload:DiceEngine.Expressions.Components.TypeParameter`1.ProcessArgument
+  href: DiceEngine.Expressions.Components.TypeParameter-1.html#DiceEngine_Expressions_Components_TypeParameter_1_ProcessArgument_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   name: ProcessArgument
   nameWithType: TypeParameter<T>.ProcessArgument
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.ProcessArgument
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.ProcessArgument
   nameWithType.vb: TypeParameter(Of T).ProcessArgument
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).ProcessArgument
-- uid: CalcExpr.Expressions.Components.IParameter.ProcessArgument(CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Components.IParameter.ProcessArgument(CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Components.IParameter
-  href: CalcExpr.Expressions.Components.IParameter.html#CalcExpr_Expressions_Components_IParameter_ProcessArgument_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).ProcessArgument
+- uid: DiceEngine.Expressions.Components.IParameter.ProcessArgument(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Components.IParameter.ProcessArgument(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Components.IParameter
+  href: DiceEngine.Expressions.Components.IParameter.html#DiceEngine_Expressions_Components_IParameter_ProcessArgument_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   name: ProcessArgument(IExpression, ExpressionContext)
   nameWithType: IParameter.ProcessArgument(IExpression, ExpressionContext)
-  fullName: CalcExpr.Expressions.Components.IParameter.ProcessArgument(CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Components.IParameter.ProcessArgument(DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Components.IParameter.ProcessArgument(CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Components.IParameter.ProcessArgument(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
     name: ProcessArgument
-    href: CalcExpr.Expressions.Components.IParameter.html#CalcExpr_Expressions_Components_IParameter_ProcessArgument_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Components.IParameter.html#DiceEngine_Expressions_Components_IParameter_ProcessArgument_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Components.IParameter.ProcessArgument(CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Components.IParameter.ProcessArgument(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
     name: ProcessArgument
-    href: CalcExpr.Expressions.Components.IParameter.html#CalcExpr_Expressions_Components_IParameter_ProcessArgument_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Components.IParameter.html#DiceEngine_Expressions_Components_IParameter_ProcessArgument_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Context.ExpressionContext
-  commentId: T:CalcExpr.Context.ExpressionContext
-  parent: CalcExpr.Context
-  href: CalcExpr.Context.ExpressionContext.html
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
   name: ExpressionContext
   nameWithType: ExpressionContext
-  fullName: CalcExpr.Context.ExpressionContext
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
-- uid: CalcExpr.Context
-  commentId: N:CalcExpr.Context
-  href: CalcExpr.html
-  name: CalcExpr.Context
-  nameWithType: CalcExpr.Context
-  fullName: CalcExpr.Context
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
 - uid: System.ValueType.GetHashCode
   commentId: M:System.ValueType.GetHashCode
   parent: System.ValueType
@@ -787,14 +787,14 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.GetHashCode*
-  commentId: Overload:CalcExpr.Expressions.Components.TypeParameter`1.GetHashCode
-  href: CalcExpr.Expressions.Components.TypeParameter-1.html#CalcExpr_Expressions_Components_TypeParameter_1_GetHashCode
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.GetHashCode*
+  commentId: Overload:DiceEngine.Expressions.Components.TypeParameter`1.GetHashCode
+  href: DiceEngine.Expressions.Components.TypeParameter-1.html#DiceEngine_Expressions_Components_TypeParameter_1_GetHashCode
   name: GetHashCode
   nameWithType: TypeParameter<T>.GetHashCode
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.GetHashCode
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.GetHashCode
   nameWithType.vb: TypeParameter(Of T).GetHashCode
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).GetHashCode
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).GetHashCode
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -839,11 +839,11 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Expressions.Components.TypeParameter`1.Equals*
-  commentId: Overload:CalcExpr.Expressions.Components.TypeParameter`1.Equals
-  href: CalcExpr.Expressions.Components.TypeParameter-1.html#CalcExpr_Expressions_Components_TypeParameter_1_Equals_System_Object_
+- uid: DiceEngine.Expressions.Components.TypeParameter`1.Equals*
+  commentId: Overload:DiceEngine.Expressions.Components.TypeParameter`1.Equals
+  href: DiceEngine.Expressions.Components.TypeParameter-1.html#DiceEngine_Expressions_Components_TypeParameter_1_Equals_System_Object_
   name: Equals
   nameWithType: TypeParameter<T>.Equals
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>.Equals
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>.Equals
   nameWithType.vb: TypeParameter(Of T).Equals
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T).Equals
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T).Equals

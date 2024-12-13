@@ -1,147 +1,147 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Tokenization.Tokens.Bracket
-  commentId: T:CalcExpr.Tokenization.Tokens.Bracket
+- uid: DiceEngine.Tokenization.Tokens.Bracket
+  commentId: T:DiceEngine.Tokenization.Tokens.Bracket
   id: Bracket
-  parent: CalcExpr.Tokenization.Tokens
+  parent: DiceEngine.Tokenization.Tokens
   children:
-  - CalcExpr.Tokenization.Tokens.Bracket.Curly
-  - CalcExpr.Tokenization.Tokens.Bracket.Parenthesis
-  - CalcExpr.Tokenization.Tokens.Bracket.Square
+  - DiceEngine.Tokenization.Tokens.Bracket.Curly
+  - DiceEngine.Tokenization.Tokens.Bracket.Parenthesis
+  - DiceEngine.Tokenization.Tokens.Bracket.Square
   langs:
   - csharp
   - vb
   name: Bracket
   nameWithType: Bracket
-  fullName: CalcExpr.Tokenization.Tokens.Bracket
+  fullName: DiceEngine.Tokenization.Tokens.Bracket
   type: Enum
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Bracket
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 84
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public enum Bracket
     content.vb: Public Enum Bracket
-- uid: CalcExpr.Tokenization.Tokens.Bracket.Parenthesis
-  commentId: F:CalcExpr.Tokenization.Tokens.Bracket.Parenthesis
+- uid: DiceEngine.Tokenization.Tokens.Bracket.Parenthesis
+  commentId: F:DiceEngine.Tokenization.Tokens.Bracket.Parenthesis
   id: Parenthesis
-  parent: CalcExpr.Tokenization.Tokens.Bracket
+  parent: DiceEngine.Tokenization.Tokens.Bracket
   langs:
   - csharp
   - vb
   name: Parenthesis
   nameWithType: Bracket.Parenthesis
-  fullName: CalcExpr.Tokenization.Tokens.Bracket.Parenthesis
+  fullName: DiceEngine.Tokenization.Tokens.Bracket.Parenthesis
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Parenthesis
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 86
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: Parenthesis = 1
     return:
-      type: CalcExpr.Tokenization.Tokens.Bracket
-- uid: CalcExpr.Tokenization.Tokens.Bracket.Square
-  commentId: F:CalcExpr.Tokenization.Tokens.Bracket.Square
+      type: DiceEngine.Tokenization.Tokens.Bracket
+- uid: DiceEngine.Tokenization.Tokens.Bracket.Square
+  commentId: F:DiceEngine.Tokenization.Tokens.Bracket.Square
   id: Square
-  parent: CalcExpr.Tokenization.Tokens.Bracket
+  parent: DiceEngine.Tokenization.Tokens.Bracket
   langs:
   - csharp
   - vb
   name: Square
   nameWithType: Bracket.Square
-  fullName: CalcExpr.Tokenization.Tokens.Bracket.Square
+  fullName: DiceEngine.Tokenization.Tokens.Bracket.Square
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Square
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 87
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: Square = 2
     return:
-      type: CalcExpr.Tokenization.Tokens.Bracket
-- uid: CalcExpr.Tokenization.Tokens.Bracket.Curly
-  commentId: F:CalcExpr.Tokenization.Tokens.Bracket.Curly
+      type: DiceEngine.Tokenization.Tokens.Bracket
+- uid: DiceEngine.Tokenization.Tokens.Bracket.Curly
+  commentId: F:DiceEngine.Tokenization.Tokens.Bracket.Curly
   id: Curly
-  parent: CalcExpr.Tokenization.Tokens.Bracket
+  parent: DiceEngine.Tokenization.Tokens.Bracket
   langs:
   - csharp
   - vb
   name: Curly
   nameWithType: Bracket.Curly
-  fullName: CalcExpr.Tokenization.Tokens.Bracket.Curly
+  fullName: DiceEngine.Tokenization.Tokens.Bracket.Curly
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Curly
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 88
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: Curly = 4
     return:
-      type: CalcExpr.Tokenization.Tokens.Bracket
+      type: DiceEngine.Tokenization.Tokens.Bracket
 references:
-- uid: CalcExpr.Tokenization.Tokens
-  commentId: N:CalcExpr.Tokenization.Tokens
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Tokens
-  nameWithType: CalcExpr.Tokenization.Tokens
-  fullName: CalcExpr.Tokenization.Tokens
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
-- uid: CalcExpr.Tokenization.Tokens.Bracket
-  commentId: T:CalcExpr.Tokenization.Tokens.Bracket
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.Bracket.html
+    href: DiceEngine.Tokenization.Tokens.html
+- uid: DiceEngine.Tokenization.Tokens.Bracket
+  commentId: T:DiceEngine.Tokenization.Tokens.Bracket
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.Bracket.html
   name: Bracket
   nameWithType: Bracket
-  fullName: CalcExpr.Tokenization.Tokens.Bracket
+  fullName: DiceEngine.Tokenization.Tokens.Bracket

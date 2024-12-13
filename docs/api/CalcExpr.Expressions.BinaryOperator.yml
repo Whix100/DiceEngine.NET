@@ -1,66 +1,66 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.BinaryOperator
-  commentId: T:CalcExpr.Expressions.BinaryOperator
+- uid: DiceEngine.Expressions.BinaryOperator
+  commentId: T:DiceEngine.Expressions.BinaryOperator
   id: BinaryOperator
-  parent: CalcExpr.Expressions
+  parent: DiceEngine.Expressions
   children:
-  - CalcExpr.Expressions.BinaryOperator.#ctor(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression)
-  - CalcExpr.Expressions.BinaryOperator.ADDITION
-  - CalcExpr.Expressions.BinaryOperator.AND
-  - CalcExpr.Expressions.BinaryOperator.AND_ALT
-  - CalcExpr.Expressions.BinaryOperator.CROSS_MULTIPLICATION
-  - CalcExpr.Expressions.BinaryOperator.DIVISION
-  - CalcExpr.Expressions.BinaryOperator.EUCLIDEAN_MODULUS
-  - CalcExpr.Expressions.BinaryOperator.EXPONENT
-  - CalcExpr.Expressions.BinaryOperator.Equals(System.Object)
-  - CalcExpr.Expressions.BinaryOperator.Evaluate
-  - CalcExpr.Expressions.BinaryOperator.Evaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.BinaryOperator.GREATER_OR_LESS_THAN
-  - CalcExpr.Expressions.BinaryOperator.GREATER_THAN
-  - CalcExpr.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL
-  - CalcExpr.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL_ALT
-  - CalcExpr.Expressions.BinaryOperator.GetHashCode
-  - CalcExpr.Expressions.BinaryOperator.INT_DIVISION
-  - CalcExpr.Expressions.BinaryOperator.IS_EQUAL
-  - CalcExpr.Expressions.BinaryOperator.Identifier
-  - CalcExpr.Expressions.BinaryOperator.LESS_THAN
-  - CalcExpr.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL
-  - CalcExpr.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL_ALT
-  - CalcExpr.Expressions.BinaryOperator.Left
-  - CalcExpr.Expressions.BinaryOperator.MULTIPLICATION
-  - CalcExpr.Expressions.BinaryOperator.NOT_EQUAL
-  - CalcExpr.Expressions.BinaryOperator.NOT_EQUAL_ALT
-  - CalcExpr.Expressions.BinaryOperator.OR
-  - CalcExpr.Expressions.BinaryOperator.OR_ALT
-  - CalcExpr.Expressions.BinaryOperator.Right
-  - CalcExpr.Expressions.BinaryOperator.SLASH_DIVISION
-  - CalcExpr.Expressions.BinaryOperator.SUBTRACTION
-  - CalcExpr.Expressions.BinaryOperator.StepEvaluate
-  - CalcExpr.Expressions.BinaryOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.BinaryOperator.TRUC_MODULUS
-  - CalcExpr.Expressions.BinaryOperator.ToString
-  - CalcExpr.Expressions.BinaryOperator.ToString(System.String)
-  - CalcExpr.Expressions.BinaryOperator.XOR
+  - DiceEngine.Expressions.BinaryOperator.#ctor(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression)
+  - DiceEngine.Expressions.BinaryOperator.ADDITION
+  - DiceEngine.Expressions.BinaryOperator.AND
+  - DiceEngine.Expressions.BinaryOperator.AND_ALT
+  - DiceEngine.Expressions.BinaryOperator.CROSS_MULTIPLICATION
+  - DiceEngine.Expressions.BinaryOperator.DIVISION
+  - DiceEngine.Expressions.BinaryOperator.EUCLIDEAN_MODULUS
+  - DiceEngine.Expressions.BinaryOperator.EXPONENT
+  - DiceEngine.Expressions.BinaryOperator.Equals(System.Object)
+  - DiceEngine.Expressions.BinaryOperator.Evaluate
+  - DiceEngine.Expressions.BinaryOperator.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.BinaryOperator.GREATER_OR_LESS_THAN
+  - DiceEngine.Expressions.BinaryOperator.GREATER_THAN
+  - DiceEngine.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL
+  - DiceEngine.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL_ALT
+  - DiceEngine.Expressions.BinaryOperator.GetHashCode
+  - DiceEngine.Expressions.BinaryOperator.INT_DIVISION
+  - DiceEngine.Expressions.BinaryOperator.IS_EQUAL
+  - DiceEngine.Expressions.BinaryOperator.Identifier
+  - DiceEngine.Expressions.BinaryOperator.LESS_THAN
+  - DiceEngine.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL
+  - DiceEngine.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL_ALT
+  - DiceEngine.Expressions.BinaryOperator.Left
+  - DiceEngine.Expressions.BinaryOperator.MULTIPLICATION
+  - DiceEngine.Expressions.BinaryOperator.NOT_EQUAL
+  - DiceEngine.Expressions.BinaryOperator.NOT_EQUAL_ALT
+  - DiceEngine.Expressions.BinaryOperator.OR
+  - DiceEngine.Expressions.BinaryOperator.OR_ALT
+  - DiceEngine.Expressions.BinaryOperator.Right
+  - DiceEngine.Expressions.BinaryOperator.SLASH_DIVISION
+  - DiceEngine.Expressions.BinaryOperator.SUBTRACTION
+  - DiceEngine.Expressions.BinaryOperator.StepEvaluate
+  - DiceEngine.Expressions.BinaryOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.BinaryOperator.TRUC_MODULUS
+  - DiceEngine.Expressions.BinaryOperator.ToString
+  - DiceEngine.Expressions.BinaryOperator.ToString(System.String)
+  - DiceEngine.Expressions.BinaryOperator.XOR
   langs:
   - csharp
   - vb
   name: BinaryOperator
   nameWithType: BinaryOperator
-  fullName: CalcExpr.Expressions.BinaryOperator
+  fullName: DiceEngine.Expressions.BinaryOperator
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: BinaryOperator
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 13
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Initializes a new instance of the <xref href="CalcExpr.Expressions.BinaryOperator" data-throw-if-not-resolved="false"></xref> class.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Initializes a new instance of the <xref href="DiceEngine.Expressions.BinaryOperator" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: 'public class BinaryOperator : IExpression'
@@ -68,35 +68,35 @@ items:
   inheritance:
   - System.Object
   implements:
-  - CalcExpr.Expressions.IExpression
+  - DiceEngine.Expressions.IExpression
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: CalcExpr.Expressions.BinaryOperator.#ctor(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.Expressions.BinaryOperator.#ctor(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression)
-  id: '#ctor(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression)'
-  parent: CalcExpr.Expressions.BinaryOperator
+- uid: DiceEngine.Expressions.BinaryOperator.#ctor(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.Expressions.BinaryOperator.#ctor(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression)
+  id: '#ctor(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression)'
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: BinaryOperator(string, IExpression, IExpression)
   nameWithType: BinaryOperator.BinaryOperator(string, IExpression, IExpression)
-  fullName: CalcExpr.Expressions.BinaryOperator.BinaryOperator(string, CalcExpr.Expressions.IExpression, CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.Expressions.BinaryOperator.BinaryOperator(string, DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 13
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Initializes a new instance of the <xref href="CalcExpr.Expressions.BinaryOperator" data-throw-if-not-resolved="false"></xref> class.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Initializes a new instance of the <xref href="DiceEngine.Expressions.BinaryOperator" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: public BinaryOperator(string op, IExpression left, IExpression right)
@@ -105,940 +105,940 @@ items:
       type: System.String
       description: The identifier for the operator.
     - id: left
-      type: CalcExpr.Expressions.IExpression
-      description: The <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> left operand for this operator.
+      type: DiceEngine.Expressions.IExpression
+      description: The <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> left operand for this operator.
     - id: right
-      type: CalcExpr.Expressions.IExpression
-      description: The <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> right operand for this operator.
+      type: DiceEngine.Expressions.IExpression
+      description: The <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> right operand for this operator.
     content.vb: Public Sub New(op As String, left As IExpression, right As IExpression)
-  overload: CalcExpr.Expressions.BinaryOperator.#ctor*
+  overload: DiceEngine.Expressions.BinaryOperator.#ctor*
   nameWithType.vb: BinaryOperator.New(String, IExpression, IExpression)
-  fullName.vb: CalcExpr.Expressions.BinaryOperator.New(String, CalcExpr.Expressions.IExpression, CalcExpr.Expressions.IExpression)
+  fullName.vb: DiceEngine.Expressions.BinaryOperator.New(String, DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression)
   name.vb: New(String, IExpression, IExpression)
-- uid: CalcExpr.Expressions.BinaryOperator.ADDITION
-  commentId: F:CalcExpr.Expressions.BinaryOperator.ADDITION
+- uid: DiceEngine.Expressions.BinaryOperator.ADDITION
+  commentId: F:DiceEngine.Expressions.BinaryOperator.ADDITION
   id: ADDITION
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: ADDITION
   nameWithType: BinaryOperator.ADDITION
-  fullName: CalcExpr.Expressions.BinaryOperator.ADDITION
+  fullName: DiceEngine.Expressions.BinaryOperator.ADDITION
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ADDITION
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 15
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string ADDITION = "+"
     return:
       type: System.String
     content.vb: Public Const ADDITION As String = "+"
-- uid: CalcExpr.Expressions.BinaryOperator.SUBTRACTION
-  commentId: F:CalcExpr.Expressions.BinaryOperator.SUBTRACTION
+- uid: DiceEngine.Expressions.BinaryOperator.SUBTRACTION
+  commentId: F:DiceEngine.Expressions.BinaryOperator.SUBTRACTION
   id: SUBTRACTION
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: SUBTRACTION
   nameWithType: BinaryOperator.SUBTRACTION
-  fullName: CalcExpr.Expressions.BinaryOperator.SUBTRACTION
+  fullName: DiceEngine.Expressions.BinaryOperator.SUBTRACTION
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: SUBTRACTION
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 16
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string SUBTRACTION = "-"
     return:
       type: System.String
     content.vb: Public Const SUBTRACTION As String = "-"
-- uid: CalcExpr.Expressions.BinaryOperator.MULTIPLICATION
-  commentId: F:CalcExpr.Expressions.BinaryOperator.MULTIPLICATION
+- uid: DiceEngine.Expressions.BinaryOperator.MULTIPLICATION
+  commentId: F:DiceEngine.Expressions.BinaryOperator.MULTIPLICATION
   id: MULTIPLICATION
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: MULTIPLICATION
   nameWithType: BinaryOperator.MULTIPLICATION
-  fullName: CalcExpr.Expressions.BinaryOperator.MULTIPLICATION
+  fullName: DiceEngine.Expressions.BinaryOperator.MULTIPLICATION
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: MULTIPLICATION
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 17
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string MULTIPLICATION = "*"
     return:
       type: System.String
     content.vb: Public Const MULTIPLICATION As String = "*"
-- uid: CalcExpr.Expressions.BinaryOperator.CROSS_MULTIPLICATION
-  commentId: F:CalcExpr.Expressions.BinaryOperator.CROSS_MULTIPLICATION
+- uid: DiceEngine.Expressions.BinaryOperator.CROSS_MULTIPLICATION
+  commentId: F:DiceEngine.Expressions.BinaryOperator.CROSS_MULTIPLICATION
   id: CROSS_MULTIPLICATION
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: CROSS_MULTIPLICATION
   nameWithType: BinaryOperator.CROSS_MULTIPLICATION
-  fullName: CalcExpr.Expressions.BinaryOperator.CROSS_MULTIPLICATION
+  fullName: DiceEngine.Expressions.BinaryOperator.CROSS_MULTIPLICATION
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: CROSS_MULTIPLICATION
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 18
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string CROSS_MULTIPLICATION = "×"
     return:
       type: System.String
     content.vb: Public Const CROSS_MULTIPLICATION As String = "×"
-- uid: CalcExpr.Expressions.BinaryOperator.SLASH_DIVISION
-  commentId: F:CalcExpr.Expressions.BinaryOperator.SLASH_DIVISION
+- uid: DiceEngine.Expressions.BinaryOperator.SLASH_DIVISION
+  commentId: F:DiceEngine.Expressions.BinaryOperator.SLASH_DIVISION
   id: SLASH_DIVISION
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: SLASH_DIVISION
   nameWithType: BinaryOperator.SLASH_DIVISION
-  fullName: CalcExpr.Expressions.BinaryOperator.SLASH_DIVISION
+  fullName: DiceEngine.Expressions.BinaryOperator.SLASH_DIVISION
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: SLASH_DIVISION
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 19
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string SLASH_DIVISION = "/"
     return:
       type: System.String
     content.vb: Public Const SLASH_DIVISION As String = "/"
-- uid: CalcExpr.Expressions.BinaryOperator.DIVISION
-  commentId: F:CalcExpr.Expressions.BinaryOperator.DIVISION
+- uid: DiceEngine.Expressions.BinaryOperator.DIVISION
+  commentId: F:DiceEngine.Expressions.BinaryOperator.DIVISION
   id: DIVISION
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: DIVISION
   nameWithType: BinaryOperator.DIVISION
-  fullName: CalcExpr.Expressions.BinaryOperator.DIVISION
+  fullName: DiceEngine.Expressions.BinaryOperator.DIVISION
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: DIVISION
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 20
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string DIVISION = "÷"
     return:
       type: System.String
     content.vb: Public Const DIVISION As String = "÷"
-- uid: CalcExpr.Expressions.BinaryOperator.EXPONENT
-  commentId: F:CalcExpr.Expressions.BinaryOperator.EXPONENT
+- uid: DiceEngine.Expressions.BinaryOperator.EXPONENT
+  commentId: F:DiceEngine.Expressions.BinaryOperator.EXPONENT
   id: EXPONENT
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: EXPONENT
   nameWithType: BinaryOperator.EXPONENT
-  fullName: CalcExpr.Expressions.BinaryOperator.EXPONENT
+  fullName: DiceEngine.Expressions.BinaryOperator.EXPONENT
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: EXPONENT
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 21
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string EXPONENT = "^"
     return:
       type: System.String
     content.vb: Public Const EXPONENT As String = "^"
-- uid: CalcExpr.Expressions.BinaryOperator.EUCLIDEAN_MODULUS
-  commentId: F:CalcExpr.Expressions.BinaryOperator.EUCLIDEAN_MODULUS
+- uid: DiceEngine.Expressions.BinaryOperator.EUCLIDEAN_MODULUS
+  commentId: F:DiceEngine.Expressions.BinaryOperator.EUCLIDEAN_MODULUS
   id: EUCLIDEAN_MODULUS
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: EUCLIDEAN_MODULUS
   nameWithType: BinaryOperator.EUCLIDEAN_MODULUS
-  fullName: CalcExpr.Expressions.BinaryOperator.EUCLIDEAN_MODULUS
+  fullName: DiceEngine.Expressions.BinaryOperator.EUCLIDEAN_MODULUS
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: EUCLIDEAN_MODULUS
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 22
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string EUCLIDEAN_MODULUS = "%"
     return:
       type: System.String
     content.vb: Public Const EUCLIDEAN_MODULUS As String = "%"
-- uid: CalcExpr.Expressions.BinaryOperator.TRUC_MODULUS
-  commentId: F:CalcExpr.Expressions.BinaryOperator.TRUC_MODULUS
+- uid: DiceEngine.Expressions.BinaryOperator.TRUC_MODULUS
+  commentId: F:DiceEngine.Expressions.BinaryOperator.TRUC_MODULUS
   id: TRUC_MODULUS
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: TRUC_MODULUS
   nameWithType: BinaryOperator.TRUC_MODULUS
-  fullName: CalcExpr.Expressions.BinaryOperator.TRUC_MODULUS
+  fullName: DiceEngine.Expressions.BinaryOperator.TRUC_MODULUS
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: TRUC_MODULUS
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 23
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string TRUC_MODULUS = "%%"
     return:
       type: System.String
     content.vb: Public Const TRUC_MODULUS As String = "%%"
-- uid: CalcExpr.Expressions.BinaryOperator.INT_DIVISION
-  commentId: F:CalcExpr.Expressions.BinaryOperator.INT_DIVISION
+- uid: DiceEngine.Expressions.BinaryOperator.INT_DIVISION
+  commentId: F:DiceEngine.Expressions.BinaryOperator.INT_DIVISION
   id: INT_DIVISION
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: INT_DIVISION
   nameWithType: BinaryOperator.INT_DIVISION
-  fullName: CalcExpr.Expressions.BinaryOperator.INT_DIVISION
+  fullName: DiceEngine.Expressions.BinaryOperator.INT_DIVISION
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: INT_DIVISION
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 24
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string INT_DIVISION = "//"
     return:
       type: System.String
     content.vb: Public Const INT_DIVISION As String = "//"
-- uid: CalcExpr.Expressions.BinaryOperator.AND
-  commentId: F:CalcExpr.Expressions.BinaryOperator.AND
+- uid: DiceEngine.Expressions.BinaryOperator.AND
+  commentId: F:DiceEngine.Expressions.BinaryOperator.AND
   id: AND
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: AND
   nameWithType: BinaryOperator.AND
-  fullName: CalcExpr.Expressions.BinaryOperator.AND
+  fullName: DiceEngine.Expressions.BinaryOperator.AND
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: AND
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 25
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string AND = "&&"
     return:
       type: System.String
     content.vb: Public Const AND As String = "&&"
-- uid: CalcExpr.Expressions.BinaryOperator.AND_ALT
-  commentId: F:CalcExpr.Expressions.BinaryOperator.AND_ALT
+- uid: DiceEngine.Expressions.BinaryOperator.AND_ALT
+  commentId: F:DiceEngine.Expressions.BinaryOperator.AND_ALT
   id: AND_ALT
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: AND_ALT
   nameWithType: BinaryOperator.AND_ALT
-  fullName: CalcExpr.Expressions.BinaryOperator.AND_ALT
+  fullName: DiceEngine.Expressions.BinaryOperator.AND_ALT
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: AND_ALT
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 26
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string AND_ALT = "∧"
     return:
       type: System.String
     content.vb: Public Const AND_ALT As String = "∧"
-- uid: CalcExpr.Expressions.BinaryOperator.OR
-  commentId: F:CalcExpr.Expressions.BinaryOperator.OR
+- uid: DiceEngine.Expressions.BinaryOperator.OR
+  commentId: F:DiceEngine.Expressions.BinaryOperator.OR
   id: OR
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: OR
   nameWithType: BinaryOperator.OR
-  fullName: CalcExpr.Expressions.BinaryOperator.OR
+  fullName: DiceEngine.Expressions.BinaryOperator.OR
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: OR
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 27
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string OR = "||"
     return:
       type: System.String
     content.vb: Public Const OR As String = "||"
-- uid: CalcExpr.Expressions.BinaryOperator.OR_ALT
-  commentId: F:CalcExpr.Expressions.BinaryOperator.OR_ALT
+- uid: DiceEngine.Expressions.BinaryOperator.OR_ALT
+  commentId: F:DiceEngine.Expressions.BinaryOperator.OR_ALT
   id: OR_ALT
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: OR_ALT
   nameWithType: BinaryOperator.OR_ALT
-  fullName: CalcExpr.Expressions.BinaryOperator.OR_ALT
+  fullName: DiceEngine.Expressions.BinaryOperator.OR_ALT
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: OR_ALT
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 28
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string OR_ALT = "∨"
     return:
       type: System.String
     content.vb: Public Const OR_ALT As String = "∨"
-- uid: CalcExpr.Expressions.BinaryOperator.XOR
-  commentId: F:CalcExpr.Expressions.BinaryOperator.XOR
+- uid: DiceEngine.Expressions.BinaryOperator.XOR
+  commentId: F:DiceEngine.Expressions.BinaryOperator.XOR
   id: XOR
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: XOR
   nameWithType: BinaryOperator.XOR
-  fullName: CalcExpr.Expressions.BinaryOperator.XOR
+  fullName: DiceEngine.Expressions.BinaryOperator.XOR
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: XOR
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 29
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string XOR = "⊕"
     return:
       type: System.String
     content.vb: Public Const XOR As String = "⊕"
-- uid: CalcExpr.Expressions.BinaryOperator.IS_EQUAL
-  commentId: F:CalcExpr.Expressions.BinaryOperator.IS_EQUAL
+- uid: DiceEngine.Expressions.BinaryOperator.IS_EQUAL
+  commentId: F:DiceEngine.Expressions.BinaryOperator.IS_EQUAL
   id: IS_EQUAL
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: IS_EQUAL
   nameWithType: BinaryOperator.IS_EQUAL
-  fullName: CalcExpr.Expressions.BinaryOperator.IS_EQUAL
+  fullName: DiceEngine.Expressions.BinaryOperator.IS_EQUAL
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: IS_EQUAL
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 30
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string IS_EQUAL = "=="
     return:
       type: System.String
     content.vb: Public Const IS_EQUAL As String = "=="
-- uid: CalcExpr.Expressions.BinaryOperator.NOT_EQUAL
-  commentId: F:CalcExpr.Expressions.BinaryOperator.NOT_EQUAL
+- uid: DiceEngine.Expressions.BinaryOperator.NOT_EQUAL
+  commentId: F:DiceEngine.Expressions.BinaryOperator.NOT_EQUAL
   id: NOT_EQUAL
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: NOT_EQUAL
   nameWithType: BinaryOperator.NOT_EQUAL
-  fullName: CalcExpr.Expressions.BinaryOperator.NOT_EQUAL
+  fullName: DiceEngine.Expressions.BinaryOperator.NOT_EQUAL
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: NOT_EQUAL
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 31
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string NOT_EQUAL = "!="
     return:
       type: System.String
     content.vb: Public Const NOT_EQUAL As String = "!="
-- uid: CalcExpr.Expressions.BinaryOperator.NOT_EQUAL_ALT
-  commentId: F:CalcExpr.Expressions.BinaryOperator.NOT_EQUAL_ALT
+- uid: DiceEngine.Expressions.BinaryOperator.NOT_EQUAL_ALT
+  commentId: F:DiceEngine.Expressions.BinaryOperator.NOT_EQUAL_ALT
   id: NOT_EQUAL_ALT
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: NOT_EQUAL_ALT
   nameWithType: BinaryOperator.NOT_EQUAL_ALT
-  fullName: CalcExpr.Expressions.BinaryOperator.NOT_EQUAL_ALT
+  fullName: DiceEngine.Expressions.BinaryOperator.NOT_EQUAL_ALT
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: NOT_EQUAL_ALT
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 32
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string NOT_EQUAL_ALT = "≠"
     return:
       type: System.String
     content.vb: Public Const NOT_EQUAL_ALT As String = "≠"
-- uid: CalcExpr.Expressions.BinaryOperator.GREATER_OR_LESS_THAN
-  commentId: F:CalcExpr.Expressions.BinaryOperator.GREATER_OR_LESS_THAN
+- uid: DiceEngine.Expressions.BinaryOperator.GREATER_OR_LESS_THAN
+  commentId: F:DiceEngine.Expressions.BinaryOperator.GREATER_OR_LESS_THAN
   id: GREATER_OR_LESS_THAN
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: GREATER_OR_LESS_THAN
   nameWithType: BinaryOperator.GREATER_OR_LESS_THAN
-  fullName: CalcExpr.Expressions.BinaryOperator.GREATER_OR_LESS_THAN
+  fullName: DiceEngine.Expressions.BinaryOperator.GREATER_OR_LESS_THAN
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GREATER_OR_LESS_THAN
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 33
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string GREATER_OR_LESS_THAN = "<>"
     return:
       type: System.String
     content.vb: Public Const GREATER_OR_LESS_THAN As String = "<>"
-- uid: CalcExpr.Expressions.BinaryOperator.LESS_THAN
-  commentId: F:CalcExpr.Expressions.BinaryOperator.LESS_THAN
+- uid: DiceEngine.Expressions.BinaryOperator.LESS_THAN
+  commentId: F:DiceEngine.Expressions.BinaryOperator.LESS_THAN
   id: LESS_THAN
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: LESS_THAN
   nameWithType: BinaryOperator.LESS_THAN
-  fullName: CalcExpr.Expressions.BinaryOperator.LESS_THAN
+  fullName: DiceEngine.Expressions.BinaryOperator.LESS_THAN
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: LESS_THAN
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 34
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string LESS_THAN = "<"
     return:
       type: System.String
     content.vb: Public Const LESS_THAN As String = "<"
-- uid: CalcExpr.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL
-  commentId: F:CalcExpr.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL
+- uid: DiceEngine.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL
+  commentId: F:DiceEngine.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL
   id: LESS_THAN_OR_EQUAL
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: LESS_THAN_OR_EQUAL
   nameWithType: BinaryOperator.LESS_THAN_OR_EQUAL
-  fullName: CalcExpr.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL
+  fullName: DiceEngine.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: LESS_THAN_OR_EQUAL
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 35
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string LESS_THAN_OR_EQUAL = "<="
     return:
       type: System.String
     content.vb: Public Const LESS_THAN_OR_EQUAL As String = "<="
-- uid: CalcExpr.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL_ALT
-  commentId: F:CalcExpr.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL_ALT
+- uid: DiceEngine.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL_ALT
+  commentId: F:DiceEngine.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL_ALT
   id: LESS_THAN_OR_EQUAL_ALT
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: LESS_THAN_OR_EQUAL_ALT
   nameWithType: BinaryOperator.LESS_THAN_OR_EQUAL_ALT
-  fullName: CalcExpr.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL_ALT
+  fullName: DiceEngine.Expressions.BinaryOperator.LESS_THAN_OR_EQUAL_ALT
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: LESS_THAN_OR_EQUAL_ALT
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 36
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string LESS_THAN_OR_EQUAL_ALT = "≤"
     return:
       type: System.String
     content.vb: Public Const LESS_THAN_OR_EQUAL_ALT As String = "≤"
-- uid: CalcExpr.Expressions.BinaryOperator.GREATER_THAN
-  commentId: F:CalcExpr.Expressions.BinaryOperator.GREATER_THAN
+- uid: DiceEngine.Expressions.BinaryOperator.GREATER_THAN
+  commentId: F:DiceEngine.Expressions.BinaryOperator.GREATER_THAN
   id: GREATER_THAN
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: GREATER_THAN
   nameWithType: BinaryOperator.GREATER_THAN
-  fullName: CalcExpr.Expressions.BinaryOperator.GREATER_THAN
+  fullName: DiceEngine.Expressions.BinaryOperator.GREATER_THAN
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GREATER_THAN
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 37
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string GREATER_THAN = ">"
     return:
       type: System.String
     content.vb: Public Const GREATER_THAN As String = ">"
-- uid: CalcExpr.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL
-  commentId: F:CalcExpr.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL
+- uid: DiceEngine.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL
+  commentId: F:DiceEngine.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL
   id: GREATER_THAN_OR_EQUAL
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: GREATER_THAN_OR_EQUAL
   nameWithType: BinaryOperator.GREATER_THAN_OR_EQUAL
-  fullName: CalcExpr.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL
+  fullName: DiceEngine.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GREATER_THAN_OR_EQUAL
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 38
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string GREATER_THAN_OR_EQUAL = ">="
     return:
       type: System.String
     content.vb: Public Const GREATER_THAN_OR_EQUAL As String = ">="
-- uid: CalcExpr.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL_ALT
-  commentId: F:CalcExpr.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL_ALT
+- uid: DiceEngine.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL_ALT
+  commentId: F:DiceEngine.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL_ALT
   id: GREATER_THAN_OR_EQUAL_ALT
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: GREATER_THAN_OR_EQUAL_ALT
   nameWithType: BinaryOperator.GREATER_THAN_OR_EQUAL_ALT
-  fullName: CalcExpr.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL_ALT
+  fullName: DiceEngine.Expressions.BinaryOperator.GREATER_THAN_OR_EQUAL_ALT
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GREATER_THAN_OR_EQUAL_ALT
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 39
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string GREATER_THAN_OR_EQUAL_ALT = "≥"
     return:
       type: System.String
     content.vb: Public Const GREATER_THAN_OR_EQUAL_ALT As String = "≥"
-- uid: CalcExpr.Expressions.BinaryOperator.Identifier
-  commentId: F:CalcExpr.Expressions.BinaryOperator.Identifier
+- uid: DiceEngine.Expressions.BinaryOperator.Identifier
+  commentId: F:DiceEngine.Expressions.BinaryOperator.Identifier
   id: Identifier
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: Identifier
   nameWithType: BinaryOperator.Identifier
-  fullName: CalcExpr.Expressions.BinaryOperator.Identifier
+  fullName: DiceEngine.Expressions.BinaryOperator.Identifier
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Identifier
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 41
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public readonly string Identifier
     return:
       type: System.String
     content.vb: Public ReadOnly Identifier As String
-- uid: CalcExpr.Expressions.BinaryOperator.Left
-  commentId: F:CalcExpr.Expressions.BinaryOperator.Left
+- uid: DiceEngine.Expressions.BinaryOperator.Left
+  commentId: F:DiceEngine.Expressions.BinaryOperator.Left
   id: Left
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: Left
   nameWithType: BinaryOperator.Left
-  fullName: CalcExpr.Expressions.BinaryOperator.Left
+  fullName: DiceEngine.Expressions.BinaryOperator.Left
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Left
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 42
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public readonly IExpression Left
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     content.vb: Public ReadOnly Left As IExpression
-- uid: CalcExpr.Expressions.BinaryOperator.Right
-  commentId: F:CalcExpr.Expressions.BinaryOperator.Right
+- uid: DiceEngine.Expressions.BinaryOperator.Right
+  commentId: F:DiceEngine.Expressions.BinaryOperator.Right
   id: Right
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: Right
   nameWithType: BinaryOperator.Right
-  fullName: CalcExpr.Expressions.BinaryOperator.Right
+  fullName: DiceEngine.Expressions.BinaryOperator.Right
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Right
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 43
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public readonly IExpression Right
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     content.vb: Public ReadOnly Right As IExpression
-- uid: CalcExpr.Expressions.BinaryOperator.Evaluate
-  commentId: M:CalcExpr.Expressions.BinaryOperator.Evaluate
+- uid: DiceEngine.Expressions.BinaryOperator.Evaluate
+  commentId: M:DiceEngine.Expressions.BinaryOperator.Evaluate
   id: Evaluate
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: Evaluate()
   nameWithType: BinaryOperator.Evaluate()
-  fullName: CalcExpr.Expressions.BinaryOperator.Evaluate()
+  fullName: DiceEngine.Expressions.BinaryOperator.Evaluate()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Evaluate
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 45
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public Terminal Evaluate()
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
-      description: A new <xref href="CalcExpr.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function Evaluate() As Terminal
-  overload: CalcExpr.Expressions.BinaryOperator.Evaluate*
+  overload: DiceEngine.Expressions.BinaryOperator.Evaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.Evaluate
-- uid: CalcExpr.Expressions.BinaryOperator.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.BinaryOperator.Evaluate(CalcExpr.Context.ExpressionContext)
-  id: Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.BinaryOperator
+  - DiceEngine.Expressions.IExpression.Evaluate
+- uid: DiceEngine.Expressions.BinaryOperator.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.BinaryOperator.Evaluate(DiceEngine.Context.ExpressionContext)
+  id: Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: Evaluate(ExpressionContext)
   nameWithType: BinaryOperator.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.BinaryOperator.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.BinaryOperator.Evaluate(DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Evaluate
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 48
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public Terminal Evaluate(ExpressionContext context)
     parameters:
     - id: context
-      type: CalcExpr.Context.ExpressionContext
-      description: The values for each variable that could appear in the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
-      description: A new <xref href="CalcExpr.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function Evaluate(context As ExpressionContext) As Terminal
-  overload: CalcExpr.Expressions.BinaryOperator.Evaluate*
+  overload: DiceEngine.Expressions.BinaryOperator.Evaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-- uid: CalcExpr.Expressions.BinaryOperator.StepEvaluate
-  commentId: M:CalcExpr.Expressions.BinaryOperator.StepEvaluate
+  - DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.BinaryOperator.StepEvaluate
+  commentId: M:DiceEngine.Expressions.BinaryOperator.StepEvaluate
   id: StepEvaluate
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: StepEvaluate()
   nameWithType: BinaryOperator.StepEvaluate()
-  fullName: CalcExpr.Expressions.BinaryOperator.StepEvaluate()
+  fullName: DiceEngine.Expressions.BinaryOperator.StepEvaluate()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: StepEvaluate
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 56
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates one step towards the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public IExpression StepEvaluate()
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: >-
-        A new <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
 
-        <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function StepEvaluate() As IExpression
-  overload: CalcExpr.Expressions.BinaryOperator.StepEvaluate*
+  overload: DiceEngine.Expressions.BinaryOperator.StepEvaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.StepEvaluate
-- uid: CalcExpr.Expressions.BinaryOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.BinaryOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  id: StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.BinaryOperator
+  - DiceEngine.Expressions.IExpression.StepEvaluate
+- uid: DiceEngine.Expressions.BinaryOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.BinaryOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  id: StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: StepEvaluate(ExpressionContext)
   nameWithType: BinaryOperator.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.BinaryOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.BinaryOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: StepEvaluate
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 59
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates one step towards the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public IExpression StepEvaluate(ExpressionContext context)
     parameters:
     - id: context
-      type: CalcExpr.Context.ExpressionContext
-      description: The values for each variable that could appear in the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: >-
-        A new <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
 
-        <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function StepEvaluate(context As ExpressionContext) As IExpression
-  overload: CalcExpr.Expressions.BinaryOperator.StepEvaluate*
+  overload: DiceEngine.Expressions.BinaryOperator.StepEvaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-- uid: CalcExpr.Expressions.BinaryOperator.Equals(System.Object)
-  commentId: M:CalcExpr.Expressions.BinaryOperator.Equals(System.Object)
+  - DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.BinaryOperator.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.BinaryOperator.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: BinaryOperator.Equals(object?)
-  fullName: CalcExpr.Expressions.BinaryOperator.Equals(object?)
+  fullName: DiceEngine.Expressions.BinaryOperator.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 73
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -1052,32 +1052,32 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: CalcExpr.Expressions.BinaryOperator.Equals*
+  overload: DiceEngine.Expressions.BinaryOperator.Equals*
   nameWithType.vb: BinaryOperator.Equals(Object)
-  fullName.vb: CalcExpr.Expressions.BinaryOperator.Equals(Object)
+  fullName.vb: DiceEngine.Expressions.BinaryOperator.Equals(Object)
   name.vb: Equals(Object)
-- uid: CalcExpr.Expressions.BinaryOperator.GetHashCode
-  commentId: M:CalcExpr.Expressions.BinaryOperator.GetHashCode
+- uid: DiceEngine.Expressions.BinaryOperator.GetHashCode
+  commentId: M:DiceEngine.Expressions.BinaryOperator.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: BinaryOperator.GetHashCode()
-  fullName: CalcExpr.Expressions.BinaryOperator.GetHashCode()
+  fullName: DiceEngine.Expressions.BinaryOperator.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 77
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -1087,29 +1087,29 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: CalcExpr.Expressions.BinaryOperator.GetHashCode*
-- uid: CalcExpr.Expressions.BinaryOperator.ToString
-  commentId: M:CalcExpr.Expressions.BinaryOperator.ToString
+  overload: DiceEngine.Expressions.BinaryOperator.GetHashCode*
+- uid: DiceEngine.Expressions.BinaryOperator.ToString
+  commentId: M:DiceEngine.Expressions.BinaryOperator.ToString
   id: ToString
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: ToString()
   nameWithType: BinaryOperator.ToString()
-  fullName: CalcExpr.Expressions.BinaryOperator.ToString()
+  fullName: DiceEngine.Expressions.BinaryOperator.ToString()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToString
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 80
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: Returns a string that represents the current object.
   example: []
   syntax:
@@ -1119,33 +1119,33 @@ items:
       description: A string that represents the current object.
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
-  overload: CalcExpr.Expressions.BinaryOperator.ToString*
+  overload: DiceEngine.Expressions.BinaryOperator.ToString*
   implements:
-  - CalcExpr.Expressions.IExpression.ToString
-- uid: CalcExpr.Expressions.BinaryOperator.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.BinaryOperator.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.ToString
+- uid: DiceEngine.Expressions.BinaryOperator.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.BinaryOperator.ToString(System.String)
   id: ToString(System.String)
-  parent: CalcExpr.Expressions.BinaryOperator
+  parent: DiceEngine.Expressions.BinaryOperator
   langs:
   - csharp
   - vb
   name: ToString(string?)
   nameWithType: BinaryOperator.ToString(string?)
-  fullName: CalcExpr.Expressions.BinaryOperator.ToString(string?)
+  fullName: DiceEngine.Expressions.BinaryOperator.ToString(string?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/BinaryOperator.cs
+      path: src/DiceEngine/Expressions/BinaryOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToString
-    path: ../src/CalcExpr/Expressions/BinaryOperator.cs
+    path: ../src/DiceEngine/Expressions/BinaryOperator.cs
     startLine: 83
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: >-
-    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
+    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
 
     format <xref href="System.String" data-throw-if-not-resolved="false"></xref> for number formats.
   example: []
@@ -1158,52 +1158,52 @@ items:
     return:
       type: System.String
       description: >-
-        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
 
         <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function ToString(format As String) As String
-  overload: CalcExpr.Expressions.BinaryOperator.ToString*
+  overload: DiceEngine.Expressions.BinaryOperator.ToString*
   implements:
-  - CalcExpr.Expressions.IExpression.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
   nameWithType.vb: BinaryOperator.ToString(String)
-  fullName.vb: CalcExpr.Expressions.BinaryOperator.ToString(String)
+  fullName.vb: DiceEngine.Expressions.BinaryOperator.ToString(String)
   name.vb: ToString(String)
 references:
-- uid: CalcExpr.Expressions.BinaryOperator
-  commentId: T:CalcExpr.Expressions.BinaryOperator
-  href: CalcExpr.Expressions.BinaryOperator.html
+- uid: DiceEngine.Expressions.BinaryOperator
+  commentId: T:DiceEngine.Expressions.BinaryOperator
+  href: DiceEngine.Expressions.BinaryOperator.html
   name: BinaryOperator
   nameWithType: BinaryOperator
-  fullName: CalcExpr.Expressions.BinaryOperator
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.Expressions.BinaryOperator
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -1360,14 +1360,14 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Expressions.BinaryOperator.#ctor*
-  commentId: Overload:CalcExpr.Expressions.BinaryOperator.#ctor
-  href: CalcExpr.Expressions.BinaryOperator.html#CalcExpr_Expressions_BinaryOperator__ctor_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Expressions_IExpression_
+- uid: DiceEngine.Expressions.BinaryOperator.#ctor*
+  commentId: Overload:DiceEngine.Expressions.BinaryOperator.#ctor
+  href: DiceEngine.Expressions.BinaryOperator.html#DiceEngine_Expressions_BinaryOperator__ctor_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Expressions_IExpression_
   name: BinaryOperator
   nameWithType: BinaryOperator.BinaryOperator
-  fullName: CalcExpr.Expressions.BinaryOperator.BinaryOperator
+  fullName: DiceEngine.Expressions.BinaryOperator.BinaryOperator
   nameWithType.vb: BinaryOperator.New
-  fullName.vb: CalcExpr.Expressions.BinaryOperator.New
+  fullName.vb: DiceEngine.Expressions.BinaryOperator.New
   name.vb: New
 - uid: System.String
   commentId: T:System.String
@@ -1380,171 +1380,171 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.Expressions.BinaryOperator.Evaluate*
-  commentId: Overload:CalcExpr.Expressions.BinaryOperator.Evaluate
-  href: CalcExpr.Expressions.BinaryOperator.html#CalcExpr_Expressions_BinaryOperator_Evaluate
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.BinaryOperator.Evaluate*
+  commentId: Overload:DiceEngine.Expressions.BinaryOperator.Evaluate
+  href: DiceEngine.Expressions.BinaryOperator.html#DiceEngine_Expressions_BinaryOperator_Evaluate
   name: Evaluate
   nameWithType: BinaryOperator.Evaluate
-  fullName: CalcExpr.Expressions.BinaryOperator.Evaluate
-- uid: CalcExpr.Expressions.IExpression.Evaluate
-  commentId: M:CalcExpr.Expressions.IExpression.Evaluate
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+  fullName: DiceEngine.Expressions.BinaryOperator.Evaluate
+- uid: DiceEngine.Expressions.IExpression.Evaluate
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   name: Evaluate()
   nameWithType: IExpression.Evaluate()
-  fullName: CalcExpr.Expressions.IExpression.Evaluate()
+  fullName: DiceEngine.Expressions.IExpression.Evaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   name: Evaluate(ExpressionContext)
   nameWithType: IExpression.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Context.ExpressionContext
-  commentId: T:CalcExpr.Context.ExpressionContext
-  parent: CalcExpr.Context
-  href: CalcExpr.Context.ExpressionContext.html
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
   name: ExpressionContext
   nameWithType: ExpressionContext
-  fullName: CalcExpr.Context.ExpressionContext
-- uid: CalcExpr.Context
-  commentId: N:CalcExpr.Context
-  href: CalcExpr.html
-  name: CalcExpr.Context
-  nameWithType: CalcExpr.Context
-  fullName: CalcExpr.Context
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
-- uid: CalcExpr.Expressions.BinaryOperator.StepEvaluate*
-  commentId: Overload:CalcExpr.Expressions.BinaryOperator.StepEvaluate
-  href: CalcExpr.Expressions.BinaryOperator.html#CalcExpr_Expressions_BinaryOperator_StepEvaluate
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.BinaryOperator.StepEvaluate*
+  commentId: Overload:DiceEngine.Expressions.BinaryOperator.StepEvaluate
+  href: DiceEngine.Expressions.BinaryOperator.html#DiceEngine_Expressions_BinaryOperator_StepEvaluate
   name: StepEvaluate
   nameWithType: BinaryOperator.StepEvaluate
-  fullName: CalcExpr.Expressions.BinaryOperator.StepEvaluate
-- uid: CalcExpr.Expressions.IExpression.StepEvaluate
-  commentId: M:CalcExpr.Expressions.IExpression.StepEvaluate
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+  fullName: DiceEngine.Expressions.BinaryOperator.StepEvaluate
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   name: StepEvaluate()
   nameWithType: IExpression.StepEvaluate()
-  fullName: CalcExpr.Expressions.IExpression.StepEvaluate()
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   name: StepEvaluate(ExpressionContext)
   nameWithType: IExpression.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
@@ -1579,12 +1579,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Expressions.BinaryOperator.Equals*
-  commentId: Overload:CalcExpr.Expressions.BinaryOperator.Equals
-  href: CalcExpr.Expressions.BinaryOperator.html#CalcExpr_Expressions_BinaryOperator_Equals_System_Object_
+- uid: DiceEngine.Expressions.BinaryOperator.Equals*
+  commentId: Overload:DiceEngine.Expressions.BinaryOperator.Equals
+  href: DiceEngine.Expressions.BinaryOperator.html#DiceEngine_Expressions_BinaryOperator_Equals_System_Object_
   name: Equals
   nameWithType: BinaryOperator.Equals
-  fullName: CalcExpr.Expressions.BinaryOperator.Equals
+  fullName: DiceEngine.Expressions.BinaryOperator.Equals
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1620,12 +1620,12 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.BinaryOperator.GetHashCode*
-  commentId: Overload:CalcExpr.Expressions.BinaryOperator.GetHashCode
-  href: CalcExpr.Expressions.BinaryOperator.html#CalcExpr_Expressions_BinaryOperator_GetHashCode
+- uid: DiceEngine.Expressions.BinaryOperator.GetHashCode*
+  commentId: Overload:DiceEngine.Expressions.BinaryOperator.GetHashCode
+  href: DiceEngine.Expressions.BinaryOperator.html#DiceEngine_Expressions_BinaryOperator_GetHashCode
   name: GetHashCode
   nameWithType: BinaryOperator.GetHashCode
-  fullName: CalcExpr.Expressions.BinaryOperator.GetHashCode
+  fullName: DiceEngine.Expressions.BinaryOperator.GetHashCode
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1661,46 +1661,46 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.BinaryOperator.ToString*
-  commentId: Overload:CalcExpr.Expressions.BinaryOperator.ToString
-  href: CalcExpr.Expressions.BinaryOperator.html#CalcExpr_Expressions_BinaryOperator_ToString
+- uid: DiceEngine.Expressions.BinaryOperator.ToString*
+  commentId: Overload:DiceEngine.Expressions.BinaryOperator.ToString
+  href: DiceEngine.Expressions.BinaryOperator.html#DiceEngine_Expressions_BinaryOperator_ToString
   name: ToString
   nameWithType: BinaryOperator.ToString
-  fullName: CalcExpr.Expressions.BinaryOperator.ToString
-- uid: CalcExpr.Expressions.IExpression.ToString
-  commentId: M:CalcExpr.Expressions.IExpression.ToString
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+  fullName: DiceEngine.Expressions.BinaryOperator.ToString
+- uid: DiceEngine.Expressions.IExpression.ToString
+  commentId: M:DiceEngine.Expressions.IExpression.ToString
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   name: ToString()
   nameWithType: IExpression.ToString()
-  fullName: CalcExpr.Expressions.IExpression.ToString()
+  fullName: DiceEngine.Expressions.IExpression.ToString()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString
+  - uid: DiceEngine.Expressions.IExpression.ToString
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString
+  - uid: DiceEngine.Expressions.IExpression.ToString
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.IExpression.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.IExpression.ToString(System.String)
-  parent: CalcExpr.Expressions.IExpression
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
   isExternal: true
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   name: ToString(string)
   nameWithType: IExpression.ToString(string)
-  fullName: CalcExpr.Expressions.IExpression.ToString(string)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string)
   nameWithType.vb: IExpression.ToString(String)
-  fullName.vb: CalcExpr.Expressions.IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
   name.vb: ToString(String)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: string
@@ -1708,9 +1708,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: String

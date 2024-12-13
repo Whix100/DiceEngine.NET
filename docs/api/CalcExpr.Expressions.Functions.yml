@@ -1,68 +1,68 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.Functions
-  commentId: N:CalcExpr.Expressions.Functions
-  id: CalcExpr.Expressions.Functions
+- uid: DiceEngine.Expressions.Functions
+  commentId: N:DiceEngine.Expressions.Functions
+  id: DiceEngine.Expressions.Functions
   children:
-  - CalcExpr.Expressions.Functions.Function
-  - CalcExpr.Expressions.Functions.LambdaFunction
-  - CalcExpr.Expressions.Functions.NativeFunction
+  - DiceEngine.Expressions.Functions.Function
+  - DiceEngine.Expressions.Functions.LambdaFunction
+  - DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
-  name: CalcExpr.Expressions.Functions
-  nameWithType: CalcExpr.Expressions.Functions
-  fullName: CalcExpr.Expressions.Functions
+  name: DiceEngine.Expressions.Functions
+  nameWithType: DiceEngine.Expressions.Functions
+  fullName: DiceEngine.Expressions.Functions
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Expressions.Functions.Function
-  commentId: T:CalcExpr.Expressions.Functions.Function
-  parent: CalcExpr.Expressions.Functions
-  href: CalcExpr.Expressions.Functions.Function.html
+- uid: DiceEngine.Expressions.Functions.Function
+  commentId: T:DiceEngine.Expressions.Functions.Function
+  parent: DiceEngine.Expressions.Functions
+  href: DiceEngine.Expressions.Functions.Function.html
   name: Function
   nameWithType: Function
-  fullName: CalcExpr.Expressions.Functions.Function
-- uid: CalcExpr.Expressions.Functions.LambdaFunction
-  commentId: T:CalcExpr.Expressions.Functions.LambdaFunction
-  href: CalcExpr.Expressions.Functions.LambdaFunction.html
+  fullName: DiceEngine.Expressions.Functions.Function
+- uid: DiceEngine.Expressions.Functions.LambdaFunction
+  commentId: T:DiceEngine.Expressions.Functions.LambdaFunction
+  href: DiceEngine.Expressions.Functions.LambdaFunction.html
   name: LambdaFunction
   nameWithType: LambdaFunction
-  fullName: CalcExpr.Expressions.Functions.LambdaFunction
-- uid: CalcExpr.Expressions.Functions.NativeFunction
-  commentId: T:CalcExpr.Expressions.Functions.NativeFunction
-  href: CalcExpr.Expressions.Functions.NativeFunction.html
+  fullName: DiceEngine.Expressions.Functions.LambdaFunction
+- uid: DiceEngine.Expressions.Functions.NativeFunction
+  commentId: T:DiceEngine.Expressions.Functions.NativeFunction
+  href: DiceEngine.Expressions.Functions.NativeFunction.html
   name: NativeFunction
   nameWithType: NativeFunction
-  fullName: CalcExpr.Expressions.Functions.NativeFunction
-- uid: CalcExpr.Expressions.Functions
-  commentId: N:CalcExpr.Expressions.Functions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Functions
-  nameWithType: CalcExpr.Expressions.Functions
-  fullName: CalcExpr.Expressions.Functions
+  fullName: DiceEngine.Expressions.Functions.NativeFunction
+- uid: DiceEngine.Expressions.Functions
+  commentId: N:DiceEngine.Expressions.Functions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Functions
+  nameWithType: DiceEngine.Expressions.Functions
+  fullName: DiceEngine.Expressions.Functions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Functions
+  - uid: DiceEngine.Expressions.Functions
     name: Functions
-    href: CalcExpr.Expressions.Functions.html
+    href: DiceEngine.Expressions.Functions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Functions
+  - uid: DiceEngine.Expressions.Functions
     name: Functions
-    href: CalcExpr.Expressions.Functions.html
+    href: DiceEngine.Expressions.Functions.html

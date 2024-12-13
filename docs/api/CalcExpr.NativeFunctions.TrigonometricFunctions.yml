@@ -1,52 +1,52 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions
-  commentId: T:CalcExpr.NativeFunctions.TrigonometricFunctions
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions
+  commentId: T:DiceEngine.NativeFunctions.TrigonometricFunctions
   id: TrigonometricFunctions
-  parent: CalcExpr.NativeFunctions
+  parent: DiceEngine.NativeFunctions
   children:
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Acos(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Acosh(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Acot(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Acoth(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Acsc(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Acsch(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Asec(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Asech(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Asin(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Asinh(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Atan(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Atanh(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Cos(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Cosh(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Cot(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Coth(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Csc(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Csch(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Sec(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Sech(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Sin(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Sinh(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Tan(System.Double)
-  - CalcExpr.NativeFunctions.TrigonometricFunctions.Tanh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acos(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acot(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Asec(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Asech(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Asin(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Atan(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Cos(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Cot(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Coth(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Csc(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Csch(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Sec(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Sech(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Sin(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Tan(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh(System.Double)
   langs:
   - csharp
   - vb
   name: TrigonometricFunctions
   nameWithType: TrigonometricFunctions
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions
   type: Class
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: TrigonometricFunctions
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 5
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: public static class TrigonometricFunctions
     content.vb: Public Module TrigonometricFunctions
@@ -60,28 +60,28 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Sin(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Sin(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Sin(System.Double)
   id: Sin(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Sin(double)
   nameWithType: TrigonometricFunctions.Sin(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Sin(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Sin
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 7
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "sin" })]
@@ -96,32 +96,32 @@ items:
       <NativeFunction(New String() { "sin" })>
 
       Public Shared Function Sin(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Sin*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin*
   nameWithType.vb: TrigonometricFunctions.Sin(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Sin(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin(Double)
   name.vb: Sin(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Cos(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Cos(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Cos(System.Double)
   id: Cos(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Cos(double)
   nameWithType: TrigonometricFunctions.Cos(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Cos(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Cos
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 12
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "cos" })]
@@ -136,32 +136,32 @@ items:
       <NativeFunction(New String() { "cos" })>
 
       Public Shared Function Cos(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Cos*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos*
   nameWithType.vb: TrigonometricFunctions.Cos(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Cos(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos(Double)
   name.vb: Cos(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Tan(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Tan(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Tan(System.Double)
   id: Tan(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Tan(double)
   nameWithType: TrigonometricFunctions.Tan(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Tan(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Tan
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 17
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "tan" })]
@@ -176,32 +176,32 @@ items:
       <NativeFunction(New String() { "tan" })>
 
       Public Shared Function Tan(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Tan*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan*
   nameWithType.vb: TrigonometricFunctions.Tan(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Tan(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan(Double)
   name.vb: Tan(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Asin(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Asin(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Asin(System.Double)
   id: Asin(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Asin(double)
   nameWithType: TrigonometricFunctions.Asin(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Asin(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Asin
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 26
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "asin", "arcsin", "arsin" })]
@@ -216,32 +216,32 @@ items:
       <NativeFunction(New String() { "asin", "arcsin", "arsin" })>
 
       Public Shared Function Asin(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Asin*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin*
   nameWithType.vb: TrigonometricFunctions.Asin(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Asin(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin(Double)
   name.vb: Asin(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acos(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Acos(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acos(System.Double)
   id: Acos(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Acos(double)
   nameWithType: TrigonometricFunctions.Acos(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acos(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Acos
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 31
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "acos", "arccos", "arcos" })]
@@ -256,32 +256,32 @@ items:
       <NativeFunction(New String() { "acos", "arccos", "arcos" })>
 
       Public Shared Function Acos(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Acos*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos*
   nameWithType.vb: TrigonometricFunctions.Acos(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Acos(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos(Double)
   name.vb: Acos(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Atan(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Atan(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Atan(System.Double)
   id: Atan(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Atan(double)
   nameWithType: TrigonometricFunctions.Atan(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Atan(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Atan
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 36
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "atan", "arctan", "artan" })]
@@ -296,32 +296,32 @@ items:
       <NativeFunction(New String() { "atan", "arctan", "artan" })>
 
       Public Shared Function Atan(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Atan*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan*
   nameWithType.vb: TrigonometricFunctions.Atan(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Atan(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan(Double)
   name.vb: Atan(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Csc(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Csc(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Csc(System.Double)
   id: Csc(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Csc(double)
   nameWithType: TrigonometricFunctions.Csc(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Csc(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Csc
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 47
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "csc" })]
@@ -336,32 +336,32 @@ items:
       <NativeFunction(New String() { "csc" })>
 
       Public Shared Function Csc(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Csc*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc*
   nameWithType.vb: TrigonometricFunctions.Csc(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Csc(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc(Double)
   name.vb: Csc(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Sec(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Sec(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Sec(System.Double)
   id: Sec(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Sec(double)
   nameWithType: TrigonometricFunctions.Sec(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Sec(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Sec
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 56
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "sec" })]
@@ -376,32 +376,32 @@ items:
       <NativeFunction(New String() { "sec" })>
 
       Public Shared Function Sec(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Sec*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec*
   nameWithType.vb: TrigonometricFunctions.Sec(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Sec(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec(Double)
   name.vb: Sec(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Cot(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Cot(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Cot(System.Double)
   id: Cot(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Cot(double)
   nameWithType: TrigonometricFunctions.Cot(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Cot(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Cot
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 65
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "cot" })]
@@ -416,32 +416,32 @@ items:
       <NativeFunction(New String() { "cot" })>
 
       Public Shared Function Cot(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Cot*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot*
   nameWithType.vb: TrigonometricFunctions.Cot(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Cot(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot(Double)
   name.vb: Cot(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsc(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Acsc(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc(System.Double)
   id: Acsc(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Acsc(double)
   nameWithType: TrigonometricFunctions.Acsc(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsc(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Acsc
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 74
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "acsc", "arccsc", "arcsc" })]
@@ -451,8 +451,8 @@ items:
     - id: x
       type: System.Double
       attributes:
-      - type: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
-        ctor: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
         arguments:
         - type: System.Double
           value: -1
@@ -468,32 +468,32 @@ items:
       <NativeFunction(New String() { "acsc", "arccsc", "arcsc" })>
 
       Public Shared Function Acsc(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsc*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc*
   nameWithType.vb: TrigonometricFunctions.Acsc(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsc(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc(Double)
   name.vb: Acsc(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Asec(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Asec(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Asec(System.Double)
   id: Asec(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Asec(double)
   nameWithType: TrigonometricFunctions.Asec(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Asec(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Asec
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 83
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "asec", "arcsec", "arsec" })]
@@ -503,8 +503,8 @@ items:
     - id: x
       type: System.Double
       attributes:
-      - type: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
-        ctor: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
         arguments:
         - type: System.Double
           value: -1
@@ -520,32 +520,32 @@ items:
       <NativeFunction(New String() { "asec", "arcsec", "arsec" })>
 
       Public Shared Function Asec(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Asec*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec*
   nameWithType.vb: TrigonometricFunctions.Asec(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Asec(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec(Double)
   name.vb: Asec(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acot(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Acot(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acot(System.Double)
   id: Acot(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Acot(double)
   nameWithType: TrigonometricFunctions.Acot(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acot(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Acot
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 92
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "acot", "arccot", "arcot" })]
@@ -560,32 +560,32 @@ items:
       <NativeFunction(New String() { "acot", "arccot", "arcot" })>
 
       Public Shared Function Acot(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Acot*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot*
   nameWithType.vb: TrigonometricFunctions.Acot(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Acot(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot(Double)
   name.vb: Acot(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Sinh(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Sinh(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh(System.Double)
   id: Sinh(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Sinh(double)
   nameWithType: TrigonometricFunctions.Sinh(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Sinh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Sinh
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 103
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "sinh" })]
@@ -600,32 +600,32 @@ items:
       <NativeFunction(New String() { "sinh" })>
 
       Public Shared Function Sinh(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Sinh*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh*
   nameWithType.vb: TrigonometricFunctions.Sinh(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Sinh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh(Double)
   name.vb: Sinh(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Cosh(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Cosh(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh(System.Double)
   id: Cosh(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Cosh(double)
   nameWithType: TrigonometricFunctions.Cosh(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Cosh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Cosh
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 112
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "cosh" })]
@@ -640,32 +640,32 @@ items:
       <NativeFunction(New String() { "cosh" })>
 
       Public Shared Function Cosh(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Cosh*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh*
   nameWithType.vb: TrigonometricFunctions.Cosh(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Cosh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh(Double)
   name.vb: Cosh(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Tanh(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Tanh(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh(System.Double)
   id: Tanh(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Tanh(double)
   nameWithType: TrigonometricFunctions.Tanh(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Tanh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Tanh
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 121
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "tanh" })]
@@ -680,32 +680,32 @@ items:
       <NativeFunction(New String() { "tanh" })>
 
       Public Shared Function Tanh(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Tanh*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh*
   nameWithType.vb: TrigonometricFunctions.Tanh(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Tanh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh(Double)
   name.vb: Tanh(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Asinh(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Asinh(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh(System.Double)
   id: Asinh(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Asinh(double)
   nameWithType: TrigonometricFunctions.Asinh(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Asinh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Asinh
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 132
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "asinh", "arcsinh", "arsinh" })]
@@ -720,32 +720,32 @@ items:
       <NativeFunction(New String() { "asinh", "arcsinh", "arsinh" })>
 
       Public Shared Function Asinh(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Asinh*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh*
   nameWithType.vb: TrigonometricFunctions.Asinh(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Asinh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh(Double)
   name.vb: Asinh(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acosh(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Acosh(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh(System.Double)
   id: Acosh(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Acosh(double)
   nameWithType: TrigonometricFunctions.Acosh(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acosh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Acosh
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 143
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "acosh", "arccosh", "arcosh" })]
@@ -755,8 +755,8 @@ items:
     - id: x
       type: System.Double
       attributes:
-      - type: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
-        ctor: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor(System.Double,System.Boolean,System.Boolean)
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor(System.Double,System.Boolean,System.Boolean)
         arguments:
         - type: System.Double
           value: 1
@@ -770,32 +770,32 @@ items:
       <NativeFunction(New String() { "acosh", "arccosh", "arcosh" })>
 
       Public Shared Function Acosh(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Acosh*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh*
   nameWithType.vb: TrigonometricFunctions.Acosh(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Acosh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh(Double)
   name.vb: Acosh(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Atanh(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Atanh(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh(System.Double)
   id: Atanh(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Atanh(double)
   nameWithType: TrigonometricFunctions.Atanh(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Atanh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Atanh
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 152
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "atanh", "arctanh", "artanh" })]
@@ -810,32 +810,32 @@ items:
       <NativeFunction(New String() { "atanh", "arctanh", "artanh" })>
 
       Public Shared Function Atanh(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Atanh*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh*
   nameWithType.vb: TrigonometricFunctions.Atanh(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Atanh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh(Double)
   name.vb: Atanh(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Csch(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Csch(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Csch(System.Double)
   id: Csch(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Csch(double)
   nameWithType: TrigonometricFunctions.Csch(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Csch(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Csch
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 157
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "csch" })]
@@ -845,8 +845,8 @@ items:
     - id: x
       type: System.Double
       attributes:
-      - type: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
-        ctor: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
         arguments:
         - type: System.Double
           value: 0
@@ -862,32 +862,32 @@ items:
       <NativeFunction(New String() { "csch" })>
 
       Public Shared Function Csch(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Csch*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch*
   nameWithType.vb: TrigonometricFunctions.Csch(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Csch(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch(Double)
   name.vb: Csch(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Sech(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Sech(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Sech(System.Double)
   id: Sech(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Sech(double)
   nameWithType: TrigonometricFunctions.Sech(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Sech(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Sech
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 166
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "sech" })]
@@ -902,32 +902,32 @@ items:
       <NativeFunction(New String() { "sech" })>
 
       Public Shared Function Sech(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Sech*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech*
   nameWithType.vb: TrigonometricFunctions.Sech(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Sech(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech(Double)
   name.vb: Sech(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Coth(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Coth(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Coth(System.Double)
   id: Coth(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Coth(double)
   nameWithType: TrigonometricFunctions.Coth(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Coth(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Coth
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 175
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "coth" })]
@@ -937,8 +937,8 @@ items:
     - id: x
       type: System.Double
       attributes:
-      - type: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
-        ctor: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
         arguments:
         - type: System.Double
           value: 0
@@ -954,32 +954,32 @@ items:
       <NativeFunction(New String() { "coth" })>
 
       Public Shared Function Coth(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Coth*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth*
   nameWithType.vb: TrigonometricFunctions.Coth(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Coth(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth(Double)
   name.vb: Coth(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsch(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Acsch(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch(System.Double)
   id: Acsch(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Acsch(double)
   nameWithType: TrigonometricFunctions.Acsch(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsch(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Acsch
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 186
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "acsch", "arccsch", "arcsch" })]
@@ -989,8 +989,8 @@ items:
     - id: x
       type: System.Double
       attributes:
-      - type: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
-        ctor: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
         arguments:
         - type: System.Double
           value: 0
@@ -1006,32 +1006,32 @@ items:
       <NativeFunction(New String() { "acsch", "arccsch", "arcsch" })>
 
       Public Shared Function Acsch(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsch*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch*
   nameWithType.vb: TrigonometricFunctions.Acsch(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsch(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch(Double)
   name.vb: Acsch(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Asech(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Asech(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Asech(System.Double)
   id: Asech(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Asech(double)
   nameWithType: TrigonometricFunctions.Asech(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Asech(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Asech
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 195
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "asech", "arcsech", "arsech" })]
@@ -1041,8 +1041,8 @@ items:
     - id: x
       type: System.Double
       attributes:
-      - type: CalcExpr.FunctionAttributes.ConditionalAttributes.RangeAttribute
-        ctor: CalcExpr.FunctionAttributes.ConditionalAttributes.RangeAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
         arguments:
         - type: System.Double
           value: 0
@@ -1058,32 +1058,32 @@ items:
       <NativeFunction(New String() { "asech", "arcsech", "arsech" })>
 
       Public Shared Function Asech(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Asech*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech*
   nameWithType.vb: TrigonometricFunctions.Asech(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Asech(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech(Double)
   name.vb: Asech(Double)
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acoth(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.TrigonometricFunctions.Acoth(System.Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth(System.Double)
   id: Acoth(System.Double)
-  parent: CalcExpr.NativeFunctions.TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
   name: Acoth(double)
   nameWithType: TrigonometricFunctions.Acoth(double)
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acoth(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Acoth
-    path: ../src/CalcExpr/NativeFunctions/TrigonometricFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
     startLine: 200
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "acoth", "arccoth", "arcoth" })]
@@ -1093,8 +1093,8 @@ items:
     - id: x
       type: System.Double
       attributes:
-      - type: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
-        ctor: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
         arguments:
         - type: System.Double
           value: -1
@@ -1110,33 +1110,33 @@ items:
       <NativeFunction(New String() { "acoth", "arccoth", "arcoth" })>
 
       Public Shared Function Acoth(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.TrigonometricFunctions.Acoth*
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth*
   nameWithType.vb: TrigonometricFunctions.Acoth(Double)
-  fullName.vb: CalcExpr.NativeFunctions.TrigonometricFunctions.Acoth(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth(Double)
   name.vb: Acoth(Double)
 references:
-- uid: CalcExpr.NativeFunctions
-  commentId: N:CalcExpr.NativeFunctions
-  href: CalcExpr.html
-  name: CalcExpr.NativeFunctions
-  nameWithType: CalcExpr.NativeFunctions
-  fullName: CalcExpr.NativeFunctions
+- uid: DiceEngine.NativeFunctions
+  commentId: N:DiceEngine.NativeFunctions
+  href: DiceEngine.html
+  name: DiceEngine.NativeFunctions
+  nameWithType: DiceEngine.NativeFunctions
+  fullName: DiceEngine.NativeFunctions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.NativeFunctions
+  - uid: DiceEngine.NativeFunctions
     name: NativeFunctions
-    href: CalcExpr.NativeFunctions.html
+    href: DiceEngine.NativeFunctions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.NativeFunctions
+  - uid: DiceEngine.NativeFunctions
     name: NativeFunctions
-    href: CalcExpr.NativeFunctions.html
+    href: DiceEngine.NativeFunctions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -1374,12 +1374,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Sin*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Sin
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Sin_System_Double_
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Sin
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Sin_System_Double_
   name: Sin
   nameWithType: TrigonometricFunctions.Sin
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Sin
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -1391,141 +1391,141 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Cos*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Cos
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Cos_System_Double_
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Cos
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Cos_System_Double_
   name: Cos
   nameWithType: TrigonometricFunctions.Cos
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Cos
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Tan*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Tan
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Tan_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Tan
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Tan_System_Double_
   name: Tan
   nameWithType: TrigonometricFunctions.Tan
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Tan
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Asin*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Asin
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Asin_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Asin
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Asin_System_Double_
   name: Asin
   nameWithType: TrigonometricFunctions.Asin
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Asin
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acos*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Acos
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Acos_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acos
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acos_System_Double_
   name: Acos
   nameWithType: TrigonometricFunctions.Acos
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acos
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Atan*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Atan
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Atan_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Atan
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Atan_System_Double_
   name: Atan
   nameWithType: TrigonometricFunctions.Atan
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Atan
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Csc*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Csc
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Csc_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Csc
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Csc_System_Double_
   name: Csc
   nameWithType: TrigonometricFunctions.Csc
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Csc
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Sec*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Sec
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Sec_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Sec
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Sec_System_Double_
   name: Sec
   nameWithType: TrigonometricFunctions.Sec
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Sec
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Cot*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Cot
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Cot_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Cot
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Cot_System_Double_
   name: Cot
   nameWithType: TrigonometricFunctions.Cot
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Cot
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsc*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Acsc
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Acsc_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acsc_System_Double_
   name: Acsc
   nameWithType: TrigonometricFunctions.Acsc
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsc
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Asec*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Asec
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Asec_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Asec
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Asec_System_Double_
   name: Asec
   nameWithType: TrigonometricFunctions.Asec
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Asec
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acot*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Acot
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Acot_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acot
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acot_System_Double_
   name: Acot
   nameWithType: TrigonometricFunctions.Acot
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acot
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Sinh*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Sinh
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Sinh_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Sinh_System_Double_
   name: Sinh
   nameWithType: TrigonometricFunctions.Sinh
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Sinh
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Cosh*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Cosh
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Cosh_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Cosh_System_Double_
   name: Cosh
   nameWithType: TrigonometricFunctions.Cosh
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Cosh
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Tanh*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Tanh
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Tanh_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Tanh_System_Double_
   name: Tanh
   nameWithType: TrigonometricFunctions.Tanh
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Tanh
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Asinh*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Asinh
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Asinh_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Asinh_System_Double_
   name: Asinh
   nameWithType: TrigonometricFunctions.Asinh
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Asinh
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acosh*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Acosh
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Acosh_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acosh_System_Double_
   name: Acosh
   nameWithType: TrigonometricFunctions.Acosh
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acosh
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Atanh*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Atanh
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Atanh_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Atanh_System_Double_
   name: Atanh
   nameWithType: TrigonometricFunctions.Atanh
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Atanh
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Csch*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Csch
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Csch_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Csch
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Csch_System_Double_
   name: Csch
   nameWithType: TrigonometricFunctions.Csch
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Csch
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Sech*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Sech
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Sech_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Sech
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Sech_System_Double_
   name: Sech
   nameWithType: TrigonometricFunctions.Sech
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Sech
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Coth*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Coth
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Coth_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Coth
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Coth_System_Double_
   name: Coth
   nameWithType: TrigonometricFunctions.Coth
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Coth
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsch*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Acsch
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Acsch_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acsch_System_Double_
   name: Acsch
   nameWithType: TrigonometricFunctions.Acsch
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acsch
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Asech*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Asech
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Asech_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Asech
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Asech_System_Double_
   name: Asech
   nameWithType: TrigonometricFunctions.Asech
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Asech
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions.Acoth*
-  commentId: Overload:CalcExpr.NativeFunctions.TrigonometricFunctions.Acoth
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html#CalcExpr_NativeFunctions_TrigonometricFunctions_Acoth_System_Double_
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acoth_System_Double_
   name: Acoth
   nameWithType: TrigonometricFunctions.Acoth
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions.Acoth
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth

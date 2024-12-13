@@ -1,30 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Exceptions.ArgumentValueException
-  commentId: T:CalcExpr.Exceptions.ArgumentValueException
+- uid: DiceEngine.Exceptions.ArgumentValueException
+  commentId: T:DiceEngine.Exceptions.ArgumentValueException
   id: ArgumentValueException
-  parent: CalcExpr.Exceptions
+  parent: DiceEngine.Exceptions
   children:
-  - CalcExpr.Exceptions.ArgumentValueException.#ctor(System.Double)
+  - DiceEngine.Exceptions.ArgumentValueException.#ctor(System.Double)
   langs:
   - csharp
   - vb
   name: ArgumentValueException
   nameWithType: ArgumentValueException
-  fullName: CalcExpr.Exceptions.ArgumentValueException
+  fullName: DiceEngine.Exceptions.ArgumentValueException
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Exceptions/ArgumentValueException.cs
+      path: src/DiceEngine/Exceptions/ArgumentValueException.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ArgumentValueException
-    path: ../src/CalcExpr/Exceptions/ArgumentValueException.cs
+    path: ../src/DiceEngine/Exceptions/ArgumentValueException.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Exceptions
-  summary: Initializes a new instance of the <xref href="CalcExpr.Exceptions.ArgumentValueException" data-throw-if-not-resolved="false"></xref> class using the specified invalid value.
+  - DiceEngine
+  namespace: DiceEngine.Exceptions
+  summary: Initializes a new instance of the <xref href="DiceEngine.Exceptions.ArgumentValueException" data-throw-if-not-resolved="false"></xref> class using the specified invalid value.
   example: []
   syntax:
     content: 'public class ArgumentValueException : Exception, ISerializable'
@@ -52,29 +52,29 @@ items:
   - System.Object.GetHashCode
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: CalcExpr.Exceptions.ArgumentValueException.#ctor(System.Double)
-  commentId: M:CalcExpr.Exceptions.ArgumentValueException.#ctor(System.Double)
+- uid: DiceEngine.Exceptions.ArgumentValueException.#ctor(System.Double)
+  commentId: M:DiceEngine.Exceptions.ArgumentValueException.#ctor(System.Double)
   id: '#ctor(System.Double)'
-  parent: CalcExpr.Exceptions.ArgumentValueException
+  parent: DiceEngine.Exceptions.ArgumentValueException
   langs:
   - csharp
   - vb
   name: ArgumentValueException(double)
   nameWithType: ArgumentValueException.ArgumentValueException(double)
-  fullName: CalcExpr.Exceptions.ArgumentValueException.ArgumentValueException(double)
+  fullName: DiceEngine.Exceptions.ArgumentValueException.ArgumentValueException(double)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Exceptions/ArgumentValueException.cs
+      path: src/DiceEngine/Exceptions/ArgumentValueException.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Exceptions/ArgumentValueException.cs
+    path: ../src/DiceEngine/Exceptions/ArgumentValueException.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Exceptions
-  summary: Initializes a new instance of the <xref href="CalcExpr.Exceptions.ArgumentValueException" data-throw-if-not-resolved="false"></xref> class using the specified invalid value.
+  - DiceEngine
+  namespace: DiceEngine.Exceptions
+  summary: Initializes a new instance of the <xref href="DiceEngine.Exceptions.ArgumentValueException" data-throw-if-not-resolved="false"></xref> class using the specified invalid value.
   example: []
   syntax:
     content: public ArgumentValueException(double x)
@@ -83,39 +83,39 @@ items:
       type: System.Double
       description: The value that is invalid.
     content.vb: Public Sub New(x As Double)
-  overload: CalcExpr.Exceptions.ArgumentValueException.#ctor*
+  overload: DiceEngine.Exceptions.ArgumentValueException.#ctor*
   nameWithType.vb: ArgumentValueException.New(Double)
-  fullName.vb: CalcExpr.Exceptions.ArgumentValueException.New(Double)
+  fullName.vb: DiceEngine.Exceptions.ArgumentValueException.New(Double)
   name.vb: New(Double)
 references:
-- uid: CalcExpr.Exceptions.ArgumentValueException
-  commentId: T:CalcExpr.Exceptions.ArgumentValueException
-  href: CalcExpr.Exceptions.ArgumentValueException.html
+- uid: DiceEngine.Exceptions.ArgumentValueException
+  commentId: T:DiceEngine.Exceptions.ArgumentValueException
+  href: DiceEngine.Exceptions.ArgumentValueException.html
   name: ArgumentValueException
   nameWithType: ArgumentValueException
-  fullName: CalcExpr.Exceptions.ArgumentValueException
-- uid: CalcExpr.Exceptions
-  commentId: N:CalcExpr.Exceptions
-  href: CalcExpr.html
-  name: CalcExpr.Exceptions
-  nameWithType: CalcExpr.Exceptions
-  fullName: CalcExpr.Exceptions
+  fullName: DiceEngine.Exceptions.ArgumentValueException
+- uid: DiceEngine.Exceptions
+  commentId: N:DiceEngine.Exceptions
+  href: DiceEngine.html
+  name: DiceEngine.Exceptions
+  nameWithType: DiceEngine.Exceptions
+  fullName: DiceEngine.Exceptions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Exceptions
+  - uid: DiceEngine.Exceptions
     name: Exceptions
-    href: CalcExpr.Exceptions.html
+    href: DiceEngine.Exceptions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Exceptions
+  - uid: DiceEngine.Exceptions
     name: Exceptions
-    href: CalcExpr.Exceptions.html
+    href: DiceEngine.Exceptions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -496,14 +496,14 @@ references:
     name: Serialization
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
-- uid: CalcExpr.Exceptions.ArgumentValueException.#ctor*
-  commentId: Overload:CalcExpr.Exceptions.ArgumentValueException.#ctor
-  href: CalcExpr.Exceptions.ArgumentValueException.html#CalcExpr_Exceptions_ArgumentValueException__ctor_System_Double_
+- uid: DiceEngine.Exceptions.ArgumentValueException.#ctor*
+  commentId: Overload:DiceEngine.Exceptions.ArgumentValueException.#ctor
+  href: DiceEngine.Exceptions.ArgumentValueException.html#DiceEngine_Exceptions_ArgumentValueException__ctor_System_Double_
   name: ArgumentValueException
   nameWithType: ArgumentValueException.ArgumentValueException
-  fullName: CalcExpr.Exceptions.ArgumentValueException.ArgumentValueException
+  fullName: DiceEngine.Exceptions.ArgumentValueException.ArgumentValueException
   nameWithType.vb: ArgumentValueException.New
-  fullName.vb: CalcExpr.Exceptions.ArgumentValueException.New
+  fullName.vb: DiceEngine.Exceptions.ArgumentValueException.New
   name.vb: New
 - uid: System.Double
   commentId: T:System.Double

@@ -1,101 +1,101 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.Collections
-  commentId: N:CalcExpr.Expressions.Collections
-  id: CalcExpr.Expressions.Collections
+- uid: DiceEngine.Expressions.Collections
+  commentId: N:DiceEngine.Expressions.Collections
+  id: DiceEngine.Expressions.Collections
   children:
-  - CalcExpr.Expressions.Collections.IEnumerableExpression
-  - CalcExpr.Expressions.Collections.Set
-  - CalcExpr.Expressions.Collections.TerminalCollection
-  - CalcExpr.Expressions.Collections.TerminalCollection`1
-  - CalcExpr.Expressions.Collections.Vector
+  - DiceEngine.Expressions.Collections.IEnumerableExpression
+  - DiceEngine.Expressions.Collections.Set
+  - DiceEngine.Expressions.Collections.TerminalCollection
+  - DiceEngine.Expressions.Collections.TerminalCollection`1
+  - DiceEngine.Expressions.Collections.Vector
   langs:
   - csharp
   - vb
-  name: CalcExpr.Expressions.Collections
-  nameWithType: CalcExpr.Expressions.Collections
-  fullName: CalcExpr.Expressions.Collections
+  name: DiceEngine.Expressions.Collections
+  nameWithType: DiceEngine.Expressions.Collections
+  fullName: DiceEngine.Expressions.Collections
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Expressions.Collections.IEnumerableExpression
-  commentId: T:CalcExpr.Expressions.Collections.IEnumerableExpression
-  parent: CalcExpr.Expressions.Collections
-  href: CalcExpr.Expressions.Collections.IEnumerableExpression.html
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression
+  commentId: T:DiceEngine.Expressions.Collections.IEnumerableExpression
+  parent: DiceEngine.Expressions.Collections
+  href: DiceEngine.Expressions.Collections.IEnumerableExpression.html
   name: IEnumerableExpression
   nameWithType: IEnumerableExpression
-  fullName: CalcExpr.Expressions.Collections.IEnumerableExpression
-- uid: CalcExpr.Expressions.Collections.Set
-  commentId: T:CalcExpr.Expressions.Collections.Set
-  href: CalcExpr.Expressions.Collections.Set.html
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression
+- uid: DiceEngine.Expressions.Collections.Set
+  commentId: T:DiceEngine.Expressions.Collections.Set
+  href: DiceEngine.Expressions.Collections.Set.html
   name: Set
   nameWithType: Set
-  fullName: CalcExpr.Expressions.Collections.Set
-- uid: CalcExpr.Expressions.Collections.TerminalCollection
-  commentId: T:CalcExpr.Expressions.Collections.TerminalCollection
-  href: CalcExpr.Expressions.Collections.TerminalCollection.html
+  fullName: DiceEngine.Expressions.Collections.Set
+- uid: DiceEngine.Expressions.Collections.TerminalCollection
+  commentId: T:DiceEngine.Expressions.Collections.TerminalCollection
+  href: DiceEngine.Expressions.Collections.TerminalCollection.html
   name: TerminalCollection
   nameWithType: TerminalCollection
-  fullName: CalcExpr.Expressions.Collections.TerminalCollection
-- uid: CalcExpr.Expressions.Collections.TerminalCollection`1
-  commentId: T:CalcExpr.Expressions.Collections.TerminalCollection`1
-  href: CalcExpr.Expressions.Collections.TerminalCollection-1.html
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection
+- uid: DiceEngine.Expressions.Collections.TerminalCollection`1
+  commentId: T:DiceEngine.Expressions.Collections.TerminalCollection`1
+  href: DiceEngine.Expressions.Collections.TerminalCollection-1.html
   name: TerminalCollection<T>
   nameWithType: TerminalCollection<T>
-  fullName: CalcExpr.Expressions.Collections.TerminalCollection<T>
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection<T>
   nameWithType.vb: TerminalCollection(Of T)
-  fullName.vb: CalcExpr.Expressions.Collections.TerminalCollection(Of T)
+  fullName.vb: DiceEngine.Expressions.Collections.TerminalCollection(Of T)
   name.vb: TerminalCollection(Of T)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Collections.TerminalCollection`1
+  - uid: DiceEngine.Expressions.Collections.TerminalCollection`1
     name: TerminalCollection
-    href: CalcExpr.Expressions.Collections.TerminalCollection-1.html
+    href: DiceEngine.Expressions.Collections.TerminalCollection-1.html
   - name: <
   - name: T
   - name: '>'
   spec.vb:
-  - uid: CalcExpr.Expressions.Collections.TerminalCollection`1
+  - uid: DiceEngine.Expressions.Collections.TerminalCollection`1
     name: TerminalCollection
-    href: CalcExpr.Expressions.Collections.TerminalCollection-1.html
+    href: DiceEngine.Expressions.Collections.TerminalCollection-1.html
   - name: (
   - name: Of
   - name: " "
   - name: T
   - name: )
-- uid: CalcExpr.Expressions.Collections.Vector
-  commentId: T:CalcExpr.Expressions.Collections.Vector
-  href: CalcExpr.Expressions.Collections.Vector.html
+- uid: DiceEngine.Expressions.Collections.Vector
+  commentId: T:DiceEngine.Expressions.Collections.Vector
+  href: DiceEngine.Expressions.Collections.Vector.html
   name: Vector
   nameWithType: Vector
-  fullName: CalcExpr.Expressions.Collections.Vector
-- uid: CalcExpr.Expressions.Collections
-  commentId: N:CalcExpr.Expressions.Collections
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Collections
-  nameWithType: CalcExpr.Expressions.Collections
-  fullName: CalcExpr.Expressions.Collections
+  fullName: DiceEngine.Expressions.Collections.Vector
+- uid: DiceEngine.Expressions.Collections
+  commentId: N:DiceEngine.Expressions.Collections
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Collections
+  nameWithType: DiceEngine.Expressions.Collections
+  fullName: DiceEngine.Expressions.Collections
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Collections
+  - uid: DiceEngine.Expressions.Collections
     name: Collections
-    href: CalcExpr.Expressions.Collections.html
+    href: DiceEngine.Expressions.Collections.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Collections
+  - uid: DiceEngine.Expressions.Collections
     name: Collections
-    href: CalcExpr.Expressions.Collections.html
+    href: DiceEngine.Expressions.Collections.html

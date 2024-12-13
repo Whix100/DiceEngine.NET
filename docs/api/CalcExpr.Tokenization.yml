@@ -1,46 +1,46 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Tokenization
-  commentId: N:CalcExpr.Tokenization
-  id: CalcExpr.Tokenization
+- uid: DiceEngine.Tokenization
+  commentId: N:DiceEngine.Tokenization
+  id: DiceEngine.Tokenization
   children:
-  - CalcExpr.Tokenization.Tokenizer
+  - DiceEngine.Tokenization.Tokenizer
   langs:
   - csharp
   - vb
-  name: CalcExpr.Tokenization
-  nameWithType: CalcExpr.Tokenization
-  fullName: CalcExpr.Tokenization
+  name: DiceEngine.Tokenization
+  nameWithType: DiceEngine.Tokenization
+  fullName: DiceEngine.Tokenization
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Tokenization.Tokenizer
-  commentId: T:CalcExpr.Tokenization.Tokenizer
-  parent: CalcExpr.Tokenization
-  href: CalcExpr.Tokenization.Tokenizer.html
+- uid: DiceEngine.Tokenization.Tokenizer
+  commentId: T:DiceEngine.Tokenization.Tokenizer
+  parent: DiceEngine.Tokenization
+  href: DiceEngine.Tokenization.Tokenizer.html
   name: Tokenizer
   nameWithType: Tokenizer
-  fullName: CalcExpr.Tokenization.Tokenizer
-- uid: CalcExpr.Tokenization
-  commentId: N:CalcExpr.Tokenization
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization
-  nameWithType: CalcExpr.Tokenization
-  fullName: CalcExpr.Tokenization
+  fullName: DiceEngine.Tokenization.Tokenizer
+- uid: DiceEngine.Tokenization
+  commentId: N:DiceEngine.Tokenization
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization
+  nameWithType: DiceEngine.Tokenization
+  fullName: DiceEngine.Tokenization
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html

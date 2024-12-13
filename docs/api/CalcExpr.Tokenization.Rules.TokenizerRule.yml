@@ -1,36 +1,36 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule
-  commentId: T:CalcExpr.Tokenization.Rules.TokenizerRule
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule
+  commentId: T:DiceEngine.Tokenization.Rules.TokenizerRule
   id: TokenizerRule
-  parent: CalcExpr.Tokenization.Rules
+  parent: DiceEngine.Tokenization.Rules
   children:
-  - CalcExpr.Tokenization.Rules.TokenizerRule.#ctor(System.String,System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,CalcExpr.Tokenization.Tokens.IToken}}})
-  - CalcExpr.Tokenization.Rules.TokenizerRule.Equals(System.Object)
-  - CalcExpr.Tokenization.Rules.TokenizerRule.GetHashCode
-  - CalcExpr.Tokenization.Rules.TokenizerRule.Name
-  - CalcExpr.Tokenization.Rules.TokenizerRule.Tokenize(System.String@,System.Int32)
-  - CalcExpr.Tokenization.Rules.TokenizerRule.op_Equality(CalcExpr.Tokenization.Rules.TokenizerRule,CalcExpr.Tokenization.Rules.TokenizerRule)
-  - CalcExpr.Tokenization.Rules.TokenizerRule.op_Inequality(CalcExpr.Tokenization.Rules.TokenizerRule,CalcExpr.Tokenization.Rules.TokenizerRule)
+  - DiceEngine.Tokenization.Rules.TokenizerRule.#ctor(System.String,System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,DiceEngine.Tokenization.Tokens.IToken}}})
+  - DiceEngine.Tokenization.Rules.TokenizerRule.Equals(System.Object)
+  - DiceEngine.Tokenization.Rules.TokenizerRule.GetHashCode
+  - DiceEngine.Tokenization.Rules.TokenizerRule.Name
+  - DiceEngine.Tokenization.Rules.TokenizerRule.Tokenize(System.String@,System.Int32)
+  - DiceEngine.Tokenization.Rules.TokenizerRule.op_Equality(DiceEngine.Tokenization.Rules.TokenizerRule,DiceEngine.Tokenization.Rules.TokenizerRule)
+  - DiceEngine.Tokenization.Rules.TokenizerRule.op_Inequality(DiceEngine.Tokenization.Rules.TokenizerRule,DiceEngine.Tokenization.Rules.TokenizerRule)
   langs:
   - csharp
   - vb
   name: TokenizerRule
   nameWithType: TokenizerRule
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+      path: src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: TokenizerRule
-    path: ../src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+    path: ../src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
     startLine: 9
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Rules
-  summary: A rule to be used to tokenize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="CalcExpr.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: A rule to be used to tokenize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: 'public class TokenizerRule : ITokenizerRule'
@@ -38,73 +38,73 @@ items:
   inheritance:
   - System.Object
   implements:
-  - CalcExpr.Tokenization.Rules.ITokenizerRule
+  - DiceEngine.Tokenization.Rules.ITokenizerRule
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.#ctor(System.String,System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,CalcExpr.Tokenization.Tokens.IToken}}})
-  commentId: M:CalcExpr.Tokenization.Rules.TokenizerRule.#ctor(System.String,System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,CalcExpr.Tokenization.Tokens.IToken}}})
-  id: '#ctor(System.String,System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,CalcExpr.Tokenization.Tokens.IToken}}})'
-  parent: CalcExpr.Tokenization.Rules.TokenizerRule
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.#ctor(System.String,System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,DiceEngine.Tokenization.Tokens.IToken}}})
+  commentId: M:DiceEngine.Tokenization.Rules.TokenizerRule.#ctor(System.String,System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,DiceEngine.Tokenization.Tokens.IToken}}})
+  id: '#ctor(System.String,System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,DiceEngine.Tokenization.Tokens.IToken}}})'
+  parent: DiceEngine.Tokenization.Rules.TokenizerRule
   langs:
   - csharp
   - vb
   name: TokenizerRule(string, Func<string, int, (string, IToken)?>)
   nameWithType: TokenizerRule.TokenizerRule(string, Func<string, int, (string, IToken)?>)
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.TokenizerRule(string, System.Func<string, int, (string, CalcExpr.Tokenization.Tokens.IToken)?>)
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.TokenizerRule(string, System.Func<string, int, (string, DiceEngine.Tokenization.Tokens.IToken)?>)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+      path: src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+    path: ../src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
     startLine: 9
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Rules
-  summary: A rule to be used to tokenize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="CalcExpr.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: A rule to be used to tokenize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public TokenizerRule(string name, Func<string, int, (string, IToken)?> tokenize)
     parameters:
     - id: name
       type: System.String
-      description: The name of the <xref href="CalcExpr.Tokenization.Rules.ITokenizerRule" data-throw-if-not-resolved="false"></xref>.
+      description: The name of the <xref href="DiceEngine.Tokenization.Rules.ITokenizerRule" data-throw-if-not-resolved="false"></xref>.
     - id: tokenize
-      type: System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,CalcExpr.Tokenization.Tokens.IToken}}}
+      type: System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,DiceEngine.Tokenization.Tokens.IToken}}}
       description: The function to use to tokenize a input <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Sub New(name As String, tokenize As Func(Of String, Integer, (String, IToken)?))
-  overload: CalcExpr.Tokenization.Rules.TokenizerRule.#ctor*
+  overload: DiceEngine.Tokenization.Rules.TokenizerRule.#ctor*
   nameWithType.vb: TokenizerRule.New(String, Func(Of String, Integer, (String, IToken)?))
-  fullName.vb: CalcExpr.Tokenization.Rules.TokenizerRule.New(String, System.Func(Of String, Integer, (String, CalcExpr.Tokenization.Tokens.IToken)?))
+  fullName.vb: DiceEngine.Tokenization.Rules.TokenizerRule.New(String, System.Func(Of String, Integer, (String, DiceEngine.Tokenization.Tokens.IToken)?))
   name.vb: New(String, Func(Of String, Integer, (String, IToken)?))
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.Name
-  commentId: P:CalcExpr.Tokenization.Rules.TokenizerRule.Name
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.Name
+  commentId: P:DiceEngine.Tokenization.Rules.TokenizerRule.Name
   id: Name
-  parent: CalcExpr.Tokenization.Rules.TokenizerRule
+  parent: DiceEngine.Tokenization.Rules.TokenizerRule
   langs:
   - csharp
   - vb
   name: Name
   nameWithType: TokenizerRule.Name
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.Name
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.Name
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+      path: src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Name
-    path: ../src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+    path: ../src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
     startLine: 13
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Rules
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
   example: []
   syntax:
     content: public string Name { get; }
@@ -112,32 +112,32 @@ items:
     return:
       type: System.String
     content.vb: Public ReadOnly Property Name As String
-  overload: CalcExpr.Tokenization.Rules.TokenizerRule.Name*
+  overload: DiceEngine.Tokenization.Rules.TokenizerRule.Name*
   implements:
-  - CalcExpr.Tokenization.Rules.ITokenizerRule.Name
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.Tokenize(System.String@,System.Int32)
-  commentId: M:CalcExpr.Tokenization.Rules.TokenizerRule.Tokenize(System.String@,System.Int32)
+  - DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.Tokenize(System.String@,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Rules.TokenizerRule.Tokenize(System.String@,System.Int32)
   id: Tokenize(System.String@,System.Int32)
-  parent: CalcExpr.Tokenization.Rules.TokenizerRule
+  parent: DiceEngine.Tokenization.Rules.TokenizerRule
   langs:
   - csharp
   - vb
   name: Tokenize(ref string, int)
   nameWithType: TokenizerRule.Tokenize(ref string, int)
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.Tokenize(ref string, int)
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.Tokenize(ref string, int)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+      path: src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Tokenize
-    path: ../src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+    path: ../src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
     startLine: 15
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Rules
-  summary: Tries to tokenize the input <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="CalcExpr.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: Tries to tokenize the input <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public IToken? Tokenize(ref string input, int index)
@@ -149,37 +149,37 @@ items:
       type: System.Int32
       description: The index of the start of the input string.
     return:
-      type: CalcExpr.Tokenization.Tokens.IToken
-      description: The tokenized <xref href="CalcExpr.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the input does not match the rule.
+      type: DiceEngine.Tokenization.Tokens.IToken
+      description: The tokenized <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the input does not match the rule.
     content.vb: Public Function Tokenize(input As String, index As Integer) As IToken
-  overload: CalcExpr.Tokenization.Rules.TokenizerRule.Tokenize*
+  overload: DiceEngine.Tokenization.Rules.TokenizerRule.Tokenize*
   implements:
-  - CalcExpr.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  - DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
   nameWithType.vb: TokenizerRule.Tokenize(String, Integer)
-  fullName.vb: CalcExpr.Tokenization.Rules.TokenizerRule.Tokenize(String, Integer)
+  fullName.vb: DiceEngine.Tokenization.Rules.TokenizerRule.Tokenize(String, Integer)
   name.vb: Tokenize(String, Integer)
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.Equals(System.Object)
-  commentId: M:CalcExpr.Tokenization.Rules.TokenizerRule.Equals(System.Object)
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.Equals(System.Object)
+  commentId: M:DiceEngine.Tokenization.Rules.TokenizerRule.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Tokenization.Rules.TokenizerRule
+  parent: DiceEngine.Tokenization.Rules.TokenizerRule
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: TokenizerRule.Equals(object?)
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.Equals(object?)
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+      path: src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+    path: ../src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
     startLine: 30
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Rules
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -193,32 +193,32 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: CalcExpr.Tokenization.Rules.TokenizerRule.Equals*
+  overload: DiceEngine.Tokenization.Rules.TokenizerRule.Equals*
   nameWithType.vb: TokenizerRule.Equals(Object)
-  fullName.vb: CalcExpr.Tokenization.Rules.TokenizerRule.Equals(Object)
+  fullName.vb: DiceEngine.Tokenization.Rules.TokenizerRule.Equals(Object)
   name.vb: Equals(Object)
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.GetHashCode
-  commentId: M:CalcExpr.Tokenization.Rules.TokenizerRule.GetHashCode
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.GetHashCode
+  commentId: M:DiceEngine.Tokenization.Rules.TokenizerRule.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Tokenization.Rules.TokenizerRule
+  parent: DiceEngine.Tokenization.Rules.TokenizerRule
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: TokenizerRule.GetHashCode()
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.GetHashCode()
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+      path: src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+    path: ../src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
     startLine: 33
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Rules
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -228,78 +228,78 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: CalcExpr.Tokenization.Rules.TokenizerRule.GetHashCode*
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.op_Equality(CalcExpr.Tokenization.Rules.TokenizerRule,CalcExpr.Tokenization.Rules.TokenizerRule)
-  commentId: M:CalcExpr.Tokenization.Rules.TokenizerRule.op_Equality(CalcExpr.Tokenization.Rules.TokenizerRule,CalcExpr.Tokenization.Rules.TokenizerRule)
-  id: op_Equality(CalcExpr.Tokenization.Rules.TokenizerRule,CalcExpr.Tokenization.Rules.TokenizerRule)
-  parent: CalcExpr.Tokenization.Rules.TokenizerRule
+  overload: DiceEngine.Tokenization.Rules.TokenizerRule.GetHashCode*
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.op_Equality(DiceEngine.Tokenization.Rules.TokenizerRule,DiceEngine.Tokenization.Rules.TokenizerRule)
+  commentId: M:DiceEngine.Tokenization.Rules.TokenizerRule.op_Equality(DiceEngine.Tokenization.Rules.TokenizerRule,DiceEngine.Tokenization.Rules.TokenizerRule)
+  id: op_Equality(DiceEngine.Tokenization.Rules.TokenizerRule,DiceEngine.Tokenization.Rules.TokenizerRule)
+  parent: DiceEngine.Tokenization.Rules.TokenizerRule
   langs:
   - csharp
   - vb
   name: operator ==(TokenizerRule, TokenizerRule)
   nameWithType: TokenizerRule.operator ==(TokenizerRule, TokenizerRule)
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.operator ==(CalcExpr.Tokenization.Rules.TokenizerRule, CalcExpr.Tokenization.Rules.TokenizerRule)
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.operator ==(DiceEngine.Tokenization.Rules.TokenizerRule, DiceEngine.Tokenization.Rules.TokenizerRule)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+      path: src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Equality
-    path: ../src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+    path: ../src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
     startLine: 36
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Rules
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
   syntax:
     content: public static bool operator ==(TokenizerRule a, TokenizerRule b)
     parameters:
     - id: a
-      type: CalcExpr.Tokenization.Rules.TokenizerRule
+      type: DiceEngine.Tokenization.Rules.TokenizerRule
     - id: b
-      type: CalcExpr.Tokenization.Rules.TokenizerRule
+      type: DiceEngine.Tokenization.Rules.TokenizerRule
     return:
       type: System.Boolean
     content.vb: Public Shared Operator =(a As TokenizerRule, b As TokenizerRule) As Boolean
-  overload: CalcExpr.Tokenization.Rules.TokenizerRule.op_Equality*
+  overload: DiceEngine.Tokenization.Rules.TokenizerRule.op_Equality*
   nameWithType.vb: TokenizerRule.=(TokenizerRule, TokenizerRule)
-  fullName.vb: CalcExpr.Tokenization.Rules.TokenizerRule.=(CalcExpr.Tokenization.Rules.TokenizerRule, CalcExpr.Tokenization.Rules.TokenizerRule)
+  fullName.vb: DiceEngine.Tokenization.Rules.TokenizerRule.=(DiceEngine.Tokenization.Rules.TokenizerRule, DiceEngine.Tokenization.Rules.TokenizerRule)
   name.vb: =(TokenizerRule, TokenizerRule)
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.op_Inequality(CalcExpr.Tokenization.Rules.TokenizerRule,CalcExpr.Tokenization.Rules.TokenizerRule)
-  commentId: M:CalcExpr.Tokenization.Rules.TokenizerRule.op_Inequality(CalcExpr.Tokenization.Rules.TokenizerRule,CalcExpr.Tokenization.Rules.TokenizerRule)
-  id: op_Inequality(CalcExpr.Tokenization.Rules.TokenizerRule,CalcExpr.Tokenization.Rules.TokenizerRule)
-  parent: CalcExpr.Tokenization.Rules.TokenizerRule
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.op_Inequality(DiceEngine.Tokenization.Rules.TokenizerRule,DiceEngine.Tokenization.Rules.TokenizerRule)
+  commentId: M:DiceEngine.Tokenization.Rules.TokenizerRule.op_Inequality(DiceEngine.Tokenization.Rules.TokenizerRule,DiceEngine.Tokenization.Rules.TokenizerRule)
+  id: op_Inequality(DiceEngine.Tokenization.Rules.TokenizerRule,DiceEngine.Tokenization.Rules.TokenizerRule)
+  parent: DiceEngine.Tokenization.Rules.TokenizerRule
   langs:
   - csharp
   - vb
   name: operator !=(TokenizerRule, TokenizerRule)
   nameWithType: TokenizerRule.operator !=(TokenizerRule, TokenizerRule)
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.operator !=(CalcExpr.Tokenization.Rules.TokenizerRule, CalcExpr.Tokenization.Rules.TokenizerRule)
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.operator !=(DiceEngine.Tokenization.Rules.TokenizerRule, DiceEngine.Tokenization.Rules.TokenizerRule)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+      path: src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Inequality
-    path: ../src/CalcExpr/Tokenization/Rules/TokenizerRule.cs
+    path: ../src/DiceEngine/Tokenization/Rules/TokenizerRule.cs
     startLine: 39
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Rules
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
   syntax:
     content: public static bool operator !=(TokenizerRule a, TokenizerRule b)
     parameters:
     - id: a
-      type: CalcExpr.Tokenization.Rules.TokenizerRule
+      type: DiceEngine.Tokenization.Rules.TokenizerRule
     - id: b
-      type: CalcExpr.Tokenization.Rules.TokenizerRule
+      type: DiceEngine.Tokenization.Rules.TokenizerRule
     return:
       type: System.Boolean
     content.vb: Public Shared Operator <>(a As TokenizerRule, b As TokenizerRule) As Boolean
-  overload: CalcExpr.Tokenization.Rules.TokenizerRule.op_Inequality*
+  overload: DiceEngine.Tokenization.Rules.TokenizerRule.op_Inequality*
   nameWithType.vb: TokenizerRule.<>(TokenizerRule, TokenizerRule)
-  fullName.vb: CalcExpr.Tokenization.Rules.TokenizerRule.<>(CalcExpr.Tokenization.Rules.TokenizerRule, CalcExpr.Tokenization.Rules.TokenizerRule)
+  fullName.vb: DiceEngine.Tokenization.Rules.TokenizerRule.<>(DiceEngine.Tokenization.Rules.TokenizerRule, DiceEngine.Tokenization.Rules.TokenizerRule)
   name.vb: <>(TokenizerRule, TokenizerRule)
 references:
 - uid: System.String
@@ -313,50 +313,50 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Tokenization.Tokens.IToken
-  commentId: T:CalcExpr.Tokenization.Tokens.IToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.IToken.html
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
   name: IToken
   nameWithType: IToken
-  fullName: CalcExpr.Tokenization.Tokens.IToken
-- uid: CalcExpr.Tokenization.Rules.ITokenizerRule
-  commentId: T:CalcExpr.Tokenization.Rules.ITokenizerRule
-  parent: CalcExpr.Tokenization.Rules
-  href: CalcExpr.Tokenization.Rules.ITokenizerRule.html
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule
+  commentId: T:DiceEngine.Tokenization.Rules.ITokenizerRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html
   name: ITokenizerRule
   nameWithType: ITokenizerRule
-  fullName: CalcExpr.Tokenization.Rules.ITokenizerRule
-- uid: CalcExpr.Tokenization.Rules
-  commentId: N:CalcExpr.Tokenization.Rules
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Rules
-  nameWithType: CalcExpr.Tokenization.Rules
-  fullName: CalcExpr.Tokenization.Rules
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule
+- uid: DiceEngine.Tokenization.Rules
+  commentId: N:DiceEngine.Tokenization.Rules
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Rules
+  nameWithType: DiceEngine.Tokenization.Rules
+  fullName: DiceEngine.Tokenization.Rules
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Rules
+  - uid: DiceEngine.Tokenization.Rules
     name: Rules
-    href: CalcExpr.Tokenization.Rules.html
+    href: DiceEngine.Tokenization.Rules.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Rules
+  - uid: DiceEngine.Tokenization.Rules
     name: Rules
-    href: CalcExpr.Tokenization.Rules.html
+    href: DiceEngine.Tokenization.Rules.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -537,55 +537,55 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Tokenization.Tokens
-  commentId: N:CalcExpr.Tokenization.Tokens
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Tokens
-  nameWithType: CalcExpr.Tokenization.Tokens
-  fullName: CalcExpr.Tokenization.Tokens
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.#ctor*
-  commentId: Overload:CalcExpr.Tokenization.Rules.TokenizerRule.#ctor
-  href: CalcExpr.Tokenization.Rules.TokenizerRule.html#CalcExpr_Tokenization_Rules_TokenizerRule__ctor_System_String_System_Func_System_String_System_Int32_System_Nullable_System_ValueTuple_System_String_CalcExpr_Tokenization_Tokens_IToken____
+    href: DiceEngine.Tokenization.Tokens.html
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.#ctor*
+  commentId: Overload:DiceEngine.Tokenization.Rules.TokenizerRule.#ctor
+  href: DiceEngine.Tokenization.Rules.TokenizerRule.html#DiceEngine_Tokenization_Rules_TokenizerRule__ctor_System_String_System_Func_System_String_System_Int32_System_Nullable_System_ValueTuple_System_String_DiceEngine_Tokenization_Tokens_IToken____
   name: TokenizerRule
   nameWithType: TokenizerRule.TokenizerRule
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.TokenizerRule
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.TokenizerRule
   nameWithType.vb: TokenizerRule.New
-  fullName.vb: CalcExpr.Tokenization.Rules.TokenizerRule.New
+  fullName.vb: DiceEngine.Tokenization.Rules.TokenizerRule.New
   name.vb: New
-- uid: System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,CalcExpr.Tokenization.Tokens.IToken}}}
-  commentId: T:System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,CalcExpr.Tokenization.Tokens.IToken}}}
+- uid: System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,DiceEngine.Tokenization.Tokens.IToken}}}
+  commentId: T:System.Func{System.String,System.Int32,System.Nullable{System.ValueTuple{System.String,DiceEngine.Tokenization.Tokens.IToken}}}
   parent: System
   definition: System.Func`3
   href: https://learn.microsoft.com/dotnet/api/system.func-3
   name: Func<string, int, (string, IToken)?>
   nameWithType: Func<string, int, (string, IToken)?>
-  fullName: System.Func<string, int, (string, CalcExpr.Tokenization.Tokens.IToken)?>
+  fullName: System.Func<string, int, (string, DiceEngine.Tokenization.Tokens.IToken)?>
   nameWithType.vb: Func(Of String, Integer, (String, IToken)?)
-  fullName.vb: System.Func(Of String, Integer, (String, CalcExpr.Tokenization.Tokens.IToken)?)
+  fullName.vb: System.Func(Of String, Integer, (String, DiceEngine.Tokenization.Tokens.IToken)?)
   name.vb: Func(Of String, Integer, (String, IToken)?)
   spec.csharp:
   - uid: System.Func`3
@@ -612,9 +612,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
   - name: '?'
   - name: '>'
@@ -645,9 +645,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
   - name: '?'
   - name: )
@@ -691,40 +691,40 @@ references:
   - name: " "
   - name: TResult
   - name: )
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.Name*
-  commentId: Overload:CalcExpr.Tokenization.Rules.TokenizerRule.Name
-  href: CalcExpr.Tokenization.Rules.TokenizerRule.html#CalcExpr_Tokenization_Rules_TokenizerRule_Name
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.Name*
+  commentId: Overload:DiceEngine.Tokenization.Rules.TokenizerRule.Name
+  href: DiceEngine.Tokenization.Rules.TokenizerRule.html#DiceEngine_Tokenization_Rules_TokenizerRule_Name
   name: Name
   nameWithType: TokenizerRule.Name
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.Name
-- uid: CalcExpr.Tokenization.Rules.ITokenizerRule.Name
-  commentId: P:CalcExpr.Tokenization.Rules.ITokenizerRule.Name
-  parent: CalcExpr.Tokenization.Rules.ITokenizerRule
-  href: CalcExpr.Tokenization.Rules.ITokenizerRule.html#CalcExpr_Tokenization_Rules_ITokenizerRule_Name
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.Name
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+  commentId: P:DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+  parent: DiceEngine.Tokenization.Rules.ITokenizerRule
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Name
   name: Name
   nameWithType: ITokenizerRule.Name
-  fullName: CalcExpr.Tokenization.Rules.ITokenizerRule.Name
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.Tokenize*
-  commentId: Overload:CalcExpr.Tokenization.Rules.TokenizerRule.Tokenize
-  href: CalcExpr.Tokenization.Rules.TokenizerRule.html#CalcExpr_Tokenization_Rules_TokenizerRule_Tokenize_System_String__System_Int32_
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.Tokenize*
+  commentId: Overload:DiceEngine.Tokenization.Rules.TokenizerRule.Tokenize
+  href: DiceEngine.Tokenization.Rules.TokenizerRule.html#DiceEngine_Tokenization_Rules_TokenizerRule_Tokenize_System_String__System_Int32_
   name: Tokenize
   nameWithType: TokenizerRule.Tokenize
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.Tokenize
-- uid: CalcExpr.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
-  commentId: M:CalcExpr.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
-  parent: CalcExpr.Tokenization.Rules.ITokenizerRule
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.Tokenize
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  parent: DiceEngine.Tokenization.Rules.ITokenizerRule
   isExternal: true
-  href: CalcExpr.Tokenization.Rules.ITokenizerRule.html#CalcExpr_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
   name: Tokenize(ref string, int)
   nameWithType: ITokenizerRule.Tokenize(ref string, int)
-  fullName: CalcExpr.Tokenization.Rules.ITokenizerRule.Tokenize(ref string, int)
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(ref string, int)
   nameWithType.vb: ITokenizerRule.Tokenize(String, Integer)
-  fullName.vb: CalcExpr.Tokenization.Rules.ITokenizerRule.Tokenize(String, Integer)
+  fullName.vb: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(String, Integer)
   name.vb: Tokenize(String, Integer)
   spec.csharp:
-  - uid: CalcExpr.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  - uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
     name: Tokenize
-    href: CalcExpr.Tokenization.Rules.ITokenizerRule.html#CalcExpr_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
+    href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
   - name: (
   - name: ref
   - name: " "
@@ -740,9 +740,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
   spec.vb:
-  - uid: CalcExpr.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  - uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
     name: Tokenize
-    href: CalcExpr.Tokenization.Rules.ITokenizerRule.html#CalcExpr_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
+    href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
   - name: (
   - uid: System.String
     name: String
@@ -799,12 +799,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.Equals*
-  commentId: Overload:CalcExpr.Tokenization.Rules.TokenizerRule.Equals
-  href: CalcExpr.Tokenization.Rules.TokenizerRule.html#CalcExpr_Tokenization_Rules_TokenizerRule_Equals_System_Object_
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.Equals*
+  commentId: Overload:DiceEngine.Tokenization.Rules.TokenizerRule.Equals
+  href: DiceEngine.Tokenization.Rules.TokenizerRule.html#DiceEngine_Tokenization_Rules_TokenizerRule_Equals_System_Object_
   name: Equals
   nameWithType: TokenizerRule.Equals
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.Equals
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.Equals
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -840,46 +840,46 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.GetHashCode*
-  commentId: Overload:CalcExpr.Tokenization.Rules.TokenizerRule.GetHashCode
-  href: CalcExpr.Tokenization.Rules.TokenizerRule.html#CalcExpr_Tokenization_Rules_TokenizerRule_GetHashCode
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.GetHashCode*
+  commentId: Overload:DiceEngine.Tokenization.Rules.TokenizerRule.GetHashCode
+  href: DiceEngine.Tokenization.Rules.TokenizerRule.html#DiceEngine_Tokenization_Rules_TokenizerRule_GetHashCode
   name: GetHashCode
   nameWithType: TokenizerRule.GetHashCode
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.GetHashCode
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.op_Equality*
-  commentId: Overload:CalcExpr.Tokenization.Rules.TokenizerRule.op_Equality
-  href: CalcExpr.Tokenization.Rules.TokenizerRule.html#CalcExpr_Tokenization_Rules_TokenizerRule_op_Equality_CalcExpr_Tokenization_Rules_TokenizerRule_CalcExpr_Tokenization_Rules_TokenizerRule_
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.GetHashCode
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.op_Equality*
+  commentId: Overload:DiceEngine.Tokenization.Rules.TokenizerRule.op_Equality
+  href: DiceEngine.Tokenization.Rules.TokenizerRule.html#DiceEngine_Tokenization_Rules_TokenizerRule_op_Equality_DiceEngine_Tokenization_Rules_TokenizerRule_DiceEngine_Tokenization_Rules_TokenizerRule_
   name: operator ==
   nameWithType: TokenizerRule.operator ==
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.operator ==
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.operator ==
   nameWithType.vb: TokenizerRule.=
-  fullName.vb: CalcExpr.Tokenization.Rules.TokenizerRule.=
+  fullName.vb: DiceEngine.Tokenization.Rules.TokenizerRule.=
   name.vb: =
   spec.csharp:
   - name: operator
   - name: " "
-  - uid: CalcExpr.Tokenization.Rules.TokenizerRule.op_Equality*
+  - uid: DiceEngine.Tokenization.Rules.TokenizerRule.op_Equality*
     name: ==
-    href: CalcExpr.Tokenization.Rules.TokenizerRule.html#CalcExpr_Tokenization_Rules_TokenizerRule_op_Equality_CalcExpr_Tokenization_Rules_TokenizerRule_CalcExpr_Tokenization_Rules_TokenizerRule_
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule
-  commentId: T:CalcExpr.Tokenization.Rules.TokenizerRule
-  parent: CalcExpr.Tokenization.Rules
-  href: CalcExpr.Tokenization.Rules.TokenizerRule.html
+    href: DiceEngine.Tokenization.Rules.TokenizerRule.html#DiceEngine_Tokenization_Rules_TokenizerRule_op_Equality_DiceEngine_Tokenization_Rules_TokenizerRule_DiceEngine_Tokenization_Rules_TokenizerRule_
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule
+  commentId: T:DiceEngine.Tokenization.Rules.TokenizerRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.TokenizerRule.html
   name: TokenizerRule
   nameWithType: TokenizerRule
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule.op_Inequality*
-  commentId: Overload:CalcExpr.Tokenization.Rules.TokenizerRule.op_Inequality
-  href: CalcExpr.Tokenization.Rules.TokenizerRule.html#CalcExpr_Tokenization_Rules_TokenizerRule_op_Inequality_CalcExpr_Tokenization_Rules_TokenizerRule_CalcExpr_Tokenization_Rules_TokenizerRule_
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule.op_Inequality*
+  commentId: Overload:DiceEngine.Tokenization.Rules.TokenizerRule.op_Inequality
+  href: DiceEngine.Tokenization.Rules.TokenizerRule.html#DiceEngine_Tokenization_Rules_TokenizerRule_op_Inequality_DiceEngine_Tokenization_Rules_TokenizerRule_DiceEngine_Tokenization_Rules_TokenizerRule_
   name: operator !=
   nameWithType: TokenizerRule.operator !=
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule.operator !=
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule.operator !=
   nameWithType.vb: TokenizerRule.<>
-  fullName.vb: CalcExpr.Tokenization.Rules.TokenizerRule.<>
+  fullName.vb: DiceEngine.Tokenization.Rules.TokenizerRule.<>
   name.vb: <>
   spec.csharp:
   - name: operator
   - name: " "
-  - uid: CalcExpr.Tokenization.Rules.TokenizerRule.op_Inequality*
+  - uid: DiceEngine.Tokenization.Rules.TokenizerRule.op_Inequality*
     name: '!='
-    href: CalcExpr.Tokenization.Rules.TokenizerRule.html#CalcExpr_Tokenization_Rules_TokenizerRule_op_Inequality_CalcExpr_Tokenization_Rules_TokenizerRule_CalcExpr_Tokenization_Rules_TokenizerRule_
+    href: DiceEngine.Tokenization.Rules.TokenizerRule.html#DiceEngine_Tokenization_Rules_TokenizerRule_op_Inequality_DiceEngine_Tokenization_Rules_TokenizerRule_DiceEngine_Tokenization_Rules_TokenizerRule_

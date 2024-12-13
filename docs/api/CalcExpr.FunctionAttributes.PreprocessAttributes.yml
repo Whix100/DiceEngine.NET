@@ -1,68 +1,68 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes
-  commentId: N:CalcExpr.FunctionAttributes.PreprocessAttributes
-  id: CalcExpr.FunctionAttributes.PreprocessAttributes
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes
+  commentId: N:DiceEngine.FunctionAttributes.PreprocessAttributes
+  id: DiceEngine.FunctionAttributes.PreprocessAttributes
   children:
-  - CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
-  - CalcExpr.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
-  - CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  - DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+  - DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
+  - DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
   langs:
   - csharp
   - vb
-  name: CalcExpr.FunctionAttributes.PreprocessAttributes
-  nameWithType: CalcExpr.FunctionAttributes.PreprocessAttributes
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes
+  name: DiceEngine.FunctionAttributes.PreprocessAttributes
+  nameWithType: DiceEngine.FunctionAttributes.PreprocessAttributes
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
-  commentId: T:CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
-  href: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.html
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+  commentId: T:DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+  href: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.html
   name: AsBooleanAttribute
   nameWithType: AsBooleanAttribute
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
-  commentId: T:CalcExpr.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
-  href: CalcExpr.FunctionAttributes.PreprocessAttributes.AsNumberAttribute.html
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
+  commentId: T:DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
+  href: DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute.html
   name: AsNumberAttribute
   nameWithType: AsNumberAttribute
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
-  commentId: T:CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
-  parent: CalcExpr.FunctionAttributes.PreprocessAttributes
-  href: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  commentId: T:DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  parent: DiceEngine.FunctionAttributes.PreprocessAttributes
+  href: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html
   name: PreprocessAttribute
   nameWithType: PreprocessAttribute
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes
-  commentId: N:CalcExpr.FunctionAttributes.PreprocessAttributes
-  href: CalcExpr.html
-  name: CalcExpr.FunctionAttributes.PreprocessAttributes
-  nameWithType: CalcExpr.FunctionAttributes.PreprocessAttributes
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes
+  commentId: N:DiceEngine.FunctionAttributes.PreprocessAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes.PreprocessAttributes
+  nameWithType: DiceEngine.FunctionAttributes.PreprocessAttributes
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes.PreprocessAttributes
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes
     name: PreprocessAttributes
-    href: CalcExpr.FunctionAttributes.PreprocessAttributes.html
+    href: DiceEngine.FunctionAttributes.PreprocessAttributes.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes.PreprocessAttributes
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes
     name: PreprocessAttributes
-    href: CalcExpr.FunctionAttributes.PreprocessAttributes.html
+    href: DiceEngine.FunctionAttributes.PreprocessAttributes.html

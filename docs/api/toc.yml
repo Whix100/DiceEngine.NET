@@ -1,355 +1,355 @@
 ### YamlMime:TableOfContent
 items:
-- uid: CalcExpr.Attributes
-  name: CalcExpr.Attributes
+- uid: DiceEngine.Attributes
+  name: DiceEngine.Attributes
   type: Namespace
   items:
-  - uid: CalcExpr.Attributes.ElementwiseAttribute
+  - uid: DiceEngine.Attributes.ElementwiseAttribute
     name: ElementwiseAttribute
     type: Class
-  - uid: CalcExpr.Attributes.NativeFunctionAttribute
+  - uid: DiceEngine.Attributes.NativeFunctionAttribute
     name: NativeFunctionAttribute
     type: Class
-- uid: CalcExpr.Context
-  name: CalcExpr.Context
+- uid: DiceEngine.Context
+  name: DiceEngine.Context
   type: Namespace
   items:
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
     type: Class
-- uid: CalcExpr.Exceptions
-  name: CalcExpr.Exceptions
+- uid: DiceEngine.Exceptions
+  name: DiceEngine.Exceptions
   type: Namespace
   items:
-  - uid: CalcExpr.Exceptions.ArgumentValueException
+  - uid: DiceEngine.Exceptions.ArgumentValueException
     name: ArgumentValueException
     type: Class
-  - uid: CalcExpr.Exceptions.InvalidAssignmentException
+  - uid: DiceEngine.Exceptions.InvalidAssignmentException
     name: InvalidAssignmentException
     type: Class
-  - uid: CalcExpr.Exceptions.UnbalancedParenthesesException
+  - uid: DiceEngine.Exceptions.UnbalancedParenthesesException
     name: UnbalancedParenthesesException
     type: Class
-- uid: CalcExpr.Expressions
-  name: CalcExpr.Expressions
+- uid: DiceEngine.Expressions
+  name: DiceEngine.Expressions
   type: Namespace
   items:
-  - uid: CalcExpr.Expressions.AssignmentOperator
+  - uid: DiceEngine.Expressions.AssignmentOperator
     name: AssignmentOperator
     type: Class
-  - uid: CalcExpr.Expressions.BinaryOperator
+  - uid: DiceEngine.Expressions.BinaryOperator
     name: BinaryOperator
     type: Class
-  - uid: CalcExpr.Expressions.Constant
+  - uid: DiceEngine.Expressions.Constant
     name: Constant
     type: Class
-  - uid: CalcExpr.Expressions.FunctionCall
+  - uid: DiceEngine.Expressions.FunctionCall
     name: FunctionCall
     type: Class
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
     type: Interface
-  - uid: CalcExpr.Expressions.Indexer
+  - uid: DiceEngine.Expressions.Indexer
     name: Indexer
     type: Class
-  - uid: CalcExpr.Expressions.Parentheses
+  - uid: DiceEngine.Expressions.Parentheses
     name: Parentheses
     type: Class
-  - uid: CalcExpr.Expressions.PostfixOperator
+  - uid: DiceEngine.Expressions.PostfixOperator
     name: PostfixOperator
     type: Class
-  - uid: CalcExpr.Expressions.PrefixOperator
+  - uid: DiceEngine.Expressions.PrefixOperator
     name: PrefixOperator
     type: Class
-  - uid: CalcExpr.Expressions.Variable
+  - uid: DiceEngine.Expressions.Variable
     name: Variable
     type: Class
-- uid: CalcExpr.Expressions.Collections
-  name: CalcExpr.Expressions.Collections
+- uid: DiceEngine.Expressions.Collections
+  name: DiceEngine.Expressions.Collections
   type: Namespace
   items:
-  - uid: CalcExpr.Expressions.Collections.IEnumerableExpression
+  - uid: DiceEngine.Expressions.Collections.IEnumerableExpression
     name: IEnumerableExpression
     type: Interface
-  - uid: CalcExpr.Expressions.Collections.Set
+  - uid: DiceEngine.Expressions.Collections.Set
     name: Set
     type: Class
-  - uid: CalcExpr.Expressions.Collections.TerminalCollection
+  - uid: DiceEngine.Expressions.Collections.TerminalCollection
     name: TerminalCollection
     type: Class
-  - uid: CalcExpr.Expressions.Collections.TerminalCollection`1
+  - uid: DiceEngine.Expressions.Collections.TerminalCollection`1
     name: TerminalCollection<T>
     type: Class
-  - uid: CalcExpr.Expressions.Collections.Vector
+  - uid: DiceEngine.Expressions.Collections.Vector
     name: Vector
     type: Class
-- uid: CalcExpr.Expressions.Components
-  name: CalcExpr.Expressions.Components
+- uid: DiceEngine.Expressions.Components
+  name: DiceEngine.Expressions.Components
   type: Namespace
   items:
-  - uid: CalcExpr.Expressions.Components.ContextParameter
+  - uid: DiceEngine.Expressions.Components.ContextParameter
     name: ContextParameter
     type: Struct
-  - uid: CalcExpr.Expressions.Components.IParameter
+  - uid: DiceEngine.Expressions.Components.IParameter
     name: IParameter
     type: Interface
-  - uid: CalcExpr.Expressions.Components.Parameter
+  - uid: DiceEngine.Expressions.Components.Parameter
     name: Parameter
     type: Struct
-  - uid: CalcExpr.Expressions.Components.TypeParameter
+  - uid: DiceEngine.Expressions.Components.TypeParameter
     name: TypeParameter
     type: Class
-  - uid: CalcExpr.Expressions.Components.TypeParameter`1
+  - uid: DiceEngine.Expressions.Components.TypeParameter`1
     name: TypeParameter<T>
     type: Struct
-- uid: CalcExpr.Expressions.Functions
-  name: CalcExpr.Expressions.Functions
+- uid: DiceEngine.Expressions.Functions
+  name: DiceEngine.Expressions.Functions
   type: Namespace
   items:
-  - uid: CalcExpr.Expressions.Functions.Function
+  - uid: DiceEngine.Expressions.Functions.Function
     name: Function
     type: Class
-  - uid: CalcExpr.Expressions.Functions.LambdaFunction
+  - uid: DiceEngine.Expressions.Functions.LambdaFunction
     name: LambdaFunction
     type: Class
-  - uid: CalcExpr.Expressions.Functions.NativeFunction
+  - uid: DiceEngine.Expressions.Functions.NativeFunction
     name: NativeFunction
     type: Class
-- uid: CalcExpr.Expressions.Interfaces
-  name: CalcExpr.Expressions.Interfaces
+- uid: DiceEngine.Expressions.Interfaces
+  name: DiceEngine.Expressions.Interfaces
   type: Namespace
   items:
-  - uid: CalcExpr.Expressions.Interfaces.IBinaryOperable
+  - uid: DiceEngine.Expressions.Interfaces.IBinaryOperable
     name: IBinaryOperable
     type: Interface
-  - uid: CalcExpr.Expressions.Interfaces.ILogicalConvertible
+  - uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible
     name: ILogicalConvertible
     type: Interface
-  - uid: CalcExpr.Expressions.Interfaces.IPostfixOperable
+  - uid: DiceEngine.Expressions.Interfaces.IPostfixOperable
     name: IPostfixOperable
     type: Interface
-  - uid: CalcExpr.Expressions.Interfaces.IPrefixOperable
+  - uid: DiceEngine.Expressions.Interfaces.IPrefixOperable
     name: IPrefixOperable
     type: Interface
-- uid: CalcExpr.Expressions.Terminals
-  name: CalcExpr.Expressions.Terminals
+- uid: DiceEngine.Expressions.Terminals
+  name: DiceEngine.Expressions.Terminals
   type: Namespace
   items:
-  - uid: CalcExpr.Expressions.Terminals.Infinity
+  - uid: DiceEngine.Expressions.Terminals.Infinity
     name: Infinity
     type: Class
-  - uid: CalcExpr.Expressions.Terminals.Logical
+  - uid: DiceEngine.Expressions.Terminals.Logical
     name: Logical
     type: Class
-  - uid: CalcExpr.Expressions.Terminals.Number
+  - uid: DiceEngine.Expressions.Terminals.Number
     name: Number
     type: Class
-  - uid: CalcExpr.Expressions.Terminals.Terminal
+  - uid: DiceEngine.Expressions.Terminals.Terminal
     name: Terminal
     type: Class
-  - uid: CalcExpr.Expressions.Terminals.Undefined
+  - uid: DiceEngine.Expressions.Terminals.Undefined
     name: Undefined
     type: Class
-- uid: CalcExpr.FunctionAttributes
-  name: CalcExpr.FunctionAttributes
+- uid: DiceEngine.FunctionAttributes
+  name: DiceEngine.FunctionAttributes
   type: Namespace
   items:
-  - uid: CalcExpr.FunctionAttributes.FunctionAttribute
+  - uid: DiceEngine.FunctionAttributes.FunctionAttribute
     name: FunctionAttribute
     type: Class
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes
-  name: CalcExpr.FunctionAttributes.ConditionalAttributes
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes
+  name: DiceEngine.FunctionAttributes.ConditionalAttributes
   type: Namespace
   items:
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
     name: AreNumbersAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
     name: ConditionAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.GapAttribute
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
     name: GapAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
     name: IsExpressionTypeAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
     name: IsIntegerAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
     name: IsNumberAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MaximumAttribute
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MaximumAttribute
     name: MaximumAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
     name: MinimumAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
     name: NotUndefinedAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.RangeAttribute
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute
     name: RangeAttribute
     type: Class
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes
-  name: CalcExpr.FunctionAttributes.PreprocessAttributes
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes
+  name: DiceEngine.FunctionAttributes.PreprocessAttributes
   type: Namespace
   items:
-  - uid: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
     name: AsBooleanAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
     name: AsNumberAttribute
     type: Class
-  - uid: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
     name: PreprocessAttribute
     type: Class
-- uid: CalcExpr.NativeFunctions
-  name: CalcExpr.NativeFunctions
+- uid: DiceEngine.NativeFunctions
+  name: DiceEngine.NativeFunctions
   type: Namespace
   items:
-  - uid: CalcExpr.NativeFunctions.CollectionFunctions
+  - uid: DiceEngine.NativeFunctions.CollectionFunctions
     name: CollectionFunctions
     type: Class
-  - uid: CalcExpr.NativeFunctions.FactorialFunctions
+  - uid: DiceEngine.NativeFunctions.FactorialFunctions
     name: FactorialFunctions
     type: Class
-  - uid: CalcExpr.NativeFunctions.LogicalFunctions
+  - uid: DiceEngine.NativeFunctions.LogicalFunctions
     name: LogicalFunctions
     type: Class
-  - uid: CalcExpr.NativeFunctions.StatisticalFunctions
+  - uid: DiceEngine.NativeFunctions.StatisticalFunctions
     name: StatisticalFunctions
     type: Class
-  - uid: CalcExpr.NativeFunctions.TrigonometricFunctions
+  - uid: DiceEngine.NativeFunctions.TrigonometricFunctions
     name: TrigonometricFunctions
     type: Class
-- uid: CalcExpr.Parsing
-  name: CalcExpr.Parsing
+- uid: DiceEngine.Parsing
+  name: DiceEngine.Parsing
   type: Namespace
   items:
-  - uid: CalcExpr.Parsing.Brackets
+  - uid: DiceEngine.Parsing.Brackets
     name: Brackets
     type: Enum
-  - uid: CalcExpr.Parsing.Parser
+  - uid: DiceEngine.Parsing.Parser
     name: Parser
     type: Class
-  - uid: CalcExpr.Parsing.TokenMatch
+  - uid: DiceEngine.Parsing.TokenMatch
     name: TokenMatch
     type: Class
-- uid: CalcExpr.Parsing.Defaults
-  name: CalcExpr.Parsing.Defaults
+- uid: DiceEngine.Parsing.Defaults
+  name: DiceEngine.Parsing.Defaults
   type: Namespace
   items:
-  - uid: CalcExpr.Parsing.Defaults.ParserDefaults
+  - uid: DiceEngine.Parsing.Defaults.ParserDefaults
     name: ParserDefaults
     type: Class
-- uid: CalcExpr.Parsing.Rules
-  name: CalcExpr.Parsing.Rules
+- uid: DiceEngine.Parsing.Rules
+  name: DiceEngine.Parsing.Rules
   type: Namespace
   items:
-  - uid: CalcExpr.Parsing.Rules.IParserRule
+  - uid: DiceEngine.Parsing.Rules.IParserRule
     name: IParserRule
     type: Interface
-  - uid: CalcExpr.Parsing.Rules.OptionRule
+  - uid: DiceEngine.Parsing.Rules.OptionRule
     name: OptionRule
     type: Class
-  - uid: CalcExpr.Parsing.Rules.ParserRule
+  - uid: DiceEngine.Parsing.Rules.ParserRule
     name: ParserRule
     type: Class
-  - uid: CalcExpr.Parsing.Rules.RegexRule
+  - uid: DiceEngine.Parsing.Rules.RegexRule
     name: RegexRule
     type: Class
-  - uid: CalcExpr.Parsing.Rules.TypeRule`1
+  - uid: DiceEngine.Parsing.Rules.TypeRule`1
     name: TypeRule<T>
     type: Class
-- uid: CalcExpr.Parsing.Tokens
-  name: CalcExpr.Parsing.Tokens
+- uid: DiceEngine.Parsing.Tokens
+  name: DiceEngine.Parsing.Tokens
   type: Namespace
   items:
-  - uid: CalcExpr.Parsing.Tokens.CondensedToken
+  - uid: DiceEngine.Parsing.Tokens.CondensedToken
     name: CondensedToken
     type: Class
-- uid: CalcExpr.Tokenization
-  name: CalcExpr.Tokenization
+- uid: DiceEngine.Tokenization
+  name: DiceEngine.Tokenization
   type: Namespace
   items:
-  - uid: CalcExpr.Tokenization.Tokenizer
+  - uid: DiceEngine.Tokenization.Tokenizer
     name: Tokenizer
     type: Class
-- uid: CalcExpr.Tokenization.Rules
-  name: CalcExpr.Tokenization.Rules
+- uid: DiceEngine.Tokenization.Rules
+  name: DiceEngine.Tokenization.Rules
   type: Namespace
   items:
-  - uid: CalcExpr.Tokenization.Rules.CharSetRule
+  - uid: DiceEngine.Tokenization.Rules.CharSetRule
     name: CharSetRule
     type: Class
-  - uid: CalcExpr.Tokenization.Rules.ITokenizerRule
+  - uid: DiceEngine.Tokenization.Rules.ITokenizerRule
     name: ITokenizerRule
     type: Interface
-  - uid: CalcExpr.Tokenization.Rules.OptionRule
+  - uid: DiceEngine.Tokenization.Rules.OptionRule
     name: OptionRule
     type: Class
-  - uid: CalcExpr.Tokenization.Rules.RegexRule
+  - uid: DiceEngine.Tokenization.Rules.RegexRule
     name: RegexRule
     type: Class
-  - uid: CalcExpr.Tokenization.Rules.TokenizerRule
+  - uid: DiceEngine.Tokenization.Rules.TokenizerRule
     name: TokenizerRule
     type: Class
-- uid: CalcExpr.Tokenization.Tokens
-  name: CalcExpr.Tokenization.Tokens
+- uid: DiceEngine.Tokenization.Tokens
+  name: DiceEngine.Tokenization.Tokens
   type: Namespace
   items:
-  - uid: CalcExpr.Tokenization.Tokens.Bracket
+  - uid: DiceEngine.Tokenization.Tokens.Bracket
     name: Bracket
     type: Enum
-  - uid: CalcExpr.Tokenization.Tokens.CloseBracketToken
+  - uid: DiceEngine.Tokenization.Tokens.CloseBracketToken
     name: CloseBracketToken
     type: Class
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
     type: Interface
-  - uid: CalcExpr.Tokenization.Tokens.NumberToken
+  - uid: DiceEngine.Tokenization.Tokens.NumberToken
     name: NumberToken
     type: Class
-  - uid: CalcExpr.Tokenization.Tokens.OpenBracketToken
+  - uid: DiceEngine.Tokenization.Tokens.OpenBracketToken
     name: OpenBracketToken
     type: Class
-  - uid: CalcExpr.Tokenization.Tokens.SymbolToken
+  - uid: DiceEngine.Tokenization.Tokens.SymbolToken
     name: SymbolToken
     type: Class
-  - uid: CalcExpr.Tokenization.Tokens.Token
+  - uid: DiceEngine.Tokenization.Tokens.Token
     name: Token
     type: Class
-  - uid: CalcExpr.Tokenization.Tokens.WordToken
+  - uid: DiceEngine.Tokenization.Tokens.WordToken
     name: WordToken
     type: Class
-- uid: CalcExpr.Tokenization.Tokens.Defaults
-  name: CalcExpr.Tokenization.Tokens.Defaults
+- uid: DiceEngine.Tokenization.Tokens.Defaults
+  name: DiceEngine.Tokenization.Tokens.Defaults
   type: Namespace
   items:
-  - uid: CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults
+  - uid: DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults
     name: TokenizerDefaults
     type: Class
-- uid: CalcExpr.TypeConverters
-  name: CalcExpr.TypeConverters
+- uid: DiceEngine.TypeConverters
+  name: DiceEngine.TypeConverters
   type: Namespace
   items:
-  - uid: CalcExpr.TypeConverters.BooleanTypeConverter
+  - uid: DiceEngine.TypeConverters.BooleanTypeConverter
     name: BooleanTypeConverter
     type: Class
-  - uid: CalcExpr.TypeConverters.DecimalTypeConverter
+  - uid: DiceEngine.TypeConverters.DecimalTypeConverter
     name: DecimalTypeConverter
     type: Class
-  - uid: CalcExpr.TypeConverters.FloatTypeConverter`1
+  - uid: DiceEngine.TypeConverters.FloatTypeConverter`1
     name: FloatTypeConverter<T>
     type: Class
-  - uid: CalcExpr.TypeConverters.ITypeConverter
+  - uid: DiceEngine.TypeConverters.ITypeConverter
     name: ITypeConverter
     type: Interface
-  - uid: CalcExpr.TypeConverters.ITypeConverter`1
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
     name: ITypeConverter<T>
     type: Interface
-  - uid: CalcExpr.TypeConverters.IntegerTypeConverter`1
+  - uid: DiceEngine.TypeConverters.IntegerTypeConverter`1
     name: IntegerTypeConverter<T>
     type: Class
 memberLayout: SamePage

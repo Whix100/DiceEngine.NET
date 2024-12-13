@@ -1,31 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Exceptions.UnbalancedParenthesesException
-  commentId: T:CalcExpr.Exceptions.UnbalancedParenthesesException
+- uid: DiceEngine.Exceptions.UnbalancedParenthesesException
+  commentId: T:DiceEngine.Exceptions.UnbalancedParenthesesException
   id: UnbalancedParenthesesException
-  parent: CalcExpr.Exceptions
+  parent: DiceEngine.Exceptions
   children:
-  - CalcExpr.Exceptions.UnbalancedParenthesesException.#ctor(System.String,System.Nullable{System.Int32})
+  - DiceEngine.Exceptions.UnbalancedParenthesesException.#ctor(System.String,System.Nullable{System.Int32})
   langs:
   - csharp
   - vb
   name: UnbalancedParenthesesException
   nameWithType: UnbalancedParenthesesException
-  fullName: CalcExpr.Exceptions.UnbalancedParenthesesException
+  fullName: DiceEngine.Exceptions.UnbalancedParenthesesException
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Exceptions/UnbalancedParenthesesException.cs
+      path: src/DiceEngine/Exceptions/UnbalancedParenthesesException.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: UnbalancedParenthesesException
-    path: ../src/CalcExpr/Exceptions/UnbalancedParenthesesException.cs
+    path: ../src/DiceEngine/Exceptions/UnbalancedParenthesesException.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Exceptions
+  - DiceEngine
+  namespace: DiceEngine.Exceptions
   summary: >-
-    Initializes a new instance of the <xref href="CalcExpr.Exceptions.UnbalancedParenthesesException" data-throw-if-not-resolved="false"></xref> class using the specified 
+    Initializes a new instance of the <xref href="DiceEngine.Exceptions.UnbalancedParenthesesException" data-throw-if-not-resolved="false"></xref> class using the specified 
 
     unbalanced expression.
   example: []
@@ -55,30 +55,30 @@ items:
   - System.Object.GetHashCode
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: CalcExpr.Exceptions.UnbalancedParenthesesException.#ctor(System.String,System.Nullable{System.Int32})
-  commentId: M:CalcExpr.Exceptions.UnbalancedParenthesesException.#ctor(System.String,System.Nullable{System.Int32})
+- uid: DiceEngine.Exceptions.UnbalancedParenthesesException.#ctor(System.String,System.Nullable{System.Int32})
+  commentId: M:DiceEngine.Exceptions.UnbalancedParenthesesException.#ctor(System.String,System.Nullable{System.Int32})
   id: '#ctor(System.String,System.Nullable{System.Int32})'
-  parent: CalcExpr.Exceptions.UnbalancedParenthesesException
+  parent: DiceEngine.Exceptions.UnbalancedParenthesesException
   langs:
   - csharp
   - vb
   name: UnbalancedParenthesesException(string, int?)
   nameWithType: UnbalancedParenthesesException.UnbalancedParenthesesException(string, int?)
-  fullName: CalcExpr.Exceptions.UnbalancedParenthesesException.UnbalancedParenthesesException(string, int?)
+  fullName: DiceEngine.Exceptions.UnbalancedParenthesesException.UnbalancedParenthesesException(string, int?)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Exceptions/UnbalancedParenthesesException.cs
+      path: src/DiceEngine/Exceptions/UnbalancedParenthesesException.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Exceptions/UnbalancedParenthesesException.cs
+    path: ../src/DiceEngine/Exceptions/UnbalancedParenthesesException.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Exceptions
+  - DiceEngine
+  namespace: DiceEngine.Exceptions
   summary: >-
-    Initializes a new instance of the <xref href="CalcExpr.Exceptions.UnbalancedParenthesesException" data-throw-if-not-resolved="false"></xref> class using the specified 
+    Initializes a new instance of the <xref href="DiceEngine.Exceptions.UnbalancedParenthesesException" data-throw-if-not-resolved="false"></xref> class using the specified 
 
     unbalanced expression.
   example: []
@@ -92,39 +92,39 @@ items:
       type: System.Nullable{System.Int32}
       description: The index of where the error is located.
     content.vb: Public Sub New(expression As String, index As Integer? = Nothing)
-  overload: CalcExpr.Exceptions.UnbalancedParenthesesException.#ctor*
+  overload: DiceEngine.Exceptions.UnbalancedParenthesesException.#ctor*
   nameWithType.vb: UnbalancedParenthesesException.New(String, Integer?)
-  fullName.vb: CalcExpr.Exceptions.UnbalancedParenthesesException.New(String, Integer?)
+  fullName.vb: DiceEngine.Exceptions.UnbalancedParenthesesException.New(String, Integer?)
   name.vb: New(String, Integer?)
 references:
-- uid: CalcExpr.Exceptions.UnbalancedParenthesesException
-  commentId: T:CalcExpr.Exceptions.UnbalancedParenthesesException
-  href: CalcExpr.Exceptions.UnbalancedParenthesesException.html
+- uid: DiceEngine.Exceptions.UnbalancedParenthesesException
+  commentId: T:DiceEngine.Exceptions.UnbalancedParenthesesException
+  href: DiceEngine.Exceptions.UnbalancedParenthesesException.html
   name: UnbalancedParenthesesException
   nameWithType: UnbalancedParenthesesException
-  fullName: CalcExpr.Exceptions.UnbalancedParenthesesException
-- uid: CalcExpr.Exceptions
-  commentId: N:CalcExpr.Exceptions
-  href: CalcExpr.html
-  name: CalcExpr.Exceptions
-  nameWithType: CalcExpr.Exceptions
-  fullName: CalcExpr.Exceptions
+  fullName: DiceEngine.Exceptions.UnbalancedParenthesesException
+- uid: DiceEngine.Exceptions
+  commentId: N:DiceEngine.Exceptions
+  href: DiceEngine.html
+  name: DiceEngine.Exceptions
+  nameWithType: DiceEngine.Exceptions
+  fullName: DiceEngine.Exceptions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Exceptions
+  - uid: DiceEngine.Exceptions
     name: Exceptions
-    href: CalcExpr.Exceptions.html
+    href: DiceEngine.Exceptions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Exceptions
+  - uid: DiceEngine.Exceptions
     name: Exceptions
-    href: CalcExpr.Exceptions.html
+    href: DiceEngine.Exceptions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -505,14 +505,14 @@ references:
     name: Serialization
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
-- uid: CalcExpr.Exceptions.UnbalancedParenthesesException.#ctor*
-  commentId: Overload:CalcExpr.Exceptions.UnbalancedParenthesesException.#ctor
-  href: CalcExpr.Exceptions.UnbalancedParenthesesException.html#CalcExpr_Exceptions_UnbalancedParenthesesException__ctor_System_String_System_Nullable_System_Int32__
+- uid: DiceEngine.Exceptions.UnbalancedParenthesesException.#ctor*
+  commentId: Overload:DiceEngine.Exceptions.UnbalancedParenthesesException.#ctor
+  href: DiceEngine.Exceptions.UnbalancedParenthesesException.html#DiceEngine_Exceptions_UnbalancedParenthesesException__ctor_System_String_System_Nullable_System_Int32__
   name: UnbalancedParenthesesException
   nameWithType: UnbalancedParenthesesException.UnbalancedParenthesesException
-  fullName: CalcExpr.Exceptions.UnbalancedParenthesesException.UnbalancedParenthesesException
+  fullName: DiceEngine.Exceptions.UnbalancedParenthesesException.UnbalancedParenthesesException
   nameWithType.vb: UnbalancedParenthesesException.New
-  fullName.vb: CalcExpr.Exceptions.UnbalancedParenthesesException.New
+  fullName.vb: DiceEngine.Exceptions.UnbalancedParenthesesException.New
   name.vb: New
 - uid: System.String
   commentId: T:System.String

@@ -1,31 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Exceptions.InvalidAssignmentException
-  commentId: T:CalcExpr.Exceptions.InvalidAssignmentException
+- uid: DiceEngine.Exceptions.InvalidAssignmentException
+  commentId: T:DiceEngine.Exceptions.InvalidAssignmentException
   id: InvalidAssignmentException
-  parent: CalcExpr.Exceptions
+  parent: DiceEngine.Exceptions
   children:
-  - CalcExpr.Exceptions.InvalidAssignmentException.#ctor(CalcExpr.Expressions.IExpression)
+  - DiceEngine.Exceptions.InvalidAssignmentException.#ctor(DiceEngine.Expressions.IExpression)
   langs:
   - csharp
   - vb
   name: InvalidAssignmentException
   nameWithType: InvalidAssignmentException
-  fullName: CalcExpr.Exceptions.InvalidAssignmentException
+  fullName: DiceEngine.Exceptions.InvalidAssignmentException
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Exceptions/InvalidAssignmentException.cs
+      path: src/DiceEngine/Exceptions/InvalidAssignmentException.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: InvalidAssignmentException
-    path: ../src/CalcExpr/Exceptions/InvalidAssignmentException.cs
+    path: ../src/DiceEngine/Exceptions/InvalidAssignmentException.cs
     startLine: 9
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Exceptions
+  - DiceEngine
+  namespace: DiceEngine.Exceptions
   summary: >-
-    Initializes a new instance of the <xref href="CalcExpr.Exceptions.InvalidAssignmentException" data-throw-if-not-resolved="false"></xref> class using the specified invalid
+    Initializes a new instance of the <xref href="DiceEngine.Exceptions.InvalidAssignmentException" data-throw-if-not-resolved="false"></xref> class using the specified invalid
 
     expression.
   example: []
@@ -55,30 +55,30 @@ items:
   - System.Object.GetHashCode
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: CalcExpr.Exceptions.InvalidAssignmentException.#ctor(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.Exceptions.InvalidAssignmentException.#ctor(CalcExpr.Expressions.IExpression)
-  id: '#ctor(CalcExpr.Expressions.IExpression)'
-  parent: CalcExpr.Exceptions.InvalidAssignmentException
+- uid: DiceEngine.Exceptions.InvalidAssignmentException.#ctor(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.Exceptions.InvalidAssignmentException.#ctor(DiceEngine.Expressions.IExpression)
+  id: '#ctor(DiceEngine.Expressions.IExpression)'
+  parent: DiceEngine.Exceptions.InvalidAssignmentException
   langs:
   - csharp
   - vb
   name: InvalidAssignmentException(IExpression)
   nameWithType: InvalidAssignmentException.InvalidAssignmentException(IExpression)
-  fullName: CalcExpr.Exceptions.InvalidAssignmentException.InvalidAssignmentException(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.Exceptions.InvalidAssignmentException.InvalidAssignmentException(DiceEngine.Expressions.IExpression)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Exceptions/InvalidAssignmentException.cs
+      path: src/DiceEngine/Exceptions/InvalidAssignmentException.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Exceptions/InvalidAssignmentException.cs
+    path: ../src/DiceEngine/Exceptions/InvalidAssignmentException.cs
     startLine: 9
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Exceptions
+  - DiceEngine
+  namespace: DiceEngine.Exceptions
   summary: >-
-    Initializes a new instance of the <xref href="CalcExpr.Exceptions.InvalidAssignmentException" data-throw-if-not-resolved="false"></xref> class using the specified invalid
+    Initializes a new instance of the <xref href="DiceEngine.Exceptions.InvalidAssignmentException" data-throw-if-not-resolved="false"></xref> class using the specified invalid
 
     expression.
   example: []
@@ -86,42 +86,42 @@ items:
     content: public InvalidAssignmentException(IExpression expression)
     parameters:
     - id: expression
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: The invalide expression.
     content.vb: Public Sub New(expression As IExpression)
-  overload: CalcExpr.Exceptions.InvalidAssignmentException.#ctor*
+  overload: DiceEngine.Exceptions.InvalidAssignmentException.#ctor*
   nameWithType.vb: InvalidAssignmentException.New(IExpression)
-  fullName.vb: CalcExpr.Exceptions.InvalidAssignmentException.New(CalcExpr.Expressions.IExpression)
+  fullName.vb: DiceEngine.Exceptions.InvalidAssignmentException.New(DiceEngine.Expressions.IExpression)
   name.vb: New(IExpression)
 references:
-- uid: CalcExpr.Exceptions.InvalidAssignmentException
-  commentId: T:CalcExpr.Exceptions.InvalidAssignmentException
-  href: CalcExpr.Exceptions.InvalidAssignmentException.html
+- uid: DiceEngine.Exceptions.InvalidAssignmentException
+  commentId: T:DiceEngine.Exceptions.InvalidAssignmentException
+  href: DiceEngine.Exceptions.InvalidAssignmentException.html
   name: InvalidAssignmentException
   nameWithType: InvalidAssignmentException
-  fullName: CalcExpr.Exceptions.InvalidAssignmentException
-- uid: CalcExpr.Exceptions
-  commentId: N:CalcExpr.Exceptions
-  href: CalcExpr.html
-  name: CalcExpr.Exceptions
-  nameWithType: CalcExpr.Exceptions
-  fullName: CalcExpr.Exceptions
+  fullName: DiceEngine.Exceptions.InvalidAssignmentException
+- uid: DiceEngine.Exceptions
+  commentId: N:DiceEngine.Exceptions
+  href: DiceEngine.html
+  name: DiceEngine.Exceptions
+  nameWithType: DiceEngine.Exceptions
+  fullName: DiceEngine.Exceptions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Exceptions
+  - uid: DiceEngine.Exceptions
     name: Exceptions
-    href: CalcExpr.Exceptions.html
+    href: DiceEngine.Exceptions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Exceptions
+  - uid: DiceEngine.Exceptions
     name: Exceptions
-    href: CalcExpr.Exceptions.html
+    href: DiceEngine.Exceptions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -502,41 +502,41 @@ references:
     name: Serialization
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
-- uid: CalcExpr.Exceptions.InvalidAssignmentException.#ctor*
-  commentId: Overload:CalcExpr.Exceptions.InvalidAssignmentException.#ctor
-  href: CalcExpr.Exceptions.InvalidAssignmentException.html#CalcExpr_Exceptions_InvalidAssignmentException__ctor_CalcExpr_Expressions_IExpression_
+- uid: DiceEngine.Exceptions.InvalidAssignmentException.#ctor*
+  commentId: Overload:DiceEngine.Exceptions.InvalidAssignmentException.#ctor
+  href: DiceEngine.Exceptions.InvalidAssignmentException.html#DiceEngine_Exceptions_InvalidAssignmentException__ctor_DiceEngine_Expressions_IExpression_
   name: InvalidAssignmentException
   nameWithType: InvalidAssignmentException.InvalidAssignmentException
-  fullName: CalcExpr.Exceptions.InvalidAssignmentException.InvalidAssignmentException
+  fullName: DiceEngine.Exceptions.InvalidAssignmentException.InvalidAssignmentException
   nameWithType.vb: InvalidAssignmentException.New
-  fullName.vb: CalcExpr.Exceptions.InvalidAssignmentException.New
+  fullName.vb: DiceEngine.Exceptions.InvalidAssignmentException.New
   name.vb: New
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html

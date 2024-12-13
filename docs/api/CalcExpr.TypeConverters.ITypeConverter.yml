@@ -1,51 +1,51 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.TypeConverters.ITypeConverter
-  commentId: T:CalcExpr.TypeConverters.ITypeConverter
+- uid: DiceEngine.TypeConverters.ITypeConverter
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter
   id: ITypeConverter
-  parent: CalcExpr.TypeConverters
+  parent: DiceEngine.TypeConverters
   children: []
   langs:
   - csharp
   - vb
   name: ITypeConverter
   nameWithType: ITypeConverter
-  fullName: CalcExpr.TypeConverters.ITypeConverter
+  fullName: DiceEngine.TypeConverters.ITypeConverter
   type: Interface
   source:
     remote:
-      path: src/CalcExpr/TypeConverters/ITypeConverter.cs
+      path: src/DiceEngine/TypeConverters/ITypeConverter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ITypeConverter
-    path: ../src/CalcExpr/TypeConverters/ITypeConverter.cs
+    path: ../src/DiceEngine/TypeConverters/ITypeConverter.cs
     startLine: 22
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.TypeConverters
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
   syntax:
     content: public interface ITypeConverter
     content.vb: Public Interface ITypeConverter
 references:
-- uid: CalcExpr.TypeConverters
-  commentId: N:CalcExpr.TypeConverters
-  href: CalcExpr.html
-  name: CalcExpr.TypeConverters
-  nameWithType: CalcExpr.TypeConverters
-  fullName: CalcExpr.TypeConverters
+- uid: DiceEngine.TypeConverters
+  commentId: N:DiceEngine.TypeConverters
+  href: DiceEngine.html
+  name: DiceEngine.TypeConverters
+  nameWithType: DiceEngine.TypeConverters
+  fullName: DiceEngine.TypeConverters
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.TypeConverters
+  - uid: DiceEngine.TypeConverters
     name: TypeConverters
-    href: CalcExpr.TypeConverters.html
+    href: DiceEngine.TypeConverters.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.TypeConverters
+  - uid: DiceEngine.TypeConverters
     name: TypeConverters
-    href: CalcExpr.TypeConverters.html
+    href: DiceEngine.TypeConverters.html

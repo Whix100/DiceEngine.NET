@@ -1,38 +1,38 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.TypeConverters.BooleanTypeConverter
-  commentId: T:CalcExpr.TypeConverters.BooleanTypeConverter
+- uid: DiceEngine.TypeConverters.BooleanTypeConverter
+  commentId: T:DiceEngine.TypeConverters.BooleanTypeConverter
   id: BooleanTypeConverter
-  parent: CalcExpr.TypeConverters
+  parent: DiceEngine.TypeConverters
   children:
-  - CalcExpr.TypeConverters.BooleanTypeConverter.ConvertFromExpression(CalcExpr.Expressions.IExpression)
-  - CalcExpr.TypeConverters.BooleanTypeConverter.ConvertToExpression(System.Nullable{System.Boolean})
+  - DiceEngine.TypeConverters.BooleanTypeConverter.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  - DiceEngine.TypeConverters.BooleanTypeConverter.ConvertToExpression(System.Nullable{System.Boolean})
   langs:
   - csharp
   - vb
   name: BooleanTypeConverter
   nameWithType: BooleanTypeConverter
-  fullName: CalcExpr.TypeConverters.BooleanTypeConverter
+  fullName: DiceEngine.TypeConverters.BooleanTypeConverter
   type: Class
   source:
     remote:
-      path: src/CalcExpr/TypeConverters/BooleanTypeConverter.cs
+      path: src/DiceEngine/TypeConverters/BooleanTypeConverter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: BooleanTypeConverter
-    path: ../src/CalcExpr/TypeConverters/BooleanTypeConverter.cs
+    path: ../src/DiceEngine/TypeConverters/BooleanTypeConverter.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.TypeConverters
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
   syntax:
     content: 'public class BooleanTypeConverter : ITypeConverter<bool?>, ITypeConverter'
     content.vb: Public Class BooleanTypeConverter Implements ITypeConverter(Of Boolean?), ITypeConverter
   inheritance:
   - System.Object
   implements:
-  - CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}
-  - CalcExpr.TypeConverters.ITypeConverter
+  - DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}
+  - DiceEngine.TypeConverters.ITypeConverter
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -41,28 +41,28 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertToExpression(System.Nullable{System.Boolean})
-  commentId: M:CalcExpr.TypeConverters.BooleanTypeConverter.ConvertToExpression(System.Nullable{System.Boolean})
+- uid: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertToExpression(System.Nullable{System.Boolean})
+  commentId: M:DiceEngine.TypeConverters.BooleanTypeConverter.ConvertToExpression(System.Nullable{System.Boolean})
   id: ConvertToExpression(System.Nullable{System.Boolean})
-  parent: CalcExpr.TypeConverters.BooleanTypeConverter
+  parent: DiceEngine.TypeConverters.BooleanTypeConverter
   langs:
   - csharp
   - vb
   name: ConvertToExpression(bool?)
   nameWithType: BooleanTypeConverter.ConvertToExpression(bool?)
-  fullName: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertToExpression(bool?)
+  fullName: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertToExpression(bool?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/TypeConverters/BooleanTypeConverter.cs
+      path: src/DiceEngine/TypeConverters/BooleanTypeConverter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ConvertToExpression
-    path: ../src/CalcExpr/TypeConverters/BooleanTypeConverter.cs
+    path: ../src/DiceEngine/TypeConverters/BooleanTypeConverter.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.TypeConverters
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
   summary: Converts from a value to an expression.
   example: []
   syntax:
@@ -72,78 +72,78 @@ items:
       type: System.Nullable{System.Boolean}
       description: The value to convert.
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
-      description: An <xref href="CalcExpr.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> representing the value.
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: An <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> representing the value.
     content.vb: Public Function ConvertToExpression(value As Boolean?) As Terminal
-  overload: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertToExpression*
+  overload: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertToExpression*
   implements:
-  - CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertToExpression(System.Nullable{System.Boolean})
+  - DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertToExpression(System.Nullable{System.Boolean})
   nameWithType.vb: BooleanTypeConverter.ConvertToExpression(Boolean?)
-  fullName.vb: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertToExpression(Boolean?)
+  fullName.vb: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertToExpression(Boolean?)
   name.vb: ConvertToExpression(Boolean?)
-- uid: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertFromExpression(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.TypeConverters.BooleanTypeConverter.ConvertFromExpression(CalcExpr.Expressions.IExpression)
-  id: ConvertFromExpression(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.TypeConverters.BooleanTypeConverter
+- uid: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.TypeConverters.BooleanTypeConverter.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  id: ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.TypeConverters.BooleanTypeConverter
   langs:
   - csharp
   - vb
   name: ConvertFromExpression(IExpression?)
   nameWithType: BooleanTypeConverter.ConvertFromExpression(IExpression?)
-  fullName: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertFromExpression(CalcExpr.Expressions.IExpression?)
+  fullName: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertFromExpression(DiceEngine.Expressions.IExpression?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/TypeConverters/BooleanTypeConverter.cs
+      path: src/DiceEngine/TypeConverters/BooleanTypeConverter.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ConvertFromExpression
-    path: ../src/CalcExpr/TypeConverters/BooleanTypeConverter.cs
+    path: ../src/DiceEngine/TypeConverters/BooleanTypeConverter.cs
     startLine: 18
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.TypeConverters
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
   summary: Converts from an expression to a value.
   example: []
   syntax:
     content: public bool? ConvertFromExpression(IExpression? expression)
     parameters:
     - id: expression
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: The expression to convert.
     return:
       type: System.Nullable{System.Boolean}
       description: A value representing the expression.
     content.vb: Public Function ConvertFromExpression(expression As IExpression) As Boolean?
-  overload: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertFromExpression*
+  overload: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertFromExpression*
   implements:
-  - CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertFromExpression(CalcExpr.Expressions.IExpression)
+  - DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertFromExpression(DiceEngine.Expressions.IExpression)
   nameWithType.vb: BooleanTypeConverter.ConvertFromExpression(IExpression)
-  fullName.vb: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertFromExpression(CalcExpr.Expressions.IExpression)
+  fullName.vb: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertFromExpression(DiceEngine.Expressions.IExpression)
   name.vb: ConvertFromExpression(IExpression)
 references:
-- uid: CalcExpr.TypeConverters
-  commentId: N:CalcExpr.TypeConverters
-  href: CalcExpr.html
-  name: CalcExpr.TypeConverters
-  nameWithType: CalcExpr.TypeConverters
-  fullName: CalcExpr.TypeConverters
+- uid: DiceEngine.TypeConverters
+  commentId: N:DiceEngine.TypeConverters
+  href: DiceEngine.html
+  name: DiceEngine.TypeConverters
+  nameWithType: DiceEngine.TypeConverters
+  fullName: DiceEngine.TypeConverters
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.TypeConverters
+  - uid: DiceEngine.TypeConverters
     name: TypeConverters
-    href: CalcExpr.TypeConverters.html
+    href: DiceEngine.TypeConverters.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.TypeConverters
+  - uid: DiceEngine.TypeConverters
     name: TypeConverters
-    href: CalcExpr.TypeConverters.html
+    href: DiceEngine.TypeConverters.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -155,21 +155,21 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}
-  commentId: T:CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}
-  parent: CalcExpr.TypeConverters
-  definition: CalcExpr.TypeConverters.ITypeConverter`1
-  href: CalcExpr.TypeConverters.ITypeConverter-1.html
+- uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}
+  parent: DiceEngine.TypeConverters
+  definition: DiceEngine.TypeConverters.ITypeConverter`1
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html
   name: ITypeConverter<bool?>
   nameWithType: ITypeConverter<bool?>
-  fullName: CalcExpr.TypeConverters.ITypeConverter<bool?>
+  fullName: DiceEngine.TypeConverters.ITypeConverter<bool?>
   nameWithType.vb: ITypeConverter(Of Boolean?)
-  fullName.vb: CalcExpr.TypeConverters.ITypeConverter(Of Boolean?)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of Boolean?)
   name.vb: ITypeConverter(Of Boolean?)
   spec.csharp:
-  - uid: CalcExpr.TypeConverters.ITypeConverter`1
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
     name: ITypeConverter
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html
   - name: <
   - uid: System.Boolean
     name: bool
@@ -178,9 +178,9 @@ references:
   - name: '?'
   - name: '>'
   spec.vb:
-  - uid: CalcExpr.TypeConverters.ITypeConverter`1
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
     name: ITypeConverter
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html
   - name: (
   - name: Of
   - name: " "
@@ -190,13 +190,13 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: '?'
   - name: )
-- uid: CalcExpr.TypeConverters.ITypeConverter
-  commentId: T:CalcExpr.TypeConverters.ITypeConverter
-  parent: CalcExpr.TypeConverters
-  href: CalcExpr.TypeConverters.ITypeConverter.html
+- uid: DiceEngine.TypeConverters.ITypeConverter
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter
+  parent: DiceEngine.TypeConverters
+  href: DiceEngine.TypeConverters.ITypeConverter.html
   name: ITypeConverter
   nameWithType: ITypeConverter
-  fullName: CalcExpr.TypeConverters.ITypeConverter
+  fullName: DiceEngine.TypeConverters.ITypeConverter
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -423,59 +423,59 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.TypeConverters.ITypeConverter`1
-  commentId: T:CalcExpr.TypeConverters.ITypeConverter`1
-  href: CalcExpr.TypeConverters.ITypeConverter-1.html
+- uid: DiceEngine.TypeConverters.ITypeConverter`1
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter`1
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html
   name: ITypeConverter<T>
   nameWithType: ITypeConverter<T>
-  fullName: CalcExpr.TypeConverters.ITypeConverter<T>
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>
   nameWithType.vb: ITypeConverter(Of T)
-  fullName.vb: CalcExpr.TypeConverters.ITypeConverter(Of T)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T)
   name.vb: ITypeConverter(Of T)
   spec.csharp:
-  - uid: CalcExpr.TypeConverters.ITypeConverter`1
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
     name: ITypeConverter
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html
   - name: <
   - name: T
   - name: '>'
   spec.vb:
-  - uid: CalcExpr.TypeConverters.ITypeConverter`1
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
     name: ITypeConverter
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html
   - name: (
   - name: Of
   - name: " "
   - name: T
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertToExpression*
-  commentId: Overload:CalcExpr.TypeConverters.BooleanTypeConverter.ConvertToExpression
-  href: CalcExpr.TypeConverters.BooleanTypeConverter.html#CalcExpr_TypeConverters_BooleanTypeConverter_ConvertToExpression_System_Nullable_System_Boolean__
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertToExpression*
+  commentId: Overload:DiceEngine.TypeConverters.BooleanTypeConverter.ConvertToExpression
+  href: DiceEngine.TypeConverters.BooleanTypeConverter.html#DiceEngine_TypeConverters_BooleanTypeConverter_ConvertToExpression_System_Nullable_System_Boolean__
   name: ConvertToExpression
   nameWithType: BooleanTypeConverter.ConvertToExpression
-  fullName: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertToExpression
-- uid: CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertToExpression(System.Nullable{System.Boolean})
-  commentId: M:CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertToExpression(System.Nullable{System.Boolean})
-  parent: CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}
-  definition: CalcExpr.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
-  href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+  fullName: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertToExpression
+- uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertToExpression(System.Nullable{System.Boolean})
+  commentId: M:DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertToExpression(System.Nullable{System.Boolean})
+  parent: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}
+  definition: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
   name: ConvertToExpression(bool?)
   nameWithType: ITypeConverter<bool?>.ConvertToExpression(bool?)
-  fullName: CalcExpr.TypeConverters.ITypeConverter<bool?>.ConvertToExpression(bool?)
+  fullName: DiceEngine.TypeConverters.ITypeConverter<bool?>.ConvertToExpression(bool?)
   nameWithType.vb: ITypeConverter(Of Boolean?).ConvertToExpression(Boolean?)
-  fullName.vb: CalcExpr.TypeConverters.ITypeConverter(Of Boolean?).ConvertToExpression(Boolean?)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of Boolean?).ConvertToExpression(Boolean?)
   name.vb: ConvertToExpression(Boolean?)
   spec.csharp:
-  - uid: CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertToExpression(System.Nullable{System.Boolean})
+  - uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertToExpression(System.Nullable{System.Boolean})
     name: ConvertToExpression
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
   - name: (
   - uid: System.Boolean
     name: bool
@@ -484,9 +484,9 @@ references:
   - name: '?'
   - name: )
   spec.vb:
-  - uid: CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertToExpression(System.Nullable{System.Boolean})
+  - uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertToExpression(System.Nullable{System.Boolean})
     name: ConvertToExpression
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
   - name: (
   - uid: System.Boolean
     name: Boolean
@@ -517,55 +517,55 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: '?'
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
-  commentId: M:CalcExpr.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
-  href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  commentId: M:DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
   name: ConvertToExpression(T)
   nameWithType: ITypeConverter<T>.ConvertToExpression(T)
-  fullName: CalcExpr.TypeConverters.ITypeConverter<T>.ConvertToExpression(T)
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>.ConvertToExpression(T)
   nameWithType.vb: ITypeConverter(Of T).ConvertToExpression(T)
-  fullName.vb: CalcExpr.TypeConverters.ITypeConverter(Of T).ConvertToExpression(T)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T).ConvertToExpression(T)
   spec.csharp:
-  - uid: CalcExpr.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
     name: ConvertToExpression
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
   - name: (
   - name: T
   - name: )
   spec.vb:
-  - uid: CalcExpr.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
     name: ConvertToExpression
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
   - name: (
   - name: T
   - name: )
@@ -597,92 +597,92 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertFromExpression*
-  commentId: Overload:CalcExpr.TypeConverters.BooleanTypeConverter.ConvertFromExpression
-  href: CalcExpr.TypeConverters.BooleanTypeConverter.html#CalcExpr_TypeConverters_BooleanTypeConverter_ConvertFromExpression_CalcExpr_Expressions_IExpression_
+- uid: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertFromExpression*
+  commentId: Overload:DiceEngine.TypeConverters.BooleanTypeConverter.ConvertFromExpression
+  href: DiceEngine.TypeConverters.BooleanTypeConverter.html#DiceEngine_TypeConverters_BooleanTypeConverter_ConvertFromExpression_DiceEngine_Expressions_IExpression_
   name: ConvertFromExpression
   nameWithType: BooleanTypeConverter.ConvertFromExpression
-  fullName: CalcExpr.TypeConverters.BooleanTypeConverter.ConvertFromExpression
-- uid: CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertFromExpression(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertFromExpression(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}
-  definition: CalcExpr.TypeConverters.ITypeConverter`1.ConvertFromExpression(CalcExpr.Expressions.IExpression)
-  href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertFromExpression_CalcExpr_Expressions_IExpression_
+  fullName: DiceEngine.TypeConverters.BooleanTypeConverter.ConvertFromExpression
+- uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}
+  definition: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
   name: ConvertFromExpression(IExpression)
   nameWithType: ITypeConverter<bool?>.ConvertFromExpression(IExpression)
-  fullName: CalcExpr.TypeConverters.ITypeConverter<bool?>.ConvertFromExpression(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.TypeConverters.ITypeConverter<bool?>.ConvertFromExpression(DiceEngine.Expressions.IExpression)
   nameWithType.vb: ITypeConverter(Of Boolean?).ConvertFromExpression(IExpression)
-  fullName.vb: CalcExpr.TypeConverters.ITypeConverter(Of Boolean?).ConvertFromExpression(CalcExpr.Expressions.IExpression)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of Boolean?).ConvertFromExpression(DiceEngine.Expressions.IExpression)
   spec.csharp:
-  - uid: CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertFromExpression(CalcExpr.Expressions.IExpression)
+  - uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertFromExpression(DiceEngine.Expressions.IExpression)
     name: ConvertFromExpression
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertFromExpression_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertFromExpression(CalcExpr.Expressions.IExpression)
+  - uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Boolean}}.ConvertFromExpression(DiceEngine.Expressions.IExpression)
     name: ConvertFromExpression
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertFromExpression_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.TypeConverters.ITypeConverter`1.ConvertFromExpression(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.TypeConverters.ITypeConverter`1.ConvertFromExpression(CalcExpr.Expressions.IExpression)
-  href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertFromExpression_CalcExpr_Expressions_IExpression_
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
   name: ConvertFromExpression(IExpression)
   nameWithType: ITypeConverter<T>.ConvertFromExpression(IExpression)
-  fullName: CalcExpr.TypeConverters.ITypeConverter<T>.ConvertFromExpression(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>.ConvertFromExpression(DiceEngine.Expressions.IExpression)
   nameWithType.vb: ITypeConverter(Of T).ConvertFromExpression(IExpression)
-  fullName.vb: CalcExpr.TypeConverters.ITypeConverter(Of T).ConvertFromExpression(CalcExpr.Expressions.IExpression)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T).ConvertFromExpression(DiceEngine.Expressions.IExpression)
   spec.csharp:
-  - uid: CalcExpr.TypeConverters.ITypeConverter`1.ConvertFromExpression(CalcExpr.Expressions.IExpression)
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
     name: ConvertFromExpression
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertFromExpression_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.TypeConverters.ITypeConverter`1.ConvertFromExpression(CalcExpr.Expressions.IExpression)
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
     name: ConvertFromExpression
-    href: CalcExpr.TypeConverters.ITypeConverter-1.html#CalcExpr_TypeConverters_ITypeConverter_1_ConvertFromExpression_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html

@@ -1,6 +1,6 @@
 # Contributing
 
-CalcExpr.NET is an open-source project, and as such, any contributions are appreciated. Please use the following as guidelines for contributions to the project.
+DiceEngine.NET is an open-source project, and as such, any contributions are appreciated. Please use the following as guidelines for contributions to the project.
 
 ## Development Cycle
 
@@ -43,13 +43,13 @@ following, but not limited to:
 1. Fork the repository from the dev branch
 1. Clone your fork locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/CalcExpr.NET.git
-   cd CalcExpr.NET
+   git clone https://github.com/YOUR-USERNAME/DiceEngine.NET.git
+   cd DiceEngine.NET
    git checkout dev
    ```
 1. Add the upstream repository as a remote:
    ```bash
-   git remote add upstream https://github.com/andrewk17111/CalcExpr.NET.git
+   git remote add upstream https://github.com/andrewk17111/DiceEngine.NET.git
    ```
 1. In Visual Studio or your preferred C# IDE, build the solution:
    ```bash
@@ -95,4 +95,4 @@ If you have questions about contributing:
 1. Open a new issue with the "Question" label
 1. Provide as much context as possible about your question
 
-Thank you for contributing to CalcExpr.NET!
+Thank you for contributing to DiceEngine.NET!

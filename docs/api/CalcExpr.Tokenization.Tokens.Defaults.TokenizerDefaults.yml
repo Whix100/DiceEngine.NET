@@ -1,29 +1,29 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults
-  commentId: T:CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults
+- uid: DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults
+  commentId: T:DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults
   id: TokenizerDefaults
-  parent: CalcExpr.Tokenization.Tokens.Defaults
+  parent: DiceEngine.Tokenization.Tokens.Defaults
   children:
-  - CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults.DefaultRules
+  - DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults.DefaultRules
   langs:
   - csharp
   - vb
   name: TokenizerDefaults
   nameWithType: TokenizerDefaults
-  fullName: CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults
+  fullName: DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Defaults/TokenizerDefaults.cs
+      path: src/DiceEngine/Tokenization/Tokens/Defaults/TokenizerDefaults.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: TokenizerDefaults
-    path: ../src/CalcExpr/Tokenization/Tokens/Defaults/TokenizerDefaults.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Defaults/TokenizerDefaults.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens.Defaults
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens.Defaults
   syntax:
     content: public static class TokenizerDefaults
     content.vb: Public Module TokenizerDefaults
@@ -37,72 +37,72 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults.DefaultRules
-  commentId: F:CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults.DefaultRules
+- uid: DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults.DefaultRules
+  commentId: F:DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults.DefaultRules
   id: DefaultRules
-  parent: CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults
+  parent: DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults
   langs:
   - csharp
   - vb
   name: DefaultRules
   nameWithType: TokenizerDefaults.DefaultRules
-  fullName: CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults.DefaultRules
+  fullName: DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults.DefaultRules
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Defaults/TokenizerDefaults.cs
+      path: src/DiceEngine/Tokenization/Tokens/Defaults/TokenizerDefaults.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: DefaultRules
-    path: ../src/CalcExpr/Tokenization/Tokens/Defaults/TokenizerDefaults.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Defaults/TokenizerDefaults.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens.Defaults
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens.Defaults
   syntax:
     content: public static readonly ImmutableArray<ITokenizerRule> DefaultRules
     return:
-      type: System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Rules.ITokenizerRule}
+      type: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Rules.ITokenizerRule}
     content.vb: Public Shared ReadOnly DefaultRules As ImmutableArray(Of ITokenizerRule)
 references:
-- uid: CalcExpr.Tokenization.Tokens.Defaults
-  commentId: N:CalcExpr.Tokenization.Tokens.Defaults
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Tokens.Defaults
-  nameWithType: CalcExpr.Tokenization.Tokens.Defaults
-  fullName: CalcExpr.Tokenization.Tokens.Defaults
+- uid: DiceEngine.Tokenization.Tokens.Defaults
+  commentId: N:DiceEngine.Tokenization.Tokens.Defaults
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens.Defaults
+  nameWithType: DiceEngine.Tokenization.Tokens.Defaults
+  fullName: DiceEngine.Tokenization.Tokens.Defaults
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens.Defaults
+  - uid: DiceEngine.Tokenization.Tokens.Defaults
     name: Defaults
-    href: CalcExpr.Tokenization.Tokens.Defaults.html
+    href: DiceEngine.Tokenization.Tokens.Defaults.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens.Defaults
+  - uid: DiceEngine.Tokenization.Tokens.Defaults
     name: Defaults
-    href: CalcExpr.Tokenization.Tokens.Defaults.html
+    href: DiceEngine.Tokenization.Tokens.Defaults.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -340,16 +340,16 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Rules.ITokenizerRule}
-  commentId: T:System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Rules.ITokenizerRule}
+- uid: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Rules.ITokenizerRule}
+  commentId: T:System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Rules.ITokenizerRule}
   parent: System.Collections.Immutable
   definition: System.Collections.Immutable.ImmutableArray`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   name: ImmutableArray<ITokenizerRule>
   nameWithType: ImmutableArray<ITokenizerRule>
-  fullName: System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Rules.ITokenizerRule>
+  fullName: System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Rules.ITokenizerRule>
   nameWithType.vb: ImmutableArray(Of ITokenizerRule)
-  fullName.vb: System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Rules.ITokenizerRule)
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Rules.ITokenizerRule)
   name.vb: ImmutableArray(Of ITokenizerRule)
   spec.csharp:
   - uid: System.Collections.Immutable.ImmutableArray`1
@@ -357,9 +357,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
-  - uid: CalcExpr.Tokenization.Rules.ITokenizerRule
+  - uid: DiceEngine.Tokenization.Rules.ITokenizerRule
     name: ITokenizerRule
-    href: CalcExpr.Tokenization.Rules.ITokenizerRule.html
+    href: DiceEngine.Tokenization.Rules.ITokenizerRule.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Immutable.ImmutableArray`1
@@ -369,9 +369,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Rules.ITokenizerRule
+  - uid: DiceEngine.Tokenization.Rules.ITokenizerRule
     name: ITokenizerRule
-    href: CalcExpr.Tokenization.Rules.ITokenizerRule.html
+    href: DiceEngine.Tokenization.Rules.ITokenizerRule.html
   - name: )
 - uid: System.Collections.Immutable.ImmutableArray`1
   commentId: T:System.Collections.Immutable.ImmutableArray`1

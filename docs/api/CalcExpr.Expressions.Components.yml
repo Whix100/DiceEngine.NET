@@ -1,102 +1,102 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.Components
-  commentId: N:CalcExpr.Expressions.Components
-  id: CalcExpr.Expressions.Components
+- uid: DiceEngine.Expressions.Components
+  commentId: N:DiceEngine.Expressions.Components
+  id: DiceEngine.Expressions.Components
   children:
-  - CalcExpr.Expressions.Components.ContextParameter
-  - CalcExpr.Expressions.Components.IParameter
-  - CalcExpr.Expressions.Components.Parameter
-  - CalcExpr.Expressions.Components.TypeParameter
-  - CalcExpr.Expressions.Components.TypeParameter`1
+  - DiceEngine.Expressions.Components.ContextParameter
+  - DiceEngine.Expressions.Components.IParameter
+  - DiceEngine.Expressions.Components.Parameter
+  - DiceEngine.Expressions.Components.TypeParameter
+  - DiceEngine.Expressions.Components.TypeParameter`1
   langs:
   - csharp
   - vb
-  name: CalcExpr.Expressions.Components
-  nameWithType: CalcExpr.Expressions.Components
-  fullName: CalcExpr.Expressions.Components
+  name: DiceEngine.Expressions.Components
+  nameWithType: DiceEngine.Expressions.Components
+  fullName: DiceEngine.Expressions.Components
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Expressions.Components.ContextParameter
-  commentId: T:CalcExpr.Expressions.Components.ContextParameter
-  href: CalcExpr.Expressions.Components.ContextParameter.html
+- uid: DiceEngine.Expressions.Components.ContextParameter
+  commentId: T:DiceEngine.Expressions.Components.ContextParameter
+  href: DiceEngine.Expressions.Components.ContextParameter.html
   name: ContextParameter
   nameWithType: ContextParameter
-  fullName: CalcExpr.Expressions.Components.ContextParameter
-- uid: CalcExpr.Expressions.Components.Parameter
-  commentId: T:CalcExpr.Expressions.Components.Parameter
-  parent: CalcExpr.Expressions.Components
-  href: CalcExpr.Expressions.Components.Parameter.html
+  fullName: DiceEngine.Expressions.Components.ContextParameter
+- uid: DiceEngine.Expressions.Components.Parameter
+  commentId: T:DiceEngine.Expressions.Components.Parameter
+  parent: DiceEngine.Expressions.Components
+  href: DiceEngine.Expressions.Components.Parameter.html
   name: Parameter
   nameWithType: Parameter
-  fullName: CalcExpr.Expressions.Components.Parameter
-- uid: CalcExpr.Expressions.Components.IParameter
-  commentId: T:CalcExpr.Expressions.Components.IParameter
-  parent: CalcExpr.Expressions.Components
-  href: CalcExpr.Expressions.Components.IParameter.html
+  fullName: DiceEngine.Expressions.Components.Parameter
+- uid: DiceEngine.Expressions.Components.IParameter
+  commentId: T:DiceEngine.Expressions.Components.IParameter
+  parent: DiceEngine.Expressions.Components
+  href: DiceEngine.Expressions.Components.IParameter.html
   name: IParameter
   nameWithType: IParameter
-  fullName: CalcExpr.Expressions.Components.IParameter
-- uid: CalcExpr.Expressions.Components.TypeParameter`1
-  commentId: T:CalcExpr.Expressions.Components.TypeParameter`1
-  href: CalcExpr.Expressions.Components.TypeParameter-1.html
+  fullName: DiceEngine.Expressions.Components.IParameter
+- uid: DiceEngine.Expressions.Components.TypeParameter`1
+  commentId: T:DiceEngine.Expressions.Components.TypeParameter`1
+  href: DiceEngine.Expressions.Components.TypeParameter-1.html
   name: TypeParameter<T>
   nameWithType: TypeParameter<T>
-  fullName: CalcExpr.Expressions.Components.TypeParameter<T>
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>
   nameWithType.vb: TypeParameter(Of T)
-  fullName.vb: CalcExpr.Expressions.Components.TypeParameter(Of T)
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T)
   name.vb: TypeParameter(Of T)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Components.TypeParameter`1
+  - uid: DiceEngine.Expressions.Components.TypeParameter`1
     name: TypeParameter
-    href: CalcExpr.Expressions.Components.TypeParameter-1.html
+    href: DiceEngine.Expressions.Components.TypeParameter-1.html
   - name: <
   - name: T
   - name: '>'
   spec.vb:
-  - uid: CalcExpr.Expressions.Components.TypeParameter`1
+  - uid: DiceEngine.Expressions.Components.TypeParameter`1
     name: TypeParameter
-    href: CalcExpr.Expressions.Components.TypeParameter-1.html
+    href: DiceEngine.Expressions.Components.TypeParameter-1.html
   - name: (
   - name: Of
   - name: " "
   - name: T
   - name: )
-- uid: CalcExpr.Expressions.Components.TypeParameter
-  commentId: T:CalcExpr.Expressions.Components.TypeParameter
-  href: CalcExpr.Expressions.Components.TypeParameter.html
+- uid: DiceEngine.Expressions.Components.TypeParameter
+  commentId: T:DiceEngine.Expressions.Components.TypeParameter
+  href: DiceEngine.Expressions.Components.TypeParameter.html
   name: TypeParameter
   nameWithType: TypeParameter
-  fullName: CalcExpr.Expressions.Components.TypeParameter
-- uid: CalcExpr.Expressions.Components
-  commentId: N:CalcExpr.Expressions.Components
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Components
-  nameWithType: CalcExpr.Expressions.Components
-  fullName: CalcExpr.Expressions.Components
+  fullName: DiceEngine.Expressions.Components.TypeParameter
+- uid: DiceEngine.Expressions.Components
+  commentId: N:DiceEngine.Expressions.Components
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Components
+  nameWithType: DiceEngine.Expressions.Components
+  fullName: DiceEngine.Expressions.Components
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Components
+  - uid: DiceEngine.Expressions.Components
     name: Components
-    href: CalcExpr.Expressions.Components.html
+    href: DiceEngine.Expressions.Components.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Components
+  - uid: DiceEngine.Expressions.Components
     name: Components
-    href: CalcExpr.Expressions.Components.html
+    href: DiceEngine.Expressions.Components.html

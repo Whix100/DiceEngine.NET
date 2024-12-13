@@ -1,253 +1,253 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.Interfaces.ILogicalConvertible
-  commentId: T:CalcExpr.Expressions.Interfaces.ILogicalConvertible
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  commentId: T:DiceEngine.Expressions.Interfaces.ILogicalConvertible
   id: ILogicalConvertible
-  parent: CalcExpr.Expressions.Interfaces
+  parent: DiceEngine.Expressions.Interfaces
   children:
-  - CalcExpr.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical(CalcExpr.Expressions.IExpression)
-  - CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical
+  - DiceEngine.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical(DiceEngine.Expressions.IExpression)
+  - DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
   langs:
   - csharp
   - vb
   name: ILogicalConvertible
   nameWithType: ILogicalConvertible
-  fullName: CalcExpr.Expressions.Interfaces.ILogicalConvertible
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible
   type: Interface
   source:
     remote:
-      path: src/CalcExpr/Expressions/Interfaces/ILogicalConvertible.cs
+      path: src/DiceEngine/Expressions/Interfaces/ILogicalConvertible.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ILogicalConvertible
-    path: ../src/CalcExpr/Expressions/Interfaces/ILogicalConvertible.cs
+    path: ../src/DiceEngine/Expressions/Interfaces/ILogicalConvertible.cs
     startLine: 4
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Interfaces
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Interfaces
   syntax:
     content: 'public interface ILogicalConvertible : IExpression'
     content.vb: Public Interface ILogicalConvertible Inherits IExpression
   inheritedMembers:
-  - CalcExpr.Expressions.IExpression.Evaluate
-  - CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.IExpression.StepEvaluate
-  - CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.IExpression.ToString
-  - CalcExpr.Expressions.IExpression.ToString(System.String)
-  - CalcExpr.Expressions.IExpression.CompareTo(System.Object)
-- uid: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical
-  commentId: M:CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical
+  - DiceEngine.Expressions.IExpression.Evaluate
+  - DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.StepEvaluate
+  - DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.ToString
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+  commentId: M:DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
   id: ToLogical
-  parent: CalcExpr.Expressions.Interfaces.ILogicalConvertible
+  parent: DiceEngine.Expressions.Interfaces.ILogicalConvertible
   langs:
   - csharp
   - vb
   name: ToLogical()
   nameWithType: ILogicalConvertible.ToLogical()
-  fullName: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical()
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Interfaces/ILogicalConvertible.cs
+      path: src/DiceEngine/Expressions/Interfaces/ILogicalConvertible.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToLogical
-    path: ../src/CalcExpr/Expressions/Interfaces/ILogicalConvertible.cs
+    path: ../src/DiceEngine/Expressions/Interfaces/ILogicalConvertible.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Interfaces
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Interfaces
   syntax:
     content: Logical ToLogical()
     return:
-      type: CalcExpr.Expressions.Terminals.Logical
+      type: DiceEngine.Expressions.Terminals.Logical
     content.vb: Function ToLogical() As Logical
-  overload: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical*
-- uid: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical(CalcExpr.Expressions.IExpression)
-  id: ConvertToLogical(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.Expressions.Interfaces.ILogicalConvertible
+  overload: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical*
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical(DiceEngine.Expressions.IExpression)
+  id: ConvertToLogical(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.Expressions.Interfaces.ILogicalConvertible
   langs:
   - csharp
   - vb
   name: ConvertToLogical(IExpression)
   nameWithType: ILogicalConvertible.ConvertToLogical(IExpression)
-  fullName: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Interfaces/ILogicalConvertible.cs
+      path: src/DiceEngine/Expressions/Interfaces/ILogicalConvertible.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ConvertToLogical
-    path: ../src/CalcExpr/Expressions/Interfaces/ILogicalConvertible.cs
+    path: ../src/DiceEngine/Expressions/Interfaces/ILogicalConvertible.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Interfaces
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Interfaces
   syntax:
     content: public static Logical? ConvertToLogical(IExpression expr)
     parameters:
     - id: expr
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Logical
+      type: DiceEngine.Expressions.Terminals.Logical
     content.vb: Public Shared Function ConvertToLogical(expr As IExpression) As Logical
-  overload: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical*
+  overload: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical*
 references:
-- uid: CalcExpr.Expressions.Interfaces
-  commentId: N:CalcExpr.Expressions.Interfaces
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Interfaces
-  nameWithType: CalcExpr.Expressions.Interfaces
-  fullName: CalcExpr.Expressions.Interfaces
+- uid: DiceEngine.Expressions.Interfaces
+  commentId: N:DiceEngine.Expressions.Interfaces
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Interfaces
+  nameWithType: DiceEngine.Expressions.Interfaces
+  fullName: DiceEngine.Expressions.Interfaces
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Interfaces
+  - uid: DiceEngine.Expressions.Interfaces
     name: Interfaces
-    href: CalcExpr.Expressions.Interfaces.html
+    href: DiceEngine.Expressions.Interfaces.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Interfaces
+  - uid: DiceEngine.Expressions.Interfaces
     name: Interfaces
-    href: CalcExpr.Expressions.Interfaces.html
-- uid: CalcExpr.Expressions.IExpression.Evaluate
-  commentId: M:CalcExpr.Expressions.IExpression.Evaluate
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.Interfaces.html
+- uid: DiceEngine.Expressions.IExpression.Evaluate
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   name: Evaluate()
   nameWithType: IExpression.Evaluate()
-  fullName: CalcExpr.Expressions.IExpression.Evaluate()
+  fullName: DiceEngine.Expressions.IExpression.Evaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   name: Evaluate(ExpressionContext)
   nameWithType: IExpression.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.IExpression.StepEvaluate
-  commentId: M:CalcExpr.Expressions.IExpression.StepEvaluate
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   name: StepEvaluate()
   nameWithType: IExpression.StepEvaluate()
-  fullName: CalcExpr.Expressions.IExpression.StepEvaluate()
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   name: StepEvaluate(ExpressionContext)
   nameWithType: IExpression.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.IExpression.ToString
-  commentId: M:CalcExpr.Expressions.IExpression.ToString
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+- uid: DiceEngine.Expressions.IExpression.ToString
+  commentId: M:DiceEngine.Expressions.IExpression.ToString
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   name: ToString()
   nameWithType: IExpression.ToString()
-  fullName: CalcExpr.Expressions.IExpression.ToString()
+  fullName: DiceEngine.Expressions.IExpression.ToString()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString
+  - uid: DiceEngine.Expressions.IExpression.ToString
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString
+  - uid: DiceEngine.Expressions.IExpression.ToString
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.IExpression.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.IExpression.ToString(System.String)
-  parent: CalcExpr.Expressions.IExpression
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
   isExternal: true
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   name: ToString(string)
   nameWithType: IExpression.ToString(string)
-  fullName: CalcExpr.Expressions.IExpression.ToString(string)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string)
   nameWithType.vb: IExpression.ToString(String)
-  fullName.vb: CalcExpr.Expressions.IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
   name.vb: ToString(String)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: string
@@ -255,30 +255,30 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: CalcExpr.Expressions.IExpression.CompareTo(System.Object)
-  commentId: M:CalcExpr.Expressions.IExpression.CompareTo(System.Object)
-  parent: CalcExpr.Expressions.IExpression
+- uid: DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+  commentId: M:DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+  parent: DiceEngine.Expressions.IExpression
   isExternal: true
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_CompareTo_System_Object_
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_CompareTo_System_Object_
   name: CompareTo(object)
   nameWithType: IExpression.CompareTo(object)
-  fullName: CalcExpr.Expressions.IExpression.CompareTo(object)
+  fullName: DiceEngine.Expressions.IExpression.CompareTo(object)
   nameWithType.vb: IExpression.CompareTo(Object)
-  fullName.vb: CalcExpr.Expressions.IExpression.CompareTo(Object)
+  fullName.vb: DiceEngine.Expressions.IExpression.CompareTo(Object)
   name.vb: CompareTo(Object)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.CompareTo(System.Object)
+  - uid: DiceEngine.Expressions.IExpression.CompareTo(System.Object)
     name: CompareTo
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_CompareTo_System_Object_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_CompareTo_System_Object_
   - name: (
   - uid: System.Object
     name: object
@@ -286,90 +286,90 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.CompareTo(System.Object)
+  - uid: DiceEngine.Expressions.IExpression.CompareTo(System.Object)
     name: CompareTo
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_CompareTo_System_Object_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_CompareTo_System_Object_
   - name: (
   - uid: System.Object
     name: Object
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
-- uid: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical*
-  commentId: Overload:CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical
-  href: CalcExpr.Expressions.Interfaces.ILogicalConvertible.html#CalcExpr_Expressions_Interfaces_ILogicalConvertible_ToLogical
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical*
+  commentId: Overload:DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+  href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html#DiceEngine_Expressions_Interfaces_ILogicalConvertible_ToLogical
   name: ToLogical
   nameWithType: ILogicalConvertible.ToLogical
-  fullName: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical
-- uid: CalcExpr.Expressions.Terminals.Logical
-  commentId: T:CalcExpr.Expressions.Terminals.Logical
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Logical.html
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+- uid: DiceEngine.Expressions.Terminals.Logical
+  commentId: T:DiceEngine.Expressions.Terminals.Logical
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Logical.html
   name: Logical
   nameWithType: Logical
-  fullName: CalcExpr.Expressions.Terminals.Logical
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals.Logical
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical*
-  commentId: Overload:CalcExpr.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical
-  href: CalcExpr.Expressions.Interfaces.ILogicalConvertible.html#CalcExpr_Expressions_Interfaces_ILogicalConvertible_ConvertToLogical_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical*
+  commentId: Overload:DiceEngine.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical
+  href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html#DiceEngine_Expressions_Interfaces_ILogicalConvertible_ConvertToLogical_DiceEngine_Expressions_IExpression_
   name: ConvertToLogical
   nameWithType: ILogicalConvertible.ConvertToLogical
-  fullName: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ConvertToLogical

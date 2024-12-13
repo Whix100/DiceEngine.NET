@@ -1,46 +1,46 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.FunctionAttributes
-  commentId: N:CalcExpr.FunctionAttributes
-  id: CalcExpr.FunctionAttributes
+- uid: DiceEngine.FunctionAttributes
+  commentId: N:DiceEngine.FunctionAttributes
+  id: DiceEngine.FunctionAttributes
   children:
-  - CalcExpr.FunctionAttributes.FunctionAttribute
+  - DiceEngine.FunctionAttributes.FunctionAttribute
   langs:
   - csharp
   - vb
-  name: CalcExpr.FunctionAttributes
-  nameWithType: CalcExpr.FunctionAttributes
-  fullName: CalcExpr.FunctionAttributes
+  name: DiceEngine.FunctionAttributes
+  nameWithType: DiceEngine.FunctionAttributes
+  fullName: DiceEngine.FunctionAttributes
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.FunctionAttributes.FunctionAttribute
-  commentId: T:CalcExpr.FunctionAttributes.FunctionAttribute
-  parent: CalcExpr.FunctionAttributes
-  href: CalcExpr.FunctionAttributes.FunctionAttribute.html
+- uid: DiceEngine.FunctionAttributes.FunctionAttribute
+  commentId: T:DiceEngine.FunctionAttributes.FunctionAttribute
+  parent: DiceEngine.FunctionAttributes
+  href: DiceEngine.FunctionAttributes.FunctionAttribute.html
   name: FunctionAttribute
   nameWithType: FunctionAttribute
-  fullName: CalcExpr.FunctionAttributes.FunctionAttribute
-- uid: CalcExpr.FunctionAttributes
-  commentId: N:CalcExpr.FunctionAttributes
-  href: CalcExpr.html
-  name: CalcExpr.FunctionAttributes
-  nameWithType: CalcExpr.FunctionAttributes
-  fullName: CalcExpr.FunctionAttributes
+  fullName: DiceEngine.FunctionAttributes.FunctionAttribute
+- uid: DiceEngine.FunctionAttributes
+  commentId: N:DiceEngine.FunctionAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes
+  nameWithType: DiceEngine.FunctionAttributes
+  fullName: DiceEngine.FunctionAttributes
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html

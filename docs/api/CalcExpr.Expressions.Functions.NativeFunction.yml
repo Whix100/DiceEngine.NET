@@ -1,205 +1,205 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.Functions.NativeFunction
-  commentId: T:CalcExpr.Expressions.Functions.NativeFunction
+- uid: DiceEngine.Expressions.Functions.NativeFunction
+  commentId: T:DiceEngine.Expressions.Functions.NativeFunction
   id: NativeFunction
-  parent: CalcExpr.Expressions.Functions
+  parent: DiceEngine.Expressions.Functions
   children:
-  - CalcExpr.Expressions.Functions.NativeFunction.#ctor(System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.IParameter},System.Delegate,System.Boolean)
-  - CalcExpr.Expressions.Functions.NativeFunction.#ctor(System.Delegate,System.Boolean)
-  - CalcExpr.Expressions.Functions.NativeFunction.#ctor(System.Reflection.MethodInfo)
-  - CalcExpr.Expressions.Functions.NativeFunction.Body
-  - CalcExpr.Expressions.Functions.NativeFunction.Equals(System.Object)
-  - CalcExpr.Expressions.Functions.NativeFunction.GetHashCode
-  - CalcExpr.Expressions.Functions.NativeFunction.Invoke(CalcExpr.Expressions.IExpression[],CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Functions.NativeFunction.IsElementwise
-  - CalcExpr.Expressions.Functions.NativeFunction.Parameters
-  - CalcExpr.Expressions.Functions.NativeFunction.RequiresContext
-  - CalcExpr.Expressions.Functions.NativeFunction.ToString(System.String)
+  - DiceEngine.Expressions.Functions.NativeFunction.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.IParameter},System.Delegate,System.Boolean)
+  - DiceEngine.Expressions.Functions.NativeFunction.#ctor(System.Delegate,System.Boolean)
+  - DiceEngine.Expressions.Functions.NativeFunction.#ctor(System.Reflection.MethodInfo)
+  - DiceEngine.Expressions.Functions.NativeFunction.Body
+  - DiceEngine.Expressions.Functions.NativeFunction.Equals(System.Object)
+  - DiceEngine.Expressions.Functions.NativeFunction.GetHashCode
+  - DiceEngine.Expressions.Functions.NativeFunction.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Functions.NativeFunction.IsElementwise
+  - DiceEngine.Expressions.Functions.NativeFunction.Parameters
+  - DiceEngine.Expressions.Functions.NativeFunction.RequiresContext
+  - DiceEngine.Expressions.Functions.NativeFunction.ToString(System.String)
   langs:
   - csharp
   - vb
   name: NativeFunction
   nameWithType: NativeFunction
-  fullName: CalcExpr.Expressions.Functions.NativeFunction
+  fullName: DiceEngine.Expressions.Functions.NativeFunction
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: NativeFunction
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 10
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   syntax:
     content: 'public class NativeFunction : Function, IExpression'
     content.vb: Public Class NativeFunction Inherits Function Implements IExpression
   inheritance:
   - System.Object
-  - CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Functions.Function
+  - DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Functions.Function
   implements:
-  - CalcExpr.Expressions.IExpression
+  - DiceEngine.Expressions.IExpression
   inheritedMembers:
-  - CalcExpr.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Functions.Function.ContextReconciliation(CalcExpr.Context.ExpressionContext,CalcExpr.Context.ExpressionContext,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.Parameter})
-  - CalcExpr.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Functions.Function.ForEach(CalcExpr.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Terminal.Evaluate
-  - CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
-  - CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Terminal.ToString
+  - DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext,DiceEngine.Context.ExpressionContext,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter})
+  - DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.ToString
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: CalcExpr.Expressions.Functions.NativeFunction.#ctor(System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.IParameter},System.Delegate,System.Boolean)
-  commentId: M:CalcExpr.Expressions.Functions.NativeFunction.#ctor(System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.IParameter},System.Delegate,System.Boolean)
-  id: '#ctor(System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.IParameter},System.Delegate,System.Boolean)'
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+- uid: DiceEngine.Expressions.Functions.NativeFunction.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.IParameter},System.Delegate,System.Boolean)
+  commentId: M:DiceEngine.Expressions.Functions.NativeFunction.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.IParameter},System.Delegate,System.Boolean)
+  id: '#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.IParameter},System.Delegate,System.Boolean)'
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: NativeFunction(IEnumerable<IParameter>, Delegate, bool)
   nameWithType: NativeFunction.NativeFunction(IEnumerable<IParameter>, Delegate, bool)
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.NativeFunction(System.Collections.Generic.IEnumerable<CalcExpr.Expressions.Components.IParameter>, System.Delegate, bool)
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.NativeFunction(System.Collections.Generic.IEnumerable<DiceEngine.Expressions.Components.IParameter>, System.Delegate, bool)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 10
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   syntax:
     content: public NativeFunction(IEnumerable<IParameter> parameters, Delegate body, bool isElementwise = false)
     parameters:
     - id: parameters
-      type: System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.IParameter}
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.IParameter}
     - id: body
       type: System.Delegate
     - id: isElementwise
       type: System.Boolean
     content.vb: Public Sub New(parameters As IEnumerable(Of IParameter), body As [Delegate], isElementwise As Boolean = False)
-  overload: CalcExpr.Expressions.Functions.NativeFunction.#ctor*
+  overload: DiceEngine.Expressions.Functions.NativeFunction.#ctor*
   nameWithType.vb: NativeFunction.New(IEnumerable(Of IParameter), Delegate, Boolean)
-  fullName.vb: CalcExpr.Expressions.Functions.NativeFunction.New(System.Collections.Generic.IEnumerable(Of CalcExpr.Expressions.Components.IParameter), System.Delegate, Boolean)
+  fullName.vb: DiceEngine.Expressions.Functions.NativeFunction.New(System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.Components.IParameter), System.Delegate, Boolean)
   name.vb: New(IEnumerable(Of IParameter), Delegate, Boolean)
-- uid: CalcExpr.Expressions.Functions.NativeFunction.Body
-  commentId: F:CalcExpr.Expressions.Functions.NativeFunction.Body
+- uid: DiceEngine.Expressions.Functions.NativeFunction.Body
+  commentId: F:DiceEngine.Expressions.Functions.NativeFunction.Body
   id: Body
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: Body
   nameWithType: NativeFunction.Body
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.Body
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.Body
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Body
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 14
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   syntax:
     content: public readonly Delegate Body
     return:
       type: System.Delegate
     content.vb: Public ReadOnly Body As [Delegate]
-- uid: CalcExpr.Expressions.Functions.NativeFunction.RequiresContext
-  commentId: F:CalcExpr.Expressions.Functions.NativeFunction.RequiresContext
+- uid: DiceEngine.Expressions.Functions.NativeFunction.RequiresContext
+  commentId: F:DiceEngine.Expressions.Functions.NativeFunction.RequiresContext
   id: RequiresContext
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: RequiresContext
   nameWithType: NativeFunction.RequiresContext
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.RequiresContext
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.RequiresContext
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: RequiresContext
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 15
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   syntax:
     content: public readonly bool RequiresContext
     return:
       type: System.Boolean
     content.vb: Public ReadOnly RequiresContext As Boolean
-- uid: CalcExpr.Expressions.Functions.NativeFunction.Parameters
-  commentId: P:CalcExpr.Expressions.Functions.NativeFunction.Parameters
+- uid: DiceEngine.Expressions.Functions.NativeFunction.Parameters
+  commentId: P:DiceEngine.Expressions.Functions.NativeFunction.Parameters
   id: Parameters
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: Parameters
   nameWithType: NativeFunction.Parameters
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.Parameters
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.Parameters
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Parameters
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 17
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   example: []
   syntax:
     content: public override IParameter[] Parameters { get; }
     parameters: []
     return:
-      type: CalcExpr.Expressions.Components.IParameter[]
+      type: DiceEngine.Expressions.Components.IParameter[]
     content.vb: Public Overrides ReadOnly Property Parameters As IParameter()
-  overridden: CalcExpr.Expressions.Functions.Function.Parameters
-  overload: CalcExpr.Expressions.Functions.NativeFunction.Parameters*
-- uid: CalcExpr.Expressions.Functions.NativeFunction.IsElementwise
-  commentId: P:CalcExpr.Expressions.Functions.NativeFunction.IsElementwise
+  overridden: DiceEngine.Expressions.Functions.Function.Parameters
+  overload: DiceEngine.Expressions.Functions.NativeFunction.Parameters*
+- uid: DiceEngine.Expressions.Functions.NativeFunction.IsElementwise
+  commentId: P:DiceEngine.Expressions.Functions.NativeFunction.IsElementwise
   id: IsElementwise
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: IsElementwise
   nameWithType: NativeFunction.IsElementwise
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.IsElementwise
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.IsElementwise
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: IsElementwise
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 19
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   example: []
   syntax:
     content: public override bool IsElementwise { get; }
@@ -207,62 +207,62 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Overrides ReadOnly Property IsElementwise As Boolean
-  overridden: CalcExpr.Expressions.Functions.Function.IsElementwise
-  overload: CalcExpr.Expressions.Functions.NativeFunction.IsElementwise*
-- uid: CalcExpr.Expressions.Functions.NativeFunction.#ctor(System.Reflection.MethodInfo)
-  commentId: M:CalcExpr.Expressions.Functions.NativeFunction.#ctor(System.Reflection.MethodInfo)
+  overridden: DiceEngine.Expressions.Functions.Function.IsElementwise
+  overload: DiceEngine.Expressions.Functions.NativeFunction.IsElementwise*
+- uid: DiceEngine.Expressions.Functions.NativeFunction.#ctor(System.Reflection.MethodInfo)
+  commentId: M:DiceEngine.Expressions.Functions.NativeFunction.#ctor(System.Reflection.MethodInfo)
   id: '#ctor(System.Reflection.MethodInfo)'
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: NativeFunction(MethodInfo)
   nameWithType: NativeFunction.NativeFunction(MethodInfo)
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.NativeFunction(System.Reflection.MethodInfo)
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.NativeFunction(System.Reflection.MethodInfo)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 21
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   syntax:
     content: public NativeFunction(MethodInfo method)
     parameters:
     - id: method
       type: System.Reflection.MethodInfo
     content.vb: Public Sub New(method As MethodInfo)
-  overload: CalcExpr.Expressions.Functions.NativeFunction.#ctor*
+  overload: DiceEngine.Expressions.Functions.NativeFunction.#ctor*
   nameWithType.vb: NativeFunction.New(MethodInfo)
-  fullName.vb: CalcExpr.Expressions.Functions.NativeFunction.New(System.Reflection.MethodInfo)
+  fullName.vb: DiceEngine.Expressions.Functions.NativeFunction.New(System.Reflection.MethodInfo)
   name.vb: New(MethodInfo)
-- uid: CalcExpr.Expressions.Functions.NativeFunction.#ctor(System.Delegate,System.Boolean)
-  commentId: M:CalcExpr.Expressions.Functions.NativeFunction.#ctor(System.Delegate,System.Boolean)
+- uid: DiceEngine.Expressions.Functions.NativeFunction.#ctor(System.Delegate,System.Boolean)
+  commentId: M:DiceEngine.Expressions.Functions.NativeFunction.#ctor(System.Delegate,System.Boolean)
   id: '#ctor(System.Delegate,System.Boolean)'
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: NativeFunction(Delegate, bool)
   nameWithType: NativeFunction.NativeFunction(Delegate, bool)
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.NativeFunction(System.Delegate, bool)
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.NativeFunction(System.Delegate, bool)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 25
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   syntax:
     content: public NativeFunction(Delegate body, bool isElementwise = false)
     parameters:
@@ -271,70 +271,70 @@ items:
     - id: isElementwise
       type: System.Boolean
     content.vb: Public Sub New(body As [Delegate], isElementwise As Boolean = False)
-  overload: CalcExpr.Expressions.Functions.NativeFunction.#ctor*
+  overload: DiceEngine.Expressions.Functions.NativeFunction.#ctor*
   nameWithType.vb: NativeFunction.New(Delegate, Boolean)
-  fullName.vb: CalcExpr.Expressions.Functions.NativeFunction.New(System.Delegate, Boolean)
+  fullName.vb: DiceEngine.Expressions.Functions.NativeFunction.New(System.Delegate, Boolean)
   name.vb: New(Delegate, Boolean)
-- uid: CalcExpr.Expressions.Functions.NativeFunction.Invoke(CalcExpr.Expressions.IExpression[],CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Functions.NativeFunction.Invoke(CalcExpr.Expressions.IExpression[],CalcExpr.Context.ExpressionContext)
-  id: Invoke(CalcExpr.Expressions.IExpression[],CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+- uid: DiceEngine.Expressions.Functions.NativeFunction.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Functions.NativeFunction.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  id: Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: Invoke(IExpression[], ExpressionContext)
   nameWithType: NativeFunction.Invoke(IExpression[], ExpressionContext)
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.Invoke(CalcExpr.Expressions.IExpression[], CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.Invoke(DiceEngine.Expressions.IExpression[], DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Invoke
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 29
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   example: []
   syntax:
     content: public override Terminal Invoke(IExpression[] arguments, ExpressionContext context)
     parameters:
     - id: arguments
-      type: CalcExpr.Expressions.IExpression[]
+      type: DiceEngine.Expressions.IExpression[]
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Overrides Function Invoke(arguments As IExpression(), context As ExpressionContext) As Terminal
-  overridden: CalcExpr.Expressions.Functions.Function.Invoke(CalcExpr.Expressions.IExpression[],CalcExpr.Context.ExpressionContext)
-  overload: CalcExpr.Expressions.Functions.NativeFunction.Invoke*
+  overridden: DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  overload: DiceEngine.Expressions.Functions.NativeFunction.Invoke*
   nameWithType.vb: NativeFunction.Invoke(IExpression(), ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Functions.NativeFunction.Invoke(CalcExpr.Expressions.IExpression(), CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Functions.NativeFunction.Invoke(DiceEngine.Expressions.IExpression(), DiceEngine.Context.ExpressionContext)
   name.vb: Invoke(IExpression(), ExpressionContext)
-- uid: CalcExpr.Expressions.Functions.NativeFunction.Equals(System.Object)
-  commentId: M:CalcExpr.Expressions.Functions.NativeFunction.Equals(System.Object)
+- uid: DiceEngine.Expressions.Functions.NativeFunction.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.Functions.NativeFunction.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: NativeFunction.Equals(object?)
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.Equals(object?)
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 76
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -348,32 +348,32 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: CalcExpr.Expressions.Functions.NativeFunction.Equals*
+  overload: DiceEngine.Expressions.Functions.NativeFunction.Equals*
   nameWithType.vb: NativeFunction.Equals(Object)
-  fullName.vb: CalcExpr.Expressions.Functions.NativeFunction.Equals(Object)
+  fullName.vb: DiceEngine.Expressions.Functions.NativeFunction.Equals(Object)
   name.vb: Equals(Object)
-- uid: CalcExpr.Expressions.Functions.NativeFunction.GetHashCode
-  commentId: M:CalcExpr.Expressions.Functions.NativeFunction.GetHashCode
+- uid: DiceEngine.Expressions.Functions.NativeFunction.GetHashCode
+  commentId: M:DiceEngine.Expressions.Functions.NativeFunction.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: NativeFunction.GetHashCode()
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.GetHashCode()
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 79
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -383,31 +383,31 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: CalcExpr.Expressions.Functions.NativeFunction.GetHashCode*
-- uid: CalcExpr.Expressions.Functions.NativeFunction.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.Functions.NativeFunction.ToString(System.String)
+  overload: DiceEngine.Expressions.Functions.NativeFunction.GetHashCode*
+- uid: DiceEngine.Expressions.Functions.NativeFunction.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Functions.NativeFunction.ToString(System.String)
   id: ToString(System.String)
-  parent: CalcExpr.Expressions.Functions.NativeFunction
+  parent: DiceEngine.Expressions.Functions.NativeFunction
   langs:
   - csharp
   - vb
   name: ToString(string?)
   nameWithType: NativeFunction.ToString(string?)
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.ToString(string?)
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.ToString(string?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Functions/NativeFunction.cs
+      path: src/DiceEngine/Expressions/Functions/NativeFunction.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToString
-    path: ../src/CalcExpr/Expressions/Functions/NativeFunction.cs
+    path: ../src/DiceEngine/Expressions/Functions/NativeFunction.cs
     startLine: 82
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Functions
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
   summary: >-
-    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
+    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
 
     format <xref href="System.String" data-throw-if-not-resolved="false"></xref> for number formats.
   example: []
@@ -419,46 +419,46 @@ items:
     return:
       type: System.String
       description: >-
-        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
 
         <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Overrides Function ToString(_ As String) As String
-  overridden: CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
-  overload: CalcExpr.Expressions.Functions.NativeFunction.ToString*
+  overridden: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  overload: DiceEngine.Expressions.Functions.NativeFunction.ToString*
   nameWithType.vb: NativeFunction.ToString(String)
-  fullName.vb: CalcExpr.Expressions.Functions.NativeFunction.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Functions.NativeFunction.ToString(String)
   name.vb: ToString(String)
 references:
-- uid: CalcExpr.Expressions.Functions
-  commentId: N:CalcExpr.Expressions.Functions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Functions
-  nameWithType: CalcExpr.Expressions.Functions
-  fullName: CalcExpr.Expressions.Functions
+- uid: DiceEngine.Expressions.Functions
+  commentId: N:DiceEngine.Expressions.Functions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Functions
+  nameWithType: DiceEngine.Expressions.Functions
+  fullName: DiceEngine.Expressions.Functions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Functions
+  - uid: DiceEngine.Expressions.Functions
     name: Functions
-    href: CalcExpr.Expressions.Functions.html
+    href: DiceEngine.Expressions.Functions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Functions
+  - uid: DiceEngine.Expressions.Functions
     name: Functions
-    href: CalcExpr.Expressions.Functions.html
+    href: DiceEngine.Expressions.Functions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -470,62 +470,62 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.Expressions.Functions.Function
-  commentId: T:CalcExpr.Expressions.Functions.Function
-  parent: CalcExpr.Expressions.Functions
-  href: CalcExpr.Expressions.Functions.Function.html
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Functions.Function
+  commentId: T:DiceEngine.Expressions.Functions.Function
+  parent: DiceEngine.Expressions.Functions
+  href: DiceEngine.Expressions.Functions.Function.html
   name: Function
   nameWithType: Function
-  fullName: CalcExpr.Expressions.Functions.Function
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.Expressions.Functions.Function
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Functions.Function
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Functions.Function
   isExternal: true
-  href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ProcessArguments_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_IExpression__CalcExpr_Context_ExpressionContext_
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ProcessArguments_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
   name: ProcessArguments(IEnumerable<IExpression>, ExpressionContext)
   nameWithType: Function.ProcessArguments(IEnumerable<IExpression>, ExpressionContext)
-  fullName: CalcExpr.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable<CalcExpr.Expressions.IExpression>, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>, DiceEngine.Context.ExpressionContext)
   nameWithType.vb: Function.ProcessArguments(IEnumerable(Of IExpression), ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable(Of CalcExpr.Expressions.IExpression), CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression), DiceEngine.Context.ExpressionContext)
   name.vb: ProcessArguments(IEnumerable(Of IExpression), ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
     name: ProcessArguments
-    href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ProcessArguments_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_IExpression__CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ProcessArguments_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: '>'
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
     name: ProcessArguments
-    href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ProcessArguments_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_IExpression__CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ProcessArguments_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -534,40 +534,40 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.Functions.Function.ContextReconciliation(CalcExpr.Context.ExpressionContext,CalcExpr.Context.ExpressionContext,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.Parameter})
-  commentId: M:CalcExpr.Expressions.Functions.Function.ContextReconciliation(CalcExpr.Context.ExpressionContext,CalcExpr.Context.ExpressionContext,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.Parameter})
-  parent: CalcExpr.Expressions.Functions.Function
+- uid: DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext,DiceEngine.Context.ExpressionContext,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter})
+  commentId: M:DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext,DiceEngine.Context.ExpressionContext,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter})
+  parent: DiceEngine.Expressions.Functions.Function
   isExternal: true
-  href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ContextReconciliation_CalcExpr_Context_ExpressionContext_CalcExpr_Context_ExpressionContext_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_Components_Parameter__
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ContextReconciliation_DiceEngine_Context_ExpressionContext_DiceEngine_Context_ExpressionContext_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_Components_Parameter__
   name: ContextReconciliation(ExpressionContext, ExpressionContext, IEnumerable<Parameter>)
   nameWithType: Function.ContextReconciliation(ExpressionContext, ExpressionContext, IEnumerable<Parameter>)
-  fullName: CalcExpr.Expressions.Functions.Function.ContextReconciliation(CalcExpr.Context.ExpressionContext, CalcExpr.Context.ExpressionContext, System.Collections.Generic.IEnumerable<CalcExpr.Expressions.Components.Parameter>)
+  fullName: DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext, DiceEngine.Context.ExpressionContext, System.Collections.Generic.IEnumerable<DiceEngine.Expressions.Components.Parameter>)
   nameWithType.vb: Function.ContextReconciliation(ExpressionContext, ExpressionContext, IEnumerable(Of Parameter))
-  fullName.vb: CalcExpr.Expressions.Functions.Function.ContextReconciliation(CalcExpr.Context.ExpressionContext, CalcExpr.Context.ExpressionContext, System.Collections.Generic.IEnumerable(Of CalcExpr.Expressions.Components.Parameter))
+  fullName.vb: DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext, DiceEngine.Context.ExpressionContext, System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.Components.Parameter))
   name.vb: ContextReconciliation(ExpressionContext, ExpressionContext, IEnumerable(Of Parameter))
   spec.csharp:
-  - uid: CalcExpr.Expressions.Functions.Function.ContextReconciliation(CalcExpr.Context.ExpressionContext,CalcExpr.Context.ExpressionContext,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.Parameter})
+  - uid: DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext,DiceEngine.Context.ExpressionContext,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter})
     name: ContextReconciliation
-    href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ContextReconciliation_CalcExpr_Context_ExpressionContext_CalcExpr_Context_ExpressionContext_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_Components_Parameter__
+    href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ContextReconciliation_DiceEngine_Context_ExpressionContext_DiceEngine_Context_ExpressionContext_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_Components_Parameter__
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: ','
   - name: " "
   - uid: System.Collections.Generic.IEnumerable`1
@@ -575,24 +575,24 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: CalcExpr.Expressions.Components.Parameter
+  - uid: DiceEngine.Expressions.Components.Parameter
     name: Parameter
-    href: CalcExpr.Expressions.Components.Parameter.html
+    href: DiceEngine.Expressions.Components.Parameter.html
   - name: '>'
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Functions.Function.ContextReconciliation(CalcExpr.Context.ExpressionContext,CalcExpr.Context.ExpressionContext,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.Parameter})
+  - uid: DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext,DiceEngine.Context.ExpressionContext,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter})
     name: ContextReconciliation
-    href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ContextReconciliation_CalcExpr_Context_ExpressionContext_CalcExpr_Context_ExpressionContext_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_Components_Parameter__
+    href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ContextReconciliation_DiceEngine_Context_ExpressionContext_DiceEngine_Context_ExpressionContext_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_Components_Parameter__
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: ','
   - name: " "
   - uid: System.Collections.Generic.IEnumerable`1
@@ -602,26 +602,26 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Expressions.Components.Parameter
+  - uid: DiceEngine.Expressions.Components.Parameter
     name: Parameter
-    href: CalcExpr.Expressions.Components.Parameter.html
+    href: DiceEngine.Expressions.Components.Parameter.html
   - name: )
   - name: )
-- uid: CalcExpr.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Functions.Function
+- uid: DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Functions.Function
   isExternal: true
-  href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ForEach_System_Reflection_MethodInfo_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_IExpression__CalcExpr_Context_ExpressionContext_
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ForEach_System_Reflection_MethodInfo_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
   name: ForEach(MethodInfo, IEnumerable<IExpression>, ExpressionContext)
   nameWithType: Function.ForEach(MethodInfo, IEnumerable<IExpression>, ExpressionContext)
-  fullName: CalcExpr.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo, System.Collections.Generic.IEnumerable<CalcExpr.Expressions.IExpression>, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo, System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>, DiceEngine.Context.ExpressionContext)
   nameWithType.vb: Function.ForEach(MethodInfo, IEnumerable(Of IExpression), ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo, System.Collections.Generic.IEnumerable(Of CalcExpr.Expressions.IExpression), CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo, System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression), DiceEngine.Context.ExpressionContext)
   name.vb: ForEach(MethodInfo, IEnumerable(Of IExpression), ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
     name: ForEach
-    href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ForEach_System_Reflection_MethodInfo_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_IExpression__CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ForEach_System_Reflection_MethodInfo_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
@@ -634,20 +634,20 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: '>'
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
     name: ForEach
-    href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ForEach_System_Reflection_MethodInfo_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_IExpression__CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ForEach_System_Reflection_MethodInfo_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.Reflection.MethodInfo
     name: MethodInfo
@@ -662,35 +662,35 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.Functions.Function.ForEach(CalcExpr.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Functions.Function.ForEach(CalcExpr.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Functions.Function
+- uid: DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Functions.Function
   isExternal: true
-  href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ForEach_CalcExpr_Expressions_Functions_Function_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_IExpression__CalcExpr_Context_ExpressionContext_
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ForEach_DiceEngine_Expressions_Functions_Function_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
   name: ForEach(Function, IEnumerable<IExpression>, ExpressionContext)
   nameWithType: Function.ForEach(Function, IEnumerable<IExpression>, ExpressionContext)
-  fullName: CalcExpr.Expressions.Functions.Function.ForEach(CalcExpr.Expressions.Functions.Function, System.Collections.Generic.IEnumerable<CalcExpr.Expressions.IExpression>, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function, System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>, DiceEngine.Context.ExpressionContext)
   nameWithType.vb: Function.ForEach(Function, IEnumerable(Of IExpression), ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Functions.Function.ForEach(CalcExpr.Expressions.Functions.Function, System.Collections.Generic.IEnumerable(Of CalcExpr.Expressions.IExpression), CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function, System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression), DiceEngine.Context.ExpressionContext)
   name.vb: ForEach(Function, IEnumerable(Of IExpression), ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Functions.Function.ForEach(CalcExpr.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
     name: ForEach
-    href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ForEach_CalcExpr_Expressions_Functions_Function_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_IExpression__CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ForEach_DiceEngine_Expressions_Functions_Function_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Expressions.Functions.Function
+  - uid: DiceEngine.Expressions.Functions.Function
     name: Function
-    href: CalcExpr.Expressions.Functions.Function.html
+    href: DiceEngine.Expressions.Functions.Function.html
   - name: ','
   - name: " "
   - uid: System.Collections.Generic.IEnumerable`1
@@ -698,24 +698,24 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: '>'
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Functions.Function.ForEach(CalcExpr.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{CalcExpr.Expressions.IExpression},CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
     name: ForEach
-    href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_ForEach_CalcExpr_Expressions_Functions_Function_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_IExpression__CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ForEach_DiceEngine_Expressions_Functions_Function_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Expressions.Functions.Function
+  - uid: DiceEngine.Expressions.Functions.Function
     name: Function
-    href: CalcExpr.Expressions.Functions.Function.html
+    href: DiceEngine.Expressions.Functions.Function.html
   - name: ','
   - name: " "
   - uid: System.Collections.Generic.IEnumerable`1
@@ -725,121 +725,121 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.Evaluate
-  parent: CalcExpr.Expressions.Terminals.Terminal
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
   name: Evaluate()
   nameWithType: Terminal.Evaluate()
-  fullName: CalcExpr.Expressions.Terminals.Terminal.Evaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Terminals.Terminal
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
   name: Evaluate(ExpressionContext)
   nameWithType: Terminal.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
-  parent: CalcExpr.Expressions.Terminals.Terminal
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
   name: StepEvaluate()
   nameWithType: Terminal.StepEvaluate()
-  fullName: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Terminals.Terminal
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
   name: StepEvaluate(ExpressionContext)
   nameWithType: Terminal.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.ToString
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.ToString
-  parent: CalcExpr.Expressions.Terminals.Terminal
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
   name: ToString()
   nameWithType: Terminal.ToString()
-  fullName: CalcExpr.Expressions.Terminals.Terminal.ToString()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString()
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.ToString
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString
     name: ToString
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.ToString
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString
     name: ToString
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
   - name: (
   - name: )
 - uid: System.Object.Equals(System.Object,System.Object)
@@ -987,77 +987,77 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
-- uid: CalcExpr.Expressions.Functions.NativeFunction.#ctor*
-  commentId: Overload:CalcExpr.Expressions.Functions.NativeFunction.#ctor
-  href: CalcExpr.Expressions.Functions.NativeFunction.html#CalcExpr_Expressions_Functions_NativeFunction__ctor_System_Collections_Generic_IEnumerable_CalcExpr_Expressions_Components_IParameter__System_Delegate_System_Boolean_
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Expressions.Functions.NativeFunction.#ctor*
+  commentId: Overload:DiceEngine.Expressions.Functions.NativeFunction.#ctor
+  href: DiceEngine.Expressions.Functions.NativeFunction.html#DiceEngine_Expressions_Functions_NativeFunction__ctor_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_Components_IParameter__System_Delegate_System_Boolean_
   name: NativeFunction
   nameWithType: NativeFunction.NativeFunction
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.NativeFunction
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.NativeFunction
   nameWithType.vb: NativeFunction.New
-  fullName.vb: CalcExpr.Expressions.Functions.NativeFunction.New
+  fullName.vb: DiceEngine.Expressions.Functions.NativeFunction.New
   name.vb: New
-- uid: System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.IParameter}
-  commentId: T:System.Collections.Generic.IEnumerable{CalcExpr.Expressions.Components.IParameter}
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.IParameter}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.IParameter}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<IParameter>
   nameWithType: IEnumerable<IParameter>
-  fullName: System.Collections.Generic.IEnumerable<CalcExpr.Expressions.Components.IParameter>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Expressions.Components.IParameter>
   nameWithType.vb: IEnumerable(Of IParameter)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of CalcExpr.Expressions.Components.IParameter)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.Components.IParameter)
   name.vb: IEnumerable(Of IParameter)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -1065,9 +1065,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: CalcExpr.Expressions.Components.IParameter
+  - uid: DiceEngine.Expressions.Components.IParameter
     name: IParameter
-    href: CalcExpr.Expressions.Components.IParameter.html
+    href: DiceEngine.Expressions.Components.IParameter.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -1077,9 +1077,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Expressions.Components.IParameter
+  - uid: DiceEngine.Expressions.Components.IParameter
     name: IParameter
-    href: CalcExpr.Expressions.Components.IParameter.html
+    href: DiceEngine.Expressions.Components.IParameter.html
   - name: )
 - uid: System.Delegate
   commentId: T:System.Delegate
@@ -1165,53 +1165,53 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: CalcExpr.Expressions.Functions.Function.Parameters
-  commentId: P:CalcExpr.Expressions.Functions.Function.Parameters
-  parent: CalcExpr.Expressions.Functions.Function
-  href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_Parameters
+- uid: DiceEngine.Expressions.Functions.Function.Parameters
+  commentId: P:DiceEngine.Expressions.Functions.Function.Parameters
+  parent: DiceEngine.Expressions.Functions.Function
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_Parameters
   name: Parameters
   nameWithType: Function.Parameters
-  fullName: CalcExpr.Expressions.Functions.Function.Parameters
-- uid: CalcExpr.Expressions.Functions.NativeFunction.Parameters*
-  commentId: Overload:CalcExpr.Expressions.Functions.NativeFunction.Parameters
-  href: CalcExpr.Expressions.Functions.NativeFunction.html#CalcExpr_Expressions_Functions_NativeFunction_Parameters
+  fullName: DiceEngine.Expressions.Functions.Function.Parameters
+- uid: DiceEngine.Expressions.Functions.NativeFunction.Parameters*
+  commentId: Overload:DiceEngine.Expressions.Functions.NativeFunction.Parameters
+  href: DiceEngine.Expressions.Functions.NativeFunction.html#DiceEngine_Expressions_Functions_NativeFunction_Parameters
   name: Parameters
   nameWithType: NativeFunction.Parameters
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.Parameters
-- uid: CalcExpr.Expressions.Components.IParameter[]
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.Parameters
+- uid: DiceEngine.Expressions.Components.IParameter[]
   isExternal: true
-  href: CalcExpr.Expressions.Components.IParameter.html
+  href: DiceEngine.Expressions.Components.IParameter.html
   name: IParameter[]
   nameWithType: IParameter[]
-  fullName: CalcExpr.Expressions.Components.IParameter[]
+  fullName: DiceEngine.Expressions.Components.IParameter[]
   nameWithType.vb: IParameter()
-  fullName.vb: CalcExpr.Expressions.Components.IParameter()
+  fullName.vb: DiceEngine.Expressions.Components.IParameter()
   name.vb: IParameter()
   spec.csharp:
-  - uid: CalcExpr.Expressions.Components.IParameter
+  - uid: DiceEngine.Expressions.Components.IParameter
     name: IParameter
-    href: CalcExpr.Expressions.Components.IParameter.html
+    href: DiceEngine.Expressions.Components.IParameter.html
   - name: '['
   - name: ']'
   spec.vb:
-  - uid: CalcExpr.Expressions.Components.IParameter
+  - uid: DiceEngine.Expressions.Components.IParameter
     name: IParameter
-    href: CalcExpr.Expressions.Components.IParameter.html
+    href: DiceEngine.Expressions.Components.IParameter.html
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Functions.Function.IsElementwise
-  commentId: P:CalcExpr.Expressions.Functions.Function.IsElementwise
-  parent: CalcExpr.Expressions.Functions.Function
-  href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_IsElementwise
+- uid: DiceEngine.Expressions.Functions.Function.IsElementwise
+  commentId: P:DiceEngine.Expressions.Functions.Function.IsElementwise
+  parent: DiceEngine.Expressions.Functions.Function
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_IsElementwise
   name: IsElementwise
   nameWithType: Function.IsElementwise
-  fullName: CalcExpr.Expressions.Functions.Function.IsElementwise
-- uid: CalcExpr.Expressions.Functions.NativeFunction.IsElementwise*
-  commentId: Overload:CalcExpr.Expressions.Functions.NativeFunction.IsElementwise
-  href: CalcExpr.Expressions.Functions.NativeFunction.html#CalcExpr_Expressions_Functions_NativeFunction_IsElementwise
+  fullName: DiceEngine.Expressions.Functions.Function.IsElementwise
+- uid: DiceEngine.Expressions.Functions.NativeFunction.IsElementwise*
+  commentId: Overload:DiceEngine.Expressions.Functions.NativeFunction.IsElementwise
+  href: DiceEngine.Expressions.Functions.NativeFunction.html#DiceEngine_Expressions_Functions_NativeFunction_IsElementwise
   name: IsElementwise
   nameWithType: NativeFunction.IsElementwise
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.IsElementwise
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.IsElementwise
 - uid: System.Reflection.MethodInfo
   commentId: T:System.Reflection.MethodInfo
   parent: System.Reflection
@@ -1247,104 +1247,104 @@ references:
     name: Reflection
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.reflection
-- uid: CalcExpr.Expressions.Functions.Function.Invoke(CalcExpr.Expressions.IExpression[],CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Functions.Function.Invoke(CalcExpr.Expressions.IExpression[],CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Functions.Function
-  href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_Invoke_CalcExpr_Expressions_IExpression___CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Functions.Function
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_Invoke_DiceEngine_Expressions_IExpression___DiceEngine_Context_ExpressionContext_
   name: Invoke(IExpression[], ExpressionContext)
   nameWithType: Function.Invoke(IExpression[], ExpressionContext)
-  fullName: CalcExpr.Expressions.Functions.Function.Invoke(CalcExpr.Expressions.IExpression[], CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression[], DiceEngine.Context.ExpressionContext)
   nameWithType.vb: Function.Invoke(IExpression(), ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Functions.Function.Invoke(CalcExpr.Expressions.IExpression(), CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression(), DiceEngine.Context.ExpressionContext)
   name.vb: Invoke(IExpression(), ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Functions.Function.Invoke(CalcExpr.Expressions.IExpression[],CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
     name: Invoke
-    href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_Invoke_CalcExpr_Expressions_IExpression___CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_Invoke_DiceEngine_Expressions_IExpression___DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: '['
   - name: ']'
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Functions.Function.Invoke(CalcExpr.Expressions.IExpression[],CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
     name: Invoke
-    href: CalcExpr.Expressions.Functions.Function.html#CalcExpr_Expressions_Functions_Function_Invoke_CalcExpr_Expressions_IExpression___CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_Invoke_DiceEngine_Expressions_IExpression___DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: (
   - name: )
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.Functions.NativeFunction.Invoke*
-  commentId: Overload:CalcExpr.Expressions.Functions.NativeFunction.Invoke
-  href: CalcExpr.Expressions.Functions.NativeFunction.html#CalcExpr_Expressions_Functions_NativeFunction_Invoke_CalcExpr_Expressions_IExpression___CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.Functions.NativeFunction.Invoke*
+  commentId: Overload:DiceEngine.Expressions.Functions.NativeFunction.Invoke
+  href: DiceEngine.Expressions.Functions.NativeFunction.html#DiceEngine_Expressions_Functions_NativeFunction_Invoke_DiceEngine_Expressions_IExpression___DiceEngine_Context_ExpressionContext_
   name: Invoke
   nameWithType: NativeFunction.Invoke
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.Invoke
-- uid: CalcExpr.Expressions.IExpression[]
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.Invoke
+- uid: DiceEngine.Expressions.IExpression[]
   isExternal: true
-  href: CalcExpr.Expressions.IExpression.html
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression[]
   nameWithType: IExpression[]
-  fullName: CalcExpr.Expressions.IExpression[]
+  fullName: DiceEngine.Expressions.IExpression[]
   nameWithType.vb: IExpression()
-  fullName.vb: CalcExpr.Expressions.IExpression()
+  fullName.vb: DiceEngine.Expressions.IExpression()
   name.vb: IExpression()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: '['
   - name: ']'
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: (
   - name: )
-- uid: CalcExpr.Context.ExpressionContext
-  commentId: T:CalcExpr.Context.ExpressionContext
-  parent: CalcExpr.Context
-  href: CalcExpr.Context.ExpressionContext.html
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
   name: ExpressionContext
   nameWithType: ExpressionContext
-  fullName: CalcExpr.Context.ExpressionContext
-- uid: CalcExpr.Context
-  commentId: N:CalcExpr.Context
-  href: CalcExpr.html
-  name: CalcExpr.Context
-  nameWithType: CalcExpr.Context
-  fullName: CalcExpr.Context
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -1378,12 +1378,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Expressions.Functions.NativeFunction.Equals*
-  commentId: Overload:CalcExpr.Expressions.Functions.NativeFunction.Equals
-  href: CalcExpr.Expressions.Functions.NativeFunction.html#CalcExpr_Expressions_Functions_NativeFunction_Equals_System_Object_
+- uid: DiceEngine.Expressions.Functions.NativeFunction.Equals*
+  commentId: Overload:DiceEngine.Expressions.Functions.NativeFunction.Equals
+  href: DiceEngine.Expressions.Functions.NativeFunction.html#DiceEngine_Expressions_Functions_NativeFunction_Equals_System_Object_
   name: Equals
   nameWithType: NativeFunction.Equals
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.Equals
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.Equals
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
@@ -1408,12 +1408,12 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Functions.NativeFunction.GetHashCode*
-  commentId: Overload:CalcExpr.Expressions.Functions.NativeFunction.GetHashCode
-  href: CalcExpr.Expressions.Functions.NativeFunction.html#CalcExpr_Expressions_Functions_NativeFunction_GetHashCode
+- uid: DiceEngine.Expressions.Functions.NativeFunction.GetHashCode*
+  commentId: Overload:DiceEngine.Expressions.Functions.NativeFunction.GetHashCode
+  href: DiceEngine.Expressions.Functions.NativeFunction.html#DiceEngine_Expressions_Functions_NativeFunction_GetHashCode
   name: GetHashCode
   nameWithType: NativeFunction.GetHashCode
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.GetHashCode
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.GetHashCode
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1436,21 +1436,21 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  parent: DiceEngine.Expressions.Terminals.Terminal
   isExternal: true
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString_System_String_
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
   name: ToString(string)
   nameWithType: Terminal.ToString(string)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.ToString(string)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString(string)
   nameWithType.vb: Terminal.ToString(String)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.ToString(String)
   name.vb: ToString(String)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString_System_String_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
   - name: (
   - uid: System.String
     name: string
@@ -1458,18 +1458,18 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString_System_String_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
   - name: (
   - uid: System.String
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: CalcExpr.Expressions.Functions.NativeFunction.ToString*
-  commentId: Overload:CalcExpr.Expressions.Functions.NativeFunction.ToString
-  href: CalcExpr.Expressions.Functions.NativeFunction.html#CalcExpr_Expressions_Functions_NativeFunction_ToString_System_String_
+- uid: DiceEngine.Expressions.Functions.NativeFunction.ToString*
+  commentId: Overload:DiceEngine.Expressions.Functions.NativeFunction.ToString
+  href: DiceEngine.Expressions.Functions.NativeFunction.html#DiceEngine_Expressions_Functions_NativeFunction_ToString_System_String_
   name: ToString
   nameWithType: NativeFunction.ToString
-  fullName: CalcExpr.Expressions.Functions.NativeFunction.ToString
+  fullName: DiceEngine.Expressions.Functions.NativeFunction.ToString

@@ -1,405 +1,405 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.Terminals.Infinity
-  commentId: T:CalcExpr.Expressions.Terminals.Infinity
+- uid: DiceEngine.Expressions.Terminals.Infinity
+  commentId: T:DiceEngine.Expressions.Terminals.Infinity
   id: Infinity
-  parent: CalcExpr.Expressions.Terminals
+  parent: DiceEngine.Expressions.Terminals
   children:
-  - CalcExpr.Expressions.Terminals.Infinity.#ctor(System.String,System.Boolean)
-  - CalcExpr.Expressions.Terminals.Infinity.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Infinity.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Infinity.Equals(System.Object)
-  - CalcExpr.Expressions.Terminals.Infinity.GetHashCode
-  - CalcExpr.Expressions.Terminals.Infinity.Identifier
-  - CalcExpr.Expressions.Terminals.Infinity.IsNegative
-  - CalcExpr.Expressions.Terminals.Infinity.IsPositive
-  - CalcExpr.Expressions.Terminals.Infinity.NEGATIVE
-  - CalcExpr.Expressions.Terminals.Infinity.NEGATIVE_INF
-  - CalcExpr.Expressions.Terminals.Infinity.NEGATIVE_INFINITY
-  - CalcExpr.Expressions.Terminals.Infinity.POSITIVE
-  - CalcExpr.Expressions.Terminals.Infinity.POSITIVE_INF
-  - CalcExpr.Expressions.Terminals.Infinity.POSITIVE_INFINITY
-  - CalcExpr.Expressions.Terminals.Infinity.PostfixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Infinity.PrefixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Infinity.ToLogical
-  - CalcExpr.Expressions.Terminals.Infinity.ToString(System.String)
-  - CalcExpr.Expressions.Terminals.Infinity.op_Implicit(CalcExpr.Expressions.Terminals.Infinity)~System.Double
+  - DiceEngine.Expressions.Terminals.Infinity.#ctor(System.String,System.Boolean)
+  - DiceEngine.Expressions.Terminals.Infinity.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Infinity.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Infinity.Equals(System.Object)
+  - DiceEngine.Expressions.Terminals.Infinity.GetHashCode
+  - DiceEngine.Expressions.Terminals.Infinity.Identifier
+  - DiceEngine.Expressions.Terminals.Infinity.IsNegative
+  - DiceEngine.Expressions.Terminals.Infinity.IsPositive
+  - DiceEngine.Expressions.Terminals.Infinity.NEGATIVE
+  - DiceEngine.Expressions.Terminals.Infinity.NEGATIVE_INF
+  - DiceEngine.Expressions.Terminals.Infinity.NEGATIVE_INFINITY
+  - DiceEngine.Expressions.Terminals.Infinity.POSITIVE
+  - DiceEngine.Expressions.Terminals.Infinity.POSITIVE_INF
+  - DiceEngine.Expressions.Terminals.Infinity.POSITIVE_INFINITY
+  - DiceEngine.Expressions.Terminals.Infinity.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Infinity.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Infinity.ToLogical
+  - DiceEngine.Expressions.Terminals.Infinity.ToString(System.String)
+  - DiceEngine.Expressions.Terminals.Infinity.op_Implicit(DiceEngine.Expressions.Terminals.Infinity)~System.Double
   langs:
   - csharp
   - vb
   name: Infinity
   nameWithType: Infinity
-  fullName: CalcExpr.Expressions.Terminals.Infinity
+  fullName: DiceEngine.Expressions.Terminals.Infinity
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Infinity
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 11
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
-  summary: Initializes a new instance of the <xref href="CalcExpr.Expressions.Terminals.Infinity" data-throw-if-not-resolved="false"></xref> class.
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: Initializes a new instance of the <xref href="DiceEngine.Expressions.Terminals.Infinity" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: 'public class Infinity : Terminal, ILogicalConvertible, IExpression, IPrefixOperable, IPostfixOperable, IBinaryOperable'
     content.vb: Public Class Infinity Inherits Terminal Implements ILogicalConvertible, IExpression, IPrefixOperable, IPostfixOperable, IBinaryOperable
   inheritance:
   - System.Object
-  - CalcExpr.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal
   implements:
-  - CalcExpr.Expressions.Interfaces.ILogicalConvertible
-  - CalcExpr.Expressions.IExpression
-  - CalcExpr.Expressions.Interfaces.IPrefixOperable
-  - CalcExpr.Expressions.Interfaces.IPostfixOperable
-  - CalcExpr.Expressions.Interfaces.IBinaryOperable
+  - DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  - DiceEngine.Expressions.IExpression
+  - DiceEngine.Expressions.Interfaces.IPrefixOperable
+  - DiceEngine.Expressions.Interfaces.IPostfixOperable
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable
   inheritedMembers:
-  - CalcExpr.Expressions.Terminals.Terminal.Evaluate
-  - CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
-  - CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Terminal.ToString
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.ToString
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: CalcExpr.Expressions.Terminals.Infinity.#ctor(System.String,System.Boolean)
-  commentId: M:CalcExpr.Expressions.Terminals.Infinity.#ctor(System.String,System.Boolean)
+- uid: DiceEngine.Expressions.Terminals.Infinity.#ctor(System.String,System.Boolean)
+  commentId: M:DiceEngine.Expressions.Terminals.Infinity.#ctor(System.String,System.Boolean)
   id: '#ctor(System.String,System.Boolean)'
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: Infinity(string, bool)
   nameWithType: Infinity.Infinity(string, bool)
-  fullName: CalcExpr.Expressions.Terminals.Infinity.Infinity(string, bool)
+  fullName: DiceEngine.Expressions.Terminals.Infinity.Infinity(string, bool)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 11
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
-  summary: Initializes a new instance of the <xref href="CalcExpr.Expressions.Terminals.Infinity" data-throw-if-not-resolved="false"></xref> class.
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: Initializes a new instance of the <xref href="DiceEngine.Expressions.Terminals.Infinity" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: public Infinity(string identifier, bool positive = true)
     parameters:
     - id: identifier
       type: System.String
-      description: The identifier <xref href="System.String" data-throw-if-not-resolved="false"></xref> for this <xref href="CalcExpr.Expressions.Terminals.Infinity" data-throw-if-not-resolved="false"></xref>.
+      description: The identifier <xref href="System.String" data-throw-if-not-resolved="false"></xref> for this <xref href="DiceEngine.Expressions.Terminals.Infinity" data-throw-if-not-resolved="false"></xref>.
     - id: positive
       type: System.Boolean
-      description: Boolean value indicating whether this <xref href="CalcExpr.Expressions.Terminals.Infinity" data-throw-if-not-resolved="false"></xref> is positive.
+      description: Boolean value indicating whether this <xref href="DiceEngine.Expressions.Terminals.Infinity" data-throw-if-not-resolved="false"></xref> is positive.
     content.vb: Public Sub New(identifier As String, positive As Boolean = True)
-  overload: CalcExpr.Expressions.Terminals.Infinity.#ctor*
+  overload: DiceEngine.Expressions.Terminals.Infinity.#ctor*
   nameWithType.vb: Infinity.New(String, Boolean)
-  fullName.vb: CalcExpr.Expressions.Terminals.Infinity.New(String, Boolean)
+  fullName.vb: DiceEngine.Expressions.Terminals.Infinity.New(String, Boolean)
   name.vb: New(String, Boolean)
-- uid: CalcExpr.Expressions.Terminals.Infinity.POSITIVE
-  commentId: F:CalcExpr.Expressions.Terminals.Infinity.POSITIVE
+- uid: DiceEngine.Expressions.Terminals.Infinity.POSITIVE
+  commentId: F:DiceEngine.Expressions.Terminals.Infinity.POSITIVE
   id: POSITIVE
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: POSITIVE
   nameWithType: Infinity.POSITIVE
-  fullName: CalcExpr.Expressions.Terminals.Infinity.POSITIVE
+  fullName: DiceEngine.Expressions.Terminals.Infinity.POSITIVE
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: POSITIVE
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 14
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static readonly Infinity POSITIVE
     return:
-      type: CalcExpr.Expressions.Terminals.Infinity
+      type: DiceEngine.Expressions.Terminals.Infinity
     content.vb: Public Shared ReadOnly POSITIVE As Infinity
-- uid: CalcExpr.Expressions.Terminals.Infinity.NEGATIVE
-  commentId: F:CalcExpr.Expressions.Terminals.Infinity.NEGATIVE
+- uid: DiceEngine.Expressions.Terminals.Infinity.NEGATIVE
+  commentId: F:DiceEngine.Expressions.Terminals.Infinity.NEGATIVE
   id: NEGATIVE
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: NEGATIVE
   nameWithType: Infinity.NEGATIVE
-  fullName: CalcExpr.Expressions.Terminals.Infinity.NEGATIVE
+  fullName: DiceEngine.Expressions.Terminals.Infinity.NEGATIVE
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: NEGATIVE
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 15
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static readonly Infinity NEGATIVE
     return:
-      type: CalcExpr.Expressions.Terminals.Infinity
+      type: DiceEngine.Expressions.Terminals.Infinity
     content.vb: Public Shared ReadOnly NEGATIVE As Infinity
-- uid: CalcExpr.Expressions.Terminals.Infinity.POSITIVE_INFINITY
-  commentId: F:CalcExpr.Expressions.Terminals.Infinity.POSITIVE_INFINITY
+- uid: DiceEngine.Expressions.Terminals.Infinity.POSITIVE_INFINITY
+  commentId: F:DiceEngine.Expressions.Terminals.Infinity.POSITIVE_INFINITY
   id: POSITIVE_INFINITY
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: POSITIVE_INFINITY
   nameWithType: Infinity.POSITIVE_INFINITY
-  fullName: CalcExpr.Expressions.Terminals.Infinity.POSITIVE_INFINITY
+  fullName: DiceEngine.Expressions.Terminals.Infinity.POSITIVE_INFINITY
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: POSITIVE_INFINITY
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 16
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static readonly Infinity POSITIVE_INFINITY
     return:
-      type: CalcExpr.Expressions.Terminals.Infinity
+      type: DiceEngine.Expressions.Terminals.Infinity
     content.vb: Public Shared ReadOnly POSITIVE_INFINITY As Infinity
-- uid: CalcExpr.Expressions.Terminals.Infinity.NEGATIVE_INFINITY
-  commentId: F:CalcExpr.Expressions.Terminals.Infinity.NEGATIVE_INFINITY
+- uid: DiceEngine.Expressions.Terminals.Infinity.NEGATIVE_INFINITY
+  commentId: F:DiceEngine.Expressions.Terminals.Infinity.NEGATIVE_INFINITY
   id: NEGATIVE_INFINITY
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: NEGATIVE_INFINITY
   nameWithType: Infinity.NEGATIVE_INFINITY
-  fullName: CalcExpr.Expressions.Terminals.Infinity.NEGATIVE_INFINITY
+  fullName: DiceEngine.Expressions.Terminals.Infinity.NEGATIVE_INFINITY
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: NEGATIVE_INFINITY
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 17
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static readonly Infinity NEGATIVE_INFINITY
     return:
-      type: CalcExpr.Expressions.Terminals.Infinity
+      type: DiceEngine.Expressions.Terminals.Infinity
     content.vb: Public Shared ReadOnly NEGATIVE_INFINITY As Infinity
-- uid: CalcExpr.Expressions.Terminals.Infinity.POSITIVE_INF
-  commentId: F:CalcExpr.Expressions.Terminals.Infinity.POSITIVE_INF
+- uid: DiceEngine.Expressions.Terminals.Infinity.POSITIVE_INF
+  commentId: F:DiceEngine.Expressions.Terminals.Infinity.POSITIVE_INF
   id: POSITIVE_INF
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: POSITIVE_INF
   nameWithType: Infinity.POSITIVE_INF
-  fullName: CalcExpr.Expressions.Terminals.Infinity.POSITIVE_INF
+  fullName: DiceEngine.Expressions.Terminals.Infinity.POSITIVE_INF
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: POSITIVE_INF
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 18
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static readonly Infinity POSITIVE_INF
     return:
-      type: CalcExpr.Expressions.Terminals.Infinity
+      type: DiceEngine.Expressions.Terminals.Infinity
     content.vb: Public Shared ReadOnly POSITIVE_INF As Infinity
-- uid: CalcExpr.Expressions.Terminals.Infinity.NEGATIVE_INF
-  commentId: F:CalcExpr.Expressions.Terminals.Infinity.NEGATIVE_INF
+- uid: DiceEngine.Expressions.Terminals.Infinity.NEGATIVE_INF
+  commentId: F:DiceEngine.Expressions.Terminals.Infinity.NEGATIVE_INF
   id: NEGATIVE_INF
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: NEGATIVE_INF
   nameWithType: Infinity.NEGATIVE_INF
-  fullName: CalcExpr.Expressions.Terminals.Infinity.NEGATIVE_INF
+  fullName: DiceEngine.Expressions.Terminals.Infinity.NEGATIVE_INF
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: NEGATIVE_INF
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 19
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static readonly Infinity NEGATIVE_INF
     return:
-      type: CalcExpr.Expressions.Terminals.Infinity
+      type: DiceEngine.Expressions.Terminals.Infinity
     content.vb: Public Shared ReadOnly NEGATIVE_INF As Infinity
-- uid: CalcExpr.Expressions.Terminals.Infinity.Identifier
-  commentId: F:CalcExpr.Expressions.Terminals.Infinity.Identifier
+- uid: DiceEngine.Expressions.Terminals.Infinity.Identifier
+  commentId: F:DiceEngine.Expressions.Terminals.Infinity.Identifier
   id: Identifier
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: Identifier
   nameWithType: Infinity.Identifier
-  fullName: CalcExpr.Expressions.Terminals.Infinity.Identifier
+  fullName: DiceEngine.Expressions.Terminals.Infinity.Identifier
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Identifier
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 21
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public readonly string Identifier
     return:
       type: System.String
     content.vb: Public ReadOnly Identifier As String
-- uid: CalcExpr.Expressions.Terminals.Infinity.IsPositive
-  commentId: F:CalcExpr.Expressions.Terminals.Infinity.IsPositive
+- uid: DiceEngine.Expressions.Terminals.Infinity.IsPositive
+  commentId: F:DiceEngine.Expressions.Terminals.Infinity.IsPositive
   id: IsPositive
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: IsPositive
   nameWithType: Infinity.IsPositive
-  fullName: CalcExpr.Expressions.Terminals.Infinity.IsPositive
+  fullName: DiceEngine.Expressions.Terminals.Infinity.IsPositive
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: IsPositive
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 22
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public readonly bool IsPositive
     return:
       type: System.Boolean
     content.vb: Public ReadOnly IsPositive As Boolean
-- uid: CalcExpr.Expressions.Terminals.Infinity.IsNegative
-  commentId: F:CalcExpr.Expressions.Terminals.Infinity.IsNegative
+- uid: DiceEngine.Expressions.Terminals.Infinity.IsNegative
+  commentId: F:DiceEngine.Expressions.Terminals.Infinity.IsNegative
   id: IsNegative
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: IsNegative
   nameWithType: Infinity.IsNegative
-  fullName: CalcExpr.Expressions.Terminals.Infinity.IsNegative
+  fullName: DiceEngine.Expressions.Terminals.Infinity.IsNegative
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: IsNegative
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 23
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public readonly bool IsNegative
     return:
       type: System.Boolean
     content.vb: Public ReadOnly IsNegative As Boolean
-- uid: CalcExpr.Expressions.Terminals.Infinity.ToLogical
-  commentId: M:CalcExpr.Expressions.Terminals.Infinity.ToLogical
+- uid: DiceEngine.Expressions.Terminals.Infinity.ToLogical
+  commentId: M:DiceEngine.Expressions.Terminals.Infinity.ToLogical
   id: ToLogical
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: ToLogical()
   nameWithType: Infinity.ToLogical()
-  fullName: CalcExpr.Expressions.Terminals.Infinity.ToLogical()
+  fullName: DiceEngine.Expressions.Terminals.Infinity.ToLogical()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToLogical
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 25
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   example: []
   syntax:
     content: public Logical ToLogical()
     return:
-      type: CalcExpr.Expressions.Terminals.Logical
+      type: DiceEngine.Expressions.Terminals.Logical
     content.vb: Public Function ToLogical() As Logical
-  overload: CalcExpr.Expressions.Terminals.Infinity.ToLogical*
+  overload: DiceEngine.Expressions.Terminals.Infinity.ToLogical*
   implements:
-  - CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical
-- uid: CalcExpr.Expressions.Terminals.Infinity.PrefixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Terminals.Infinity.PrefixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  id: PrefixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  - DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+- uid: DiceEngine.Expressions.Terminals.Infinity.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Infinity.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  id: PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: PrefixOperate(string, ExpressionContext)
   nameWithType: Infinity.PrefixOperate(string, ExpressionContext)
-  fullName: CalcExpr.Expressions.Terminals.Infinity.PrefixOperate(string, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Infinity.PrefixOperate(string, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: PrefixOperate
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 28
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   example: []
   syntax:
     content: public Terminal PrefixOperate(string identifier, ExpressionContext _)
@@ -407,38 +407,38 @@ items:
     - id: identifier
       type: System.String
     - id: _
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Function PrefixOperate(identifier As String, _ As ExpressionContext) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Infinity.PrefixOperate*
+  overload: DiceEngine.Expressions.Terminals.Infinity.PrefixOperate*
   implements:
-  - CalcExpr.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,CalcExpr.Context.ExpressionContext)
+  - DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
   nameWithType.vb: Infinity.PrefixOperate(String, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Terminals.Infinity.PrefixOperate(String, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Infinity.PrefixOperate(String, DiceEngine.Context.ExpressionContext)
   name.vb: PrefixOperate(String, ExpressionContext)
-- uid: CalcExpr.Expressions.Terminals.Infinity.PostfixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Terminals.Infinity.PostfixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  id: PostfixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Terminals.Infinity
+- uid: DiceEngine.Expressions.Terminals.Infinity.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Infinity.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  id: PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: PostfixOperate(string, ExpressionContext)
   nameWithType: Infinity.PostfixOperate(string, ExpressionContext)
-  fullName: CalcExpr.Expressions.Terminals.Infinity.PostfixOperate(string, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Infinity.PostfixOperate(string, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: PostfixOperate
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 41
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   example: []
   syntax:
     content: public Terminal PostfixOperate(string identifier, ExpressionContext _)
@@ -446,38 +446,38 @@ items:
     - id: identifier
       type: System.String
     - id: _
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Function PostfixOperate(identifier As String, _ As ExpressionContext) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Infinity.PostfixOperate*
+  overload: DiceEngine.Expressions.Terminals.Infinity.PostfixOperate*
   implements:
-  - CalcExpr.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,CalcExpr.Context.ExpressionContext)
+  - DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
   nameWithType.vb: Infinity.PostfixOperate(String, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Terminals.Infinity.PostfixOperate(String, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Infinity.PostfixOperate(String, DiceEngine.Context.ExpressionContext)
   name.vb: PostfixOperate(String, ExpressionContext)
-- uid: CalcExpr.Expressions.Terminals.Infinity.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Terminals.Infinity.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  id: BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Terminals.Infinity
+- uid: DiceEngine.Expressions.Terminals.Infinity.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Infinity.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: BinaryLeftOperate(string, IExpression, ExpressionContext)
   nameWithType: Infinity.BinaryLeftOperate(string, IExpression, ExpressionContext)
-  fullName: CalcExpr.Expressions.Terminals.Infinity.BinaryLeftOperate(string, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Infinity.BinaryLeftOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: BinaryLeftOperate
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 53
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   example: []
   syntax:
     content: public Terminal? BinaryLeftOperate(string identifier, IExpression right, ExpressionContext context)
@@ -485,40 +485,40 @@ items:
     - id: identifier
       type: System.String
     - id: right
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Function BinaryLeftOperate(identifier As String, right As IExpression, context As ExpressionContext) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Infinity.BinaryLeftOperate*
+  overload: DiceEngine.Expressions.Terminals.Infinity.BinaryLeftOperate*
   implements:
-  - CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
   nameWithType.vb: Infinity.BinaryLeftOperate(String, IExpression, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Terminals.Infinity.BinaryLeftOperate(String, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Infinity.BinaryLeftOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   name.vb: BinaryLeftOperate(String, IExpression, ExpressionContext)
-- uid: CalcExpr.Expressions.Terminals.Infinity.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Terminals.Infinity.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  id: BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Terminals.Infinity
+- uid: DiceEngine.Expressions.Terminals.Infinity.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Infinity.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: BinaryRightOperate(string, IExpression, ExpressionContext)
   nameWithType: Infinity.BinaryRightOperate(string, IExpression, ExpressionContext)
-  fullName: CalcExpr.Expressions.Terminals.Infinity.BinaryRightOperate(string, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Infinity.BinaryRightOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: BinaryRightOperate
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 138
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   example: []
   syntax:
     content: public Terminal? BinaryRightOperate(string identifier, IExpression left, ExpressionContext context)
@@ -526,40 +526,40 @@ items:
     - id: identifier
       type: System.String
     - id: left
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Function BinaryRightOperate(identifier As String, left As IExpression, context As ExpressionContext) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Infinity.BinaryRightOperate*
+  overload: DiceEngine.Expressions.Terminals.Infinity.BinaryRightOperate*
   implements:
-  - CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
   nameWithType.vb: Infinity.BinaryRightOperate(String, IExpression, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Terminals.Infinity.BinaryRightOperate(String, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Infinity.BinaryRightOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   name.vb: BinaryRightOperate(String, IExpression, ExpressionContext)
-- uid: CalcExpr.Expressions.Terminals.Infinity.Equals(System.Object)
-  commentId: M:CalcExpr.Expressions.Terminals.Infinity.Equals(System.Object)
+- uid: DiceEngine.Expressions.Terminals.Infinity.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.Terminals.Infinity.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: Infinity.Equals(object?)
-  fullName: CalcExpr.Expressions.Terminals.Infinity.Equals(object?)
+  fullName: DiceEngine.Expressions.Terminals.Infinity.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 223
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -573,32 +573,32 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: CalcExpr.Expressions.Terminals.Infinity.Equals*
+  overload: DiceEngine.Expressions.Terminals.Infinity.Equals*
   nameWithType.vb: Infinity.Equals(Object)
-  fullName.vb: CalcExpr.Expressions.Terminals.Infinity.Equals(Object)
+  fullName.vb: DiceEngine.Expressions.Terminals.Infinity.Equals(Object)
   name.vb: Equals(Object)
-- uid: CalcExpr.Expressions.Terminals.Infinity.GetHashCode
-  commentId: M:CalcExpr.Expressions.Terminals.Infinity.GetHashCode
+- uid: DiceEngine.Expressions.Terminals.Infinity.GetHashCode
+  commentId: M:DiceEngine.Expressions.Terminals.Infinity.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: Infinity.GetHashCode()
-  fullName: CalcExpr.Expressions.Terminals.Infinity.GetHashCode()
+  fullName: DiceEngine.Expressions.Terminals.Infinity.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 226
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -608,31 +608,31 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: CalcExpr.Expressions.Terminals.Infinity.GetHashCode*
-- uid: CalcExpr.Expressions.Terminals.Infinity.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.Terminals.Infinity.ToString(System.String)
+  overload: DiceEngine.Expressions.Terminals.Infinity.GetHashCode*
+- uid: DiceEngine.Expressions.Terminals.Infinity.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Terminals.Infinity.ToString(System.String)
   id: ToString(System.String)
-  parent: CalcExpr.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: ToString(string?)
   nameWithType: Infinity.ToString(string?)
-  fullName: CalcExpr.Expressions.Terminals.Infinity.ToString(string?)
+  fullName: DiceEngine.Expressions.Terminals.Infinity.ToString(string?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToString
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 229
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   summary: >-
-    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
+    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
 
     format <xref href="System.String" data-throw-if-not-resolved="false"></xref> for number formats.
   example: []
@@ -645,59 +645,59 @@ items:
     return:
       type: System.String
       description: >-
-        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
 
         <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Overrides Function ToString(format As String) As String
-  overridden: CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
-  overload: CalcExpr.Expressions.Terminals.Infinity.ToString*
+  overridden: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  overload: DiceEngine.Expressions.Terminals.Infinity.ToString*
   implements:
-  - CalcExpr.Expressions.IExpression.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
   nameWithType.vb: Infinity.ToString(String)
-  fullName.vb: CalcExpr.Expressions.Terminals.Infinity.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Terminals.Infinity.ToString(String)
   name.vb: ToString(String)
-- uid: CalcExpr.Expressions.Terminals.Infinity.op_Implicit(CalcExpr.Expressions.Terminals.Infinity)~System.Double
-  commentId: M:CalcExpr.Expressions.Terminals.Infinity.op_Implicit(CalcExpr.Expressions.Terminals.Infinity)~System.Double
-  id: op_Implicit(CalcExpr.Expressions.Terminals.Infinity)~System.Double
-  parent: CalcExpr.Expressions.Terminals.Infinity
+- uid: DiceEngine.Expressions.Terminals.Infinity.op_Implicit(DiceEngine.Expressions.Terminals.Infinity)~System.Double
+  commentId: M:DiceEngine.Expressions.Terminals.Infinity.op_Implicit(DiceEngine.Expressions.Terminals.Infinity)~System.Double
+  id: op_Implicit(DiceEngine.Expressions.Terminals.Infinity)~System.Double
+  parent: DiceEngine.Expressions.Terminals.Infinity
   langs:
   - csharp
   - vb
   name: implicit operator double(Infinity)
   nameWithType: Infinity.implicit operator double(Infinity)
-  fullName: CalcExpr.Expressions.Terminals.Infinity.implicit operator double(CalcExpr.Expressions.Terminals.Infinity)
+  fullName: DiceEngine.Expressions.Terminals.Infinity.implicit operator double(DiceEngine.Expressions.Terminals.Infinity)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Infinity.cs
+      path: src/DiceEngine/Expressions/Terminals/Infinity.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Implicit
-    path: ../src/CalcExpr/Expressions/Terminals/Infinity.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Infinity.cs
     startLine: 232
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static implicit operator double(Infinity infinity)
     parameters:
     - id: infinity
-      type: CalcExpr.Expressions.Terminals.Infinity
+      type: DiceEngine.Expressions.Terminals.Infinity
     return:
       type: System.Double
     content.vb: Public Shared Widening Operator CType(infinity As Infinity) As Double
-  overload: CalcExpr.Expressions.Terminals.Infinity.op_Implicit*
+  overload: DiceEngine.Expressions.Terminals.Infinity.op_Implicit*
   nameWithType.vb: Infinity.CType(Infinity)
-  fullName.vb: CalcExpr.Expressions.Terminals.Infinity.CType(CalcExpr.Expressions.Terminals.Infinity)
+  fullName.vb: DiceEngine.Expressions.Terminals.Infinity.CType(DiceEngine.Expressions.Terminals.Infinity)
   name.vb: CType(Infinity)
 references:
-- uid: CalcExpr.Expressions.Terminals.Infinity
-  commentId: T:CalcExpr.Expressions.Terminals.Infinity
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Infinity.html
+- uid: DiceEngine.Expressions.Terminals.Infinity
+  commentId: T:DiceEngine.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Infinity.html
   name: Infinity
   nameWithType: Infinity
-  fullName: CalcExpr.Expressions.Terminals.Infinity
+  fullName: DiceEngine.Expressions.Terminals.Infinity
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -709,36 +709,36 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -750,153 +750,153 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.Expressions.Interfaces.ILogicalConvertible
-  commentId: T:CalcExpr.Expressions.Interfaces.ILogicalConvertible
-  parent: CalcExpr.Expressions.Interfaces
-  href: CalcExpr.Expressions.Interfaces.ILogicalConvertible.html
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  commentId: T:DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html
   name: ILogicalConvertible
   nameWithType: ILogicalConvertible
-  fullName: CalcExpr.Expressions.Interfaces.ILogicalConvertible
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions.Interfaces.IPrefixOperable
-  commentId: T:CalcExpr.Expressions.Interfaces.IPrefixOperable
-  parent: CalcExpr.Expressions.Interfaces
-  href: CalcExpr.Expressions.Interfaces.IPrefixOperable.html
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IPrefixOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html
   name: IPrefixOperable
   nameWithType: IPrefixOperable
-  fullName: CalcExpr.Expressions.Interfaces.IPrefixOperable
-- uid: CalcExpr.Expressions.Interfaces.IPostfixOperable
-  commentId: T:CalcExpr.Expressions.Interfaces.IPostfixOperable
-  parent: CalcExpr.Expressions.Interfaces
-  href: CalcExpr.Expressions.Interfaces.IPostfixOperable.html
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable
+- uid: DiceEngine.Expressions.Interfaces.IPostfixOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IPostfixOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IPostfixOperable.html
   name: IPostfixOperable
   nameWithType: IPostfixOperable
-  fullName: CalcExpr.Expressions.Interfaces.IPostfixOperable
-- uid: CalcExpr.Expressions.Interfaces.IBinaryOperable
-  commentId: T:CalcExpr.Expressions.Interfaces.IBinaryOperable
-  parent: CalcExpr.Expressions.Interfaces
-  href: CalcExpr.Expressions.Interfaces.IBinaryOperable.html
+  fullName: DiceEngine.Expressions.Interfaces.IPostfixOperable
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IBinaryOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html
   name: IBinaryOperable
   nameWithType: IBinaryOperable
-  fullName: CalcExpr.Expressions.Interfaces.IBinaryOperable
-- uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.Evaluate
-  parent: CalcExpr.Expressions.Terminals.Terminal
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
   name: Evaluate()
   nameWithType: Terminal.Evaluate()
-  fullName: CalcExpr.Expressions.Terminals.Terminal.Evaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Terminals.Terminal
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
   name: Evaluate(ExpressionContext)
   nameWithType: Terminal.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
-  parent: CalcExpr.Expressions.Terminals.Terminal
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
   name: StepEvaluate()
   nameWithType: Terminal.StepEvaluate()
-  fullName: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Terminals.Terminal
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
   name: StepEvaluate(ExpressionContext)
   nameWithType: Terminal.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.ToString
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.ToString
-  parent: CalcExpr.Expressions.Terminals.Terminal
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
   name: ToString()
   nameWithType: Terminal.ToString()
-  fullName: CalcExpr.Expressions.Terminals.Terminal.ToString()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString()
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.ToString
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString
     name: ToString
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.ToString
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString
     name: ToString
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
   - name: (
   - name: )
 - uid: System.Object.Equals(System.Object,System.Object)
@@ -1044,66 +1044,66 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Expressions.Interfaces
-  commentId: N:CalcExpr.Expressions.Interfaces
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Interfaces
-  nameWithType: CalcExpr.Expressions.Interfaces
-  fullName: CalcExpr.Expressions.Interfaces
+- uid: DiceEngine.Expressions.Interfaces
+  commentId: N:DiceEngine.Expressions.Interfaces
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Interfaces
+  nameWithType: DiceEngine.Expressions.Interfaces
+  fullName: DiceEngine.Expressions.Interfaces
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Interfaces
+  - uid: DiceEngine.Expressions.Interfaces
     name: Interfaces
-    href: CalcExpr.Expressions.Interfaces.html
+    href: DiceEngine.Expressions.Interfaces.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Interfaces
+  - uid: DiceEngine.Expressions.Interfaces
     name: Interfaces
-    href: CalcExpr.Expressions.Interfaces.html
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+    href: DiceEngine.Expressions.Interfaces.html
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
-- uid: CalcExpr.Expressions.Terminals.Infinity.#ctor*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Infinity.#ctor
-  href: CalcExpr.Expressions.Terminals.Infinity.html#CalcExpr_Expressions_Terminals_Infinity__ctor_System_String_System_Boolean_
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Expressions.Terminals.Infinity.#ctor*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Infinity.#ctor
+  href: DiceEngine.Expressions.Terminals.Infinity.html#DiceEngine_Expressions_Terminals_Infinity__ctor_System_String_System_Boolean_
   name: Infinity
   nameWithType: Infinity.Infinity
-  fullName: CalcExpr.Expressions.Terminals.Infinity.Infinity
+  fullName: DiceEngine.Expressions.Terminals.Infinity.Infinity
   nameWithType.vb: Infinity.New
-  fullName.vb: CalcExpr.Expressions.Terminals.Infinity.New
+  fullName.vb: DiceEngine.Expressions.Terminals.Infinity.New
   name.vb: New
 - uid: System.Boolean
   commentId: T:System.Boolean
@@ -1116,59 +1116,59 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: CalcExpr.Expressions.Terminals.Infinity.ToLogical*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Infinity.ToLogical
-  href: CalcExpr.Expressions.Terminals.Infinity.html#CalcExpr_Expressions_Terminals_Infinity_ToLogical
+- uid: DiceEngine.Expressions.Terminals.Infinity.ToLogical*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Infinity.ToLogical
+  href: DiceEngine.Expressions.Terminals.Infinity.html#DiceEngine_Expressions_Terminals_Infinity_ToLogical
   name: ToLogical
   nameWithType: Infinity.ToLogical
-  fullName: CalcExpr.Expressions.Terminals.Infinity.ToLogical
-- uid: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical
-  commentId: M:CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical
-  parent: CalcExpr.Expressions.Interfaces.ILogicalConvertible
-  href: CalcExpr.Expressions.Interfaces.ILogicalConvertible.html#CalcExpr_Expressions_Interfaces_ILogicalConvertible_ToLogical
+  fullName: DiceEngine.Expressions.Terminals.Infinity.ToLogical
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+  commentId: M:DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+  parent: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html#DiceEngine_Expressions_Interfaces_ILogicalConvertible_ToLogical
   name: ToLogical()
   nameWithType: ILogicalConvertible.ToLogical()
-  fullName: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical()
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical()
   spec.csharp:
-  - uid: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical
+  - uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
     name: ToLogical
-    href: CalcExpr.Expressions.Interfaces.ILogicalConvertible.html#CalcExpr_Expressions_Interfaces_ILogicalConvertible_ToLogical
+    href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html#DiceEngine_Expressions_Interfaces_ILogicalConvertible_ToLogical
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Interfaces.ILogicalConvertible.ToLogical
+  - uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
     name: ToLogical
-    href: CalcExpr.Expressions.Interfaces.ILogicalConvertible.html#CalcExpr_Expressions_Interfaces_ILogicalConvertible_ToLogical
+    href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html#DiceEngine_Expressions_Interfaces_ILogicalConvertible_ToLogical
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Logical
-  commentId: T:CalcExpr.Expressions.Terminals.Logical
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Logical.html
+- uid: DiceEngine.Expressions.Terminals.Logical
+  commentId: T:DiceEngine.Expressions.Terminals.Logical
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Logical.html
   name: Logical
   nameWithType: Logical
-  fullName: CalcExpr.Expressions.Terminals.Logical
-- uid: CalcExpr.Expressions.Terminals.Infinity.PrefixOperate*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Infinity.PrefixOperate
-  href: CalcExpr.Expressions.Terminals.Infinity.html#CalcExpr_Expressions_Terminals_Infinity_PrefixOperate_System_String_CalcExpr_Context_ExpressionContext_
+  fullName: DiceEngine.Expressions.Terminals.Logical
+- uid: DiceEngine.Expressions.Terminals.Infinity.PrefixOperate*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Infinity.PrefixOperate
+  href: DiceEngine.Expressions.Terminals.Infinity.html#DiceEngine_Expressions_Terminals_Infinity_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
   name: PrefixOperate
   nameWithType: Infinity.PrefixOperate
-  fullName: CalcExpr.Expressions.Terminals.Infinity.PrefixOperate
-- uid: CalcExpr.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Interfaces.IPrefixOperable
+  fullName: DiceEngine.Expressions.Terminals.Infinity.PrefixOperate
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IPrefixOperable
   isExternal: true
-  href: CalcExpr.Expressions.Interfaces.IPrefixOperable.html#CalcExpr_Expressions_Interfaces_IPrefixOperable_PrefixOperate_System_String_CalcExpr_Context_ExpressionContext_
+  href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html#DiceEngine_Expressions_Interfaces_IPrefixOperable_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
   name: PrefixOperate(string, ExpressionContext)
   nameWithType: IPrefixOperable.PrefixOperate(string, ExpressionContext)
-  fullName: CalcExpr.Expressions.Interfaces.IPrefixOperable.PrefixOperate(string, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(string, DiceEngine.Context.ExpressionContext)
   nameWithType.vb: IPrefixOperable.PrefixOperate(String, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Interfaces.IPrefixOperable.PrefixOperate(String, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(String, DiceEngine.Context.ExpressionContext)
   name.vb: PrefixOperate(String, ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
     name: PrefixOperate
-    href: CalcExpr.Expressions.Interfaces.IPrefixOperable.html#CalcExpr_Expressions_Interfaces_IPrefixOperable_PrefixOperate_System_String_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html#DiceEngine_Expressions_Interfaces_IPrefixOperable_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.String
     name: string
@@ -1176,14 +1176,14 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
     name: PrefixOperate
-    href: CalcExpr.Expressions.Interfaces.IPrefixOperable.html#CalcExpr_Expressions_Interfaces_IPrefixOperable_PrefixOperate_System_String_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html#DiceEngine_Expressions_Interfaces_IPrefixOperable_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.String
     name: String
@@ -1191,60 +1191,60 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Context.ExpressionContext
-  commentId: T:CalcExpr.Context.ExpressionContext
-  parent: CalcExpr.Context
-  href: CalcExpr.Context.ExpressionContext.html
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
   name: ExpressionContext
   nameWithType: ExpressionContext
-  fullName: CalcExpr.Context.ExpressionContext
-- uid: CalcExpr.Context
-  commentId: N:CalcExpr.Context
-  href: CalcExpr.html
-  name: CalcExpr.Context
-  nameWithType: CalcExpr.Context
-  fullName: CalcExpr.Context
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
-- uid: CalcExpr.Expressions.Terminals.Infinity.PostfixOperate*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Infinity.PostfixOperate
-  href: CalcExpr.Expressions.Terminals.Infinity.html#CalcExpr_Expressions_Terminals_Infinity_PostfixOperate_System_String_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.Terminals.Infinity.PostfixOperate*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Infinity.PostfixOperate
+  href: DiceEngine.Expressions.Terminals.Infinity.html#DiceEngine_Expressions_Terminals_Infinity_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
   name: PostfixOperate
   nameWithType: Infinity.PostfixOperate
-  fullName: CalcExpr.Expressions.Terminals.Infinity.PostfixOperate
-- uid: CalcExpr.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Interfaces.IPostfixOperable
+  fullName: DiceEngine.Expressions.Terminals.Infinity.PostfixOperate
+- uid: DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IPostfixOperable
   isExternal: true
-  href: CalcExpr.Expressions.Interfaces.IPostfixOperable.html#CalcExpr_Expressions_Interfaces_IPostfixOperable_PostfixOperate_System_String_CalcExpr_Context_ExpressionContext_
+  href: DiceEngine.Expressions.Interfaces.IPostfixOperable.html#DiceEngine_Expressions_Interfaces_IPostfixOperable_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
   name: PostfixOperate(string, ExpressionContext)
   nameWithType: IPostfixOperable.PostfixOperate(string, ExpressionContext)
-  fullName: CalcExpr.Expressions.Interfaces.IPostfixOperable.PostfixOperate(string, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(string, DiceEngine.Context.ExpressionContext)
   nameWithType.vb: IPostfixOperable.PostfixOperate(String, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Interfaces.IPostfixOperable.PostfixOperate(String, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(String, DiceEngine.Context.ExpressionContext)
   name.vb: PostfixOperate(String, ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
     name: PostfixOperate
-    href: CalcExpr.Expressions.Interfaces.IPostfixOperable.html#CalcExpr_Expressions_Interfaces_IPostfixOperable_PostfixOperate_System_String_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Interfaces.IPostfixOperable.html#DiceEngine_Expressions_Interfaces_IPostfixOperable_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.String
     name: string
@@ -1252,14 +1252,14 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
     name: PostfixOperate
-    href: CalcExpr.Expressions.Interfaces.IPostfixOperable.html#CalcExpr_Expressions_Interfaces_IPostfixOperable_PostfixOperate_System_String_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Interfaces.IPostfixOperable.html#DiceEngine_Expressions_Interfaces_IPostfixOperable_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.String
     name: String
@@ -1267,31 +1267,31 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Infinity.BinaryLeftOperate*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Infinity.BinaryLeftOperate
-  href: CalcExpr.Expressions.Terminals.Infinity.html#CalcExpr_Expressions_Terminals_Infinity_BinaryLeftOperate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.Terminals.Infinity.BinaryLeftOperate*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Infinity.BinaryLeftOperate
+  href: DiceEngine.Expressions.Terminals.Infinity.html#DiceEngine_Expressions_Terminals_Infinity_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   name: BinaryLeftOperate
   nameWithType: Infinity.BinaryLeftOperate
-  fullName: CalcExpr.Expressions.Terminals.Infinity.BinaryLeftOperate
-- uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Interfaces.IBinaryOperable
+  fullName: DiceEngine.Expressions.Terminals.Infinity.BinaryLeftOperate
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IBinaryOperable
   isExternal: true
-  href: CalcExpr.Expressions.Interfaces.IBinaryOperable.html#CalcExpr_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   name: BinaryLeftOperate(string, IExpression, ExpressionContext)
   nameWithType: IBinaryOperable.BinaryLeftOperate(string, IExpression, ExpressionContext)
-  fullName: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(string, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   nameWithType.vb: IBinaryOperable.BinaryLeftOperate(String, IExpression, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(String, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   name.vb: BinaryLeftOperate(String, IExpression, ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
     name: BinaryLeftOperate
-    href: CalcExpr.Expressions.Interfaces.IBinaryOperable.html#CalcExpr_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.String
     name: string
@@ -1299,19 +1299,19 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
     name: BinaryLeftOperate
-    href: CalcExpr.Expressions.Interfaces.IBinaryOperable.html#CalcExpr_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.String
     name: String
@@ -1319,36 +1319,36 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Infinity.BinaryRightOperate*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Infinity.BinaryRightOperate
-  href: CalcExpr.Expressions.Terminals.Infinity.html#CalcExpr_Expressions_Terminals_Infinity_BinaryRightOperate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.Terminals.Infinity.BinaryRightOperate*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Infinity.BinaryRightOperate
+  href: DiceEngine.Expressions.Terminals.Infinity.html#DiceEngine_Expressions_Terminals_Infinity_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   name: BinaryRightOperate
   nameWithType: Infinity.BinaryRightOperate
-  fullName: CalcExpr.Expressions.Terminals.Infinity.BinaryRightOperate
-- uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Interfaces.IBinaryOperable
+  fullName: DiceEngine.Expressions.Terminals.Infinity.BinaryRightOperate
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IBinaryOperable
   isExternal: true
-  href: CalcExpr.Expressions.Interfaces.IBinaryOperable.html#CalcExpr_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   name: BinaryRightOperate(string, IExpression, ExpressionContext)
   nameWithType: IBinaryOperable.BinaryRightOperate(string, IExpression, ExpressionContext)
-  fullName: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(string, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   nameWithType.vb: IBinaryOperable.BinaryRightOperate(String, IExpression, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(String, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   name.vb: BinaryRightOperate(String, IExpression, ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
     name: BinaryRightOperate
-    href: CalcExpr.Expressions.Interfaces.IBinaryOperable.html#CalcExpr_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.String
     name: string
@@ -1356,19 +1356,19 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
     name: BinaryRightOperate
-    href: CalcExpr.Expressions.Interfaces.IBinaryOperable.html#CalcExpr_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   - name: (
   - uid: System.String
     name: String
@@ -1376,14 +1376,14 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
@@ -1418,12 +1418,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Infinity.Equals*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Infinity.Equals
-  href: CalcExpr.Expressions.Terminals.Infinity.html#CalcExpr_Expressions_Terminals_Infinity_Equals_System_Object_
+- uid: DiceEngine.Expressions.Terminals.Infinity.Equals*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Infinity.Equals
+  href: DiceEngine.Expressions.Terminals.Infinity.html#DiceEngine_Expressions_Terminals_Infinity_Equals_System_Object_
   name: Equals
   nameWithType: Infinity.Equals
-  fullName: CalcExpr.Expressions.Terminals.Infinity.Equals
+  fullName: DiceEngine.Expressions.Terminals.Infinity.Equals
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
@@ -1448,12 +1448,12 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Infinity.GetHashCode*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Infinity.GetHashCode
-  href: CalcExpr.Expressions.Terminals.Infinity.html#CalcExpr_Expressions_Terminals_Infinity_GetHashCode
+- uid: DiceEngine.Expressions.Terminals.Infinity.GetHashCode*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Infinity.GetHashCode
+  href: DiceEngine.Expressions.Terminals.Infinity.html#DiceEngine_Expressions_Terminals_Infinity_GetHashCode
   name: GetHashCode
   nameWithType: Infinity.GetHashCode
-  fullName: CalcExpr.Expressions.Terminals.Infinity.GetHashCode
+  fullName: DiceEngine.Expressions.Terminals.Infinity.GetHashCode
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1465,21 +1465,21 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  parent: DiceEngine.Expressions.Terminals.Terminal
   isExternal: true
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString_System_String_
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
   name: ToString(string)
   nameWithType: Terminal.ToString(string)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.ToString(string)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString(string)
   nameWithType.vb: Terminal.ToString(String)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.ToString(String)
   name.vb: ToString(String)
   spec.csharp:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString_System_String_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
   - name: (
   - uid: System.String
     name: string
@@ -1487,36 +1487,36 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString_System_String_
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
   - name: (
   - uid: System.String
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Infinity.ToString*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Infinity.ToString
-  href: CalcExpr.Expressions.Terminals.Infinity.html#CalcExpr_Expressions_Terminals_Infinity_ToString_System_String_
+- uid: DiceEngine.Expressions.Terminals.Infinity.ToString*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Infinity.ToString
+  href: DiceEngine.Expressions.Terminals.Infinity.html#DiceEngine_Expressions_Terminals_Infinity_ToString_System_String_
   name: ToString
   nameWithType: Infinity.ToString
-  fullName: CalcExpr.Expressions.Terminals.Infinity.ToString
-- uid: CalcExpr.Expressions.IExpression.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.IExpression.ToString(System.String)
-  parent: CalcExpr.Expressions.IExpression
+  fullName: DiceEngine.Expressions.Terminals.Infinity.ToString
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
   isExternal: true
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   name: ToString(string)
   nameWithType: IExpression.ToString(string)
-  fullName: CalcExpr.Expressions.IExpression.ToString(string)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string)
   nameWithType.vb: IExpression.ToString(String)
-  fullName.vb: CalcExpr.Expressions.IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
   name.vb: ToString(String)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: string
@@ -1524,22 +1524,22 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Infinity.op_Implicit*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Infinity.op_Implicit
+- uid: DiceEngine.Expressions.Terminals.Infinity.op_Implicit*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Infinity.op_Implicit
   name: implicit operator
   nameWithType: Infinity.implicit operator
-  fullName: CalcExpr.Expressions.Terminals.Infinity.implicit operator
+  fullName: DiceEngine.Expressions.Terminals.Infinity.implicit operator
   nameWithType.vb: Infinity.CType
-  fullName.vb: CalcExpr.Expressions.Terminals.Infinity.CType
+  fullName.vb: DiceEngine.Expressions.Terminals.Infinity.CType
   name.vb: CType
   spec.csharp:
   - name: implicit

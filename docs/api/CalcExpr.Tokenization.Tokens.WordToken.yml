@@ -1,38 +1,38 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Tokenization.Tokens.WordToken
-  commentId: T:CalcExpr.Tokenization.Tokens.WordToken
+- uid: DiceEngine.Tokenization.Tokens.WordToken
+  commentId: T:DiceEngine.Tokenization.Tokens.WordToken
   id: WordToken
-  parent: CalcExpr.Tokenization.Tokens
+  parent: DiceEngine.Tokenization.Tokens
   children:
-  - CalcExpr.Tokenization.Tokens.WordToken.#ctor(System.String,System.Int32)
-  - CalcExpr.Tokenization.Tokens.WordToken.Equals(System.Object)
-  - CalcExpr.Tokenization.Tokens.WordToken.GetHashCode
-  - CalcExpr.Tokenization.Tokens.WordToken.Index
-  - CalcExpr.Tokenization.Tokens.WordToken.RegexAlias
-  - CalcExpr.Tokenization.Tokens.WordToken.Value
-  - CalcExpr.Tokenization.Tokens.WordToken.op_Equality(CalcExpr.Tokenization.Tokens.WordToken,CalcExpr.Tokenization.Tokens.IToken)
-  - CalcExpr.Tokenization.Tokens.WordToken.op_Implicit(CalcExpr.Tokenization.Tokens.WordToken)~System.String
-  - CalcExpr.Tokenization.Tokens.WordToken.op_Implicit(System.Text.RegularExpressions.Match)~CalcExpr.Tokenization.Tokens.WordToken
-  - CalcExpr.Tokenization.Tokens.WordToken.op_Inequality(CalcExpr.Tokenization.Tokens.WordToken,CalcExpr.Tokenization.Tokens.IToken)
+  - DiceEngine.Tokenization.Tokens.WordToken.#ctor(System.String,System.Int32)
+  - DiceEngine.Tokenization.Tokens.WordToken.Equals(System.Object)
+  - DiceEngine.Tokenization.Tokens.WordToken.GetHashCode
+  - DiceEngine.Tokenization.Tokens.WordToken.Index
+  - DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
+  - DiceEngine.Tokenization.Tokens.WordToken.Value
+  - DiceEngine.Tokenization.Tokens.WordToken.op_Equality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  - DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(DiceEngine.Tokenization.Tokens.WordToken)~System.String
+  - DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.WordToken
+  - DiceEngine.Tokenization.Tokens.WordToken.op_Inequality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
   langs:
   - csharp
   - vb
   name: WordToken
   nameWithType: WordToken
-  fullName: CalcExpr.Tokenization.Tokens.WordToken
+  fullName: DiceEngine.Tokenization.Tokens.WordToken
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: WordToken
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 10
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: A substring that represents a word such as a variable, constant, or function name.
   example: []
   syntax:
@@ -41,35 +41,35 @@ items:
   inheritance:
   - System.Object
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken
+  - DiceEngine.Tokenization.Tokens.IToken
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.Tokenization.Tokens.WordToken.#ctor(System.String,System.Int32)
-  commentId: M:CalcExpr.Tokenization.Tokens.WordToken.#ctor(System.String,System.Int32)
+- uid: DiceEngine.Tokenization.Tokens.WordToken.#ctor(System.String,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.#ctor(System.String,System.Int32)
   id: '#ctor(System.String,System.Int32)'
-  parent: CalcExpr.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
   name: WordToken(string, int)
   nameWithType: WordToken.WordToken(string, int)
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.WordToken(string, int)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.WordToken(string, int)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 10
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: A substring that represents a word such as a variable, constant, or function name.
   example: []
   syntax:
@@ -77,37 +77,37 @@ items:
     parameters:
     - id: value
       type: System.String
-      description: The <xref href="System.String" data-throw-if-not-resolved="false"></xref> contained within the <xref href="CalcExpr.Tokenization.Tokens.Token" data-throw-if-not-resolved="false"></xref>.
+      description: The <xref href="System.String" data-throw-if-not-resolved="false"></xref> contained within the <xref href="DiceEngine.Tokenization.Tokens.Token" data-throw-if-not-resolved="false"></xref>.
     - id: index
       type: System.Int32
       description: The starting index within the containing <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Sub New(value As String, index As Integer)
-  overload: CalcExpr.Tokenization.Tokens.WordToken.#ctor*
+  overload: DiceEngine.Tokenization.Tokens.WordToken.#ctor*
   nameWithType.vb: WordToken.New(String, Integer)
-  fullName.vb: CalcExpr.Tokenization.Tokens.WordToken.New(String, Integer)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.New(String, Integer)
   name.vb: New(String, Integer)
-- uid: CalcExpr.Tokenization.Tokens.WordToken.Value
-  commentId: P:CalcExpr.Tokenization.Tokens.WordToken.Value
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.WordToken.Value
   id: Value
-  parent: CalcExpr.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
   name: Value
   nameWithType: WordToken.Value
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Value
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Value
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 12
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: The value of the token.
   example: []
   syntax:
@@ -116,31 +116,31 @@ items:
     return:
       type: System.String
     content.vb: Public ReadOnly Property Value As String
-  overload: CalcExpr.Tokenization.Tokens.WordToken.Value*
+  overload: DiceEngine.Tokenization.Tokens.WordToken.Value*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.Value
-- uid: CalcExpr.Tokenization.Tokens.WordToken.Index
-  commentId: P:CalcExpr.Tokenization.Tokens.WordToken.Index
+  - DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.WordToken.Index
   id: Index
-  parent: CalcExpr.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
   name: Index
   nameWithType: WordToken.Index
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.Index
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Index
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Index
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 14
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: The index of the token in the larger string.
   example: []
   syntax:
@@ -149,31 +149,31 @@ items:
     return:
       type: System.Int32
     content.vb: Public ReadOnly Property Index As Integer
-  overload: CalcExpr.Tokenization.Tokens.WordToken.Index*
+  overload: DiceEngine.Tokenization.Tokens.WordToken.Index*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.Index
-- uid: CalcExpr.Tokenization.Tokens.WordToken.RegexAlias
-  commentId: P:CalcExpr.Tokenization.Tokens.WordToken.RegexAlias
+  - DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
   id: RegexAlias
-  parent: CalcExpr.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
   name: RegexAlias
   nameWithType: WordToken.RegexAlias
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: RegexAlias
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 16
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: The value to use in a regular expression.
   example: []
   syntax:
@@ -182,31 +182,31 @@ items:
     return:
       type: System.Char
     content.vb: Public ReadOnly Property RegexAlias As Char
-  overload: CalcExpr.Tokenization.Tokens.WordToken.RegexAlias*
+  overload: DiceEngine.Tokenization.Tokens.WordToken.RegexAlias*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.RegexAlias
-- uid: CalcExpr.Tokenization.Tokens.WordToken.Equals(System.Object)
-  commentId: M:CalcExpr.Tokenization.Tokens.WordToken.Equals(System.Object)
+  - DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Equals(System.Object)
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: WordToken.Equals(object?)
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.Equals(object?)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 18
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -220,32 +220,32 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: CalcExpr.Tokenization.Tokens.WordToken.Equals*
+  overload: DiceEngine.Tokenization.Tokens.WordToken.Equals*
   nameWithType.vb: WordToken.Equals(Object)
-  fullName.vb: CalcExpr.Tokenization.Tokens.WordToken.Equals(Object)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.Equals(Object)
   name.vb: Equals(Object)
-- uid: CalcExpr.Tokenization.Tokens.WordToken.GetHashCode
-  commentId: M:CalcExpr.Tokenization.Tokens.WordToken.GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.WordToken.GetHashCode
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: WordToken.GetHashCode()
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.GetHashCode()
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 21
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -255,146 +255,146 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: CalcExpr.Tokenization.Tokens.WordToken.GetHashCode*
-- uid: CalcExpr.Tokenization.Tokens.WordToken.op_Equality(CalcExpr.Tokenization.Tokens.WordToken,CalcExpr.Tokenization.Tokens.IToken)
-  commentId: M:CalcExpr.Tokenization.Tokens.WordToken.op_Equality(CalcExpr.Tokenization.Tokens.WordToken,CalcExpr.Tokenization.Tokens.IToken)
-  id: op_Equality(CalcExpr.Tokenization.Tokens.WordToken,CalcExpr.Tokenization.Tokens.IToken)
-  parent: CalcExpr.Tokenization.Tokens.WordToken
+  overload: DiceEngine.Tokenization.Tokens.WordToken.GetHashCode*
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Equality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.op_Equality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  id: op_Equality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  parent: DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
   name: operator ==(WordToken, IToken)
   nameWithType: WordToken.operator ==(WordToken, IToken)
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.operator ==(CalcExpr.Tokenization.Tokens.WordToken, CalcExpr.Tokenization.Tokens.IToken)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.operator ==(DiceEngine.Tokenization.Tokens.WordToken, DiceEngine.Tokenization.Tokens.IToken)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Equality
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 24
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static bool operator ==(WordToken a, IToken b)
     parameters:
     - id: a
-      type: CalcExpr.Tokenization.Tokens.WordToken
+      type: DiceEngine.Tokenization.Tokens.WordToken
     - id: b
-      type: CalcExpr.Tokenization.Tokens.IToken
+      type: DiceEngine.Tokenization.Tokens.IToken
     return:
       type: System.Boolean
     content.vb: Public Shared Operator =(a As WordToken, b As IToken) As Boolean
-  overload: CalcExpr.Tokenization.Tokens.WordToken.op_Equality*
+  overload: DiceEngine.Tokenization.Tokens.WordToken.op_Equality*
   nameWithType.vb: WordToken.=(WordToken, IToken)
-  fullName.vb: CalcExpr.Tokenization.Tokens.WordToken.=(CalcExpr.Tokenization.Tokens.WordToken, CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.=(DiceEngine.Tokenization.Tokens.WordToken, DiceEngine.Tokenization.Tokens.IToken)
   name.vb: =(WordToken, IToken)
-- uid: CalcExpr.Tokenization.Tokens.WordToken.op_Inequality(CalcExpr.Tokenization.Tokens.WordToken,CalcExpr.Tokenization.Tokens.IToken)
-  commentId: M:CalcExpr.Tokenization.Tokens.WordToken.op_Inequality(CalcExpr.Tokenization.Tokens.WordToken,CalcExpr.Tokenization.Tokens.IToken)
-  id: op_Inequality(CalcExpr.Tokenization.Tokens.WordToken,CalcExpr.Tokenization.Tokens.IToken)
-  parent: CalcExpr.Tokenization.Tokens.WordToken
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Inequality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.op_Inequality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  id: op_Inequality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  parent: DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
   name: operator !=(WordToken, IToken)
   nameWithType: WordToken.operator !=(WordToken, IToken)
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.operator !=(CalcExpr.Tokenization.Tokens.WordToken, CalcExpr.Tokenization.Tokens.IToken)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.operator !=(DiceEngine.Tokenization.Tokens.WordToken, DiceEngine.Tokenization.Tokens.IToken)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Inequality
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 27
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static bool operator !=(WordToken a, IToken b)
     parameters:
     - id: a
-      type: CalcExpr.Tokenization.Tokens.WordToken
+      type: DiceEngine.Tokenization.Tokens.WordToken
     - id: b
-      type: CalcExpr.Tokenization.Tokens.IToken
+      type: DiceEngine.Tokenization.Tokens.IToken
     return:
       type: System.Boolean
     content.vb: Public Shared Operator <>(a As WordToken, b As IToken) As Boolean
-  overload: CalcExpr.Tokenization.Tokens.WordToken.op_Inequality*
+  overload: DiceEngine.Tokenization.Tokens.WordToken.op_Inequality*
   nameWithType.vb: WordToken.<>(WordToken, IToken)
-  fullName.vb: CalcExpr.Tokenization.Tokens.WordToken.<>(CalcExpr.Tokenization.Tokens.WordToken, CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.<>(DiceEngine.Tokenization.Tokens.WordToken, DiceEngine.Tokenization.Tokens.IToken)
   name.vb: <>(WordToken, IToken)
-- uid: CalcExpr.Tokenization.Tokens.WordToken.op_Implicit(System.Text.RegularExpressions.Match)~CalcExpr.Tokenization.Tokens.WordToken
-  commentId: M:CalcExpr.Tokenization.Tokens.WordToken.op_Implicit(System.Text.RegularExpressions.Match)~CalcExpr.Tokenization.Tokens.WordToken
-  id: op_Implicit(System.Text.RegularExpressions.Match)~CalcExpr.Tokenization.Tokens.WordToken
-  parent: CalcExpr.Tokenization.Tokens.WordToken
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.WordToken
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.WordToken
+  id: op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
   name: implicit operator WordToken(Match)
   nameWithType: WordToken.implicit operator WordToken(Match)
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.implicit operator CalcExpr.Tokenization.Tokens.WordToken(System.Text.RegularExpressions.Match)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.implicit operator DiceEngine.Tokenization.Tokens.WordToken(System.Text.RegularExpressions.Match)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Implicit
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 30
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static implicit operator WordToken(Match match)
     parameters:
     - id: match
       type: System.Text.RegularExpressions.Match
     return:
-      type: CalcExpr.Tokenization.Tokens.WordToken
+      type: DiceEngine.Tokenization.Tokens.WordToken
     content.vb: Public Shared Widening Operator CType(match As Match) As WordToken
-  overload: CalcExpr.Tokenization.Tokens.WordToken.op_Implicit*
+  overload: DiceEngine.Tokenization.Tokens.WordToken.op_Implicit*
   nameWithType.vb: WordToken.CType(Match)
-  fullName.vb: CalcExpr.Tokenization.Tokens.WordToken.CType(System.Text.RegularExpressions.Match)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.CType(System.Text.RegularExpressions.Match)
   name.vb: CType(Match)
-- uid: CalcExpr.Tokenization.Tokens.WordToken.op_Implicit(CalcExpr.Tokenization.Tokens.WordToken)~System.String
-  commentId: M:CalcExpr.Tokenization.Tokens.WordToken.op_Implicit(CalcExpr.Tokenization.Tokens.WordToken)~System.String
-  id: op_Implicit(CalcExpr.Tokenization.Tokens.WordToken)~System.String
-  parent: CalcExpr.Tokenization.Tokens.WordToken
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(DiceEngine.Tokenization.Tokens.WordToken)~System.String
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(DiceEngine.Tokenization.Tokens.WordToken)~System.String
+  id: op_Implicit(DiceEngine.Tokenization.Tokens.WordToken)~System.String
+  parent: DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
   name: implicit operator string(WordToken)
   nameWithType: WordToken.implicit operator string(WordToken)
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.implicit operator string(CalcExpr.Tokenization.Tokens.WordToken)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.implicit operator string(DiceEngine.Tokenization.Tokens.WordToken)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/WordToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Implicit
-    path: ../src/CalcExpr/Tokenization/Tokens/WordToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
     startLine: 33
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static implicit operator string(WordToken token)
     parameters:
     - id: token
-      type: CalcExpr.Tokenization.Tokens.WordToken
+      type: DiceEngine.Tokenization.Tokens.WordToken
     return:
       type: System.String
     content.vb: Public Shared Widening Operator CType(token As WordToken) As String
-  overload: CalcExpr.Tokenization.Tokens.WordToken.op_Implicit*
+  overload: DiceEngine.Tokenization.Tokens.WordToken.op_Implicit*
   nameWithType.vb: WordToken.CType(WordToken)
-  fullName.vb: CalcExpr.Tokenization.Tokens.WordToken.CType(CalcExpr.Tokenization.Tokens.WordToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.CType(DiceEngine.Tokenization.Tokens.WordToken)
   name.vb: CType(WordToken)
 references:
 - uid: System.String
@@ -408,43 +408,43 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Tokenization.Tokens.Token
-  commentId: T:CalcExpr.Tokenization.Tokens.Token
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.Token.html
+- uid: DiceEngine.Tokenization.Tokens.Token
+  commentId: T:DiceEngine.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.Token.html
   name: Token
   nameWithType: Token
-  fullName: CalcExpr.Tokenization.Tokens.Token
-- uid: CalcExpr.Tokenization.Tokens
-  commentId: N:CalcExpr.Tokenization.Tokens
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Tokens
-  nameWithType: CalcExpr.Tokenization.Tokens
-  fullName: CalcExpr.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens.Token
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -456,13 +456,13 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: CalcExpr.Tokenization.Tokens.IToken
-  commentId: T:CalcExpr.Tokenization.Tokens.IToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.IToken.html
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
   name: IToken
   nameWithType: IToken
-  fullName: CalcExpr.Tokenization.Tokens.IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
@@ -632,14 +632,14 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Tokenization.Tokens.WordToken.#ctor*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.WordToken.#ctor
-  href: CalcExpr.Tokenization.Tokens.WordToken.html#CalcExpr_Tokenization_Tokens_WordToken__ctor_System_String_System_Int32_
+- uid: DiceEngine.Tokenization.Tokens.WordToken.#ctor*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.#ctor
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken__ctor_System_String_System_Int32_
   name: WordToken
   nameWithType: WordToken.WordToken
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.WordToken
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.WordToken
   nameWithType.vb: WordToken.New
-  fullName.vb: CalcExpr.Tokenization.Tokens.WordToken.New
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.New
   name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
@@ -652,45 +652,45 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: CalcExpr.Tokenization.Tokens.WordToken.Value*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.WordToken.Value
-  href: CalcExpr.Tokenization.Tokens.WordToken.html#CalcExpr_Tokenization_Tokens_WordToken_Value
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Value*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.Value
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_Value
   name: Value
   nameWithType: WordToken.Value
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.Value
-- uid: CalcExpr.Tokenization.Tokens.IToken.Value
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.Value
-  parent: CalcExpr.Tokenization.Tokens.IToken
-  href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_Value
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Value
+- uid: DiceEngine.Tokenization.Tokens.IToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Value
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Value
   name: Value
   nameWithType: IToken.Value
-  fullName: CalcExpr.Tokenization.Tokens.IToken.Value
-- uid: CalcExpr.Tokenization.Tokens.WordToken.Index*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.WordToken.Index
-  href: CalcExpr.Tokenization.Tokens.WordToken.html#CalcExpr_Tokenization_Tokens_WordToken_Index
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Index*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.Index
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_Index
   name: Index
   nameWithType: WordToken.Index
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.Index
-- uid: CalcExpr.Tokenization.Tokens.IToken.Index
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.Index
-  parent: CalcExpr.Tokenization.Tokens.IToken
-  href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_Index
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Index
+- uid: DiceEngine.Tokenization.Tokens.IToken.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Index
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Index
   name: Index
   nameWithType: IToken.Index
-  fullName: CalcExpr.Tokenization.Tokens.IToken.Index
-- uid: CalcExpr.Tokenization.Tokens.WordToken.RegexAlias*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.WordToken.RegexAlias
-  href: CalcExpr.Tokenization.Tokens.WordToken.html#CalcExpr_Tokenization_Tokens_WordToken_RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: DiceEngine.Tokenization.Tokens.WordToken.RegexAlias*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_RegexAlias
   name: RegexAlias
   nameWithType: WordToken.RegexAlias
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.RegexAlias
-- uid: CalcExpr.Tokenization.Tokens.IToken.RegexAlias
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.RegexAlias
-  parent: CalcExpr.Tokenization.Tokens.IToken
-  href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
+- uid: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_RegexAlias
   name: RegexAlias
   nameWithType: IToken.RegexAlias
-  fullName: CalcExpr.Tokenization.Tokens.IToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
 - uid: System.Char
   commentId: T:System.Char
   parent: System
@@ -735,12 +735,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Tokenization.Tokens.WordToken.Equals*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.WordToken.Equals
-  href: CalcExpr.Tokenization.Tokens.WordToken.html#CalcExpr_Tokenization_Tokens_WordToken_Equals_System_Object_
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Equals*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.Equals
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_Equals_System_Object_
   name: Equals
   nameWithType: WordToken.Equals
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.Equals
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Equals
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -776,56 +776,56 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Tokenization.Tokens.WordToken.GetHashCode*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.WordToken.GetHashCode
-  href: CalcExpr.Tokenization.Tokens.WordToken.html#CalcExpr_Tokenization_Tokens_WordToken_GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.WordToken.GetHashCode*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.GetHashCode
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_GetHashCode
   name: GetHashCode
   nameWithType: WordToken.GetHashCode
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.GetHashCode
-- uid: CalcExpr.Tokenization.Tokens.WordToken.op_Equality*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.WordToken.op_Equality
-  href: CalcExpr.Tokenization.Tokens.WordToken.html#CalcExpr_Tokenization_Tokens_WordToken_op_Equality_CalcExpr_Tokenization_Tokens_WordToken_CalcExpr_Tokenization_Tokens_IToken_
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Equality*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.op_Equality
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_op_Equality_DiceEngine_Tokenization_Tokens_WordToken_DiceEngine_Tokenization_Tokens_IToken_
   name: operator ==
   nameWithType: WordToken.operator ==
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.operator ==
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.operator ==
   nameWithType.vb: WordToken.=
-  fullName.vb: CalcExpr.Tokenization.Tokens.WordToken.=
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.=
   name.vb: =
   spec.csharp:
   - name: operator
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.WordToken.op_Equality*
+  - uid: DiceEngine.Tokenization.Tokens.WordToken.op_Equality*
     name: ==
-    href: CalcExpr.Tokenization.Tokens.WordToken.html#CalcExpr_Tokenization_Tokens_WordToken_op_Equality_CalcExpr_Tokenization_Tokens_WordToken_CalcExpr_Tokenization_Tokens_IToken_
-- uid: CalcExpr.Tokenization.Tokens.WordToken
-  commentId: T:CalcExpr.Tokenization.Tokens.WordToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.WordToken.html
+    href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_op_Equality_DiceEngine_Tokenization_Tokens_WordToken_DiceEngine_Tokenization_Tokens_IToken_
+- uid: DiceEngine.Tokenization.Tokens.WordToken
+  commentId: T:DiceEngine.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.WordToken.html
   name: WordToken
   nameWithType: WordToken
-  fullName: CalcExpr.Tokenization.Tokens.WordToken
-- uid: CalcExpr.Tokenization.Tokens.WordToken.op_Inequality*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.WordToken.op_Inequality
-  href: CalcExpr.Tokenization.Tokens.WordToken.html#CalcExpr_Tokenization_Tokens_WordToken_op_Inequality_CalcExpr_Tokenization_Tokens_WordToken_CalcExpr_Tokenization_Tokens_IToken_
+  fullName: DiceEngine.Tokenization.Tokens.WordToken
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Inequality*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.op_Inequality
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_op_Inequality_DiceEngine_Tokenization_Tokens_WordToken_DiceEngine_Tokenization_Tokens_IToken_
   name: operator !=
   nameWithType: WordToken.operator !=
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.operator !=
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.operator !=
   nameWithType.vb: WordToken.<>
-  fullName.vb: CalcExpr.Tokenization.Tokens.WordToken.<>
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.<>
   name.vb: <>
   spec.csharp:
   - name: operator
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.WordToken.op_Inequality*
+  - uid: DiceEngine.Tokenization.Tokens.WordToken.op_Inequality*
     name: '!='
-    href: CalcExpr.Tokenization.Tokens.WordToken.html#CalcExpr_Tokenization_Tokens_WordToken_op_Inequality_CalcExpr_Tokenization_Tokens_WordToken_CalcExpr_Tokenization_Tokens_IToken_
-- uid: CalcExpr.Tokenization.Tokens.WordToken.op_Implicit*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.WordToken.op_Implicit
+    href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_op_Inequality_DiceEngine_Tokenization_Tokens_WordToken_DiceEngine_Tokenization_Tokens_IToken_
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Implicit*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.op_Implicit
   name: implicit operator
   nameWithType: WordToken.implicit operator
-  fullName: CalcExpr.Tokenization.Tokens.WordToken.implicit operator
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.implicit operator
   nameWithType.vb: WordToken.CType
-  fullName.vb: CalcExpr.Tokenization.Tokens.WordToken.CType
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.CType
   name.vb: CType
   spec.csharp:
   - name: implicit

@@ -1,39 +1,39 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions
-  commentId: T:CalcExpr.NativeFunctions.StatisticalFunctions
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions
+  commentId: T:DiceEngine.NativeFunctions.StatisticalFunctions
   id: StatisticalFunctions
-  parent: CalcExpr.NativeFunctions
+  parent: DiceEngine.NativeFunctions
   children:
-  - CalcExpr.NativeFunctions.StatisticalFunctions.Count(CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.StatisticalFunctions.Max(CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.StatisticalFunctions.Mean(CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.StatisticalFunctions.Median(CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.StatisticalFunctions.Min(CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.StatisticalFunctions.Mode(CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.StatisticalFunctions.Percentile(CalcExpr.Expressions.IExpression,System.Double)
-  - CalcExpr.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation(CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.StatisticalFunctions.Quartile(CalcExpr.Expressions.IExpression,System.Double)
-  - CalcExpr.NativeFunctions.StatisticalFunctions.SampleStandardDeviation(CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.StatisticalFunctions.Sum(CalcExpr.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.Count(DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.Max(DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.Mean(DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.Median(DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.Min(DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.Mode(DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.Percentile(DiceEngine.Expressions.IExpression,System.Double)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation(DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.Quartile(DiceEngine.Expressions.IExpression,System.Double)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.SampleStandardDeviation(DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.StatisticalFunctions.Sum(DiceEngine.Expressions.IExpression)
   langs:
   - csharp
   - vb
   name: StatisticalFunctions
   nameWithType: StatisticalFunctions
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions
   type: Class
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: StatisticalFunctions
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: public static class StatisticalFunctions
     content.vb: Public Module StatisticalFunctions
@@ -47,28 +47,28 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Count(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.Count(CalcExpr.Expressions.IExpression)
-  id: Count(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Count(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.Count(DiceEngine.Expressions.IExpression)
+  id: Count(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: Count(IExpression)
   nameWithType: StatisticalFunctions.Count(IExpression)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Count(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Count(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Count
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 10
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "count", "length", "len" })]
@@ -76,36 +76,36 @@ items:
       public static int Count(IExpression expressions)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
       type: System.Int32
     content.vb: >-
       <NativeFunction(New String() { "count", "length", "len" })>
 
       Public Shared Function Count(expressions As IExpression) As Integer
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.Count*
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Max(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.Max(CalcExpr.Expressions.IExpression)
-  id: Max(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.Count*
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Max(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.Max(DiceEngine.Expressions.IExpression)
+  id: Max(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: Max(IExpression)
   nameWithType: StatisticalFunctions.Max(IExpression)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Max(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Max(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Max
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 18
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "max", "maximum" })]
@@ -113,36 +113,36 @@ items:
       public static Terminal Max(IExpression expressions)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "max", "maximum" })>
 
       Public Shared Function Max(expressions As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.Max*
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Mean(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.Mean(CalcExpr.Expressions.IExpression)
-  id: Mean(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.Max*
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Mean(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.Mean(DiceEngine.Expressions.IExpression)
+  id: Mean(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: Mean(IExpression)
   nameWithType: StatisticalFunctions.Mean(IExpression)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Mean(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Mean(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Mean
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 26
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "average", "mean" })]
@@ -150,36 +150,36 @@ items:
       public static Terminal Mean(IExpression expressions)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "average", "mean" })>
 
       Public Shared Function Mean(expressions As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.Mean*
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Median(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.Median(CalcExpr.Expressions.IExpression)
-  id: Median(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.Mean*
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Median(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.Median(DiceEngine.Expressions.IExpression)
+  id: Median(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: Median(IExpression)
   nameWithType: StatisticalFunctions.Median(IExpression)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Median(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Median(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Median
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 37
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "median" })]
@@ -187,36 +187,36 @@ items:
       public static Terminal Median(IExpression expressions)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "median" })>
 
       Public Shared Function Median(expressions As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.Median*
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Min(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.Min(CalcExpr.Expressions.IExpression)
-  id: Min(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.Median*
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Min(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.Min(DiceEngine.Expressions.IExpression)
+  id: Min(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: Min(IExpression)
   nameWithType: StatisticalFunctions.Min(IExpression)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Min(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Min(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Min
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 57
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "min", "minimum" })]
@@ -224,36 +224,36 @@ items:
       public static Terminal Min(IExpression expressions)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "min", "minimum" })>
 
       Public Shared Function Min(expressions As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.Min*
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Mode(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.Mode(CalcExpr.Expressions.IExpression)
-  id: Mode(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.Min*
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Mode(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.Mode(DiceEngine.Expressions.IExpression)
+  id: Mode(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: Mode(IExpression)
   nameWithType: StatisticalFunctions.Mode(IExpression)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Mode(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Mode(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Mode
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 65
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "mode" })]
@@ -261,36 +261,36 @@ items:
       public static Terminal Mode(IExpression expressions)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "mode" })>
 
       Public Shared Function Mode(expressions As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.Mode*
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Percentile(CalcExpr.Expressions.IExpression,System.Double)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.Percentile(CalcExpr.Expressions.IExpression,System.Double)
-  id: Percentile(CalcExpr.Expressions.IExpression,System.Double)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.Mode*
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Percentile(DiceEngine.Expressions.IExpression,System.Double)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.Percentile(DiceEngine.Expressions.IExpression,System.Double)
+  id: Percentile(DiceEngine.Expressions.IExpression,System.Double)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: Percentile(IExpression, double)
   nameWithType: StatisticalFunctions.Percentile(IExpression, double)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Percentile(CalcExpr.Expressions.IExpression, double)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Percentile(DiceEngine.Expressions.IExpression, double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Percentile
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 89
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "percentile" })]
@@ -298,41 +298,41 @@ items:
       public static Terminal Percentile(IExpression expressions, double p)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     - id: p
       type: System.Double
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "percentile" })>
 
       Public Shared Function Percentile(expressions As IExpression, p As Double) As Terminal
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.Percentile*
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.Percentile*
   nameWithType.vb: StatisticalFunctions.Percentile(IExpression, Double)
-  fullName.vb: CalcExpr.NativeFunctions.StatisticalFunctions.Percentile(CalcExpr.Expressions.IExpression, Double)
+  fullName.vb: DiceEngine.NativeFunctions.StatisticalFunctions.Percentile(DiceEngine.Expressions.IExpression, Double)
   name.vb: Percentile(IExpression, Double)
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Quartile(CalcExpr.Expressions.IExpression,System.Double)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.Quartile(CalcExpr.Expressions.IExpression,System.Double)
-  id: Quartile(CalcExpr.Expressions.IExpression,System.Double)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Quartile(DiceEngine.Expressions.IExpression,System.Double)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.Quartile(DiceEngine.Expressions.IExpression,System.Double)
+  id: Quartile(DiceEngine.Expressions.IExpression,System.Double)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: Quartile(IExpression, double)
   nameWithType: StatisticalFunctions.Quartile(IExpression, double)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Quartile(CalcExpr.Expressions.IExpression, double)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Quartile(DiceEngine.Expressions.IExpression, double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Quartile
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 117
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "quartile" })]
@@ -340,12 +340,12 @@ items:
       public static Terminal Quartile(IExpression expressions, double q)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     - id: q
       type: System.Double
       attributes:
-      - type: CalcExpr.FunctionAttributes.ConditionalAttributes.RangeAttribute
-        ctor: CalcExpr.FunctionAttributes.ConditionalAttributes.RangeAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
         arguments:
         - type: System.Double
           value: 0
@@ -356,37 +356,37 @@ items:
         - type: System.Boolean
           value: true
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "quartile" })>
 
       Public Shared Function Quartile(expressions As IExpression, q As Double) As Terminal
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.Quartile*
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.Quartile*
   nameWithType.vb: StatisticalFunctions.Quartile(IExpression, Double)
-  fullName.vb: CalcExpr.NativeFunctions.StatisticalFunctions.Quartile(CalcExpr.Expressions.IExpression, Double)
+  fullName.vb: DiceEngine.NativeFunctions.StatisticalFunctions.Quartile(DiceEngine.Expressions.IExpression, Double)
   name.vb: Quartile(IExpression, Double)
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.SampleStandardDeviation(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.SampleStandardDeviation(CalcExpr.Expressions.IExpression)
-  id: SampleStandardDeviation(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.SampleStandardDeviation(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.SampleStandardDeviation(DiceEngine.Expressions.IExpression)
+  id: SampleStandardDeviation(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: SampleStandardDeviation(IExpression)
   nameWithType: StatisticalFunctions.SampleStandardDeviation(IExpression)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.SampleStandardDeviation(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.SampleStandardDeviation(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: SampleStandardDeviation
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 123
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "stdev", "stdevs" })]
@@ -394,36 +394,36 @@ items:
       public static Terminal SampleStandardDeviation(IExpression expressions)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "stdev", "stdevs" })>
 
       Public Shared Function SampleStandardDeviation(expressions As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.SampleStandardDeviation*
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation(CalcExpr.Expressions.IExpression)
-  id: PopulationStandardDeviation(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.SampleStandardDeviation*
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation(DiceEngine.Expressions.IExpression)
+  id: PopulationStandardDeviation(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: PopulationStandardDeviation(IExpression)
   nameWithType: StatisticalFunctions.PopulationStandardDeviation(IExpression)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: PopulationStandardDeviation
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 137
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "stdevp" })]
@@ -431,36 +431,36 @@ items:
       public static Terminal PopulationStandardDeviation(IExpression expressions)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "stdevp" })>
 
       Public Shared Function PopulationStandardDeviation(expressions As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation*
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Sum(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.StatisticalFunctions.Sum(CalcExpr.Expressions.IExpression)
-  id: Sum(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.StatisticalFunctions
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation*
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Sum(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.StatisticalFunctions.Sum(DiceEngine.Expressions.IExpression)
+  id: Sum(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.StatisticalFunctions
   langs:
   - csharp
   - vb
   name: Sum(IExpression)
   nameWithType: StatisticalFunctions.Sum(IExpression)
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Sum(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Sum(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+      path: src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Sum
-    path: ../src/CalcExpr/NativeFunctions/StatisticalFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/StatisticalFunctions.cs
     startLine: 151
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "sum", "total" })]
@@ -468,37 +468,37 @@ items:
       public static Terminal Sum(IExpression expressions)
     parameters:
     - id: expressions
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "sum", "total" })>
 
       Public Shared Function Sum(expressions As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.StatisticalFunctions.Sum*
+  overload: DiceEngine.NativeFunctions.StatisticalFunctions.Sum*
 references:
-- uid: CalcExpr.NativeFunctions
-  commentId: N:CalcExpr.NativeFunctions
-  href: CalcExpr.html
-  name: CalcExpr.NativeFunctions
-  nameWithType: CalcExpr.NativeFunctions
-  fullName: CalcExpr.NativeFunctions
+- uid: DiceEngine.NativeFunctions
+  commentId: N:DiceEngine.NativeFunctions
+  href: DiceEngine.html
+  name: DiceEngine.NativeFunctions
+  nameWithType: DiceEngine.NativeFunctions
+  fullName: DiceEngine.NativeFunctions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.NativeFunctions
+  - uid: DiceEngine.NativeFunctions
     name: NativeFunctions
-    href: CalcExpr.NativeFunctions.html
+    href: DiceEngine.NativeFunctions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.NativeFunctions
+  - uid: DiceEngine.NativeFunctions
     name: NativeFunctions
-    href: CalcExpr.NativeFunctions.html
+    href: DiceEngine.NativeFunctions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -736,19 +736,19 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Count*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.Count
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_Count_CalcExpr_Expressions_IExpression_
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Count*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.Count
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_Count_DiceEngine_Expressions_IExpression_
   name: Count
   nameWithType: StatisticalFunctions.Count
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Count
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Count
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
+  fullName: DiceEngine.Expressions.IExpression
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -760,101 +760,101 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Max*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.Max
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_Max_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Max*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.Max
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_Max_DiceEngine_Expressions_IExpression_
   name: Max
   nameWithType: StatisticalFunctions.Max
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Max
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Max
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Mean*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.Mean
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_Mean_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Mean*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.Mean
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_Mean_DiceEngine_Expressions_IExpression_
   name: Mean
   nameWithType: StatisticalFunctions.Mean
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Mean
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Median*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.Median
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_Median_CalcExpr_Expressions_IExpression_
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Mean
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Median*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.Median
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_Median_DiceEngine_Expressions_IExpression_
   name: Median
   nameWithType: StatisticalFunctions.Median
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Median
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Min*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.Min
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_Min_CalcExpr_Expressions_IExpression_
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Median
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Min*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.Min
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_Min_DiceEngine_Expressions_IExpression_
   name: Min
   nameWithType: StatisticalFunctions.Min
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Min
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Mode*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.Mode
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_Mode_CalcExpr_Expressions_IExpression_
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Min
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Mode*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.Mode
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_Mode_DiceEngine_Expressions_IExpression_
   name: Mode
   nameWithType: StatisticalFunctions.Mode
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Mode
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Percentile*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.Percentile
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_Percentile_CalcExpr_Expressions_IExpression_System_Double_
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Mode
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Percentile*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.Percentile
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_Percentile_DiceEngine_Expressions_IExpression_System_Double_
   name: Percentile
   nameWithType: StatisticalFunctions.Percentile
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Percentile
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Percentile
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -866,27 +866,27 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Quartile*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.Quartile
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_Quartile_CalcExpr_Expressions_IExpression_System_Double_
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Quartile*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.Quartile
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_Quartile_DiceEngine_Expressions_IExpression_System_Double_
   name: Quartile
   nameWithType: StatisticalFunctions.Quartile
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Quartile
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.SampleStandardDeviation*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.SampleStandardDeviation
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_SampleStandardDeviation_CalcExpr_Expressions_IExpression_
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Quartile
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.SampleStandardDeviation*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.SampleStandardDeviation
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_SampleStandardDeviation_DiceEngine_Expressions_IExpression_
   name: SampleStandardDeviation
   nameWithType: StatisticalFunctions.SampleStandardDeviation
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.SampleStandardDeviation
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_PopulationStandardDeviation_CalcExpr_Expressions_IExpression_
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.SampleStandardDeviation
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_PopulationStandardDeviation_DiceEngine_Expressions_IExpression_
   name: PopulationStandardDeviation
   nameWithType: StatisticalFunctions.PopulationStandardDeviation
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions.Sum*
-  commentId: Overload:CalcExpr.NativeFunctions.StatisticalFunctions.Sum
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html#CalcExpr_NativeFunctions_StatisticalFunctions_Sum_CalcExpr_Expressions_IExpression_
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.PopulationStandardDeviation
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions.Sum*
+  commentId: Overload:DiceEngine.NativeFunctions.StatisticalFunctions.Sum
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html#DiceEngine_NativeFunctions_StatisticalFunctions_Sum_DiceEngine_Expressions_IExpression_
   name: Sum
   nameWithType: StatisticalFunctions.Sum
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions.Sum
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions.Sum

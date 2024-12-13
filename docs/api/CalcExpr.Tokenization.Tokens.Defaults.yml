@@ -1,23 +1,23 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Tokenization.Tokens.Defaults
-  commentId: N:CalcExpr.Tokenization.Tokens.Defaults
-  id: CalcExpr.Tokenization.Tokens.Defaults
+- uid: DiceEngine.Tokenization.Tokens.Defaults
+  commentId: N:DiceEngine.Tokenization.Tokens.Defaults
+  id: DiceEngine.Tokenization.Tokens.Defaults
   children:
-  - CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults
+  - DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults
   langs:
   - csharp
   - vb
-  name: CalcExpr.Tokenization.Tokens.Defaults
-  nameWithType: CalcExpr.Tokenization.Tokens.Defaults
-  fullName: CalcExpr.Tokenization.Tokens.Defaults
+  name: DiceEngine.Tokenization.Tokens.Defaults
+  nameWithType: DiceEngine.Tokenization.Tokens.Defaults
+  fullName: DiceEngine.Tokenization.Tokens.Defaults
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults
-  commentId: T:CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults
-  href: CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults.html
+- uid: DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults
+  commentId: T:DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults
+  href: DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults.html
   name: TokenizerDefaults
   nameWithType: TokenizerDefaults
-  fullName: CalcExpr.Tokenization.Tokens.Defaults.TokenizerDefaults
+  fullName: DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults

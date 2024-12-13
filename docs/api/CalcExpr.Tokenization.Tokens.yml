@@ -1,110 +1,110 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Tokenization.Tokens
-  commentId: N:CalcExpr.Tokenization.Tokens
-  id: CalcExpr.Tokenization.Tokens
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  id: DiceEngine.Tokenization.Tokens
   children:
-  - CalcExpr.Tokenization.Tokens.Bracket
-  - CalcExpr.Tokenization.Tokens.CloseBracketToken
-  - CalcExpr.Tokenization.Tokens.IToken
-  - CalcExpr.Tokenization.Tokens.NumberToken
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken
-  - CalcExpr.Tokenization.Tokens.SymbolToken
-  - CalcExpr.Tokenization.Tokens.Token
-  - CalcExpr.Tokenization.Tokens.WordToken
+  - DiceEngine.Tokenization.Tokens.Bracket
+  - DiceEngine.Tokenization.Tokens.CloseBracketToken
+  - DiceEngine.Tokenization.Tokens.IToken
+  - DiceEngine.Tokenization.Tokens.NumberToken
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken
+  - DiceEngine.Tokenization.Tokens.SymbolToken
+  - DiceEngine.Tokenization.Tokens.Token
+  - DiceEngine.Tokenization.Tokens.WordToken
   langs:
   - csharp
   - vb
-  name: CalcExpr.Tokenization.Tokens
-  nameWithType: CalcExpr.Tokenization.Tokens
-  fullName: CalcExpr.Tokenization.Tokens
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken
-  commentId: T:CalcExpr.Tokenization.Tokens.OpenBracketToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken
+  commentId: T:DiceEngine.Tokenization.Tokens.OpenBracketToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html
   name: OpenBracketToken
   nameWithType: OpenBracketToken
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken
-- uid: CalcExpr.Tokenization.Tokens.CloseBracketToken
-  commentId: T:CalcExpr.Tokenization.Tokens.CloseBracketToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.CloseBracketToken.html
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken
+- uid: DiceEngine.Tokenization.Tokens.CloseBracketToken
+  commentId: T:DiceEngine.Tokenization.Tokens.CloseBracketToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.CloseBracketToken.html
   name: CloseBracketToken
   nameWithType: CloseBracketToken
-  fullName: CalcExpr.Tokenization.Tokens.CloseBracketToken
-- uid: CalcExpr.Tokenization.Tokens.Bracket
-  commentId: T:CalcExpr.Tokenization.Tokens.Bracket
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.Bracket.html
+  fullName: DiceEngine.Tokenization.Tokens.CloseBracketToken
+- uid: DiceEngine.Tokenization.Tokens.Bracket
+  commentId: T:DiceEngine.Tokenization.Tokens.Bracket
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.Bracket.html
   name: Bracket
   nameWithType: Bracket
-  fullName: CalcExpr.Tokenization.Tokens.Bracket
-- uid: CalcExpr.Tokenization.Tokens.IToken
-  commentId: T:CalcExpr.Tokenization.Tokens.IToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.IToken.html
+  fullName: DiceEngine.Tokenization.Tokens.Bracket
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
   name: IToken
   nameWithType: IToken
-  fullName: CalcExpr.Tokenization.Tokens.IToken
-- uid: CalcExpr.Tokenization.Tokens.NumberToken
-  commentId: T:CalcExpr.Tokenization.Tokens.NumberToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.NumberToken.html
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+- uid: DiceEngine.Tokenization.Tokens.NumberToken
+  commentId: T:DiceEngine.Tokenization.Tokens.NumberToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html
   name: NumberToken
   nameWithType: NumberToken
-  fullName: CalcExpr.Tokenization.Tokens.NumberToken
-- uid: CalcExpr.Tokenization.Tokens.SymbolToken
-  commentId: T:CalcExpr.Tokenization.Tokens.SymbolToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.SymbolToken.html
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken
+- uid: DiceEngine.Tokenization.Tokens.SymbolToken
+  commentId: T:DiceEngine.Tokenization.Tokens.SymbolToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.SymbolToken.html
   name: SymbolToken
   nameWithType: SymbolToken
-  fullName: CalcExpr.Tokenization.Tokens.SymbolToken
-- uid: CalcExpr.Tokenization.Tokens.Token
-  commentId: T:CalcExpr.Tokenization.Tokens.Token
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.Token.html
+  fullName: DiceEngine.Tokenization.Tokens.SymbolToken
+- uid: DiceEngine.Tokenization.Tokens.Token
+  commentId: T:DiceEngine.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.Token.html
   name: Token
   nameWithType: Token
-  fullName: CalcExpr.Tokenization.Tokens.Token
-- uid: CalcExpr.Tokenization.Tokens.WordToken
-  commentId: T:CalcExpr.Tokenization.Tokens.WordToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.WordToken.html
+  fullName: DiceEngine.Tokenization.Tokens.Token
+- uid: DiceEngine.Tokenization.Tokens.WordToken
+  commentId: T:DiceEngine.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.WordToken.html
   name: WordToken
   nameWithType: WordToken
-  fullName: CalcExpr.Tokenization.Tokens.WordToken
-- uid: CalcExpr.Tokenization.Tokens
-  commentId: N:CalcExpr.Tokenization.Tokens
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Tokens
-  nameWithType: CalcExpr.Tokenization.Tokens
-  fullName: CalcExpr.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens.WordToken
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html

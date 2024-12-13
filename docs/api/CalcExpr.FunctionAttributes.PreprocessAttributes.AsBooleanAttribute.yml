@@ -1,37 +1,37 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
-  commentId: T:CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+  commentId: T:DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
   id: AsBooleanAttribute
-  parent: CalcExpr.FunctionAttributes.PreprocessAttributes
+  parent: DiceEngine.FunctionAttributes.PreprocessAttributes
   children:
-  - CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess(CalcExpr.Expressions.IExpression)
+  - DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess(DiceEngine.Expressions.IExpression)
   langs:
   - csharp
   - vb
   name: AsBooleanAttribute
   nameWithType: AsBooleanAttribute
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
   type: Class
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/PreprocessAttributes/AsBooleanAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/PreprocessAttributes/AsBooleanAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: AsBooleanAttribute
-    path: ../src/CalcExpr/FunctionAttributes/PreprocessAttributes/AsBooleanAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/PreprocessAttributes/AsBooleanAttribute.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes.PreprocessAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes.PreprocessAttributes
   syntax:
     content: 'public class AsBooleanAttribute : PreprocessAttribute'
     content.vb: Public Class AsBooleanAttribute Inherits PreprocessAttribute
   inheritance:
   - System.Object
   - System.Attribute
-  - CalcExpr.FunctionAttributes.FunctionAttribute
-  - CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  - DiceEngine.FunctionAttributes.FunctionAttribute
+  - DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
   inheritedMembers:
   - System.Attribute.Equals(System.Object)
   - System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
@@ -75,70 +75,70 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess(CalcExpr.Expressions.IExpression)
-  id: Preprocess(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess(DiceEngine.Expressions.IExpression)
+  id: Preprocess(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
   langs:
   - csharp
   - vb
   name: Preprocess(IExpression)
   nameWithType: AsBooleanAttribute.Preprocess(IExpression)
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/PreprocessAttributes/AsBooleanAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/PreprocessAttributes/AsBooleanAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Preprocess
-    path: ../src/CalcExpr/FunctionAttributes/PreprocessAttributes/AsBooleanAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/PreprocessAttributes/AsBooleanAttribute.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes.PreprocessAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes.PreprocessAttributes
   example: []
   syntax:
     content: public override IExpression Preprocess(IExpression expression)
     parameters:
     - id: expression
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     content.vb: Public Overrides Function Preprocess(expression As IExpression) As IExpression
-  overridden: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(CalcExpr.Expressions.IExpression)
-  overload: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess*
+  overridden: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(DiceEngine.Expressions.IExpression)
+  overload: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess*
 references:
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes
-  commentId: N:CalcExpr.FunctionAttributes.PreprocessAttributes
-  href: CalcExpr.html
-  name: CalcExpr.FunctionAttributes.PreprocessAttributes
-  nameWithType: CalcExpr.FunctionAttributes.PreprocessAttributes
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes
+  commentId: N:DiceEngine.FunctionAttributes.PreprocessAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes.PreprocessAttributes
+  nameWithType: DiceEngine.FunctionAttributes.PreprocessAttributes
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes.PreprocessAttributes
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes
     name: PreprocessAttributes
-    href: CalcExpr.FunctionAttributes.PreprocessAttributes.html
+    href: DiceEngine.FunctionAttributes.PreprocessAttributes.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes.PreprocessAttributes
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes
     name: PreprocessAttributes
-    href: CalcExpr.FunctionAttributes.PreprocessAttributes.html
+    href: DiceEngine.FunctionAttributes.PreprocessAttributes.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -158,20 +158,20 @@ references:
   name: Attribute
   nameWithType: Attribute
   fullName: System.Attribute
-- uid: CalcExpr.FunctionAttributes.FunctionAttribute
-  commentId: T:CalcExpr.FunctionAttributes.FunctionAttribute
-  parent: CalcExpr.FunctionAttributes
-  href: CalcExpr.FunctionAttributes.FunctionAttribute.html
+- uid: DiceEngine.FunctionAttributes.FunctionAttribute
+  commentId: T:DiceEngine.FunctionAttributes.FunctionAttribute
+  parent: DiceEngine.FunctionAttributes
+  href: DiceEngine.FunctionAttributes.FunctionAttribute.html
   name: FunctionAttribute
   nameWithType: FunctionAttribute
-  fullName: CalcExpr.FunctionAttributes.FunctionAttribute
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
-  commentId: T:CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
-  parent: CalcExpr.FunctionAttributes.PreprocessAttributes
-  href: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html
+  fullName: DiceEngine.FunctionAttributes.FunctionAttribute
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  commentId: T:DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  parent: DiceEngine.FunctionAttributes.PreprocessAttributes
+  href: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html
   name: PreprocessAttribute
   nameWithType: PreprocessAttribute
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
 - uid: System.Attribute.Equals(System.Object)
   commentId: M:System.Attribute.Equals(System.Object)
   parent: System.Attribute
@@ -1947,85 +1947,85 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.FunctionAttributes
-  commentId: N:CalcExpr.FunctionAttributes
-  href: CalcExpr.html
-  name: CalcExpr.FunctionAttributes
-  nameWithType: CalcExpr.FunctionAttributes
-  fullName: CalcExpr.FunctionAttributes
+- uid: DiceEngine.FunctionAttributes
+  commentId: N:DiceEngine.FunctionAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes
+  nameWithType: DiceEngine.FunctionAttributes
+  fullName: DiceEngine.FunctionAttributes
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
-  href: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html#CalcExpr_FunctionAttributes_PreprocessAttributes_PreprocessAttribute_Preprocess_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.FunctionAttributes.html
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  href: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html#DiceEngine_FunctionAttributes_PreprocessAttributes_PreprocessAttribute_Preprocess_DiceEngine_Expressions_IExpression_
   name: Preprocess(IExpression)
   nameWithType: PreprocessAttribute.Preprocess(IExpression)
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(DiceEngine.Expressions.IExpression)
   spec.csharp:
-  - uid: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(CalcExpr.Expressions.IExpression)
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(DiceEngine.Expressions.IExpression)
     name: Preprocess
-    href: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html#CalcExpr_FunctionAttributes_PreprocessAttributes_PreprocessAttribute_Preprocess_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html#DiceEngine_FunctionAttributes_PreprocessAttributes_PreprocessAttribute_Preprocess_DiceEngine_Expressions_IExpression_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(CalcExpr.Expressions.IExpression)
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.Preprocess(DiceEngine.Expressions.IExpression)
     name: Preprocess
-    href: CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html#CalcExpr_FunctionAttributes_PreprocessAttributes_PreprocessAttribute_Preprocess_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html#DiceEngine_FunctionAttributes_PreprocessAttributes_PreprocessAttribute_Preprocess_DiceEngine_Expressions_IExpression_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
-- uid: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess*
-  commentId: Overload:CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess
-  href: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.html#CalcExpr_FunctionAttributes_PreprocessAttributes_AsBooleanAttribute_Preprocess_CalcExpr_Expressions_IExpression_
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess*
+  commentId: Overload:DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess
+  href: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.html#DiceEngine_FunctionAttributes_PreprocessAttributes_AsBooleanAttribute_Preprocess_DiceEngine_Expressions_IExpression_
   name: Preprocess
   nameWithType: AsBooleanAttribute.Preprocess
-  fullName: CalcExpr.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.Preprocess
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html

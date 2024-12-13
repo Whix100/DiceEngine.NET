@@ -1,86 +1,86 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Tokenization.Rules
-  commentId: N:CalcExpr.Tokenization.Rules
-  id: CalcExpr.Tokenization.Rules
+- uid: DiceEngine.Tokenization.Rules
+  commentId: N:DiceEngine.Tokenization.Rules
+  id: DiceEngine.Tokenization.Rules
   children:
-  - CalcExpr.Tokenization.Rules.CharSetRule
-  - CalcExpr.Tokenization.Rules.ITokenizerRule
-  - CalcExpr.Tokenization.Rules.OptionRule
-  - CalcExpr.Tokenization.Rules.RegexRule
-  - CalcExpr.Tokenization.Rules.TokenizerRule
+  - DiceEngine.Tokenization.Rules.CharSetRule
+  - DiceEngine.Tokenization.Rules.ITokenizerRule
+  - DiceEngine.Tokenization.Rules.OptionRule
+  - DiceEngine.Tokenization.Rules.RegexRule
+  - DiceEngine.Tokenization.Rules.TokenizerRule
   langs:
   - csharp
   - vb
-  name: CalcExpr.Tokenization.Rules
-  nameWithType: CalcExpr.Tokenization.Rules
-  fullName: CalcExpr.Tokenization.Rules
+  name: DiceEngine.Tokenization.Rules
+  nameWithType: DiceEngine.Tokenization.Rules
+  fullName: DiceEngine.Tokenization.Rules
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Tokenization.Rules.CharSetRule
-  commentId: T:CalcExpr.Tokenization.Rules.CharSetRule
-  parent: CalcExpr.Tokenization.Rules
-  href: CalcExpr.Tokenization.Rules.CharSetRule.html
+- uid: DiceEngine.Tokenization.Rules.CharSetRule
+  commentId: T:DiceEngine.Tokenization.Rules.CharSetRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.CharSetRule.html
   name: CharSetRule
   nameWithType: CharSetRule
-  fullName: CalcExpr.Tokenization.Rules.CharSetRule
-- uid: CalcExpr.Tokenization.Rules.ITokenizerRule
-  commentId: T:CalcExpr.Tokenization.Rules.ITokenizerRule
-  parent: CalcExpr.Tokenization.Rules
-  href: CalcExpr.Tokenization.Rules.ITokenizerRule.html
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule
+  commentId: T:DiceEngine.Tokenization.Rules.ITokenizerRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html
   name: ITokenizerRule
   nameWithType: ITokenizerRule
-  fullName: CalcExpr.Tokenization.Rules.ITokenizerRule
-- uid: CalcExpr.Tokenization.Rules.OptionRule
-  commentId: T:CalcExpr.Tokenization.Rules.OptionRule
-  parent: CalcExpr.Tokenization.Rules
-  href: CalcExpr.Tokenization.Rules.OptionRule.html
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule
+- uid: DiceEngine.Tokenization.Rules.OptionRule
+  commentId: T:DiceEngine.Tokenization.Rules.OptionRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.OptionRule.html
   name: OptionRule
   nameWithType: OptionRule
-  fullName: CalcExpr.Tokenization.Rules.OptionRule
-- uid: CalcExpr.Tokenization.Rules.RegexRule
-  commentId: T:CalcExpr.Tokenization.Rules.RegexRule
-  parent: CalcExpr.Tokenization.Rules
-  href: CalcExpr.Tokenization.Rules.RegexRule.html
+  fullName: DiceEngine.Tokenization.Rules.OptionRule
+- uid: DiceEngine.Tokenization.Rules.RegexRule
+  commentId: T:DiceEngine.Tokenization.Rules.RegexRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.RegexRule.html
   name: RegexRule
   nameWithType: RegexRule
-  fullName: CalcExpr.Tokenization.Rules.RegexRule
-- uid: CalcExpr.Tokenization.Rules.TokenizerRule
-  commentId: T:CalcExpr.Tokenization.Rules.TokenizerRule
-  parent: CalcExpr.Tokenization.Rules
-  href: CalcExpr.Tokenization.Rules.TokenizerRule.html
+  fullName: DiceEngine.Tokenization.Rules.RegexRule
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule
+  commentId: T:DiceEngine.Tokenization.Rules.TokenizerRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.TokenizerRule.html
   name: TokenizerRule
   nameWithType: TokenizerRule
-  fullName: CalcExpr.Tokenization.Rules.TokenizerRule
-- uid: CalcExpr.Tokenization.Rules
-  commentId: N:CalcExpr.Tokenization.Rules
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Rules
-  nameWithType: CalcExpr.Tokenization.Rules
-  fullName: CalcExpr.Tokenization.Rules
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule
+- uid: DiceEngine.Tokenization.Rules
+  commentId: N:DiceEngine.Tokenization.Rules
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Rules
+  nameWithType: DiceEngine.Tokenization.Rules
+  fullName: DiceEngine.Tokenization.Rules
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Rules
+  - uid: DiceEngine.Tokenization.Rules
     name: Rules
-    href: CalcExpr.Tokenization.Rules.html
+    href: DiceEngine.Tokenization.Rules.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Rules
+  - uid: DiceEngine.Tokenization.Rules
     name: Rules
-    href: CalcExpr.Tokenization.Rules.html
+    href: DiceEngine.Tokenization.Rules.html

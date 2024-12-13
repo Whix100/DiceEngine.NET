@@ -1,62 +1,62 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Parsing
-  commentId: N:CalcExpr.Parsing
-  id: CalcExpr.Parsing
+- uid: DiceEngine.Parsing
+  commentId: N:DiceEngine.Parsing
+  id: DiceEngine.Parsing
   children:
-  - CalcExpr.Parsing.Brackets
-  - CalcExpr.Parsing.Parser
-  - CalcExpr.Parsing.TokenMatch
+  - DiceEngine.Parsing.Brackets
+  - DiceEngine.Parsing.Parser
+  - DiceEngine.Parsing.TokenMatch
   langs:
   - csharp
   - vb
-  name: CalcExpr.Parsing
-  nameWithType: CalcExpr.Parsing
-  fullName: CalcExpr.Parsing
+  name: DiceEngine.Parsing
+  nameWithType: DiceEngine.Parsing
+  fullName: DiceEngine.Parsing
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Parsing.Brackets
-  commentId: T:CalcExpr.Parsing.Brackets
-  parent: CalcExpr.Parsing
-  href: CalcExpr.Parsing.Brackets.html
+- uid: DiceEngine.Parsing.Brackets
+  commentId: T:DiceEngine.Parsing.Brackets
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.Brackets.html
   name: Brackets
   nameWithType: Brackets
-  fullName: CalcExpr.Parsing.Brackets
-- uid: CalcExpr.Parsing.Parser
-  commentId: T:CalcExpr.Parsing.Parser
-  parent: CalcExpr.Parsing
-  href: CalcExpr.Parsing.Parser.html
+  fullName: DiceEngine.Parsing.Brackets
+- uid: DiceEngine.Parsing.Parser
+  commentId: T:DiceEngine.Parsing.Parser
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.Parser.html
   name: Parser
   nameWithType: Parser
-  fullName: CalcExpr.Parsing.Parser
-- uid: CalcExpr.Parsing.TokenMatch
-  commentId: T:CalcExpr.Parsing.TokenMatch
-  parent: CalcExpr.Parsing
-  href: CalcExpr.Parsing.TokenMatch.html
+  fullName: DiceEngine.Parsing.Parser
+- uid: DiceEngine.Parsing.TokenMatch
+  commentId: T:DiceEngine.Parsing.TokenMatch
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.TokenMatch.html
   name: TokenMatch
   nameWithType: TokenMatch
-  fullName: CalcExpr.Parsing.TokenMatch
-- uid: CalcExpr.Parsing
-  commentId: N:CalcExpr.Parsing
-  href: CalcExpr.html
-  name: CalcExpr.Parsing
-  nameWithType: CalcExpr.Parsing
-  fullName: CalcExpr.Parsing
+  fullName: DiceEngine.Parsing.TokenMatch
+- uid: DiceEngine.Parsing
+  commentId: N:DiceEngine.Parsing
+  href: DiceEngine.html
+  name: DiceEngine.Parsing
+  nameWithType: DiceEngine.Parsing
+  fullName: DiceEngine.Parsing
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html

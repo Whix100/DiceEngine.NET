@@ -1,23 +1,23 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Parsing.Defaults
-  commentId: N:CalcExpr.Parsing.Defaults
-  id: CalcExpr.Parsing.Defaults
+- uid: DiceEngine.Parsing.Defaults
+  commentId: N:DiceEngine.Parsing.Defaults
+  id: DiceEngine.Parsing.Defaults
   children:
-  - CalcExpr.Parsing.Defaults.ParserDefaults
+  - DiceEngine.Parsing.Defaults.ParserDefaults
   langs:
   - csharp
   - vb
-  name: CalcExpr.Parsing.Defaults
-  nameWithType: CalcExpr.Parsing.Defaults
-  fullName: CalcExpr.Parsing.Defaults
+  name: DiceEngine.Parsing.Defaults
+  nameWithType: DiceEngine.Parsing.Defaults
+  fullName: DiceEngine.Parsing.Defaults
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Parsing.Defaults.ParserDefaults
-  commentId: T:CalcExpr.Parsing.Defaults.ParserDefaults
-  href: CalcExpr.Parsing.Defaults.ParserDefaults.html
+- uid: DiceEngine.Parsing.Defaults.ParserDefaults
+  commentId: T:DiceEngine.Parsing.Defaults.ParserDefaults
+  href: DiceEngine.Parsing.Defaults.ParserDefaults.html
   name: ParserDefaults
   nameWithType: ParserDefaults
-  fullName: CalcExpr.Parsing.Defaults.ParserDefaults
+  fullName: DiceEngine.Parsing.Defaults.ParserDefaults

@@ -1,51 +1,51 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.NativeFunctions
-  commentId: N:CalcExpr.NativeFunctions
-  id: CalcExpr.NativeFunctions
+- uid: DiceEngine.NativeFunctions
+  commentId: N:DiceEngine.NativeFunctions
+  id: DiceEngine.NativeFunctions
   children:
-  - CalcExpr.NativeFunctions.CollectionFunctions
-  - CalcExpr.NativeFunctions.FactorialFunctions
-  - CalcExpr.NativeFunctions.LogicalFunctions
-  - CalcExpr.NativeFunctions.StatisticalFunctions
-  - CalcExpr.NativeFunctions.TrigonometricFunctions
+  - DiceEngine.NativeFunctions.CollectionFunctions
+  - DiceEngine.NativeFunctions.FactorialFunctions
+  - DiceEngine.NativeFunctions.LogicalFunctions
+  - DiceEngine.NativeFunctions.StatisticalFunctions
+  - DiceEngine.NativeFunctions.TrigonometricFunctions
   langs:
   - csharp
   - vb
-  name: CalcExpr.NativeFunctions
-  nameWithType: CalcExpr.NativeFunctions
-  fullName: CalcExpr.NativeFunctions
+  name: DiceEngine.NativeFunctions
+  nameWithType: DiceEngine.NativeFunctions
+  fullName: DiceEngine.NativeFunctions
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.NativeFunctions.CollectionFunctions
-  commentId: T:CalcExpr.NativeFunctions.CollectionFunctions
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html
+- uid: DiceEngine.NativeFunctions.CollectionFunctions
+  commentId: T:DiceEngine.NativeFunctions.CollectionFunctions
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html
   name: CollectionFunctions
   nameWithType: CollectionFunctions
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions
-- uid: CalcExpr.NativeFunctions.FactorialFunctions
-  commentId: T:CalcExpr.NativeFunctions.FactorialFunctions
-  href: CalcExpr.NativeFunctions.FactorialFunctions.html
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions
+- uid: DiceEngine.NativeFunctions.FactorialFunctions
+  commentId: T:DiceEngine.NativeFunctions.FactorialFunctions
+  href: DiceEngine.NativeFunctions.FactorialFunctions.html
   name: FactorialFunctions
   nameWithType: FactorialFunctions
-  fullName: CalcExpr.NativeFunctions.FactorialFunctions
-- uid: CalcExpr.NativeFunctions.LogicalFunctions
-  commentId: T:CalcExpr.NativeFunctions.LogicalFunctions
-  href: CalcExpr.NativeFunctions.LogicalFunctions.html
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions
+- uid: DiceEngine.NativeFunctions.LogicalFunctions
+  commentId: T:DiceEngine.NativeFunctions.LogicalFunctions
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html
   name: LogicalFunctions
   nameWithType: LogicalFunctions
-  fullName: CalcExpr.NativeFunctions.LogicalFunctions
-- uid: CalcExpr.NativeFunctions.StatisticalFunctions
-  commentId: T:CalcExpr.NativeFunctions.StatisticalFunctions
-  href: CalcExpr.NativeFunctions.StatisticalFunctions.html
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions
+  commentId: T:DiceEngine.NativeFunctions.StatisticalFunctions
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html
   name: StatisticalFunctions
   nameWithType: StatisticalFunctions
-  fullName: CalcExpr.NativeFunctions.StatisticalFunctions
-- uid: CalcExpr.NativeFunctions.TrigonometricFunctions
-  commentId: T:CalcExpr.NativeFunctions.TrigonometricFunctions
-  href: CalcExpr.NativeFunctions.TrigonometricFunctions.html
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions
+  commentId: T:DiceEngine.NativeFunctions.TrigonometricFunctions
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html
   name: TrigonometricFunctions
   nameWithType: TrigonometricFunctions
-  fullName: CalcExpr.NativeFunctions.TrigonometricFunctions
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions

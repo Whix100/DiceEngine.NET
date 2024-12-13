@@ -1,36 +1,36 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Parsing.TokenMatch
-  commentId: T:CalcExpr.Parsing.TokenMatch
+- uid: DiceEngine.Parsing.TokenMatch
+  commentId: T:DiceEngine.Parsing.TokenMatch
   id: TokenMatch
-  parent: CalcExpr.Parsing
+  parent: DiceEngine.Parsing
   children:
-  - CalcExpr.Parsing.TokenMatch.#ctor(System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken},System.Int32)
-  - CalcExpr.Parsing.TokenMatch.GetEnumerator
-  - CalcExpr.Parsing.TokenMatch.Index
-  - CalcExpr.Parsing.TokenMatch.Item(System.Int32)
-  - CalcExpr.Parsing.TokenMatch.Item(System.Range)
-  - CalcExpr.Parsing.TokenMatch.Length
-  - CalcExpr.Parsing.TokenMatch.Match
-  - CalcExpr.Parsing.TokenMatch.Value
+  - DiceEngine.Parsing.TokenMatch.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},System.Int32)
+  - DiceEngine.Parsing.TokenMatch.GetEnumerator
+  - DiceEngine.Parsing.TokenMatch.Index
+  - DiceEngine.Parsing.TokenMatch.Item(System.Int32)
+  - DiceEngine.Parsing.TokenMatch.Item(System.Range)
+  - DiceEngine.Parsing.TokenMatch.Length
+  - DiceEngine.Parsing.TokenMatch.Match
+  - DiceEngine.Parsing.TokenMatch.Value
   langs:
   - csharp
   - vb
   name: TokenMatch
   nameWithType: TokenMatch
-  fullName: CalcExpr.Parsing.TokenMatch
+  fullName: DiceEngine.Parsing.TokenMatch
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Parsing/TokenMatch.cs
+      path: src/DiceEngine/Parsing/TokenMatch.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: TokenMatch
-    path: ../src/CalcExpr/Parsing/TokenMatch.cs
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
     startLine: 12
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   summary: A subset of tokens that match a rule.
   example: []
   syntax:
@@ -39,7 +39,7 @@ items:
   inheritance:
   - System.Object
   implements:
-  - System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken}
+  - System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
   - System.Collections.IEnumerable
   inheritedMembers:
   - System.Object.Equals(System.Object)
@@ -49,284 +49,284 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.Parsing.TokenMatch.#ctor(System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken},System.Int32)
-  commentId: M:CalcExpr.Parsing.TokenMatch.#ctor(System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken},System.Int32)
-  id: '#ctor(System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken},System.Int32)'
-  parent: CalcExpr.Parsing.TokenMatch
+- uid: DiceEngine.Parsing.TokenMatch.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},System.Int32)
+  commentId: M:DiceEngine.Parsing.TokenMatch.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},System.Int32)
+  id: '#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},System.Int32)'
+  parent: DiceEngine.Parsing.TokenMatch
   langs:
   - csharp
   - vb
   name: TokenMatch(IEnumerable<IToken>, int)
   nameWithType: TokenMatch.TokenMatch(IEnumerable<IToken>, int)
-  fullName: CalcExpr.Parsing.TokenMatch.TokenMatch(System.Collections.Generic.IEnumerable<CalcExpr.Tokenization.Tokens.IToken>, int)
+  fullName: DiceEngine.Parsing.TokenMatch.TokenMatch(System.Collections.Generic.IEnumerable<DiceEngine.Tokenization.Tokens.IToken>, int)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Parsing/TokenMatch.cs
+      path: src/DiceEngine/Parsing/TokenMatch.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Parsing/TokenMatch.cs
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
     startLine: 12
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   summary: A subset of tokens that match a rule.
   example: []
   syntax:
     content: public TokenMatch(IEnumerable<IToken> match, int index)
     parameters:
     - id: match
-      type: System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken}
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
       description: The matching subset of tokens.
     - id: index
       type: System.Int32
       description: The index in the list of tokens where the match was found.
     content.vb: Public Sub New(match As IEnumerable(Of IToken), index As Integer)
-  overload: CalcExpr.Parsing.TokenMatch.#ctor*
+  overload: DiceEngine.Parsing.TokenMatch.#ctor*
   nameWithType.vb: TokenMatch.New(IEnumerable(Of IToken), Integer)
-  fullName.vb: CalcExpr.Parsing.TokenMatch.New(System.Collections.Generic.IEnumerable(Of CalcExpr.Tokenization.Tokens.IToken), Integer)
+  fullName.vb: DiceEngine.Parsing.TokenMatch.New(System.Collections.Generic.IEnumerable(Of DiceEngine.Tokenization.Tokens.IToken), Integer)
   name.vb: New(IEnumerable(Of IToken), Integer)
-- uid: CalcExpr.Parsing.TokenMatch.Match
-  commentId: P:CalcExpr.Parsing.TokenMatch.Match
+- uid: DiceEngine.Parsing.TokenMatch.Match
+  commentId: P:DiceEngine.Parsing.TokenMatch.Match
   id: Match
-  parent: CalcExpr.Parsing.TokenMatch
+  parent: DiceEngine.Parsing.TokenMatch
   langs:
   - csharp
   - vb
   name: Match
   nameWithType: TokenMatch.Match
-  fullName: CalcExpr.Parsing.TokenMatch.Match
+  fullName: DiceEngine.Parsing.TokenMatch.Match
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Parsing/TokenMatch.cs
+      path: src/DiceEngine/Parsing/TokenMatch.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Match
-    path: ../src/CalcExpr/Parsing/TokenMatch.cs
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
     startLine: 16
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: public IReadOnlyList<IToken> Match { get; }
     parameters: []
     return:
-      type: System.Collections.Generic.IReadOnlyList{CalcExpr.Tokenization.Tokens.IToken}
+      type: System.Collections.Generic.IReadOnlyList{DiceEngine.Tokenization.Tokens.IToken}
     content.vb: Public ReadOnly Property Match As IReadOnlyList(Of IToken)
-  overload: CalcExpr.Parsing.TokenMatch.Match*
-- uid: CalcExpr.Parsing.TokenMatch.Index
-  commentId: P:CalcExpr.Parsing.TokenMatch.Index
+  overload: DiceEngine.Parsing.TokenMatch.Match*
+- uid: DiceEngine.Parsing.TokenMatch.Index
+  commentId: P:DiceEngine.Parsing.TokenMatch.Index
   id: Index
-  parent: CalcExpr.Parsing.TokenMatch
+  parent: DiceEngine.Parsing.TokenMatch
   langs:
   - csharp
   - vb
   name: Index
   nameWithType: TokenMatch.Index
-  fullName: CalcExpr.Parsing.TokenMatch.Index
+  fullName: DiceEngine.Parsing.TokenMatch.Index
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Parsing/TokenMatch.cs
+      path: src/DiceEngine/Parsing/TokenMatch.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Index
-    path: ../src/CalcExpr/Parsing/TokenMatch.cs
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
     startLine: 18
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: public int Index { get; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public ReadOnly Property Index As Integer
-  overload: CalcExpr.Parsing.TokenMatch.Index*
-- uid: CalcExpr.Parsing.TokenMatch.Length
-  commentId: P:CalcExpr.Parsing.TokenMatch.Length
+  overload: DiceEngine.Parsing.TokenMatch.Index*
+- uid: DiceEngine.Parsing.TokenMatch.Length
+  commentId: P:DiceEngine.Parsing.TokenMatch.Length
   id: Length
-  parent: CalcExpr.Parsing.TokenMatch
+  parent: DiceEngine.Parsing.TokenMatch
   langs:
   - csharp
   - vb
   name: Length
   nameWithType: TokenMatch.Length
-  fullName: CalcExpr.Parsing.TokenMatch.Length
+  fullName: DiceEngine.Parsing.TokenMatch.Length
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Parsing/TokenMatch.cs
+      path: src/DiceEngine/Parsing/TokenMatch.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Length
-    path: ../src/CalcExpr/Parsing/TokenMatch.cs
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
     startLine: 20
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: public int Length { get; }
     parameters: []
     return:
       type: System.Int32
     content.vb: Public ReadOnly Property Length As Integer
-  overload: CalcExpr.Parsing.TokenMatch.Length*
-- uid: CalcExpr.Parsing.TokenMatch.Value
-  commentId: P:CalcExpr.Parsing.TokenMatch.Value
+  overload: DiceEngine.Parsing.TokenMatch.Length*
+- uid: DiceEngine.Parsing.TokenMatch.Value
+  commentId: P:DiceEngine.Parsing.TokenMatch.Value
   id: Value
-  parent: CalcExpr.Parsing.TokenMatch
+  parent: DiceEngine.Parsing.TokenMatch
   langs:
   - csharp
   - vb
   name: Value
   nameWithType: TokenMatch.Value
-  fullName: CalcExpr.Parsing.TokenMatch.Value
+  fullName: DiceEngine.Parsing.TokenMatch.Value
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Parsing/TokenMatch.cs
+      path: src/DiceEngine/Parsing/TokenMatch.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Value
-    path: ../src/CalcExpr/Parsing/TokenMatch.cs
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
     startLine: 22
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: public string Value { get; }
     parameters: []
     return:
       type: System.String
     content.vb: Public ReadOnly Property Value As String
-  overload: CalcExpr.Parsing.TokenMatch.Value*
-- uid: CalcExpr.Parsing.TokenMatch.Item(System.Int32)
-  commentId: P:CalcExpr.Parsing.TokenMatch.Item(System.Int32)
+  overload: DiceEngine.Parsing.TokenMatch.Value*
+- uid: DiceEngine.Parsing.TokenMatch.Item(System.Int32)
+  commentId: P:DiceEngine.Parsing.TokenMatch.Item(System.Int32)
   id: Item(System.Int32)
-  parent: CalcExpr.Parsing.TokenMatch
+  parent: DiceEngine.Parsing.TokenMatch
   langs:
   - csharp
   - vb
   name: this[int]
   nameWithType: TokenMatch.this[int]
-  fullName: CalcExpr.Parsing.TokenMatch.this[int]
+  fullName: DiceEngine.Parsing.TokenMatch.this[int]
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Parsing/TokenMatch.cs
+      path: src/DiceEngine/Parsing/TokenMatch.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: this[]
-    path: ../src/CalcExpr/Parsing/TokenMatch.cs
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
     startLine: 24
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: public IToken this[int index] { get; }
     parameters:
     - id: index
       type: System.Int32
     return:
-      type: CalcExpr.Tokenization.Tokens.IToken
+      type: DiceEngine.Tokenization.Tokens.IToken
     content.vb: Public ReadOnly Default Property this[](index As Integer) As IToken
-  overload: CalcExpr.Parsing.TokenMatch.Item*
+  overload: DiceEngine.Parsing.TokenMatch.Item*
   nameWithType.vb: TokenMatch.this[](Integer)
-  fullName.vb: CalcExpr.Parsing.TokenMatch.this[](Integer)
+  fullName.vb: DiceEngine.Parsing.TokenMatch.this[](Integer)
   name.vb: this[](Integer)
-- uid: CalcExpr.Parsing.TokenMatch.Item(System.Range)
-  commentId: P:CalcExpr.Parsing.TokenMatch.Item(System.Range)
+- uid: DiceEngine.Parsing.TokenMatch.Item(System.Range)
+  commentId: P:DiceEngine.Parsing.TokenMatch.Item(System.Range)
   id: Item(System.Range)
-  parent: CalcExpr.Parsing.TokenMatch
+  parent: DiceEngine.Parsing.TokenMatch
   langs:
   - csharp
   - vb
   name: this[Range]
   nameWithType: TokenMatch.this[Range]
-  fullName: CalcExpr.Parsing.TokenMatch.this[System.Range]
+  fullName: DiceEngine.Parsing.TokenMatch.this[System.Range]
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Parsing/TokenMatch.cs
+      path: src/DiceEngine/Parsing/TokenMatch.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: this[]
-    path: ../src/CalcExpr/Parsing/TokenMatch.cs
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
     startLine: 26
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: public ImmutableArray<IToken> this[Range range] { get; }
     parameters:
     - id: range
       type: System.Range
     return:
-      type: System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken}
+      type: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
     content.vb: Public ReadOnly Default Property this[](range As Range) As ImmutableArray(Of IToken)
-  overload: CalcExpr.Parsing.TokenMatch.Item*
+  overload: DiceEngine.Parsing.TokenMatch.Item*
   nameWithType.vb: TokenMatch.this[](Range)
-  fullName.vb: CalcExpr.Parsing.TokenMatch.this[](System.Range)
+  fullName.vb: DiceEngine.Parsing.TokenMatch.this[](System.Range)
   name.vb: this[](Range)
-- uid: CalcExpr.Parsing.TokenMatch.GetEnumerator
-  commentId: M:CalcExpr.Parsing.TokenMatch.GetEnumerator
+- uid: DiceEngine.Parsing.TokenMatch.GetEnumerator
+  commentId: M:DiceEngine.Parsing.TokenMatch.GetEnumerator
   id: GetEnumerator
-  parent: CalcExpr.Parsing.TokenMatch
+  parent: DiceEngine.Parsing.TokenMatch
   langs:
   - csharp
   - vb
   name: GetEnumerator()
   nameWithType: TokenMatch.GetEnumerator()
-  fullName: CalcExpr.Parsing.TokenMatch.GetEnumerator()
+  fullName: DiceEngine.Parsing.TokenMatch.GetEnumerator()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Parsing/TokenMatch.cs
+      path: src/DiceEngine/Parsing/TokenMatch.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetEnumerator
-    path: ../src/CalcExpr/Parsing/TokenMatch.cs
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
     startLine: 28
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   summary: Returns an enumerator that iterates through the collection.
   example: []
   syntax:
     content: public IEnumerator<IToken> GetEnumerator()
     return:
-      type: System.Collections.Generic.IEnumerator{CalcExpr.Tokenization.Tokens.IToken}
+      type: System.Collections.Generic.IEnumerator{DiceEngine.Tokenization.Tokens.IToken}
       description: An enumerator that can be used to iterate through the collection.
     content.vb: Public Function GetEnumerator() As IEnumerator(Of IToken)
-  overload: CalcExpr.Parsing.TokenMatch.GetEnumerator*
+  overload: DiceEngine.Parsing.TokenMatch.GetEnumerator*
   implements:
-  - System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken}.GetEnumerator
+  - System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}.GetEnumerator
 references:
-- uid: CalcExpr.Parsing
-  commentId: N:CalcExpr.Parsing
-  href: CalcExpr.html
-  name: CalcExpr.Parsing
-  nameWithType: CalcExpr.Parsing
-  fullName: CalcExpr.Parsing
+- uid: DiceEngine.Parsing
+  commentId: N:DiceEngine.Parsing
+  href: DiceEngine.html
+  name: DiceEngine.Parsing
+  nameWithType: DiceEngine.Parsing
+  fullName: DiceEngine.Parsing
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -338,16 +338,16 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken}
-  commentId: T:System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken}
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<IToken>
   nameWithType: IEnumerable<IToken>
-  fullName: System.Collections.Generic.IEnumerable<CalcExpr.Tokenization.Tokens.IToken>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Tokenization.Tokens.IToken>
   nameWithType.vb: IEnumerable(Of IToken)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Tokenization.Tokens.IToken)
   name.vb: IEnumerable(Of IToken)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -355,9 +355,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -367,9 +367,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
 - uid: System.Collections.IEnumerable
   commentId: T:System.Collections.IEnumerable
@@ -697,14 +697,14 @@ references:
     name: Collections
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections
-- uid: CalcExpr.Parsing.TokenMatch.#ctor*
-  commentId: Overload:CalcExpr.Parsing.TokenMatch.#ctor
-  href: CalcExpr.Parsing.TokenMatch.html#CalcExpr_Parsing_TokenMatch__ctor_System_Collections_Generic_IEnumerable_CalcExpr_Tokenization_Tokens_IToken__System_Int32_
+- uid: DiceEngine.Parsing.TokenMatch.#ctor*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.#ctor
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch__ctor_System_Collections_Generic_IEnumerable_DiceEngine_Tokenization_Tokens_IToken__System_Int32_
   name: TokenMatch
   nameWithType: TokenMatch.TokenMatch
-  fullName: CalcExpr.Parsing.TokenMatch.TokenMatch
+  fullName: DiceEngine.Parsing.TokenMatch.TokenMatch
   nameWithType.vb: TokenMatch.New
-  fullName.vb: CalcExpr.Parsing.TokenMatch.New
+  fullName.vb: DiceEngine.Parsing.TokenMatch.New
   name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
@@ -717,22 +717,22 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: CalcExpr.Parsing.TokenMatch.Match*
-  commentId: Overload:CalcExpr.Parsing.TokenMatch.Match
-  href: CalcExpr.Parsing.TokenMatch.html#CalcExpr_Parsing_TokenMatch_Match
+- uid: DiceEngine.Parsing.TokenMatch.Match*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.Match
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_Match
   name: Match
   nameWithType: TokenMatch.Match
-  fullName: CalcExpr.Parsing.TokenMatch.Match
-- uid: System.Collections.Generic.IReadOnlyList{CalcExpr.Tokenization.Tokens.IToken}
-  commentId: T:System.Collections.Generic.IReadOnlyList{CalcExpr.Tokenization.Tokens.IToken}
+  fullName: DiceEngine.Parsing.TokenMatch.Match
+- uid: System.Collections.Generic.IReadOnlyList{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Generic.IReadOnlyList{DiceEngine.Tokenization.Tokens.IToken}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IReadOnlyList`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
   name: IReadOnlyList<IToken>
   nameWithType: IReadOnlyList<IToken>
-  fullName: System.Collections.Generic.IReadOnlyList<CalcExpr.Tokenization.Tokens.IToken>
+  fullName: System.Collections.Generic.IReadOnlyList<DiceEngine.Tokenization.Tokens.IToken>
   nameWithType.vb: IReadOnlyList(Of IToken)
-  fullName.vb: System.Collections.Generic.IReadOnlyList(Of CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of DiceEngine.Tokenization.Tokens.IToken)
   name.vb: IReadOnlyList(Of IToken)
   spec.csharp:
   - uid: System.Collections.Generic.IReadOnlyList`1
@@ -740,9 +740,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IReadOnlyList`1
@@ -752,9 +752,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
 - uid: System.Collections.Generic.IReadOnlyList`1
   commentId: T:System.Collections.Generic.IReadOnlyList`1
@@ -784,24 +784,24 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: CalcExpr.Parsing.TokenMatch.Index*
-  commentId: Overload:CalcExpr.Parsing.TokenMatch.Index
-  href: CalcExpr.Parsing.TokenMatch.html#CalcExpr_Parsing_TokenMatch_Index
+- uid: DiceEngine.Parsing.TokenMatch.Index*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.Index
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_Index
   name: Index
   nameWithType: TokenMatch.Index
-  fullName: CalcExpr.Parsing.TokenMatch.Index
-- uid: CalcExpr.Parsing.TokenMatch.Length*
-  commentId: Overload:CalcExpr.Parsing.TokenMatch.Length
-  href: CalcExpr.Parsing.TokenMatch.html#CalcExpr_Parsing_TokenMatch_Length
+  fullName: DiceEngine.Parsing.TokenMatch.Index
+- uid: DiceEngine.Parsing.TokenMatch.Length*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.Length
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_Length
   name: Length
   nameWithType: TokenMatch.Length
-  fullName: CalcExpr.Parsing.TokenMatch.Length
-- uid: CalcExpr.Parsing.TokenMatch.Value*
-  commentId: Overload:CalcExpr.Parsing.TokenMatch.Value
-  href: CalcExpr.Parsing.TokenMatch.html#CalcExpr_Parsing_TokenMatch_Value
+  fullName: DiceEngine.Parsing.TokenMatch.Length
+- uid: DiceEngine.Parsing.TokenMatch.Value*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.Value
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_Value
   name: Value
   nameWithType: TokenMatch.Value
-  fullName: CalcExpr.Parsing.TokenMatch.Value
+  fullName: DiceEngine.Parsing.TokenMatch.Value
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -813,52 +813,52 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Parsing.TokenMatch.Item*
-  commentId: Overload:CalcExpr.Parsing.TokenMatch.Item
-  href: CalcExpr.Parsing.TokenMatch.html#CalcExpr_Parsing_TokenMatch_Item_System_Int32_
+- uid: DiceEngine.Parsing.TokenMatch.Item*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.Item
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_Item_System_Int32_
   name: this
   nameWithType: TokenMatch.this
-  fullName: CalcExpr.Parsing.TokenMatch.this
+  fullName: DiceEngine.Parsing.TokenMatch.this
   nameWithType.vb: TokenMatch.this[]
-  fullName.vb: CalcExpr.Parsing.TokenMatch.this[]
+  fullName.vb: DiceEngine.Parsing.TokenMatch.this[]
   name.vb: this[]
-- uid: CalcExpr.Tokenization.Tokens.IToken
-  commentId: T:CalcExpr.Tokenization.Tokens.IToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.IToken.html
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
   name: IToken
   nameWithType: IToken
-  fullName: CalcExpr.Tokenization.Tokens.IToken
-- uid: CalcExpr.Tokenization.Tokens
-  commentId: N:CalcExpr.Tokenization.Tokens
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Tokens
-  nameWithType: CalcExpr.Tokenization.Tokens
-  fullName: CalcExpr.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
 - uid: System.Range
   commentId: T:System.Range
   parent: System
@@ -867,16 +867,16 @@ references:
   name: Range
   nameWithType: Range
   fullName: System.Range
-- uid: System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken}
-  commentId: T:System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken}
+- uid: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
   parent: System.Collections.Immutable
   definition: System.Collections.Immutable.ImmutableArray`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   name: ImmutableArray<IToken>
   nameWithType: ImmutableArray<IToken>
-  fullName: System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>
+  fullName: System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>
   nameWithType.vb: ImmutableArray(Of IToken)
-  fullName.vb: System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken)
   name.vb: ImmutableArray(Of IToken)
   spec.csharp:
   - uid: System.Collections.Immutable.ImmutableArray`1
@@ -884,9 +884,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Immutable.ImmutableArray`1
@@ -896,9 +896,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
 - uid: System.Collections.Immutable.ImmutableArray`1
   commentId: T:System.Collections.Immutable.ImmutableArray`1
@@ -965,46 +965,46 @@ references:
     name: Immutable
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
-- uid: CalcExpr.Parsing.TokenMatch.GetEnumerator*
-  commentId: Overload:CalcExpr.Parsing.TokenMatch.GetEnumerator
-  href: CalcExpr.Parsing.TokenMatch.html#CalcExpr_Parsing_TokenMatch_GetEnumerator
+- uid: DiceEngine.Parsing.TokenMatch.GetEnumerator*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.GetEnumerator
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_GetEnumerator
   name: GetEnumerator
   nameWithType: TokenMatch.GetEnumerator
-  fullName: CalcExpr.Parsing.TokenMatch.GetEnumerator
-- uid: System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken}.GetEnumerator
-  commentId: M:System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken}.GetEnumerator
-  parent: System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken}
+  fullName: DiceEngine.Parsing.TokenMatch.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
   definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
   name: GetEnumerator()
   nameWithType: IEnumerable<IToken>.GetEnumerator()
-  fullName: System.Collections.Generic.IEnumerable<CalcExpr.Tokenization.Tokens.IToken>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Tokenization.Tokens.IToken>.GetEnumerator()
   nameWithType.vb: IEnumerable(Of IToken).GetEnumerator()
-  fullName.vb: System.Collections.Generic.IEnumerable(Of CalcExpr.Tokenization.Tokens.IToken).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Tokenization.Tokens.IToken).GetEnumerator()
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken}.GetEnumerator
+  - uid: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}.GetEnumerator
     name: GetEnumerator
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
   - name: (
   - name: )
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable{CalcExpr.Tokenization.Tokens.IToken}.GetEnumerator
+  - uid: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}.GetEnumerator
     name: GetEnumerator
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
   - name: (
   - name: )
-- uid: System.Collections.Generic.IEnumerator{CalcExpr.Tokenization.Tokens.IToken}
-  commentId: T:System.Collections.Generic.IEnumerator{CalcExpr.Tokenization.Tokens.IToken}
+- uid: System.Collections.Generic.IEnumerator{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Generic.IEnumerator{DiceEngine.Tokenization.Tokens.IToken}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerator`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
   name: IEnumerator<IToken>
   nameWithType: IEnumerator<IToken>
-  fullName: System.Collections.Generic.IEnumerator<CalcExpr.Tokenization.Tokens.IToken>
+  fullName: System.Collections.Generic.IEnumerator<DiceEngine.Tokenization.Tokens.IToken>
   nameWithType.vb: IEnumerator(Of IToken)
-  fullName.vb: System.Collections.Generic.IEnumerator(Of CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of DiceEngine.Tokenization.Tokens.IToken)
   name.vb: IEnumerator(Of IToken)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerator`1
@@ -1012,9 +1012,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerator`1
@@ -1024,9 +1024,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
 - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
   commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator

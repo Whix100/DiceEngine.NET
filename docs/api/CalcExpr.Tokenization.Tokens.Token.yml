@@ -1,41 +1,41 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Tokenization.Tokens.Token
-  commentId: T:CalcExpr.Tokenization.Tokens.Token
+- uid: DiceEngine.Tokenization.Tokens.Token
+  commentId: T:DiceEngine.Tokenization.Tokens.Token
   id: Token
-  parent: CalcExpr.Tokenization.Tokens
+  parent: DiceEngine.Tokenization.Tokens
   children:
-  - CalcExpr.Tokenization.Tokens.Token.#ctor(System.String,System.Int32)
-  - CalcExpr.Tokenization.Tokens.Token.Equals(System.Object)
-  - CalcExpr.Tokenization.Tokens.Token.GetHashCode
-  - CalcExpr.Tokenization.Tokens.Token.Index
-  - CalcExpr.Tokenization.Tokens.Token.Item(System.Int32)
-  - CalcExpr.Tokenization.Tokens.Token.Item(System.Range)
-  - CalcExpr.Tokenization.Tokens.Token.RegexAlias
-  - CalcExpr.Tokenization.Tokens.Token.Value
-  - CalcExpr.Tokenization.Tokens.Token.op_Equality(CalcExpr.Tokenization.Tokens.Token,CalcExpr.Tokenization.Tokens.IToken)
-  - CalcExpr.Tokenization.Tokens.Token.op_Implicit(CalcExpr.Tokenization.Tokens.Token)~System.String
-  - CalcExpr.Tokenization.Tokens.Token.op_Implicit(System.Text.RegularExpressions.Match)~CalcExpr.Tokenization.Tokens.Token
-  - CalcExpr.Tokenization.Tokens.Token.op_Inequality(CalcExpr.Tokenization.Tokens.Token,CalcExpr.Tokenization.Tokens.IToken)
+  - DiceEngine.Tokenization.Tokens.Token.#ctor(System.String,System.Int32)
+  - DiceEngine.Tokenization.Tokens.Token.Equals(System.Object)
+  - DiceEngine.Tokenization.Tokens.Token.GetHashCode
+  - DiceEngine.Tokenization.Tokens.Token.Index
+  - DiceEngine.Tokenization.Tokens.Token.Item(System.Int32)
+  - DiceEngine.Tokenization.Tokens.Token.Item(System.Range)
+  - DiceEngine.Tokenization.Tokens.Token.RegexAlias
+  - DiceEngine.Tokenization.Tokens.Token.Value
+  - DiceEngine.Tokenization.Tokens.Token.op_Equality(DiceEngine.Tokenization.Tokens.Token,DiceEngine.Tokenization.Tokens.IToken)
+  - DiceEngine.Tokenization.Tokens.Token.op_Implicit(DiceEngine.Tokenization.Tokens.Token)~System.String
+  - DiceEngine.Tokenization.Tokens.Token.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.Token
+  - DiceEngine.Tokenization.Tokens.Token.op_Inequality(DiceEngine.Tokenization.Tokens.Token,DiceEngine.Tokenization.Tokens.IToken)
   langs:
   - csharp
   - vb
   name: Token
   nameWithType: Token
-  fullName: CalcExpr.Tokenization.Tokens.Token
+  fullName: DiceEngine.Tokenization.Tokens.Token
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Token
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 11
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
-  summary: A substring that matches a <xref href="CalcExpr.Tokenization.Rules.ITokenizerRule" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: A substring that matches a <xref href="DiceEngine.Tokenization.Rules.ITokenizerRule" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: 'public class Token : IToken'
@@ -43,73 +43,73 @@ items:
   inheritance:
   - System.Object
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken
+  - DiceEngine.Tokenization.Tokens.IToken
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.Tokenization.Tokens.Token.#ctor(System.String,System.Int32)
-  commentId: M:CalcExpr.Tokenization.Tokens.Token.#ctor(System.String,System.Int32)
+- uid: DiceEngine.Tokenization.Tokens.Token.#ctor(System.String,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Tokens.Token.#ctor(System.String,System.Int32)
   id: '#ctor(System.String,System.Int32)'
-  parent: CalcExpr.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: Token(string, int)
   nameWithType: Token.Token(string, int)
-  fullName: CalcExpr.Tokenization.Tokens.Token.Token(string, int)
+  fullName: DiceEngine.Tokenization.Tokens.Token.Token(string, int)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 11
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
-  summary: A substring that matches a <xref href="CalcExpr.Tokenization.Rules.ITokenizerRule" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: A substring that matches a <xref href="DiceEngine.Tokenization.Rules.ITokenizerRule" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public Token(string value, int index)
     parameters:
     - id: value
       type: System.String
-      description: The <xref href="System.String" data-throw-if-not-resolved="false"></xref> contained within the <xref href="CalcExpr.Tokenization.Tokens.Token" data-throw-if-not-resolved="false"></xref>.
+      description: The <xref href="System.String" data-throw-if-not-resolved="false"></xref> contained within the <xref href="DiceEngine.Tokenization.Tokens.Token" data-throw-if-not-resolved="false"></xref>.
     - id: index
       type: System.Int32
       description: The starting index within the containing <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Sub New(value As String, index As Integer)
-  overload: CalcExpr.Tokenization.Tokens.Token.#ctor*
+  overload: DiceEngine.Tokenization.Tokens.Token.#ctor*
   nameWithType.vb: Token.New(String, Integer)
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.New(String, Integer)
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.New(String, Integer)
   name.vb: New(String, Integer)
-- uid: CalcExpr.Tokenization.Tokens.Token.Value
-  commentId: P:CalcExpr.Tokenization.Tokens.Token.Value
+- uid: DiceEngine.Tokenization.Tokens.Token.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.Token.Value
   id: Value
-  parent: CalcExpr.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: Value
   nameWithType: Token.Value
-  fullName: CalcExpr.Tokenization.Tokens.Token.Value
+  fullName: DiceEngine.Tokenization.Tokens.Token.Value
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Value
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 13
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: The value of the token.
   example: []
   syntax:
@@ -118,31 +118,31 @@ items:
     return:
       type: System.String
     content.vb: Public ReadOnly Property Value As String
-  overload: CalcExpr.Tokenization.Tokens.Token.Value*
+  overload: DiceEngine.Tokenization.Tokens.Token.Value*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.Value
-- uid: CalcExpr.Tokenization.Tokens.Token.Index
-  commentId: P:CalcExpr.Tokenization.Tokens.Token.Index
+  - DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.Token.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.Token.Index
   id: Index
-  parent: CalcExpr.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: Index
   nameWithType: Token.Index
-  fullName: CalcExpr.Tokenization.Tokens.Token.Index
+  fullName: DiceEngine.Tokenization.Tokens.Token.Index
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Index
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 15
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: The index of the token in the larger string.
   example: []
   syntax:
@@ -151,31 +151,31 @@ items:
     return:
       type: System.Int32
     content.vb: Public ReadOnly Property Index As Integer
-  overload: CalcExpr.Tokenization.Tokens.Token.Index*
+  overload: DiceEngine.Tokenization.Tokens.Token.Index*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.Index
-- uid: CalcExpr.Tokenization.Tokens.Token.RegexAlias
-  commentId: P:CalcExpr.Tokenization.Tokens.Token.RegexAlias
+  - DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: DiceEngine.Tokenization.Tokens.Token.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.Token.RegexAlias
   id: RegexAlias
-  parent: CalcExpr.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: RegexAlias
   nameWithType: Token.RegexAlias
-  fullName: CalcExpr.Tokenization.Tokens.Token.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.Token.RegexAlias
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: RegexAlias
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 17
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: The value to use in a regular expression.
   example: []
   syntax:
@@ -184,31 +184,31 @@ items:
     return:
       type: System.Char
     content.vb: Public ReadOnly Property RegexAlias As Char
-  overload: CalcExpr.Tokenization.Tokens.Token.RegexAlias*
+  overload: DiceEngine.Tokenization.Tokens.Token.RegexAlias*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.RegexAlias
-- uid: CalcExpr.Tokenization.Tokens.Token.Item(System.Int32)
-  commentId: P:CalcExpr.Tokenization.Tokens.Token.Item(System.Int32)
+  - DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+- uid: DiceEngine.Tokenization.Tokens.Token.Item(System.Int32)
+  commentId: P:DiceEngine.Tokenization.Tokens.Token.Item(System.Int32)
   id: Item(System.Int32)
-  parent: CalcExpr.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: this[int]
   nameWithType: Token.this[int]
-  fullName: CalcExpr.Tokenization.Tokens.Token.this[int]
+  fullName: DiceEngine.Tokenization.Tokens.Token.this[int]
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: this[]
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 19
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   example: []
   syntax:
     content: public char this[int index] { get; }
@@ -218,34 +218,34 @@ items:
     return:
       type: System.Char
     content.vb: Public ReadOnly Default Property this[](index As Integer) As Char
-  overload: CalcExpr.Tokenization.Tokens.Token.Item*
+  overload: DiceEngine.Tokenization.Tokens.Token.Item*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.Item(System.Int32)
+  - DiceEngine.Tokenization.Tokens.IToken.Item(System.Int32)
   nameWithType.vb: Token.this[](Integer)
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.this[](Integer)
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.this[](Integer)
   name.vb: this[](Integer)
-- uid: CalcExpr.Tokenization.Tokens.Token.Item(System.Range)
-  commentId: P:CalcExpr.Tokenization.Tokens.Token.Item(System.Range)
+- uid: DiceEngine.Tokenization.Tokens.Token.Item(System.Range)
+  commentId: P:DiceEngine.Tokenization.Tokens.Token.Item(System.Range)
   id: Item(System.Range)
-  parent: CalcExpr.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: this[Range]
   nameWithType: Token.this[Range]
-  fullName: CalcExpr.Tokenization.Tokens.Token.this[System.Range]
+  fullName: DiceEngine.Tokenization.Tokens.Token.this[System.Range]
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: this[]
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 21
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   example: []
   syntax:
     content: public string this[Range range] { get; }
@@ -255,34 +255,34 @@ items:
     return:
       type: System.String
     content.vb: Public ReadOnly Default Property this[](range As Range) As String
-  overload: CalcExpr.Tokenization.Tokens.Token.Item*
+  overload: DiceEngine.Tokenization.Tokens.Token.Item*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.Item(System.Range)
+  - DiceEngine.Tokenization.Tokens.IToken.Item(System.Range)
   nameWithType.vb: Token.this[](Range)
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.this[](System.Range)
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.this[](System.Range)
   name.vb: this[](Range)
-- uid: CalcExpr.Tokenization.Tokens.Token.Equals(System.Object)
-  commentId: M:CalcExpr.Tokenization.Tokens.Token.Equals(System.Object)
+- uid: DiceEngine.Tokenization.Tokens.Token.Equals(System.Object)
+  commentId: M:DiceEngine.Tokenization.Tokens.Token.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: Token.Equals(object?)
-  fullName: CalcExpr.Tokenization.Tokens.Token.Equals(object?)
+  fullName: DiceEngine.Tokenization.Tokens.Token.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 23
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -296,32 +296,32 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: CalcExpr.Tokenization.Tokens.Token.Equals*
+  overload: DiceEngine.Tokenization.Tokens.Token.Equals*
   nameWithType.vb: Token.Equals(Object)
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.Equals(Object)
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.Equals(Object)
   name.vb: Equals(Object)
-- uid: CalcExpr.Tokenization.Tokens.Token.GetHashCode
-  commentId: M:CalcExpr.Tokenization.Tokens.Token.GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.Token.GetHashCode
+  commentId: M:DiceEngine.Tokenization.Tokens.Token.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: Token.GetHashCode()
-  fullName: CalcExpr.Tokenization.Tokens.Token.GetHashCode()
+  fullName: DiceEngine.Tokenization.Tokens.Token.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 26
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -331,155 +331,155 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: CalcExpr.Tokenization.Tokens.Token.GetHashCode*
-- uid: CalcExpr.Tokenization.Tokens.Token.op_Equality(CalcExpr.Tokenization.Tokens.Token,CalcExpr.Tokenization.Tokens.IToken)
-  commentId: M:CalcExpr.Tokenization.Tokens.Token.op_Equality(CalcExpr.Tokenization.Tokens.Token,CalcExpr.Tokenization.Tokens.IToken)
-  id: op_Equality(CalcExpr.Tokenization.Tokens.Token,CalcExpr.Tokenization.Tokens.IToken)
-  parent: CalcExpr.Tokenization.Tokens.Token
+  overload: DiceEngine.Tokenization.Tokens.Token.GetHashCode*
+- uid: DiceEngine.Tokenization.Tokens.Token.op_Equality(DiceEngine.Tokenization.Tokens.Token,DiceEngine.Tokenization.Tokens.IToken)
+  commentId: M:DiceEngine.Tokenization.Tokens.Token.op_Equality(DiceEngine.Tokenization.Tokens.Token,DiceEngine.Tokenization.Tokens.IToken)
+  id: op_Equality(DiceEngine.Tokenization.Tokens.Token,DiceEngine.Tokenization.Tokens.IToken)
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: operator ==(Token, IToken)
   nameWithType: Token.operator ==(Token, IToken)
-  fullName: CalcExpr.Tokenization.Tokens.Token.operator ==(CalcExpr.Tokenization.Tokens.Token, CalcExpr.Tokenization.Tokens.IToken)
+  fullName: DiceEngine.Tokenization.Tokens.Token.operator ==(DiceEngine.Tokenization.Tokens.Token, DiceEngine.Tokenization.Tokens.IToken)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Equality
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 29
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static bool operator ==(Token a, IToken b)
     parameters:
     - id: a
-      type: CalcExpr.Tokenization.Tokens.Token
+      type: DiceEngine.Tokenization.Tokens.Token
     - id: b
-      type: CalcExpr.Tokenization.Tokens.IToken
+      type: DiceEngine.Tokenization.Tokens.IToken
     return:
       type: System.Boolean
     content.vb: Public Shared Operator =(a As Token, b As IToken) As Boolean
-  overload: CalcExpr.Tokenization.Tokens.Token.op_Equality*
+  overload: DiceEngine.Tokenization.Tokens.Token.op_Equality*
   nameWithType.vb: Token.=(Token, IToken)
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.=(CalcExpr.Tokenization.Tokens.Token, CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.=(DiceEngine.Tokenization.Tokens.Token, DiceEngine.Tokenization.Tokens.IToken)
   name.vb: =(Token, IToken)
-- uid: CalcExpr.Tokenization.Tokens.Token.op_Inequality(CalcExpr.Tokenization.Tokens.Token,CalcExpr.Tokenization.Tokens.IToken)
-  commentId: M:CalcExpr.Tokenization.Tokens.Token.op_Inequality(CalcExpr.Tokenization.Tokens.Token,CalcExpr.Tokenization.Tokens.IToken)
-  id: op_Inequality(CalcExpr.Tokenization.Tokens.Token,CalcExpr.Tokenization.Tokens.IToken)
-  parent: CalcExpr.Tokenization.Tokens.Token
+- uid: DiceEngine.Tokenization.Tokens.Token.op_Inequality(DiceEngine.Tokenization.Tokens.Token,DiceEngine.Tokenization.Tokens.IToken)
+  commentId: M:DiceEngine.Tokenization.Tokens.Token.op_Inequality(DiceEngine.Tokenization.Tokens.Token,DiceEngine.Tokenization.Tokens.IToken)
+  id: op_Inequality(DiceEngine.Tokenization.Tokens.Token,DiceEngine.Tokenization.Tokens.IToken)
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: operator !=(Token, IToken)
   nameWithType: Token.operator !=(Token, IToken)
-  fullName: CalcExpr.Tokenization.Tokens.Token.operator !=(CalcExpr.Tokenization.Tokens.Token, CalcExpr.Tokenization.Tokens.IToken)
+  fullName: DiceEngine.Tokenization.Tokens.Token.operator !=(DiceEngine.Tokenization.Tokens.Token, DiceEngine.Tokenization.Tokens.IToken)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Inequality
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 32
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static bool operator !=(Token a, IToken b)
     parameters:
     - id: a
-      type: CalcExpr.Tokenization.Tokens.Token
+      type: DiceEngine.Tokenization.Tokens.Token
     - id: b
-      type: CalcExpr.Tokenization.Tokens.IToken
+      type: DiceEngine.Tokenization.Tokens.IToken
     return:
       type: System.Boolean
     content.vb: Public Shared Operator <>(a As Token, b As IToken) As Boolean
-  overload: CalcExpr.Tokenization.Tokens.Token.op_Inequality*
+  overload: DiceEngine.Tokenization.Tokens.Token.op_Inequality*
   nameWithType.vb: Token.<>(Token, IToken)
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.<>(CalcExpr.Tokenization.Tokens.Token, CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.<>(DiceEngine.Tokenization.Tokens.Token, DiceEngine.Tokenization.Tokens.IToken)
   name.vb: <>(Token, IToken)
-- uid: CalcExpr.Tokenization.Tokens.Token.op_Implicit(System.Text.RegularExpressions.Match)~CalcExpr.Tokenization.Tokens.Token
-  commentId: M:CalcExpr.Tokenization.Tokens.Token.op_Implicit(System.Text.RegularExpressions.Match)~CalcExpr.Tokenization.Tokens.Token
-  id: op_Implicit(System.Text.RegularExpressions.Match)~CalcExpr.Tokenization.Tokens.Token
-  parent: CalcExpr.Tokenization.Tokens.Token
+- uid: DiceEngine.Tokenization.Tokens.Token.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.Token
+  commentId: M:DiceEngine.Tokenization.Tokens.Token.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.Token
+  id: op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: implicit operator Token(Match)
   nameWithType: Token.implicit operator Token(Match)
-  fullName: CalcExpr.Tokenization.Tokens.Token.implicit operator CalcExpr.Tokenization.Tokens.Token(System.Text.RegularExpressions.Match)
+  fullName: DiceEngine.Tokenization.Tokens.Token.implicit operator DiceEngine.Tokenization.Tokens.Token(System.Text.RegularExpressions.Match)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Implicit
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 35
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static implicit operator Token(Match match)
     parameters:
     - id: match
       type: System.Text.RegularExpressions.Match
     return:
-      type: CalcExpr.Tokenization.Tokens.Token
+      type: DiceEngine.Tokenization.Tokens.Token
     content.vb: Public Shared Widening Operator CType(match As Match) As Token
-  overload: CalcExpr.Tokenization.Tokens.Token.op_Implicit*
+  overload: DiceEngine.Tokenization.Tokens.Token.op_Implicit*
   nameWithType.vb: Token.CType(Match)
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.CType(System.Text.RegularExpressions.Match)
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.CType(System.Text.RegularExpressions.Match)
   name.vb: CType(Match)
-- uid: CalcExpr.Tokenization.Tokens.Token.op_Implicit(CalcExpr.Tokenization.Tokens.Token)~System.String
-  commentId: M:CalcExpr.Tokenization.Tokens.Token.op_Implicit(CalcExpr.Tokenization.Tokens.Token)~System.String
-  id: op_Implicit(CalcExpr.Tokenization.Tokens.Token)~System.String
-  parent: CalcExpr.Tokenization.Tokens.Token
+- uid: DiceEngine.Tokenization.Tokens.Token.op_Implicit(DiceEngine.Tokenization.Tokens.Token)~System.String
+  commentId: M:DiceEngine.Tokenization.Tokens.Token.op_Implicit(DiceEngine.Tokenization.Tokens.Token)~System.String
+  id: op_Implicit(DiceEngine.Tokenization.Tokens.Token)~System.String
+  parent: DiceEngine.Tokenization.Tokens.Token
   langs:
   - csharp
   - vb
   name: implicit operator string(Token)
   nameWithType: Token.implicit operator string(Token)
-  fullName: CalcExpr.Tokenization.Tokens.Token.implicit operator string(CalcExpr.Tokenization.Tokens.Token)
+  fullName: DiceEngine.Tokenization.Tokens.Token.implicit operator string(DiceEngine.Tokenization.Tokens.Token)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/Token.cs
+      path: src/DiceEngine/Tokenization/Tokens/Token.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Implicit
-    path: ../src/CalcExpr/Tokenization/Tokens/Token.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/Token.cs
     startLine: 38
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static implicit operator string(Token token)
     parameters:
     - id: token
-      type: CalcExpr.Tokenization.Tokens.Token
+      type: DiceEngine.Tokenization.Tokens.Token
     return:
       type: System.String
     content.vb: Public Shared Widening Operator CType(token As Token) As String
-  overload: CalcExpr.Tokenization.Tokens.Token.op_Implicit*
+  overload: DiceEngine.Tokenization.Tokens.Token.op_Implicit*
   nameWithType.vb: Token.CType(Token)
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.CType(CalcExpr.Tokenization.Tokens.Token)
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.CType(DiceEngine.Tokenization.Tokens.Token)
   name.vb: CType(Token)
 references:
-- uid: CalcExpr.Tokenization.Rules.ITokenizerRule
-  commentId: T:CalcExpr.Tokenization.Rules.ITokenizerRule
-  parent: CalcExpr.Tokenization.Rules
-  href: CalcExpr.Tokenization.Rules.ITokenizerRule.html
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule
+  commentId: T:DiceEngine.Tokenization.Rules.ITokenizerRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html
   name: ITokenizerRule
   nameWithType: ITokenizerRule
-  fullName: CalcExpr.Tokenization.Rules.ITokenizerRule
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -491,43 +491,43 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Tokenization.Tokens.Token
-  commentId: T:CalcExpr.Tokenization.Tokens.Token
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.Token.html
+- uid: DiceEngine.Tokenization.Tokens.Token
+  commentId: T:DiceEngine.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.Token.html
   name: Token
   nameWithType: Token
-  fullName: CalcExpr.Tokenization.Tokens.Token
-- uid: CalcExpr.Tokenization.Tokens
-  commentId: N:CalcExpr.Tokenization.Tokens
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Tokens
-  nameWithType: CalcExpr.Tokenization.Tokens
-  fullName: CalcExpr.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens.Token
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -539,13 +539,13 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: CalcExpr.Tokenization.Tokens.IToken
-  commentId: T:CalcExpr.Tokenization.Tokens.IToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.IToken.html
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
   name: IToken
   nameWithType: IToken
-  fullName: CalcExpr.Tokenization.Tokens.IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
@@ -708,36 +708,36 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
-- uid: CalcExpr.Tokenization.Rules
-  commentId: N:CalcExpr.Tokenization.Rules
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Rules
-  nameWithType: CalcExpr.Tokenization.Rules
-  fullName: CalcExpr.Tokenization.Rules
+- uid: DiceEngine.Tokenization.Rules
+  commentId: N:DiceEngine.Tokenization.Rules
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Rules
+  nameWithType: DiceEngine.Tokenization.Rules
+  fullName: DiceEngine.Tokenization.Rules
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Rules
+  - uid: DiceEngine.Tokenization.Rules
     name: Rules
-    href: CalcExpr.Tokenization.Rules.html
+    href: DiceEngine.Tokenization.Rules.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Rules
+  - uid: DiceEngine.Tokenization.Rules
     name: Rules
-    href: CalcExpr.Tokenization.Rules.html
+    href: DiceEngine.Tokenization.Rules.html
 - uid: System
   commentId: N:System
   isExternal: true
@@ -745,14 +745,14 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Tokenization.Tokens.Token.#ctor*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.Token.#ctor
-  href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token__ctor_System_String_System_Int32_
+- uid: DiceEngine.Tokenization.Tokens.Token.#ctor*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.Token.#ctor
+  href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token__ctor_System_String_System_Int32_
   name: Token
   nameWithType: Token.Token
-  fullName: CalcExpr.Tokenization.Tokens.Token.Token
+  fullName: DiceEngine.Tokenization.Tokens.Token.Token
   nameWithType.vb: Token.New
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.New
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.New
   name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
@@ -765,45 +765,45 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: CalcExpr.Tokenization.Tokens.Token.Value*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.Token.Value
-  href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token_Value
+- uid: DiceEngine.Tokenization.Tokens.Token.Value*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.Token.Value
+  href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token_Value
   name: Value
   nameWithType: Token.Value
-  fullName: CalcExpr.Tokenization.Tokens.Token.Value
-- uid: CalcExpr.Tokenization.Tokens.IToken.Value
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.Value
-  parent: CalcExpr.Tokenization.Tokens.IToken
-  href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_Value
+  fullName: DiceEngine.Tokenization.Tokens.Token.Value
+- uid: DiceEngine.Tokenization.Tokens.IToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Value
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Value
   name: Value
   nameWithType: IToken.Value
-  fullName: CalcExpr.Tokenization.Tokens.IToken.Value
-- uid: CalcExpr.Tokenization.Tokens.Token.Index*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.Token.Index
-  href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token_Index
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.Token.Index*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.Token.Index
+  href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token_Index
   name: Index
   nameWithType: Token.Index
-  fullName: CalcExpr.Tokenization.Tokens.Token.Index
-- uid: CalcExpr.Tokenization.Tokens.IToken.Index
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.Index
-  parent: CalcExpr.Tokenization.Tokens.IToken
-  href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_Index
+  fullName: DiceEngine.Tokenization.Tokens.Token.Index
+- uid: DiceEngine.Tokenization.Tokens.IToken.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Index
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Index
   name: Index
   nameWithType: IToken.Index
-  fullName: CalcExpr.Tokenization.Tokens.IToken.Index
-- uid: CalcExpr.Tokenization.Tokens.Token.RegexAlias*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.Token.RegexAlias
-  href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token_RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: DiceEngine.Tokenization.Tokens.Token.RegexAlias*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.Token.RegexAlias
+  href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token_RegexAlias
   name: RegexAlias
   nameWithType: Token.RegexAlias
-  fullName: CalcExpr.Tokenization.Tokens.Token.RegexAlias
-- uid: CalcExpr.Tokenization.Tokens.IToken.RegexAlias
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.RegexAlias
-  parent: CalcExpr.Tokenization.Tokens.IToken
-  href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.Token.RegexAlias
+- uid: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_RegexAlias
   name: RegexAlias
   nameWithType: IToken.RegexAlias
-  fullName: CalcExpr.Tokenization.Tokens.IToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
 - uid: System.Char
   commentId: T:System.Char
   parent: System
@@ -815,25 +815,25 @@ references:
   nameWithType.vb: Char
   fullName.vb: Char
   name.vb: Char
-- uid: CalcExpr.Tokenization.Tokens.Token.Item*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.Token.Item
-  href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token_Item_System_Int32_
+- uid: DiceEngine.Tokenization.Tokens.Token.Item*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.Token.Item
+  href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token_Item_System_Int32_
   name: this
   nameWithType: Token.this
-  fullName: CalcExpr.Tokenization.Tokens.Token.this
+  fullName: DiceEngine.Tokenization.Tokens.Token.this
   nameWithType.vb: Token.this[]
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.this[]
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.this[]
   name.vb: this[]
-- uid: CalcExpr.Tokenization.Tokens.IToken.Item(System.Int32)
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.Item(System.Int32)
-  parent: CalcExpr.Tokenization.Tokens.IToken
+- uid: DiceEngine.Tokenization.Tokens.IToken.Item(System.Int32)
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Item(System.Int32)
+  parent: DiceEngine.Tokenization.Tokens.IToken
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.int32
   name: this[int]
   nameWithType: IToken.this[int]
-  fullName: CalcExpr.Tokenization.Tokens.IToken.this[int]
+  fullName: DiceEngine.Tokenization.Tokens.IToken.this[int]
   nameWithType.vb: IToken.this[](Integer)
-  fullName.vb: CalcExpr.Tokenization.Tokens.IToken.this[](Integer)
+  fullName.vb: DiceEngine.Tokenization.Tokens.IToken.this[](Integer)
   name.vb: this[](Integer)
   spec.csharp:
   - name: this
@@ -844,25 +844,25 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ']'
   spec.vb:
-  - uid: CalcExpr.Tokenization.Tokens.IToken.Item(System.Int32)
+  - uid: DiceEngine.Tokenization.Tokens.IToken.Item(System.Int32)
     name: this[]
-    href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_Item_System_Int32_
+    href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Item_System_Int32_
   - name: (
   - uid: System.Int32
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-- uid: CalcExpr.Tokenization.Tokens.IToken.Item(System.Range)
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.Item(System.Range)
-  parent: CalcExpr.Tokenization.Tokens.IToken
+- uid: DiceEngine.Tokenization.Tokens.IToken.Item(System.Range)
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Item(System.Range)
+  parent: DiceEngine.Tokenization.Tokens.IToken
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.range
   name: this[Range]
   nameWithType: IToken.this[Range]
-  fullName: CalcExpr.Tokenization.Tokens.IToken.this[System.Range]
+  fullName: DiceEngine.Tokenization.Tokens.IToken.this[System.Range]
   nameWithType.vb: IToken.this[](Range)
-  fullName.vb: CalcExpr.Tokenization.Tokens.IToken.this[](System.Range)
+  fullName.vb: DiceEngine.Tokenization.Tokens.IToken.this[](System.Range)
   name.vb: this[](Range)
   spec.csharp:
   - name: this
@@ -873,9 +873,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.range
   - name: ']'
   spec.vb:
-  - uid: CalcExpr.Tokenization.Tokens.IToken.Item(System.Range)
+  - uid: DiceEngine.Tokenization.Tokens.IToken.Item(System.Range)
     name: this[]
-    href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_Item_System_Range_
+    href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Item_System_Range_
   - name: (
   - uid: System.Range
     name: Range
@@ -923,12 +923,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Tokenization.Tokens.Token.Equals*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.Token.Equals
-  href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token_Equals_System_Object_
+- uid: DiceEngine.Tokenization.Tokens.Token.Equals*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.Token.Equals
+  href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token_Equals_System_Object_
   name: Equals
   nameWithType: Token.Equals
-  fullName: CalcExpr.Tokenization.Tokens.Token.Equals
+  fullName: DiceEngine.Tokenization.Tokens.Token.Equals
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -964,49 +964,49 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Tokenization.Tokens.Token.GetHashCode*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.Token.GetHashCode
-  href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token_GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.Token.GetHashCode*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.Token.GetHashCode
+  href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token_GetHashCode
   name: GetHashCode
   nameWithType: Token.GetHashCode
-  fullName: CalcExpr.Tokenization.Tokens.Token.GetHashCode
-- uid: CalcExpr.Tokenization.Tokens.Token.op_Equality*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.Token.op_Equality
-  href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token_op_Equality_CalcExpr_Tokenization_Tokens_Token_CalcExpr_Tokenization_Tokens_IToken_
+  fullName: DiceEngine.Tokenization.Tokens.Token.GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.Token.op_Equality*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.Token.op_Equality
+  href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token_op_Equality_DiceEngine_Tokenization_Tokens_Token_DiceEngine_Tokenization_Tokens_IToken_
   name: operator ==
   nameWithType: Token.operator ==
-  fullName: CalcExpr.Tokenization.Tokens.Token.operator ==
+  fullName: DiceEngine.Tokenization.Tokens.Token.operator ==
   nameWithType.vb: Token.=
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.=
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.=
   name.vb: =
   spec.csharp:
   - name: operator
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.Token.op_Equality*
+  - uid: DiceEngine.Tokenization.Tokens.Token.op_Equality*
     name: ==
-    href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token_op_Equality_CalcExpr_Tokenization_Tokens_Token_CalcExpr_Tokenization_Tokens_IToken_
-- uid: CalcExpr.Tokenization.Tokens.Token.op_Inequality*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.Token.op_Inequality
-  href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token_op_Inequality_CalcExpr_Tokenization_Tokens_Token_CalcExpr_Tokenization_Tokens_IToken_
+    href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token_op_Equality_DiceEngine_Tokenization_Tokens_Token_DiceEngine_Tokenization_Tokens_IToken_
+- uid: DiceEngine.Tokenization.Tokens.Token.op_Inequality*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.Token.op_Inequality
+  href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token_op_Inequality_DiceEngine_Tokenization_Tokens_Token_DiceEngine_Tokenization_Tokens_IToken_
   name: operator !=
   nameWithType: Token.operator !=
-  fullName: CalcExpr.Tokenization.Tokens.Token.operator !=
+  fullName: DiceEngine.Tokenization.Tokens.Token.operator !=
   nameWithType.vb: Token.<>
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.<>
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.<>
   name.vb: <>
   spec.csharp:
   - name: operator
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.Token.op_Inequality*
+  - uid: DiceEngine.Tokenization.Tokens.Token.op_Inequality*
     name: '!='
-    href: CalcExpr.Tokenization.Tokens.Token.html#CalcExpr_Tokenization_Tokens_Token_op_Inequality_CalcExpr_Tokenization_Tokens_Token_CalcExpr_Tokenization_Tokens_IToken_
-- uid: CalcExpr.Tokenization.Tokens.Token.op_Implicit*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.Token.op_Implicit
+    href: DiceEngine.Tokenization.Tokens.Token.html#DiceEngine_Tokenization_Tokens_Token_op_Inequality_DiceEngine_Tokenization_Tokens_Token_DiceEngine_Tokenization_Tokens_IToken_
+- uid: DiceEngine.Tokenization.Tokens.Token.op_Implicit*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.Token.op_Implicit
   name: implicit operator
   nameWithType: Token.implicit operator
-  fullName: CalcExpr.Tokenization.Tokens.Token.implicit operator
+  fullName: DiceEngine.Tokenization.Tokens.Token.implicit operator
   nameWithType.vb: Token.CType
-  fullName.vb: CalcExpr.Tokenization.Tokens.Token.CType
+  fullName.vb: DiceEngine.Tokenization.Tokens.Token.CType
   name.vb: CType
   spec.csharp:
   - name: implicit

@@ -1,37 +1,37 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Exceptions
-  commentId: N:CalcExpr.Exceptions
-  id: CalcExpr.Exceptions
+- uid: DiceEngine.Exceptions
+  commentId: N:DiceEngine.Exceptions
+  id: DiceEngine.Exceptions
   children:
-  - CalcExpr.Exceptions.ArgumentValueException
-  - CalcExpr.Exceptions.InvalidAssignmentException
-  - CalcExpr.Exceptions.UnbalancedParenthesesException
+  - DiceEngine.Exceptions.ArgumentValueException
+  - DiceEngine.Exceptions.InvalidAssignmentException
+  - DiceEngine.Exceptions.UnbalancedParenthesesException
   langs:
   - csharp
   - vb
-  name: CalcExpr.Exceptions
-  nameWithType: CalcExpr.Exceptions
-  fullName: CalcExpr.Exceptions
+  name: DiceEngine.Exceptions
+  nameWithType: DiceEngine.Exceptions
+  fullName: DiceEngine.Exceptions
   type: Namespace
   assemblies:
-  - CalcExpr
+  - DiceEngine
 references:
-- uid: CalcExpr.Exceptions.ArgumentValueException
-  commentId: T:CalcExpr.Exceptions.ArgumentValueException
-  href: CalcExpr.Exceptions.ArgumentValueException.html
+- uid: DiceEngine.Exceptions.ArgumentValueException
+  commentId: T:DiceEngine.Exceptions.ArgumentValueException
+  href: DiceEngine.Exceptions.ArgumentValueException.html
   name: ArgumentValueException
   nameWithType: ArgumentValueException
-  fullName: CalcExpr.Exceptions.ArgumentValueException
-- uid: CalcExpr.Exceptions.InvalidAssignmentException
-  commentId: T:CalcExpr.Exceptions.InvalidAssignmentException
-  href: CalcExpr.Exceptions.InvalidAssignmentException.html
+  fullName: DiceEngine.Exceptions.ArgumentValueException
+- uid: DiceEngine.Exceptions.InvalidAssignmentException
+  commentId: T:DiceEngine.Exceptions.InvalidAssignmentException
+  href: DiceEngine.Exceptions.InvalidAssignmentException.html
   name: InvalidAssignmentException
   nameWithType: InvalidAssignmentException
-  fullName: CalcExpr.Exceptions.InvalidAssignmentException
-- uid: CalcExpr.Exceptions.UnbalancedParenthesesException
-  commentId: T:CalcExpr.Exceptions.UnbalancedParenthesesException
-  href: CalcExpr.Exceptions.UnbalancedParenthesesException.html
+  fullName: DiceEngine.Exceptions.InvalidAssignmentException
+- uid: DiceEngine.Exceptions.UnbalancedParenthesesException
+  commentId: T:DiceEngine.Exceptions.UnbalancedParenthesesException
+  href: DiceEngine.Exceptions.UnbalancedParenthesesException.html
   name: UnbalancedParenthesesException
   nameWithType: UnbalancedParenthesesException
-  fullName: CalcExpr.Exceptions.UnbalancedParenthesesException
+  fullName: DiceEngine.Exceptions.UnbalancedParenthesesException

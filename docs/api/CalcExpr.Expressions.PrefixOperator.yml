@@ -1,47 +1,47 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.PrefixOperator
-  commentId: T:CalcExpr.Expressions.PrefixOperator
+- uid: DiceEngine.Expressions.PrefixOperator
+  commentId: T:DiceEngine.Expressions.PrefixOperator
   id: PrefixOperator
-  parent: CalcExpr.Expressions
+  parent: DiceEngine.Expressions
   children:
-  - CalcExpr.Expressions.PrefixOperator.#ctor(System.String,CalcExpr.Expressions.IExpression)
-  - CalcExpr.Expressions.PrefixOperator.Equals(System.Object)
-  - CalcExpr.Expressions.PrefixOperator.Evaluate
-  - CalcExpr.Expressions.PrefixOperator.Evaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.PrefixOperator.GetHashCode
-  - CalcExpr.Expressions.PrefixOperator.Identifier
-  - CalcExpr.Expressions.PrefixOperator.Inside
-  - CalcExpr.Expressions.PrefixOperator.NEGATIVE
-  - CalcExpr.Expressions.PrefixOperator.NOT
-  - CalcExpr.Expressions.PrefixOperator.NOT_ALT
-  - CalcExpr.Expressions.PrefixOperator.POSITIVE
-  - CalcExpr.Expressions.PrefixOperator.PRE_DECREMENT
-  - CalcExpr.Expressions.PrefixOperator.PRE_INCREMENT
-  - CalcExpr.Expressions.PrefixOperator.SUBFACTORIAL
-  - CalcExpr.Expressions.PrefixOperator.StepEvaluate
-  - CalcExpr.Expressions.PrefixOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.PrefixOperator.ToString
-  - CalcExpr.Expressions.PrefixOperator.ToString(System.String)
+  - DiceEngine.Expressions.PrefixOperator.#ctor(System.String,DiceEngine.Expressions.IExpression)
+  - DiceEngine.Expressions.PrefixOperator.Equals(System.Object)
+  - DiceEngine.Expressions.PrefixOperator.Evaluate
+  - DiceEngine.Expressions.PrefixOperator.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.PrefixOperator.GetHashCode
+  - DiceEngine.Expressions.PrefixOperator.Identifier
+  - DiceEngine.Expressions.PrefixOperator.Inside
+  - DiceEngine.Expressions.PrefixOperator.NEGATIVE
+  - DiceEngine.Expressions.PrefixOperator.NOT
+  - DiceEngine.Expressions.PrefixOperator.NOT_ALT
+  - DiceEngine.Expressions.PrefixOperator.POSITIVE
+  - DiceEngine.Expressions.PrefixOperator.PRE_DECREMENT
+  - DiceEngine.Expressions.PrefixOperator.PRE_INCREMENT
+  - DiceEngine.Expressions.PrefixOperator.SUBFACTORIAL
+  - DiceEngine.Expressions.PrefixOperator.StepEvaluate
+  - DiceEngine.Expressions.PrefixOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.PrefixOperator.ToString
+  - DiceEngine.Expressions.PrefixOperator.ToString(System.String)
   langs:
   - csharp
   - vb
   name: PrefixOperator
   nameWithType: PrefixOperator
-  fullName: CalcExpr.Expressions.PrefixOperator
+  fullName: DiceEngine.Expressions.PrefixOperator
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: PrefixOperator
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 12
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Initializes a new instance of the <xref href="CalcExpr.Expressions.PrefixOperator" data-throw-if-not-resolved="false"></xref> class.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Initializes a new instance of the <xref href="DiceEngine.Expressions.PrefixOperator" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: 'public class PrefixOperator : IExpression'
@@ -49,35 +49,35 @@ items:
   inheritance:
   - System.Object
   implements:
-  - CalcExpr.Expressions.IExpression
+  - DiceEngine.Expressions.IExpression
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: CalcExpr.Expressions.PrefixOperator.#ctor(System.String,CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.Expressions.PrefixOperator.#ctor(System.String,CalcExpr.Expressions.IExpression)
-  id: '#ctor(System.String,CalcExpr.Expressions.IExpression)'
-  parent: CalcExpr.Expressions.PrefixOperator
+- uid: DiceEngine.Expressions.PrefixOperator.#ctor(System.String,DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.Expressions.PrefixOperator.#ctor(System.String,DiceEngine.Expressions.IExpression)
+  id: '#ctor(System.String,DiceEngine.Expressions.IExpression)'
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: PrefixOperator(string, IExpression)
   nameWithType: PrefixOperator.PrefixOperator(string, IExpression)
-  fullName: CalcExpr.Expressions.PrefixOperator.PrefixOperator(string, CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.Expressions.PrefixOperator.PrefixOperator(string, DiceEngine.Expressions.IExpression)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 12
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Initializes a new instance of the <xref href="CalcExpr.Expressions.PrefixOperator" data-throw-if-not-resolved="false"></xref> class.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Initializes a new instance of the <xref href="DiceEngine.Expressions.PrefixOperator" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: public PrefixOperator(string op, IExpression expression)
@@ -86,424 +86,424 @@ items:
       type: System.String
       description: The identifier for the operator.
     - id: expression
-      type: CalcExpr.Expressions.IExpression
-      description: The <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> operand for this operator.
+      type: DiceEngine.Expressions.IExpression
+      description: The <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> operand for this operator.
     content.vb: Public Sub New(op As String, expression As IExpression)
-  overload: CalcExpr.Expressions.PrefixOperator.#ctor*
+  overload: DiceEngine.Expressions.PrefixOperator.#ctor*
   nameWithType.vb: PrefixOperator.New(String, IExpression)
-  fullName.vb: CalcExpr.Expressions.PrefixOperator.New(String, CalcExpr.Expressions.IExpression)
+  fullName.vb: DiceEngine.Expressions.PrefixOperator.New(String, DiceEngine.Expressions.IExpression)
   name.vb: New(String, IExpression)
-- uid: CalcExpr.Expressions.PrefixOperator.POSITIVE
-  commentId: F:CalcExpr.Expressions.PrefixOperator.POSITIVE
+- uid: DiceEngine.Expressions.PrefixOperator.POSITIVE
+  commentId: F:DiceEngine.Expressions.PrefixOperator.POSITIVE
   id: POSITIVE
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: POSITIVE
   nameWithType: PrefixOperator.POSITIVE
-  fullName: CalcExpr.Expressions.PrefixOperator.POSITIVE
+  fullName: DiceEngine.Expressions.PrefixOperator.POSITIVE
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: POSITIVE
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 14
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string POSITIVE = "+"
     return:
       type: System.String
     content.vb: Public Const POSITIVE As String = "+"
-- uid: CalcExpr.Expressions.PrefixOperator.NEGATIVE
-  commentId: F:CalcExpr.Expressions.PrefixOperator.NEGATIVE
+- uid: DiceEngine.Expressions.PrefixOperator.NEGATIVE
+  commentId: F:DiceEngine.Expressions.PrefixOperator.NEGATIVE
   id: NEGATIVE
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: NEGATIVE
   nameWithType: PrefixOperator.NEGATIVE
-  fullName: CalcExpr.Expressions.PrefixOperator.NEGATIVE
+  fullName: DiceEngine.Expressions.PrefixOperator.NEGATIVE
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: NEGATIVE
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 15
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string NEGATIVE = "-"
     return:
       type: System.String
     content.vb: Public Const NEGATIVE As String = "-"
-- uid: CalcExpr.Expressions.PrefixOperator.NOT
-  commentId: F:CalcExpr.Expressions.PrefixOperator.NOT
+- uid: DiceEngine.Expressions.PrefixOperator.NOT
+  commentId: F:DiceEngine.Expressions.PrefixOperator.NOT
   id: NOT
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: NOT
   nameWithType: PrefixOperator.NOT
-  fullName: CalcExpr.Expressions.PrefixOperator.NOT
+  fullName: DiceEngine.Expressions.PrefixOperator.NOT
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: NOT
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 16
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string NOT = "~"
     return:
       type: System.String
     content.vb: Public Const NOT As String = "~"
-- uid: CalcExpr.Expressions.PrefixOperator.NOT_ALT
-  commentId: F:CalcExpr.Expressions.PrefixOperator.NOT_ALT
+- uid: DiceEngine.Expressions.PrefixOperator.NOT_ALT
+  commentId: F:DiceEngine.Expressions.PrefixOperator.NOT_ALT
   id: NOT_ALT
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: NOT_ALT
   nameWithType: PrefixOperator.NOT_ALT
-  fullName: CalcExpr.Expressions.PrefixOperator.NOT_ALT
+  fullName: DiceEngine.Expressions.PrefixOperator.NOT_ALT
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: NOT_ALT
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 17
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string NOT_ALT = "¬"
     return:
       type: System.String
     content.vb: Public Const NOT_ALT As String = "¬"
-- uid: CalcExpr.Expressions.PrefixOperator.SUBFACTORIAL
-  commentId: F:CalcExpr.Expressions.PrefixOperator.SUBFACTORIAL
+- uid: DiceEngine.Expressions.PrefixOperator.SUBFACTORIAL
+  commentId: F:DiceEngine.Expressions.PrefixOperator.SUBFACTORIAL
   id: SUBFACTORIAL
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: SUBFACTORIAL
   nameWithType: PrefixOperator.SUBFACTORIAL
-  fullName: CalcExpr.Expressions.PrefixOperator.SUBFACTORIAL
+  fullName: DiceEngine.Expressions.PrefixOperator.SUBFACTORIAL
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: SUBFACTORIAL
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 18
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string SUBFACTORIAL = "!"
     return:
       type: System.String
     content.vb: Public Const SUBFACTORIAL As String = "!"
-- uid: CalcExpr.Expressions.PrefixOperator.PRE_DECREMENT
-  commentId: F:CalcExpr.Expressions.PrefixOperator.PRE_DECREMENT
+- uid: DiceEngine.Expressions.PrefixOperator.PRE_DECREMENT
+  commentId: F:DiceEngine.Expressions.PrefixOperator.PRE_DECREMENT
   id: PRE_DECREMENT
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: PRE_DECREMENT
   nameWithType: PrefixOperator.PRE_DECREMENT
-  fullName: CalcExpr.Expressions.PrefixOperator.PRE_DECREMENT
+  fullName: DiceEngine.Expressions.PrefixOperator.PRE_DECREMENT
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: PRE_DECREMENT
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 19
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string PRE_DECREMENT = "--"
     return:
       type: System.String
     content.vb: Public Const PRE_DECREMENT As String = "--"
-- uid: CalcExpr.Expressions.PrefixOperator.PRE_INCREMENT
-  commentId: F:CalcExpr.Expressions.PrefixOperator.PRE_INCREMENT
+- uid: DiceEngine.Expressions.PrefixOperator.PRE_INCREMENT
+  commentId: F:DiceEngine.Expressions.PrefixOperator.PRE_INCREMENT
   id: PRE_INCREMENT
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: PRE_INCREMENT
   nameWithType: PrefixOperator.PRE_INCREMENT
-  fullName: CalcExpr.Expressions.PrefixOperator.PRE_INCREMENT
+  fullName: DiceEngine.Expressions.PrefixOperator.PRE_INCREMENT
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: PRE_INCREMENT
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 20
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public const string PRE_INCREMENT = "++"
     return:
       type: System.String
     content.vb: Public Const PRE_INCREMENT As String = "++"
-- uid: CalcExpr.Expressions.PrefixOperator.Identifier
-  commentId: F:CalcExpr.Expressions.PrefixOperator.Identifier
+- uid: DiceEngine.Expressions.PrefixOperator.Identifier
+  commentId: F:DiceEngine.Expressions.PrefixOperator.Identifier
   id: Identifier
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: Identifier
   nameWithType: PrefixOperator.Identifier
-  fullName: CalcExpr.Expressions.PrefixOperator.Identifier
+  fullName: DiceEngine.Expressions.PrefixOperator.Identifier
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Identifier
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 22
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public readonly string Identifier
     return:
       type: System.String
     content.vb: Public ReadOnly Identifier As String
-- uid: CalcExpr.Expressions.PrefixOperator.Inside
-  commentId: F:CalcExpr.Expressions.PrefixOperator.Inside
+- uid: DiceEngine.Expressions.PrefixOperator.Inside
+  commentId: F:DiceEngine.Expressions.PrefixOperator.Inside
   id: Inside
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: Inside
   nameWithType: PrefixOperator.Inside
-  fullName: CalcExpr.Expressions.PrefixOperator.Inside
+  fullName: DiceEngine.Expressions.PrefixOperator.Inside
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Inside
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 23
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public readonly IExpression Inside
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     content.vb: Public ReadOnly Inside As IExpression
-- uid: CalcExpr.Expressions.PrefixOperator.Evaluate
-  commentId: M:CalcExpr.Expressions.PrefixOperator.Evaluate
+- uid: DiceEngine.Expressions.PrefixOperator.Evaluate
+  commentId: M:DiceEngine.Expressions.PrefixOperator.Evaluate
   id: Evaluate
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: Evaluate()
   nameWithType: PrefixOperator.Evaluate()
-  fullName: CalcExpr.Expressions.PrefixOperator.Evaluate()
+  fullName: DiceEngine.Expressions.PrefixOperator.Evaluate()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Evaluate
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 25
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public Terminal Evaluate()
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
-      description: A new <xref href="CalcExpr.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function Evaluate() As Terminal
-  overload: CalcExpr.Expressions.PrefixOperator.Evaluate*
+  overload: DiceEngine.Expressions.PrefixOperator.Evaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.Evaluate
-- uid: CalcExpr.Expressions.PrefixOperator.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.PrefixOperator.Evaluate(CalcExpr.Context.ExpressionContext)
-  id: Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.PrefixOperator
+  - DiceEngine.Expressions.IExpression.Evaluate
+- uid: DiceEngine.Expressions.PrefixOperator.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.PrefixOperator.Evaluate(DiceEngine.Context.ExpressionContext)
+  id: Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: Evaluate(ExpressionContext)
   nameWithType: PrefixOperator.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.PrefixOperator.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.PrefixOperator.Evaluate(DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Evaluate
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 28
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public Terminal Evaluate(ExpressionContext context)
     parameters:
     - id: context
-      type: CalcExpr.Context.ExpressionContext
-      description: The values for each variable that could appear in the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
-      description: A new <xref href="CalcExpr.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function Evaluate(context As ExpressionContext) As Terminal
-  overload: CalcExpr.Expressions.PrefixOperator.Evaluate*
+  overload: DiceEngine.Expressions.PrefixOperator.Evaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-- uid: CalcExpr.Expressions.PrefixOperator.StepEvaluate
-  commentId: M:CalcExpr.Expressions.PrefixOperator.StepEvaluate
+  - DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.PrefixOperator.StepEvaluate
+  commentId: M:DiceEngine.Expressions.PrefixOperator.StepEvaluate
   id: StepEvaluate
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: StepEvaluate()
   nameWithType: PrefixOperator.StepEvaluate()
-  fullName: CalcExpr.Expressions.PrefixOperator.StepEvaluate()
+  fullName: DiceEngine.Expressions.PrefixOperator.StepEvaluate()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: StepEvaluate
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 35
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates one step towards the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public IExpression StepEvaluate()
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: >-
-        A new <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
 
-        <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function StepEvaluate() As IExpression
-  overload: CalcExpr.Expressions.PrefixOperator.StepEvaluate*
+  overload: DiceEngine.Expressions.PrefixOperator.StepEvaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.StepEvaluate
-- uid: CalcExpr.Expressions.PrefixOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.PrefixOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  id: StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.PrefixOperator
+  - DiceEngine.Expressions.IExpression.StepEvaluate
+- uid: DiceEngine.Expressions.PrefixOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.PrefixOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  id: StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: StepEvaluate(ExpressionContext)
   nameWithType: PrefixOperator.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.PrefixOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.PrefixOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: StepEvaluate
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 38
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates one step towards the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public IExpression StepEvaluate(ExpressionContext context)
     parameters:
     - id: context
-      type: CalcExpr.Context.ExpressionContext
-      description: The values for each variable that could appear in the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: >-
-        A new <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
 
-        <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function StepEvaluate(context As ExpressionContext) As IExpression
-  overload: CalcExpr.Expressions.PrefixOperator.StepEvaluate*
+  overload: DiceEngine.Expressions.PrefixOperator.StepEvaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-- uid: CalcExpr.Expressions.PrefixOperator.ToString
-  commentId: M:CalcExpr.Expressions.PrefixOperator.ToString
+  - DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.PrefixOperator.ToString
+  commentId: M:DiceEngine.Expressions.PrefixOperator.ToString
   id: ToString
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: ToString()
   nameWithType: PrefixOperator.ToString()
-  fullName: CalcExpr.Expressions.PrefixOperator.ToString()
+  fullName: DiceEngine.Expressions.PrefixOperator.ToString()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToString
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 54
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: Returns a string that represents the current object.
   example: []
   syntax:
@@ -513,31 +513,31 @@ items:
       description: A string that represents the current object.
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
-  overload: CalcExpr.Expressions.PrefixOperator.ToString*
+  overload: DiceEngine.Expressions.PrefixOperator.ToString*
   implements:
-  - CalcExpr.Expressions.IExpression.ToString
-- uid: CalcExpr.Expressions.PrefixOperator.Equals(System.Object)
-  commentId: M:CalcExpr.Expressions.PrefixOperator.Equals(System.Object)
+  - DiceEngine.Expressions.IExpression.ToString
+- uid: DiceEngine.Expressions.PrefixOperator.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.PrefixOperator.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: PrefixOperator.Equals(object?)
-  fullName: CalcExpr.Expressions.PrefixOperator.Equals(object?)
+  fullName: DiceEngine.Expressions.PrefixOperator.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 57
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -551,32 +551,32 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: CalcExpr.Expressions.PrefixOperator.Equals*
+  overload: DiceEngine.Expressions.PrefixOperator.Equals*
   nameWithType.vb: PrefixOperator.Equals(Object)
-  fullName.vb: CalcExpr.Expressions.PrefixOperator.Equals(Object)
+  fullName.vb: DiceEngine.Expressions.PrefixOperator.Equals(Object)
   name.vb: Equals(Object)
-- uid: CalcExpr.Expressions.PrefixOperator.GetHashCode
-  commentId: M:CalcExpr.Expressions.PrefixOperator.GetHashCode
+- uid: DiceEngine.Expressions.PrefixOperator.GetHashCode
+  commentId: M:DiceEngine.Expressions.PrefixOperator.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: PrefixOperator.GetHashCode()
-  fullName: CalcExpr.Expressions.PrefixOperator.GetHashCode()
+  fullName: DiceEngine.Expressions.PrefixOperator.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 61
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -586,31 +586,31 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: CalcExpr.Expressions.PrefixOperator.GetHashCode*
-- uid: CalcExpr.Expressions.PrefixOperator.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.PrefixOperator.ToString(System.String)
+  overload: DiceEngine.Expressions.PrefixOperator.GetHashCode*
+- uid: DiceEngine.Expressions.PrefixOperator.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.PrefixOperator.ToString(System.String)
   id: ToString(System.String)
-  parent: CalcExpr.Expressions.PrefixOperator
+  parent: DiceEngine.Expressions.PrefixOperator
   langs:
   - csharp
   - vb
   name: ToString(string?)
   nameWithType: PrefixOperator.ToString(string?)
-  fullName: CalcExpr.Expressions.PrefixOperator.ToString(string?)
+  fullName: DiceEngine.Expressions.PrefixOperator.ToString(string?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/PrefixOperator.cs
+      path: src/DiceEngine/Expressions/PrefixOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToString
-    path: ../src/CalcExpr/Expressions/PrefixOperator.cs
+    path: ../src/DiceEngine/Expressions/PrefixOperator.cs
     startLine: 64
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: >-
-    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
+    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
 
     format <xref href="System.String" data-throw-if-not-resolved="false"></xref> for number formats.
   example: []
@@ -623,52 +623,52 @@ items:
     return:
       type: System.String
       description: >-
-        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
 
         <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function ToString(format As String) As String
-  overload: CalcExpr.Expressions.PrefixOperator.ToString*
+  overload: DiceEngine.Expressions.PrefixOperator.ToString*
   implements:
-  - CalcExpr.Expressions.IExpression.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
   nameWithType.vb: PrefixOperator.ToString(String)
-  fullName.vb: CalcExpr.Expressions.PrefixOperator.ToString(String)
+  fullName.vb: DiceEngine.Expressions.PrefixOperator.ToString(String)
   name.vb: ToString(String)
 references:
-- uid: CalcExpr.Expressions.PrefixOperator
-  commentId: T:CalcExpr.Expressions.PrefixOperator
-  href: CalcExpr.Expressions.PrefixOperator.html
+- uid: DiceEngine.Expressions.PrefixOperator
+  commentId: T:DiceEngine.Expressions.PrefixOperator
+  href: DiceEngine.Expressions.PrefixOperator.html
   name: PrefixOperator
   nameWithType: PrefixOperator
-  fullName: CalcExpr.Expressions.PrefixOperator
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.Expressions.PrefixOperator
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -825,14 +825,14 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Expressions.PrefixOperator.#ctor*
-  commentId: Overload:CalcExpr.Expressions.PrefixOperator.#ctor
-  href: CalcExpr.Expressions.PrefixOperator.html#CalcExpr_Expressions_PrefixOperator__ctor_System_String_CalcExpr_Expressions_IExpression_
+- uid: DiceEngine.Expressions.PrefixOperator.#ctor*
+  commentId: Overload:DiceEngine.Expressions.PrefixOperator.#ctor
+  href: DiceEngine.Expressions.PrefixOperator.html#DiceEngine_Expressions_PrefixOperator__ctor_System_String_DiceEngine_Expressions_IExpression_
   name: PrefixOperator
   nameWithType: PrefixOperator.PrefixOperator
-  fullName: CalcExpr.Expressions.PrefixOperator.PrefixOperator
+  fullName: DiceEngine.Expressions.PrefixOperator.PrefixOperator
   nameWithType.vb: PrefixOperator.New
-  fullName.vb: CalcExpr.Expressions.PrefixOperator.New
+  fullName.vb: DiceEngine.Expressions.PrefixOperator.New
   name.vb: New
 - uid: System.String
   commentId: T:System.String
@@ -845,171 +845,171 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.Expressions.PrefixOperator.Evaluate*
-  commentId: Overload:CalcExpr.Expressions.PrefixOperator.Evaluate
-  href: CalcExpr.Expressions.PrefixOperator.html#CalcExpr_Expressions_PrefixOperator_Evaluate
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.PrefixOperator.Evaluate*
+  commentId: Overload:DiceEngine.Expressions.PrefixOperator.Evaluate
+  href: DiceEngine.Expressions.PrefixOperator.html#DiceEngine_Expressions_PrefixOperator_Evaluate
   name: Evaluate
   nameWithType: PrefixOperator.Evaluate
-  fullName: CalcExpr.Expressions.PrefixOperator.Evaluate
-- uid: CalcExpr.Expressions.IExpression.Evaluate
-  commentId: M:CalcExpr.Expressions.IExpression.Evaluate
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+  fullName: DiceEngine.Expressions.PrefixOperator.Evaluate
+- uid: DiceEngine.Expressions.IExpression.Evaluate
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   name: Evaluate()
   nameWithType: IExpression.Evaluate()
-  fullName: CalcExpr.Expressions.IExpression.Evaluate()
+  fullName: DiceEngine.Expressions.IExpression.Evaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   name: Evaluate(ExpressionContext)
   nameWithType: IExpression.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Context.ExpressionContext
-  commentId: T:CalcExpr.Context.ExpressionContext
-  parent: CalcExpr.Context
-  href: CalcExpr.Context.ExpressionContext.html
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
   name: ExpressionContext
   nameWithType: ExpressionContext
-  fullName: CalcExpr.Context.ExpressionContext
-- uid: CalcExpr.Context
-  commentId: N:CalcExpr.Context
-  href: CalcExpr.html
-  name: CalcExpr.Context
-  nameWithType: CalcExpr.Context
-  fullName: CalcExpr.Context
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
-- uid: CalcExpr.Expressions.PrefixOperator.StepEvaluate*
-  commentId: Overload:CalcExpr.Expressions.PrefixOperator.StepEvaluate
-  href: CalcExpr.Expressions.PrefixOperator.html#CalcExpr_Expressions_PrefixOperator_StepEvaluate
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.PrefixOperator.StepEvaluate*
+  commentId: Overload:DiceEngine.Expressions.PrefixOperator.StepEvaluate
+  href: DiceEngine.Expressions.PrefixOperator.html#DiceEngine_Expressions_PrefixOperator_StepEvaluate
   name: StepEvaluate
   nameWithType: PrefixOperator.StepEvaluate
-  fullName: CalcExpr.Expressions.PrefixOperator.StepEvaluate
-- uid: CalcExpr.Expressions.IExpression.StepEvaluate
-  commentId: M:CalcExpr.Expressions.IExpression.StepEvaluate
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+  fullName: DiceEngine.Expressions.PrefixOperator.StepEvaluate
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   name: StepEvaluate()
   nameWithType: IExpression.StepEvaluate()
-  fullName: CalcExpr.Expressions.IExpression.StepEvaluate()
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   name: StepEvaluate(ExpressionContext)
   nameWithType: IExpression.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
@@ -1035,29 +1035,29 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.PrefixOperator.ToString*
-  commentId: Overload:CalcExpr.Expressions.PrefixOperator.ToString
-  href: CalcExpr.Expressions.PrefixOperator.html#CalcExpr_Expressions_PrefixOperator_ToString
+- uid: DiceEngine.Expressions.PrefixOperator.ToString*
+  commentId: Overload:DiceEngine.Expressions.PrefixOperator.ToString
+  href: DiceEngine.Expressions.PrefixOperator.html#DiceEngine_Expressions_PrefixOperator_ToString
   name: ToString
   nameWithType: PrefixOperator.ToString
-  fullName: CalcExpr.Expressions.PrefixOperator.ToString
-- uid: CalcExpr.Expressions.IExpression.ToString
-  commentId: M:CalcExpr.Expressions.IExpression.ToString
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+  fullName: DiceEngine.Expressions.PrefixOperator.ToString
+- uid: DiceEngine.Expressions.IExpression.ToString
+  commentId: M:DiceEngine.Expressions.IExpression.ToString
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   name: ToString()
   nameWithType: IExpression.ToString()
-  fullName: CalcExpr.Expressions.IExpression.ToString()
+  fullName: DiceEngine.Expressions.IExpression.ToString()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString
+  - uid: DiceEngine.Expressions.IExpression.ToString
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString
+  - uid: DiceEngine.Expressions.IExpression.ToString
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   - name: (
   - name: )
 - uid: System.Object.Equals(System.Object)
@@ -1093,12 +1093,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Expressions.PrefixOperator.Equals*
-  commentId: Overload:CalcExpr.Expressions.PrefixOperator.Equals
-  href: CalcExpr.Expressions.PrefixOperator.html#CalcExpr_Expressions_PrefixOperator_Equals_System_Object_
+- uid: DiceEngine.Expressions.PrefixOperator.Equals*
+  commentId: Overload:DiceEngine.Expressions.PrefixOperator.Equals
+  href: DiceEngine.Expressions.PrefixOperator.html#DiceEngine_Expressions_PrefixOperator_Equals_System_Object_
   name: Equals
   nameWithType: PrefixOperator.Equals
-  fullName: CalcExpr.Expressions.PrefixOperator.Equals
+  fullName: DiceEngine.Expressions.PrefixOperator.Equals
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1134,12 +1134,12 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.PrefixOperator.GetHashCode*
-  commentId: Overload:CalcExpr.Expressions.PrefixOperator.GetHashCode
-  href: CalcExpr.Expressions.PrefixOperator.html#CalcExpr_Expressions_PrefixOperator_GetHashCode
+- uid: DiceEngine.Expressions.PrefixOperator.GetHashCode*
+  commentId: Overload:DiceEngine.Expressions.PrefixOperator.GetHashCode
+  href: DiceEngine.Expressions.PrefixOperator.html#DiceEngine_Expressions_PrefixOperator_GetHashCode
   name: GetHashCode
   nameWithType: PrefixOperator.GetHashCode
-  fullName: CalcExpr.Expressions.PrefixOperator.GetHashCode
+  fullName: DiceEngine.Expressions.PrefixOperator.GetHashCode
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1151,21 +1151,21 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: CalcExpr.Expressions.IExpression.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.IExpression.ToString(System.String)
-  parent: CalcExpr.Expressions.IExpression
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
   isExternal: true
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   name: ToString(string)
   nameWithType: IExpression.ToString(string)
-  fullName: CalcExpr.Expressions.IExpression.ToString(string)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string)
   nameWithType.vb: IExpression.ToString(String)
-  fullName.vb: CalcExpr.Expressions.IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
   name.vb: ToString(String)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: string
@@ -1173,9 +1173,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: String

@@ -1,193 +1,193 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Parsing.Brackets
-  commentId: T:CalcExpr.Parsing.Brackets
+- uid: DiceEngine.Parsing.Brackets
+  commentId: T:DiceEngine.Parsing.Brackets
   id: Brackets
-  parent: CalcExpr.Parsing
+  parent: DiceEngine.Parsing
   children:
-  - CalcExpr.Parsing.Brackets.All
-  - CalcExpr.Parsing.Brackets.Curly
-  - CalcExpr.Parsing.Brackets.None
-  - CalcExpr.Parsing.Brackets.Parenthesis
-  - CalcExpr.Parsing.Brackets.Square
+  - DiceEngine.Parsing.Brackets.All
+  - DiceEngine.Parsing.Brackets.Curly
+  - DiceEngine.Parsing.Brackets.None
+  - DiceEngine.Parsing.Brackets.Parenthesis
+  - DiceEngine.Parsing.Brackets.Square
   langs:
   - csharp
   - vb
   name: Brackets
   nameWithType: Brackets
-  fullName: CalcExpr.Parsing.Brackets
+  fullName: DiceEngine.Parsing.Brackets
   type: Enum
   source:
     remote:
-      path: src/CalcExpr/Parsing/Enums.cs
+      path: src/DiceEngine/Parsing/Enums.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Brackets
-    path: ../src/CalcExpr/Parsing/Enums.cs
+    path: ../src/DiceEngine/Parsing/Enums.cs
     startLine: 2
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: public enum Brackets
     content.vb: Public Enum Brackets
-- uid: CalcExpr.Parsing.Brackets.None
-  commentId: F:CalcExpr.Parsing.Brackets.None
+- uid: DiceEngine.Parsing.Brackets.None
+  commentId: F:DiceEngine.Parsing.Brackets.None
   id: None
-  parent: CalcExpr.Parsing.Brackets
+  parent: DiceEngine.Parsing.Brackets
   langs:
   - csharp
   - vb
   name: None
   nameWithType: Brackets.None
-  fullName: CalcExpr.Parsing.Brackets.None
+  fullName: DiceEngine.Parsing.Brackets.None
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Parsing/Enums.cs
+      path: src/DiceEngine/Parsing/Enums.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: None
-    path: ../src/CalcExpr/Parsing/Enums.cs
+    path: ../src/DiceEngine/Parsing/Enums.cs
     startLine: 4
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: None = 0
     return:
-      type: CalcExpr.Parsing.Brackets
-- uid: CalcExpr.Parsing.Brackets.Parenthesis
-  commentId: F:CalcExpr.Parsing.Brackets.Parenthesis
+      type: DiceEngine.Parsing.Brackets
+- uid: DiceEngine.Parsing.Brackets.Parenthesis
+  commentId: F:DiceEngine.Parsing.Brackets.Parenthesis
   id: Parenthesis
-  parent: CalcExpr.Parsing.Brackets
+  parent: DiceEngine.Parsing.Brackets
   langs:
   - csharp
   - vb
   name: Parenthesis
   nameWithType: Brackets.Parenthesis
-  fullName: CalcExpr.Parsing.Brackets.Parenthesis
+  fullName: DiceEngine.Parsing.Brackets.Parenthesis
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Parsing/Enums.cs
+      path: src/DiceEngine/Parsing/Enums.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Parenthesis
-    path: ../src/CalcExpr/Parsing/Enums.cs
+    path: ../src/DiceEngine/Parsing/Enums.cs
     startLine: 5
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: Parenthesis = 1
     return:
-      type: CalcExpr.Parsing.Brackets
-- uid: CalcExpr.Parsing.Brackets.Square
-  commentId: F:CalcExpr.Parsing.Brackets.Square
+      type: DiceEngine.Parsing.Brackets
+- uid: DiceEngine.Parsing.Brackets.Square
+  commentId: F:DiceEngine.Parsing.Brackets.Square
   id: Square
-  parent: CalcExpr.Parsing.Brackets
+  parent: DiceEngine.Parsing.Brackets
   langs:
   - csharp
   - vb
   name: Square
   nameWithType: Brackets.Square
-  fullName: CalcExpr.Parsing.Brackets.Square
+  fullName: DiceEngine.Parsing.Brackets.Square
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Parsing/Enums.cs
+      path: src/DiceEngine/Parsing/Enums.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Square
-    path: ../src/CalcExpr/Parsing/Enums.cs
+    path: ../src/DiceEngine/Parsing/Enums.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: Square = 2
     return:
-      type: CalcExpr.Parsing.Brackets
-- uid: CalcExpr.Parsing.Brackets.Curly
-  commentId: F:CalcExpr.Parsing.Brackets.Curly
+      type: DiceEngine.Parsing.Brackets
+- uid: DiceEngine.Parsing.Brackets.Curly
+  commentId: F:DiceEngine.Parsing.Brackets.Curly
   id: Curly
-  parent: CalcExpr.Parsing.Brackets
+  parent: DiceEngine.Parsing.Brackets
   langs:
   - csharp
   - vb
   name: Curly
   nameWithType: Brackets.Curly
-  fullName: CalcExpr.Parsing.Brackets.Curly
+  fullName: DiceEngine.Parsing.Brackets.Curly
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Parsing/Enums.cs
+      path: src/DiceEngine/Parsing/Enums.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Curly
-    path: ../src/CalcExpr/Parsing/Enums.cs
+    path: ../src/DiceEngine/Parsing/Enums.cs
     startLine: 7
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: Curly = 4
     return:
-      type: CalcExpr.Parsing.Brackets
-- uid: CalcExpr.Parsing.Brackets.All
-  commentId: F:CalcExpr.Parsing.Brackets.All
+      type: DiceEngine.Parsing.Brackets
+- uid: DiceEngine.Parsing.Brackets.All
+  commentId: F:DiceEngine.Parsing.Brackets.All
   id: All
-  parent: CalcExpr.Parsing.Brackets
+  parent: DiceEngine.Parsing.Brackets
   langs:
   - csharp
   - vb
   name: All
   nameWithType: Brackets.All
-  fullName: CalcExpr.Parsing.Brackets.All
+  fullName: DiceEngine.Parsing.Brackets.All
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Parsing/Enums.cs
+      path: src/DiceEngine/Parsing/Enums.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: All
-    path: ../src/CalcExpr/Parsing/Enums.cs
+    path: ../src/DiceEngine/Parsing/Enums.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing
+  - DiceEngine
+  namespace: DiceEngine.Parsing
   syntax:
     content: All = 255
     return:
-      type: CalcExpr.Parsing.Brackets
+      type: DiceEngine.Parsing.Brackets
 references:
-- uid: CalcExpr.Parsing
-  commentId: N:CalcExpr.Parsing
-  href: CalcExpr.html
-  name: CalcExpr.Parsing
-  nameWithType: CalcExpr.Parsing
-  fullName: CalcExpr.Parsing
+- uid: DiceEngine.Parsing
+  commentId: N:DiceEngine.Parsing
+  href: DiceEngine.html
+  name: DiceEngine.Parsing
+  nameWithType: DiceEngine.Parsing
+  fullName: DiceEngine.Parsing
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
-- uid: CalcExpr.Parsing.Brackets
-  commentId: T:CalcExpr.Parsing.Brackets
-  parent: CalcExpr.Parsing
-  href: CalcExpr.Parsing.Brackets.html
+    href: DiceEngine.Parsing.html
+- uid: DiceEngine.Parsing.Brackets
+  commentId: T:DiceEngine.Parsing.Brackets
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.Brackets.html
   name: Brackets
   nameWithType: Brackets
-  fullName: CalcExpr.Parsing.Brackets
+  fullName: DiceEngine.Parsing.Brackets

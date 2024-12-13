@@ -1,39 +1,39 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Parsing.Rules.ParserRule
-  commentId: T:CalcExpr.Parsing.Rules.ParserRule
+- uid: DiceEngine.Parsing.Rules.ParserRule
+  commentId: T:DiceEngine.Parsing.Rules.ParserRule
   id: ParserRule
-  parent: CalcExpr.Parsing.Rules
+  parent: DiceEngine.Parsing.Rules
   children:
-  - CalcExpr.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression})
-  - CalcExpr.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch})
-  - CalcExpr.Parsing.Rules.ParserRule.Equals(System.Object)
-  - CalcExpr.Parsing.Rules.ParserRule.GetHashCode
-  - CalcExpr.Parsing.Rules.ParserRule.Match(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule})
-  - CalcExpr.Parsing.Rules.ParserRule.Name
-  - CalcExpr.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser)
-  - CalcExpr.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser)
-  - CalcExpr.Parsing.Rules.ParserRule.op_Equality(CalcExpr.Parsing.Rules.ParserRule,CalcExpr.Parsing.Rules.IParserRule)
-  - CalcExpr.Parsing.Rules.ParserRule.op_Inequality(CalcExpr.Parsing.Rules.ParserRule,CalcExpr.Parsing.Rules.IParserRule)
+  - DiceEngine.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression})
+  - DiceEngine.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch})
+  - DiceEngine.Parsing.Rules.ParserRule.Equals(System.Object)
+  - DiceEngine.Parsing.Rules.ParserRule.GetHashCode
+  - DiceEngine.Parsing.Rules.ParserRule.Match(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule})
+  - DiceEngine.Parsing.Rules.ParserRule.Name
+  - DiceEngine.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser)
+  - DiceEngine.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser)
+  - DiceEngine.Parsing.Rules.ParserRule.op_Equality(DiceEngine.Parsing.Rules.ParserRule,DiceEngine.Parsing.Rules.IParserRule)
+  - DiceEngine.Parsing.Rules.ParserRule.op_Inequality(DiceEngine.Parsing.Rules.ParserRule,DiceEngine.Parsing.Rules.IParserRule)
   langs:
   - csharp
   - vb
   name: ParserRule
   nameWithType: ParserRule
-  fullName: CalcExpr.Parsing.Rules.ParserRule
+  fullName: DiceEngine.Parsing.Rules.ParserRule
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ParserRule
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 13
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
-  summary: A rule to be used to parse a <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> into an <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
+  summary: A rule to be used to parse a <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: 'public class ParserRule : IParserRule'
@@ -41,79 +41,79 @@ items:
   inheritance:
   - System.Object
   implements:
-  - CalcExpr.Parsing.Rules.IParserRule
+  - DiceEngine.Parsing.Rules.IParserRule
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression})
-  commentId: M:CalcExpr.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression})
-  id: '#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression})'
-  parent: CalcExpr.Parsing.Rules.ParserRule
+- uid: DiceEngine.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression})
+  commentId: M:DiceEngine.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression})
+  id: '#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression})'
+  parent: DiceEngine.Parsing.Rules.ParserRule
   langs:
   - csharp
   - vb
   name: ParserRule(string, Func<ImmutableArray<IToken>, Parser, IExpression?>, Func<ImmutableArray<IToken>, IEnumerable<IParserRule>, TokenMatch?>, Func<ImmutableArray<IToken>, TokenMatch, Parser, IExpression>?)
   nameWithType: ParserRule.ParserRule(string, Func<ImmutableArray<IToken>, Parser, IExpression?>, Func<ImmutableArray<IToken>, IEnumerable<IParserRule>, TokenMatch?>, Func<ImmutableArray<IToken>, TokenMatch, Parser, IExpression>?)
-  fullName: CalcExpr.Parsing.Rules.ParserRule.ParserRule(string, System.Func<System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, CalcExpr.Parsing.Parser, CalcExpr.Expressions.IExpression?>, System.Func<System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, System.Collections.Generic.IEnumerable<CalcExpr.Parsing.Rules.IParserRule>, CalcExpr.Parsing.TokenMatch?>, System.Func<System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, CalcExpr.Parsing.TokenMatch, CalcExpr.Parsing.Parser, CalcExpr.Expressions.IExpression>?)
+  fullName: DiceEngine.Parsing.Rules.ParserRule.ParserRule(string, System.Func<System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, DiceEngine.Parsing.Parser, DiceEngine.Expressions.IExpression?>, System.Func<System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, System.Collections.Generic.IEnumerable<DiceEngine.Parsing.Rules.IParserRule>, DiceEngine.Parsing.TokenMatch?>, System.Func<System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, DiceEngine.Parsing.TokenMatch, DiceEngine.Parsing.Parser, DiceEngine.Expressions.IExpression>?)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 13
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
-  summary: A rule to be used to parse a <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> into an <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
+  summary: A rule to be used to parse a <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public ParserRule(string name, Func<ImmutableArray<IToken>, Parser, IExpression?> parse, Func<ImmutableArray<IToken>, IEnumerable<IParserRule>, TokenMatch?> match, Func<ImmutableArray<IToken>, TokenMatch, Parser, IExpression>? parseMatch = null)
     parameters:
     - id: name
       type: System.String
-      description: The name of the <xref href="CalcExpr.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref>.
+      description: The name of the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref>.
     - id: parse
-      type: System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression}
+      type: System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression}
       description: The function to use to parse a input <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref>.
     - id: match
-      type: System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch}
+      type: System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch}
       description: The function to use to find a match in the input <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref>.
     - id: parseMatch
-      type: System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression}
+      type: System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression}
       description: The function to use to parse a matched sequence.
     content.vb: Public Sub New(name As String, parse As Func(Of ImmutableArray(Of IToken), Parser, IExpression), match As Func(Of ImmutableArray(Of IToken), IEnumerable(Of IParserRule), TokenMatch), parseMatch As Func(Of ImmutableArray(Of IToken), TokenMatch, Parser, IExpression) = Nothing)
-  overload: CalcExpr.Parsing.Rules.ParserRule.#ctor*
+  overload: DiceEngine.Parsing.Rules.ParserRule.#ctor*
   nameWithType.vb: ParserRule.New(String, Func(Of ImmutableArray(Of IToken), Parser, IExpression), Func(Of ImmutableArray(Of IToken), IEnumerable(Of IParserRule), TokenMatch), Func(Of ImmutableArray(Of IToken), TokenMatch, Parser, IExpression))
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.New(String, System.Func(Of System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), CalcExpr.Parsing.Parser, CalcExpr.Expressions.IExpression), System.Func(Of System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), System.Collections.Generic.IEnumerable(Of CalcExpr.Parsing.Rules.IParserRule), CalcExpr.Parsing.TokenMatch), System.Func(Of System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), CalcExpr.Parsing.TokenMatch, CalcExpr.Parsing.Parser, CalcExpr.Expressions.IExpression))
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.New(String, System.Func(Of System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), DiceEngine.Parsing.Parser, DiceEngine.Expressions.IExpression), System.Func(Of System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), System.Collections.Generic.IEnumerable(Of DiceEngine.Parsing.Rules.IParserRule), DiceEngine.Parsing.TokenMatch), System.Func(Of System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), DiceEngine.Parsing.TokenMatch, DiceEngine.Parsing.Parser, DiceEngine.Expressions.IExpression))
   name.vb: New(String, Func(Of ImmutableArray(Of IToken), Parser, IExpression), Func(Of ImmutableArray(Of IToken), IEnumerable(Of IParserRule), TokenMatch), Func(Of ImmutableArray(Of IToken), TokenMatch, Parser, IExpression))
-- uid: CalcExpr.Parsing.Rules.ParserRule.Name
-  commentId: P:CalcExpr.Parsing.Rules.ParserRule.Name
+- uid: DiceEngine.Parsing.Rules.ParserRule.Name
+  commentId: P:DiceEngine.Parsing.Rules.ParserRule.Name
   id: Name
-  parent: CalcExpr.Parsing.Rules.ParserRule
+  parent: DiceEngine.Parsing.Rules.ParserRule
   langs:
   - csharp
   - vb
   name: Name
   nameWithType: ParserRule.Name
-  fullName: CalcExpr.Parsing.Rules.ParserRule.Name
+  fullName: DiceEngine.Parsing.Rules.ParserRule.Name
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Name
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 21
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
   example: []
   syntax:
     content: public string Name { get; }
@@ -121,202 +121,202 @@ items:
     return:
       type: System.String
     content.vb: Public ReadOnly Property Name As String
-  overload: CalcExpr.Parsing.Rules.ParserRule.Name*
+  overload: DiceEngine.Parsing.Rules.ParserRule.Name*
   implements:
-  - CalcExpr.Parsing.Rules.IParserRule.Name
-- uid: CalcExpr.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch})
-  commentId: M:CalcExpr.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch})
-  id: '#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch})'
-  parent: CalcExpr.Parsing.Rules.ParserRule
+  - DiceEngine.Parsing.Rules.IParserRule.Name
+- uid: DiceEngine.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch})
+  commentId: M:DiceEngine.Parsing.Rules.ParserRule.#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch})
+  id: '#ctor(System.String,System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression},System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch})'
+  parent: DiceEngine.Parsing.Rules.ParserRule
   langs:
   - csharp
   - vb
   name: ParserRule(string, Func<ImmutableArray<IToken>, TokenMatch, Parser, IExpression>, Func<ImmutableArray<IToken>, IEnumerable<IParserRule>, TokenMatch?>)
   nameWithType: ParserRule.ParserRule(string, Func<ImmutableArray<IToken>, TokenMatch, Parser, IExpression>, Func<ImmutableArray<IToken>, IEnumerable<IParserRule>, TokenMatch?>)
-  fullName: CalcExpr.Parsing.Rules.ParserRule.ParserRule(string, System.Func<System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, CalcExpr.Parsing.TokenMatch, CalcExpr.Parsing.Parser, CalcExpr.Expressions.IExpression>, System.Func<System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, System.Collections.Generic.IEnumerable<CalcExpr.Parsing.Rules.IParserRule>, CalcExpr.Parsing.TokenMatch?>)
+  fullName: DiceEngine.Parsing.Rules.ParserRule.ParserRule(string, System.Func<System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, DiceEngine.Parsing.TokenMatch, DiceEngine.Parsing.Parser, DiceEngine.Expressions.IExpression>, System.Func<System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, System.Collections.Generic.IEnumerable<DiceEngine.Parsing.Rules.IParserRule>, DiceEngine.Parsing.TokenMatch?>)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 23
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
   syntax:
     content: public ParserRule(string name, Func<ImmutableArray<IToken>, TokenMatch, Parser, IExpression> parse, Func<ImmutableArray<IToken>, IEnumerable<IParserRule>, TokenMatch?> match)
     parameters:
     - id: name
       type: System.String
     - id: parse
-      type: System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression}
+      type: System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression}
     - id: match
-      type: System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch}
+      type: System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch}
     content.vb: Public Sub New(name As String, parse As Func(Of ImmutableArray(Of IToken), TokenMatch, Parser, IExpression), match As Func(Of ImmutableArray(Of IToken), IEnumerable(Of IParserRule), TokenMatch))
-  overload: CalcExpr.Parsing.Rules.ParserRule.#ctor*
+  overload: DiceEngine.Parsing.Rules.ParserRule.#ctor*
   nameWithType.vb: ParserRule.New(String, Func(Of ImmutableArray(Of IToken), TokenMatch, Parser, IExpression), Func(Of ImmutableArray(Of IToken), IEnumerable(Of IParserRule), TokenMatch))
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.New(String, System.Func(Of System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), CalcExpr.Parsing.TokenMatch, CalcExpr.Parsing.Parser, CalcExpr.Expressions.IExpression), System.Func(Of System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), System.Collections.Generic.IEnumerable(Of CalcExpr.Parsing.Rules.IParserRule), CalcExpr.Parsing.TokenMatch))
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.New(String, System.Func(Of System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), DiceEngine.Parsing.TokenMatch, DiceEngine.Parsing.Parser, DiceEngine.Expressions.IExpression), System.Func(Of System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), System.Collections.Generic.IEnumerable(Of DiceEngine.Parsing.Rules.IParserRule), DiceEngine.Parsing.TokenMatch))
   name.vb: New(String, Func(Of ImmutableArray(Of IToken), TokenMatch, Parser, IExpression), Func(Of ImmutableArray(Of IToken), IEnumerable(Of IParserRule), TokenMatch))
-- uid: CalcExpr.Parsing.Rules.ParserRule.Match(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule})
-  commentId: M:CalcExpr.Parsing.Rules.ParserRule.Match(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule})
-  id: Match(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule})
-  parent: CalcExpr.Parsing.Rules.ParserRule
+- uid: DiceEngine.Parsing.Rules.ParserRule.Match(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule})
+  commentId: M:DiceEngine.Parsing.Rules.ParserRule.Match(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule})
+  id: Match(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule})
+  parent: DiceEngine.Parsing.Rules.ParserRule
   langs:
   - csharp
   - vb
   name: Match(ImmutableArray<IToken>, IEnumerable<IParserRule>)
   nameWithType: ParserRule.Match(ImmutableArray<IToken>, IEnumerable<IParserRule>)
-  fullName: CalcExpr.Parsing.Rules.ParserRule.Match(System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, System.Collections.Generic.IEnumerable<CalcExpr.Parsing.Rules.IParserRule>)
+  fullName: DiceEngine.Parsing.Rules.ParserRule.Match(System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, System.Collections.Generic.IEnumerable<DiceEngine.Parsing.Rules.IParserRule>)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Match
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 28
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
   summary: The function that gets used to find a match in an input.
   example: []
   syntax:
     content: public TokenMatch? Match(ImmutableArray<IToken> input, IEnumerable<IParserRule> rules)
     parameters:
     - id: input
-      type: System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken}
+      type: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
       description: The input <xref href="System.Collections.Immutable.ImmutableArray%601" data-throw-if-not-resolved="false"></xref> to find the match in.
     - id: rules
-      type: System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule}
-      description: Other rules from the calling <xref href="CalcExpr.Parsing.Parser" data-throw-if-not-resolved="false"></xref>.
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule}
+      description: Other rules from the calling <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref>.
     return:
-      type: CalcExpr.Parsing.TokenMatch
+      type: DiceEngine.Parsing.TokenMatch
       description: >-
         A new <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> containing the value of the matching input and the index of where it
 
         was found; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if no match was found.
     content.vb: Public Function Match(input As ImmutableArray(Of IToken), rules As IEnumerable(Of IParserRule)) As TokenMatch
-  overload: CalcExpr.Parsing.Rules.ParserRule.Match*
+  overload: DiceEngine.Parsing.Rules.ParserRule.Match*
   implements:
-  - CalcExpr.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule})
+  - DiceEngine.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule})
   nameWithType.vb: ParserRule.Match(ImmutableArray(Of IToken), IEnumerable(Of IParserRule))
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.Match(System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), System.Collections.Generic.IEnumerable(Of CalcExpr.Parsing.Rules.IParserRule))
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.Match(System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), System.Collections.Generic.IEnumerable(Of DiceEngine.Parsing.Rules.IParserRule))
   name.vb: Match(ImmutableArray(Of IToken), IEnumerable(Of IParserRule))
-- uid: CalcExpr.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser)
-  commentId: M:CalcExpr.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser)
-  id: Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser)
-  parent: CalcExpr.Parsing.Rules.ParserRule
+- uid: DiceEngine.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser)
+  commentId: M:DiceEngine.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser)
+  id: Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser)
+  parent: DiceEngine.Parsing.Rules.ParserRule
   langs:
   - csharp
   - vb
   name: Parse(ImmutableArray<IToken>, Parser)
   nameWithType: ParserRule.Parse(ImmutableArray<IToken>, Parser)
-  fullName: CalcExpr.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, CalcExpr.Parsing.Parser)
+  fullName: DiceEngine.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, DiceEngine.Parsing.Parser)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Parse
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 31
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
-  summary: Tries to parse the input into an <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
+  summary: Tries to parse the input into an <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public IExpression? Parse(ImmutableArray<IToken> input, Parser parser)
     parameters:
     - id: input
-      type: System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken}
+      type: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
       description: The input <xref href="System.Collections.Immutable.ImmutableArray%601" data-throw-if-not-resolved="false"></xref> to parse.
     - id: parser
-      type: CalcExpr.Parsing.Parser
-      description: The <xref href="CalcExpr.Parsing.Parser" data-throw-if-not-resolved="false"></xref> to use to parse any sub-expressions.
+      type: DiceEngine.Parsing.Parser
+      description: The <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref> to use to parse any sub-expressions.
     return:
-      type: CalcExpr.Expressions.IExpression
-      description: The parsed <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the input could not be parsed.
+      type: DiceEngine.Expressions.IExpression
+      description: The parsed <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the input could not be parsed.
     content.vb: Public Function Parse(input As ImmutableArray(Of IToken), parser As Parser) As IExpression
-  overload: CalcExpr.Parsing.Rules.ParserRule.Parse*
+  overload: DiceEngine.Parsing.Rules.ParserRule.Parse*
   implements:
-  - CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser)
+  - DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser)
   nameWithType.vb: ParserRule.Parse(ImmutableArray(Of IToken), Parser)
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), CalcExpr.Parsing.Parser)
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), DiceEngine.Parsing.Parser)
   name.vb: Parse(ImmutableArray(Of IToken), Parser)
-- uid: CalcExpr.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser)
-  commentId: M:CalcExpr.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser)
-  id: Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser)
-  parent: CalcExpr.Parsing.Rules.ParserRule
+- uid: DiceEngine.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser)
+  commentId: M:DiceEngine.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser)
+  id: Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser)
+  parent: DiceEngine.Parsing.Rules.ParserRule
   langs:
   - csharp
   - vb
   name: Parse(ImmutableArray<IToken>, TokenMatch, Parser)
   nameWithType: ParserRule.Parse(ImmutableArray<IToken>, TokenMatch, Parser)
-  fullName: CalcExpr.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, CalcExpr.Parsing.TokenMatch, CalcExpr.Parsing.Parser)
+  fullName: DiceEngine.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, DiceEngine.Parsing.TokenMatch, DiceEngine.Parsing.Parser)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Parse
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 34
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
-  summary: Tries to parse the input <xref href="System.Collections.Immutable.ImmutableArray%601" data-throw-if-not-resolved="false"></xref> into an <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the given token.
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
+  summary: Tries to parse the input <xref href="System.Collections.Immutable.ImmutableArray%601" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the given token.
   example: []
   syntax:
     content: public IExpression? Parse(ImmutableArray<IToken> input, TokenMatch match, Parser parser)
     parameters:
     - id: input
-      type: System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken}
+      type: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
       description: The input <xref href="System.Collections.Immutable.ImmutableArray%601" data-throw-if-not-resolved="false"></xref> to parse.
     - id: match
-      type: CalcExpr.Parsing.TokenMatch
+      type: DiceEngine.Parsing.TokenMatch
       description: The matching <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> with its index to use to parse the input.
     - id: parser
-      type: CalcExpr.Parsing.Parser
-      description: The <xref href="CalcExpr.Parsing.Parser" data-throw-if-not-resolved="false"></xref> to use to parse any sub-expressions.
+      type: DiceEngine.Parsing.Parser
+      description: The <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref> to use to parse any sub-expressions.
     return:
-      type: CalcExpr.Expressions.IExpression
-      description: The parsed <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the input could not be parsed.
+      type: DiceEngine.Expressions.IExpression
+      description: The parsed <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the input could not be parsed.
     content.vb: Public Function Parse(input As ImmutableArray(Of IToken), match As TokenMatch, parser As Parser) As IExpression
-  overload: CalcExpr.Parsing.Rules.ParserRule.Parse*
+  overload: DiceEngine.Parsing.Rules.ParserRule.Parse*
   implements:
-  - CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser)
+  - DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser)
   nameWithType.vb: ParserRule.Parse(ImmutableArray(Of IToken), TokenMatch, Parser)
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), CalcExpr.Parsing.TokenMatch, CalcExpr.Parsing.Parser)
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.Parse(System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), DiceEngine.Parsing.TokenMatch, DiceEngine.Parsing.Parser)
   name.vb: Parse(ImmutableArray(Of IToken), TokenMatch, Parser)
-- uid: CalcExpr.Parsing.Rules.ParserRule.Equals(System.Object)
-  commentId: M:CalcExpr.Parsing.Rules.ParserRule.Equals(System.Object)
+- uid: DiceEngine.Parsing.Rules.ParserRule.Equals(System.Object)
+  commentId: M:DiceEngine.Parsing.Rules.ParserRule.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Parsing.Rules.ParserRule
+  parent: DiceEngine.Parsing.Rules.ParserRule
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: ParserRule.Equals(object?)
-  fullName: CalcExpr.Parsing.Rules.ParserRule.Equals(object?)
+  fullName: DiceEngine.Parsing.Rules.ParserRule.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 50
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -330,32 +330,32 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: CalcExpr.Parsing.Rules.ParserRule.Equals*
+  overload: DiceEngine.Parsing.Rules.ParserRule.Equals*
   nameWithType.vb: ParserRule.Equals(Object)
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.Equals(Object)
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.Equals(Object)
   name.vb: Equals(Object)
-- uid: CalcExpr.Parsing.Rules.ParserRule.GetHashCode
-  commentId: M:CalcExpr.Parsing.Rules.ParserRule.GetHashCode
+- uid: DiceEngine.Parsing.Rules.ParserRule.GetHashCode
+  commentId: M:DiceEngine.Parsing.Rules.ParserRule.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Parsing.Rules.ParserRule
+  parent: DiceEngine.Parsing.Rules.ParserRule
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: ParserRule.GetHashCode()
-  fullName: CalcExpr.Parsing.Rules.ParserRule.GetHashCode()
+  fullName: DiceEngine.Parsing.Rules.ParserRule.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 53
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -365,78 +365,78 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: CalcExpr.Parsing.Rules.ParserRule.GetHashCode*
-- uid: CalcExpr.Parsing.Rules.ParserRule.op_Equality(CalcExpr.Parsing.Rules.ParserRule,CalcExpr.Parsing.Rules.IParserRule)
-  commentId: M:CalcExpr.Parsing.Rules.ParserRule.op_Equality(CalcExpr.Parsing.Rules.ParserRule,CalcExpr.Parsing.Rules.IParserRule)
-  id: op_Equality(CalcExpr.Parsing.Rules.ParserRule,CalcExpr.Parsing.Rules.IParserRule)
-  parent: CalcExpr.Parsing.Rules.ParserRule
+  overload: DiceEngine.Parsing.Rules.ParserRule.GetHashCode*
+- uid: DiceEngine.Parsing.Rules.ParserRule.op_Equality(DiceEngine.Parsing.Rules.ParserRule,DiceEngine.Parsing.Rules.IParserRule)
+  commentId: M:DiceEngine.Parsing.Rules.ParserRule.op_Equality(DiceEngine.Parsing.Rules.ParserRule,DiceEngine.Parsing.Rules.IParserRule)
+  id: op_Equality(DiceEngine.Parsing.Rules.ParserRule,DiceEngine.Parsing.Rules.IParserRule)
+  parent: DiceEngine.Parsing.Rules.ParserRule
   langs:
   - csharp
   - vb
   name: operator ==(ParserRule, IParserRule)
   nameWithType: ParserRule.operator ==(ParserRule, IParserRule)
-  fullName: CalcExpr.Parsing.Rules.ParserRule.operator ==(CalcExpr.Parsing.Rules.ParserRule, CalcExpr.Parsing.Rules.IParserRule)
+  fullName: DiceEngine.Parsing.Rules.ParserRule.operator ==(DiceEngine.Parsing.Rules.ParserRule, DiceEngine.Parsing.Rules.IParserRule)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Equality
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 56
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
   syntax:
     content: public static bool operator ==(ParserRule a, IParserRule b)
     parameters:
     - id: a
-      type: CalcExpr.Parsing.Rules.ParserRule
+      type: DiceEngine.Parsing.Rules.ParserRule
     - id: b
-      type: CalcExpr.Parsing.Rules.IParserRule
+      type: DiceEngine.Parsing.Rules.IParserRule
     return:
       type: System.Boolean
     content.vb: Public Shared Operator =(a As ParserRule, b As IParserRule) As Boolean
-  overload: CalcExpr.Parsing.Rules.ParserRule.op_Equality*
+  overload: DiceEngine.Parsing.Rules.ParserRule.op_Equality*
   nameWithType.vb: ParserRule.=(ParserRule, IParserRule)
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.=(CalcExpr.Parsing.Rules.ParserRule, CalcExpr.Parsing.Rules.IParserRule)
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.=(DiceEngine.Parsing.Rules.ParserRule, DiceEngine.Parsing.Rules.IParserRule)
   name.vb: =(ParserRule, IParserRule)
-- uid: CalcExpr.Parsing.Rules.ParserRule.op_Inequality(CalcExpr.Parsing.Rules.ParserRule,CalcExpr.Parsing.Rules.IParserRule)
-  commentId: M:CalcExpr.Parsing.Rules.ParserRule.op_Inequality(CalcExpr.Parsing.Rules.ParserRule,CalcExpr.Parsing.Rules.IParserRule)
-  id: op_Inequality(CalcExpr.Parsing.Rules.ParserRule,CalcExpr.Parsing.Rules.IParserRule)
-  parent: CalcExpr.Parsing.Rules.ParserRule
+- uid: DiceEngine.Parsing.Rules.ParserRule.op_Inequality(DiceEngine.Parsing.Rules.ParserRule,DiceEngine.Parsing.Rules.IParserRule)
+  commentId: M:DiceEngine.Parsing.Rules.ParserRule.op_Inequality(DiceEngine.Parsing.Rules.ParserRule,DiceEngine.Parsing.Rules.IParserRule)
+  id: op_Inequality(DiceEngine.Parsing.Rules.ParserRule,DiceEngine.Parsing.Rules.IParserRule)
+  parent: DiceEngine.Parsing.Rules.ParserRule
   langs:
   - csharp
   - vb
   name: operator !=(ParserRule, IParserRule)
   nameWithType: ParserRule.operator !=(ParserRule, IParserRule)
-  fullName: CalcExpr.Parsing.Rules.ParserRule.operator !=(CalcExpr.Parsing.Rules.ParserRule, CalcExpr.Parsing.Rules.IParserRule)
+  fullName: DiceEngine.Parsing.Rules.ParserRule.operator !=(DiceEngine.Parsing.Rules.ParserRule, DiceEngine.Parsing.Rules.IParserRule)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Parsing/Rules/ParserRule.cs
+      path: src/DiceEngine/Parsing/Rules/ParserRule.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Inequality
-    path: ../src/CalcExpr/Parsing/Rules/ParserRule.cs
+    path: ../src/DiceEngine/Parsing/Rules/ParserRule.cs
     startLine: 59
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Parsing.Rules
+  - DiceEngine
+  namespace: DiceEngine.Parsing.Rules
   syntax:
     content: public static bool operator !=(ParserRule a, IParserRule b)
     parameters:
     - id: a
-      type: CalcExpr.Parsing.Rules.ParserRule
+      type: DiceEngine.Parsing.Rules.ParserRule
     - id: b
-      type: CalcExpr.Parsing.Rules.IParserRule
+      type: DiceEngine.Parsing.Rules.IParserRule
     return:
       type: System.Boolean
     content.vb: Public Shared Operator <>(a As ParserRule, b As IParserRule) As Boolean
-  overload: CalcExpr.Parsing.Rules.ParserRule.op_Inequality*
+  overload: DiceEngine.Parsing.Rules.ParserRule.op_Inequality*
   nameWithType.vb: ParserRule.<>(ParserRule, IParserRule)
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.<>(CalcExpr.Parsing.Rules.ParserRule, CalcExpr.Parsing.Rules.IParserRule)
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.<>(DiceEngine.Parsing.Rules.ParserRule, DiceEngine.Parsing.Rules.IParserRule)
   name.vb: <>(ParserRule, IParserRule)
 references:
 - uid: System.Collections.Generic.IEnumerable`1
@@ -467,50 +467,50 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Parsing.Rules.IParserRule
-  commentId: T:CalcExpr.Parsing.Rules.IParserRule
-  parent: CalcExpr.Parsing.Rules
-  href: CalcExpr.Parsing.Rules.IParserRule.html
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Parsing.Rules.IParserRule
+  commentId: T:DiceEngine.Parsing.Rules.IParserRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.IParserRule.html
   name: IParserRule
   nameWithType: IParserRule
-  fullName: CalcExpr.Parsing.Rules.IParserRule
-- uid: CalcExpr.Parsing.Rules
-  commentId: N:CalcExpr.Parsing.Rules
-  href: CalcExpr.html
-  name: CalcExpr.Parsing.Rules
-  nameWithType: CalcExpr.Parsing.Rules
-  fullName: CalcExpr.Parsing.Rules
+  fullName: DiceEngine.Parsing.Rules.IParserRule
+- uid: DiceEngine.Parsing.Rules
+  commentId: N:DiceEngine.Parsing.Rules
+  href: DiceEngine.html
+  name: DiceEngine.Parsing.Rules
+  nameWithType: DiceEngine.Parsing.Rules
+  fullName: DiceEngine.Parsing.Rules
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html
   - name: .
-  - uid: CalcExpr.Parsing.Rules
+  - uid: DiceEngine.Parsing.Rules
     name: Rules
-    href: CalcExpr.Parsing.Rules.html
+    href: DiceEngine.Parsing.Rules.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html
   - name: .
-  - uid: CalcExpr.Parsing.Rules
+  - uid: DiceEngine.Parsing.Rules
     name: Rules
-    href: CalcExpr.Parsing.Rules.html
+    href: DiceEngine.Parsing.Rules.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -684,28 +684,28 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
 - uid: System
   commentId: N:System
   isExternal: true
@@ -713,14 +713,14 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Parsing.Rules.ParserRule.#ctor*
-  commentId: Overload:CalcExpr.Parsing.Rules.ParserRule.#ctor
-  href: CalcExpr.Parsing.Rules.ParserRule.html#CalcExpr_Parsing_Rules_ParserRule__ctor_System_String_System_Func_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__CalcExpr_Parsing_Parser_CalcExpr_Expressions_IExpression__System_Func_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__System_Collections_Generic_IEnumerable_CalcExpr_Parsing_Rules_IParserRule__CalcExpr_Parsing_TokenMatch__System_Func_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__CalcExpr_Parsing_TokenMatch_CalcExpr_Parsing_Parser_CalcExpr_Expressions_IExpression__
+- uid: DiceEngine.Parsing.Rules.ParserRule.#ctor*
+  commentId: Overload:DiceEngine.Parsing.Rules.ParserRule.#ctor
+  href: DiceEngine.Parsing.Rules.ParserRule.html#DiceEngine_Parsing_Rules_ParserRule__ctor_System_String_System_Func_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__DiceEngine_Parsing_Parser_DiceEngine_Expressions_IExpression__System_Func_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__System_Collections_Generic_IEnumerable_DiceEngine_Parsing_Rules_IParserRule__DiceEngine_Parsing_TokenMatch__System_Func_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__DiceEngine_Parsing_TokenMatch_DiceEngine_Parsing_Parser_DiceEngine_Expressions_IExpression__
   name: ParserRule
   nameWithType: ParserRule.ParserRule
-  fullName: CalcExpr.Parsing.Rules.ParserRule.ParserRule
+  fullName: DiceEngine.Parsing.Rules.ParserRule.ParserRule
   nameWithType.vb: ParserRule.New
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.New
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.New
   name.vb: New
 - uid: System.String
   commentId: T:System.String
@@ -733,16 +733,16 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression}
-  commentId: T:System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression}
+- uid: System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression}
+  commentId: T:System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression}
   parent: System
   definition: System.Func`3
   href: https://learn.microsoft.com/dotnet/api/system.func-3
   name: Func<ImmutableArray<IToken>, Parser, IExpression>
   nameWithType: Func<ImmutableArray<IToken>, Parser, IExpression>
-  fullName: System.Func<System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, CalcExpr.Parsing.Parser, CalcExpr.Expressions.IExpression>
+  fullName: System.Func<System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, DiceEngine.Parsing.Parser, DiceEngine.Expressions.IExpression>
   nameWithType.vb: Func(Of ImmutableArray(Of IToken), Parser, IExpression)
-  fullName.vb: System.Func(Of System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), CalcExpr.Parsing.Parser, CalcExpr.Expressions.IExpression)
+  fullName.vb: System.Func(Of System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), DiceEngine.Parsing.Parser, DiceEngine.Expressions.IExpression)
   name.vb: Func(Of ImmutableArray(Of IToken), Parser, IExpression)
   spec.csharp:
   - uid: System.Func`3
@@ -755,20 +755,20 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.Parser
+  - uid: DiceEngine.Parsing.Parser
     name: Parser
-    href: CalcExpr.Parsing.Parser.html
+    href: DiceEngine.Parsing.Parser.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: '>'
   spec.vb:
   - uid: System.Func`3
@@ -785,31 +785,31 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.Parser
+  - uid: DiceEngine.Parsing.Parser
     name: Parser
-    href: CalcExpr.Parsing.Parser.html
+    href: DiceEngine.Parsing.Parser.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
-- uid: System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch}
-  commentId: T:System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule},CalcExpr.Parsing.TokenMatch}
+- uid: System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch}
+  commentId: T:System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Parsing.TokenMatch}
   parent: System
   definition: System.Func`3
   href: https://learn.microsoft.com/dotnet/api/system.func-3
   name: Func<ImmutableArray<IToken>, IEnumerable<IParserRule>, TokenMatch>
   nameWithType: Func<ImmutableArray<IToken>, IEnumerable<IParserRule>, TokenMatch>
-  fullName: System.Func<System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, System.Collections.Generic.IEnumerable<CalcExpr.Parsing.Rules.IParserRule>, CalcExpr.Parsing.TokenMatch>
+  fullName: System.Func<System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, System.Collections.Generic.IEnumerable<DiceEngine.Parsing.Rules.IParserRule>, DiceEngine.Parsing.TokenMatch>
   nameWithType.vb: Func(Of ImmutableArray(Of IToken), IEnumerable(Of IParserRule), TokenMatch)
-  fullName.vb: System.Func(Of System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), System.Collections.Generic.IEnumerable(Of CalcExpr.Parsing.Rules.IParserRule), CalcExpr.Parsing.TokenMatch)
+  fullName.vb: System.Func(Of System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), System.Collections.Generic.IEnumerable(Of DiceEngine.Parsing.Rules.IParserRule), DiceEngine.Parsing.TokenMatch)
   name.vb: Func(Of ImmutableArray(Of IToken), IEnumerable(Of IParserRule), TokenMatch)
   spec.csharp:
   - uid: System.Func`3
@@ -822,9 +822,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   - name: ','
   - name: " "
@@ -833,15 +833,15 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: CalcExpr.Parsing.Rules.IParserRule
+  - uid: DiceEngine.Parsing.Rules.IParserRule
     name: IParserRule
-    href: CalcExpr.Parsing.Rules.IParserRule.html
+    href: DiceEngine.Parsing.Rules.IParserRule.html
   - name: '>'
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.TokenMatch
+  - uid: DiceEngine.Parsing.TokenMatch
     name: TokenMatch
-    href: CalcExpr.Parsing.TokenMatch.html
+    href: DiceEngine.Parsing.TokenMatch.html
   - name: '>'
   spec.vb:
   - uid: System.Func`3
@@ -858,9 +858,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
   - name: ','
   - name: " "
@@ -871,26 +871,26 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Parsing.Rules.IParserRule
+  - uid: DiceEngine.Parsing.Rules.IParserRule
     name: IParserRule
-    href: CalcExpr.Parsing.Rules.IParserRule.html
+    href: DiceEngine.Parsing.Rules.IParserRule.html
   - name: )
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.TokenMatch
+  - uid: DiceEngine.Parsing.TokenMatch
     name: TokenMatch
-    href: CalcExpr.Parsing.TokenMatch.html
+    href: DiceEngine.Parsing.TokenMatch.html
   - name: )
-- uid: System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression}
-  commentId: T:System.Func{System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser,CalcExpr.Expressions.IExpression}
+- uid: System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression}
+  commentId: T:System.Func{System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser,DiceEngine.Expressions.IExpression}
   parent: System
   definition: System.Func`4
   href: https://learn.microsoft.com/dotnet/api/system.func-4
   name: Func<ImmutableArray<IToken>, TokenMatch, Parser, IExpression>
   nameWithType: Func<ImmutableArray<IToken>, TokenMatch, Parser, IExpression>
-  fullName: System.Func<System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, CalcExpr.Parsing.TokenMatch, CalcExpr.Parsing.Parser, CalcExpr.Expressions.IExpression>
+  fullName: System.Func<System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, DiceEngine.Parsing.TokenMatch, DiceEngine.Parsing.Parser, DiceEngine.Expressions.IExpression>
   nameWithType.vb: Func(Of ImmutableArray(Of IToken), TokenMatch, Parser, IExpression)
-  fullName.vb: System.Func(Of System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), CalcExpr.Parsing.TokenMatch, CalcExpr.Parsing.Parser, CalcExpr.Expressions.IExpression)
+  fullName.vb: System.Func(Of System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), DiceEngine.Parsing.TokenMatch, DiceEngine.Parsing.Parser, DiceEngine.Expressions.IExpression)
   name.vb: Func(Of ImmutableArray(Of IToken), TokenMatch, Parser, IExpression)
   spec.csharp:
   - uid: System.Func`4
@@ -903,25 +903,25 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.TokenMatch
+  - uid: DiceEngine.Parsing.TokenMatch
     name: TokenMatch
-    href: CalcExpr.Parsing.TokenMatch.html
+    href: DiceEngine.Parsing.TokenMatch.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.Parser
+  - uid: DiceEngine.Parsing.Parser
     name: Parser
-    href: CalcExpr.Parsing.Parser.html
+    href: DiceEngine.Parsing.Parser.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: '>'
   spec.vb:
   - uid: System.Func`4
@@ -938,25 +938,25 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.TokenMatch
+  - uid: DiceEngine.Parsing.TokenMatch
     name: TokenMatch
-    href: CalcExpr.Parsing.TokenMatch.html
+    href: DiceEngine.Parsing.TokenMatch.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.Parser
+  - uid: DiceEngine.Parsing.Parser
     name: Parser
-    href: CalcExpr.Parsing.Parser.html
+    href: DiceEngine.Parsing.Parser.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
 - uid: System.Func`3
   commentId: T:System.Func`3
@@ -1044,19 +1044,19 @@ references:
   - name: " "
   - name: TResult
   - name: )
-- uid: CalcExpr.Parsing.Rules.ParserRule.Name*
-  commentId: Overload:CalcExpr.Parsing.Rules.ParserRule.Name
-  href: CalcExpr.Parsing.Rules.ParserRule.html#CalcExpr_Parsing_Rules_ParserRule_Name
+- uid: DiceEngine.Parsing.Rules.ParserRule.Name*
+  commentId: Overload:DiceEngine.Parsing.Rules.ParserRule.Name
+  href: DiceEngine.Parsing.Rules.ParserRule.html#DiceEngine_Parsing_Rules_ParserRule_Name
   name: Name
   nameWithType: ParserRule.Name
-  fullName: CalcExpr.Parsing.Rules.ParserRule.Name
-- uid: CalcExpr.Parsing.Rules.IParserRule.Name
-  commentId: P:CalcExpr.Parsing.Rules.IParserRule.Name
-  parent: CalcExpr.Parsing.Rules.IParserRule
-  href: CalcExpr.Parsing.Rules.IParserRule.html#CalcExpr_Parsing_Rules_IParserRule_Name
+  fullName: DiceEngine.Parsing.Rules.ParserRule.Name
+- uid: DiceEngine.Parsing.Rules.IParserRule.Name
+  commentId: P:DiceEngine.Parsing.Rules.IParserRule.Name
+  parent: DiceEngine.Parsing.Rules.IParserRule
+  href: DiceEngine.Parsing.Rules.IParserRule.html#DiceEngine_Parsing_Rules_IParserRule_Name
   name: Name
   nameWithType: IParserRule.Name
-  fullName: CalcExpr.Parsing.Rules.IParserRule.Name
+  fullName: DiceEngine.Parsing.Rules.IParserRule.Name
 - uid: System.Collections.Immutable.ImmutableArray`1
   commentId: T:System.Collections.Immutable.ImmutableArray`1
   isExternal: true
@@ -1085,43 +1085,43 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: CalcExpr.Parsing.Parser
-  commentId: T:CalcExpr.Parsing.Parser
-  parent: CalcExpr.Parsing
-  href: CalcExpr.Parsing.Parser.html
+- uid: DiceEngine.Parsing.Parser
+  commentId: T:DiceEngine.Parsing.Parser
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.Parser.html
   name: Parser
   nameWithType: Parser
-  fullName: CalcExpr.Parsing.Parser
-- uid: CalcExpr.Parsing.Rules.ParserRule.Match*
-  commentId: Overload:CalcExpr.Parsing.Rules.ParserRule.Match
-  href: CalcExpr.Parsing.Rules.ParserRule.html#CalcExpr_Parsing_Rules_ParserRule_Match_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__System_Collections_Generic_IEnumerable_CalcExpr_Parsing_Rules_IParserRule__
+  fullName: DiceEngine.Parsing.Parser
+- uid: DiceEngine.Parsing.Rules.ParserRule.Match*
+  commentId: Overload:DiceEngine.Parsing.Rules.ParserRule.Match
+  href: DiceEngine.Parsing.Rules.ParserRule.html#DiceEngine_Parsing_Rules_ParserRule_Match_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__System_Collections_Generic_IEnumerable_DiceEngine_Parsing_Rules_IParserRule__
   name: Match
   nameWithType: ParserRule.Match
-  fullName: CalcExpr.Parsing.Rules.ParserRule.Match
-- uid: CalcExpr.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule})
-  commentId: M:CalcExpr.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule})
-  parent: CalcExpr.Parsing.Rules.IParserRule
+  fullName: DiceEngine.Parsing.Rules.ParserRule.Match
+- uid: DiceEngine.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule})
+  commentId: M:DiceEngine.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule})
+  parent: DiceEngine.Parsing.Rules.IParserRule
   isExternal: true
-  href: CalcExpr.Parsing.Rules.IParserRule.html#CalcExpr_Parsing_Rules_IParserRule_Match_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__System_Collections_Generic_IEnumerable_CalcExpr_Parsing_Rules_IParserRule__
+  href: DiceEngine.Parsing.Rules.IParserRule.html#DiceEngine_Parsing_Rules_IParserRule_Match_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__System_Collections_Generic_IEnumerable_DiceEngine_Parsing_Rules_IParserRule__
   name: Match(ImmutableArray<IToken>, IEnumerable<IParserRule>)
   nameWithType: IParserRule.Match(ImmutableArray<IToken>, IEnumerable<IParserRule>)
-  fullName: CalcExpr.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, System.Collections.Generic.IEnumerable<CalcExpr.Parsing.Rules.IParserRule>)
+  fullName: DiceEngine.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, System.Collections.Generic.IEnumerable<DiceEngine.Parsing.Rules.IParserRule>)
   nameWithType.vb: IParserRule.Match(ImmutableArray(Of IToken), IEnumerable(Of IParserRule))
-  fullName.vb: CalcExpr.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), System.Collections.Generic.IEnumerable(Of CalcExpr.Parsing.Rules.IParserRule))
+  fullName.vb: DiceEngine.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), System.Collections.Generic.IEnumerable(Of DiceEngine.Parsing.Rules.IParserRule))
   name.vb: Match(ImmutableArray(Of IToken), IEnumerable(Of IParserRule))
   spec.csharp:
-  - uid: CalcExpr.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule})
+  - uid: DiceEngine.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule})
     name: Match
-    href: CalcExpr.Parsing.Rules.IParserRule.html#CalcExpr_Parsing_Rules_IParserRule_Match_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__System_Collections_Generic_IEnumerable_CalcExpr_Parsing_Rules_IParserRule__
+    href: DiceEngine.Parsing.Rules.IParserRule.html#DiceEngine_Parsing_Rules_IParserRule_Match_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__System_Collections_Generic_IEnumerable_DiceEngine_Parsing_Rules_IParserRule__
   - name: (
   - uid: System.Collections.Immutable.ImmutableArray`1
     name: ImmutableArray
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   - name: ','
   - name: " "
@@ -1130,15 +1130,15 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: CalcExpr.Parsing.Rules.IParserRule
+  - uid: DiceEngine.Parsing.Rules.IParserRule
     name: IParserRule
-    href: CalcExpr.Parsing.Rules.IParserRule.html
+    href: DiceEngine.Parsing.Rules.IParserRule.html
   - name: '>'
   - name: )
   spec.vb:
-  - uid: CalcExpr.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule})
+  - uid: DiceEngine.Parsing.Rules.IParserRule.Match(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule})
     name: Match
-    href: CalcExpr.Parsing.Rules.IParserRule.html#CalcExpr_Parsing_Rules_IParserRule_Match_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__System_Collections_Generic_IEnumerable_CalcExpr_Parsing_Rules_IParserRule__
+    href: DiceEngine.Parsing.Rules.IParserRule.html#DiceEngine_Parsing_Rules_IParserRule_Match_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__System_Collections_Generic_IEnumerable_DiceEngine_Parsing_Rules_IParserRule__
   - name: (
   - uid: System.Collections.Immutable.ImmutableArray`1
     name: ImmutableArray
@@ -1147,9 +1147,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
   - name: ','
   - name: " "
@@ -1160,21 +1160,21 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Parsing.Rules.IParserRule
+  - uid: DiceEngine.Parsing.Rules.IParserRule
     name: IParserRule
-    href: CalcExpr.Parsing.Rules.IParserRule.html
+    href: DiceEngine.Parsing.Rules.IParserRule.html
   - name: )
   - name: )
-- uid: System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken}
-  commentId: T:System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken}
+- uid: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
   parent: System.Collections.Immutable
   definition: System.Collections.Immutable.ImmutableArray`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   name: ImmutableArray<IToken>
   nameWithType: ImmutableArray<IToken>
-  fullName: System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>
+  fullName: System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>
   nameWithType.vb: ImmutableArray(Of IToken)
-  fullName.vb: System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken)
   name.vb: ImmutableArray(Of IToken)
   spec.csharp:
   - uid: System.Collections.Immutable.ImmutableArray`1
@@ -1182,9 +1182,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Immutable.ImmutableArray`1
@@ -1194,20 +1194,20 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
-- uid: System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule}
-  commentId: T:System.Collections.Generic.IEnumerable{CalcExpr.Parsing.Rules.IParserRule}
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<IParserRule>
   nameWithType: IEnumerable<IParserRule>
-  fullName: System.Collections.Generic.IEnumerable<CalcExpr.Parsing.Rules.IParserRule>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Parsing.Rules.IParserRule>
   nameWithType.vb: IEnumerable(Of IParserRule)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of CalcExpr.Parsing.Rules.IParserRule)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Parsing.Rules.IParserRule)
   name.vb: IEnumerable(Of IParserRule)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -1215,9 +1215,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: CalcExpr.Parsing.Rules.IParserRule
+  - uid: DiceEngine.Parsing.Rules.IParserRule
     name: IParserRule
-    href: CalcExpr.Parsing.Rules.IParserRule.html
+    href: DiceEngine.Parsing.Rules.IParserRule.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
@@ -1227,39 +1227,39 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Parsing.Rules.IParserRule
+  - uid: DiceEngine.Parsing.Rules.IParserRule
     name: IParserRule
-    href: CalcExpr.Parsing.Rules.IParserRule.html
+    href: DiceEngine.Parsing.Rules.IParserRule.html
   - name: )
-- uid: CalcExpr.Parsing.TokenMatch
-  commentId: T:CalcExpr.Parsing.TokenMatch
-  parent: CalcExpr.Parsing
-  href: CalcExpr.Parsing.TokenMatch.html
+- uid: DiceEngine.Parsing.TokenMatch
+  commentId: T:DiceEngine.Parsing.TokenMatch
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.TokenMatch.html
   name: TokenMatch
   nameWithType: TokenMatch
-  fullName: CalcExpr.Parsing.TokenMatch
-- uid: CalcExpr.Parsing
-  commentId: N:CalcExpr.Parsing
-  href: CalcExpr.html
-  name: CalcExpr.Parsing
-  nameWithType: CalcExpr.Parsing
-  fullName: CalcExpr.Parsing
+  fullName: DiceEngine.Parsing.TokenMatch
+- uid: DiceEngine.Parsing
+  commentId: N:DiceEngine.Parsing
+  href: DiceEngine.html
+  name: DiceEngine.Parsing
+  nameWithType: DiceEngine.Parsing
+  fullName: DiceEngine.Parsing
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Parsing
+  - uid: DiceEngine.Parsing
     name: Parsing
-    href: CalcExpr.Parsing.html
+    href: DiceEngine.Parsing.html
 - uid: System.Collections.Immutable
   commentId: N:System.Collections.Immutable
   isExternal: true
@@ -1334,47 +1334,47 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: CalcExpr.Parsing.Rules.ParserRule.Parse*
-  commentId: Overload:CalcExpr.Parsing.Rules.ParserRule.Parse
-  href: CalcExpr.Parsing.Rules.ParserRule.html#CalcExpr_Parsing_Rules_ParserRule_Parse_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__CalcExpr_Parsing_Parser_
+- uid: DiceEngine.Parsing.Rules.ParserRule.Parse*
+  commentId: Overload:DiceEngine.Parsing.Rules.ParserRule.Parse
+  href: DiceEngine.Parsing.Rules.ParserRule.html#DiceEngine_Parsing_Rules_ParserRule_Parse_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__DiceEngine_Parsing_Parser_
   name: Parse
   nameWithType: ParserRule.Parse
-  fullName: CalcExpr.Parsing.Rules.ParserRule.Parse
-- uid: CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser)
-  commentId: M:CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser)
-  parent: CalcExpr.Parsing.Rules.IParserRule
+  fullName: DiceEngine.Parsing.Rules.ParserRule.Parse
+- uid: DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser)
+  commentId: M:DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser)
+  parent: DiceEngine.Parsing.Rules.IParserRule
   isExternal: true
-  href: CalcExpr.Parsing.Rules.IParserRule.html#CalcExpr_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__CalcExpr_Parsing_Parser_
+  href: DiceEngine.Parsing.Rules.IParserRule.html#DiceEngine_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__DiceEngine_Parsing_Parser_
   name: Parse(ImmutableArray<IToken>, Parser)
   nameWithType: IParserRule.Parse(ImmutableArray<IToken>, Parser)
-  fullName: CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, CalcExpr.Parsing.Parser)
+  fullName: DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, DiceEngine.Parsing.Parser)
   nameWithType.vb: IParserRule.Parse(ImmutableArray(Of IToken), Parser)
-  fullName.vb: CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), CalcExpr.Parsing.Parser)
+  fullName.vb: DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), DiceEngine.Parsing.Parser)
   name.vb: Parse(ImmutableArray(Of IToken), Parser)
   spec.csharp:
-  - uid: CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser)
+  - uid: DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser)
     name: Parse
-    href: CalcExpr.Parsing.Rules.IParserRule.html#CalcExpr_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__CalcExpr_Parsing_Parser_
+    href: DiceEngine.Parsing.Rules.IParserRule.html#DiceEngine_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__DiceEngine_Parsing_Parser_
   - name: (
   - uid: System.Collections.Immutable.ImmutableArray`1
     name: ImmutableArray
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.Parser
+  - uid: DiceEngine.Parsing.Parser
     name: Parser
-    href: CalcExpr.Parsing.Parser.html
+    href: DiceEngine.Parsing.Parser.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.Parser)
+  - uid: DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.Parser)
     name: Parse
-    href: CalcExpr.Parsing.Rules.IParserRule.html#CalcExpr_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__CalcExpr_Parsing_Parser_
+    href: DiceEngine.Parsing.Rules.IParserRule.html#DiceEngine_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__DiceEngine_Parsing_Parser_
   - name: (
   - uid: System.Collections.Immutable.ImmutableArray`1
     name: ImmutableArray
@@ -1383,56 +1383,56 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.Parser
+  - uid: DiceEngine.Parsing.Parser
     name: Parser
-    href: CalcExpr.Parsing.Parser.html
+    href: DiceEngine.Parsing.Parser.html
   - name: )
-- uid: CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser)
-  commentId: M:CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser)
-  parent: CalcExpr.Parsing.Rules.IParserRule
+- uid: DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser)
+  commentId: M:DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser)
+  parent: DiceEngine.Parsing.Rules.IParserRule
   isExternal: true
-  href: CalcExpr.Parsing.Rules.IParserRule.html#CalcExpr_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__CalcExpr_Parsing_TokenMatch_CalcExpr_Parsing_Parser_
+  href: DiceEngine.Parsing.Rules.IParserRule.html#DiceEngine_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__DiceEngine_Parsing_TokenMatch_DiceEngine_Parsing_Parser_
   name: Parse(ImmutableArray<IToken>, TokenMatch, Parser)
   nameWithType: IParserRule.Parse(ImmutableArray<IToken>, TokenMatch, Parser)
-  fullName: CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray<CalcExpr.Tokenization.Tokens.IToken>, CalcExpr.Parsing.TokenMatch, CalcExpr.Parsing.Parser)
+  fullName: DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>, DiceEngine.Parsing.TokenMatch, DiceEngine.Parsing.Parser)
   nameWithType.vb: IParserRule.Parse(ImmutableArray(Of IToken), TokenMatch, Parser)
-  fullName.vb: CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray(Of CalcExpr.Tokenization.Tokens.IToken), CalcExpr.Parsing.TokenMatch, CalcExpr.Parsing.Parser)
+  fullName.vb: DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken), DiceEngine.Parsing.TokenMatch, DiceEngine.Parsing.Parser)
   name.vb: Parse(ImmutableArray(Of IToken), TokenMatch, Parser)
   spec.csharp:
-  - uid: CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser)
+  - uid: DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser)
     name: Parse
-    href: CalcExpr.Parsing.Rules.IParserRule.html#CalcExpr_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__CalcExpr_Parsing_TokenMatch_CalcExpr_Parsing_Parser_
+    href: DiceEngine.Parsing.Rules.IParserRule.html#DiceEngine_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__DiceEngine_Parsing_TokenMatch_DiceEngine_Parsing_Parser_
   - name: (
   - uid: System.Collections.Immutable.ImmutableArray`1
     name: ImmutableArray
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: '>'
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.TokenMatch
+  - uid: DiceEngine.Parsing.TokenMatch
     name: TokenMatch
-    href: CalcExpr.Parsing.TokenMatch.html
+    href: DiceEngine.Parsing.TokenMatch.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.Parser
+  - uid: DiceEngine.Parsing.Parser
     name: Parser
-    href: CalcExpr.Parsing.Parser.html
+    href: DiceEngine.Parsing.Parser.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{CalcExpr.Tokenization.Tokens.IToken},CalcExpr.Parsing.TokenMatch,CalcExpr.Parsing.Parser)
+  - uid: DiceEngine.Parsing.Rules.IParserRule.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Parsing.TokenMatch,DiceEngine.Parsing.Parser)
     name: Parse
-    href: CalcExpr.Parsing.Rules.IParserRule.html#CalcExpr_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_CalcExpr_Tokenization_Tokens_IToken__CalcExpr_Parsing_TokenMatch_CalcExpr_Parsing_Parser_
+    href: DiceEngine.Parsing.Rules.IParserRule.html#DiceEngine_Parsing_Rules_IParserRule_Parse_System_Collections_Immutable_ImmutableArray_DiceEngine_Tokenization_Tokens_IToken__DiceEngine_Parsing_TokenMatch_DiceEngine_Parsing_Parser_
   - name: (
   - uid: System.Collections.Immutable.ImmutableArray`1
     name: ImmutableArray
@@ -1441,20 +1441,20 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.IToken
+  - uid: DiceEngine.Tokenization.Tokens.IToken
     name: IToken
-    href: CalcExpr.Tokenization.Tokens.IToken.html
+    href: DiceEngine.Tokenization.Tokens.IToken.html
   - name: )
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.TokenMatch
+  - uid: DiceEngine.Parsing.TokenMatch
     name: TokenMatch
-    href: CalcExpr.Parsing.TokenMatch.html
+    href: DiceEngine.Parsing.TokenMatch.html
   - name: ','
   - name: " "
-  - uid: CalcExpr.Parsing.Parser
+  - uid: DiceEngine.Parsing.Parser
     name: Parser
-    href: CalcExpr.Parsing.Parser.html
+    href: DiceEngine.Parsing.Parser.html
   - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
@@ -1489,12 +1489,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Parsing.Rules.ParserRule.Equals*
-  commentId: Overload:CalcExpr.Parsing.Rules.ParserRule.Equals
-  href: CalcExpr.Parsing.Rules.ParserRule.html#CalcExpr_Parsing_Rules_ParserRule_Equals_System_Object_
+- uid: DiceEngine.Parsing.Rules.ParserRule.Equals*
+  commentId: Overload:DiceEngine.Parsing.Rules.ParserRule.Equals
+  href: DiceEngine.Parsing.Rules.ParserRule.html#DiceEngine_Parsing_Rules_ParserRule_Equals_System_Object_
   name: Equals
   nameWithType: ParserRule.Equals
-  fullName: CalcExpr.Parsing.Rules.ParserRule.Equals
+  fullName: DiceEngine.Parsing.Rules.ParserRule.Equals
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1530,12 +1530,12 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Parsing.Rules.ParserRule.GetHashCode*
-  commentId: Overload:CalcExpr.Parsing.Rules.ParserRule.GetHashCode
-  href: CalcExpr.Parsing.Rules.ParserRule.html#CalcExpr_Parsing_Rules_ParserRule_GetHashCode
+- uid: DiceEngine.Parsing.Rules.ParserRule.GetHashCode*
+  commentId: Overload:DiceEngine.Parsing.Rules.ParserRule.GetHashCode
+  href: DiceEngine.Parsing.Rules.ParserRule.html#DiceEngine_Parsing_Rules_ParserRule_GetHashCode
   name: GetHashCode
   nameWithType: ParserRule.GetHashCode
-  fullName: CalcExpr.Parsing.Rules.ParserRule.GetHashCode
+  fullName: DiceEngine.Parsing.Rules.ParserRule.GetHashCode
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1547,40 +1547,40 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: CalcExpr.Parsing.Rules.ParserRule.op_Equality*
-  commentId: Overload:CalcExpr.Parsing.Rules.ParserRule.op_Equality
-  href: CalcExpr.Parsing.Rules.ParserRule.html#CalcExpr_Parsing_Rules_ParserRule_op_Equality_CalcExpr_Parsing_Rules_ParserRule_CalcExpr_Parsing_Rules_IParserRule_
+- uid: DiceEngine.Parsing.Rules.ParserRule.op_Equality*
+  commentId: Overload:DiceEngine.Parsing.Rules.ParserRule.op_Equality
+  href: DiceEngine.Parsing.Rules.ParserRule.html#DiceEngine_Parsing_Rules_ParserRule_op_Equality_DiceEngine_Parsing_Rules_ParserRule_DiceEngine_Parsing_Rules_IParserRule_
   name: operator ==
   nameWithType: ParserRule.operator ==
-  fullName: CalcExpr.Parsing.Rules.ParserRule.operator ==
+  fullName: DiceEngine.Parsing.Rules.ParserRule.operator ==
   nameWithType.vb: ParserRule.=
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.=
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.=
   name.vb: =
   spec.csharp:
   - name: operator
   - name: " "
-  - uid: CalcExpr.Parsing.Rules.ParserRule.op_Equality*
+  - uid: DiceEngine.Parsing.Rules.ParserRule.op_Equality*
     name: ==
-    href: CalcExpr.Parsing.Rules.ParserRule.html#CalcExpr_Parsing_Rules_ParserRule_op_Equality_CalcExpr_Parsing_Rules_ParserRule_CalcExpr_Parsing_Rules_IParserRule_
-- uid: CalcExpr.Parsing.Rules.ParserRule
-  commentId: T:CalcExpr.Parsing.Rules.ParserRule
-  parent: CalcExpr.Parsing.Rules
-  href: CalcExpr.Parsing.Rules.ParserRule.html
+    href: DiceEngine.Parsing.Rules.ParserRule.html#DiceEngine_Parsing_Rules_ParserRule_op_Equality_DiceEngine_Parsing_Rules_ParserRule_DiceEngine_Parsing_Rules_IParserRule_
+- uid: DiceEngine.Parsing.Rules.ParserRule
+  commentId: T:DiceEngine.Parsing.Rules.ParserRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.ParserRule.html
   name: ParserRule
   nameWithType: ParserRule
-  fullName: CalcExpr.Parsing.Rules.ParserRule
-- uid: CalcExpr.Parsing.Rules.ParserRule.op_Inequality*
-  commentId: Overload:CalcExpr.Parsing.Rules.ParserRule.op_Inequality
-  href: CalcExpr.Parsing.Rules.ParserRule.html#CalcExpr_Parsing_Rules_ParserRule_op_Inequality_CalcExpr_Parsing_Rules_ParserRule_CalcExpr_Parsing_Rules_IParserRule_
+  fullName: DiceEngine.Parsing.Rules.ParserRule
+- uid: DiceEngine.Parsing.Rules.ParserRule.op_Inequality*
+  commentId: Overload:DiceEngine.Parsing.Rules.ParserRule.op_Inequality
+  href: DiceEngine.Parsing.Rules.ParserRule.html#DiceEngine_Parsing_Rules_ParserRule_op_Inequality_DiceEngine_Parsing_Rules_ParserRule_DiceEngine_Parsing_Rules_IParserRule_
   name: operator !=
   nameWithType: ParserRule.operator !=
-  fullName: CalcExpr.Parsing.Rules.ParserRule.operator !=
+  fullName: DiceEngine.Parsing.Rules.ParserRule.operator !=
   nameWithType.vb: ParserRule.<>
-  fullName.vb: CalcExpr.Parsing.Rules.ParserRule.<>
+  fullName.vb: DiceEngine.Parsing.Rules.ParserRule.<>
   name.vb: <>
   spec.csharp:
   - name: operator
   - name: " "
-  - uid: CalcExpr.Parsing.Rules.ParserRule.op_Inequality*
+  - uid: DiceEngine.Parsing.Rules.ParserRule.op_Inequality*
     name: '!='
-    href: CalcExpr.Parsing.Rules.ParserRule.html#CalcExpr_Parsing_Rules_ParserRule_op_Inequality_CalcExpr_Parsing_Rules_ParserRule_CalcExpr_Parsing_Rules_IParserRule_
+    href: DiceEngine.Parsing.Rules.ParserRule.html#DiceEngine_Parsing_Rules_ParserRule_op_Inequality_DiceEngine_Parsing_Rules_ParserRule_DiceEngine_Parsing_Rules_IParserRule_

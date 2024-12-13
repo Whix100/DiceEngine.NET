@@ -1,40 +1,40 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.AssignmentOperator
-  commentId: T:CalcExpr.Expressions.AssignmentOperator
+- uid: DiceEngine.Expressions.AssignmentOperator
+  commentId: T:DiceEngine.Expressions.AssignmentOperator
   id: AssignmentOperator
-  parent: CalcExpr.Expressions
+  parent: DiceEngine.Expressions
   children:
-  - CalcExpr.Expressions.AssignmentOperator.#ctor(CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression)
-  - CalcExpr.Expressions.AssignmentOperator.AssignedVariable
-  - CalcExpr.Expressions.AssignmentOperator.Equals(System.Object)
-  - CalcExpr.Expressions.AssignmentOperator.Evaluate
-  - CalcExpr.Expressions.AssignmentOperator.Evaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.AssignmentOperator.GetHashCode
-  - CalcExpr.Expressions.AssignmentOperator.StepEvaluate
-  - CalcExpr.Expressions.AssignmentOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.AssignmentOperator.ToString
-  - CalcExpr.Expressions.AssignmentOperator.ToString(System.String)
-  - CalcExpr.Expressions.AssignmentOperator.Value
+  - DiceEngine.Expressions.AssignmentOperator.#ctor(DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression)
+  - DiceEngine.Expressions.AssignmentOperator.AssignedVariable
+  - DiceEngine.Expressions.AssignmentOperator.Equals(System.Object)
+  - DiceEngine.Expressions.AssignmentOperator.Evaluate
+  - DiceEngine.Expressions.AssignmentOperator.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.AssignmentOperator.GetHashCode
+  - DiceEngine.Expressions.AssignmentOperator.StepEvaluate
+  - DiceEngine.Expressions.AssignmentOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.AssignmentOperator.ToString
+  - DiceEngine.Expressions.AssignmentOperator.ToString(System.String)
+  - DiceEngine.Expressions.AssignmentOperator.Value
   langs:
   - csharp
   - vb
   name: AssignmentOperator
   nameWithType: AssignmentOperator
-  fullName: CalcExpr.Expressions.AssignmentOperator
+  fullName: DiceEngine.Expressions.AssignmentOperator
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: AssignmentOperator
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 16
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Initializes a new instance of the <xref href="CalcExpr.Expressions.AssignmentOperator" data-throw-if-not-resolved="false"></xref> class.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Initializes a new instance of the <xref href="DiceEngine.Expressions.AssignmentOperator" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: 'public class AssignmentOperator : IExpression'
@@ -42,275 +42,275 @@ items:
   inheritance:
   - System.Object
   implements:
-  - CalcExpr.Expressions.IExpression
+  - DiceEngine.Expressions.IExpression
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: CalcExpr.Expressions.AssignmentOperator.#ctor(CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.Expressions.AssignmentOperator.#ctor(CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression)
-  id: '#ctor(CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression)'
-  parent: CalcExpr.Expressions.AssignmentOperator
+- uid: DiceEngine.Expressions.AssignmentOperator.#ctor(DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.Expressions.AssignmentOperator.#ctor(DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression)
+  id: '#ctor(DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression)'
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: AssignmentOperator(IExpression, IExpression)
   nameWithType: AssignmentOperator.AssignmentOperator(IExpression, IExpression)
-  fullName: CalcExpr.Expressions.AssignmentOperator.AssignmentOperator(CalcExpr.Expressions.IExpression, CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.Expressions.AssignmentOperator.AssignmentOperator(DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 16
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Initializes a new instance of the <xref href="CalcExpr.Expressions.AssignmentOperator" data-throw-if-not-resolved="false"></xref> class.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Initializes a new instance of the <xref href="DiceEngine.Expressions.AssignmentOperator" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: public AssignmentOperator(IExpression assignedVariable, IExpression value)
     parameters:
     - id: assignedVariable
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: >-
-        The <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> variable that's getting assigned to. If <code class="paramref">assignedVariable</code> is
+        The <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> variable that's getting assigned to. If <code class="paramref">assignedVariable</code> is
 
-        not a <xref href="CalcExpr.Expressions.Variable" data-throw-if-not-resolved="false"></xref>, an exception is thrown.
+        not a <xref href="DiceEngine.Expressions.Variable" data-throw-if-not-resolved="false"></xref>, an exception is thrown.
     - id: value
-      type: CalcExpr.Expressions.IExpression
-      description: The <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> value being assigned to <code class="paramref">assignedVariable</code>.
+      type: DiceEngine.Expressions.IExpression
+      description: The <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> value being assigned to <code class="paramref">assignedVariable</code>.
     content.vb: Public Sub New(assignedVariable As IExpression, value As IExpression)
-  overload: CalcExpr.Expressions.AssignmentOperator.#ctor*
+  overload: DiceEngine.Expressions.AssignmentOperator.#ctor*
   nameWithType.vb: AssignmentOperator.New(IExpression, IExpression)
-  fullName.vb: CalcExpr.Expressions.AssignmentOperator.New(CalcExpr.Expressions.IExpression, CalcExpr.Expressions.IExpression)
+  fullName.vb: DiceEngine.Expressions.AssignmentOperator.New(DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression)
   name.vb: New(IExpression, IExpression)
-- uid: CalcExpr.Expressions.AssignmentOperator.AssignedVariable
-  commentId: F:CalcExpr.Expressions.AssignmentOperator.AssignedVariable
+- uid: DiceEngine.Expressions.AssignmentOperator.AssignedVariable
+  commentId: F:DiceEngine.Expressions.AssignmentOperator.AssignedVariable
   id: AssignedVariable
-  parent: CalcExpr.Expressions.AssignmentOperator
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: AssignedVariable
   nameWithType: AssignmentOperator.AssignedVariable
-  fullName: CalcExpr.Expressions.AssignmentOperator.AssignedVariable
+  fullName: DiceEngine.Expressions.AssignmentOperator.AssignedVariable
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: AssignedVariable
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 18
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public readonly Variable AssignedVariable
     return:
-      type: CalcExpr.Expressions.Variable
+      type: DiceEngine.Expressions.Variable
     content.vb: Public ReadOnly AssignedVariable As Variable
-- uid: CalcExpr.Expressions.AssignmentOperator.Value
-  commentId: F:CalcExpr.Expressions.AssignmentOperator.Value
+- uid: DiceEngine.Expressions.AssignmentOperator.Value
+  commentId: F:DiceEngine.Expressions.AssignmentOperator.Value
   id: Value
-  parent: CalcExpr.Expressions.AssignmentOperator
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: Value
   nameWithType: AssignmentOperator.Value
-  fullName: CalcExpr.Expressions.AssignmentOperator.Value
+  fullName: DiceEngine.Expressions.AssignmentOperator.Value
   type: Field
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Value
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 21
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   syntax:
     content: public readonly IExpression Value
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     content.vb: Public ReadOnly Value As IExpression
-- uid: CalcExpr.Expressions.AssignmentOperator.Evaluate
-  commentId: M:CalcExpr.Expressions.AssignmentOperator.Evaluate
+- uid: DiceEngine.Expressions.AssignmentOperator.Evaluate
+  commentId: M:DiceEngine.Expressions.AssignmentOperator.Evaluate
   id: Evaluate
-  parent: CalcExpr.Expressions.AssignmentOperator
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: Evaluate()
   nameWithType: AssignmentOperator.Evaluate()
-  fullName: CalcExpr.Expressions.AssignmentOperator.Evaluate()
+  fullName: DiceEngine.Expressions.AssignmentOperator.Evaluate()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Evaluate
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 23
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public Terminal Evaluate()
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
-      description: A new <xref href="CalcExpr.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function Evaluate() As Terminal
-  overload: CalcExpr.Expressions.AssignmentOperator.Evaluate*
+  overload: DiceEngine.Expressions.AssignmentOperator.Evaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.Evaluate
-- uid: CalcExpr.Expressions.AssignmentOperator.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.AssignmentOperator.Evaluate(CalcExpr.Context.ExpressionContext)
-  id: Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.AssignmentOperator
+  - DiceEngine.Expressions.IExpression.Evaluate
+- uid: DiceEngine.Expressions.AssignmentOperator.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.AssignmentOperator.Evaluate(DiceEngine.Context.ExpressionContext)
+  id: Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: Evaluate(ExpressionContext)
   nameWithType: AssignmentOperator.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.AssignmentOperator.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.AssignmentOperator.Evaluate(DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Evaluate
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 26
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public Terminal Evaluate(ExpressionContext context)
     parameters:
     - id: context
-      type: CalcExpr.Context.ExpressionContext
-      description: The values for each variable that could appear in the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
-      description: A new <xref href="CalcExpr.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function Evaluate(context As ExpressionContext) As Terminal
-  overload: CalcExpr.Expressions.AssignmentOperator.Evaluate*
+  overload: DiceEngine.Expressions.AssignmentOperator.Evaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-- uid: CalcExpr.Expressions.AssignmentOperator.StepEvaluate
-  commentId: M:CalcExpr.Expressions.AssignmentOperator.StepEvaluate
+  - DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.AssignmentOperator.StepEvaluate
+  commentId: M:DiceEngine.Expressions.AssignmentOperator.StepEvaluate
   id: StepEvaluate
-  parent: CalcExpr.Expressions.AssignmentOperator
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: StepEvaluate()
   nameWithType: AssignmentOperator.StepEvaluate()
-  fullName: CalcExpr.Expressions.AssignmentOperator.StepEvaluate()
+  fullName: DiceEngine.Expressions.AssignmentOperator.StepEvaluate()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: StepEvaluate
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 34
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates one step towards the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public IExpression StepEvaluate()
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: >-
-        A new <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
 
-        <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function StepEvaluate() As IExpression
-  overload: CalcExpr.Expressions.AssignmentOperator.StepEvaluate*
+  overload: DiceEngine.Expressions.AssignmentOperator.StepEvaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.StepEvaluate
-- uid: CalcExpr.Expressions.AssignmentOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.AssignmentOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  id: StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.AssignmentOperator
+  - DiceEngine.Expressions.IExpression.StepEvaluate
+- uid: DiceEngine.Expressions.AssignmentOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.AssignmentOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  id: StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: StepEvaluate(ExpressionContext)
   nameWithType: AssignmentOperator.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.AssignmentOperator.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.AssignmentOperator.StepEvaluate(DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: StepEvaluate
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 37
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
-  summary: Evaluates and calculates one step towards the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public IExpression StepEvaluate(ExpressionContext context)
     parameters:
     - id: context
-      type: CalcExpr.Context.ExpressionContext
-      description: The values for each variable that could appear in the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: >-
-        A new <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
 
-        <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function StepEvaluate(context As ExpressionContext) As IExpression
-  overload: CalcExpr.Expressions.AssignmentOperator.StepEvaluate*
+  overload: DiceEngine.Expressions.AssignmentOperator.StepEvaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-- uid: CalcExpr.Expressions.AssignmentOperator.Equals(System.Object)
-  commentId: M:CalcExpr.Expressions.AssignmentOperator.Equals(System.Object)
+  - DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.AssignmentOperator.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.AssignmentOperator.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Expressions.AssignmentOperator
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: AssignmentOperator.Equals(object?)
-  fullName: CalcExpr.Expressions.AssignmentOperator.Equals(object?)
+  fullName: DiceEngine.Expressions.AssignmentOperator.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 50
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -324,32 +324,32 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: CalcExpr.Expressions.AssignmentOperator.Equals*
+  overload: DiceEngine.Expressions.AssignmentOperator.Equals*
   nameWithType.vb: AssignmentOperator.Equals(Object)
-  fullName.vb: CalcExpr.Expressions.AssignmentOperator.Equals(Object)
+  fullName.vb: DiceEngine.Expressions.AssignmentOperator.Equals(Object)
   name.vb: Equals(Object)
-- uid: CalcExpr.Expressions.AssignmentOperator.GetHashCode
-  commentId: M:CalcExpr.Expressions.AssignmentOperator.GetHashCode
+- uid: DiceEngine.Expressions.AssignmentOperator.GetHashCode
+  commentId: M:DiceEngine.Expressions.AssignmentOperator.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Expressions.AssignmentOperator
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: AssignmentOperator.GetHashCode()
-  fullName: CalcExpr.Expressions.AssignmentOperator.GetHashCode()
+  fullName: DiceEngine.Expressions.AssignmentOperator.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 54
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -359,29 +359,29 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: CalcExpr.Expressions.AssignmentOperator.GetHashCode*
-- uid: CalcExpr.Expressions.AssignmentOperator.ToString
-  commentId: M:CalcExpr.Expressions.AssignmentOperator.ToString
+  overload: DiceEngine.Expressions.AssignmentOperator.GetHashCode*
+- uid: DiceEngine.Expressions.AssignmentOperator.ToString
+  commentId: M:DiceEngine.Expressions.AssignmentOperator.ToString
   id: ToString
-  parent: CalcExpr.Expressions.AssignmentOperator
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: ToString()
   nameWithType: AssignmentOperator.ToString()
-  fullName: CalcExpr.Expressions.AssignmentOperator.ToString()
+  fullName: DiceEngine.Expressions.AssignmentOperator.ToString()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToString
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 57
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: Returns a string that represents the current object.
   example: []
   syntax:
@@ -391,33 +391,33 @@ items:
       description: A string that represents the current object.
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
-  overload: CalcExpr.Expressions.AssignmentOperator.ToString*
+  overload: DiceEngine.Expressions.AssignmentOperator.ToString*
   implements:
-  - CalcExpr.Expressions.IExpression.ToString
-- uid: CalcExpr.Expressions.AssignmentOperator.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.AssignmentOperator.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.ToString
+- uid: DiceEngine.Expressions.AssignmentOperator.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.AssignmentOperator.ToString(System.String)
   id: ToString(System.String)
-  parent: CalcExpr.Expressions.AssignmentOperator
+  parent: DiceEngine.Expressions.AssignmentOperator
   langs:
   - csharp
   - vb
   name: ToString(string?)
   nameWithType: AssignmentOperator.ToString(string?)
-  fullName: CalcExpr.Expressions.AssignmentOperator.ToString(string?)
+  fullName: DiceEngine.Expressions.AssignmentOperator.ToString(string?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/AssignmentOperator.cs
+      path: src/DiceEngine/Expressions/AssignmentOperator.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToString
-    path: ../src/CalcExpr/Expressions/AssignmentOperator.cs
+    path: ../src/DiceEngine/Expressions/AssignmentOperator.cs
     startLine: 60
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions
+  - DiceEngine
+  namespace: DiceEngine.Expressions
   summary: >-
-    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
+    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
 
     format <xref href="System.String" data-throw-if-not-resolved="false"></xref> for number formats.
   example: []
@@ -430,59 +430,59 @@ items:
     return:
       type: System.String
       description: >-
-        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
 
         <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function ToString(format As String) As String
-  overload: CalcExpr.Expressions.AssignmentOperator.ToString*
+  overload: DiceEngine.Expressions.AssignmentOperator.ToString*
   implements:
-  - CalcExpr.Expressions.IExpression.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
   nameWithType.vb: AssignmentOperator.ToString(String)
-  fullName.vb: CalcExpr.Expressions.AssignmentOperator.ToString(String)
+  fullName.vb: DiceEngine.Expressions.AssignmentOperator.ToString(String)
   name.vb: ToString(String)
 references:
-- uid: CalcExpr.Expressions.AssignmentOperator
-  commentId: T:CalcExpr.Expressions.AssignmentOperator
-  href: CalcExpr.Expressions.AssignmentOperator.html
+- uid: DiceEngine.Expressions.AssignmentOperator
+  commentId: T:DiceEngine.Expressions.AssignmentOperator
+  href: DiceEngine.Expressions.AssignmentOperator.html
   name: AssignmentOperator
   nameWithType: AssignmentOperator
-  fullName: CalcExpr.Expressions.AssignmentOperator
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.Expressions.AssignmentOperator
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions.Variable
-  commentId: T:CalcExpr.Expressions.Variable
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.Variable.html
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions.Variable
+  commentId: T:DiceEngine.Expressions.Variable
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.Variable.html
   name: Variable
   nameWithType: Variable
-  fullName: CalcExpr.Expressions.Variable
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  fullName: DiceEngine.Expressions.Variable
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -639,180 +639,180 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Expressions.AssignmentOperator.#ctor*
-  commentId: Overload:CalcExpr.Expressions.AssignmentOperator.#ctor
-  href: CalcExpr.Expressions.AssignmentOperator.html#CalcExpr_Expressions_AssignmentOperator__ctor_CalcExpr_Expressions_IExpression_CalcExpr_Expressions_IExpression_
+- uid: DiceEngine.Expressions.AssignmentOperator.#ctor*
+  commentId: Overload:DiceEngine.Expressions.AssignmentOperator.#ctor
+  href: DiceEngine.Expressions.AssignmentOperator.html#DiceEngine_Expressions_AssignmentOperator__ctor_DiceEngine_Expressions_IExpression_DiceEngine_Expressions_IExpression_
   name: AssignmentOperator
   nameWithType: AssignmentOperator.AssignmentOperator
-  fullName: CalcExpr.Expressions.AssignmentOperator.AssignmentOperator
+  fullName: DiceEngine.Expressions.AssignmentOperator.AssignmentOperator
   nameWithType.vb: AssignmentOperator.New
-  fullName.vb: CalcExpr.Expressions.AssignmentOperator.New
+  fullName.vb: DiceEngine.Expressions.AssignmentOperator.New
   name.vb: New
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.Expressions.AssignmentOperator.Evaluate*
-  commentId: Overload:CalcExpr.Expressions.AssignmentOperator.Evaluate
-  href: CalcExpr.Expressions.AssignmentOperator.html#CalcExpr_Expressions_AssignmentOperator_Evaluate
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.AssignmentOperator.Evaluate*
+  commentId: Overload:DiceEngine.Expressions.AssignmentOperator.Evaluate
+  href: DiceEngine.Expressions.AssignmentOperator.html#DiceEngine_Expressions_AssignmentOperator_Evaluate
   name: Evaluate
   nameWithType: AssignmentOperator.Evaluate
-  fullName: CalcExpr.Expressions.AssignmentOperator.Evaluate
-- uid: CalcExpr.Expressions.IExpression.Evaluate
-  commentId: M:CalcExpr.Expressions.IExpression.Evaluate
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+  fullName: DiceEngine.Expressions.AssignmentOperator.Evaluate
+- uid: DiceEngine.Expressions.IExpression.Evaluate
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   name: Evaluate()
   nameWithType: IExpression.Evaluate()
-  fullName: CalcExpr.Expressions.IExpression.Evaluate()
+  fullName: DiceEngine.Expressions.IExpression.Evaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   name: Evaluate(ExpressionContext)
   nameWithType: IExpression.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Context.ExpressionContext
-  commentId: T:CalcExpr.Context.ExpressionContext
-  parent: CalcExpr.Context
-  href: CalcExpr.Context.ExpressionContext.html
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
   name: ExpressionContext
   nameWithType: ExpressionContext
-  fullName: CalcExpr.Context.ExpressionContext
-- uid: CalcExpr.Context
-  commentId: N:CalcExpr.Context
-  href: CalcExpr.html
-  name: CalcExpr.Context
-  nameWithType: CalcExpr.Context
-  fullName: CalcExpr.Context
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
-- uid: CalcExpr.Expressions.AssignmentOperator.StepEvaluate*
-  commentId: Overload:CalcExpr.Expressions.AssignmentOperator.StepEvaluate
-  href: CalcExpr.Expressions.AssignmentOperator.html#CalcExpr_Expressions_AssignmentOperator_StepEvaluate
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.AssignmentOperator.StepEvaluate*
+  commentId: Overload:DiceEngine.Expressions.AssignmentOperator.StepEvaluate
+  href: DiceEngine.Expressions.AssignmentOperator.html#DiceEngine_Expressions_AssignmentOperator_StepEvaluate
   name: StepEvaluate
   nameWithType: AssignmentOperator.StepEvaluate
-  fullName: CalcExpr.Expressions.AssignmentOperator.StepEvaluate
-- uid: CalcExpr.Expressions.IExpression.StepEvaluate
-  commentId: M:CalcExpr.Expressions.IExpression.StepEvaluate
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+  fullName: DiceEngine.Expressions.AssignmentOperator.StepEvaluate
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   name: StepEvaluate()
   nameWithType: IExpression.StepEvaluate()
-  fullName: CalcExpr.Expressions.IExpression.StepEvaluate()
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   name: StepEvaluate(ExpressionContext)
   nameWithType: IExpression.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
@@ -847,12 +847,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Expressions.AssignmentOperator.Equals*
-  commentId: Overload:CalcExpr.Expressions.AssignmentOperator.Equals
-  href: CalcExpr.Expressions.AssignmentOperator.html#CalcExpr_Expressions_AssignmentOperator_Equals_System_Object_
+- uid: DiceEngine.Expressions.AssignmentOperator.Equals*
+  commentId: Overload:DiceEngine.Expressions.AssignmentOperator.Equals
+  href: DiceEngine.Expressions.AssignmentOperator.html#DiceEngine_Expressions_AssignmentOperator_Equals_System_Object_
   name: Equals
   nameWithType: AssignmentOperator.Equals
-  fullName: CalcExpr.Expressions.AssignmentOperator.Equals
+  fullName: DiceEngine.Expressions.AssignmentOperator.Equals
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -888,12 +888,12 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.AssignmentOperator.GetHashCode*
-  commentId: Overload:CalcExpr.Expressions.AssignmentOperator.GetHashCode
-  href: CalcExpr.Expressions.AssignmentOperator.html#CalcExpr_Expressions_AssignmentOperator_GetHashCode
+- uid: DiceEngine.Expressions.AssignmentOperator.GetHashCode*
+  commentId: Overload:DiceEngine.Expressions.AssignmentOperator.GetHashCode
+  href: DiceEngine.Expressions.AssignmentOperator.html#DiceEngine_Expressions_AssignmentOperator_GetHashCode
   name: GetHashCode
   nameWithType: AssignmentOperator.GetHashCode
-  fullName: CalcExpr.Expressions.AssignmentOperator.GetHashCode
+  fullName: DiceEngine.Expressions.AssignmentOperator.GetHashCode
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -929,29 +929,29 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.AssignmentOperator.ToString*
-  commentId: Overload:CalcExpr.Expressions.AssignmentOperator.ToString
-  href: CalcExpr.Expressions.AssignmentOperator.html#CalcExpr_Expressions_AssignmentOperator_ToString
+- uid: DiceEngine.Expressions.AssignmentOperator.ToString*
+  commentId: Overload:DiceEngine.Expressions.AssignmentOperator.ToString
+  href: DiceEngine.Expressions.AssignmentOperator.html#DiceEngine_Expressions_AssignmentOperator_ToString
   name: ToString
   nameWithType: AssignmentOperator.ToString
-  fullName: CalcExpr.Expressions.AssignmentOperator.ToString
-- uid: CalcExpr.Expressions.IExpression.ToString
-  commentId: M:CalcExpr.Expressions.IExpression.ToString
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+  fullName: DiceEngine.Expressions.AssignmentOperator.ToString
+- uid: DiceEngine.Expressions.IExpression.ToString
+  commentId: M:DiceEngine.Expressions.IExpression.ToString
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   name: ToString()
   nameWithType: IExpression.ToString()
-  fullName: CalcExpr.Expressions.IExpression.ToString()
+  fullName: DiceEngine.Expressions.IExpression.ToString()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString
+  - uid: DiceEngine.Expressions.IExpression.ToString
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString
+  - uid: DiceEngine.Expressions.IExpression.ToString
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   - name: (
   - name: )
 - uid: System.String
@@ -965,21 +965,21 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Expressions.IExpression.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.IExpression.ToString(System.String)
-  parent: CalcExpr.Expressions.IExpression
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
   isExternal: true
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   name: ToString(string)
   nameWithType: IExpression.ToString(string)
-  fullName: CalcExpr.Expressions.IExpression.ToString(string)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string)
   nameWithType.vb: IExpression.ToString(String)
-  fullName.vb: CalcExpr.Expressions.IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
   name.vb: ToString(String)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: string
@@ -987,9 +987,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: String

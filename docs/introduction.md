@@ -1,7 +1,7 @@
 # Introduction
 
 ## Overview
-CalcExpr.NET is a flexible .NET 8 library for parsing and evaluating mathematical expressions. It is designed to be simple to integrate and use in any .NET application.
+DiceEngine.NET is a flexible .NET 8 library for parsing and evaluating mathematical expressions. It is designed to be simple to integrate and use in any .NET application.
 
 ### Key Features:
 - **Easy Integration**: Quickly add mathematical expression parsing capabilities to your .NET project.
@@ -10,7 +10,7 @@ CalcExpr.NET is a flexible .NET 8 library for parsing and evaluating mathematica
 - **Extensibility**: Easily extend the library to include custom functions and operators.
 
 ## Contributing
-We welcome contributions to CalcExpr.NET! Whether it's bug fixes, new features, or improvements to the documentation, your help is greatly appreciated.
+We welcome contributions to DiceEngine.NET! Whether it's bug fixes, new features, or improvements to the documentation, your help is greatly appreciated.
 
 ### How to Contribute
 1. **Fork the Repository**: Create a fork of this repository.

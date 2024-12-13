@@ -1,59 +1,59 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
   id: Terminal
-  parent: CalcExpr.Expressions.Terminals
+  parent: DiceEngine.Expressions.Terminals
   children:
-  - CalcExpr.Expressions.Terminals.Terminal.Evaluate
-  - CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
-  - CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Terminals.Terminal.ToString
-  - CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Byte)~CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Decimal)~CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Double)~CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Int16)~CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Int32)~CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Int64)~CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.SByte)~CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Single)~CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.UInt16)~CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.UInt32)~CalcExpr.Expressions.Terminals.Terminal
-  - CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.UInt64)~CalcExpr.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.ToString
+  - DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Byte)~DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Decimal)~DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Double)~DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Int16)~DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Int32)~DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Int64)~DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.SByte)~DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Single)~DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.UInt16)~DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.UInt32)~DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.UInt64)~DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Terminal
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 4
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: 'public abstract class Terminal : IExpression'
     content.vb: Public MustInherit Class Terminal Implements IExpression
   inheritance:
   - System.Object
   derivedClasses:
-  - CalcExpr.Expressions.Collections.TerminalCollection`1
-  - CalcExpr.Expressions.Functions.Function
-  - CalcExpr.Expressions.Terminals.Infinity
-  - CalcExpr.Expressions.Terminals.Logical
-  - CalcExpr.Expressions.Terminals.Number
-  - CalcExpr.Expressions.Terminals.Undefined
+  - DiceEngine.Expressions.Collections.TerminalCollection`1
+  - DiceEngine.Expressions.Functions.Function
+  - DiceEngine.Expressions.Terminals.Infinity
+  - DiceEngine.Expressions.Terminals.Logical
+  - DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Undefined
   implements:
-  - CalcExpr.Expressions.IExpression
+  - DiceEngine.Expressions.IExpression
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -61,172 +61,172 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.Evaluate
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate
   id: Evaluate
-  parent: CalcExpr.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: Evaluate()
   nameWithType: Terminal.Evaluate()
-  fullName: CalcExpr.Expressions.Terminals.Terminal.Evaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Evaluate
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
-  summary: Evaluates and calculates the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public Terminal Evaluate()
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
-      description: A new <xref href="CalcExpr.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function Evaluate() As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.Evaluate*
+  overload: DiceEngine.Expressions.Terminals.Terminal.Evaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.Evaluate
-- uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
-  id: Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.IExpression.Evaluate
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  id: Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: Evaluate(ExpressionContext)
   nameWithType: Terminal.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Evaluate
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 9
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
-  summary: Evaluates and calculates the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public Terminal Evaluate(ExpressionContext _)
     parameters:
     - id: _
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
-      description: A new <xref href="CalcExpr.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function Evaluate(_ As ExpressionContext) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.Evaluate*
+  overload: DiceEngine.Expressions.Terminals.Terminal.Evaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-- uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
+  - DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
   id: StepEvaluate
-  parent: CalcExpr.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: StepEvaluate()
   nameWithType: Terminal.StepEvaluate()
-  fullName: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: StepEvaluate
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 12
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
-  summary: Evaluates and calculates one step towards the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public IExpression StepEvaluate()
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: >-
-        A new <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
 
-        <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function StepEvaluate() As IExpression
-  overload: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate*
+  overload: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.StepEvaluate
-- uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  id: StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.IExpression.StepEvaluate
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  id: StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: StepEvaluate(ExpressionContext)
   nameWithType: Terminal.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: StepEvaluate
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 15
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
-  summary: Evaluates and calculates one step towards the value of the <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public IExpression StepEvaluate(ExpressionContext _)
     parameters:
     - id: _
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
       description: >-
-        A new <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
 
-        <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function StepEvaluate(_ As ExpressionContext) As IExpression
-  overload: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate*
+  overload: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate*
   implements:
-  - CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-- uid: CalcExpr.Expressions.Terminals.Terminal.ToString
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.ToString
+  - DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString
   id: ToString
-  parent: CalcExpr.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: ToString()
   nameWithType: Terminal.ToString()
-  fullName: CalcExpr.Expressions.Terminals.Terminal.ToString()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToString
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 18
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   summary: Returns a string that represents the current object.
   example: []
   syntax:
@@ -236,33 +236,33 @@ items:
       description: A string that represents the current object.
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
-  overload: CalcExpr.Expressions.Terminals.Terminal.ToString*
+  overload: DiceEngine.Expressions.Terminals.Terminal.ToString*
   implements:
-  - CalcExpr.Expressions.IExpression.ToString
-- uid: CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.ToString
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
   id: ToString(System.String)
-  parent: CalcExpr.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: ToString(string?)
   nameWithType: Terminal.ToString(string?)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.ToString(string?)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString(string?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ToString
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 21
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   summary: >-
-    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
+    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
 
     format <xref href="System.String" data-throw-if-not-resolved="false"></xref> for number formats.
   example: []
@@ -275,421 +275,421 @@ items:
     return:
       type: System.String
       description: >-
-        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="CalcExpr.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
 
         <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public MustOverride Function ToString(format As String) As String
-  overload: CalcExpr.Expressions.Terminals.Terminal.ToString*
+  overload: DiceEngine.Expressions.Terminals.Terminal.ToString*
   implements:
-  - CalcExpr.Expressions.IExpression.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
   nameWithType.vb: Terminal.ToString(String)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.ToString(String)
   name.vb: ToString(String)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Decimal)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Decimal)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.Decimal)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Decimal)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Decimal)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.Decimal)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(decimal)
   nameWithType: Terminal.explicit operator Terminal(decimal)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(decimal)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(decimal)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 23
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(decimal n)
     parameters:
     - id: n
       type: System.Decimal
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As Decimal) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(Decimal)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(Decimal)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(Decimal)
   name.vb: CType(Decimal)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Double)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Double)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.Double)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Double)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Double)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.Double)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(double)
   nameWithType: Terminal.explicit operator Terminal(double)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(double)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(double)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 26
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(double n)
     parameters:
     - id: n
       type: System.Double
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As Double) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(Double)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(Double)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(Double)
   name.vb: CType(Double)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Single)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Single)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.Single)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Single)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Single)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.Single)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(float)
   nameWithType: Terminal.explicit operator Terminal(float)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(float)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(float)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 40
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(float n)
     parameters:
     - id: n
       type: System.Single
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As Single) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(Single)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(Single)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(Single)
   name.vb: CType(Single)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Int64)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Int64)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.Int64)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Int64)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Int64)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.Int64)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(long)
   nameWithType: Terminal.explicit operator Terminal(long)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(long)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(long)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 54
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(long n)
     parameters:
     - id: n
       type: System.Int64
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As Long) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(Long)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(Long)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(Long)
   name.vb: CType(Long)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Int32)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Int32)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.Int32)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Int32)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Int32)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.Int32)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(int)
   nameWithType: Terminal.explicit operator Terminal(int)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(int)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(int)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 57
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(int n)
     parameters:
     - id: n
       type: System.Int32
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As Integer) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(Integer)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(Integer)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(Integer)
   name.vb: CType(Integer)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Int16)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Int16)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.Int16)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Int16)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Int16)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.Int16)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(short)
   nameWithType: Terminal.explicit operator Terminal(short)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(short)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(short)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 60
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(short n)
     parameters:
     - id: n
       type: System.Int16
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As Short) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(Short)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(Short)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(Short)
   name.vb: CType(Short)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.SByte)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.SByte)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.SByte)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.SByte)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.SByte)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.SByte)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(sbyte)
   nameWithType: Terminal.explicit operator Terminal(sbyte)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(sbyte)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(sbyte)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 63
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(sbyte n)
     parameters:
     - id: n
       type: System.SByte
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As SByte) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(SByte)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(SByte)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(SByte)
   name.vb: CType(SByte)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.UInt64)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.UInt64)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.UInt64)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.UInt64)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.UInt64)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.UInt64)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(ulong)
   nameWithType: Terminal.explicit operator Terminal(ulong)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(ulong)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(ulong)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 66
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(ulong n)
     parameters:
     - id: n
       type: System.UInt64
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As ULong) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(ULong)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(ULong)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(ULong)
   name.vb: CType(ULong)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.UInt32)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.UInt32)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.UInt32)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.UInt32)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.UInt32)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.UInt32)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(uint)
   nameWithType: Terminal.explicit operator Terminal(uint)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(uint)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(uint)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 69
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(uint n)
     parameters:
     - id: n
       type: System.UInt32
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As UInteger) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(UInteger)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(UInteger)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(UInteger)
   name.vb: CType(UInteger)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.UInt16)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.UInt16)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.UInt16)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.UInt16)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.UInt16)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.UInt16)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(ushort)
   nameWithType: Terminal.explicit operator Terminal(ushort)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(ushort)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(ushort)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 72
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(ushort n)
     parameters:
     - id: n
       type: System.UInt16
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As UShort) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(UShort)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(UShort)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(UShort)
   name.vb: CType(UShort)
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Byte)~CalcExpr.Expressions.Terminals.Terminal
-  commentId: M:CalcExpr.Expressions.Terminals.Terminal.op_Explicit(System.Byte)~CalcExpr.Expressions.Terminals.Terminal
-  id: op_Explicit(System.Byte)~CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Byte)~DiceEngine.Expressions.Terminals.Terminal
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.op_Explicit(System.Byte)~DiceEngine.Expressions.Terminals.Terminal
+  id: op_Explicit(System.Byte)~DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals.Terminal
   langs:
   - csharp
   - vb
   name: explicit operator Terminal(byte)
   nameWithType: Terminal.explicit operator Terminal(byte)
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator CalcExpr.Expressions.Terminals.Terminal(byte)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator DiceEngine.Expressions.Terminals.Terminal(byte)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Expressions/Terminals/Terminal.cs
+      path: src/DiceEngine/Expressions/Terminals/Terminal.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Explicit
-    path: ../src/CalcExpr/Expressions/Terminals/Terminal.cs
+    path: ../src/DiceEngine/Expressions/Terminals/Terminal.cs
     startLine: 75
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Terminals
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
   syntax:
     content: public static explicit operator Terminal(byte n)
     parameters:
     - id: n
       type: System.Byte
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Narrowing Operator CType(n As Byte) As Terminal
-  overload: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
+  overload: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
   nameWithType.vb: Terminal.CType(Byte)
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType(Byte)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType(Byte)
   name.vb: CType(Byte)
 references:
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -701,13 +701,13 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
+  fullName: DiceEngine.Expressions.IExpression
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -910,163 +910,163 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.Expressions.Terminals.Terminal.Evaluate*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Terminal.Evaluate
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_Evaluate
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
   name: Evaluate
   nameWithType: Terminal.Evaluate
-  fullName: CalcExpr.Expressions.Terminals.Terminal.Evaluate
-- uid: CalcExpr.Expressions.IExpression.Evaluate
-  commentId: M:CalcExpr.Expressions.IExpression.Evaluate
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+- uid: DiceEngine.Expressions.IExpression.Evaluate
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   name: Evaluate()
   nameWithType: IExpression.Evaluate()
-  fullName: CalcExpr.Expressions.IExpression.Evaluate()
+  fullName: DiceEngine.Expressions.IExpression.Evaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   name: Evaluate(ExpressionContext)
   nameWithType: IExpression.Evaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.Evaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
     name: Evaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_Evaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
-- uid: CalcExpr.Context.ExpressionContext
-  commentId: T:CalcExpr.Context.ExpressionContext
-  parent: CalcExpr.Context
-  href: CalcExpr.Context.ExpressionContext.html
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
   name: ExpressionContext
   nameWithType: ExpressionContext
-  fullName: CalcExpr.Context.ExpressionContext
-- uid: CalcExpr.Context
-  commentId: N:CalcExpr.Context
-  href: CalcExpr.html
-  name: CalcExpr.Context
-  nameWithType: CalcExpr.Context
-  fullName: CalcExpr.Context
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
-- uid: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_StepEvaluate
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
   name: StepEvaluate
   nameWithType: Terminal.StepEvaluate
-  fullName: CalcExpr.Expressions.Terminals.Terminal.StepEvaluate
-- uid: CalcExpr.Expressions.IExpression.StepEvaluate
-  commentId: M:CalcExpr.Expressions.IExpression.StepEvaluate
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   name: StepEvaluate()
   nameWithType: IExpression.StepEvaluate()
-  fullName: CalcExpr.Expressions.IExpression.StepEvaluate()
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   name: StepEvaluate(ExpressionContext)
   nameWithType: IExpression.StepEvaluate(ExpressionContext)
-  fullName: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.StepEvaluate(CalcExpr.Context.ExpressionContext)
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
     name: StepEvaluate
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_StepEvaluate_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
   - name: (
-  - uid: CalcExpr.Context.ExpressionContext
+  - uid: DiceEngine.Context.ExpressionContext
     name: ExpressionContext
-    href: CalcExpr.Context.ExpressionContext.html
+    href: DiceEngine.Context.ExpressionContext.html
   - name: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
@@ -1092,29 +1092,29 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.ToString*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Terminal.ToString
-  href: CalcExpr.Expressions.Terminals.Terminal.html#CalcExpr_Expressions_Terminals_Terminal_ToString
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Terminal.ToString
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
   name: ToString
   nameWithType: Terminal.ToString
-  fullName: CalcExpr.Expressions.Terminals.Terminal.ToString
-- uid: CalcExpr.Expressions.IExpression.ToString
-  commentId: M:CalcExpr.Expressions.IExpression.ToString
-  parent: CalcExpr.Expressions.IExpression
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString
+- uid: DiceEngine.Expressions.IExpression.ToString
+  commentId: M:DiceEngine.Expressions.IExpression.ToString
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   name: ToString()
   nameWithType: IExpression.ToString()
-  fullName: CalcExpr.Expressions.IExpression.ToString()
+  fullName: DiceEngine.Expressions.IExpression.ToString()
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString
+  - uid: DiceEngine.Expressions.IExpression.ToString
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   - name: (
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString
+  - uid: DiceEngine.Expressions.IExpression.ToString
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
   - name: (
   - name: )
 - uid: System.String
@@ -1128,21 +1128,21 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Expressions.IExpression.ToString(System.String)
-  commentId: M:CalcExpr.Expressions.IExpression.ToString(System.String)
-  parent: CalcExpr.Expressions.IExpression
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
   isExternal: true
-  href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   name: ToString(string)
   nameWithType: IExpression.ToString(string)
-  fullName: CalcExpr.Expressions.IExpression.ToString(string)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string)
   nameWithType.vb: IExpression.ToString(String)
-  fullName.vb: CalcExpr.Expressions.IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
   name.vb: ToString(String)
   spec.csharp:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: string
@@ -1150,22 +1150,22 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: CalcExpr.Expressions.IExpression.ToString(System.String)
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
     name: ToString
-    href: CalcExpr.Expressions.IExpression.html#CalcExpr_Expressions_IExpression_ToString_System_String_
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
   - name: (
   - uid: System.String
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: CalcExpr.Expressions.Terminals.Terminal.op_Explicit*
-  commentId: Overload:CalcExpr.Expressions.Terminals.Terminal.op_Explicit
+- uid: DiceEngine.Expressions.Terminals.Terminal.op_Explicit*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Terminal.op_Explicit
   name: explicit operator
   nameWithType: Terminal.explicit operator
-  fullName: CalcExpr.Expressions.Terminals.Terminal.explicit operator
+  fullName: DiceEngine.Expressions.Terminals.Terminal.explicit operator
   nameWithType.vb: Terminal.CType
-  fullName.vb: CalcExpr.Expressions.Terminals.Terminal.CType
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.CType
   name.vb: CType
   spec.csharp:
   - name: explicit

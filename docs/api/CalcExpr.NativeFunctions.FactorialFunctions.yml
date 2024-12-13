@@ -1,32 +1,32 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.NativeFunctions.FactorialFunctions
-  commentId: T:CalcExpr.NativeFunctions.FactorialFunctions
+- uid: DiceEngine.NativeFunctions.FactorialFunctions
+  commentId: T:DiceEngine.NativeFunctions.FactorialFunctions
   id: FactorialFunctions
-  parent: CalcExpr.NativeFunctions
+  parent: DiceEngine.NativeFunctions
   children:
-  - CalcExpr.NativeFunctions.FactorialFunctions.DoubleFactorial(System.Double)
-  - CalcExpr.NativeFunctions.FactorialFunctions.Factorial(System.Double)
-  - CalcExpr.NativeFunctions.FactorialFunctions.Primorial(System.Double)
-  - CalcExpr.NativeFunctions.FactorialFunctions.Subfactorial(System.Double)
+  - DiceEngine.NativeFunctions.FactorialFunctions.DoubleFactorial(System.Double)
+  - DiceEngine.NativeFunctions.FactorialFunctions.Factorial(System.Double)
+  - DiceEngine.NativeFunctions.FactorialFunctions.Primorial(System.Double)
+  - DiceEngine.NativeFunctions.FactorialFunctions.Subfactorial(System.Double)
   langs:
   - csharp
   - vb
   name: FactorialFunctions
   nameWithType: FactorialFunctions
-  fullName: CalcExpr.NativeFunctions.FactorialFunctions
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions
   type: Class
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/FactorialFunctions.cs
+      path: src/DiceEngine/NativeFunctions/FactorialFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: FactorialFunctions
-    path: ../src/CalcExpr/NativeFunctions/FactorialFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/FactorialFunctions.cs
     startLine: 4
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: public static class FactorialFunctions
     content.vb: Public Module FactorialFunctions
@@ -40,28 +40,28 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.NativeFunctions.FactorialFunctions.Factorial(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.FactorialFunctions.Factorial(System.Double)
+- uid: DiceEngine.NativeFunctions.FactorialFunctions.Factorial(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.FactorialFunctions.Factorial(System.Double)
   id: Factorial(System.Double)
-  parent: CalcExpr.NativeFunctions.FactorialFunctions
+  parent: DiceEngine.NativeFunctions.FactorialFunctions
   langs:
   - csharp
   - vb
   name: Factorial(double)
   nameWithType: FactorialFunctions.Factorial(double)
-  fullName: CalcExpr.NativeFunctions.FactorialFunctions.Factorial(double)
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions.Factorial(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/FactorialFunctions.cs
+      path: src/DiceEngine/NativeFunctions/FactorialFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Factorial
-    path: ../src/CalcExpr/NativeFunctions/FactorialFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/FactorialFunctions.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "factorial" })]
@@ -76,32 +76,32 @@ items:
       <NativeFunction(New String() { "factorial" })>
 
       Public Shared Function Factorial(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.FactorialFunctions.Factorial*
+  overload: DiceEngine.NativeFunctions.FactorialFunctions.Factorial*
   nameWithType.vb: FactorialFunctions.Factorial(Double)
-  fullName.vb: CalcExpr.NativeFunctions.FactorialFunctions.Factorial(Double)
+  fullName.vb: DiceEngine.NativeFunctions.FactorialFunctions.Factorial(Double)
   name.vb: Factorial(Double)
-- uid: CalcExpr.NativeFunctions.FactorialFunctions.Subfactorial(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.FactorialFunctions.Subfactorial(System.Double)
+- uid: DiceEngine.NativeFunctions.FactorialFunctions.Subfactorial(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.FactorialFunctions.Subfactorial(System.Double)
   id: Subfactorial(System.Double)
-  parent: CalcExpr.NativeFunctions.FactorialFunctions
+  parent: DiceEngine.NativeFunctions.FactorialFunctions
   langs:
   - csharp
   - vb
   name: Subfactorial(double)
   nameWithType: FactorialFunctions.Subfactorial(double)
-  fullName: CalcExpr.NativeFunctions.FactorialFunctions.Subfactorial(double)
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions.Subfactorial(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/FactorialFunctions.cs
+      path: src/DiceEngine/NativeFunctions/FactorialFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Subfactorial
-    path: ../src/CalcExpr/NativeFunctions/FactorialFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/FactorialFunctions.cs
     startLine: 31
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "subfactorial" })]
@@ -116,32 +116,32 @@ items:
       <NativeFunction(New String() { "subfactorial" })>
 
       Public Shared Function Subfactorial(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.FactorialFunctions.Subfactorial*
+  overload: DiceEngine.NativeFunctions.FactorialFunctions.Subfactorial*
   nameWithType.vb: FactorialFunctions.Subfactorial(Double)
-  fullName.vb: CalcExpr.NativeFunctions.FactorialFunctions.Subfactorial(Double)
+  fullName.vb: DiceEngine.NativeFunctions.FactorialFunctions.Subfactorial(Double)
   name.vb: Subfactorial(Double)
-- uid: CalcExpr.NativeFunctions.FactorialFunctions.Primorial(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.FactorialFunctions.Primorial(System.Double)
+- uid: DiceEngine.NativeFunctions.FactorialFunctions.Primorial(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.FactorialFunctions.Primorial(System.Double)
   id: Primorial(System.Double)
-  parent: CalcExpr.NativeFunctions.FactorialFunctions
+  parent: DiceEngine.NativeFunctions.FactorialFunctions
   langs:
   - csharp
   - vb
   name: Primorial(double)
   nameWithType: FactorialFunctions.Primorial(double)
-  fullName: CalcExpr.NativeFunctions.FactorialFunctions.Primorial(double)
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions.Primorial(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/FactorialFunctions.cs
+      path: src/DiceEngine/NativeFunctions/FactorialFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Primorial
-    path: ../src/CalcExpr/NativeFunctions/FactorialFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/FactorialFunctions.cs
     startLine: 56
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "primorial" })]
@@ -156,32 +156,32 @@ items:
       <NativeFunction(New String() { "primorial" })>
 
       Public Shared Function Primorial(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.FactorialFunctions.Primorial*
+  overload: DiceEngine.NativeFunctions.FactorialFunctions.Primorial*
   nameWithType.vb: FactorialFunctions.Primorial(Double)
-  fullName.vb: CalcExpr.NativeFunctions.FactorialFunctions.Primorial(Double)
+  fullName.vb: DiceEngine.NativeFunctions.FactorialFunctions.Primorial(Double)
   name.vb: Primorial(Double)
-- uid: CalcExpr.NativeFunctions.FactorialFunctions.DoubleFactorial(System.Double)
-  commentId: M:CalcExpr.NativeFunctions.FactorialFunctions.DoubleFactorial(System.Double)
+- uid: DiceEngine.NativeFunctions.FactorialFunctions.DoubleFactorial(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.FactorialFunctions.DoubleFactorial(System.Double)
   id: DoubleFactorial(System.Double)
-  parent: CalcExpr.NativeFunctions.FactorialFunctions
+  parent: DiceEngine.NativeFunctions.FactorialFunctions
   langs:
   - csharp
   - vb
   name: DoubleFactorial(double)
   nameWithType: FactorialFunctions.DoubleFactorial(double)
-  fullName: CalcExpr.NativeFunctions.FactorialFunctions.DoubleFactorial(double)
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions.DoubleFactorial(double)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/FactorialFunctions.cs
+      path: src/DiceEngine/NativeFunctions/FactorialFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: DoubleFactorial
-    path: ../src/CalcExpr/NativeFunctions/FactorialFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/FactorialFunctions.cs
     startLine: 98
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "double_factorial" })]
@@ -196,33 +196,33 @@ items:
       <NativeFunction(New String() { "double_factorial" })>
 
       Public Shared Function DoubleFactorial(x As Double) As Double
-  overload: CalcExpr.NativeFunctions.FactorialFunctions.DoubleFactorial*
+  overload: DiceEngine.NativeFunctions.FactorialFunctions.DoubleFactorial*
   nameWithType.vb: FactorialFunctions.DoubleFactorial(Double)
-  fullName.vb: CalcExpr.NativeFunctions.FactorialFunctions.DoubleFactorial(Double)
+  fullName.vb: DiceEngine.NativeFunctions.FactorialFunctions.DoubleFactorial(Double)
   name.vb: DoubleFactorial(Double)
 references:
-- uid: CalcExpr.NativeFunctions
-  commentId: N:CalcExpr.NativeFunctions
-  href: CalcExpr.html
-  name: CalcExpr.NativeFunctions
-  nameWithType: CalcExpr.NativeFunctions
-  fullName: CalcExpr.NativeFunctions
+- uid: DiceEngine.NativeFunctions
+  commentId: N:DiceEngine.NativeFunctions
+  href: DiceEngine.html
+  name: DiceEngine.NativeFunctions
+  nameWithType: DiceEngine.NativeFunctions
+  fullName: DiceEngine.NativeFunctions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.NativeFunctions
+  - uid: DiceEngine.NativeFunctions
     name: NativeFunctions
-    href: CalcExpr.NativeFunctions.html
+    href: DiceEngine.NativeFunctions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.NativeFunctions
+  - uid: DiceEngine.NativeFunctions
     name: NativeFunctions
-    href: CalcExpr.NativeFunctions.html
+    href: DiceEngine.NativeFunctions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -460,12 +460,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.NativeFunctions.FactorialFunctions.Factorial*
-  commentId: Overload:CalcExpr.NativeFunctions.FactorialFunctions.Factorial
-  href: CalcExpr.NativeFunctions.FactorialFunctions.html#CalcExpr_NativeFunctions_FactorialFunctions_Factorial_System_Double_
+- uid: DiceEngine.NativeFunctions.FactorialFunctions.Factorial*
+  commentId: Overload:DiceEngine.NativeFunctions.FactorialFunctions.Factorial
+  href: DiceEngine.NativeFunctions.FactorialFunctions.html#DiceEngine_NativeFunctions_FactorialFunctions_Factorial_System_Double_
   name: Factorial
   nameWithType: FactorialFunctions.Factorial
-  fullName: CalcExpr.NativeFunctions.FactorialFunctions.Factorial
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions.Factorial
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -477,21 +477,21 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: CalcExpr.NativeFunctions.FactorialFunctions.Subfactorial*
-  commentId: Overload:CalcExpr.NativeFunctions.FactorialFunctions.Subfactorial
-  href: CalcExpr.NativeFunctions.FactorialFunctions.html#CalcExpr_NativeFunctions_FactorialFunctions_Subfactorial_System_Double_
+- uid: DiceEngine.NativeFunctions.FactorialFunctions.Subfactorial*
+  commentId: Overload:DiceEngine.NativeFunctions.FactorialFunctions.Subfactorial
+  href: DiceEngine.NativeFunctions.FactorialFunctions.html#DiceEngine_NativeFunctions_FactorialFunctions_Subfactorial_System_Double_
   name: Subfactorial
   nameWithType: FactorialFunctions.Subfactorial
-  fullName: CalcExpr.NativeFunctions.FactorialFunctions.Subfactorial
-- uid: CalcExpr.NativeFunctions.FactorialFunctions.Primorial*
-  commentId: Overload:CalcExpr.NativeFunctions.FactorialFunctions.Primorial
-  href: CalcExpr.NativeFunctions.FactorialFunctions.html#CalcExpr_NativeFunctions_FactorialFunctions_Primorial_System_Double_
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions.Subfactorial
+- uid: DiceEngine.NativeFunctions.FactorialFunctions.Primorial*
+  commentId: Overload:DiceEngine.NativeFunctions.FactorialFunctions.Primorial
+  href: DiceEngine.NativeFunctions.FactorialFunctions.html#DiceEngine_NativeFunctions_FactorialFunctions_Primorial_System_Double_
   name: Primorial
   nameWithType: FactorialFunctions.Primorial
-  fullName: CalcExpr.NativeFunctions.FactorialFunctions.Primorial
-- uid: CalcExpr.NativeFunctions.FactorialFunctions.DoubleFactorial*
-  commentId: Overload:CalcExpr.NativeFunctions.FactorialFunctions.DoubleFactorial
-  href: CalcExpr.NativeFunctions.FactorialFunctions.html#CalcExpr_NativeFunctions_FactorialFunctions_DoubleFactorial_System_Double_
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions.Primorial
+- uid: DiceEngine.NativeFunctions.FactorialFunctions.DoubleFactorial*
+  commentId: Overload:DiceEngine.NativeFunctions.FactorialFunctions.DoubleFactorial
+  href: DiceEngine.NativeFunctions.FactorialFunctions.html#DiceEngine_NativeFunctions_FactorialFunctions_DoubleFactorial_System_Double_
   name: DoubleFactorial
   nameWithType: FactorialFunctions.DoubleFactorial
-  fullName: CalcExpr.NativeFunctions.FactorialFunctions.DoubleFactorial
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions.DoubleFactorial

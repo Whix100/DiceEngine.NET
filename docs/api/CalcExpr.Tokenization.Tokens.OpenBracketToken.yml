@@ -1,38 +1,38 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken
-  commentId: T:CalcExpr.Tokenization.Tokens.OpenBracketToken
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken
+  commentId: T:DiceEngine.Tokenization.Tokens.OpenBracketToken
   id: OpenBracketToken
-  parent: CalcExpr.Tokenization.Tokens
+  parent: DiceEngine.Tokenization.Tokens
   children:
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken.#ctor(CalcExpr.Tokenization.Tokens.Bracket,System.Int32)
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken.BracketType
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken.Equals(System.Object)
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken.GetHashCode
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken.Index
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken.RegexAlias
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken.Value
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Equality(CalcExpr.Tokenization.Tokens.OpenBracketToken,CalcExpr.Tokenization.Tokens.IToken)
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Implicit(CalcExpr.Tokenization.Tokens.OpenBracketToken)~System.String
-  - CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Inequality(CalcExpr.Tokenization.Tokens.OpenBracketToken,CalcExpr.Tokenization.Tokens.IToken)
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken.#ctor(DiceEngine.Tokenization.Tokens.Bracket,System.Int32)
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken.BracketType
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken.Equals(System.Object)
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken.GetHashCode
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken.Index
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken.RegexAlias
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken.Value
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Equality(DiceEngine.Tokenization.Tokens.OpenBracketToken,DiceEngine.Tokenization.Tokens.IToken)
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Implicit(DiceEngine.Tokenization.Tokens.OpenBracketToken)~System.String
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Inequality(DiceEngine.Tokenization.Tokens.OpenBracketToken,DiceEngine.Tokenization.Tokens.IToken)
   langs:
   - csharp
   - vb
   name: OpenBracketToken
   nameWithType: OpenBracketToken
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: OpenBracketToken
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 9
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: A substring that represents an opening bracket.
   example: []
   syntax:
@@ -41,73 +41,73 @@ items:
   inheritance:
   - System.Object
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken
+  - DiceEngine.Tokenization.Tokens.IToken
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.#ctor(CalcExpr.Tokenization.Tokens.Bracket,System.Int32)
-  commentId: M:CalcExpr.Tokenization.Tokens.OpenBracketToken.#ctor(CalcExpr.Tokenization.Tokens.Bracket,System.Int32)
-  id: '#ctor(CalcExpr.Tokenization.Tokens.Bracket,System.Int32)'
-  parent: CalcExpr.Tokenization.Tokens.OpenBracketToken
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.#ctor(DiceEngine.Tokenization.Tokens.Bracket,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Tokens.OpenBracketToken.#ctor(DiceEngine.Tokenization.Tokens.Bracket,System.Int32)
+  id: '#ctor(DiceEngine.Tokenization.Tokens.Bracket,System.Int32)'
+  parent: DiceEngine.Tokenization.Tokens.OpenBracketToken
   langs:
   - csharp
   - vb
   name: OpenBracketToken(Bracket, int)
   nameWithType: OpenBracketToken.OpenBracketToken(Bracket, int)
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.OpenBracketToken(CalcExpr.Tokenization.Tokens.Bracket, int)
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.OpenBracketToken(DiceEngine.Tokenization.Tokens.Bracket, int)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 9
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: A substring that represents an opening bracket.
   example: []
   syntax:
     content: public OpenBracketToken(Bracket bracketType, int index)
     parameters:
     - id: bracketType
-      type: CalcExpr.Tokenization.Tokens.Bracket
+      type: DiceEngine.Tokenization.Tokens.Bracket
       description: The type of bracket.
     - id: index
       type: System.Int32
       description: The starting index within the containing <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Sub New(bracketType As Bracket, index As Integer)
-  overload: CalcExpr.Tokenization.Tokens.OpenBracketToken.#ctor*
+  overload: DiceEngine.Tokenization.Tokens.OpenBracketToken.#ctor*
   nameWithType.vb: OpenBracketToken.New(Bracket, Integer)
-  fullName.vb: CalcExpr.Tokenization.Tokens.OpenBracketToken.New(CalcExpr.Tokenization.Tokens.Bracket, Integer)
+  fullName.vb: DiceEngine.Tokenization.Tokens.OpenBracketToken.New(DiceEngine.Tokenization.Tokens.Bracket, Integer)
   name.vb: New(Bracket, Integer)
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.Value
-  commentId: P:CalcExpr.Tokenization.Tokens.OpenBracketToken.Value
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.OpenBracketToken.Value
   id: Value
-  parent: CalcExpr.Tokenization.Tokens.OpenBracketToken
+  parent: DiceEngine.Tokenization.Tokens.OpenBracketToken
   langs:
   - csharp
   - vb
   name: Value
   nameWithType: OpenBracketToken.Value
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.Value
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Value
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 11
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: The value of the token.
   example: []
   syntax:
@@ -116,31 +116,31 @@ items:
     return:
       type: System.String
     content.vb: Public ReadOnly Property Value As String
-  overload: CalcExpr.Tokenization.Tokens.OpenBracketToken.Value*
+  overload: DiceEngine.Tokenization.Tokens.OpenBracketToken.Value*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.Value
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.Index
-  commentId: P:CalcExpr.Tokenization.Tokens.OpenBracketToken.Index
+  - DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.OpenBracketToken.Index
   id: Index
-  parent: CalcExpr.Tokenization.Tokens.OpenBracketToken
+  parent: DiceEngine.Tokenization.Tokens.OpenBracketToken
   langs:
   - csharp
   - vb
   name: Index
   nameWithType: OpenBracketToken.Index
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.Index
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.Index
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Index
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 19
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: The index of the token in the larger string.
   example: []
   syntax:
@@ -149,62 +149,62 @@ items:
     return:
       type: System.Int32
     content.vb: Public ReadOnly Property Index As Integer
-  overload: CalcExpr.Tokenization.Tokens.OpenBracketToken.Index*
+  overload: DiceEngine.Tokenization.Tokens.OpenBracketToken.Index*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.Index
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.BracketType
-  commentId: P:CalcExpr.Tokenization.Tokens.OpenBracketToken.BracketType
+  - DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.BracketType
+  commentId: P:DiceEngine.Tokenization.Tokens.OpenBracketToken.BracketType
   id: BracketType
-  parent: CalcExpr.Tokenization.Tokens.OpenBracketToken
+  parent: DiceEngine.Tokenization.Tokens.OpenBracketToken
   langs:
   - csharp
   - vb
   name: BracketType
   nameWithType: OpenBracketToken.BracketType
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.BracketType
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.BracketType
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: BracketType
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 24
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: The type of bracket for this token.
   example: []
   syntax:
     content: public Bracket BracketType { get; }
     parameters: []
     return:
-      type: CalcExpr.Tokenization.Tokens.Bracket
+      type: DiceEngine.Tokenization.Tokens.Bracket
     content.vb: Public ReadOnly Property BracketType As Bracket
-  overload: CalcExpr.Tokenization.Tokens.OpenBracketToken.BracketType*
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.RegexAlias
-  commentId: P:CalcExpr.Tokenization.Tokens.OpenBracketToken.RegexAlias
+  overload: DiceEngine.Tokenization.Tokens.OpenBracketToken.BracketType*
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.OpenBracketToken.RegexAlias
   id: RegexAlias
-  parent: CalcExpr.Tokenization.Tokens.OpenBracketToken
+  parent: DiceEngine.Tokenization.Tokens.OpenBracketToken
   langs:
   - csharp
   - vb
   name: RegexAlias
   nameWithType: OpenBracketToken.RegexAlias
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.RegexAlias
   type: Property
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: RegexAlias
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 26
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: The value to use in a regular expression.
   example: []
   syntax:
@@ -213,31 +213,31 @@ items:
     return:
       type: System.Char
     content.vb: Public ReadOnly Property RegexAlias As Char
-  overload: CalcExpr.Tokenization.Tokens.OpenBracketToken.RegexAlias*
+  overload: DiceEngine.Tokenization.Tokens.OpenBracketToken.RegexAlias*
   implements:
-  - CalcExpr.Tokenization.Tokens.IToken.RegexAlias
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.Equals(System.Object)
-  commentId: M:CalcExpr.Tokenization.Tokens.OpenBracketToken.Equals(System.Object)
+  - DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.Equals(System.Object)
+  commentId: M:DiceEngine.Tokenization.Tokens.OpenBracketToken.Equals(System.Object)
   id: Equals(System.Object)
-  parent: CalcExpr.Tokenization.Tokens.OpenBracketToken
+  parent: DiceEngine.Tokenization.Tokens.OpenBracketToken
   langs:
   - csharp
   - vb
   name: Equals(object?)
   nameWithType: OpenBracketToken.Equals(object?)
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.Equals(object?)
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.Equals(object?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Equals
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 28
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
@@ -251,32 +251,32 @@ items:
       description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
-  overload: CalcExpr.Tokenization.Tokens.OpenBracketToken.Equals*
+  overload: DiceEngine.Tokenization.Tokens.OpenBracketToken.Equals*
   nameWithType.vb: OpenBracketToken.Equals(Object)
-  fullName.vb: CalcExpr.Tokenization.Tokens.OpenBracketToken.Equals(Object)
+  fullName.vb: DiceEngine.Tokenization.Tokens.OpenBracketToken.Equals(Object)
   name.vb: Equals(Object)
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.GetHashCode
-  commentId: M:CalcExpr.Tokenization.Tokens.OpenBracketToken.GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.GetHashCode
+  commentId: M:DiceEngine.Tokenization.Tokens.OpenBracketToken.GetHashCode
   id: GetHashCode
-  parent: CalcExpr.Tokenization.Tokens.OpenBracketToken
+  parent: DiceEngine.Tokenization.Tokens.OpenBracketToken
   langs:
   - csharp
   - vb
   name: GetHashCode()
   nameWithType: OpenBracketToken.GetHashCode()
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.GetHashCode()
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.GetHashCode()
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: GetHashCode
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 31
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   summary: Serves as the default hash function.
   example: []
   syntax:
@@ -286,112 +286,112 @@ items:
       description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
-  overload: CalcExpr.Tokenization.Tokens.OpenBracketToken.GetHashCode*
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Equality(CalcExpr.Tokenization.Tokens.OpenBracketToken,CalcExpr.Tokenization.Tokens.IToken)
-  commentId: M:CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Equality(CalcExpr.Tokenization.Tokens.OpenBracketToken,CalcExpr.Tokenization.Tokens.IToken)
-  id: op_Equality(CalcExpr.Tokenization.Tokens.OpenBracketToken,CalcExpr.Tokenization.Tokens.IToken)
-  parent: CalcExpr.Tokenization.Tokens.OpenBracketToken
+  overload: DiceEngine.Tokenization.Tokens.OpenBracketToken.GetHashCode*
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Equality(DiceEngine.Tokenization.Tokens.OpenBracketToken,DiceEngine.Tokenization.Tokens.IToken)
+  commentId: M:DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Equality(DiceEngine.Tokenization.Tokens.OpenBracketToken,DiceEngine.Tokenization.Tokens.IToken)
+  id: op_Equality(DiceEngine.Tokenization.Tokens.OpenBracketToken,DiceEngine.Tokenization.Tokens.IToken)
+  parent: DiceEngine.Tokenization.Tokens.OpenBracketToken
   langs:
   - csharp
   - vb
   name: operator ==(OpenBracketToken, IToken)
   nameWithType: OpenBracketToken.operator ==(OpenBracketToken, IToken)
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.operator ==(CalcExpr.Tokenization.Tokens.OpenBracketToken, CalcExpr.Tokenization.Tokens.IToken)
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.operator ==(DiceEngine.Tokenization.Tokens.OpenBracketToken, DiceEngine.Tokenization.Tokens.IToken)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Equality
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 34
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static bool operator ==(OpenBracketToken a, IToken b)
     parameters:
     - id: a
-      type: CalcExpr.Tokenization.Tokens.OpenBracketToken
+      type: DiceEngine.Tokenization.Tokens.OpenBracketToken
     - id: b
-      type: CalcExpr.Tokenization.Tokens.IToken
+      type: DiceEngine.Tokenization.Tokens.IToken
     return:
       type: System.Boolean
     content.vb: Public Shared Operator =(a As OpenBracketToken, b As IToken) As Boolean
-  overload: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Equality*
+  overload: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Equality*
   nameWithType.vb: OpenBracketToken.=(OpenBracketToken, IToken)
-  fullName.vb: CalcExpr.Tokenization.Tokens.OpenBracketToken.=(CalcExpr.Tokenization.Tokens.OpenBracketToken, CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.OpenBracketToken.=(DiceEngine.Tokenization.Tokens.OpenBracketToken, DiceEngine.Tokenization.Tokens.IToken)
   name.vb: =(OpenBracketToken, IToken)
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Inequality(CalcExpr.Tokenization.Tokens.OpenBracketToken,CalcExpr.Tokenization.Tokens.IToken)
-  commentId: M:CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Inequality(CalcExpr.Tokenization.Tokens.OpenBracketToken,CalcExpr.Tokenization.Tokens.IToken)
-  id: op_Inequality(CalcExpr.Tokenization.Tokens.OpenBracketToken,CalcExpr.Tokenization.Tokens.IToken)
-  parent: CalcExpr.Tokenization.Tokens.OpenBracketToken
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Inequality(DiceEngine.Tokenization.Tokens.OpenBracketToken,DiceEngine.Tokenization.Tokens.IToken)
+  commentId: M:DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Inequality(DiceEngine.Tokenization.Tokens.OpenBracketToken,DiceEngine.Tokenization.Tokens.IToken)
+  id: op_Inequality(DiceEngine.Tokenization.Tokens.OpenBracketToken,DiceEngine.Tokenization.Tokens.IToken)
+  parent: DiceEngine.Tokenization.Tokens.OpenBracketToken
   langs:
   - csharp
   - vb
   name: operator !=(OpenBracketToken, IToken)
   nameWithType: OpenBracketToken.operator !=(OpenBracketToken, IToken)
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.operator !=(CalcExpr.Tokenization.Tokens.OpenBracketToken, CalcExpr.Tokenization.Tokens.IToken)
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.operator !=(DiceEngine.Tokenization.Tokens.OpenBracketToken, DiceEngine.Tokenization.Tokens.IToken)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Inequality
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 37
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static bool operator !=(OpenBracketToken a, IToken b)
     parameters:
     - id: a
-      type: CalcExpr.Tokenization.Tokens.OpenBracketToken
+      type: DiceEngine.Tokenization.Tokens.OpenBracketToken
     - id: b
-      type: CalcExpr.Tokenization.Tokens.IToken
+      type: DiceEngine.Tokenization.Tokens.IToken
     return:
       type: System.Boolean
     content.vb: Public Shared Operator <>(a As OpenBracketToken, b As IToken) As Boolean
-  overload: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Inequality*
+  overload: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Inequality*
   nameWithType.vb: OpenBracketToken.<>(OpenBracketToken, IToken)
-  fullName.vb: CalcExpr.Tokenization.Tokens.OpenBracketToken.<>(CalcExpr.Tokenization.Tokens.OpenBracketToken, CalcExpr.Tokenization.Tokens.IToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.OpenBracketToken.<>(DiceEngine.Tokenization.Tokens.OpenBracketToken, DiceEngine.Tokenization.Tokens.IToken)
   name.vb: <>(OpenBracketToken, IToken)
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Implicit(CalcExpr.Tokenization.Tokens.OpenBracketToken)~System.String
-  commentId: M:CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Implicit(CalcExpr.Tokenization.Tokens.OpenBracketToken)~System.String
-  id: op_Implicit(CalcExpr.Tokenization.Tokens.OpenBracketToken)~System.String
-  parent: CalcExpr.Tokenization.Tokens.OpenBracketToken
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Implicit(DiceEngine.Tokenization.Tokens.OpenBracketToken)~System.String
+  commentId: M:DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Implicit(DiceEngine.Tokenization.Tokens.OpenBracketToken)~System.String
+  id: op_Implicit(DiceEngine.Tokenization.Tokens.OpenBracketToken)~System.String
+  parent: DiceEngine.Tokenization.Tokens.OpenBracketToken
   langs:
   - csharp
   - vb
   name: implicit operator string(OpenBracketToken)
   nameWithType: OpenBracketToken.implicit operator string(OpenBracketToken)
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.implicit operator string(CalcExpr.Tokenization.Tokens.OpenBracketToken)
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.implicit operator string(DiceEngine.Tokenization.Tokens.OpenBracketToken)
   type: Operator
   source:
     remote:
-      path: src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: op_Implicit
-    path: ../src/CalcExpr/Tokenization/Tokens/BracketToken.cs
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
     startLine: 40
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Tokenization.Tokens
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
   syntax:
     content: public static implicit operator string(OpenBracketToken token)
     parameters:
     - id: token
-      type: CalcExpr.Tokenization.Tokens.OpenBracketToken
+      type: DiceEngine.Tokenization.Tokens.OpenBracketToken
     return:
       type: System.String
     content.vb: Public Shared Widening Operator CType(token As OpenBracketToken) As String
-  overload: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Implicit*
+  overload: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Implicit*
   nameWithType.vb: OpenBracketToken.CType(OpenBracketToken)
-  fullName.vb: CalcExpr.Tokenization.Tokens.OpenBracketToken.CType(CalcExpr.Tokenization.Tokens.OpenBracketToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.OpenBracketToken.CType(DiceEngine.Tokenization.Tokens.OpenBracketToken)
   name.vb: CType(OpenBracketToken)
 references:
 - uid: System.String
@@ -405,36 +405,36 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Tokenization.Tokens
-  commentId: N:CalcExpr.Tokenization.Tokens
-  href: CalcExpr.html
-  name: CalcExpr.Tokenization.Tokens
-  nameWithType: CalcExpr.Tokenization.Tokens
-  fullName: CalcExpr.Tokenization.Tokens
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Tokenization
+  - uid: DiceEngine.Tokenization
     name: Tokenization
-    href: CalcExpr.Tokenization.html
+    href: DiceEngine.Tokenization.html
   - name: .
-  - uid: CalcExpr.Tokenization.Tokens
+  - uid: DiceEngine.Tokenization.Tokens
     name: Tokens
-    href: CalcExpr.Tokenization.Tokens.html
+    href: DiceEngine.Tokenization.Tokens.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -446,13 +446,13 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: CalcExpr.Tokenization.Tokens.IToken
-  commentId: T:CalcExpr.Tokenization.Tokens.IToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.IToken.html
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
   name: IToken
   nameWithType: IToken
-  fullName: CalcExpr.Tokenization.Tokens.IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
@@ -622,22 +622,22 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.#ctor*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.OpenBracketToken.#ctor
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken__ctor_CalcExpr_Tokenization_Tokens_Bracket_System_Int32_
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.#ctor*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.OpenBracketToken.#ctor
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken__ctor_DiceEngine_Tokenization_Tokens_Bracket_System_Int32_
   name: OpenBracketToken
   nameWithType: OpenBracketToken.OpenBracketToken
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.OpenBracketToken
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.OpenBracketToken
   nameWithType.vb: OpenBracketToken.New
-  fullName.vb: CalcExpr.Tokenization.Tokens.OpenBracketToken.New
+  fullName.vb: DiceEngine.Tokenization.Tokens.OpenBracketToken.New
   name.vb: New
-- uid: CalcExpr.Tokenization.Tokens.Bracket
-  commentId: T:CalcExpr.Tokenization.Tokens.Bracket
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.Bracket.html
+- uid: DiceEngine.Tokenization.Tokens.Bracket
+  commentId: T:DiceEngine.Tokenization.Tokens.Bracket
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.Bracket.html
   name: Bracket
   nameWithType: Bracket
-  fullName: CalcExpr.Tokenization.Tokens.Bracket
+  fullName: DiceEngine.Tokenization.Tokens.Bracket
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -649,51 +649,51 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.Value*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.OpenBracketToken.Value
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken_Value
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.Value*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.OpenBracketToken.Value
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken_Value
   name: Value
   nameWithType: OpenBracketToken.Value
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.Value
-- uid: CalcExpr.Tokenization.Tokens.IToken.Value
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.Value
-  parent: CalcExpr.Tokenization.Tokens.IToken
-  href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_Value
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.Value
+- uid: DiceEngine.Tokenization.Tokens.IToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Value
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Value
   name: Value
   nameWithType: IToken.Value
-  fullName: CalcExpr.Tokenization.Tokens.IToken.Value
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.Index*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.OpenBracketToken.Index
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken_Index
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.Index*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.OpenBracketToken.Index
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken_Index
   name: Index
   nameWithType: OpenBracketToken.Index
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.Index
-- uid: CalcExpr.Tokenization.Tokens.IToken.Index
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.Index
-  parent: CalcExpr.Tokenization.Tokens.IToken
-  href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_Index
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.Index
+- uid: DiceEngine.Tokenization.Tokens.IToken.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Index
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Index
   name: Index
   nameWithType: IToken.Index
-  fullName: CalcExpr.Tokenization.Tokens.IToken.Index
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.BracketType*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.OpenBracketToken.BracketType
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken_BracketType
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.BracketType*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.OpenBracketToken.BracketType
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken_BracketType
   name: BracketType
   nameWithType: OpenBracketToken.BracketType
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.BracketType
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.RegexAlias*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.OpenBracketToken.RegexAlias
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken_RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.BracketType
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.RegexAlias*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.OpenBracketToken.RegexAlias
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken_RegexAlias
   name: RegexAlias
   nameWithType: OpenBracketToken.RegexAlias
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.RegexAlias
-- uid: CalcExpr.Tokenization.Tokens.IToken.RegexAlias
-  commentId: P:CalcExpr.Tokenization.Tokens.IToken.RegexAlias
-  parent: CalcExpr.Tokenization.Tokens.IToken
-  href: CalcExpr.Tokenization.Tokens.IToken.html#CalcExpr_Tokenization_Tokens_IToken_RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.RegexAlias
+- uid: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_RegexAlias
   name: RegexAlias
   nameWithType: IToken.RegexAlias
-  fullName: CalcExpr.Tokenization.Tokens.IToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
 - uid: System.Char
   commentId: T:System.Char
   parent: System
@@ -738,12 +738,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.Equals*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.OpenBracketToken.Equals
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken_Equals_System_Object_
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.Equals*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.OpenBracketToken.Equals
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken_Equals_System_Object_
   name: Equals
   nameWithType: OpenBracketToken.Equals
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.Equals
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.Equals
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -779,56 +779,56 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.GetHashCode*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.OpenBracketToken.GetHashCode
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken_GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.GetHashCode*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.OpenBracketToken.GetHashCode
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken_GetHashCode
   name: GetHashCode
   nameWithType: OpenBracketToken.GetHashCode
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.GetHashCode
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Equality*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Equality
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken_op_Equality_CalcExpr_Tokenization_Tokens_OpenBracketToken_CalcExpr_Tokenization_Tokens_IToken_
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Equality*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Equality
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken_op_Equality_DiceEngine_Tokenization_Tokens_OpenBracketToken_DiceEngine_Tokenization_Tokens_IToken_
   name: operator ==
   nameWithType: OpenBracketToken.operator ==
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.operator ==
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.operator ==
   nameWithType.vb: OpenBracketToken.=
-  fullName.vb: CalcExpr.Tokenization.Tokens.OpenBracketToken.=
+  fullName.vb: DiceEngine.Tokenization.Tokens.OpenBracketToken.=
   name.vb: =
   spec.csharp:
   - name: operator
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Equality*
+  - uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Equality*
     name: ==
-    href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken_op_Equality_CalcExpr_Tokenization_Tokens_OpenBracketToken_CalcExpr_Tokenization_Tokens_IToken_
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken
-  commentId: T:CalcExpr.Tokenization.Tokens.OpenBracketToken
-  parent: CalcExpr.Tokenization.Tokens
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html
+    href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken_op_Equality_DiceEngine_Tokenization_Tokens_OpenBracketToken_DiceEngine_Tokenization_Tokens_IToken_
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken
+  commentId: T:DiceEngine.Tokenization.Tokens.OpenBracketToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html
   name: OpenBracketToken
   nameWithType: OpenBracketToken
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Inequality*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Inequality
-  href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken_op_Inequality_CalcExpr_Tokenization_Tokens_OpenBracketToken_CalcExpr_Tokenization_Tokens_IToken_
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Inequality*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Inequality
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken_op_Inequality_DiceEngine_Tokenization_Tokens_OpenBracketToken_DiceEngine_Tokenization_Tokens_IToken_
   name: operator !=
   nameWithType: OpenBracketToken.operator !=
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.operator !=
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.operator !=
   nameWithType.vb: OpenBracketToken.<>
-  fullName.vb: CalcExpr.Tokenization.Tokens.OpenBracketToken.<>
+  fullName.vb: DiceEngine.Tokenization.Tokens.OpenBracketToken.<>
   name.vb: <>
   spec.csharp:
   - name: operator
   - name: " "
-  - uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Inequality*
+  - uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Inequality*
     name: '!='
-    href: CalcExpr.Tokenization.Tokens.OpenBracketToken.html#CalcExpr_Tokenization_Tokens_OpenBracketToken_op_Inequality_CalcExpr_Tokenization_Tokens_OpenBracketToken_CalcExpr_Tokenization_Tokens_IToken_
-- uid: CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Implicit*
-  commentId: Overload:CalcExpr.Tokenization.Tokens.OpenBracketToken.op_Implicit
+    href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html#DiceEngine_Tokenization_Tokens_OpenBracketToken_op_Inequality_DiceEngine_Tokenization_Tokens_OpenBracketToken_DiceEngine_Tokenization_Tokens_IToken_
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Implicit*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.OpenBracketToken.op_Implicit
   name: implicit operator
   nameWithType: OpenBracketToken.implicit operator
-  fullName: CalcExpr.Tokenization.Tokens.OpenBracketToken.implicit operator
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken.implicit operator
   nameWithType.vb: OpenBracketToken.CType
-  fullName.vb: CalcExpr.Tokenization.Tokens.OpenBracketToken.CType
+  fullName.vb: DiceEngine.Tokenization.Tokens.OpenBracketToken.CType
   name.vb: CType
   spec.csharp:
   - name: implicit

@@ -1,41 +1,41 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
   id: MinimumAttribute
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes
   children:
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor(System.Double,System.Boolean,System.Boolean)
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.AllowUndefined
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Inclusive
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Minimum
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor(System.Double,System.Boolean,System.Boolean)
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.AllowUndefined
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Inclusive
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Minimum
   langs:
   - csharp
   - vb
   name: MinimumAttribute
   nameWithType: MinimumAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
   type: Class
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: MinimumAttribute
-    path: ../src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes.ConditionalAttributes
   syntax:
     content: 'public class MinimumAttribute : ConditionAttribute'
     content.vb: Public Class MinimumAttribute Inherits ConditionAttribute
   inheritance:
   - System.Object
   - System.Attribute
-  - CalcExpr.FunctionAttributes.FunctionAttribute
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  - DiceEngine.FunctionAttributes.FunctionAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
   inheritedMembers:
   - System.Attribute.Equals(System.Object)
   - System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
@@ -79,28 +79,28 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor(System.Double,System.Boolean,System.Boolean)
-  commentId: M:CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor(System.Double,System.Boolean,System.Boolean)
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor(System.Double,System.Boolean,System.Boolean)
+  commentId: M:DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor(System.Double,System.Boolean,System.Boolean)
   id: '#ctor(System.Double,System.Boolean,System.Boolean)'
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
   langs:
   - csharp
   - vb
   name: MinimumAttribute(double, bool, bool)
   nameWithType: MinimumAttribute.MinimumAttribute(double, bool, bool)
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.MinimumAttribute(double, bool, bool)
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.MinimumAttribute(double, bool, bool)
   type: Constructor
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: .ctor
-    path: ../src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes.ConditionalAttributes
   syntax:
     content: public MinimumAttribute(double minimum, bool allowUndefined = false, bool inclusive = true)
     parameters:
@@ -111,155 +111,155 @@ items:
     - id: inclusive
       type: System.Boolean
     content.vb: Public Sub New(minimum As Double, allowUndefined As Boolean = False, inclusive As Boolean = True)
-  overload: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor*
+  overload: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor*
   nameWithType.vb: MinimumAttribute.New(Double, Boolean, Boolean)
-  fullName.vb: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.New(Double, Boolean, Boolean)
+  fullName.vb: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.New(Double, Boolean, Boolean)
   name.vb: New(Double, Boolean, Boolean)
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Minimum
-  commentId: F:CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Minimum
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Minimum
+  commentId: F:DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Minimum
   id: Minimum
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
   langs:
   - csharp
   - vb
   name: Minimum
   nameWithType: MinimumAttribute.Minimum
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Minimum
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Minimum
   type: Field
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Minimum
-    path: ../src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes.ConditionalAttributes
   syntax:
     content: public readonly Terminal Minimum
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public ReadOnly Minimum As Terminal
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.AllowUndefined
-  commentId: F:CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.AllowUndefined
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.AllowUndefined
+  commentId: F:DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.AllowUndefined
   id: AllowUndefined
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
   langs:
   - csharp
   - vb
   name: AllowUndefined
   nameWithType: MinimumAttribute.AllowUndefined
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.AllowUndefined
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.AllowUndefined
   type: Field
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: AllowUndefined
-    path: ../src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
     startLine: 9
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes.ConditionalAttributes
   syntax:
     content: public readonly bool AllowUndefined
     return:
       type: System.Boolean
     content.vb: Public ReadOnly AllowUndefined As Boolean
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Inclusive
-  commentId: F:CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Inclusive
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Inclusive
+  commentId: F:DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Inclusive
   id: Inclusive
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
   langs:
   - csharp
   - vb
   name: Inclusive
   nameWithType: MinimumAttribute.Inclusive
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Inclusive
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.Inclusive
   type: Field
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Inclusive
-    path: ../src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
     startLine: 10
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes.ConditionalAttributes
   syntax:
     content: public readonly bool Inclusive
     return:
       type: System.Boolean
     content.vb: Public ReadOnly Inclusive As Boolean
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  id: CheckCondition(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  id: CheckCondition(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
   langs:
   - csharp
   - vb
   name: CheckCondition(IExpression)
   nameWithType: MinimumAttribute.CheckCondition(IExpression)
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: CheckCondition
-    path: ../src/CalcExpr/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/ConditionalAttributes/MinimumAttribute.cs
     startLine: 12
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes.ConditionalAttributes
   example: []
   syntax:
     content: public override bool CheckCondition(IExpression expression)
     parameters:
     - id: expression
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
       type: System.Boolean
     content.vb: Public Overrides Function CheckCondition(expression As IExpression) As Boolean
-  overridden: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  overload: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition*
+  overridden: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  overload: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition*
 references:
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes
-  commentId: N:CalcExpr.FunctionAttributes.ConditionalAttributes
-  href: CalcExpr.html
-  name: CalcExpr.FunctionAttributes.ConditionalAttributes
-  nameWithType: CalcExpr.FunctionAttributes.ConditionalAttributes
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes
+  commentId: N:DiceEngine.FunctionAttributes.ConditionalAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes.ConditionalAttributes
+  nameWithType: DiceEngine.FunctionAttributes.ConditionalAttributes
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes
     name: ConditionalAttributes
-    href: CalcExpr.FunctionAttributes.ConditionalAttributes.html
+    href: DiceEngine.FunctionAttributes.ConditionalAttributes.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes
     name: ConditionalAttributes
-    href: CalcExpr.FunctionAttributes.ConditionalAttributes.html
+    href: DiceEngine.FunctionAttributes.ConditionalAttributes.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -279,20 +279,20 @@ references:
   name: Attribute
   nameWithType: Attribute
   fullName: System.Attribute
-- uid: CalcExpr.FunctionAttributes.FunctionAttribute
-  commentId: T:CalcExpr.FunctionAttributes.FunctionAttribute
-  parent: CalcExpr.FunctionAttributes
-  href: CalcExpr.FunctionAttributes.FunctionAttribute.html
+- uid: DiceEngine.FunctionAttributes.FunctionAttribute
+  commentId: T:DiceEngine.FunctionAttributes.FunctionAttribute
+  parent: DiceEngine.FunctionAttributes
+  href: DiceEngine.FunctionAttributes.FunctionAttribute.html
   name: FunctionAttribute
   nameWithType: FunctionAttribute
-  fullName: CalcExpr.FunctionAttributes.FunctionAttribute
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-  commentId: T:CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html
+  fullName: DiceEngine.FunctionAttributes.FunctionAttribute
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  commentId: T:DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html
   name: ConditionAttribute
   nameWithType: ConditionAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
 - uid: System.Attribute.Equals(System.Object)
   commentId: M:System.Attribute.Equals(System.Object)
   parent: System.Attribute
@@ -2068,36 +2068,36 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.FunctionAttributes
-  commentId: N:CalcExpr.FunctionAttributes
-  href: CalcExpr.html
-  name: CalcExpr.FunctionAttributes
-  nameWithType: CalcExpr.FunctionAttributes
-  fullName: CalcExpr.FunctionAttributes
+- uid: DiceEngine.FunctionAttributes
+  commentId: N:DiceEngine.FunctionAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes
+  nameWithType: DiceEngine.FunctionAttributes
+  fullName: DiceEngine.FunctionAttributes
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor*
-  commentId: Overload:CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.html#CalcExpr_FunctionAttributes_ConditionalAttributes_MinimumAttribute__ctor_System_Double_System_Boolean_System_Boolean_
+    href: DiceEngine.FunctionAttributes.html
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor*
+  commentId: Overload:DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.html#DiceEngine_FunctionAttributes_ConditionalAttributes_MinimumAttribute__ctor_System_Double_System_Boolean_System_Boolean_
   name: MinimumAttribute
   nameWithType: MinimumAttribute.MinimumAttribute
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.MinimumAttribute
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.MinimumAttribute
   nameWithType.vb: MinimumAttribute.New
-  fullName.vb: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.New
+  fullName.vb: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.New
   name.vb: New
 - uid: System.Double
   commentId: T:System.Double
@@ -2121,100 +2121,100 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#CalcExpr_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#DiceEngine_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_DiceEngine_Expressions_IExpression_
   name: CheckCondition(IExpression)
   nameWithType: ConditionAttribute.CheckCondition(IExpression)
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
   spec.csharp:
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
     name: CheckCondition
-    href: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#CalcExpr_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#DiceEngine_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_DiceEngine_Expressions_IExpression_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
   spec.vb:
-  - uid: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(CalcExpr.Expressions.IExpression)
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.CheckCondition(DiceEngine.Expressions.IExpression)
     name: CheckCondition
-    href: CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#CalcExpr_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute.html#DiceEngine_FunctionAttributes_ConditionalAttributes_ConditionAttribute_CheckCondition_DiceEngine_Expressions_IExpression_
   - name: (
-  - uid: CalcExpr.Expressions.IExpression
+  - uid: DiceEngine.Expressions.IExpression
     name: IExpression
-    href: CalcExpr.Expressions.IExpression.html
+    href: DiceEngine.Expressions.IExpression.html
   - name: )
-- uid: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition*
-  commentId: Overload:CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition
-  href: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.html#CalcExpr_FunctionAttributes_ConditionalAttributes_MinimumAttribute_CheckCondition_CalcExpr_Expressions_IExpression_
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition*
+  commentId: Overload:DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition
+  href: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.html#DiceEngine_FunctionAttributes_ConditionalAttributes_MinimumAttribute_CheckCondition_DiceEngine_Expressions_IExpression_
   name: CheckCondition
   nameWithType: MinimumAttribute.CheckCondition
-  fullName: CalcExpr.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.CheckCondition
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html

@@ -1,28 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.FunctionAttributes.FunctionAttribute
-  commentId: T:CalcExpr.FunctionAttributes.FunctionAttribute
+- uid: DiceEngine.FunctionAttributes.FunctionAttribute
+  commentId: T:DiceEngine.FunctionAttributes.FunctionAttribute
   id: FunctionAttribute
-  parent: CalcExpr.FunctionAttributes
+  parent: DiceEngine.FunctionAttributes
   children: []
   langs:
   - csharp
   - vb
   name: FunctionAttribute
   nameWithType: FunctionAttribute
-  fullName: CalcExpr.FunctionAttributes.FunctionAttribute
+  fullName: DiceEngine.FunctionAttributes.FunctionAttribute
   type: Class
   source:
     remote:
-      path: src/CalcExpr/FunctionAttributes/FunctionAttribute.cs
+      path: src/DiceEngine/FunctionAttributes/FunctionAttribute.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: FunctionAttribute
-    path: ../src/CalcExpr/FunctionAttributes/FunctionAttribute.cs
+    path: ../src/DiceEngine/FunctionAttributes/FunctionAttribute.cs
     startLine: 2
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.FunctionAttributes
+  - DiceEngine
+  namespace: DiceEngine.FunctionAttributes
   syntax:
     content: >-
       [AttributeUsage(AttributeTargets.Parameter, AllowMultiple = true)]
@@ -36,8 +36,8 @@ items:
   - System.Object
   - System.Attribute
   derivedClasses:
-  - CalcExpr.FunctionAttributes.ConditionalAttributes.ConditionAttribute
-  - CalcExpr.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  - DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+  - DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
   inheritedMembers:
   - System.Attribute.Equals(System.Object)
   - System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
@@ -92,28 +92,28 @@ items:
       type: System.Boolean
       value: true
 references:
-- uid: CalcExpr.FunctionAttributes
-  commentId: N:CalcExpr.FunctionAttributes
-  href: CalcExpr.html
-  name: CalcExpr.FunctionAttributes
-  nameWithType: CalcExpr.FunctionAttributes
-  fullName: CalcExpr.FunctionAttributes
+- uid: DiceEngine.FunctionAttributes
+  commentId: N:DiceEngine.FunctionAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes
+  nameWithType: DiceEngine.FunctionAttributes
+  fullName: DiceEngine.FunctionAttributes
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.FunctionAttributes
+  - uid: DiceEngine.FunctionAttributes
     name: FunctionAttributes
-    href: CalcExpr.FunctionAttributes.html
+    href: DiceEngine.FunctionAttributes.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System

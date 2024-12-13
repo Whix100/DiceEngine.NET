@@ -1,45 +1,45 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.NativeFunctions.CollectionFunctions
-  commentId: T:CalcExpr.NativeFunctions.CollectionFunctions
+- uid: DiceEngine.NativeFunctions.CollectionFunctions
+  commentId: T:DiceEngine.NativeFunctions.CollectionFunctions
   id: CollectionFunctions
-  parent: CalcExpr.NativeFunctions
+  parent: DiceEngine.NativeFunctions
   children:
-  - CalcExpr.NativeFunctions.CollectionFunctions.Aggregate(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.NativeFunctions.CollectionFunctions.All(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Any(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Append(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Concat(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Collections.IEnumerableExpression)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Filter(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Find(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.CollectionFunctions.FindLast(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Insert(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression,System.Int32)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Map(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Prepend(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Random(CalcExpr.Expressions.Terminals.Number,CalcExpr.Expressions.Terminals.Number,CalcExpr.Expressions.Terminals.Number,System.Boolean)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Range(System.Int32,System.Int32,System.Int32)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Remove(CalcExpr.Expressions.Collections.IEnumerableExpression,System.Int32)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Reverse(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Sort(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  - CalcExpr.NativeFunctions.CollectionFunctions.Zip(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Aggregate(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.CollectionFunctions.All(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Any(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Append(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Concat(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Collections.IEnumerableExpression)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Filter(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Find(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.CollectionFunctions.FindLast(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Insert(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression,System.Int32)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Map(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Prepend(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Random(DiceEngine.Expressions.Terminals.Number,DiceEngine.Expressions.Terminals.Number,DiceEngine.Expressions.Terminals.Number,System.Boolean)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Range(System.Int32,System.Int32,System.Int32)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Remove(DiceEngine.Expressions.Collections.IEnumerableExpression,System.Int32)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Reverse(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Sort(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  - DiceEngine.NativeFunctions.CollectionFunctions.Zip(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
   langs:
   - csharp
   - vb
   name: CollectionFunctions
   nameWithType: CollectionFunctions
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions
   type: Class
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: CollectionFunctions
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 11
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: public static class CollectionFunctions
     content.vb: Public Module CollectionFunctions
@@ -53,28 +53,28 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Map(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Map(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  id: Map(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Map(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Map(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  id: Map(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Map(IEnumerableExpression, Function, ExpressionContext)
   nameWithType: CollectionFunctions.Map(IEnumerableExpression, Function, ExpressionContext)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Map(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.Functions.Function, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Map(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.Functions.Function, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Map
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 13
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "map" })]
@@ -82,40 +82,40 @@ items:
       public static Terminal Map(IEnumerableExpression collection, Function operation, ExpressionContext context)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: operation
-      type: CalcExpr.Expressions.Functions.Function
+      type: DiceEngine.Expressions.Functions.Function
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "map" })>
 
       Public Shared Function Map(collection As IEnumerableExpression, operation As [Function], context As ExpressionContext) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Map*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Filter(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Filter(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  id: Filter(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Map*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Filter(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Filter(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  id: Filter(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Filter(IEnumerableExpression, Function, ExpressionContext)
   nameWithType: CollectionFunctions.Filter(IEnumerableExpression, Function, ExpressionContext)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Filter(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.Functions.Function, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Filter(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.Functions.Function, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Filter
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 22
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "filter", "where" })]
@@ -123,40 +123,40 @@ items:
       public static Terminal Filter(IEnumerableExpression collection, Function selector, ExpressionContext context)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: selector
-      type: CalcExpr.Expressions.Functions.Function
+      type: DiceEngine.Expressions.Functions.Function
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "filter", "where" })>
 
       Public Shared Function Filter(collection As IEnumerableExpression, selector As [Function], context As ExpressionContext) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Filter*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Aggregate(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Aggregate(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  id: Aggregate(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Filter*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Aggregate(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Aggregate(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  id: Aggregate(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Aggregate(IEnumerableExpression, Function, ExpressionContext)
   nameWithType: CollectionFunctions.Aggregate(IEnumerableExpression, Function, ExpressionContext)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Aggregate(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.Functions.Function, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Aggregate(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.Functions.Function, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Aggregate
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 33
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "aggregate" })]
@@ -164,40 +164,40 @@ items:
       public static Terminal Aggregate(IEnumerableExpression collection, Function aggregator, ExpressionContext context)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: aggregator
-      type: CalcExpr.Expressions.Functions.Function
+      type: DiceEngine.Expressions.Functions.Function
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "aggregate" })>
 
       Public Shared Function Aggregate(collection As IEnumerableExpression, aggregator As [Function], context As ExpressionContext) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Aggregate*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Range(System.Int32,System.Int32,System.Int32)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Range(System.Int32,System.Int32,System.Int32)
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Aggregate*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Range(System.Int32,System.Int32,System.Int32)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Range(System.Int32,System.Int32,System.Int32)
   id: Range(System.Int32,System.Int32,System.Int32)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Range(int, int, int)
   nameWithType: CollectionFunctions.Range(int, int, int)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Range(int, int, int)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Range(int, int, int)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Range
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 48
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "range" })]
@@ -211,37 +211,37 @@ items:
     - id: step
       type: System.Int32
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "range" })>
 
       Public Shared Function Range(start As Integer, count As Integer, [step] As Integer) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Range*
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Range*
   nameWithType.vb: CollectionFunctions.Range(Integer, Integer, Integer)
-  fullName.vb: CalcExpr.NativeFunctions.CollectionFunctions.Range(Integer, Integer, Integer)
+  fullName.vb: DiceEngine.NativeFunctions.CollectionFunctions.Range(Integer, Integer, Integer)
   name.vb: Range(Integer, Integer, Integer)
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Random(CalcExpr.Expressions.Terminals.Number,CalcExpr.Expressions.Terminals.Number,CalcExpr.Expressions.Terminals.Number,System.Boolean)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Random(CalcExpr.Expressions.Terminals.Number,CalcExpr.Expressions.Terminals.Number,CalcExpr.Expressions.Terminals.Number,System.Boolean)
-  id: Random(CalcExpr.Expressions.Terminals.Number,CalcExpr.Expressions.Terminals.Number,CalcExpr.Expressions.Terminals.Number,System.Boolean)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Random(DiceEngine.Expressions.Terminals.Number,DiceEngine.Expressions.Terminals.Number,DiceEngine.Expressions.Terminals.Number,System.Boolean)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Random(DiceEngine.Expressions.Terminals.Number,DiceEngine.Expressions.Terminals.Number,DiceEngine.Expressions.Terminals.Number,System.Boolean)
+  id: Random(DiceEngine.Expressions.Terminals.Number,DiceEngine.Expressions.Terminals.Number,DiceEngine.Expressions.Terminals.Number,System.Boolean)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Random(Number, Number, Number, bool)
   nameWithType: CollectionFunctions.Random(Number, Number, Number, bool)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Random(CalcExpr.Expressions.Terminals.Number, CalcExpr.Expressions.Terminals.Number, CalcExpr.Expressions.Terminals.Number, bool)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Random(DiceEngine.Expressions.Terminals.Number, DiceEngine.Expressions.Terminals.Number, DiceEngine.Expressions.Terminals.Number, bool)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Random
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 57
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "random" })]
@@ -249,45 +249,45 @@ items:
       public static Terminal Random(Number count, Number min, Number max, bool intOnly)
     parameters:
     - id: count
-      type: CalcExpr.Expressions.Terminals.Number
+      type: DiceEngine.Expressions.Terminals.Number
     - id: min
-      type: CalcExpr.Expressions.Terminals.Number
+      type: DiceEngine.Expressions.Terminals.Number
     - id: max
-      type: CalcExpr.Expressions.Terminals.Number
+      type: DiceEngine.Expressions.Terminals.Number
     - id: intOnly
       type: System.Boolean
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "random" })>
 
       Public Shared Function Random(count As Number, min As Number, max As Number, intOnly As Boolean) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Random*
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Random*
   nameWithType.vb: CollectionFunctions.Random(Number, Number, Number, Boolean)
-  fullName.vb: CalcExpr.NativeFunctions.CollectionFunctions.Random(CalcExpr.Expressions.Terminals.Number, CalcExpr.Expressions.Terminals.Number, CalcExpr.Expressions.Terminals.Number, Boolean)
+  fullName.vb: DiceEngine.NativeFunctions.CollectionFunctions.Random(DiceEngine.Expressions.Terminals.Number, DiceEngine.Expressions.Terminals.Number, DiceEngine.Expressions.Terminals.Number, Boolean)
   name.vb: Random(Number, Number, Number, Boolean)
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Sort(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Sort(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  id: Sort(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Sort(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Sort(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  id: Sort(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Sort(IEnumerableExpression)
   nameWithType: CollectionFunctions.Sort(IEnumerableExpression)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Sort(CalcExpr.Expressions.Collections.IEnumerableExpression)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Sort(DiceEngine.Expressions.Collections.IEnumerableExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Sort
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 101
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "sort", "order" })]
@@ -295,36 +295,36 @@ items:
       public static Terminal Sort(IEnumerableExpression collection)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "sort", "order" })>
 
       Public Shared Function Sort(collection As IEnumerableExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Sort*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Concat(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Collections.IEnumerableExpression)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Concat(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Collections.IEnumerableExpression)
-  id: Concat(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Collections.IEnumerableExpression)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Sort*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Concat(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Collections.IEnumerableExpression)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Concat(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Collections.IEnumerableExpression)
+  id: Concat(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Collections.IEnumerableExpression)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Concat(IEnumerableExpression, IEnumerableExpression)
   nameWithType: CollectionFunctions.Concat(IEnumerableExpression, IEnumerableExpression)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Concat(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.Collections.IEnumerableExpression)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Concat(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.Collections.IEnumerableExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Concat
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 111
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "concat", "concatenate" })]
@@ -332,38 +332,38 @@ items:
       public static Terminal Concat(IEnumerableExpression a, IEnumerableExpression b)
     parameters:
     - id: a
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: b
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "concat", "concatenate" })>
 
       Public Shared Function Concat(a As IEnumerableExpression, b As IEnumerableExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Concat*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Append(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Append(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  id: Append(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Concat*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Append(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Append(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  id: Append(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Append(IEnumerableExpression, IExpression)
   nameWithType: CollectionFunctions.Append(IEnumerableExpression, IExpression)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Append(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Append(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Append
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 117
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "append" })]
@@ -371,38 +371,38 @@ items:
       public static Terminal Append(IEnumerableExpression collection, IExpression element)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: element
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "append" })>
 
       Public Shared Function Append(collection As IEnumerableExpression, element As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Append*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Prepend(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Prepend(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  id: Prepend(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Append*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Prepend(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Prepend(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  id: Prepend(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Prepend(IEnumerableExpression, IExpression)
   nameWithType: CollectionFunctions.Prepend(IEnumerableExpression, IExpression)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Prepend(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Prepend(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Prepend
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 123
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "prepend" })]
@@ -410,38 +410,38 @@ items:
       public static Terminal Prepend(IEnumerableExpression collection, IExpression element)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: element
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "prepend" })>
 
       Public Shared Function Prepend(collection As IEnumerableExpression, element As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Prepend*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Insert(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression,System.Int32)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Insert(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression,System.Int32)
-  id: Insert(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression,System.Int32)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Prepend*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Insert(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression,System.Int32)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Insert(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression,System.Int32)
+  id: Insert(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression,System.Int32)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Insert(IEnumerableExpression, IExpression, int)
   nameWithType: CollectionFunctions.Insert(IEnumerableExpression, IExpression, int)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Insert(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.IExpression, int)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Insert(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.IExpression, int)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Insert
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 129
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "insert" })]
@@ -449,43 +449,43 @@ items:
       public static Terminal Insert(IEnumerableExpression collection, IExpression element, int index)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: element
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     - id: index
       type: System.Int32
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "insert" })>
 
       Public Shared Function Insert(collection As IEnumerableExpression, element As IExpression, index As Integer) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Insert*
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Insert*
   nameWithType.vb: CollectionFunctions.Insert(IEnumerableExpression, IExpression, Integer)
-  fullName.vb: CalcExpr.NativeFunctions.CollectionFunctions.Insert(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.IExpression, Integer)
+  fullName.vb: DiceEngine.NativeFunctions.CollectionFunctions.Insert(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.IExpression, Integer)
   name.vb: Insert(IEnumerableExpression, IExpression, Integer)
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Remove(CalcExpr.Expressions.Collections.IEnumerableExpression,System.Int32)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Remove(CalcExpr.Expressions.Collections.IEnumerableExpression,System.Int32)
-  id: Remove(CalcExpr.Expressions.Collections.IEnumerableExpression,System.Int32)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Remove(DiceEngine.Expressions.Collections.IEnumerableExpression,System.Int32)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Remove(DiceEngine.Expressions.Collections.IEnumerableExpression,System.Int32)
+  id: Remove(DiceEngine.Expressions.Collections.IEnumerableExpression,System.Int32)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Remove(IEnumerableExpression, int)
   nameWithType: CollectionFunctions.Remove(IEnumerableExpression, int)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Remove(CalcExpr.Expressions.Collections.IEnumerableExpression, int)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Remove(DiceEngine.Expressions.Collections.IEnumerableExpression, int)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Remove
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 139
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "remove" })]
@@ -493,41 +493,41 @@ items:
       public static Terminal Remove(IEnumerableExpression collection, int index)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: index
       type: System.Int32
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "remove" })>
 
       Public Shared Function Remove(collection As IEnumerableExpression, index As Integer) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Remove*
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Remove*
   nameWithType.vb: CollectionFunctions.Remove(IEnumerableExpression, Integer)
-  fullName.vb: CalcExpr.NativeFunctions.CollectionFunctions.Remove(CalcExpr.Expressions.Collections.IEnumerableExpression, Integer)
+  fullName.vb: DiceEngine.NativeFunctions.CollectionFunctions.Remove(DiceEngine.Expressions.Collections.IEnumerableExpression, Integer)
   name.vb: Remove(IEnumerableExpression, Integer)
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Any(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Any(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  id: Any(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Any(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Any(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  id: Any(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Any(IEnumerableExpression, Function, ExpressionContext)
   nameWithType: CollectionFunctions.Any(IEnumerableExpression, Function, ExpressionContext)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Any(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.Functions.Function, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Any(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.Functions.Function, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Any
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 148
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "any", "some" })]
@@ -535,40 +535,40 @@ items:
       public static bool Any(IEnumerableExpression collection, Function condition, ExpressionContext context)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: condition
-      type: CalcExpr.Expressions.Functions.Function
+      type: DiceEngine.Expressions.Functions.Function
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
       type: System.Boolean
     content.vb: >-
       <NativeFunction(New String() { "any", "some" })>
 
       Public Shared Function Any(collection As IEnumerableExpression, condition As [Function], context As ExpressionContext) As Boolean
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Any*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.All(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.All(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  id: All(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Any*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.All(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.All(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  id: All(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: All(IEnumerableExpression, Function, ExpressionContext)
   nameWithType: CollectionFunctions.All(IEnumerableExpression, Function, ExpressionContext)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.All(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.Functions.Function, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.All(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.Functions.Function, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: All
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 155
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "all" })]
@@ -576,40 +576,40 @@ items:
       public static bool All(IEnumerableExpression collection, Function condition, ExpressionContext context)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: condition
-      type: CalcExpr.Expressions.Functions.Function
+      type: DiceEngine.Expressions.Functions.Function
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
       type: System.Boolean
     content.vb: >-
       <NativeFunction(New String() { "all" })>
 
       Public Shared Function All(collection As IEnumerableExpression, condition As [Function], context As ExpressionContext) As Boolean
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.All*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Find(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Find(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  id: Find(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.All*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Find(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Find(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  id: Find(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Find(IEnumerableExpression, IExpression)
   nameWithType: CollectionFunctions.Find(IEnumerableExpression, IExpression)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Find(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Find(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Find
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 162
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "find" })]
@@ -617,38 +617,38 @@ items:
       public static int? Find(IEnumerableExpression collection, IExpression item)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: item
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
       type: System.Nullable{System.Int32}
     content.vb: >-
       <NativeFunction(New String() { "find" })>
 
       Public Shared Function Find(collection As IEnumerableExpression, item As IExpression) As Integer?
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Find*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.FindLast(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.FindLast(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  id: FindLast(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.IExpression)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Find*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.FindLast(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.FindLast(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  id: FindLast(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: FindLast(IEnumerableExpression, IExpression)
   nameWithType: CollectionFunctions.FindLast(IEnumerableExpression, IExpression)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.FindLast(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.IExpression)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.FindLast(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.IExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: FindLast
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 179
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "find_last" })]
@@ -656,38 +656,38 @@ items:
       public static Terminal FindLast(IEnumerableExpression collection, IExpression item)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: item
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "find_last" })>
 
       Public Shared Function FindLast(collection As IEnumerableExpression, item As IExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.FindLast*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Reverse(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Reverse(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  id: Reverse(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.FindLast*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Reverse(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Reverse(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  id: Reverse(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Reverse(IEnumerableExpression)
   nameWithType: CollectionFunctions.Reverse(IEnumerableExpression)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Reverse(CalcExpr.Expressions.Collections.IEnumerableExpression)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Reverse(DiceEngine.Expressions.Collections.IEnumerableExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Reverse
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 196
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "reverse" })]
@@ -695,36 +695,36 @@ items:
       public static Terminal Reverse(IEnumerableExpression collection)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "reverse" })>
 
       Public Shared Function Reverse(collection As IEnumerableExpression) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Reverse*
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Zip(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.NativeFunctions.CollectionFunctions.Zip(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  id: Zip(CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Collections.IEnumerableExpression,CalcExpr.Expressions.Functions.Function,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.NativeFunctions.CollectionFunctions
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Reverse*
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Zip(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.CollectionFunctions.Zip(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  id: Zip(DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Collections.IEnumerableExpression,DiceEngine.Expressions.Functions.Function,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.CollectionFunctions
   langs:
   - csharp
   - vb
   name: Zip(IEnumerableExpression, IEnumerableExpression, Function, ExpressionContext)
   nameWithType: CollectionFunctions.Zip(IEnumerableExpression, IEnumerableExpression, Function, ExpressionContext)
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Zip(CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.Collections.IEnumerableExpression, CalcExpr.Expressions.Functions.Function, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Zip(DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.Collections.IEnumerableExpression, DiceEngine.Expressions.Functions.Function, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+      path: src/DiceEngine/NativeFunctions/CollectionFunctions.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Zip
-    path: ../src/CalcExpr/NativeFunctions/CollectionFunctions.cs
+    path: ../src/DiceEngine/NativeFunctions/CollectionFunctions.cs
     startLine: 202
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.NativeFunctions
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
   syntax:
     content: >-
       [NativeFunction(new string[] { "zip" })]
@@ -732,43 +732,43 @@ items:
       public static Terminal Zip(IEnumerableExpression a, IEnumerableExpression b, Function combiner, ExpressionContext context)
     parameters:
     - id: a
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: b
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     - id: combiner
-      type: CalcExpr.Expressions.Functions.Function
+      type: DiceEngine.Expressions.Functions.Function
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: >-
       <NativeFunction(New String() { "zip" })>
 
       Public Shared Function Zip(a As IEnumerableExpression, b As IEnumerableExpression, combiner As [Function], context As ExpressionContext) As Terminal
-  overload: CalcExpr.NativeFunctions.CollectionFunctions.Zip*
+  overload: DiceEngine.NativeFunctions.CollectionFunctions.Zip*
 references:
-- uid: CalcExpr.NativeFunctions
-  commentId: N:CalcExpr.NativeFunctions
-  href: CalcExpr.html
-  name: CalcExpr.NativeFunctions
-  nameWithType: CalcExpr.NativeFunctions
-  fullName: CalcExpr.NativeFunctions
+- uid: DiceEngine.NativeFunctions
+  commentId: N:DiceEngine.NativeFunctions
+  href: DiceEngine.html
+  name: DiceEngine.NativeFunctions
+  nameWithType: DiceEngine.NativeFunctions
+  fullName: DiceEngine.NativeFunctions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.NativeFunctions
+  - uid: DiceEngine.NativeFunctions
     name: NativeFunctions
-    href: CalcExpr.NativeFunctions.html
+    href: DiceEngine.NativeFunctions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.NativeFunctions
+  - uid: DiceEngine.NativeFunctions
     name: NativeFunctions
-    href: CalcExpr.NativeFunctions.html
+    href: DiceEngine.NativeFunctions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -1006,170 +1006,170 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Map*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Map
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Map_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_Functions_Function_CalcExpr_Context_ExpressionContext_
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Map*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Map
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Map_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_Functions_Function_DiceEngine_Context_ExpressionContext_
   name: Map
   nameWithType: CollectionFunctions.Map
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Map
-- uid: CalcExpr.Expressions.Collections.IEnumerableExpression
-  commentId: T:CalcExpr.Expressions.Collections.IEnumerableExpression
-  parent: CalcExpr.Expressions.Collections
-  href: CalcExpr.Expressions.Collections.IEnumerableExpression.html
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Map
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression
+  commentId: T:DiceEngine.Expressions.Collections.IEnumerableExpression
+  parent: DiceEngine.Expressions.Collections
+  href: DiceEngine.Expressions.Collections.IEnumerableExpression.html
   name: IEnumerableExpression
   nameWithType: IEnumerableExpression
-  fullName: CalcExpr.Expressions.Collections.IEnumerableExpression
-- uid: CalcExpr.Expressions.Functions.Function
-  commentId: T:CalcExpr.Expressions.Functions.Function
-  parent: CalcExpr.Expressions.Functions
-  href: CalcExpr.Expressions.Functions.Function.html
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression
+- uid: DiceEngine.Expressions.Functions.Function
+  commentId: T:DiceEngine.Expressions.Functions.Function
+  parent: DiceEngine.Expressions.Functions
+  href: DiceEngine.Expressions.Functions.Function.html
   name: Function
   nameWithType: Function
-  fullName: CalcExpr.Expressions.Functions.Function
-- uid: CalcExpr.Context.ExpressionContext
-  commentId: T:CalcExpr.Context.ExpressionContext
-  parent: CalcExpr.Context
-  href: CalcExpr.Context.ExpressionContext.html
+  fullName: DiceEngine.Expressions.Functions.Function
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
   name: ExpressionContext
   nameWithType: ExpressionContext
-  fullName: CalcExpr.Context.ExpressionContext
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.Expressions.Collections
-  commentId: N:CalcExpr.Expressions.Collections
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Collections
-  nameWithType: CalcExpr.Expressions.Collections
-  fullName: CalcExpr.Expressions.Collections
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Collections
+  commentId: N:DiceEngine.Expressions.Collections
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Collections
+  nameWithType: DiceEngine.Expressions.Collections
+  fullName: DiceEngine.Expressions.Collections
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Collections
+  - uid: DiceEngine.Expressions.Collections
     name: Collections
-    href: CalcExpr.Expressions.Collections.html
+    href: DiceEngine.Expressions.Collections.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Collections
+  - uid: DiceEngine.Expressions.Collections
     name: Collections
-    href: CalcExpr.Expressions.Collections.html
-- uid: CalcExpr.Expressions.Functions
-  commentId: N:CalcExpr.Expressions.Functions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Functions
-  nameWithType: CalcExpr.Expressions.Functions
-  fullName: CalcExpr.Expressions.Functions
+    href: DiceEngine.Expressions.Collections.html
+- uid: DiceEngine.Expressions.Functions
+  commentId: N:DiceEngine.Expressions.Functions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Functions
+  nameWithType: DiceEngine.Expressions.Functions
+  fullName: DiceEngine.Expressions.Functions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Functions
+  - uid: DiceEngine.Expressions.Functions
     name: Functions
-    href: CalcExpr.Expressions.Functions.html
+    href: DiceEngine.Expressions.Functions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Functions
+  - uid: DiceEngine.Expressions.Functions
     name: Functions
-    href: CalcExpr.Expressions.Functions.html
-- uid: CalcExpr.Context
-  commentId: N:CalcExpr.Context
-  href: CalcExpr.html
-  name: CalcExpr.Context
-  nameWithType: CalcExpr.Context
-  fullName: CalcExpr.Context
+    href: DiceEngine.Expressions.Functions.html
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Filter*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Filter
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Filter_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_Functions_Function_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Filter*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Filter
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Filter_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_Functions_Function_DiceEngine_Context_ExpressionContext_
   name: Filter
   nameWithType: CollectionFunctions.Filter
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Filter
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Aggregate*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Aggregate
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Aggregate_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_Functions_Function_CalcExpr_Context_ExpressionContext_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Filter
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Aggregate*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Aggregate
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Aggregate_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_Functions_Function_DiceEngine_Context_ExpressionContext_
   name: Aggregate
   nameWithType: CollectionFunctions.Aggregate
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Aggregate
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Range*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Range
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Range_System_Int32_System_Int32_System_Int32_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Aggregate
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Range*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Range
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Range_System_Int32_System_Int32_System_Int32_
   name: Range
   nameWithType: CollectionFunctions.Range
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Range
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Range
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1181,19 +1181,19 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Random*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Random
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Random_CalcExpr_Expressions_Terminals_Number_CalcExpr_Expressions_Terminals_Number_CalcExpr_Expressions_Terminals_Number_System_Boolean_
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Random*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Random
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Random_DiceEngine_Expressions_Terminals_Number_DiceEngine_Expressions_Terminals_Number_DiceEngine_Expressions_Terminals_Number_System_Boolean_
   name: Random
   nameWithType: CollectionFunctions.Random
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Random
-- uid: CalcExpr.Expressions.Terminals.Number
-  commentId: T:CalcExpr.Expressions.Terminals.Number
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Number.html
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Random
+- uid: DiceEngine.Expressions.Terminals.Number
+  commentId: T:DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Number.html
   name: Number
   nameWithType: Number
-  fullName: CalcExpr.Expressions.Terminals.Number
+  fullName: DiceEngine.Expressions.Terminals.Number
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1205,89 +1205,89 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Sort*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Sort
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Sort_CalcExpr_Expressions_Collections_IEnumerableExpression_
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Sort*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Sort
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Sort_DiceEngine_Expressions_Collections_IEnumerableExpression_
   name: Sort
   nameWithType: CollectionFunctions.Sort
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Sort
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Concat*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Concat
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Concat_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_Collections_IEnumerableExpression_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Sort
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Concat*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Concat
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Concat_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_Collections_IEnumerableExpression_
   name: Concat
   nameWithType: CollectionFunctions.Concat
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Concat
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Append*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Append
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Append_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_IExpression_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Concat
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Append*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Append
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Append_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_IExpression_
   name: Append
   nameWithType: CollectionFunctions.Append
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Append
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Append
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Prepend*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Prepend
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Prepend_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_IExpression_
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Prepend*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Prepend
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Prepend_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_IExpression_
   name: Prepend
   nameWithType: CollectionFunctions.Prepend
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Prepend
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Insert*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Insert
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Insert_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_IExpression_System_Int32_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Prepend
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Insert*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Insert
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Insert_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_IExpression_System_Int32_
   name: Insert
   nameWithType: CollectionFunctions.Insert
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Insert
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Remove*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Remove
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Remove_CalcExpr_Expressions_Collections_IEnumerableExpression_System_Int32_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Insert
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Remove*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Remove
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Remove_DiceEngine_Expressions_Collections_IEnumerableExpression_System_Int32_
   name: Remove
   nameWithType: CollectionFunctions.Remove
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Remove
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Any*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Any
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Any_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_Functions_Function_CalcExpr_Context_ExpressionContext_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Remove
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Any*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Any
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Any_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_Functions_Function_DiceEngine_Context_ExpressionContext_
   name: Any
   nameWithType: CollectionFunctions.Any
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Any
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.All*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.All
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_All_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_Functions_Function_CalcExpr_Context_ExpressionContext_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Any
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.All*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.All
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_All_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_Functions_Function_DiceEngine_Context_ExpressionContext_
   name: All
   nameWithType: CollectionFunctions.All
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.All
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Find*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Find
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Find_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_IExpression_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.All
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Find*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Find
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Find_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_IExpression_
   name: Find
   nameWithType: CollectionFunctions.Find
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Find
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Find
 - uid: System.Nullable{System.Int32}
   commentId: T:System.Nullable{System.Int32}
   parent: System
@@ -1339,21 +1339,21 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.FindLast*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.FindLast
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_FindLast_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_IExpression_
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.FindLast*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.FindLast
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_FindLast_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_IExpression_
   name: FindLast
   nameWithType: CollectionFunctions.FindLast
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.FindLast
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Reverse*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Reverse
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Reverse_CalcExpr_Expressions_Collections_IEnumerableExpression_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.FindLast
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Reverse*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Reverse
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Reverse_DiceEngine_Expressions_Collections_IEnumerableExpression_
   name: Reverse
   nameWithType: CollectionFunctions.Reverse
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Reverse
-- uid: CalcExpr.NativeFunctions.CollectionFunctions.Zip*
-  commentId: Overload:CalcExpr.NativeFunctions.CollectionFunctions.Zip
-  href: CalcExpr.NativeFunctions.CollectionFunctions.html#CalcExpr_NativeFunctions_CollectionFunctions_Zip_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_Collections_IEnumerableExpression_CalcExpr_Expressions_Functions_Function_CalcExpr_Context_ExpressionContext_
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Reverse
+- uid: DiceEngine.NativeFunctions.CollectionFunctions.Zip*
+  commentId: Overload:DiceEngine.NativeFunctions.CollectionFunctions.Zip
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html#DiceEngine_NativeFunctions_CollectionFunctions_Zip_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_Collections_IEnumerableExpression_DiceEngine_Expressions_Functions_Function_DiceEngine_Context_ExpressionContext_
   name: Zip
   nameWithType: CollectionFunctions.Zip
-  fullName: CalcExpr.NativeFunctions.CollectionFunctions.Zip
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions.Zip

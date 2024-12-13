@@ -1,30 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.Collections.TerminalCollection
-  commentId: T:CalcExpr.Expressions.Collections.TerminalCollection
+- uid: DiceEngine.Expressions.Collections.TerminalCollection
+  commentId: T:DiceEngine.Expressions.Collections.TerminalCollection
   id: TerminalCollection
-  parent: CalcExpr.Expressions.Collections
+  parent: DiceEngine.Expressions.Collections
   children:
-  - CalcExpr.Expressions.Collections.TerminalCollection.ConvertIEnumerable(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  - CalcExpr.Expressions.Collections.TerminalCollection.TerminateCollection(CalcExpr.Expressions.Collections.IEnumerableExpression)
+  - DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  - DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression)
   langs:
   - csharp
   - vb
   name: TerminalCollection
   nameWithType: TerminalCollection
-  fullName: CalcExpr.Expressions.Collections.TerminalCollection
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection
   type: Class
   source:
     remote:
-      path: src/CalcExpr/Expressions/Collections/TerminalCollection.cs
+      path: src/DiceEngine/Expressions/Collections/TerminalCollection.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: TerminalCollection
-    path: ../src/CalcExpr/Expressions/Collections/TerminalCollection.cs
+    path: ../src/DiceEngine/Expressions/Collections/TerminalCollection.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Collections
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
   syntax:
     content: public static class TerminalCollection
     content.vb: Public Module TerminalCollection
@@ -38,102 +38,102 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: CalcExpr.Expressions.Collections.TerminalCollection.TerminateCollection(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  commentId: M:CalcExpr.Expressions.Collections.TerminalCollection.TerminateCollection(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  id: TerminateCollection(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  parent: CalcExpr.Expressions.Collections.TerminalCollection
+- uid: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  commentId: M:DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  id: TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  parent: DiceEngine.Expressions.Collections.TerminalCollection
   langs:
   - csharp
   - vb
   name: TerminateCollection(IEnumerableExpression?)
   nameWithType: TerminalCollection.TerminateCollection(IEnumerableExpression?)
-  fullName: CalcExpr.Expressions.Collections.TerminalCollection.TerminateCollection(CalcExpr.Expressions.Collections.IEnumerableExpression?)
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Collections/TerminalCollection.cs
+      path: src/DiceEngine/Expressions/Collections/TerminalCollection.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: TerminateCollection
-    path: ../src/CalcExpr/Expressions/Collections/TerminalCollection.cs
+    path: ../src/DiceEngine/Expressions/Collections/TerminalCollection.cs
     startLine: 10
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Collections
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
   syntax:
     content: public static Terminal TerminateCollection(IEnumerableExpression? collection)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Function TerminateCollection(collection As IEnumerableExpression) As Terminal
-  overload: CalcExpr.Expressions.Collections.TerminalCollection.TerminateCollection*
+  overload: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection*
   nameWithType.vb: TerminalCollection.TerminateCollection(IEnumerableExpression)
-  fullName.vb: CalcExpr.Expressions.Collections.TerminalCollection.TerminateCollection(CalcExpr.Expressions.Collections.IEnumerableExpression)
+  fullName.vb: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression)
   name.vb: TerminateCollection(IEnumerableExpression)
-- uid: CalcExpr.Expressions.Collections.TerminalCollection.ConvertIEnumerable(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  commentId: M:CalcExpr.Expressions.Collections.TerminalCollection.ConvertIEnumerable(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  id: ConvertIEnumerable(CalcExpr.Expressions.Collections.IEnumerableExpression)
-  parent: CalcExpr.Expressions.Collections.TerminalCollection
+- uid: DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  commentId: M:DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  id: ConvertIEnumerable(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  parent: DiceEngine.Expressions.Collections.TerminalCollection
   langs:
   - csharp
   - vb
   name: ConvertIEnumerable(IEnumerableExpression)
   nameWithType: TerminalCollection.ConvertIEnumerable(IEnumerableExpression)
-  fullName: CalcExpr.Expressions.Collections.TerminalCollection.ConvertIEnumerable(CalcExpr.Expressions.Collections.IEnumerableExpression)
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable(DiceEngine.Expressions.Collections.IEnumerableExpression)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Collections/TerminalCollection.cs
+      path: src/DiceEngine/Expressions/Collections/TerminalCollection.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: ConvertIEnumerable
-    path: ../src/CalcExpr/Expressions/Collections/TerminalCollection.cs
+    path: ../src/DiceEngine/Expressions/Collections/TerminalCollection.cs
     startLine: 31
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Collections
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
   syntax:
     content: public static IEnumerableExpression ConvertIEnumerable(IEnumerableExpression collection)
     parameters:
     - id: collection
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     return:
-      type: CalcExpr.Expressions.Collections.IEnumerableExpression
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
     content.vb: Public Shared Function ConvertIEnumerable(collection As IEnumerableExpression) As IEnumerableExpression
-  overload: CalcExpr.Expressions.Collections.TerminalCollection.ConvertIEnumerable*
+  overload: DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable*
 references:
-- uid: CalcExpr.Expressions.Collections
-  commentId: N:CalcExpr.Expressions.Collections
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Collections
-  nameWithType: CalcExpr.Expressions.Collections
-  fullName: CalcExpr.Expressions.Collections
+- uid: DiceEngine.Expressions.Collections
+  commentId: N:DiceEngine.Expressions.Collections
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Collections
+  nameWithType: DiceEngine.Expressions.Collections
+  fullName: DiceEngine.Expressions.Collections
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Collections
+  - uid: DiceEngine.Expressions.Collections
     name: Collections
-    href: CalcExpr.Expressions.Collections.html
+    href: DiceEngine.Expressions.Collections.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Collections
+  - uid: DiceEngine.Expressions.Collections
     name: Collections
-    href: CalcExpr.Expressions.Collections.html
+    href: DiceEngine.Expressions.Collections.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -371,59 +371,59 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Expressions.Collections.TerminalCollection.TerminateCollection*
-  commentId: Overload:CalcExpr.Expressions.Collections.TerminalCollection.TerminateCollection
-  href: CalcExpr.Expressions.Collections.TerminalCollection.html#CalcExpr_Expressions_Collections_TerminalCollection_TerminateCollection_CalcExpr_Expressions_Collections_IEnumerableExpression_
+- uid: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection*
+  commentId: Overload:DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection
+  href: DiceEngine.Expressions.Collections.TerminalCollection.html#DiceEngine_Expressions_Collections_TerminalCollection_TerminateCollection_DiceEngine_Expressions_Collections_IEnumerableExpression_
   name: TerminateCollection
   nameWithType: TerminalCollection.TerminateCollection
-  fullName: CalcExpr.Expressions.Collections.TerminalCollection.TerminateCollection
-- uid: CalcExpr.Expressions.Collections.IEnumerableExpression
-  commentId: T:CalcExpr.Expressions.Collections.IEnumerableExpression
-  parent: CalcExpr.Expressions.Collections
-  href: CalcExpr.Expressions.Collections.IEnumerableExpression.html
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression
+  commentId: T:DiceEngine.Expressions.Collections.IEnumerableExpression
+  parent: DiceEngine.Expressions.Collections
+  href: DiceEngine.Expressions.Collections.IEnumerableExpression.html
   name: IEnumerableExpression
   nameWithType: IEnumerableExpression
-  fullName: CalcExpr.Expressions.Collections.IEnumerableExpression
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.Expressions.Collections.TerminalCollection.ConvertIEnumerable*
-  commentId: Overload:CalcExpr.Expressions.Collections.TerminalCollection.ConvertIEnumerable
-  href: CalcExpr.Expressions.Collections.TerminalCollection.html#CalcExpr_Expressions_Collections_TerminalCollection_ConvertIEnumerable_CalcExpr_Expressions_Collections_IEnumerableExpression_
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable*
+  commentId: Overload:DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable
+  href: DiceEngine.Expressions.Collections.TerminalCollection.html#DiceEngine_Expressions_Collections_TerminalCollection_ConvertIEnumerable_DiceEngine_Expressions_Collections_IEnumerableExpression_
   name: ConvertIEnumerable
   nameWithType: TerminalCollection.ConvertIEnumerable
-  fullName: CalcExpr.Expressions.Collections.TerminalCollection.ConvertIEnumerable
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable

@@ -1,187 +1,187 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalcExpr.Expressions.Interfaces.IBinaryOperable
-  commentId: T:CalcExpr.Expressions.Interfaces.IBinaryOperable
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IBinaryOperable
   id: IBinaryOperable
-  parent: CalcExpr.Expressions.Interfaces
+  parent: DiceEngine.Expressions.Interfaces
   children:
-  - CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  - CalcExpr.Expressions.Interfaces.IBinaryOperable.Operate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable.Operate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
   langs:
   - csharp
   - vb
   name: IBinaryOperable
   nameWithType: IBinaryOperable
-  fullName: CalcExpr.Expressions.Interfaces.IBinaryOperable
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable
   type: Interface
   source:
     remote:
-      path: src/CalcExpr/Expressions/Interfaces/IBinaryOperable.cs
+      path: src/DiceEngine/Expressions/Interfaces/IBinaryOperable.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: IBinaryOperable
-    path: ../src/CalcExpr/Expressions/Interfaces/IBinaryOperable.cs
+    path: ../src/DiceEngine/Expressions/Interfaces/IBinaryOperable.cs
     startLine: 6
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Interfaces
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Interfaces
   syntax:
     content: public interface IBinaryOperable
     content.vb: Public Interface IBinaryOperable
-- uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  id: BinaryLeftOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Interfaces.IBinaryOperable
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IBinaryOperable
   langs:
   - csharp
   - vb
   name: BinaryLeftOperate(string, IExpression, ExpressionContext)
   nameWithType: IBinaryOperable.BinaryLeftOperate(string, IExpression, ExpressionContext)
-  fullName: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(string, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Interfaces/IBinaryOperable.cs
+      path: src/DiceEngine/Expressions/Interfaces/IBinaryOperable.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: BinaryLeftOperate
-    path: ../src/CalcExpr/Expressions/Interfaces/IBinaryOperable.cs
+    path: ../src/DiceEngine/Expressions/Interfaces/IBinaryOperable.cs
     startLine: 8
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Interfaces
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Interfaces
   syntax:
     content: Terminal? BinaryLeftOperate(string identifier, IExpression right, ExpressionContext context)
     parameters:
     - id: identifier
       type: System.String
     - id: right
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Function BinaryLeftOperate(identifier As String, right As IExpression, context As ExpressionContext) As Terminal
-  overload: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate*
+  overload: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate*
   nameWithType.vb: IBinaryOperable.BinaryLeftOperate(String, IExpression, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(String, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   name.vb: BinaryLeftOperate(String, IExpression, ExpressionContext)
-- uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  id: BinaryRightOperate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Interfaces.IBinaryOperable
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IBinaryOperable
   langs:
   - csharp
   - vb
   name: BinaryRightOperate(string, IExpression, ExpressionContext)
   nameWithType: IBinaryOperable.BinaryRightOperate(string, IExpression, ExpressionContext)
-  fullName: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(string, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Interfaces/IBinaryOperable.cs
+      path: src/DiceEngine/Expressions/Interfaces/IBinaryOperable.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: BinaryRightOperate
-    path: ../src/CalcExpr/Expressions/Interfaces/IBinaryOperable.cs
+    path: ../src/DiceEngine/Expressions/Interfaces/IBinaryOperable.cs
     startLine: 10
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Interfaces
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Interfaces
   syntax:
     content: Terminal? BinaryRightOperate(string identifier, IExpression left, ExpressionContext context)
     parameters:
     - id: identifier
       type: System.String
     - id: left
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Function BinaryRightOperate(identifier As String, left As IExpression, context As ExpressionContext) As Terminal
-  overload: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate*
+  overload: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate*
   nameWithType.vb: IBinaryOperable.BinaryRightOperate(String, IExpression, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(String, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   name.vb: BinaryRightOperate(String, IExpression, ExpressionContext)
-- uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.Operate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  commentId: M:CalcExpr.Expressions.Interfaces.IBinaryOperable.Operate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  id: Operate(System.String,CalcExpr.Expressions.IExpression,CalcExpr.Expressions.IExpression,CalcExpr.Context.ExpressionContext)
-  parent: CalcExpr.Expressions.Interfaces.IBinaryOperable
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.Operate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IBinaryOperable.Operate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: Operate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IBinaryOperable
   langs:
   - csharp
   - vb
   name: Operate(string, IExpression, IExpression, ExpressionContext?)
   nameWithType: IBinaryOperable.Operate(string, IExpression, IExpression, ExpressionContext?)
-  fullName: CalcExpr.Expressions.Interfaces.IBinaryOperable.Operate(string, CalcExpr.Expressions.IExpression, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext?)
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable.Operate(string, DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext?)
   type: Method
   source:
     remote:
-      path: src/CalcExpr/Expressions/Interfaces/IBinaryOperable.cs
+      path: src/DiceEngine/Expressions/Interfaces/IBinaryOperable.cs
       branch: dev
-      repo: https://github.com/andrewk17111/CalcExpr.NET.git
+      repo: https://github.com/andrewk17111/DiceEngine.NET.git
     id: Operate
-    path: ../src/CalcExpr/Expressions/Interfaces/IBinaryOperable.cs
+    path: ../src/DiceEngine/Expressions/Interfaces/IBinaryOperable.cs
     startLine: 12
   assemblies:
-  - CalcExpr
-  namespace: CalcExpr.Expressions.Interfaces
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Interfaces
   syntax:
     content: public static Terminal Operate(string identifier, IExpression left, IExpression right, ExpressionContext? context = null)
     parameters:
     - id: identifier
       type: System.String
     - id: left
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     - id: right
-      type: CalcExpr.Expressions.IExpression
+      type: DiceEngine.Expressions.IExpression
     - id: context
-      type: CalcExpr.Context.ExpressionContext
+      type: DiceEngine.Context.ExpressionContext
     return:
-      type: CalcExpr.Expressions.Terminals.Terminal
+      type: DiceEngine.Expressions.Terminals.Terminal
     content.vb: Public Shared Function Operate(identifier As String, left As IExpression, right As IExpression, context As ExpressionContext = Nothing) As Terminal
-  overload: CalcExpr.Expressions.Interfaces.IBinaryOperable.Operate*
+  overload: DiceEngine.Expressions.Interfaces.IBinaryOperable.Operate*
   nameWithType.vb: IBinaryOperable.Operate(String, IExpression, IExpression, ExpressionContext)
-  fullName.vb: CalcExpr.Expressions.Interfaces.IBinaryOperable.Operate(String, CalcExpr.Expressions.IExpression, CalcExpr.Expressions.IExpression, CalcExpr.Context.ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IBinaryOperable.Operate(String, DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
   name.vb: Operate(String, IExpression, IExpression, ExpressionContext)
 references:
-- uid: CalcExpr.Expressions.Interfaces
-  commentId: N:CalcExpr.Expressions.Interfaces
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Interfaces
-  nameWithType: CalcExpr.Expressions.Interfaces
-  fullName: CalcExpr.Expressions.Interfaces
+- uid: DiceEngine.Expressions.Interfaces
+  commentId: N:DiceEngine.Expressions.Interfaces
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Interfaces
+  nameWithType: DiceEngine.Expressions.Interfaces
+  fullName: DiceEngine.Expressions.Interfaces
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Interfaces
+  - uid: DiceEngine.Expressions.Interfaces
     name: Interfaces
-    href: CalcExpr.Expressions.Interfaces.html
+    href: DiceEngine.Expressions.Interfaces.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Interfaces
+  - uid: DiceEngine.Expressions.Interfaces
     name: Interfaces
-    href: CalcExpr.Expressions.Interfaces.html
-- uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate*
-  commentId: Overload:CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate
-  href: CalcExpr.Expressions.Interfaces.IBinaryOperable.html#CalcExpr_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Interfaces.html
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate*
+  commentId: Overload:DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   name: BinaryLeftOperate
   nameWithType: IBinaryOperable.BinaryLeftOperate
-  fullName: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -193,27 +193,27 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: CalcExpr.Expressions.IExpression
-  commentId: T:CalcExpr.Expressions.IExpression
-  parent: CalcExpr.Expressions
-  href: CalcExpr.Expressions.IExpression.html
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
   name: IExpression
   nameWithType: IExpression
-  fullName: CalcExpr.Expressions.IExpression
-- uid: CalcExpr.Context.ExpressionContext
-  commentId: T:CalcExpr.Context.ExpressionContext
-  parent: CalcExpr.Context
-  href: CalcExpr.Context.ExpressionContext.html
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
   name: ExpressionContext
   nameWithType: ExpressionContext
-  fullName: CalcExpr.Context.ExpressionContext
-- uid: CalcExpr.Expressions.Terminals.Terminal
-  commentId: T:CalcExpr.Expressions.Terminals.Terminal
-  parent: CalcExpr.Expressions.Terminals
-  href: CalcExpr.Expressions.Terminals.Terminal.html
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
   name: Terminal
   nameWithType: Terminal
-  fullName: CalcExpr.Expressions.Terminals.Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
 - uid: System
   commentId: N:System
   isExternal: true
@@ -221,89 +221,89 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalcExpr.Expressions
-  commentId: N:CalcExpr.Expressions
-  href: CalcExpr.html
-  name: CalcExpr.Expressions
-  nameWithType: CalcExpr.Expressions
-  fullName: CalcExpr.Expressions
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
-- uid: CalcExpr.Context
-  commentId: N:CalcExpr.Context
-  href: CalcExpr.html
-  name: CalcExpr.Context
-  nameWithType: CalcExpr.Context
-  fullName: CalcExpr.Context
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
+    href: DiceEngine.Context.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Context
+  - uid: DiceEngine.Context
     name: Context
-    href: CalcExpr.Context.html
-- uid: CalcExpr.Expressions.Terminals
-  commentId: N:CalcExpr.Expressions.Terminals
-  href: CalcExpr.html
-  name: CalcExpr.Expressions.Terminals
-  nameWithType: CalcExpr.Expressions.Terminals
-  fullName: CalcExpr.Expressions.Terminals
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
   spec.csharp:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
+    href: DiceEngine.Expressions.Terminals.html
   spec.vb:
-  - uid: CalcExpr
-    name: CalcExpr
-    href: CalcExpr.html
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
   - name: .
-  - uid: CalcExpr.Expressions
+  - uid: DiceEngine.Expressions
     name: Expressions
-    href: CalcExpr.Expressions.html
+    href: DiceEngine.Expressions.html
   - name: .
-  - uid: CalcExpr.Expressions.Terminals
+  - uid: DiceEngine.Expressions.Terminals
     name: Terminals
-    href: CalcExpr.Expressions.Terminals.html
-- uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate*
-  commentId: Overload:CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate
-  href: CalcExpr.Expressions.Interfaces.IBinaryOperable.html#CalcExpr_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate*
+  commentId: Overload:DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   name: BinaryRightOperate
   nameWithType: IBinaryOperable.BinaryRightOperate
-  fullName: CalcExpr.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate
-- uid: CalcExpr.Expressions.Interfaces.IBinaryOperable.Operate*
-  commentId: Overload:CalcExpr.Expressions.Interfaces.IBinaryOperable.Operate
-  href: CalcExpr.Expressions.Interfaces.IBinaryOperable.html#CalcExpr_Expressions_Interfaces_IBinaryOperable_Operate_System_String_CalcExpr_Expressions_IExpression_CalcExpr_Expressions_IExpression_CalcExpr_Context_ExpressionContext_
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.Operate*
+  commentId: Overload:DiceEngine.Expressions.Interfaces.IBinaryOperable.Operate
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_Operate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
   name: Operate
   nameWithType: IBinaryOperable.Operate
-  fullName: CalcExpr.Expressions.Interfaces.IBinaryOperable.Operate
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable.Operate
