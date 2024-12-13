@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Parsing
+  commentId: N:DiceEngine.Parsing
+  id: DiceEngine.Parsing
+  children:
+  - DiceEngine.Parsing.Brackets
+  - DiceEngine.Parsing.Parser
+  - DiceEngine.Parsing.TokenMatch
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Parsing
+  nameWithType: DiceEngine.Parsing
+  fullName: DiceEngine.Parsing
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Parsing.Brackets
+  commentId: T:DiceEngine.Parsing.Brackets
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.Brackets.html
+  name: Brackets
+  nameWithType: Brackets
+  fullName: DiceEngine.Parsing.Brackets
+- uid: DiceEngine.Parsing.Parser
+  commentId: T:DiceEngine.Parsing.Parser
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.Parser.html
+  name: Parser
+  nameWithType: Parser
+  fullName: DiceEngine.Parsing.Parser
+- uid: DiceEngine.Parsing.TokenMatch
+  commentId: T:DiceEngine.Parsing.TokenMatch
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.TokenMatch.html
+  name: TokenMatch
+  nameWithType: TokenMatch
+  fullName: DiceEngine.Parsing.TokenMatch
+- uid: DiceEngine.Parsing
+  commentId: N:DiceEngine.Parsing
+  href: DiceEngine.html
+  name: DiceEngine.Parsing
+  nameWithType: DiceEngine.Parsing
+  fullName: DiceEngine.Parsing
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html

@@ -1,0 +1,1531 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions
+  commentId: T:DiceEngine.NativeFunctions.TrigonometricFunctions
+  id: TrigonometricFunctions
+  parent: DiceEngine.NativeFunctions
+  children:
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acos(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acot(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Asec(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Asech(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Asin(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Atan(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Cos(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Cot(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Coth(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Csc(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Csch(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Sec(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Sech(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Sin(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Tan(System.Double)
+  - DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh(System.Double)
+  langs:
+  - csharp
+  - vb
+  name: TrigonometricFunctions
+  nameWithType: TrigonometricFunctions
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: TrigonometricFunctions
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 5
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: public static class TrigonometricFunctions
+    content.vb: Public Module TrigonometricFunctions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Sin(System.Double)
+  id: Sin(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Sin(double)
+  nameWithType: TrigonometricFunctions.Sin(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Sin
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 7
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "sin" })]
+
+      public static double Sin(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "sin" })>
+
+      Public Shared Function Sin(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin*
+  nameWithType.vb: TrigonometricFunctions.Sin(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin(Double)
+  name.vb: Sin(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Cos(System.Double)
+  id: Cos(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Cos(double)
+  nameWithType: TrigonometricFunctions.Cos(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Cos
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 12
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "cos" })]
+
+      public static double Cos(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "cos" })>
+
+      Public Shared Function Cos(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos*
+  nameWithType.vb: TrigonometricFunctions.Cos(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos(Double)
+  name.vb: Cos(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Tan(System.Double)
+  id: Tan(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Tan(double)
+  nameWithType: TrigonometricFunctions.Tan(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Tan
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 17
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "tan" })]
+
+      public static double Tan(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "tan" })>
+
+      Public Shared Function Tan(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan*
+  nameWithType.vb: TrigonometricFunctions.Tan(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan(Double)
+  name.vb: Tan(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Asin(System.Double)
+  id: Asin(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Asin(double)
+  nameWithType: TrigonometricFunctions.Asin(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Asin
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 26
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "asin", "arcsin", "arsin" })]
+
+      public static double Asin(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "asin", "arcsin", "arsin" })>
+
+      Public Shared Function Asin(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin*
+  nameWithType.vb: TrigonometricFunctions.Asin(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin(Double)
+  name.vb: Asin(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acos(System.Double)
+  id: Acos(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Acos(double)
+  nameWithType: TrigonometricFunctions.Acos(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Acos
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 31
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "acos", "arccos", "arcos" })]
+
+      public static double Acos(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "acos", "arccos", "arcos" })>
+
+      Public Shared Function Acos(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos*
+  nameWithType.vb: TrigonometricFunctions.Acos(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos(Double)
+  name.vb: Acos(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Atan(System.Double)
+  id: Atan(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Atan(double)
+  nameWithType: TrigonometricFunctions.Atan(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Atan
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 36
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "atan", "arctan", "artan" })]
+
+      public static double Atan(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "atan", "arctan", "artan" })>
+
+      Public Shared Function Atan(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan*
+  nameWithType.vb: TrigonometricFunctions.Atan(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan(Double)
+  name.vb: Atan(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Csc(System.Double)
+  id: Csc(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Csc(double)
+  nameWithType: TrigonometricFunctions.Csc(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Csc
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 47
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "csc" })]
+
+      public static double Csc(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "csc" })>
+
+      Public Shared Function Csc(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc*
+  nameWithType.vb: TrigonometricFunctions.Csc(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc(Double)
+  name.vb: Csc(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Sec(System.Double)
+  id: Sec(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Sec(double)
+  nameWithType: TrigonometricFunctions.Sec(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Sec
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 56
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "sec" })]
+
+      public static double Sec(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "sec" })>
+
+      Public Shared Function Sec(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec*
+  nameWithType.vb: TrigonometricFunctions.Sec(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec(Double)
+  name.vb: Sec(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Cot(System.Double)
+  id: Cot(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Cot(double)
+  nameWithType: TrigonometricFunctions.Cot(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Cot
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 65
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "cot" })]
+
+      public static double Cot(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "cot" })>
+
+      Public Shared Function Cot(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot*
+  nameWithType.vb: TrigonometricFunctions.Cot(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot(Double)
+  name.vb: Cot(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc(System.Double)
+  id: Acsc(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Acsc(double)
+  nameWithType: TrigonometricFunctions.Acsc(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Acsc
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 74
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "acsc", "arccsc", "arcsc" })]
+
+      public static double Acsc(double x)
+    parameters:
+    - id: x
+      type: System.Double
+      attributes:
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+        arguments:
+        - type: System.Double
+          value: -1
+        - type: System.Double
+          value: 1
+        - type: System.Boolean
+          value: false
+        - type: System.Boolean
+          value: false
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "acsc", "arccsc", "arcsc" })>
+
+      Public Shared Function Acsc(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc*
+  nameWithType.vb: TrigonometricFunctions.Acsc(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc(Double)
+  name.vb: Acsc(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Asec(System.Double)
+  id: Asec(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Asec(double)
+  nameWithType: TrigonometricFunctions.Asec(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Asec
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 83
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "asec", "arcsec", "arsec" })]
+
+      public static double Asec(double x)
+    parameters:
+    - id: x
+      type: System.Double
+      attributes:
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+        arguments:
+        - type: System.Double
+          value: -1
+        - type: System.Double
+          value: 1
+        - type: System.Boolean
+          value: false
+        - type: System.Boolean
+          value: false
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "asec", "arcsec", "arsec" })>
+
+      Public Shared Function Asec(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec*
+  nameWithType.vb: TrigonometricFunctions.Asec(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec(Double)
+  name.vb: Asec(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acot(System.Double)
+  id: Acot(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Acot(double)
+  nameWithType: TrigonometricFunctions.Acot(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Acot
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 92
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "acot", "arccot", "arcot" })]
+
+      public static double Acot(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "acot", "arccot", "arcot" })>
+
+      Public Shared Function Acot(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot*
+  nameWithType.vb: TrigonometricFunctions.Acot(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot(Double)
+  name.vb: Acot(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh(System.Double)
+  id: Sinh(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Sinh(double)
+  nameWithType: TrigonometricFunctions.Sinh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Sinh
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 103
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "sinh" })]
+
+      public static double Sinh(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "sinh" })>
+
+      Public Shared Function Sinh(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh*
+  nameWithType.vb: TrigonometricFunctions.Sinh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh(Double)
+  name.vb: Sinh(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh(System.Double)
+  id: Cosh(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Cosh(double)
+  nameWithType: TrigonometricFunctions.Cosh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Cosh
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 112
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "cosh" })]
+
+      public static double Cosh(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "cosh" })>
+
+      Public Shared Function Cosh(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh*
+  nameWithType.vb: TrigonometricFunctions.Cosh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh(Double)
+  name.vb: Cosh(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh(System.Double)
+  id: Tanh(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Tanh(double)
+  nameWithType: TrigonometricFunctions.Tanh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Tanh
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 121
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "tanh" })]
+
+      public static double Tanh(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "tanh" })>
+
+      Public Shared Function Tanh(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh*
+  nameWithType.vb: TrigonometricFunctions.Tanh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh(Double)
+  name.vb: Tanh(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh(System.Double)
+  id: Asinh(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Asinh(double)
+  nameWithType: TrigonometricFunctions.Asinh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Asinh
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 132
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "asinh", "arcsinh", "arsinh" })]
+
+      public static double Asinh(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "asinh", "arcsinh", "arsinh" })>
+
+      Public Shared Function Asinh(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh*
+  nameWithType.vb: TrigonometricFunctions.Asinh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh(Double)
+  name.vb: Asinh(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh(System.Double)
+  id: Acosh(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Acosh(double)
+  nameWithType: TrigonometricFunctions.Acosh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Acosh
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 143
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "acosh", "arccosh", "arcosh" })]
+
+      public static double Acosh(double x)
+    parameters:
+    - id: x
+      type: System.Double
+      attributes:
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute.#ctor(System.Double,System.Boolean,System.Boolean)
+        arguments:
+        - type: System.Double
+          value: 1
+        - type: System.Boolean
+          value: false
+        - type: System.Boolean
+          value: true
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "acosh", "arccosh", "arcosh" })>
+
+      Public Shared Function Acosh(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh*
+  nameWithType.vb: TrigonometricFunctions.Acosh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh(Double)
+  name.vb: Acosh(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh(System.Double)
+  id: Atanh(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Atanh(double)
+  nameWithType: TrigonometricFunctions.Atanh(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Atanh
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 152
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "atanh", "arctanh", "artanh" })]
+
+      public static double Atanh(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "atanh", "arctanh", "artanh" })>
+
+      Public Shared Function Atanh(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh*
+  nameWithType.vb: TrigonometricFunctions.Atanh(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh(Double)
+  name.vb: Atanh(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Csch(System.Double)
+  id: Csch(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Csch(double)
+  nameWithType: TrigonometricFunctions.Csch(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Csch
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 157
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "csch" })]
+
+      public static double Csch(double x)
+    parameters:
+    - id: x
+      type: System.Double
+      attributes:
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+        arguments:
+        - type: System.Double
+          value: 0
+        - type: System.Double
+          value: 0
+        - type: System.Boolean
+          value: false
+        - type: System.Boolean
+          value: true
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "csch" })>
+
+      Public Shared Function Csch(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch*
+  nameWithType.vb: TrigonometricFunctions.Csch(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch(Double)
+  name.vb: Csch(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Sech(System.Double)
+  id: Sech(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Sech(double)
+  nameWithType: TrigonometricFunctions.Sech(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Sech
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 166
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "sech" })]
+
+      public static double Sech(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "sech" })>
+
+      Public Shared Function Sech(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech*
+  nameWithType.vb: TrigonometricFunctions.Sech(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech(Double)
+  name.vb: Sech(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Coth(System.Double)
+  id: Coth(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Coth(double)
+  nameWithType: TrigonometricFunctions.Coth(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Coth
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 175
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "coth" })]
+
+      public static double Coth(double x)
+    parameters:
+    - id: x
+      type: System.Double
+      attributes:
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+        arguments:
+        - type: System.Double
+          value: 0
+        - type: System.Double
+          value: 0
+        - type: System.Boolean
+          value: false
+        - type: System.Boolean
+          value: true
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "coth" })>
+
+      Public Shared Function Coth(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth*
+  nameWithType.vb: TrigonometricFunctions.Coth(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth(Double)
+  name.vb: Coth(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch(System.Double)
+  id: Acsch(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Acsch(double)
+  nameWithType: TrigonometricFunctions.Acsch(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Acsch
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 186
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "acsch", "arccsch", "arcsch" })]
+
+      public static double Acsch(double x)
+    parameters:
+    - id: x
+      type: System.Double
+      attributes:
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+        arguments:
+        - type: System.Double
+          value: 0
+        - type: System.Double
+          value: 0
+        - type: System.Boolean
+          value: false
+        - type: System.Boolean
+          value: true
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "acsch", "arccsch", "arcsch" })>
+
+      Public Shared Function Acsch(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch*
+  nameWithType.vb: TrigonometricFunctions.Acsch(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch(Double)
+  name.vb: Acsch(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Asech(System.Double)
+  id: Asech(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Asech(double)
+  nameWithType: TrigonometricFunctions.Asech(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Asech
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 195
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "asech", "arcsech", "arsech" })]
+
+      public static double Asech(double x)
+    parameters:
+    - id: x
+      type: System.Double
+      attributes:
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+        arguments:
+        - type: System.Double
+          value: 0
+        - type: System.Double
+          value: 1
+        - type: System.Boolean
+          value: false
+        - type: System.Boolean
+          value: true
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "asech", "arcsech", "arsech" })>
+
+      Public Shared Function Asech(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech*
+  nameWithType.vb: TrigonometricFunctions.Asech(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech(Double)
+  name.vb: Asech(Double)
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth(System.Double)
+  id: Acoth(System.Double)
+  parent: DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: Acoth(double)
+  nameWithType: TrigonometricFunctions.Acoth(double)
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Acoth
+    path: ../src/DiceEngine/NativeFunctions/TrigonometricFunctions.cs
+    startLine: 200
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "acoth", "arccoth", "arcoth" })]
+
+      public static double Acoth(double x)
+    parameters:
+    - id: x
+      type: System.Double
+      attributes:
+      - type: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+        ctor: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute.#ctor(System.Double,System.Double,System.Boolean,System.Boolean)
+        arguments:
+        - type: System.Double
+          value: -1
+        - type: System.Double
+          value: 1
+        - type: System.Boolean
+          value: false
+        - type: System.Boolean
+          value: false
+    return:
+      type: System.Double
+    content.vb: >-
+      <NativeFunction(New String() { "acoth", "arccoth", "arcoth" })>
+
+      Public Shared Function Acoth(x As Double) As Double
+  overload: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth*
+  nameWithType.vb: TrigonometricFunctions.Acoth(Double)
+  fullName.vb: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth(Double)
+  name.vb: Acoth(Double)
+references:
+- uid: DiceEngine.NativeFunctions
+  commentId: N:DiceEngine.NativeFunctions
+  href: DiceEngine.html
+  name: DiceEngine.NativeFunctions
+  nameWithType: DiceEngine.NativeFunctions
+  fullName: DiceEngine.NativeFunctions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.NativeFunctions
+    name: NativeFunctions
+    href: DiceEngine.NativeFunctions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.NativeFunctions
+    name: NativeFunctions
+    href: DiceEngine.NativeFunctions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Sin
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Sin_System_Double_
+  name: Sin
+  nameWithType: TrigonometricFunctions.Sin
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sin
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Cos
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Cos_System_Double_
+  name: Cos
+  nameWithType: TrigonometricFunctions.Cos
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cos
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Tan
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Tan_System_Double_
+  name: Tan
+  nameWithType: TrigonometricFunctions.Tan
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Tan
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Asin
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Asin_System_Double_
+  name: Asin
+  nameWithType: TrigonometricFunctions.Asin
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asin
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acos
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acos_System_Double_
+  name: Acos
+  nameWithType: TrigonometricFunctions.Acos
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acos
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Atan
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Atan_System_Double_
+  name: Atan
+  nameWithType: TrigonometricFunctions.Atan
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Atan
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Csc
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Csc_System_Double_
+  name: Csc
+  nameWithType: TrigonometricFunctions.Csc
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Csc
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Sec
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Sec_System_Double_
+  name: Sec
+  nameWithType: TrigonometricFunctions.Sec
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sec
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Cot
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Cot_System_Double_
+  name: Cot
+  nameWithType: TrigonometricFunctions.Cot
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cot
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acsc_System_Double_
+  name: Acsc
+  nameWithType: TrigonometricFunctions.Acsc
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsc
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Asec
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Asec_System_Double_
+  name: Asec
+  nameWithType: TrigonometricFunctions.Asec
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asec
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acot
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acot_System_Double_
+  name: Acot
+  nameWithType: TrigonometricFunctions.Acot
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acot
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Sinh_System_Double_
+  name: Sinh
+  nameWithType: TrigonometricFunctions.Sinh
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sinh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Cosh_System_Double_
+  name: Cosh
+  nameWithType: TrigonometricFunctions.Cosh
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Cosh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Tanh_System_Double_
+  name: Tanh
+  nameWithType: TrigonometricFunctions.Tanh
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Tanh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Asinh_System_Double_
+  name: Asinh
+  nameWithType: TrigonometricFunctions.Asinh
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asinh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acosh_System_Double_
+  name: Acosh
+  nameWithType: TrigonometricFunctions.Acosh
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acosh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Atanh_System_Double_
+  name: Atanh
+  nameWithType: TrigonometricFunctions.Atanh
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Atanh
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Csch
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Csch_System_Double_
+  name: Csch
+  nameWithType: TrigonometricFunctions.Csch
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Csch
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Sech
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Sech_System_Double_
+  name: Sech
+  nameWithType: TrigonometricFunctions.Sech
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Sech
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Coth
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Coth_System_Double_
+  name: Coth
+  nameWithType: TrigonometricFunctions.Coth
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Coth
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acsch_System_Double_
+  name: Acsch
+  nameWithType: TrigonometricFunctions.Acsch
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acsch
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Asech
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Asech_System_Double_
+  name: Asech
+  nameWithType: TrigonometricFunctions.Asech
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Asech
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth*
+  commentId: Overload:DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html#DiceEngine_NativeFunctions_TrigonometricFunctions_Acoth_System_Double_
+  name: Acoth
+  nameWithType: TrigonometricFunctions.Acoth
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions.Acoth

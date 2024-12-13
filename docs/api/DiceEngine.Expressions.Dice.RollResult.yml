@@ -1,0 +1,1695 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Dice.RollResult
+  commentId: T:DiceEngine.Expressions.Dice.RollResult
+  id: RollResult
+  parent: DiceEngine.Expressions.Dice
+  children:
+  - DiceEngine.Expressions.Dice.RollResult.#ctor(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.IDie)
+  - DiceEngine.Expressions.Dice.RollResult.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue},DiceEngine.Expressions.Dice.IDie)
+  - DiceEngine.Expressions.Dice.RollResult.#ctor(System.Collections.Generic.IEnumerable{System.Int32},DiceEngine.Expressions.Dice.IDie)
+  - DiceEngine.Expressions.Dice.RollResult.#ctor(System.Int32,DiceEngine.Expressions.Dice.IDie)
+  - DiceEngine.Expressions.Dice.RollResult.Die
+  - DiceEngine.Expressions.Dice.RollResult.Equals(System.Object)
+  - DiceEngine.Expressions.Dice.RollResult.GetEnumerator
+  - DiceEngine.Expressions.Dice.RollResult.GetHashCode
+  - DiceEngine.Expressions.Dice.RollResult.Item(System.Int32)
+  - DiceEngine.Expressions.Dice.RollResult.Item(System.Range)
+  - DiceEngine.Expressions.Dice.RollResult.Length
+  - DiceEngine.Expressions.Dice.RollResult.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: RollResult
+  nameWithType: RollResult
+  fullName: DiceEngine.Expressions.Dice.RollResult
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RollResult
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 6
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: 'public class RollResult : Number, ILogicalConvertible, IExpression, IPrefixOperable, IPostfixOperable, IBinaryOperable, IEnumerable<RollValue>, IEnumerable'
+    content.vb: Public Class RollResult Inherits Number Implements ILogicalConvertible, IExpression, IPrefixOperable, IPostfixOperable, IBinaryOperable, IEnumerable(Of RollValue), IEnumerable
+  inheritance:
+  - System.Object
+  - DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Number
+  implements:
+  - DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  - DiceEngine.Expressions.IExpression
+  - DiceEngine.Expressions.Interfaces.IPrefixOperable
+  - DiceEngine.Expressions.Interfaces.IPostfixOperable
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable
+  - System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - DiceEngine.Expressions.Terminals.Number.ZERO
+  - DiceEngine.Expressions.Terminals.Number.ONE
+  - DiceEngine.Expressions.Terminals.Number.Value
+  - DiceEngine.Expressions.Terminals.Number.IsInteger
+  - DiceEngine.Expressions.Terminals.Number.IsEven
+  - DiceEngine.Expressions.Terminals.Number.IsOdd
+  - DiceEngine.Expressions.Terminals.Number.IsPositive
+  - DiceEngine.Expressions.Terminals.Number.IsNegative
+  - DiceEngine.Expressions.Terminals.Number.ToLogical
+  - DiceEngine.Expressions.Terminals.Number.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Number.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+  - DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: DiceEngine.Expressions.Dice.RollResult.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue},DiceEngine.Expressions.Dice.IDie)
+  commentId: M:DiceEngine.Expressions.Dice.RollResult.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue},DiceEngine.Expressions.Dice.IDie)
+  id: '#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue},DiceEngine.Expressions.Dice.IDie)'
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: RollResult(IEnumerable<RollValue>, IDie)
+  nameWithType: RollResult.RollResult(IEnumerable<RollValue>, IDie)
+  fullName: DiceEngine.Expressions.Dice.RollResult.RollResult(System.Collections.Generic.IEnumerable<DiceEngine.Expressions.Dice.RollValue>, DiceEngine.Expressions.Dice.IDie)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 6
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public RollResult(IEnumerable<RollValue> results, IDie die)
+    parameters:
+    - id: results
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue}
+    - id: die
+      type: DiceEngine.Expressions.Dice.IDie
+    content.vb: Public Sub New(results As IEnumerable(Of RollValue), die As IDie)
+  overload: DiceEngine.Expressions.Dice.RollResult.#ctor*
+  nameWithType.vb: RollResult.New(IEnumerable(Of RollValue), IDie)
+  fullName.vb: DiceEngine.Expressions.Dice.RollResult.New(System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.Dice.RollValue), DiceEngine.Expressions.Dice.IDie)
+  name.vb: New(IEnumerable(Of RollValue), IDie)
+- uid: DiceEngine.Expressions.Dice.RollResult.Die
+  commentId: F:DiceEngine.Expressions.Dice.RollResult.Die
+  id: Die
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: Die
+  nameWithType: RollResult.Die
+  fullName: DiceEngine.Expressions.Dice.RollResult.Die
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Die
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 11
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public readonly IDie Die
+    return:
+      type: DiceEngine.Expressions.Dice.IDie
+    content.vb: Public ReadOnly Die As IDie
+- uid: DiceEngine.Expressions.Dice.RollResult.Item(System.Int32)
+  commentId: P:DiceEngine.Expressions.Dice.RollResult.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: RollResult.this[int]
+  fullName: DiceEngine.Expressions.Dice.RollResult.this[int]
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: this[]
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 13
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public RollValue this[int index] { get; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: DiceEngine.Expressions.Dice.RollValue
+    content.vb: Public ReadOnly Default Property this[](index As Integer) As RollValue
+  overload: DiceEngine.Expressions.Dice.RollResult.Item*
+  nameWithType.vb: RollResult.this[](Integer)
+  fullName.vb: DiceEngine.Expressions.Dice.RollResult.this[](Integer)
+  name.vb: this[](Integer)
+- uid: DiceEngine.Expressions.Dice.RollResult.Item(System.Range)
+  commentId: P:DiceEngine.Expressions.Dice.RollResult.Item(System.Range)
+  id: Item(System.Range)
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: this[Range]
+  nameWithType: RollResult.this[Range]
+  fullName: DiceEngine.Expressions.Dice.RollResult.this[System.Range]
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: this[]
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 16
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public RollValue[] this[Range range] { get; }
+    parameters:
+    - id: range
+      type: System.Range
+    return:
+      type: DiceEngine.Expressions.Dice.RollValue[]
+    content.vb: Public ReadOnly Default Property this[](range As Range) As RollValue()
+  overload: DiceEngine.Expressions.Dice.RollResult.Item*
+  nameWithType.vb: RollResult.this[](Range)
+  fullName.vb: DiceEngine.Expressions.Dice.RollResult.this[](System.Range)
+  name.vb: this[](Range)
+- uid: DiceEngine.Expressions.Dice.RollResult.Length
+  commentId: P:DiceEngine.Expressions.Dice.RollResult.Length
+  id: Length
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: RollResult.Length
+  fullName: DiceEngine.Expressions.Dice.RollResult.Length
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Length
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 19
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public int Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Length As Integer
+  overload: DiceEngine.Expressions.Dice.RollResult.Length*
+- uid: DiceEngine.Expressions.Dice.RollResult.#ctor(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.IDie)
+  commentId: M:DiceEngine.Expressions.Dice.RollResult.#ctor(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.IDie)
+  id: '#ctor(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.IDie)'
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: RollResult(RollValue, IDie)
+  nameWithType: RollResult.RollResult(RollValue, IDie)
+  fullName: DiceEngine.Expressions.Dice.RollResult.RollResult(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.IDie)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 22
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public RollResult(RollValue result, IDie die)
+    parameters:
+    - id: result
+      type: DiceEngine.Expressions.Dice.RollValue
+    - id: die
+      type: DiceEngine.Expressions.Dice.IDie
+    content.vb: Public Sub New(result As RollValue, die As IDie)
+  overload: DiceEngine.Expressions.Dice.RollResult.#ctor*
+  nameWithType.vb: RollResult.New(RollValue, IDie)
+  fullName.vb: DiceEngine.Expressions.Dice.RollResult.New(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.IDie)
+  name.vb: New(RollValue, IDie)
+- uid: DiceEngine.Expressions.Dice.RollResult.#ctor(System.Int32,DiceEngine.Expressions.Dice.IDie)
+  commentId: M:DiceEngine.Expressions.Dice.RollResult.#ctor(System.Int32,DiceEngine.Expressions.Dice.IDie)
+  id: '#ctor(System.Int32,DiceEngine.Expressions.Dice.IDie)'
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: RollResult(int, IDie)
+  nameWithType: RollResult.RollResult(int, IDie)
+  fullName: DiceEngine.Expressions.Dice.RollResult.RollResult(int, DiceEngine.Expressions.Dice.IDie)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 24
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public RollResult(int result, IDie die)
+    parameters:
+    - id: result
+      type: System.Int32
+    - id: die
+      type: DiceEngine.Expressions.Dice.IDie
+    content.vb: Public Sub New(result As Integer, die As IDie)
+  overload: DiceEngine.Expressions.Dice.RollResult.#ctor*
+  nameWithType.vb: RollResult.New(Integer, IDie)
+  fullName.vb: DiceEngine.Expressions.Dice.RollResult.New(Integer, DiceEngine.Expressions.Dice.IDie)
+  name.vb: New(Integer, IDie)
+- uid: DiceEngine.Expressions.Dice.RollResult.#ctor(System.Collections.Generic.IEnumerable{System.Int32},DiceEngine.Expressions.Dice.IDie)
+  commentId: M:DiceEngine.Expressions.Dice.RollResult.#ctor(System.Collections.Generic.IEnumerable{System.Int32},DiceEngine.Expressions.Dice.IDie)
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Int32},DiceEngine.Expressions.Dice.IDie)'
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: RollResult(IEnumerable<int>, IDie)
+  nameWithType: RollResult.RollResult(IEnumerable<int>, IDie)
+  fullName: DiceEngine.Expressions.Dice.RollResult.RollResult(System.Collections.Generic.IEnumerable<int>, DiceEngine.Expressions.Dice.IDie)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 26
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public RollResult(IEnumerable<int> results, IDie die)
+    parameters:
+    - id: results
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+    - id: die
+      type: DiceEngine.Expressions.Dice.IDie
+    content.vb: Public Sub New(results As IEnumerable(Of Integer), die As IDie)
+  overload: DiceEngine.Expressions.Dice.RollResult.#ctor*
+  nameWithType.vb: RollResult.New(IEnumerable(Of Integer), IDie)
+  fullName.vb: DiceEngine.Expressions.Dice.RollResult.New(System.Collections.Generic.IEnumerable(Of Integer), DiceEngine.Expressions.Dice.IDie)
+  name.vb: New(IEnumerable(Of Integer), IDie)
+- uid: DiceEngine.Expressions.Dice.RollResult.GetHashCode
+  commentId: M:DiceEngine.Expressions.Dice.RollResult.GetHashCode
+  id: GetHashCode
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: RollResult.GetHashCode()
+  fullName: DiceEngine.Expressions.Dice.RollResult.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetHashCode
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 28
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Serves as the default hash function.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for the current object.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: DiceEngine.Expressions.Terminals.Number.GetHashCode
+  overload: DiceEngine.Expressions.Dice.RollResult.GetHashCode*
+- uid: DiceEngine.Expressions.Dice.RollResult.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.Dice.RollResult.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: RollResult.Equals(object?)
+  fullName: DiceEngine.Expressions.Dice.RollResult.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Equals
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 31
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Determines whether the specified object is equal to the current object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: DiceEngine.Expressions.Terminals.Number.Equals(System.Object)
+  overload: DiceEngine.Expressions.Dice.RollResult.Equals*
+  nameWithType.vb: RollResult.Equals(Object)
+  fullName.vb: DiceEngine.Expressions.Dice.RollResult.Equals(Object)
+  name.vb: Equals(Object)
+- uid: DiceEngine.Expressions.Dice.RollResult.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Dice.RollResult.ToString(System.String)
+  id: ToString(System.String)
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: ToString(string?)
+  nameWithType: RollResult.ToString(string?)
+  fullName: DiceEngine.Expressions.Dice.RollResult.ToString(string?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ToString
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 34
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: >-
+    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
+
+    format <xref href="System.String" data-throw-if-not-resolved="false"></xref> for number formats.
+  example: []
+  syntax:
+    content: public override string ToString(string? format)
+    parameters:
+    - id: format
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: >-
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
+
+        <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Overrides Function ToString(format As String) As String
+  overridden: DiceEngine.Expressions.Terminals.Number.ToString(System.String)
+  overload: DiceEngine.Expressions.Dice.RollResult.ToString*
+  nameWithType.vb: RollResult.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Dice.RollResult.ToString(String)
+  name.vb: ToString(String)
+- uid: DiceEngine.Expressions.Dice.RollResult.GetEnumerator
+  commentId: M:DiceEngine.Expressions.Dice.RollResult.GetEnumerator
+  id: GetEnumerator
+  parent: DiceEngine.Expressions.Dice.RollResult
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: RollResult.GetEnumerator()
+  fullName: DiceEngine.Expressions.Dice.RollResult.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetEnumerator
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 37
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Returns an enumerator that iterates through the collection.
+  example: []
+  syntax:
+    content: public IEnumerator<RollValue> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{DiceEngine.Expressions.Dice.RollValue}
+      description: An enumerator that can be used to iterate through the collection.
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of RollValue)
+  overload: DiceEngine.Expressions.Dice.RollResult.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue}.GetEnumerator
+references:
+- uid: DiceEngine.Expressions.Dice
+  commentId: N:DiceEngine.Expressions.Dice
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Dice
+  nameWithType: DiceEngine.Expressions.Dice
+  fullName: DiceEngine.Expressions.Dice
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Dice
+    name: Dice
+    href: DiceEngine.Expressions.Dice.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Dice
+    name: Dice
+    href: DiceEngine.Expressions.Dice.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Number
+  commentId: T:DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Number.html
+  name: Number
+  nameWithType: Number
+  fullName: DiceEngine.Expressions.Terminals.Number
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  commentId: T:DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html
+  name: ILogicalConvertible
+  nameWithType: ILogicalConvertible
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IPrefixOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html
+  name: IPrefixOperable
+  nameWithType: IPrefixOperable
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable
+- uid: DiceEngine.Expressions.Interfaces.IPostfixOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IPostfixOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IPostfixOperable.html
+  name: IPostfixOperable
+  nameWithType: IPostfixOperable
+  fullName: DiceEngine.Expressions.Interfaces.IPostfixOperable
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IBinaryOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html
+  name: IBinaryOperable
+  nameWithType: IBinaryOperable
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<RollValue>
+  nameWithType: IEnumerable<RollValue>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Expressions.Dice.RollValue>
+  nameWithType.vb: IEnumerable(Of RollValue)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.Dice.RollValue)
+  name.vb: IEnumerable(Of RollValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: DiceEngine.Expressions.Terminals.Number.ZERO
+  commentId: F:DiceEngine.Expressions.Terminals.Number.ZERO
+  parent: DiceEngine.Expressions.Terminals.Number
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_ZERO
+  name: ZERO
+  nameWithType: Number.ZERO
+  fullName: DiceEngine.Expressions.Terminals.Number.ZERO
+- uid: DiceEngine.Expressions.Terminals.Number.ONE
+  commentId: F:DiceEngine.Expressions.Terminals.Number.ONE
+  parent: DiceEngine.Expressions.Terminals.Number
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_ONE
+  name: ONE
+  nameWithType: Number.ONE
+  fullName: DiceEngine.Expressions.Terminals.Number.ONE
+- uid: DiceEngine.Expressions.Terminals.Number.Value
+  commentId: P:DiceEngine.Expressions.Terminals.Number.Value
+  parent: DiceEngine.Expressions.Terminals.Number
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_Value
+  name: Value
+  nameWithType: Number.Value
+  fullName: DiceEngine.Expressions.Terminals.Number.Value
+- uid: DiceEngine.Expressions.Terminals.Number.IsInteger
+  commentId: P:DiceEngine.Expressions.Terminals.Number.IsInteger
+  parent: DiceEngine.Expressions.Terminals.Number
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_IsInteger
+  name: IsInteger
+  nameWithType: Number.IsInteger
+  fullName: DiceEngine.Expressions.Terminals.Number.IsInteger
+- uid: DiceEngine.Expressions.Terminals.Number.IsEven
+  commentId: P:DiceEngine.Expressions.Terminals.Number.IsEven
+  parent: DiceEngine.Expressions.Terminals.Number
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_IsEven
+  name: IsEven
+  nameWithType: Number.IsEven
+  fullName: DiceEngine.Expressions.Terminals.Number.IsEven
+- uid: DiceEngine.Expressions.Terminals.Number.IsOdd
+  commentId: P:DiceEngine.Expressions.Terminals.Number.IsOdd
+  parent: DiceEngine.Expressions.Terminals.Number
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_IsOdd
+  name: IsOdd
+  nameWithType: Number.IsOdd
+  fullName: DiceEngine.Expressions.Terminals.Number.IsOdd
+- uid: DiceEngine.Expressions.Terminals.Number.IsPositive
+  commentId: P:DiceEngine.Expressions.Terminals.Number.IsPositive
+  parent: DiceEngine.Expressions.Terminals.Number
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_IsPositive
+  name: IsPositive
+  nameWithType: Number.IsPositive
+  fullName: DiceEngine.Expressions.Terminals.Number.IsPositive
+- uid: DiceEngine.Expressions.Terminals.Number.IsNegative
+  commentId: P:DiceEngine.Expressions.Terminals.Number.IsNegative
+  parent: DiceEngine.Expressions.Terminals.Number
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_IsNegative
+  name: IsNegative
+  nameWithType: Number.IsNegative
+  fullName: DiceEngine.Expressions.Terminals.Number.IsNegative
+- uid: DiceEngine.Expressions.Terminals.Number.ToLogical
+  commentId: M:DiceEngine.Expressions.Terminals.Number.ToLogical
+  parent: DiceEngine.Expressions.Terminals.Number
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_ToLogical
+  name: ToLogical()
+  nameWithType: Number.ToLogical()
+  fullName: DiceEngine.Expressions.Terminals.Number.ToLogical()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Number.ToLogical
+    name: ToLogical
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_ToLogical
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Number.ToLogical
+    name: ToLogical
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_ToLogical
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Number
+  isExternal: true
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  name: PrefixOperate(string, ExpressionContext)
+  nameWithType: Number.PrefixOperate(string, ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Number.PrefixOperate(string, DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: Number.PrefixOperate(String, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.PrefixOperate(String, DiceEngine.Context.ExpressionContext)
+  name.vb: PrefixOperate(String, ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Number.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+    name: PrefixOperate
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Number.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+    name: PrefixOperate
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Number
+  isExternal: true
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  name: PostfixOperate(string, ExpressionContext)
+  nameWithType: Number.PostfixOperate(string, ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Number.PostfixOperate(string, DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: Number.PostfixOperate(String, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.PostfixOperate(String, DiceEngine.Context.ExpressionContext)
+  name.vb: PostfixOperate(String, ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Number.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+    name: PostfixOperate
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Number.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+    name: PostfixOperate
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Number
+  isExternal: true
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: BinaryLeftOperate(string, IExpression, ExpressionContext)
+  nameWithType: Number.BinaryLeftOperate(string, IExpression, ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: Number.BinaryLeftOperate(String, IExpression, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  name.vb: BinaryLeftOperate(String, IExpression, ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+    name: BinaryLeftOperate
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+    name: BinaryLeftOperate
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Number
+  isExternal: true
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: BinaryRightOperate(string, IExpression, ExpressionContext)
+  nameWithType: Number.BinaryRightOperate(string, IExpression, ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: Number.BinaryRightOperate(String, IExpression, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  name.vb: BinaryRightOperate(String, IExpression, ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+    name: BinaryRightOperate
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+    name: BinaryRightOperate
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
+  name: Evaluate()
+  nameWithType: Terminal.Evaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
+  name: Evaluate(ExpressionContext)
+  nameWithType: Terminal.Evaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
+  name: StepEvaluate()
+  nameWithType: Terminal.StepEvaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  name: StepEvaluate(ExpressionContext)
+  nameWithType: Terminal.StepEvaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice
+  name: EvaluateDice()
+  nameWithType: Terminal.EvaluateDice()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  name: EvaluateDice(ExpressionContext)
+  nameWithType: Terminal.EvaluateDice(ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
+  name: ToString()
+  nameWithType: Terminal.ToString()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions.Interfaces
+  commentId: N:DiceEngine.Expressions.Interfaces
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Interfaces
+  nameWithType: DiceEngine.Expressions.Interfaces
+  fullName: DiceEngine.Expressions.Interfaces
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Interfaces
+    name: Interfaces
+    href: DiceEngine.Expressions.Interfaces.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Interfaces
+    name: Interfaces
+    href: DiceEngine.Expressions.Interfaces.html
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: DiceEngine.Expressions.Dice.RollResult.#ctor*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollResult.#ctor
+  href: DiceEngine.Expressions.Dice.RollResult.html#DiceEngine_Expressions_Dice_RollResult__ctor_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_Dice_RollValue__DiceEngine_Expressions_Dice_IDie_
+  name: RollResult
+  nameWithType: RollResult.RollResult
+  fullName: DiceEngine.Expressions.Dice.RollResult.RollResult
+  nameWithType.vb: RollResult.New
+  fullName.vb: DiceEngine.Expressions.Dice.RollResult.New
+  name.vb: New
+- uid: DiceEngine.Expressions.Dice.IDie
+  commentId: T:DiceEngine.Expressions.Dice.IDie
+  parent: DiceEngine.Expressions.Dice
+  href: DiceEngine.Expressions.Dice.IDie.html
+  name: IDie
+  nameWithType: IDie
+  fullName: DiceEngine.Expressions.Dice.IDie
+- uid: DiceEngine.Expressions.Dice.RollResult.Item*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollResult.Item
+  href: DiceEngine.Expressions.Dice.RollResult.html#DiceEngine_Expressions_Dice_RollResult_Item_System_Int32_
+  name: this
+  nameWithType: RollResult.this
+  fullName: DiceEngine.Expressions.Dice.RollResult.this
+  nameWithType.vb: RollResult.this[]
+  fullName.vb: DiceEngine.Expressions.Dice.RollResult.this[]
+  name.vb: this[]
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: DiceEngine.Expressions.Dice.RollValue
+  commentId: T:DiceEngine.Expressions.Dice.RollValue
+  parent: DiceEngine.Expressions.Dice
+  href: DiceEngine.Expressions.Dice.RollValue.html
+  name: RollValue
+  nameWithType: RollValue
+  fullName: DiceEngine.Expressions.Dice.RollValue
+- uid: System.Range
+  commentId: T:System.Range
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.range
+  name: Range
+  nameWithType: Range
+  fullName: System.Range
+- uid: DiceEngine.Expressions.Dice.RollValue[]
+  isExternal: true
+  href: DiceEngine.Expressions.Dice.RollValue.html
+  name: RollValue[]
+  nameWithType: RollValue[]
+  fullName: DiceEngine.Expressions.Dice.RollValue[]
+  nameWithType.vb: RollValue()
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue()
+  name.vb: RollValue()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollResult.Length*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollResult.Length
+  href: DiceEngine.Expressions.Dice.RollResult.html#DiceEngine_Expressions_Dice_RollResult_Length
+  name: Length
+  nameWithType: RollResult.Length
+  fullName: DiceEngine.Expressions.Dice.RollResult.Length
+- uid: System.Collections.Generic.IEnumerable{System.Int32}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<int>
+  nameWithType: IEnumerable<int>
+  fullName: System.Collections.Generic.IEnumerable<int>
+  nameWithType.vb: IEnumerable(Of Integer)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Integer)
+  name.vb: IEnumerable(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.GetHashCode
+  commentId: M:DiceEngine.Expressions.Terminals.Number.GetHashCode
+  parent: DiceEngine.Expressions.Terminals.Number
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_GetHashCode
+  name: GetHashCode()
+  nameWithType: Number.GetHashCode()
+  fullName: DiceEngine.Expressions.Terminals.Number.GetHashCode()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Number.GetHashCode
+    name: GetHashCode
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Number.GetHashCode
+    name: GetHashCode
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_GetHashCode
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollResult.GetHashCode*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollResult.GetHashCode
+  href: DiceEngine.Expressions.Dice.RollResult.html#DiceEngine_Expressions_Dice_RollResult_GetHashCode
+  name: GetHashCode
+  nameWithType: RollResult.GetHashCode
+  fullName: DiceEngine.Expressions.Dice.RollResult.GetHashCode
+- uid: DiceEngine.Expressions.Terminals.Number.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.Equals(System.Object)
+  parent: DiceEngine.Expressions.Terminals.Number
+  isExternal: true
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_Equals_System_Object_
+  name: Equals(object)
+  nameWithType: Number.Equals(object)
+  fullName: DiceEngine.Expressions.Terminals.Number.Equals(object)
+  nameWithType.vb: Number.Equals(Object)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Number.Equals(System.Object)
+    name: Equals
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Number.Equals(System.Object)
+    name: Equals
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollResult.Equals*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollResult.Equals
+  href: DiceEngine.Expressions.Dice.RollResult.html#DiceEngine_Expressions_Dice_RollResult_Equals_System_Object_
+  name: Equals
+  nameWithType: RollResult.Equals
+  fullName: DiceEngine.Expressions.Dice.RollResult.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Expressions.Terminals.Number.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.ToString(System.String)
+  parent: DiceEngine.Expressions.Terminals.Number
+  isExternal: true
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_ToString_System_String_
+  name: ToString(string)
+  nameWithType: Number.ToString(string)
+  fullName: DiceEngine.Expressions.Terminals.Number.ToString(string)
+  nameWithType.vb: Number.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.ToString(String)
+  name.vb: ToString(String)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Number.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Number.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollResult.ToString*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollResult.ToString
+  href: DiceEngine.Expressions.Dice.RollResult.html#DiceEngine_Expressions_Dice_RollResult_ToString_System_String_
+  name: ToString
+  nameWithType: RollResult.ToString
+  fullName: DiceEngine.Expressions.Dice.RollResult.ToString
+- uid: DiceEngine.Expressions.Dice.RollResult.GetEnumerator*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollResult.GetEnumerator
+  href: DiceEngine.Expressions.Dice.RollResult.html#DiceEngine_Expressions_Dice_RollResult_GetEnumerator
+  name: GetEnumerator
+  nameWithType: RollResult.GetEnumerator
+  fullName: DiceEngine.Expressions.Dice.RollResult.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<RollValue>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Expressions.Dice.RollValue>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of RollValue).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.Dice.RollValue).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Dice.RollValue}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{DiceEngine.Expressions.Dice.RollValue}
+  commentId: T:System.Collections.Generic.IEnumerator{DiceEngine.Expressions.Dice.RollValue}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<RollValue>
+  nameWithType: IEnumerator<RollValue>
+  fullName: System.Collections.Generic.IEnumerator<DiceEngine.Expressions.Dice.RollValue>
+  nameWithType.vb: IEnumerator(Of RollValue)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of DiceEngine.Expressions.Dice.RollValue)
+  name.vb: IEnumerator(Of RollValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

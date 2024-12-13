@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Parsing.Rules
+  commentId: N:DiceEngine.Parsing.Rules
+  id: DiceEngine.Parsing.Rules
+  children:
+  - DiceEngine.Parsing.Rules.IParserRule
+  - DiceEngine.Parsing.Rules.OptionRule
+  - DiceEngine.Parsing.Rules.ParserRule
+  - DiceEngine.Parsing.Rules.RegexRule
+  - DiceEngine.Parsing.Rules.TypeRule`1
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Parsing.Rules
+  nameWithType: DiceEngine.Parsing.Rules
+  fullName: DiceEngine.Parsing.Rules
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Parsing.Rules.IParserRule
+  commentId: T:DiceEngine.Parsing.Rules.IParserRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.IParserRule.html
+  name: IParserRule
+  nameWithType: IParserRule
+  fullName: DiceEngine.Parsing.Rules.IParserRule
+- uid: DiceEngine.Parsing.Rules.OptionRule
+  commentId: T:DiceEngine.Parsing.Rules.OptionRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.OptionRule.html
+  name: OptionRule
+  nameWithType: OptionRule
+  fullName: DiceEngine.Parsing.Rules.OptionRule
+- uid: DiceEngine.Parsing.Rules.ParserRule
+  commentId: T:DiceEngine.Parsing.Rules.ParserRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.ParserRule.html
+  name: ParserRule
+  nameWithType: ParserRule
+  fullName: DiceEngine.Parsing.Rules.ParserRule
+- uid: DiceEngine.Parsing.Rules.RegexRule
+  commentId: T:DiceEngine.Parsing.Rules.RegexRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.RegexRule.html
+  name: RegexRule
+  nameWithType: RegexRule
+  fullName: DiceEngine.Parsing.Rules.RegexRule
+- uid: DiceEngine.Parsing.Rules.TypeRule`1
+  commentId: T:DiceEngine.Parsing.Rules.TypeRule`1
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.TypeRule-1.html
+  name: TypeRule<T>
+  nameWithType: TypeRule<T>
+  fullName: DiceEngine.Parsing.Rules.TypeRule<T>
+  nameWithType.vb: TypeRule(Of T)
+  fullName.vb: DiceEngine.Parsing.Rules.TypeRule(Of T)
+  name.vb: TypeRule(Of T)
+  spec.csharp:
+  - uid: DiceEngine.Parsing.Rules.TypeRule`1
+    name: TypeRule
+    href: DiceEngine.Parsing.Rules.TypeRule-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: DiceEngine.Parsing.Rules.TypeRule`1
+    name: TypeRule
+    href: DiceEngine.Parsing.Rules.TypeRule-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.Parsing.Rules
+  commentId: N:DiceEngine.Parsing.Rules
+  href: DiceEngine.html
+  name: DiceEngine.Parsing.Rules
+  nameWithType: DiceEngine.Parsing.Rules
+  fullName: DiceEngine.Parsing.Rules
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+  - name: .
+  - uid: DiceEngine.Parsing.Rules
+    name: Rules
+    href: DiceEngine.Parsing.Rules.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+  - name: .
+  - uid: DiceEngine.Parsing.Rules
+    name: Rules
+    href: DiceEngine.Parsing.Rules.html

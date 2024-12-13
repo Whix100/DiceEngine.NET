@@ -1,0 +1,688 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.TypeConverters.DecimalTypeConverter
+  commentId: T:DiceEngine.TypeConverters.DecimalTypeConverter
+  id: DecimalTypeConverter
+  parent: DiceEngine.TypeConverters
+  children:
+  - DiceEngine.TypeConverters.DecimalTypeConverter.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  - DiceEngine.TypeConverters.DecimalTypeConverter.ConvertToExpression(System.Nullable{System.Decimal})
+  langs:
+  - csharp
+  - vb
+  name: DecimalTypeConverter
+  nameWithType: DecimalTypeConverter
+  fullName: DiceEngine.TypeConverters.DecimalTypeConverter
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/TypeConverters/DecimalTypeConverter.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: DecimalTypeConverter
+    path: ../src/DiceEngine/TypeConverters/DecimalTypeConverter.cs
+    startLine: 5
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
+  syntax:
+    content: 'public class DecimalTypeConverter : ITypeConverter<decimal?>, ITypeConverter'
+    content.vb: Public Class DecimalTypeConverter Implements ITypeConverter(Of Decimal?), ITypeConverter
+  inheritance:
+  - System.Object
+  implements:
+  - DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}
+  - DiceEngine.TypeConverters.ITypeConverter
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertToExpression(System.Nullable{System.Decimal})
+  commentId: M:DiceEngine.TypeConverters.DecimalTypeConverter.ConvertToExpression(System.Nullable{System.Decimal})
+  id: ConvertToExpression(System.Nullable{System.Decimal})
+  parent: DiceEngine.TypeConverters.DecimalTypeConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertToExpression(decimal?)
+  nameWithType: DecimalTypeConverter.ConvertToExpression(decimal?)
+  fullName: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertToExpression(decimal?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/TypeConverters/DecimalTypeConverter.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ConvertToExpression
+    path: ../src/DiceEngine/TypeConverters/DecimalTypeConverter.cs
+    startLine: 7
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
+  summary: Converts from a value to an expression.
+  example: []
+  syntax:
+    content: public Terminal ConvertToExpression(decimal? value)
+    parameters:
+    - id: value
+      type: System.Nullable{System.Decimal}
+      description: The value to convert.
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: An <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> representing the value.
+    content.vb: Public Function ConvertToExpression(value As Decimal?) As Terminal
+  overload: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertToExpression*
+  implements:
+  - DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}.ConvertToExpression(System.Nullable{System.Decimal})
+  nameWithType.vb: DecimalTypeConverter.ConvertToExpression(Decimal?)
+  fullName.vb: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertToExpression(Decimal?)
+  name.vb: ConvertToExpression(Decimal?)
+- uid: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.TypeConverters.DecimalTypeConverter.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  id: ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.TypeConverters.DecimalTypeConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertFromExpression(IExpression?)
+  nameWithType: DecimalTypeConverter.ConvertFromExpression(IExpression?)
+  fullName: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertFromExpression(DiceEngine.Expressions.IExpression?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/TypeConverters/DecimalTypeConverter.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ConvertFromExpression
+    path: ../src/DiceEngine/TypeConverters/DecimalTypeConverter.cs
+    startLine: 21
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
+  summary: Converts from an expression to a value.
+  example: []
+  syntax:
+    content: public decimal? ConvertFromExpression(IExpression? expression)
+    parameters:
+    - id: expression
+      type: DiceEngine.Expressions.IExpression
+      description: The expression to convert.
+    return:
+      type: System.Nullable{System.Decimal}
+      description: A value representing the expression.
+    content.vb: Public Function ConvertFromExpression(expression As IExpression) As Decimal?
+  overload: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertFromExpression*
+  implements:
+  - DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  nameWithType.vb: DecimalTypeConverter.ConvertFromExpression(IExpression)
+  fullName.vb: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  name.vb: ConvertFromExpression(IExpression)
+references:
+- uid: DiceEngine.TypeConverters
+  commentId: N:DiceEngine.TypeConverters
+  href: DiceEngine.html
+  name: DiceEngine.TypeConverters
+  nameWithType: DiceEngine.TypeConverters
+  fullName: DiceEngine.TypeConverters
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.TypeConverters
+    name: TypeConverters
+    href: DiceEngine.TypeConverters.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.TypeConverters
+    name: TypeConverters
+    href: DiceEngine.TypeConverters.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}
+  parent: DiceEngine.TypeConverters
+  definition: DiceEngine.TypeConverters.ITypeConverter`1
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html
+  name: ITypeConverter<decimal?>
+  nameWithType: ITypeConverter<decimal?>
+  fullName: DiceEngine.TypeConverters.ITypeConverter<decimal?>
+  nameWithType.vb: ITypeConverter(Of Decimal?)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of Decimal?)
+  name.vb: ITypeConverter(Of Decimal?)
+  spec.csharp:
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html
+  - name: <
+  - uid: System.Decimal
+    name: decimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.decimal
+  - name: '?'
+  - name: '>'
+  spec.vb:
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Decimal
+    name: Decimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.decimal
+  - name: '?'
+  - name: )
+- uid: DiceEngine.TypeConverters.ITypeConverter
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter
+  parent: DiceEngine.TypeConverters
+  href: DiceEngine.TypeConverters.ITypeConverter.html
+  name: ITypeConverter
+  nameWithType: ITypeConverter
+  fullName: DiceEngine.TypeConverters.ITypeConverter
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.TypeConverters.ITypeConverter`1
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter`1
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html
+  name: ITypeConverter<T>
+  nameWithType: ITypeConverter<T>
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>
+  nameWithType.vb: ITypeConverter(Of T)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T)
+  name.vb: ITypeConverter(Of T)
+  spec.csharp:
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertToExpression*
+  commentId: Overload:DiceEngine.TypeConverters.DecimalTypeConverter.ConvertToExpression
+  href: DiceEngine.TypeConverters.DecimalTypeConverter.html#DiceEngine_TypeConverters_DecimalTypeConverter_ConvertToExpression_System_Nullable_System_Decimal__
+  name: ConvertToExpression
+  nameWithType: DecimalTypeConverter.ConvertToExpression
+  fullName: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertToExpression
+- uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}.ConvertToExpression(System.Nullable{System.Decimal})
+  commentId: M:DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}.ConvertToExpression(System.Nullable{System.Decimal})
+  parent: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}
+  definition: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+  name: ConvertToExpression(decimal?)
+  nameWithType: ITypeConverter<decimal?>.ConvertToExpression(decimal?)
+  fullName: DiceEngine.TypeConverters.ITypeConverter<decimal?>.ConvertToExpression(decimal?)
+  nameWithType.vb: ITypeConverter(Of Decimal?).ConvertToExpression(Decimal?)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of Decimal?).ConvertToExpression(Decimal?)
+  name.vb: ConvertToExpression(Decimal?)
+  spec.csharp:
+  - uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}.ConvertToExpression(System.Nullable{System.Decimal})
+    name: ConvertToExpression
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+  - name: (
+  - uid: System.Decimal
+    name: decimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.decimal
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}.ConvertToExpression(System.Nullable{System.Decimal})
+    name: ConvertToExpression
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+  - name: (
+  - uid: System.Decimal
+    name: Decimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.decimal
+  - name: '?'
+  - name: )
+- uid: System.Nullable{System.Decimal}
+  commentId: T:System.Nullable{System.Decimal}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal?
+  nameWithType: decimal?
+  fullName: decimal?
+  nameWithType.vb: Decimal?
+  fullName.vb: Decimal?
+  name.vb: Decimal?
+  spec.csharp:
+  - uid: System.Decimal
+    name: decimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.decimal
+  - name: '?'
+  spec.vb:
+  - uid: System.Decimal
+    name: Decimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.decimal
+  - name: '?'
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  commentId: M:DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+  name: ConvertToExpression(T)
+  nameWithType: ITypeConverter<T>.ConvertToExpression(T)
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>.ConvertToExpression(T)
+  nameWithType.vb: ITypeConverter(Of T).ConvertToExpression(T)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T).ConvertToExpression(T)
+  spec.csharp:
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+    name: ConvertToExpression
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+    name: ConvertToExpression
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertFromExpression*
+  commentId: Overload:DiceEngine.TypeConverters.DecimalTypeConverter.ConvertFromExpression
+  href: DiceEngine.TypeConverters.DecimalTypeConverter.html#DiceEngine_TypeConverters_DecimalTypeConverter_ConvertFromExpression_DiceEngine_Expressions_IExpression_
+  name: ConvertFromExpression
+  nameWithType: DecimalTypeConverter.ConvertFromExpression
+  fullName: DiceEngine.TypeConverters.DecimalTypeConverter.ConvertFromExpression
+- uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}
+  definition: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
+  name: ConvertFromExpression(IExpression)
+  nameWithType: ITypeConverter<decimal?>.ConvertFromExpression(IExpression)
+  fullName: DiceEngine.TypeConverters.ITypeConverter<decimal?>.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  nameWithType.vb: ITypeConverter(Of Decimal?).ConvertFromExpression(IExpression)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of Decimal?).ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  spec.csharp:
+  - uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+    name: ConvertFromExpression
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
+  - name: (
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.TypeConverters.ITypeConverter{System.Nullable{System.Decimal}}.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+    name: ConvertFromExpression
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
+  - name: (
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: )
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
+  name: ConvertFromExpression(IExpression)
+  nameWithType: ITypeConverter<T>.ConvertFromExpression(IExpression)
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  nameWithType.vb: ITypeConverter(Of T).ConvertFromExpression(IExpression)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T).ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  spec.csharp:
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+    name: ConvertFromExpression
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
+  - name: (
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+    name: ConvertFromExpression
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
+  - name: (
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: )
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html

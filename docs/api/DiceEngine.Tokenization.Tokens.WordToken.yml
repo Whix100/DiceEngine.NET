@@ -1,0 +1,878 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Tokenization.Tokens.WordToken
+  commentId: T:DiceEngine.Tokenization.Tokens.WordToken
+  id: WordToken
+  parent: DiceEngine.Tokenization.Tokens
+  children:
+  - DiceEngine.Tokenization.Tokens.WordToken.#ctor(System.String,System.Int32)
+  - DiceEngine.Tokenization.Tokens.WordToken.Equals(System.Object)
+  - DiceEngine.Tokenization.Tokens.WordToken.GetHashCode
+  - DiceEngine.Tokenization.Tokens.WordToken.Index
+  - DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
+  - DiceEngine.Tokenization.Tokens.WordToken.Value
+  - DiceEngine.Tokenization.Tokens.WordToken.op_Equality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  - DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(DiceEngine.Tokenization.Tokens.WordToken)~System.String
+  - DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.WordToken
+  - DiceEngine.Tokenization.Tokens.WordToken.op_Inequality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  langs:
+  - csharp
+  - vb
+  name: WordToken
+  nameWithType: WordToken
+  fullName: DiceEngine.Tokenization.Tokens.WordToken
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: WordToken
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 10
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: A substring that represents a word such as a variable, constant, or function name.
+  example: []
+  syntax:
+    content: 'public class WordToken : IToken'
+    content.vb: Public Class WordToken Implements IToken
+  inheritance:
+  - System.Object
+  implements:
+  - DiceEngine.Tokenization.Tokens.IToken
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.Tokenization.Tokens.WordToken.#ctor(System.String,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: WordToken(string, int)
+  nameWithType: WordToken.WordToken(string, int)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.WordToken(string, int)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 10
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: A substring that represents a word such as a variable, constant, or function name.
+  example: []
+  syntax:
+    content: public WordToken(string value, int index)
+    parameters:
+    - id: value
+      type: System.String
+      description: The <xref href="System.String" data-throw-if-not-resolved="false"></xref> contained within the <xref href="DiceEngine.Tokenization.Tokens.Token" data-throw-if-not-resolved="false"></xref>.
+    - id: index
+      type: System.Int32
+      description: The starting index within the containing <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub New(value As String, index As Integer)
+  overload: DiceEngine.Tokenization.Tokens.WordToken.#ctor*
+  nameWithType.vb: WordToken.New(String, Integer)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.New(String, Integer)
+  name.vb: New(String, Integer)
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.WordToken.Value
+  id: Value
+  parent: DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: WordToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Value
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Value
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 12
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The value of the token.
+  example: []
+  syntax:
+    content: public string Value { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Value As String
+  overload: DiceEngine.Tokenization.Tokens.WordToken.Value*
+  implements:
+  - DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.WordToken.Index
+  id: Index
+  parent: DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: WordToken.Index
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Index
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Index
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 14
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The index of the token in the larger string.
+  example: []
+  syntax:
+    content: public int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Index As Integer
+  overload: DiceEngine.Tokenization.Tokens.WordToken.Index*
+  implements:
+  - DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
+  id: RegexAlias
+  parent: DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: RegexAlias
+  nameWithType: WordToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RegexAlias
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 16
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The value to use in a regular expression.
+  example: []
+  syntax:
+    content: public char RegexAlias { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property RegexAlias As Char
+  overload: DiceEngine.Tokenization.Tokens.WordToken.RegexAlias*
+  implements:
+  - DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Equals(System.Object)
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: WordToken.Equals(object?)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Equals
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 18
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: Determines whether the specified object is equal to the current object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: DiceEngine.Tokenization.Tokens.WordToken.Equals*
+  nameWithType.vb: WordToken.Equals(Object)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.Equals(Object)
+  name.vb: Equals(Object)
+- uid: DiceEngine.Tokenization.Tokens.WordToken.GetHashCode
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.GetHashCode
+  id: GetHashCode
+  parent: DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: WordToken.GetHashCode()
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetHashCode
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 21
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: Serves as the default hash function.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for the current object.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: DiceEngine.Tokenization.Tokens.WordToken.GetHashCode*
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Equality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.op_Equality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  id: op_Equality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  parent: DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: operator ==(WordToken, IToken)
+  nameWithType: WordToken.operator ==(WordToken, IToken)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.operator ==(DiceEngine.Tokenization.Tokens.WordToken, DiceEngine.Tokenization.Tokens.IToken)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Equality
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 24
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public static bool operator ==(WordToken a, IToken b)
+    parameters:
+    - id: a
+      type: DiceEngine.Tokenization.Tokens.WordToken
+    - id: b
+      type: DiceEngine.Tokenization.Tokens.IToken
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As WordToken, b As IToken) As Boolean
+  overload: DiceEngine.Tokenization.Tokens.WordToken.op_Equality*
+  nameWithType.vb: WordToken.=(WordToken, IToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.=(DiceEngine.Tokenization.Tokens.WordToken, DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: =(WordToken, IToken)
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Inequality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.op_Inequality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  id: op_Inequality(DiceEngine.Tokenization.Tokens.WordToken,DiceEngine.Tokenization.Tokens.IToken)
+  parent: DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: operator !=(WordToken, IToken)
+  nameWithType: WordToken.operator !=(WordToken, IToken)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.operator !=(DiceEngine.Tokenization.Tokens.WordToken, DiceEngine.Tokenization.Tokens.IToken)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Inequality
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 27
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public static bool operator !=(WordToken a, IToken b)
+    parameters:
+    - id: a
+      type: DiceEngine.Tokenization.Tokens.WordToken
+    - id: b
+      type: DiceEngine.Tokenization.Tokens.IToken
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As WordToken, b As IToken) As Boolean
+  overload: DiceEngine.Tokenization.Tokens.WordToken.op_Inequality*
+  nameWithType.vb: WordToken.<>(WordToken, IToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.<>(DiceEngine.Tokenization.Tokens.WordToken, DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: <>(WordToken, IToken)
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.WordToken
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.WordToken
+  id: op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: implicit operator WordToken(Match)
+  nameWithType: WordToken.implicit operator WordToken(Match)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.implicit operator DiceEngine.Tokenization.Tokens.WordToken(System.Text.RegularExpressions.Match)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Implicit
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 30
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public static implicit operator WordToken(Match match)
+    parameters:
+    - id: match
+      type: System.Text.RegularExpressions.Match
+    return:
+      type: DiceEngine.Tokenization.Tokens.WordToken
+    content.vb: Public Shared Widening Operator CType(match As Match) As WordToken
+  overload: DiceEngine.Tokenization.Tokens.WordToken.op_Implicit*
+  nameWithType.vb: WordToken.CType(Match)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.CType(System.Text.RegularExpressions.Match)
+  name.vb: CType(Match)
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(DiceEngine.Tokenization.Tokens.WordToken)~System.String
+  commentId: M:DiceEngine.Tokenization.Tokens.WordToken.op_Implicit(DiceEngine.Tokenization.Tokens.WordToken)~System.String
+  id: op_Implicit(DiceEngine.Tokenization.Tokens.WordToken)~System.String
+  parent: DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: implicit operator string(WordToken)
+  nameWithType: WordToken.implicit operator string(WordToken)
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.implicit operator string(DiceEngine.Tokenization.Tokens.WordToken)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/WordToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Implicit
+    path: ../src/DiceEngine/Tokenization/Tokens/WordToken.cs
+    startLine: 33
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public static implicit operator string(WordToken token)
+    parameters:
+    - id: token
+      type: DiceEngine.Tokenization.Tokens.WordToken
+    return:
+      type: System.String
+    content.vb: Public Shared Widening Operator CType(token As WordToken) As String
+  overload: DiceEngine.Tokenization.Tokens.WordToken.op_Implicit*
+  nameWithType.vb: WordToken.CType(WordToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.CType(DiceEngine.Tokenization.Tokens.WordToken)
+  name.vb: CType(WordToken)
+references:
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Tokenization.Tokens.Token
+  commentId: T:DiceEngine.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.Token.html
+  name: Token
+  nameWithType: Token
+  fullName: DiceEngine.Tokenization.Tokens.Token
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
+  name: IToken
+  nameWithType: IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Tokenization.Tokens.WordToken.#ctor*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.#ctor
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken__ctor_System_String_System_Int32_
+  name: WordToken
+  nameWithType: WordToken.WordToken
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.WordToken
+  nameWithType.vb: WordToken.New
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Value*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.Value
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_Value
+  name: Value
+  nameWithType: WordToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Value
+- uid: DiceEngine.Tokenization.Tokens.IToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Value
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Value
+  name: Value
+  nameWithType: IToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Index*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.Index
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_Index
+  name: Index
+  nameWithType: WordToken.Index
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Index
+- uid: DiceEngine.Tokenization.Tokens.IToken.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Index
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Index
+  name: Index
+  nameWithType: IToken.Index
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: DiceEngine.Tokenization.Tokens.WordToken.RegexAlias*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_RegexAlias
+  name: RegexAlias
+  nameWithType: WordToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.RegexAlias
+- uid: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_RegexAlias
+  name: RegexAlias
+  nameWithType: IToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DiceEngine.Tokenization.Tokens.WordToken.Equals*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.Equals
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_Equals_System_Object_
+  name: Equals
+  nameWithType: WordToken.Equals
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: DiceEngine.Tokenization.Tokens.WordToken.GetHashCode*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.GetHashCode
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_GetHashCode
+  name: GetHashCode
+  nameWithType: WordToken.GetHashCode
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Equality*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.op_Equality
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_op_Equality_DiceEngine_Tokenization_Tokens_WordToken_DiceEngine_Tokenization_Tokens_IToken_
+  name: operator ==
+  nameWithType: WordToken.operator ==
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.operator ==
+  nameWithType.vb: WordToken.=
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.WordToken.op_Equality*
+    name: ==
+    href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_op_Equality_DiceEngine_Tokenization_Tokens_WordToken_DiceEngine_Tokenization_Tokens_IToken_
+- uid: DiceEngine.Tokenization.Tokens.WordToken
+  commentId: T:DiceEngine.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.WordToken.html
+  name: WordToken
+  nameWithType: WordToken
+  fullName: DiceEngine.Tokenization.Tokens.WordToken
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Inequality*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.op_Inequality
+  href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_op_Inequality_DiceEngine_Tokenization_Tokens_WordToken_DiceEngine_Tokenization_Tokens_IToken_
+  name: operator !=
+  nameWithType: WordToken.operator !=
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.operator !=
+  nameWithType.vb: WordToken.<>
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.WordToken.op_Inequality*
+    name: '!='
+    href: DiceEngine.Tokenization.Tokens.WordToken.html#DiceEngine_Tokenization_Tokens_WordToken_op_Inequality_DiceEngine_Tokenization_Tokens_WordToken_DiceEngine_Tokenization_Tokens_IToken_
+- uid: DiceEngine.Tokenization.Tokens.WordToken.op_Implicit*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.WordToken.op_Implicit
+  name: implicit operator
+  nameWithType: WordToken.implicit operator
+  fullName: DiceEngine.Tokenization.Tokens.WordToken.implicit operator
+  nameWithType.vb: WordToken.CType
+  fullName.vb: DiceEngine.Tokenization.Tokens.WordToken.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: System.Text.RegularExpressions.Match
+  commentId: T:System.Text.RegularExpressions.Match
+  parent: System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.match
+  name: Match
+  nameWithType: Match
+  fullName: System.Text.RegularExpressions.Match
+- uid: System.Text.RegularExpressions
+  commentId: N:System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text.RegularExpressions
+  nameWithType: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions

@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Dice.IDie
+  commentId: T:DiceEngine.Expressions.Dice.IDie
+  id: IDie
+  parent: DiceEngine.Expressions.Dice
+  children:
+  - DiceEngine.Expressions.Dice.IDie.Roll(System.Random)
+  langs:
+  - csharp
+  - vb
+  name: IDie
+  nameWithType: IDie
+  fullName: DiceEngine.Expressions.Dice.IDie
+  type: Interface
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IDie
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 69
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: 'public interface IDie : IExpression'
+    content.vb: Public Interface IDie Inherits IExpression
+  inheritedMembers:
+  - DiceEngine.Expressions.IExpression.Evaluate
+  - DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.StepEvaluate
+  - DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.EvaluateDice
+  - DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.ToString
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+- uid: DiceEngine.Expressions.Dice.IDie.Roll(System.Random)
+  commentId: M:DiceEngine.Expressions.Dice.IDie.Roll(System.Random)
+  id: Roll(System.Random)
+  parent: DiceEngine.Expressions.Dice.IDie
+  langs:
+  - csharp
+  - vb
+  name: Roll(Random?)
+  nameWithType: IDie.Roll(Random?)
+  fullName: DiceEngine.Expressions.Dice.IDie.Roll(System.Random?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Roll
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 71
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: int Roll(Random? random = null)
+    parameters:
+    - id: random
+      type: System.Random
+    return:
+      type: System.Int32
+    content.vb: Function Roll(random As Random = Nothing) As Integer
+  overload: DiceEngine.Expressions.Dice.IDie.Roll*
+  nameWithType.vb: IDie.Roll(Random)
+  fullName.vb: DiceEngine.Expressions.Dice.IDie.Roll(System.Random)
+  name.vb: Roll(Random)
+references:
+- uid: DiceEngine.Expressions.Dice
+  commentId: N:DiceEngine.Expressions.Dice
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Dice
+  nameWithType: DiceEngine.Expressions.Dice
+  fullName: DiceEngine.Expressions.Dice
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Dice
+    name: Dice
+    href: DiceEngine.Expressions.Dice.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Dice
+    name: Dice
+    href: DiceEngine.Expressions.Dice.html
+- uid: DiceEngine.Expressions.IExpression.Evaluate
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
+  name: Evaluate()
+  nameWithType: IExpression.Evaluate()
+  fullName: DiceEngine.Expressions.IExpression.Evaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
+  name: Evaluate(ExpressionContext)
+  nameWithType: IExpression.Evaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
+  name: StepEvaluate()
+  nameWithType: IExpression.StepEvaluate()
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  name: StepEvaluate(ExpressionContext)
+  nameWithType: IExpression.StepEvaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.EvaluateDice
+  commentId: M:DiceEngine.Expressions.IExpression.EvaluateDice
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice
+  name: EvaluateDice()
+  nameWithType: IExpression.EvaluateDice()
+  fullName: DiceEngine.Expressions.IExpression.EvaluateDice()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  name: EvaluateDice(ExpressionContext)
+  nameWithType: IExpression.EvaluateDice(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.ToString
+  commentId: M:DiceEngine.Expressions.IExpression.ToString
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
+  name: ToString()
+  nameWithType: IExpression.ToString()
+  fullName: DiceEngine.Expressions.IExpression.ToString()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.ToString
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.ToString
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
+  isExternal: true
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  name: ToString(string)
+  nameWithType: IExpression.ToString(string)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string)
+  nameWithType.vb: IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
+  name.vb: ToString(String)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+  commentId: M:DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+  parent: DiceEngine.Expressions.IExpression
+  isExternal: true
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_CompareTo_System_Object_
+  name: CompareTo(object)
+  nameWithType: IExpression.CompareTo(object)
+  fullName: DiceEngine.Expressions.IExpression.CompareTo(object)
+  nameWithType.vb: IExpression.CompareTo(Object)
+  fullName.vb: DiceEngine.Expressions.IExpression.CompareTo(Object)
+  name.vb: CompareTo(Object)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+    name: CompareTo
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_CompareTo_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+    name: CompareTo
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_CompareTo_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Expressions.Dice.IDie.Roll*
+  commentId: Overload:DiceEngine.Expressions.Dice.IDie.Roll
+  href: DiceEngine.Expressions.Dice.IDie.html#DiceEngine_Expressions_Dice_IDie_Roll_System_Random_
+  name: Roll
+  nameWithType: IDie.Roll
+  fullName: DiceEngine.Expressions.Dice.IDie.Roll
+- uid: System.Random
+  commentId: T:System.Random
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.random
+  name: Random
+  nameWithType: Random
+  fullName: System.Random
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

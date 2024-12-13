@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.FunctionAttributes
+  commentId: N:DiceEngine.FunctionAttributes
+  id: DiceEngine.FunctionAttributes
+  children:
+  - DiceEngine.FunctionAttributes.FunctionAttribute
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.FunctionAttributes
+  nameWithType: DiceEngine.FunctionAttributes
+  fullName: DiceEngine.FunctionAttributes
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.FunctionAttributes.FunctionAttribute
+  commentId: T:DiceEngine.FunctionAttributes.FunctionAttribute
+  parent: DiceEngine.FunctionAttributes
+  href: DiceEngine.FunctionAttributes.FunctionAttribute.html
+  name: FunctionAttribute
+  nameWithType: FunctionAttribute
+  fullName: DiceEngine.FunctionAttributes.FunctionAttribute
+- uid: DiceEngine.FunctionAttributes
+  commentId: N:DiceEngine.FunctionAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes
+  nameWithType: DiceEngine.FunctionAttributes
+  fullName: DiceEngine.FunctionAttributes
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.FunctionAttributes
+    name: FunctionAttributes
+    href: DiceEngine.FunctionAttributes.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.FunctionAttributes
+    name: FunctionAttributes
+    href: DiceEngine.FunctionAttributes.html

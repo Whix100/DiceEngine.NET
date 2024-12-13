@@ -1,0 +1,1081 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Parsing.TokenMatch
+  commentId: T:DiceEngine.Parsing.TokenMatch
+  id: TokenMatch
+  parent: DiceEngine.Parsing
+  children:
+  - DiceEngine.Parsing.TokenMatch.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},System.Int32)
+  - DiceEngine.Parsing.TokenMatch.GetEnumerator
+  - DiceEngine.Parsing.TokenMatch.Index
+  - DiceEngine.Parsing.TokenMatch.Item(System.Int32)
+  - DiceEngine.Parsing.TokenMatch.Item(System.Range)
+  - DiceEngine.Parsing.TokenMatch.Length
+  - DiceEngine.Parsing.TokenMatch.Match
+  - DiceEngine.Parsing.TokenMatch.Value
+  langs:
+  - csharp
+  - vb
+  name: TokenMatch
+  nameWithType: TokenMatch
+  fullName: DiceEngine.Parsing.TokenMatch
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/TokenMatch.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: TokenMatch
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
+    startLine: 12
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: A subset of tokens that match a rule.
+  example: []
+  syntax:
+    content: 'public class TokenMatch : IEnumerable<IToken>, IEnumerable'
+    content.vb: Public Class TokenMatch Implements IEnumerable(Of IToken), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.Parsing.TokenMatch.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},System.Int32)
+  commentId: M:DiceEngine.Parsing.TokenMatch.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},System.Int32)
+  id: '#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},System.Int32)'
+  parent: DiceEngine.Parsing.TokenMatch
+  langs:
+  - csharp
+  - vb
+  name: TokenMatch(IEnumerable<IToken>, int)
+  nameWithType: TokenMatch.TokenMatch(IEnumerable<IToken>, int)
+  fullName: DiceEngine.Parsing.TokenMatch.TokenMatch(System.Collections.Generic.IEnumerable<DiceEngine.Tokenization.Tokens.IToken>, int)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/TokenMatch.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
+    startLine: 12
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: A subset of tokens that match a rule.
+  example: []
+  syntax:
+    content: public TokenMatch(IEnumerable<IToken> match, int index)
+    parameters:
+    - id: match
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+      description: The matching subset of tokens.
+    - id: index
+      type: System.Int32
+      description: The index in the list of tokens where the match was found.
+    content.vb: Public Sub New(match As IEnumerable(Of IToken), index As Integer)
+  overload: DiceEngine.Parsing.TokenMatch.#ctor*
+  nameWithType.vb: TokenMatch.New(IEnumerable(Of IToken), Integer)
+  fullName.vb: DiceEngine.Parsing.TokenMatch.New(System.Collections.Generic.IEnumerable(Of DiceEngine.Tokenization.Tokens.IToken), Integer)
+  name.vb: New(IEnumerable(Of IToken), Integer)
+- uid: DiceEngine.Parsing.TokenMatch.Match
+  commentId: P:DiceEngine.Parsing.TokenMatch.Match
+  id: Match
+  parent: DiceEngine.Parsing.TokenMatch
+  langs:
+  - csharp
+  - vb
+  name: Match
+  nameWithType: TokenMatch.Match
+  fullName: DiceEngine.Parsing.TokenMatch.Match
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/TokenMatch.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Match
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
+    startLine: 16
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: public IReadOnlyList<IToken> Match { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{DiceEngine.Tokenization.Tokens.IToken}
+    content.vb: Public ReadOnly Property Match As IReadOnlyList(Of IToken)
+  overload: DiceEngine.Parsing.TokenMatch.Match*
+- uid: DiceEngine.Parsing.TokenMatch.Index
+  commentId: P:DiceEngine.Parsing.TokenMatch.Index
+  id: Index
+  parent: DiceEngine.Parsing.TokenMatch
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: TokenMatch.Index
+  fullName: DiceEngine.Parsing.TokenMatch.Index
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/TokenMatch.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Index
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
+    startLine: 18
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: public int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Index As Integer
+  overload: DiceEngine.Parsing.TokenMatch.Index*
+- uid: DiceEngine.Parsing.TokenMatch.Length
+  commentId: P:DiceEngine.Parsing.TokenMatch.Length
+  id: Length
+  parent: DiceEngine.Parsing.TokenMatch
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: TokenMatch.Length
+  fullName: DiceEngine.Parsing.TokenMatch.Length
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/TokenMatch.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Length
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
+    startLine: 20
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: public int Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Length As Integer
+  overload: DiceEngine.Parsing.TokenMatch.Length*
+- uid: DiceEngine.Parsing.TokenMatch.Value
+  commentId: P:DiceEngine.Parsing.TokenMatch.Value
+  id: Value
+  parent: DiceEngine.Parsing.TokenMatch
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: TokenMatch.Value
+  fullName: DiceEngine.Parsing.TokenMatch.Value
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/TokenMatch.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Value
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
+    startLine: 22
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: public string Value { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Value As String
+  overload: DiceEngine.Parsing.TokenMatch.Value*
+- uid: DiceEngine.Parsing.TokenMatch.Item(System.Int32)
+  commentId: P:DiceEngine.Parsing.TokenMatch.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: DiceEngine.Parsing.TokenMatch
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: TokenMatch.this[int]
+  fullName: DiceEngine.Parsing.TokenMatch.this[int]
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/TokenMatch.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: this[]
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
+    startLine: 24
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: public IToken this[int index] { get; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: DiceEngine.Tokenization.Tokens.IToken
+    content.vb: Public ReadOnly Default Property this[](index As Integer) As IToken
+  overload: DiceEngine.Parsing.TokenMatch.Item*
+  nameWithType.vb: TokenMatch.this[](Integer)
+  fullName.vb: DiceEngine.Parsing.TokenMatch.this[](Integer)
+  name.vb: this[](Integer)
+- uid: DiceEngine.Parsing.TokenMatch.Item(System.Range)
+  commentId: P:DiceEngine.Parsing.TokenMatch.Item(System.Range)
+  id: Item(System.Range)
+  parent: DiceEngine.Parsing.TokenMatch
+  langs:
+  - csharp
+  - vb
+  name: this[Range]
+  nameWithType: TokenMatch.this[Range]
+  fullName: DiceEngine.Parsing.TokenMatch.this[System.Range]
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/TokenMatch.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: this[]
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
+    startLine: 26
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: public ImmutableArray<IToken> this[Range range] { get; }
+    parameters:
+    - id: range
+      type: System.Range
+    return:
+      type: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
+    content.vb: Public ReadOnly Default Property this[](range As Range) As ImmutableArray(Of IToken)
+  overload: DiceEngine.Parsing.TokenMatch.Item*
+  nameWithType.vb: TokenMatch.this[](Range)
+  fullName.vb: DiceEngine.Parsing.TokenMatch.this[](System.Range)
+  name.vb: this[](Range)
+- uid: DiceEngine.Parsing.TokenMatch.GetEnumerator
+  commentId: M:DiceEngine.Parsing.TokenMatch.GetEnumerator
+  id: GetEnumerator
+  parent: DiceEngine.Parsing.TokenMatch
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: TokenMatch.GetEnumerator()
+  fullName: DiceEngine.Parsing.TokenMatch.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/TokenMatch.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetEnumerator
+    path: ../src/DiceEngine/Parsing/TokenMatch.cs
+    startLine: 28
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Returns an enumerator that iterates through the collection.
+  example: []
+  syntax:
+    content: public IEnumerator<IToken> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{DiceEngine.Tokenization.Tokens.IToken}
+      description: An enumerator that can be used to iterate through the collection.
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of IToken)
+  overload: DiceEngine.Parsing.TokenMatch.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}.GetEnumerator
+references:
+- uid: DiceEngine.Parsing
+  commentId: N:DiceEngine.Parsing
+  href: DiceEngine.html
+  name: DiceEngine.Parsing
+  nameWithType: DiceEngine.Parsing
+  fullName: DiceEngine.Parsing
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IToken>
+  nameWithType: IEnumerable<IToken>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Tokenization.Tokens.IToken>
+  nameWithType.vb: IEnumerable(Of IToken)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: IEnumerable(Of IToken)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: DiceEngine.Parsing.TokenMatch.#ctor*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.#ctor
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch__ctor_System_Collections_Generic_IEnumerable_DiceEngine_Tokenization_Tokens_IToken__System_Int32_
+  name: TokenMatch
+  nameWithType: TokenMatch.TokenMatch
+  fullName: DiceEngine.Parsing.TokenMatch.TokenMatch
+  nameWithType.vb: TokenMatch.New
+  fullName.vb: DiceEngine.Parsing.TokenMatch.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: DiceEngine.Parsing.TokenMatch.Match*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.Match
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_Match
+  name: Match
+  nameWithType: TokenMatch.Match
+  fullName: DiceEngine.Parsing.TokenMatch.Match
+- uid: System.Collections.Generic.IReadOnlyList{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Generic.IReadOnlyList{DiceEngine.Tokenization.Tokens.IToken}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<IToken>
+  nameWithType: IReadOnlyList<IToken>
+  fullName: System.Collections.Generic.IReadOnlyList<DiceEngine.Tokenization.Tokens.IToken>
+  nameWithType.vb: IReadOnlyList(Of IToken)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: IReadOnlyList(Of IToken)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.Parsing.TokenMatch.Index*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.Index
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_Index
+  name: Index
+  nameWithType: TokenMatch.Index
+  fullName: DiceEngine.Parsing.TokenMatch.Index
+- uid: DiceEngine.Parsing.TokenMatch.Length*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.Length
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_Length
+  name: Length
+  nameWithType: TokenMatch.Length
+  fullName: DiceEngine.Parsing.TokenMatch.Length
+- uid: DiceEngine.Parsing.TokenMatch.Value*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.Value
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_Value
+  name: Value
+  nameWithType: TokenMatch.Value
+  fullName: DiceEngine.Parsing.TokenMatch.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Parsing.TokenMatch.Item*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.Item
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_Item_System_Int32_
+  name: this
+  nameWithType: TokenMatch.this
+  fullName: DiceEngine.Parsing.TokenMatch.this
+  nameWithType.vb: TokenMatch.this[]
+  fullName.vb: DiceEngine.Parsing.TokenMatch.this[]
+  name.vb: this[]
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
+  name: IToken
+  nameWithType: IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+- uid: System.Range
+  commentId: T:System.Range
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.range
+  name: Range
+  nameWithType: Range
+  fullName: System.Range
+- uid: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
+  parent: System.Collections.Immutable
+  definition: System.Collections.Immutable.ImmutableArray`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  name: ImmutableArray<IToken>
+  nameWithType: ImmutableArray<IToken>
+  fullName: System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>
+  nameWithType.vb: ImmutableArray(Of IToken)
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: ImmutableArray(Of IToken)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: <
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: )
+- uid: System.Collections.Immutable.ImmutableArray`1
+  commentId: T:System.Collections.Immutable.ImmutableArray`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  name: ImmutableArray<T>
+  nameWithType: ImmutableArray<T>
+  fullName: System.Collections.Immutable.ImmutableArray<T>
+  nameWithType.vb: ImmutableArray(Of T)
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of T)
+  name.vb: ImmutableArray(Of T)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Immutable
+  commentId: N:System.Collections.Immutable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Immutable
+  nameWithType: System.Collections.Immutable
+  fullName: System.Collections.Immutable
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Immutable
+    name: Immutable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Immutable
+    name: Immutable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
+- uid: DiceEngine.Parsing.TokenMatch.GetEnumerator*
+  commentId: Overload:DiceEngine.Parsing.TokenMatch.GetEnumerator
+  href: DiceEngine.Parsing.TokenMatch.html#DiceEngine_Parsing_TokenMatch_GetEnumerator
+  name: GetEnumerator
+  nameWithType: TokenMatch.GetEnumerator
+  fullName: DiceEngine.Parsing.TokenMatch.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<IToken>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Tokenization.Tokens.IToken>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of IToken).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Tokenization.Tokens.IToken).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Generic.IEnumerator{DiceEngine.Tokenization.Tokens.IToken}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<IToken>
+  nameWithType: IEnumerator<IToken>
+  fullName: System.Collections.Generic.IEnumerator<DiceEngine.Tokenization.Tokens.IToken>
+  nameWithType.vb: IEnumerator(Of IToken)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: IEnumerator(Of IToken)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

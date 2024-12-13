@@ -1,0 +1,2457 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Terminals.Number
+  commentId: T:DiceEngine.Expressions.Terminals.Number
+  id: Number
+  parent: DiceEngine.Expressions.Terminals
+  children:
+  - DiceEngine.Expressions.Terminals.Number.#ctor(System.Double)
+  - DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Number.Equals(System.Object)
+  - DiceEngine.Expressions.Terminals.Number.GetHashCode
+  - DiceEngine.Expressions.Terminals.Number.IsEven
+  - DiceEngine.Expressions.Terminals.Number.IsInteger
+  - DiceEngine.Expressions.Terminals.Number.IsNegative
+  - DiceEngine.Expressions.Terminals.Number.IsOdd
+  - DiceEngine.Expressions.Terminals.Number.IsPositive
+  - DiceEngine.Expressions.Terminals.Number.ONE
+  - DiceEngine.Expressions.Terminals.Number.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Number.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Number.ToLogical
+  - DiceEngine.Expressions.Terminals.Number.ToString(System.String)
+  - DiceEngine.Expressions.Terminals.Number.Value
+  - DiceEngine.Expressions.Terminals.Number.ZERO
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Byte
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Decimal
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Double
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int16
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int32
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int64
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.SByte
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Single
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt16
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt32
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt64
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Byte)~DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Decimal)~DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Double)~DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Int16)~DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Int32)~DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Int64)~DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.SByte)~DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Single)~DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.UInt16)~DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.UInt32)~DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Number.op_Explicit(System.UInt64)~DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: Number
+  fullName: DiceEngine.Expressions.Terminals.Number
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Number
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 10
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: Initializes a new instance of the <xref href="DiceEngine.Expressions.Terminals.Number" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: 'public class Number : Terminal, ILogicalConvertible, IExpression, IPrefixOperable, IPostfixOperable, IBinaryOperable'
+    content.vb: Public Class Number Inherits Terminal Implements ILogicalConvertible, IExpression, IPrefixOperable, IPostfixOperable, IBinaryOperable
+  inheritance:
+  - System.Object
+  - DiceEngine.Expressions.Terminals.Terminal
+  derivedClasses:
+  - DiceEngine.Expressions.Dice.RollResult
+  implements:
+  - DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  - DiceEngine.Expressions.IExpression
+  - DiceEngine.Expressions.Interfaces.IPrefixOperable
+  - DiceEngine.Expressions.Interfaces.IPostfixOperable
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable
+  inheritedMembers:
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+  - DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: DiceEngine.Expressions.Terminals.Number.#ctor(System.Double)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.#ctor(System.Double)
+  id: '#ctor(System.Double)'
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: Number(double)
+  nameWithType: Number.Number(double)
+  fullName: DiceEngine.Expressions.Terminals.Number.Number(double)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 10
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: Initializes a new instance of the <xref href="DiceEngine.Expressions.Terminals.Number" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public Number(double value)
+    parameters:
+    - id: value
+      type: System.Double
+      description: The numeric value.
+    content.vb: Public Sub New(value As Double)
+  overload: DiceEngine.Expressions.Terminals.Number.#ctor*
+  nameWithType.vb: Number.New(Double)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.New(Double)
+  name.vb: New(Double)
+- uid: DiceEngine.Expressions.Terminals.Number.ZERO
+  commentId: F:DiceEngine.Expressions.Terminals.Number.ZERO
+  id: ZERO
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: ZERO
+  nameWithType: Number.ZERO
+  fullName: DiceEngine.Expressions.Terminals.Number.ZERO
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ZERO
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 12
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static readonly Number ZERO
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared ReadOnly ZERO As Number
+- uid: DiceEngine.Expressions.Terminals.Number.ONE
+  commentId: F:DiceEngine.Expressions.Terminals.Number.ONE
+  id: ONE
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: ONE
+  nameWithType: Number.ONE
+  fullName: DiceEngine.Expressions.Terminals.Number.ONE
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ONE
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 13
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static readonly Number ONE
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared ReadOnly ONE As Number
+- uid: DiceEngine.Expressions.Terminals.Number.Value
+  commentId: P:DiceEngine.Expressions.Terminals.Number.Value
+  id: Value
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Number.Value
+  fullName: DiceEngine.Expressions.Terminals.Number.Value
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Value
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 15
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public double Value { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Value As Double
+  overload: DiceEngine.Expressions.Terminals.Number.Value*
+- uid: DiceEngine.Expressions.Terminals.Number.IsInteger
+  commentId: P:DiceEngine.Expressions.Terminals.Number.IsInteger
+  id: IsInteger
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: IsInteger
+  nameWithType: Number.IsInteger
+  fullName: DiceEngine.Expressions.Terminals.Number.IsInteger
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsInteger
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 17
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public bool IsInteger { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsInteger As Boolean
+  overload: DiceEngine.Expressions.Terminals.Number.IsInteger*
+- uid: DiceEngine.Expressions.Terminals.Number.IsEven
+  commentId: P:DiceEngine.Expressions.Terminals.Number.IsEven
+  id: IsEven
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: IsEven
+  nameWithType: Number.IsEven
+  fullName: DiceEngine.Expressions.Terminals.Number.IsEven
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsEven
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 19
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public bool IsEven { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsEven As Boolean
+  overload: DiceEngine.Expressions.Terminals.Number.IsEven*
+- uid: DiceEngine.Expressions.Terminals.Number.IsOdd
+  commentId: P:DiceEngine.Expressions.Terminals.Number.IsOdd
+  id: IsOdd
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: IsOdd
+  nameWithType: Number.IsOdd
+  fullName: DiceEngine.Expressions.Terminals.Number.IsOdd
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsOdd
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 21
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public bool IsOdd { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOdd As Boolean
+  overload: DiceEngine.Expressions.Terminals.Number.IsOdd*
+- uid: DiceEngine.Expressions.Terminals.Number.IsPositive
+  commentId: P:DiceEngine.Expressions.Terminals.Number.IsPositive
+  id: IsPositive
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: IsPositive
+  nameWithType: Number.IsPositive
+  fullName: DiceEngine.Expressions.Terminals.Number.IsPositive
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsPositive
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 23
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public bool IsPositive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsPositive As Boolean
+  overload: DiceEngine.Expressions.Terminals.Number.IsPositive*
+- uid: DiceEngine.Expressions.Terminals.Number.IsNegative
+  commentId: P:DiceEngine.Expressions.Terminals.Number.IsNegative
+  id: IsNegative
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: IsNegative
+  nameWithType: Number.IsNegative
+  fullName: DiceEngine.Expressions.Terminals.Number.IsNegative
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsNegative
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 25
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public bool IsNegative { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsNegative As Boolean
+  overload: DiceEngine.Expressions.Terminals.Number.IsNegative*
+- uid: DiceEngine.Expressions.Terminals.Number.ToLogical
+  commentId: M:DiceEngine.Expressions.Terminals.Number.ToLogical
+  id: ToLogical
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: ToLogical()
+  nameWithType: Number.ToLogical()
+  fullName: DiceEngine.Expressions.Terminals.Number.ToLogical()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ToLogical
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 27
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  example: []
+  syntax:
+    content: public Logical ToLogical()
+    return:
+      type: DiceEngine.Expressions.Terminals.Logical
+    content.vb: Public Function ToLogical() As Logical
+  overload: DiceEngine.Expressions.Terminals.Number.ToLogical*
+  implements:
+  - DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+- uid: DiceEngine.Expressions.Terminals.Number.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  id: PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: PrefixOperate(string, ExpressionContext)
+  nameWithType: Number.PrefixOperate(string, ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Number.PrefixOperate(string, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: PrefixOperate
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 34
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  example: []
+  syntax:
+    content: public Terminal PrefixOperate(string identifier, ExpressionContext _)
+    parameters:
+    - id: identifier
+      type: System.String
+    - id: _
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public Function PrefixOperate(identifier As String, _ As ExpressionContext) As Terminal
+  overload: DiceEngine.Expressions.Terminals.Number.PrefixOperate*
+  implements:
+  - DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: Number.PrefixOperate(String, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.PrefixOperate(String, DiceEngine.Context.ExpressionContext)
+  name.vb: PrefixOperate(String, ExpressionContext)
+- uid: DiceEngine.Expressions.Terminals.Number.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  id: PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: PostfixOperate(string, ExpressionContext)
+  nameWithType: Number.PostfixOperate(string, ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Number.PostfixOperate(string, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: PostfixOperate
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 48
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  example: []
+  syntax:
+    content: public Terminal PostfixOperate(string identifier, ExpressionContext _)
+    parameters:
+    - id: identifier
+      type: System.String
+    - id: _
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public Function PostfixOperate(identifier As String, _ As ExpressionContext) As Terminal
+  overload: DiceEngine.Expressions.Terminals.Number.PostfixOperate*
+  implements:
+  - DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: Number.PostfixOperate(String, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.PostfixOperate(String, DiceEngine.Context.ExpressionContext)
+  name.vb: PostfixOperate(String, ExpressionContext)
+- uid: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: BinaryLeftOperate(string, IExpression, ExpressionContext)
+  nameWithType: Number.BinaryLeftOperate(string, IExpression, ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: BinaryLeftOperate
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 61
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  example: []
+  syntax:
+    content: public Terminal? BinaryLeftOperate(string identifier, IExpression right, ExpressionContext context)
+    parameters:
+    - id: identifier
+      type: System.String
+    - id: right
+      type: DiceEngine.Expressions.IExpression
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public Function BinaryLeftOperate(identifier As String, right As IExpression, context As ExpressionContext) As Terminal
+  overload: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate*
+  implements:
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: Number.BinaryLeftOperate(String, IExpression, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  name.vb: BinaryLeftOperate(String, IExpression, ExpressionContext)
+- uid: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: BinaryRightOperate(string, IExpression, ExpressionContext)
+  nameWithType: Number.BinaryRightOperate(string, IExpression, ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: BinaryRightOperate
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 91
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  example: []
+  syntax:
+    content: public Terminal? BinaryRightOperate(string _, IExpression __, ExpressionContext ___)
+    parameters:
+    - id: _
+      type: System.String
+    - id: __
+      type: DiceEngine.Expressions.IExpression
+    - id: ___
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public Function BinaryRightOperate(_ As String, __ As IExpression, ___ As ExpressionContext) As Terminal
+  overload: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate*
+  implements:
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: Number.BinaryRightOperate(String, IExpression, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  name.vb: BinaryRightOperate(String, IExpression, ExpressionContext)
+- uid: DiceEngine.Expressions.Terminals.Number.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Number.Equals(object?)
+  fullName: DiceEngine.Expressions.Terminals.Number.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Equals
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 96
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: Determines whether the specified object is equal to the current object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: DiceEngine.Expressions.Terminals.Number.Equals*
+  nameWithType.vb: Number.Equals(Object)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.Equals(Object)
+  name.vb: Equals(Object)
+- uid: DiceEngine.Expressions.Terminals.Number.GetHashCode
+  commentId: M:DiceEngine.Expressions.Terminals.Number.GetHashCode
+  id: GetHashCode
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Number.GetHashCode()
+  fullName: DiceEngine.Expressions.Terminals.Number.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetHashCode
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 99
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: Serves as the default hash function.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for the current object.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: DiceEngine.Expressions.Terminals.Number.GetHashCode*
+- uid: DiceEngine.Expressions.Terminals.Number.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Terminals.Number.ToString(System.String)
+  id: ToString(System.String)
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: ToString(string?)
+  nameWithType: Number.ToString(string?)
+  fullName: DiceEngine.Expressions.Terminals.Number.ToString(string?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ToString
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 102
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  summary: >-
+    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
+
+    format <xref href="System.String" data-throw-if-not-resolved="false"></xref> for number formats.
+  example: []
+  syntax:
+    content: public override string ToString(string? format)
+    parameters:
+    - id: format
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: >-
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
+
+        <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Overrides Function ToString(format As String) As String
+  overridden: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  overload: DiceEngine.Expressions.Terminals.Number.ToString*
+  implements:
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
+  nameWithType.vb: Number.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.ToString(String)
+  name.vb: ToString(String)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Decimal
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Decimal
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Decimal
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator decimal(Number)
+  nameWithType: Number.explicit operator decimal(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator decimal(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 105
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator decimal(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.Decimal
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As Decimal
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Double
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Double
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Double
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator double(Number)
+  nameWithType: Number.explicit operator double(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator double(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 108
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator double(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.Double
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As Double
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Single
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Single
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Single
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator float(Number)
+  nameWithType: Number.explicit operator float(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator float(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 111
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator float(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.Single
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As Single
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int64
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int64
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int64
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator long(Number)
+  nameWithType: Number.explicit operator long(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator long(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 114
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator long(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.Int64
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As Long
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int32
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int32
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int32
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator int(Number)
+  nameWithType: Number.explicit operator int(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator int(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 117
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator int(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.Int32
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As Integer
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int16
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int16
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Int16
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator short(Number)
+  nameWithType: Number.explicit operator short(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator short(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 120
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator short(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.Int16
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As Short
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.SByte
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.SByte
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.SByte
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator sbyte(Number)
+  nameWithType: Number.explicit operator sbyte(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator sbyte(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 123
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator sbyte(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.SByte
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As SByte
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt64
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt64
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt64
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator ulong(Number)
+  nameWithType: Number.explicit operator ulong(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator ulong(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 126
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator ulong(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.UInt64
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As ULong
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt32
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt32
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt32
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator uint(Number)
+  nameWithType: Number.explicit operator uint(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator uint(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 129
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator uint(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As UInteger
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt16
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt16
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.UInt16
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator ushort(Number)
+  nameWithType: Number.explicit operator ushort(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator ushort(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 132
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator ushort(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.UInt16
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As UShort
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Byte
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Byte
+  id: op_Explicit(DiceEngine.Expressions.Terminals.Number)~System.Byte
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator byte(Number)
+  nameWithType: Number.explicit operator byte(Number)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator byte(DiceEngine.Expressions.Terminals.Number)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 135
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator byte(Number n)
+    parameters:
+    - id: n
+      type: DiceEngine.Expressions.Terminals.Number
+    return:
+      type: System.Byte
+    content.vb: Public Shared Narrowing Operator CType(n As Number) As Byte
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Number)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(DiceEngine.Expressions.Terminals.Number)
+  name.vb: CType(Number)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Decimal)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Decimal)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.Decimal)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(decimal)
+  nameWithType: Number.explicit operator Number(decimal)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(decimal)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 138
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(decimal n)
+    parameters:
+    - id: n
+      type: System.Decimal
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As Decimal) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Decimal)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(Decimal)
+  name.vb: CType(Decimal)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Double)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Double)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.Double)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(double)
+  nameWithType: Number.explicit operator Number(double)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(double)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 141
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(double n)
+    parameters:
+    - id: n
+      type: System.Double
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As Double) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Double)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(Double)
+  name.vb: CType(Double)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Single)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Single)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.Single)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(float)
+  nameWithType: Number.explicit operator Number(float)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(float)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 144
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(float n)
+    parameters:
+    - id: n
+      type: System.Single
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As Single) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Single)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(Single)
+  name.vb: CType(Single)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Int64)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Int64)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.Int64)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(long)
+  nameWithType: Number.explicit operator Number(long)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(long)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 147
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(long n)
+    parameters:
+    - id: n
+      type: System.Int64
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As Long) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Long)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(Long)
+  name.vb: CType(Long)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Int32)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Int32)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.Int32)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(int)
+  nameWithType: Number.explicit operator Number(int)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(int)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 150
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(int n)
+    parameters:
+    - id: n
+      type: System.Int32
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As Integer) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Integer)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(Integer)
+  name.vb: CType(Integer)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Int16)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Int16)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.Int16)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(short)
+  nameWithType: Number.explicit operator Number(short)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(short)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 153
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(short n)
+    parameters:
+    - id: n
+      type: System.Int16
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As Short) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Short)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(Short)
+  name.vb: CType(Short)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.SByte)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.SByte)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.SByte)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(sbyte)
+  nameWithType: Number.explicit operator Number(sbyte)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(sbyte)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 156
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(sbyte n)
+    parameters:
+    - id: n
+      type: System.SByte
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As SByte) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(SByte)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(SByte)
+  name.vb: CType(SByte)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.UInt64)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.UInt64)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.UInt64)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(ulong)
+  nameWithType: Number.explicit operator Number(ulong)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(ulong)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 159
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(ulong n)
+    parameters:
+    - id: n
+      type: System.UInt64
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As ULong) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(ULong)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(ULong)
+  name.vb: CType(ULong)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.UInt32)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.UInt32)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.UInt32)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(uint)
+  nameWithType: Number.explicit operator Number(uint)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(uint)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 162
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(uint n)
+    parameters:
+    - id: n
+      type: System.UInt32
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As UInteger) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(UInteger)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(UInteger)
+  name.vb: CType(UInteger)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.UInt16)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.UInt16)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.UInt16)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(ushort)
+  nameWithType: Number.explicit operator Number(ushort)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(ushort)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 165
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(ushort n)
+    parameters:
+    - id: n
+      type: System.UInt16
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As UShort) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(UShort)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(UShort)
+  name.vb: CType(UShort)
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Byte)~DiceEngine.Expressions.Terminals.Number
+  commentId: M:DiceEngine.Expressions.Terminals.Number.op_Explicit(System.Byte)~DiceEngine.Expressions.Terminals.Number
+  id: op_Explicit(System.Byte)~DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals.Number
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Number(byte)
+  nameWithType: Number.explicit operator Number(byte)
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator DiceEngine.Expressions.Terminals.Number(byte)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Terminals/Number.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Terminals/Number.cs
+    startLine: 168
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Terminals
+  syntax:
+    content: public static explicit operator Number(byte n)
+    parameters:
+    - id: n
+      type: System.Byte
+    return:
+      type: DiceEngine.Expressions.Terminals.Number
+    content.vb: Public Shared Narrowing Operator CType(n As Byte) As Number
+  overload: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  nameWithType.vb: Number.CType(Byte)
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType(Byte)
+  name.vb: CType(Byte)
+references:
+- uid: DiceEngine.Expressions.Terminals.Number
+  commentId: T:DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Number.html
+  name: Number
+  nameWithType: Number
+  fullName: DiceEngine.Expressions.Terminals.Number
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  commentId: T:DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html
+  name: ILogicalConvertible
+  nameWithType: ILogicalConvertible
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IPrefixOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html
+  name: IPrefixOperable
+  nameWithType: IPrefixOperable
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable
+- uid: DiceEngine.Expressions.Interfaces.IPostfixOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IPostfixOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IPostfixOperable.html
+  name: IPostfixOperable
+  nameWithType: IPostfixOperable
+  fullName: DiceEngine.Expressions.Interfaces.IPostfixOperable
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IBinaryOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html
+  name: IBinaryOperable
+  nameWithType: IBinaryOperable
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
+  name: Evaluate()
+  nameWithType: Terminal.Evaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
+  name: Evaluate(ExpressionContext)
+  nameWithType: Terminal.Evaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
+  name: StepEvaluate()
+  nameWithType: Terminal.StepEvaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  name: StepEvaluate(ExpressionContext)
+  nameWithType: Terminal.StepEvaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice
+  name: EvaluateDice()
+  nameWithType: Terminal.EvaluateDice()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  name: EvaluateDice(ExpressionContext)
+  nameWithType: Terminal.EvaluateDice(ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
+  name: ToString()
+  nameWithType: Terminal.ToString()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Expressions.Interfaces
+  commentId: N:DiceEngine.Expressions.Interfaces
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Interfaces
+  nameWithType: DiceEngine.Expressions.Interfaces
+  fullName: DiceEngine.Expressions.Interfaces
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Interfaces
+    name: Interfaces
+    href: DiceEngine.Expressions.Interfaces.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Interfaces
+    name: Interfaces
+    href: DiceEngine.Expressions.Interfaces.html
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Expressions.Terminals.Number.#ctor*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.#ctor
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number__ctor_System_Double_
+  name: Number
+  nameWithType: Number.Number
+  fullName: DiceEngine.Expressions.Terminals.Number.Number
+  nameWithType.vb: Number.New
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.New
+  name.vb: New
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: DiceEngine.Expressions.Terminals.Number.Value*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.Value
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_Value
+  name: Value
+  nameWithType: Number.Value
+  fullName: DiceEngine.Expressions.Terminals.Number.Value
+- uid: DiceEngine.Expressions.Terminals.Number.IsInteger*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.IsInteger
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_IsInteger
+  name: IsInteger
+  nameWithType: Number.IsInteger
+  fullName: DiceEngine.Expressions.Terminals.Number.IsInteger
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: DiceEngine.Expressions.Terminals.Number.IsEven*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.IsEven
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_IsEven
+  name: IsEven
+  nameWithType: Number.IsEven
+  fullName: DiceEngine.Expressions.Terminals.Number.IsEven
+- uid: DiceEngine.Expressions.Terminals.Number.IsOdd*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.IsOdd
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_IsOdd
+  name: IsOdd
+  nameWithType: Number.IsOdd
+  fullName: DiceEngine.Expressions.Terminals.Number.IsOdd
+- uid: DiceEngine.Expressions.Terminals.Number.IsPositive*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.IsPositive
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_IsPositive
+  name: IsPositive
+  nameWithType: Number.IsPositive
+  fullName: DiceEngine.Expressions.Terminals.Number.IsPositive
+- uid: DiceEngine.Expressions.Terminals.Number.IsNegative*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.IsNegative
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_IsNegative
+  name: IsNegative
+  nameWithType: Number.IsNegative
+  fullName: DiceEngine.Expressions.Terminals.Number.IsNegative
+- uid: DiceEngine.Expressions.Terminals.Number.ToLogical*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.ToLogical
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_ToLogical
+  name: ToLogical
+  nameWithType: Number.ToLogical
+  fullName: DiceEngine.Expressions.Terminals.Number.ToLogical
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+  commentId: M:DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+  parent: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html#DiceEngine_Expressions_Interfaces_ILogicalConvertible_ToLogical
+  name: ToLogical()
+  nameWithType: ILogicalConvertible.ToLogical()
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+    name: ToLogical
+    href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html#DiceEngine_Expressions_Interfaces_ILogicalConvertible_ToLogical
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible.ToLogical
+    name: ToLogical
+    href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html#DiceEngine_Expressions_Interfaces_ILogicalConvertible_ToLogical
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Logical
+  commentId: T:DiceEngine.Expressions.Terminals.Logical
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Logical.html
+  name: Logical
+  nameWithType: Logical
+  fullName: DiceEngine.Expressions.Terminals.Logical
+- uid: DiceEngine.Expressions.Terminals.Number.PrefixOperate*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.PrefixOperate
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  name: PrefixOperate
+  nameWithType: Number.PrefixOperate
+  fullName: DiceEngine.Expressions.Terminals.Number.PrefixOperate
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IPrefixOperable
+  isExternal: true
+  href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html#DiceEngine_Expressions_Interfaces_IPrefixOperable_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  name: PrefixOperate(string, ExpressionContext)
+  nameWithType: IPrefixOperable.PrefixOperate(string, ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(string, DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: IPrefixOperable.PrefixOperate(String, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(String, DiceEngine.Context.ExpressionContext)
+  name.vb: PrefixOperate(String, ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+    name: PrefixOperate
+    href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html#DiceEngine_Expressions_Interfaces_IPrefixOperable_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+    name: PrefixOperate
+    href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html#DiceEngine_Expressions_Interfaces_IPrefixOperable_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
+  name: ExpressionContext
+  nameWithType: ExpressionContext
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.Terminals.Number.PostfixOperate*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.PostfixOperate
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  name: PostfixOperate
+  nameWithType: Number.PostfixOperate
+  fullName: DiceEngine.Expressions.Terminals.Number.PostfixOperate
+- uid: DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IPostfixOperable
+  isExternal: true
+  href: DiceEngine.Expressions.Interfaces.IPostfixOperable.html#DiceEngine_Expressions_Interfaces_IPostfixOperable_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  name: PostfixOperate(string, ExpressionContext)
+  nameWithType: IPostfixOperable.PostfixOperate(string, ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(string, DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: IPostfixOperable.PostfixOperate(String, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(String, DiceEngine.Context.ExpressionContext)
+  name.vb: PostfixOperate(String, ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+    name: PostfixOperate
+    href: DiceEngine.Expressions.Interfaces.IPostfixOperable.html#DiceEngine_Expressions_Interfaces_IPostfixOperable_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Interfaces.IPostfixOperable.PostfixOperate(System.String,DiceEngine.Context.ExpressionContext)
+    name: PostfixOperate
+    href: DiceEngine.Expressions.Interfaces.IPostfixOperable.html#DiceEngine_Expressions_Interfaces_IPostfixOperable_PostfixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: BinaryLeftOperate
+  nameWithType: Number.BinaryLeftOperate
+  fullName: DiceEngine.Expressions.Terminals.Number.BinaryLeftOperate
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IBinaryOperable
+  isExternal: true
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: BinaryLeftOperate(string, IExpression, ExpressionContext)
+  nameWithType: IBinaryOperable.BinaryLeftOperate(string, IExpression, ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: IBinaryOperable.BinaryLeftOperate(String, IExpression, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  name.vb: BinaryLeftOperate(String, IExpression, ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+    name: BinaryLeftOperate
+    href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryLeftOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+    name: BinaryLeftOperate
+    href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryLeftOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.BinaryRightOperate
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: BinaryRightOperate
+  nameWithType: Number.BinaryRightOperate
+  fullName: DiceEngine.Expressions.Terminals.Number.BinaryRightOperate
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IBinaryOperable
+  isExternal: true
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: BinaryRightOperate(string, IExpression, ExpressionContext)
+  nameWithType: IBinaryOperable.BinaryRightOperate(string, IExpression, ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  nameWithType.vb: IBinaryOperable.BinaryRightOperate(String, IExpression, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  name.vb: BinaryRightOperate(String, IExpression, ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+    name: BinaryRightOperate
+    href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Interfaces.IBinaryOperable.BinaryRightOperate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+    name: BinaryRightOperate
+    href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html#DiceEngine_Expressions_Interfaces_IBinaryOperable_BinaryRightOperate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.Equals*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.Equals
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_Equals_System_Object_
+  name: Equals
+  nameWithType: Number.Equals
+  fullName: DiceEngine.Expressions.Terminals.Number.Equals
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.GetHashCode*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.GetHashCode
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_GetHashCode
+  name: GetHashCode
+  nameWithType: Number.GetHashCode
+  fullName: DiceEngine.Expressions.Terminals.Number.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  isExternal: true
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
+  name: ToString(string)
+  nameWithType: Terminal.ToString(string)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString(string)
+  nameWithType.vb: Terminal.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.ToString(String)
+  name.vb: ToString(String)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.ToString*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.ToString
+  href: DiceEngine.Expressions.Terminals.Number.html#DiceEngine_Expressions_Terminals_Number_ToString_System_String_
+  name: ToString
+  nameWithType: Number.ToString
+  fullName: DiceEngine.Expressions.Terminals.Number.ToString
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
+  isExternal: true
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  name: ToString(string)
+  nameWithType: IExpression.ToString(string)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string)
+  nameWithType.vb: IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
+  name.vb: ToString(String)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Number.op_Explicit*
+  commentId: Overload:DiceEngine.Expressions.Terminals.Number.op_Explicit
+  name: explicit operator
+  nameWithType: Number.explicit operator
+  fullName: DiceEngine.Expressions.Terminals.Number.explicit operator
+  nameWithType.vb: Number.CType
+  fullName.vb: DiceEngine.Expressions.Terminals.Number.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.sbyte
+  name: sbyte
+  nameWithType: sbyte
+  fullName: sbyte
+  nameWithType.vb: SByte
+  fullName.vb: SByte
+  name.vb: SByte
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte

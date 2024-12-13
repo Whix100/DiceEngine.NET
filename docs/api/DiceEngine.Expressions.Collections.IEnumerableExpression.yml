@@ -1,0 +1,830 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression
+  commentId: T:DiceEngine.Expressions.Collections.IEnumerableExpression
+  id: IEnumerableExpression
+  parent: DiceEngine.Expressions.Collections
+  children:
+  - DiceEngine.Expressions.Collections.IEnumerableExpression.Combine(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression})
+  - DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  - DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable(System.Type,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  - DiceEngine.Expressions.Collections.IEnumerableExpression.Map(System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression})
+  langs:
+  - csharp
+  - vb
+  name: IEnumerableExpression
+  nameWithType: IEnumerableExpression
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression
+  type: Interface
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Collections/IEnumerableExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IEnumerableExpression
+    path: ../src/DiceEngine/Expressions/Collections/IEnumerableExpression.cs
+    startLine: 2
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
+  syntax:
+    content: 'public interface IEnumerableExpression : IExpression, IEnumerable<IExpression>, IEnumerable'
+    content.vb: Public Interface IEnumerableExpression Inherits IExpression, IEnumerable(Of IExpression), IEnumerable
+  inheritedMembers:
+  - DiceEngine.Expressions.IExpression.Evaluate
+  - DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.StepEvaluate
+  - DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.EvaluateDice
+  - DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.ToString
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
+  - DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+  - System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}.GetEnumerator
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  commentId: M:DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  id: ConvertIEnumerable(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  parent: DiceEngine.Expressions.Collections.IEnumerableExpression
+  langs:
+  - csharp
+  - vb
+  name: ConvertIEnumerable(IEnumerable<IExpression>)
+  nameWithType: IEnumerableExpression.ConvertIEnumerable(IEnumerable<IExpression>)
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable(System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Collections/IEnumerableExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ConvertIEnumerable
+    path: ../src/DiceEngine/Expressions/Collections/IEnumerableExpression.cs
+    startLine: 9
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
+  summary: Converts an <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> to an <xref href="DiceEngine.Expressions.Collections.IEnumerableExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static abstract IEnumerableExpression ConvertIEnumerable(IEnumerable<IExpression> expressions)
+    parameters:
+    - id: expressions
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+      description: The <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> to convert.
+    return:
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
+      description: The new <xref href="DiceEngine.Expressions.Collections.IEnumerableExpression" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared MustInherit Function ConvertIEnumerable(expressions As IEnumerable(Of IExpression)) As IEnumerableExpression
+  overload: DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable*
+  nameWithType.vb: IEnumerableExpression.ConvertIEnumerable(IEnumerable(Of IExpression))
+  fullName.vb: DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable(System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression))
+  name.vb: ConvertIEnumerable(IEnumerable(Of IExpression))
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression.Map(System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression})
+  commentId: M:DiceEngine.Expressions.Collections.IEnumerableExpression.Map(System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression})
+  id: Map(System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression})
+  parent: DiceEngine.Expressions.Collections.IEnumerableExpression
+  langs:
+  - csharp
+  - vb
+  name: Map(Func<IExpression, IExpression>)
+  nameWithType: IEnumerableExpression.Map(Func<IExpression, IExpression>)
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression.Map(System.Func<DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Collections/IEnumerableExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Map
+    path: ../src/DiceEngine/Expressions/Collections/IEnumerableExpression.cs
+    startLine: 19
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
+  summary: >-
+    Maps the <xref href="DiceEngine.Expressions.Collections.IEnumerableExpression" data-throw-if-not-resolved="false"></xref> to a new <xref href="DiceEngine.Expressions.Collections.IEnumerableExpression" data-throw-if-not-resolved="false"></xref> using the specified
+
+    map function.
+  example: []
+  syntax:
+    content: IEnumerableExpression Map(Func<IExpression, IExpression> map)
+    parameters:
+    - id: map
+      type: System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression}
+      description: The function to transform each element of the <xref href="DiceEngine.Expressions.Collections.IEnumerableExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
+      description: A new <xref href="DiceEngine.Expressions.Collections.IEnumerableExpression" data-throw-if-not-resolved="false"></xref> with the transformed elements.
+    content.vb: Function Map(map As Func(Of IExpression, IExpression)) As IEnumerableExpression
+  overload: DiceEngine.Expressions.Collections.IEnumerableExpression.Map*
+  nameWithType.vb: IEnumerableExpression.Map(Func(Of IExpression, IExpression))
+  fullName.vb: DiceEngine.Expressions.Collections.IEnumerableExpression.Map(System.Func(Of DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression))
+  name.vb: Map(Func(Of IExpression, IExpression))
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression.Combine(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression})
+  commentId: M:DiceEngine.Expressions.Collections.IEnumerableExpression.Combine(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression})
+  id: Combine(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression})
+  parent: DiceEngine.Expressions.Collections.IEnumerableExpression
+  langs:
+  - csharp
+  - vb
+  name: Combine(IEnumerable<IExpression>, Func<IExpression, IExpression, IExpression>)
+  nameWithType: IEnumerableExpression.Combine(IEnumerable<IExpression>, Func<IExpression, IExpression, IExpression>)
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression.Combine(System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>, System.Func<DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Collections/IEnumerableExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Combine
+    path: ../src/DiceEngine/Expressions/Collections/IEnumerableExpression.cs
+    startLine: 30
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
+  summary: >-
+    Combines the <xref href="DiceEngine.Expressions.Collections.IEnumerableExpression" data-throw-if-not-resolved="false"></xref> with another <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> using the
+
+    specified combine function.
+  example: []
+  syntax:
+    content: IEnumerableExpression Combine(IEnumerable<IExpression> expressions, Func<IExpression, IExpression, IExpression> combine)
+    parameters:
+    - id: expressions
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+      description: The other <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> to combine with.
+    - id: combine
+      type: System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression}
+      description: The function to combine the elements of the two <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
+      description: <xref href="DiceEngine.Expressions.Collections.IEnumerableExpression" data-throw-if-not-resolved="false"></xref> with the combined elements.
+    content.vb: Function Combine(expressions As IEnumerable(Of IExpression), combine As Func(Of IExpression, IExpression, IExpression)) As IEnumerableExpression
+  overload: DiceEngine.Expressions.Collections.IEnumerableExpression.Combine*
+  nameWithType.vb: IEnumerableExpression.Combine(IEnumerable(Of IExpression), Func(Of IExpression, IExpression, IExpression))
+  fullName.vb: DiceEngine.Expressions.Collections.IEnumerableExpression.Combine(System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression), System.Func(Of DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression))
+  name.vb: Combine(IEnumerable(Of IExpression), Func(Of IExpression, IExpression, IExpression))
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable(System.Type,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  commentId: M:DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable(System.Type,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  id: ConvertIEnumerable(System.Type,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  parent: DiceEngine.Expressions.Collections.IEnumerableExpression
+  langs:
+  - csharp
+  - vb
+  name: ConvertIEnumerable(Type, IEnumerable<IExpression>)
+  nameWithType: IEnumerableExpression.ConvertIEnumerable(Type, IEnumerable<IExpression>)
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable(System.Type, System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Collections/IEnumerableExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ConvertIEnumerable
+    path: ../src/DiceEngine/Expressions/Collections/IEnumerableExpression.cs
+    startLine: 33
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
+  syntax:
+    content: public static IEnumerableExpression ConvertIEnumerable(Type type, IEnumerable<IExpression> expressions)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: expressions
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+    return:
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
+    content.vb: Public Shared Function ConvertIEnumerable(type As Type, expressions As IEnumerable(Of IExpression)) As IEnumerableExpression
+  overload: DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable*
+  nameWithType.vb: IEnumerableExpression.ConvertIEnumerable(Type, IEnumerable(Of IExpression))
+  fullName.vb: DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable(System.Type, System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression))
+  name.vb: ConvertIEnumerable(Type, IEnumerable(Of IExpression))
+references:
+- uid: DiceEngine.Expressions.Collections
+  commentId: N:DiceEngine.Expressions.Collections
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Collections
+  nameWithType: DiceEngine.Expressions.Collections
+  fullName: DiceEngine.Expressions.Collections
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Collections
+    name: Collections
+    href: DiceEngine.Expressions.Collections.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Collections
+    name: Collections
+    href: DiceEngine.Expressions.Collections.html
+- uid: DiceEngine.Expressions.IExpression.Evaluate
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
+  name: Evaluate()
+  nameWithType: IExpression.Evaluate()
+  fullName: DiceEngine.Expressions.IExpression.Evaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
+  name: Evaluate(ExpressionContext)
+  nameWithType: IExpression.Evaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
+  name: StepEvaluate()
+  nameWithType: IExpression.StepEvaluate()
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  name: StepEvaluate(ExpressionContext)
+  nameWithType: IExpression.StepEvaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.EvaluateDice
+  commentId: M:DiceEngine.Expressions.IExpression.EvaluateDice
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice
+  name: EvaluateDice()
+  nameWithType: IExpression.EvaluateDice()
+  fullName: DiceEngine.Expressions.IExpression.EvaluateDice()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  name: EvaluateDice(ExpressionContext)
+  nameWithType: IExpression.EvaluateDice(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.ToString
+  commentId: M:DiceEngine.Expressions.IExpression.ToString
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
+  name: ToString()
+  nameWithType: IExpression.ToString()
+  fullName: DiceEngine.Expressions.IExpression.ToString()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.ToString
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.ToString
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
+  isExternal: true
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  name: ToString(string)
+  nameWithType: IExpression.ToString(string)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string)
+  nameWithType.vb: IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
+  name.vb: ToString(String)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+  commentId: M:DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+  parent: DiceEngine.Expressions.IExpression
+  isExternal: true
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_CompareTo_System_Object_
+  name: CompareTo(object)
+  nameWithType: IExpression.CompareTo(object)
+  fullName: DiceEngine.Expressions.IExpression.CompareTo(object)
+  nameWithType.vb: IExpression.CompareTo(Object)
+  fullName.vb: DiceEngine.Expressions.IExpression.CompareTo(Object)
+  name.vb: CompareTo(Object)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+    name: CompareTo
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_CompareTo_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+    name: CompareTo
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_CompareTo_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<IExpression>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of IExpression).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IExpression>
+  nameWithType: IEnumerable<IExpression>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>
+  nameWithType.vb: IEnumerable(Of IExpression)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression)
+  name.vb: IEnumerable(Of IExpression)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: )
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression
+  commentId: T:DiceEngine.Expressions.Collections.IEnumerableExpression
+  parent: DiceEngine.Expressions.Collections
+  href: DiceEngine.Expressions.Collections.IEnumerableExpression.html
+  name: IEnumerableExpression
+  nameWithType: IEnumerableExpression
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable*
+  commentId: Overload:DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable
+  href: DiceEngine.Expressions.Collections.IEnumerableExpression.html#DiceEngine_Expressions_Collections_IEnumerableExpression_ConvertIEnumerable_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__
+  name: ConvertIEnumerable
+  nameWithType: IEnumerableExpression.ConvertIEnumerable
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression.ConvertIEnumerable
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression.Map*
+  commentId: Overload:DiceEngine.Expressions.Collections.IEnumerableExpression.Map
+  href: DiceEngine.Expressions.Collections.IEnumerableExpression.html#DiceEngine_Expressions_Collections_IEnumerableExpression_Map_System_Func_DiceEngine_Expressions_IExpression_DiceEngine_Expressions_IExpression__
+  name: Map
+  nameWithType: IEnumerableExpression.Map
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression.Map
+- uid: System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression}
+  commentId: T:System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IExpression, IExpression>
+  nameWithType: Func<IExpression, IExpression>
+  fullName: System.Func<DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression>
+  nameWithType.vb: Func(Of IExpression, IExpression)
+  fullName.vb: System.Func(Of DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression)
+  name.vb: Func(Of IExpression, IExpression)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression.Combine*
+  commentId: Overload:DiceEngine.Expressions.Collections.IEnumerableExpression.Combine
+  href: DiceEngine.Expressions.Collections.IEnumerableExpression.html#DiceEngine_Expressions_Collections_IEnumerableExpression_Combine_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__System_Func_DiceEngine_Expressions_IExpression_DiceEngine_Expressions_IExpression_DiceEngine_Expressions_IExpression__
+  name: Combine
+  nameWithType: IEnumerableExpression.Combine
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression.Combine
+- uid: System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression}
+  commentId: T:System.Func{DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression,DiceEngine.Expressions.IExpression}
+  parent: System
+  definition: System.Func`3
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<IExpression, IExpression, IExpression>
+  nameWithType: Func<IExpression, IExpression, IExpression>
+  fullName: System.Func<DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression>
+  nameWithType.vb: Func(Of IExpression, IExpression, IExpression)
+  fullName.vb: System.Func(Of DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression, DiceEngine.Expressions.IExpression)
+  name.vb: Func(Of IExpression, IExpression, IExpression)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: )
+- uid: System.Func`3
+  commentId: T:System.Func`3
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<T1, T2, TResult>
+  nameWithType: Func<T1, T2, TResult>
+  fullName: System.Func<T1, T2, TResult>
+  nameWithType.vb: Func(Of T1, T2, TResult)
+  fullName.vb: System.Func(Of T1, T2, TResult)
+  name.vb: Func(Of T1, T2, TResult)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

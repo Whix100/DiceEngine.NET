@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  id: IExpression
+  parent: DiceEngine.Expressions
+  children:
+  - DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+  - DiceEngine.Expressions.IExpression.Evaluate
+  - DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.EvaluateDice
+  - DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.StepEvaluate
+  - DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.IExpression.ToString
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+  type: Interface
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/IExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IExpression
+    path: ../src/DiceEngine/Expressions/IExpression.cs
+    startLine: 5
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  syntax:
+    content: public interface IExpression
+    content.vb: Public Interface IExpression
+- uid: DiceEngine.Expressions.IExpression.Evaluate
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate
+  id: Evaluate
+  parent: DiceEngine.Expressions.IExpression
+  langs:
+  - csharp
+  - vb
+  name: Evaluate()
+  nameWithType: IExpression.Evaluate()
+  fullName: DiceEngine.Expressions.IExpression.Evaluate()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/IExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Evaluate
+    path: ../src/DiceEngine/Expressions/IExpression.cs
+    startLine: 13
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Terminal Evaluate()
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Function Evaluate() As Terminal
+  overload: DiceEngine.Expressions.IExpression.Evaluate*
+- uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  id: Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  langs:
+  - csharp
+  - vb
+  name: Evaluate(ExpressionContext)
+  nameWithType: IExpression.Evaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/IExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Evaluate
+    path: ../src/DiceEngine/Expressions/IExpression.cs
+    startLine: 22
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Terminal Evaluate(ExpressionContext context)
+    parameters:
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Function Evaluate(context As ExpressionContext) As Terminal
+  overload: DiceEngine.Expressions.IExpression.Evaluate*
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate
+  id: StepEvaluate
+  parent: DiceEngine.Expressions.IExpression
+  langs:
+  - csharp
+  - vb
+  name: StepEvaluate()
+  nameWithType: IExpression.StepEvaluate()
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/IExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: StepEvaluate
+    path: ../src/DiceEngine/Expressions/IExpression.cs
+    startLine: 31
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: IExpression StepEvaluate()
+    return:
+      type: DiceEngine.Expressions.IExpression
+      description: >-
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Function StepEvaluate() As IExpression
+  overload: DiceEngine.Expressions.IExpression.StepEvaluate*
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  id: StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  langs:
+  - csharp
+  - vb
+  name: StepEvaluate(ExpressionContext)
+  nameWithType: IExpression.StepEvaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/IExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: StepEvaluate
+    path: ../src/DiceEngine/Expressions/IExpression.cs
+    startLine: 41
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: IExpression StepEvaluate(ExpressionContext context)
+    parameters:
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: DiceEngine.Expressions.IExpression
+      description: >-
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Function StepEvaluate(context As ExpressionContext) As IExpression
+  overload: DiceEngine.Expressions.IExpression.StepEvaluate*
+- uid: DiceEngine.Expressions.IExpression.EvaluateDice
+  commentId: M:DiceEngine.Expressions.IExpression.EvaluateDice
+  id: EvaluateDice
+  parent: DiceEngine.Expressions.IExpression
+  langs:
+  - csharp
+  - vb
+  name: EvaluateDice()
+  nameWithType: IExpression.EvaluateDice()
+  fullName: DiceEngine.Expressions.IExpression.EvaluateDice()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/IExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: EvaluateDice
+    path: ../src/DiceEngine/Expressions/IExpression.cs
+    startLine: 50
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates all dice in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: IExpression EvaluateDice()
+    return:
+      type: DiceEngine.Expressions.IExpression
+      description: >-
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> with all dice
+
+        evaluated.
+    content.vb: Function EvaluateDice() As IExpression
+  overload: DiceEngine.Expressions.IExpression.EvaluateDice*
+- uid: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  id: EvaluateDice(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  langs:
+  - csharp
+  - vb
+  name: EvaluateDice(ExpressionContext)
+  nameWithType: IExpression.EvaluateDice(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/IExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: EvaluateDice
+    path: ../src/DiceEngine/Expressions/IExpression.cs
+    startLine: 60
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Evaluates all dice in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: IExpression EvaluateDice(ExpressionContext context)
+    parameters:
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: DiceEngine.Expressions.IExpression
+      description: >-
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> with all dice
+
+        evaluated.
+    content.vb: Function EvaluateDice(context As ExpressionContext) As IExpression
+  overload: DiceEngine.Expressions.IExpression.EvaluateDice*
+- uid: DiceEngine.Expressions.IExpression.ToString
+  commentId: M:DiceEngine.Expressions.IExpression.ToString
+  id: ToString
+  parent: DiceEngine.Expressions.IExpression
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: IExpression.ToString()
+  fullName: DiceEngine.Expressions.IExpression.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/IExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ToString
+    path: ../src/DiceEngine/Expressions/IExpression.cs
+    startLine: 66
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: string ToString()
+    return:
+      type: System.String
+      description: A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Function ToString() As String
+  overload: DiceEngine.Expressions.IExpression.ToString*
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  id: ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
+  langs:
+  - csharp
+  - vb
+  name: ToString(string?)
+  nameWithType: IExpression.ToString(string?)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/IExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ToString
+    path: ../src/DiceEngine/Expressions/IExpression.cs
+    startLine: 77
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: >-
+    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
+
+    format <xref href="System.String" data-throw-if-not-resolved="false"></xref> for number formats.
+  example: []
+  syntax:
+    content: string ToString(string? format)
+    parameters:
+    - id: format
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: >-
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
+
+        <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Function ToString(format As String) As String
+  overload: DiceEngine.Expressions.IExpression.ToString*
+  nameWithType.vb: IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
+  name.vb: ToString(String)
+- uid: DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+  commentId: M:DiceEngine.Expressions.IExpression.CompareTo(System.Object)
+  id: CompareTo(System.Object)
+  parent: DiceEngine.Expressions.IExpression
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(object?)
+  nameWithType: IExpression.CompareTo(object?)
+  fullName: DiceEngine.Expressions.IExpression.CompareTo(object?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/IExpression.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: CompareTo
+    path: ../src/DiceEngine/Expressions/IExpression.cs
+    startLine: 93
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions
+  summary: >-
+    Compares the current instance with another object of the same type and returns an integer that indicates
+
+    whether the current instance precedes, follows, or occurs in the same position in the sort order as the other
+
+    object.
+  example: []
+  syntax:
+    content: int CompareTo(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: An object to compare with this instance.
+    return:
+      type: System.Int32
+      description: >-
+        A value that indicates the relative order of the objects being compared. The return value has these meanings:
+
+        <p>Value – Meaning</p><p>Less than zero – This instance precedes obj in the sort order.</p><p>Zero – This instance occurs in the same position in the sort order as obj.</p><p>Greater than zero – This instance follows obj in the sort order.</p>
+    content.vb: Function CompareTo(obj As Object) As Integer
+  overload: DiceEngine.Expressions.IExpression.CompareTo*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: obj is not the same type as this instance.
+  nameWithType.vb: IExpression.CompareTo(Object)
+  fullName.vb: DiceEngine.Expressions.IExpression.CompareTo(Object)
+  name.vb: CompareTo(Object)
+references:
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.IExpression.Evaluate*
+  commentId: Overload:DiceEngine.Expressions.IExpression.Evaluate
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
+  name: Evaluate
+  nameWithType: IExpression.Evaluate
+  fullName: DiceEngine.Expressions.IExpression.Evaluate
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
+  name: ExpressionContext
+  nameWithType: ExpressionContext
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate*
+  commentId: Overload:DiceEngine.Expressions.IExpression.StepEvaluate
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
+  name: StepEvaluate
+  nameWithType: IExpression.StepEvaluate
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate
+- uid: DiceEngine.Expressions.IExpression.EvaluateDice*
+  commentId: Overload:DiceEngine.Expressions.IExpression.EvaluateDice
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice
+  name: EvaluateDice
+  nameWithType: IExpression.EvaluateDice
+  fullName: DiceEngine.Expressions.IExpression.EvaluateDice
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Expressions.IExpression.ToString*
+  commentId: Overload:DiceEngine.Expressions.IExpression.ToString
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
+  name: ToString
+  nameWithType: IExpression.ToString
+  fullName: DiceEngine.Expressions.IExpression.ToString
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: DiceEngine.Expressions.IExpression.CompareTo*
+  commentId: Overload:DiceEngine.Expressions.IExpression.CompareTo
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_CompareTo_System_Object_
+  name: CompareTo
+  nameWithType: IExpression.CompareTo
+  fullName: DiceEngine.Expressions.IExpression.CompareTo
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

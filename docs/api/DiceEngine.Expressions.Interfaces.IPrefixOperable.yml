@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IPrefixOperable
+  id: IPrefixOperable
+  parent: DiceEngine.Expressions.Interfaces
+  children:
+  - DiceEngine.Expressions.Interfaces.IPrefixOperable.Operate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  langs:
+  - csharp
+  - vb
+  name: IPrefixOperable
+  nameWithType: IPrefixOperable
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable
+  type: Interface
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Interfaces/IPrefixOperable.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IPrefixOperable
+    path: ../src/DiceEngine/Expressions/Interfaces/IPrefixOperable.cs
+    startLine: 6
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Interfaces
+  syntax:
+    content: public interface IPrefixOperable
+    content.vb: Public Interface IPrefixOperable
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  id: PrefixOperate(System.String,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IPrefixOperable
+  langs:
+  - csharp
+  - vb
+  name: PrefixOperate(string, ExpressionContext)
+  nameWithType: IPrefixOperable.PrefixOperate(string, ExpressionContext)
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(string, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Interfaces/IPrefixOperable.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: PrefixOperate
+    path: ../src/DiceEngine/Expressions/Interfaces/IPrefixOperable.cs
+    startLine: 8
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Interfaces
+  syntax:
+    content: Terminal PrefixOperate(string identifier, ExpressionContext context)
+    parameters:
+    - id: identifier
+      type: System.String
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Function PrefixOperate(identifier As String, context As ExpressionContext) As Terminal
+  overload: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate*
+  nameWithType.vb: IPrefixOperable.PrefixOperate(String, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate(String, DiceEngine.Context.ExpressionContext)
+  name.vb: PrefixOperate(String, ExpressionContext)
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable.Operate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Interfaces.IPrefixOperable.Operate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: Operate(System.String,DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Interfaces.IPrefixOperable
+  langs:
+  - csharp
+  - vb
+  name: Operate(string, IExpression, ExpressionContext?)
+  nameWithType: IPrefixOperable.Operate(string, IExpression, ExpressionContext?)
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable.Operate(string, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Interfaces/IPrefixOperable.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Operate
+    path: ../src/DiceEngine/Expressions/Interfaces/IPrefixOperable.cs
+    startLine: 10
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Interfaces
+  syntax:
+    content: public static Terminal Operate(string identifier, IExpression inside, ExpressionContext? context = null)
+    parameters:
+    - id: identifier
+      type: System.String
+    - id: inside
+      type: DiceEngine.Expressions.IExpression
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public Shared Function Operate(identifier As String, inside As IExpression, context As ExpressionContext = Nothing) As Terminal
+  overload: DiceEngine.Expressions.Interfaces.IPrefixOperable.Operate*
+  nameWithType.vb: IPrefixOperable.Operate(String, IExpression, ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Interfaces.IPrefixOperable.Operate(String, DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  name.vb: Operate(String, IExpression, ExpressionContext)
+references:
+- uid: DiceEngine.Expressions.Interfaces
+  commentId: N:DiceEngine.Expressions.Interfaces
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Interfaces
+  nameWithType: DiceEngine.Expressions.Interfaces
+  fullName: DiceEngine.Expressions.Interfaces
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Interfaces
+    name: Interfaces
+    href: DiceEngine.Expressions.Interfaces.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Interfaces
+    name: Interfaces
+    href: DiceEngine.Expressions.Interfaces.html
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate*
+  commentId: Overload:DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate
+  href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html#DiceEngine_Expressions_Interfaces_IPrefixOperable_PrefixOperate_System_String_DiceEngine_Context_ExpressionContext_
+  name: PrefixOperate
+  nameWithType: IPrefixOperable.PrefixOperate
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable.PrefixOperate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
+  name: ExpressionContext
+  nameWithType: ExpressionContext
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable.Operate*
+  commentId: Overload:DiceEngine.Expressions.Interfaces.IPrefixOperable.Operate
+  href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html#DiceEngine_Expressions_Interfaces_IPrefixOperable_Operate_System_String_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: Operate
+  nameWithType: IPrefixOperable.Operate
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable.Operate
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html

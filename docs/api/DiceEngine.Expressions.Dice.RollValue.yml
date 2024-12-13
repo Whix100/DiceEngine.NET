@@ -1,0 +1,1931 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Dice.RollValue
+  commentId: T:DiceEngine.Expressions.Dice.RollValue
+  id: RollValue
+  parent: DiceEngine.Expressions.Dice
+  children:
+  - DiceEngine.Expressions.Dice.RollValue.#ctor(System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  - DiceEngine.Expressions.Dice.RollValue.Drop
+  - DiceEngine.Expressions.Dice.RollValue.Equals(DiceEngine.Expressions.Dice.RollValue)
+  - DiceEngine.Expressions.Dice.RollValue.Equals(System.Object)
+  - DiceEngine.Expressions.Dice.RollValue.Explode
+  - DiceEngine.Expressions.Dice.RollValue.GetHashCode
+  - DiceEngine.Expressions.Dice.RollValue.IsDropped
+  - DiceEngine.Expressions.Dice.RollValue.IsExploded
+  - DiceEngine.Expressions.Dice.RollValue.IsFocused
+  - DiceEngine.Expressions.Dice.RollValue.ToString
+  - DiceEngine.Expressions.Dice.RollValue.Value
+  - DiceEngine.Expressions.Dice.RollValue.op_Equality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  - DiceEngine.Expressions.Dice.RollValue.op_Explicit(System.Int32)~DiceEngine.Expressions.Dice.RollValue
+  - DiceEngine.Expressions.Dice.RollValue.op_GreaterThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  - DiceEngine.Expressions.Dice.RollValue.op_GreaterThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  - DiceEngine.Expressions.Dice.RollValue.op_Implicit(DiceEngine.Expressions.Dice.RollValue)~System.Int32
+  - DiceEngine.Expressions.Dice.RollValue.op_Inequality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  - DiceEngine.Expressions.Dice.RollValue.op_LessThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  - DiceEngine.Expressions.Dice.RollValue.op_LessThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  langs:
+  - csharp
+  - vb
+  name: RollValue
+  nameWithType: RollValue
+  fullName: DiceEngine.Expressions.Dice.RollValue
+  type: Struct
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RollValue
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 44
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: 'public readonly struct RollValue : IComparisonOperators<RollValue, RollValue, bool>, IEqualityOperators<RollValue, RollValue, bool>, IEquatable<RollValue>, IComparable'
+    content.vb: Public Structure RollValue Implements IComparisonOperators(Of RollValue, RollValue, Boolean), IEqualityOperators(Of RollValue, RollValue, Boolean), IEquatable(Of RollValue), IComparable
+  implements:
+  - System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  - System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  - System.IEquatable{DiceEngine.Expressions.Dice.RollValue}
+  - System.IComparable
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: DiceEngine.Expressions.Dice.RollValue.#ctor(System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.#ctor(System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  id: '#ctor(System.Int32,System.Boolean,System.Boolean,System.Boolean)'
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: RollValue(int, bool, bool, bool)
+  nameWithType: RollValue.RollValue(int, bool, bool, bool)
+  fullName: DiceEngine.Expressions.Dice.RollValue.RollValue(int, bool, bool, bool)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 44
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public RollValue(int value, bool isFocused, bool isDropped, bool isExploded)
+    parameters:
+    - id: value
+      type: System.Int32
+    - id: isFocused
+      type: System.Boolean
+    - id: isDropped
+      type: System.Boolean
+    - id: isExploded
+      type: System.Boolean
+    content.vb: Public Sub New(value As Integer, isFocused As Boolean, isDropped As Boolean, isExploded As Boolean)
+  overload: DiceEngine.Expressions.Dice.RollValue.#ctor*
+  nameWithType.vb: RollValue.New(Integer, Boolean, Boolean, Boolean)
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.New(Integer, Boolean, Boolean, Boolean)
+  name.vb: New(Integer, Boolean, Boolean, Boolean)
+- uid: DiceEngine.Expressions.Dice.RollValue.Value
+  commentId: F:DiceEngine.Expressions.Dice.RollValue.Value
+  id: Value
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: RollValue.Value
+  fullName: DiceEngine.Expressions.Dice.RollValue.Value
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Value
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 47
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public readonly int Value
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Value As Integer
+- uid: DiceEngine.Expressions.Dice.RollValue.IsFocused
+  commentId: F:DiceEngine.Expressions.Dice.RollValue.IsFocused
+  id: IsFocused
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: IsFocused
+  nameWithType: RollValue.IsFocused
+  fullName: DiceEngine.Expressions.Dice.RollValue.IsFocused
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsFocused
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 48
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public readonly bool IsFocused
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly IsFocused As Boolean
+- uid: DiceEngine.Expressions.Dice.RollValue.IsDropped
+  commentId: F:DiceEngine.Expressions.Dice.RollValue.IsDropped
+  id: IsDropped
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: IsDropped
+  nameWithType: RollValue.IsDropped
+  fullName: DiceEngine.Expressions.Dice.RollValue.IsDropped
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsDropped
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 49
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public readonly bool IsDropped
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly IsDropped As Boolean
+- uid: DiceEngine.Expressions.Dice.RollValue.IsExploded
+  commentId: F:DiceEngine.Expressions.Dice.RollValue.IsExploded
+  id: IsExploded
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: IsExploded
+  nameWithType: RollValue.IsExploded
+  fullName: DiceEngine.Expressions.Dice.RollValue.IsExploded
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsExploded
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 50
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public readonly bool IsExploded
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly IsExploded As Boolean
+- uid: DiceEngine.Expressions.Dice.RollValue.Drop
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.Drop
+  id: Drop
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: Drop()
+  nameWithType: RollValue.Drop()
+  fullName: DiceEngine.Expressions.Dice.RollValue.Drop()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Drop
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 52
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public RollValue Drop()
+    return:
+      type: DiceEngine.Expressions.Dice.RollValue
+    content.vb: Public Function Drop() As RollValue
+  overload: DiceEngine.Expressions.Dice.RollValue.Drop*
+- uid: DiceEngine.Expressions.Dice.RollValue.Explode
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.Explode
+  id: Explode
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: Explode()
+  nameWithType: RollValue.Explode()
+  fullName: DiceEngine.Expressions.Dice.RollValue.Explode()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Explode
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 55
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public RollValue Explode()
+    return:
+      type: DiceEngine.Expressions.Dice.RollValue
+    content.vb: Public Function Explode() As RollValue
+  overload: DiceEngine.Expressions.Dice.RollValue.Explode*
+- uid: DiceEngine.Expressions.Dice.RollValue.ToString
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.ToString
+  id: ToString
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RollValue.ToString()
+  fullName: DiceEngine.Expressions.Dice.RollValue.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ToString
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 58
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Returns the fully qualified type name of this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The fully qualified type name.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: DiceEngine.Expressions.Dice.RollValue.ToString*
+- uid: DiceEngine.Expressions.Dice.RollValue.GetHashCode
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.GetHashCode
+  id: GetHashCode
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: RollValue.GetHashCode()
+  fullName: DiceEngine.Expressions.Dice.RollValue.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetHashCode
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 67
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: DiceEngine.Expressions.Dice.RollValue.GetHashCode*
+- uid: DiceEngine.Expressions.Dice.RollValue.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: RollValue.Equals(object?)
+  fullName: DiceEngine.Expressions.Dice.RollValue.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Equals
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 70
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: DiceEngine.Expressions.Dice.RollValue.Equals*
+  nameWithType.vb: RollValue.Equals(Object)
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.Equals(Object)
+  name.vb: Equals(Object)
+- uid: DiceEngine.Expressions.Dice.RollValue.Equals(DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.Equals(DiceEngine.Expressions.Dice.RollValue)
+  id: Equals(DiceEngine.Expressions.Dice.RollValue)
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: Equals(RollValue)
+  nameWithType: RollValue.Equals(RollValue)
+  fullName: DiceEngine.Expressions.Dice.RollValue.Equals(DiceEngine.Expressions.Dice.RollValue)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Equals
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 73
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(RollValue value)
+    parameters:
+    - id: value
+      type: DiceEngine.Expressions.Dice.RollValue
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(value As RollValue) As Boolean
+  overload: DiceEngine.Expressions.Dice.RollValue.Equals*
+  implements:
+  - System.IEquatable{DiceEngine.Expressions.Dice.RollValue}.Equals(DiceEngine.Expressions.Dice.RollValue)
+- uid: DiceEngine.Expressions.Dice.RollValue.op_GreaterThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.op_GreaterThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  id: op_GreaterThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: operator >(RollValue, RollValue)
+  nameWithType: RollValue.operator >(RollValue, RollValue)
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator >(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_GreaterThan
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 94
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Compares two values to determine which is greater.
+  example: []
+  syntax:
+    content: public static bool operator >(RollValue left, RollValue right)
+    parameters:
+    - id: left
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">right</code>.
+    - id: right
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">left</code>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">left</code> is greater than <code class="paramref">right</code>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Operator >(left As RollValue, right As RollValue) As Boolean
+  overload: DiceEngine.Expressions.Dice.RollValue.op_GreaterThan*
+  implements:
+  - System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_GreaterThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: RollValue.>(RollValue, RollValue)
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.>(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: '>(RollValue, RollValue)'
+- uid: DiceEngine.Expressions.Dice.RollValue.op_LessThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.op_LessThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  id: op_LessThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: operator <(RollValue, RollValue)
+  nameWithType: RollValue.operator <(RollValue, RollValue)
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator <(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_LessThan
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 97
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Compares two values to determine which is less.
+  example: []
+  syntax:
+    content: public static bool operator <(RollValue left, RollValue right)
+    parameters:
+    - id: left
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">right</code>.
+    - id: right
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">left</code>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">left</code> is less than <code class="paramref">right</code>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Operator <(left As RollValue, right As RollValue) As Boolean
+  overload: DiceEngine.Expressions.Dice.RollValue.op_LessThan*
+  implements:
+  - System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_LessThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: RollValue.<(RollValue, RollValue)
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.<(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: <(RollValue, RollValue)
+- uid: DiceEngine.Expressions.Dice.RollValue.op_GreaterThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.op_GreaterThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  id: op_GreaterThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: operator >=(RollValue, RollValue)
+  nameWithType: RollValue.operator >=(RollValue, RollValue)
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator >=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_GreaterThanOrEqual
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 100
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Compares two values to determine which is greater or equal.
+  example: []
+  syntax:
+    content: public static bool operator >=(RollValue left, RollValue right)
+    parameters:
+    - id: left
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">right</code>.
+    - id: right
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">left</code>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">left</code> is greater than or equal to <code class="paramref">right</code>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Operator >=(left As RollValue, right As RollValue) As Boolean
+  overload: DiceEngine.Expressions.Dice.RollValue.op_GreaterThanOrEqual*
+  implements:
+  - System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_GreaterThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: RollValue.>=(RollValue, RollValue)
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.>=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: '>=(RollValue, RollValue)'
+- uid: DiceEngine.Expressions.Dice.RollValue.op_LessThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.op_LessThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  id: op_LessThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: operator <=(RollValue, RollValue)
+  nameWithType: RollValue.operator <=(RollValue, RollValue)
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator <=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_LessThanOrEqual
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 103
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Compares two values to determine which is less or equal.
+  example: []
+  syntax:
+    content: public static bool operator <=(RollValue left, RollValue right)
+    parameters:
+    - id: left
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">right</code>.
+    - id: right
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">left</code>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">left</code> is less than or equal to <code class="paramref">right</code>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Operator <=(left As RollValue, right As RollValue) As Boolean
+  overload: DiceEngine.Expressions.Dice.RollValue.op_LessThanOrEqual*
+  implements:
+  - System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_LessThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: RollValue.<=(RollValue, RollValue)
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.<=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: <=(RollValue, RollValue)
+- uid: DiceEngine.Expressions.Dice.RollValue.op_Equality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.op_Equality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  id: op_Equality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: operator ==(RollValue, RollValue)
+  nameWithType: RollValue.operator ==(RollValue, RollValue)
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator ==(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Equality
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 106
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Compares two values to determine equality.
+  example: []
+  syntax:
+    content: public static bool operator ==(RollValue left, RollValue right)
+    parameters:
+    - id: left
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">right</code>.
+    - id: right
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">left</code>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">left</code> is equal to <code class="paramref">right</code>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Operator =(left As RollValue, right As RollValue) As Boolean
+  overload: DiceEngine.Expressions.Dice.RollValue.op_Equality*
+  implements:
+  - System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_Equality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: RollValue.=(RollValue, RollValue)
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: =(RollValue, RollValue)
+- uid: DiceEngine.Expressions.Dice.RollValue.op_Inequality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.op_Inequality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  id: op_Inequality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: operator !=(RollValue, RollValue)
+  nameWithType: RollValue.operator !=(RollValue, RollValue)
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator !=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Inequality
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 109
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Compares two values to determine inequality.
+  example: []
+  syntax:
+    content: public static bool operator !=(RollValue left, RollValue right)
+    parameters:
+    - id: left
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">right</code>.
+    - id: right
+      type: DiceEngine.Expressions.Dice.RollValue
+      description: The value to compare with <code class="paramref">left</code>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">left</code> is not equal to <code class="paramref">right</code>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Operator <>(left As RollValue, right As RollValue) As Boolean
+  overload: DiceEngine.Expressions.Dice.RollValue.op_Inequality*
+  implements:
+  - System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_Inequality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: RollValue.<>(RollValue, RollValue)
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.<>(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: <>(RollValue, RollValue)
+- uid: DiceEngine.Expressions.Dice.RollValue.op_Implicit(DiceEngine.Expressions.Dice.RollValue)~System.Int32
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.op_Implicit(DiceEngine.Expressions.Dice.RollValue)~System.Int32
+  id: op_Implicit(DiceEngine.Expressions.Dice.RollValue)~System.Int32
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: implicit operator int(RollValue)
+  nameWithType: RollValue.implicit operator int(RollValue)
+  fullName: DiceEngine.Expressions.Dice.RollValue.implicit operator int(DiceEngine.Expressions.Dice.RollValue)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Implicit
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 112
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public static implicit operator int(RollValue value)
+    parameters:
+    - id: value
+      type: DiceEngine.Expressions.Dice.RollValue
+    return:
+      type: System.Int32
+    content.vb: Public Shared Widening Operator CType(value As RollValue) As Integer
+  overload: DiceEngine.Expressions.Dice.RollValue.op_Implicit*
+  nameWithType.vb: RollValue.CType(RollValue)
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.CType(DiceEngine.Expressions.Dice.RollValue)
+  name.vb: CType(RollValue)
+- uid: DiceEngine.Expressions.Dice.RollValue.op_Explicit(System.Int32)~DiceEngine.Expressions.Dice.RollValue
+  commentId: M:DiceEngine.Expressions.Dice.RollValue.op_Explicit(System.Int32)~DiceEngine.Expressions.Dice.RollValue
+  id: op_Explicit(System.Int32)~DiceEngine.Expressions.Dice.RollValue
+  parent: DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: explicit operator RollValue(int)
+  nameWithType: RollValue.explicit operator RollValue(int)
+  fullName: DiceEngine.Expressions.Dice.RollValue.explicit operator DiceEngine.Expressions.Dice.RollValue(int)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/RollResult.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Dice/RollResult.cs
+    startLine: 115
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public static explicit operator RollValue(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: DiceEngine.Expressions.Dice.RollValue
+    content.vb: Public Shared Narrowing Operator CType(value As Integer) As RollValue
+  overload: DiceEngine.Expressions.Dice.RollValue.op_Explicit*
+  nameWithType.vb: RollValue.CType(Integer)
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.CType(Integer)
+  name.vb: CType(Integer)
+references:
+- uid: DiceEngine.Expressions.Dice
+  commentId: N:DiceEngine.Expressions.Dice
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Dice
+  nameWithType: DiceEngine.Expressions.Dice
+  fullName: DiceEngine.Expressions.Dice
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Dice
+    name: Dice
+    href: DiceEngine.Expressions.Dice.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Dice
+    name: Dice
+    href: DiceEngine.Expressions.Dice.html
+- uid: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  commentId: T:System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  parent: System.Numerics
+  definition: System.Numerics.IComparisonOperators`3
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3
+  name: IComparisonOperators<RollValue, RollValue, bool>
+  nameWithType: IComparisonOperators<RollValue, RollValue, bool>
+  fullName: System.Numerics.IComparisonOperators<DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, bool>
+  nameWithType.vb: IComparisonOperators(Of RollValue, RollValue, Boolean)
+  fullName.vb: System.Numerics.IComparisonOperators(Of DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, Boolean)
+  name.vb: IComparisonOperators(Of RollValue, RollValue, Boolean)
+  spec.csharp:
+  - uid: System.Numerics.IComparisonOperators`3
+    name: IComparisonOperators
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3
+  - name: <
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Numerics.IComparisonOperators`3
+    name: IComparisonOperators
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  commentId: T:System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  parent: System.Numerics
+  definition: System.Numerics.IEqualityOperators`3
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3
+  name: IEqualityOperators<RollValue, RollValue, bool>
+  nameWithType: IEqualityOperators<RollValue, RollValue, bool>
+  fullName: System.Numerics.IEqualityOperators<DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, bool>
+  nameWithType.vb: IEqualityOperators(Of RollValue, RollValue, Boolean)
+  fullName.vb: System.Numerics.IEqualityOperators(Of DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, Boolean)
+  name.vb: IEqualityOperators(Of RollValue, RollValue, Boolean)
+  spec.csharp:
+  - uid: System.Numerics.IEqualityOperators`3
+    name: IEqualityOperators
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3
+  - name: <
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Numerics.IEqualityOperators`3
+    name: IEqualityOperators
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.IEquatable{DiceEngine.Expressions.Dice.RollValue}
+  commentId: T:System.IEquatable{DiceEngine.Expressions.Dice.RollValue}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RollValue>
+  nameWithType: IEquatable<RollValue>
+  fullName: System.IEquatable<DiceEngine.Expressions.Dice.RollValue>
+  nameWithType.vb: IEquatable(Of RollValue)
+  fullName.vb: System.IEquatable(Of DiceEngine.Expressions.Dice.RollValue)
+  name.vb: IEquatable(Of RollValue)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Numerics.IComparisonOperators`3
+  commentId: T:System.Numerics.IComparisonOperators`3
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3
+  name: IComparisonOperators<TSelf, TOther, TResult>
+  nameWithType: IComparisonOperators<TSelf, TOther, TResult>
+  fullName: System.Numerics.IComparisonOperators<TSelf, TOther, TResult>
+  nameWithType.vb: IComparisonOperators(Of TSelf, TOther, TResult)
+  fullName.vb: System.Numerics.IComparisonOperators(Of TSelf, TOther, TResult)
+  name.vb: IComparisonOperators(Of TSelf, TOther, TResult)
+  spec.csharp:
+  - uid: System.Numerics.IComparisonOperators`3
+    name: IComparisonOperators
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3
+  - name: <
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Numerics.IComparisonOperators`3
+    name: IComparisonOperators
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: System.Numerics.IEqualityOperators`3
+  commentId: T:System.Numerics.IEqualityOperators`3
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3
+  name: IEqualityOperators<TSelf, TOther, TResult>
+  nameWithType: IEqualityOperators<TSelf, TOther, TResult>
+  fullName: System.Numerics.IEqualityOperators<TSelf, TOther, TResult>
+  nameWithType.vb: IEqualityOperators(Of TSelf, TOther, TResult)
+  fullName.vb: System.Numerics.IEqualityOperators(Of TSelf, TOther, TResult)
+  name.vb: IEqualityOperators(Of TSelf, TOther, TResult)
+  spec.csharp:
+  - uid: System.Numerics.IEqualityOperators`3
+    name: IEqualityOperators
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3
+  - name: <
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Numerics.IEqualityOperators`3
+    name: IEqualityOperators
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DiceEngine.Expressions.Dice.RollValue.#ctor*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.#ctor
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue__ctor_System_Int32_System_Boolean_System_Boolean_System_Boolean_
+  name: RollValue
+  nameWithType: RollValue.RollValue
+  fullName: DiceEngine.Expressions.Dice.RollValue.RollValue
+  nameWithType.vb: RollValue.New
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: DiceEngine.Expressions.Dice.RollValue.Drop*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.Drop
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_Drop
+  name: Drop
+  nameWithType: RollValue.Drop
+  fullName: DiceEngine.Expressions.Dice.RollValue.Drop
+- uid: DiceEngine.Expressions.Dice.RollValue
+  commentId: T:DiceEngine.Expressions.Dice.RollValue
+  parent: DiceEngine.Expressions.Dice
+  href: DiceEngine.Expressions.Dice.RollValue.html
+  name: RollValue
+  nameWithType: RollValue
+  fullName: DiceEngine.Expressions.Dice.RollValue
+- uid: DiceEngine.Expressions.Dice.RollValue.Explode*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.Explode
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_Explode
+  name: Explode
+  nameWithType: RollValue.Explode
+  fullName: DiceEngine.Expressions.Dice.RollValue.Explode
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollValue.ToString*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.ToString
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_ToString
+  name: ToString
+  nameWithType: RollValue.ToString
+  fullName: DiceEngine.Expressions.Dice.RollValue.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollValue.GetHashCode*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.GetHashCode
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_GetHashCode
+  name: GetHashCode
+  nameWithType: RollValue.GetHashCode
+  fullName: DiceEngine.Expressions.Dice.RollValue.GetHashCode
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollValue.Equals*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.Equals
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_Equals_System_Object_
+  name: Equals
+  nameWithType: RollValue.Equals
+  fullName: DiceEngine.Expressions.Dice.RollValue.Equals
+- uid: System.IEquatable{DiceEngine.Expressions.Dice.RollValue}.Equals(DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:System.IEquatable{DiceEngine.Expressions.Dice.RollValue}.Equals(DiceEngine.Expressions.Dice.RollValue)
+  parent: System.IEquatable{DiceEngine.Expressions.Dice.RollValue}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(RollValue)
+  nameWithType: IEquatable<RollValue>.Equals(RollValue)
+  fullName: System.IEquatable<DiceEngine.Expressions.Dice.RollValue>.Equals(DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: IEquatable(Of RollValue).Equals(RollValue)
+  fullName.vb: System.IEquatable(Of DiceEngine.Expressions.Dice.RollValue).Equals(DiceEngine.Expressions.Dice.RollValue)
+  spec.csharp:
+  - uid: System.IEquatable{DiceEngine.Expressions.Dice.RollValue}.Equals(DiceEngine.Expressions.Dice.RollValue)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{DiceEngine.Expressions.Dice.RollValue}.Equals(DiceEngine.Expressions.Dice.RollValue)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollValue.op_GreaterThan*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.op_GreaterThan
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_GreaterThan_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+  name: operator >
+  nameWithType: RollValue.operator >
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator >
+  nameWithType.vb: RollValue.>
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.>
+  name.vb: '>'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue.op_GreaterThan*
+    name: '>'
+    href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_GreaterThan_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+- uid: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_GreaterThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_GreaterThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  definition: System.Numerics.IComparisonOperators`3.op_GreaterThan(`0,`1)
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_greaterthan
+  name: operator >(RollValue, RollValue)
+  nameWithType: IComparisonOperators<RollValue, RollValue, bool>.operator >(RollValue, RollValue)
+  fullName: System.Numerics.IComparisonOperators<DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, bool>.operator >(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: IComparisonOperators(Of RollValue, RollValue, Boolean).>(RollValue, RollValue)
+  fullName.vb: System.Numerics.IComparisonOperators(Of DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, Boolean).>(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: '>(RollValue, RollValue)'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_GreaterThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+    name: '>'
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_greaterthan
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+  spec.vb:
+  - name: '>'
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+- uid: System.Numerics.IComparisonOperators`3.op_GreaterThan(`0,`1)
+  commentId: M:System.Numerics.IComparisonOperators`3.op_GreaterThan(`0,`1)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_greaterthan
+  name: operator >(TSelf, TOther)
+  nameWithType: IComparisonOperators<TSelf, TOther, TResult>.operator >(TSelf, TOther)
+  fullName: System.Numerics.IComparisonOperators<TSelf, TOther, TResult>.operator >(TSelf, TOther)
+  nameWithType.vb: IComparisonOperators(Of TSelf, TOther, TResult).>(TSelf, TOther)
+  fullName.vb: System.Numerics.IComparisonOperators(Of TSelf, TOther, TResult).>(TSelf, TOther)
+  name.vb: '>(TSelf, TOther)'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IComparisonOperators`3.op_GreaterThan(`0,`1)
+    name: '>'
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_greaterthan
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+  spec.vb:
+  - name: '>'
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollValue.op_LessThan*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.op_LessThan
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_LessThan_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+  name: operator <
+  nameWithType: RollValue.operator <
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator <
+  nameWithType.vb: RollValue.<
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.<
+  name.vb: <
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue.op_LessThan*
+    name: <
+    href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_LessThan_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+- uid: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_LessThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_LessThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  definition: System.Numerics.IComparisonOperators`3.op_LessThan(`0,`1)
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_lessthan
+  name: operator <(RollValue, RollValue)
+  nameWithType: IComparisonOperators<RollValue, RollValue, bool>.operator <(RollValue, RollValue)
+  fullName: System.Numerics.IComparisonOperators<DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, bool>.operator <(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: IComparisonOperators(Of RollValue, RollValue, Boolean).<(RollValue, RollValue)
+  fullName.vb: System.Numerics.IComparisonOperators(Of DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, Boolean).<(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: <(RollValue, RollValue)
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_LessThan(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+    name: <
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_lessthan
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+  spec.vb:
+  - name: <
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+- uid: System.Numerics.IComparisonOperators`3.op_LessThan(`0,`1)
+  commentId: M:System.Numerics.IComparisonOperators`3.op_LessThan(`0,`1)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_lessthan
+  name: operator <(TSelf, TOther)
+  nameWithType: IComparisonOperators<TSelf, TOther, TResult>.operator <(TSelf, TOther)
+  fullName: System.Numerics.IComparisonOperators<TSelf, TOther, TResult>.operator <(TSelf, TOther)
+  nameWithType.vb: IComparisonOperators(Of TSelf, TOther, TResult).<(TSelf, TOther)
+  fullName.vb: System.Numerics.IComparisonOperators(Of TSelf, TOther, TResult).<(TSelf, TOther)
+  name.vb: <(TSelf, TOther)
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IComparisonOperators`3.op_LessThan(`0,`1)
+    name: <
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_lessthan
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+  spec.vb:
+  - name: <
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollValue.op_GreaterThanOrEqual*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.op_GreaterThanOrEqual
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_GreaterThanOrEqual_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+  name: operator >=
+  nameWithType: RollValue.operator >=
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator >=
+  nameWithType.vb: RollValue.>=
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.>=
+  name.vb: '>='
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue.op_GreaterThanOrEqual*
+    name: '>='
+    href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_GreaterThanOrEqual_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+- uid: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_GreaterThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_GreaterThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  definition: System.Numerics.IComparisonOperators`3.op_GreaterThanOrEqual(`0,`1)
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_greaterthanorequal
+  name: operator >=(RollValue, RollValue)
+  nameWithType: IComparisonOperators<RollValue, RollValue, bool>.operator >=(RollValue, RollValue)
+  fullName: System.Numerics.IComparisonOperators<DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, bool>.operator >=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: IComparisonOperators(Of RollValue, RollValue, Boolean).>=(RollValue, RollValue)
+  fullName.vb: System.Numerics.IComparisonOperators(Of DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, Boolean).>=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: '>=(RollValue, RollValue)'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_GreaterThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+    name: '>='
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_greaterthanorequal
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+  spec.vb:
+  - name: '>='
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+- uid: System.Numerics.IComparisonOperators`3.op_GreaterThanOrEqual(`0,`1)
+  commentId: M:System.Numerics.IComparisonOperators`3.op_GreaterThanOrEqual(`0,`1)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_greaterthanorequal
+  name: operator >=(TSelf, TOther)
+  nameWithType: IComparisonOperators<TSelf, TOther, TResult>.operator >=(TSelf, TOther)
+  fullName: System.Numerics.IComparisonOperators<TSelf, TOther, TResult>.operator >=(TSelf, TOther)
+  nameWithType.vb: IComparisonOperators(Of TSelf, TOther, TResult).>=(TSelf, TOther)
+  fullName.vb: System.Numerics.IComparisonOperators(Of TSelf, TOther, TResult).>=(TSelf, TOther)
+  name.vb: '>=(TSelf, TOther)'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IComparisonOperators`3.op_GreaterThanOrEqual(`0,`1)
+    name: '>='
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_greaterthanorequal
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+  spec.vb:
+  - name: '>='
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollValue.op_LessThanOrEqual*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.op_LessThanOrEqual
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_LessThanOrEqual_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+  name: operator <=
+  nameWithType: RollValue.operator <=
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator <=
+  nameWithType.vb: RollValue.<=
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.<=
+  name.vb: <=
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue.op_LessThanOrEqual*
+    name: <=
+    href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_LessThanOrEqual_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+- uid: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_LessThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_LessThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  definition: System.Numerics.IComparisonOperators`3.op_LessThanOrEqual(`0,`1)
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_lessthanorequal
+  name: operator <=(RollValue, RollValue)
+  nameWithType: IComparisonOperators<RollValue, RollValue, bool>.operator <=(RollValue, RollValue)
+  fullName: System.Numerics.IComparisonOperators<DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, bool>.operator <=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: IComparisonOperators(Of RollValue, RollValue, Boolean).<=(RollValue, RollValue)
+  fullName.vb: System.Numerics.IComparisonOperators(Of DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, Boolean).<=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: <=(RollValue, RollValue)
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IComparisonOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_LessThanOrEqual(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+    name: <=
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_lessthanorequal
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+  spec.vb:
+  - name: <=
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+- uid: System.Numerics.IComparisonOperators`3.op_LessThanOrEqual(`0,`1)
+  commentId: M:System.Numerics.IComparisonOperators`3.op_LessThanOrEqual(`0,`1)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_lessthanorequal
+  name: operator <=(TSelf, TOther)
+  nameWithType: IComparisonOperators<TSelf, TOther, TResult>.operator <=(TSelf, TOther)
+  fullName: System.Numerics.IComparisonOperators<TSelf, TOther, TResult>.operator <=(TSelf, TOther)
+  nameWithType.vb: IComparisonOperators(Of TSelf, TOther, TResult).<=(TSelf, TOther)
+  fullName.vb: System.Numerics.IComparisonOperators(Of TSelf, TOther, TResult).<=(TSelf, TOther)
+  name.vb: <=(TSelf, TOther)
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IComparisonOperators`3.op_LessThanOrEqual(`0,`1)
+    name: <=
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3.op_lessthanorequal
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+  spec.vb:
+  - name: <=
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollValue.op_Equality*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.op_Equality
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_Equality_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+  name: operator ==
+  nameWithType: RollValue.operator ==
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator ==
+  nameWithType.vb: RollValue.=
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue.op_Equality*
+    name: ==
+    href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_Equality_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+- uid: System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_Equality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_Equality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  definition: System.Numerics.IEqualityOperators`3.op_Equality(`0,`1)
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3.op_equality
+  name: operator ==(RollValue, RollValue)
+  nameWithType: IEqualityOperators<RollValue, RollValue, bool>.operator ==(RollValue, RollValue)
+  fullName: System.Numerics.IEqualityOperators<DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, bool>.operator ==(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: IEqualityOperators(Of RollValue, RollValue, Boolean).=(RollValue, RollValue)
+  fullName.vb: System.Numerics.IEqualityOperators(Of DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, Boolean).=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: =(RollValue, RollValue)
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_Equality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+    name: ==
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3.op_equality
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+  spec.vb:
+  - name: =
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+- uid: System.Numerics.IEqualityOperators`3.op_Equality(`0,`1)
+  commentId: M:System.Numerics.IEqualityOperators`3.op_Equality(`0,`1)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3.op_equality
+  name: operator ==(TSelf, TOther)
+  nameWithType: IEqualityOperators<TSelf, TOther, TResult>.operator ==(TSelf, TOther)
+  fullName: System.Numerics.IEqualityOperators<TSelf, TOther, TResult>.operator ==(TSelf, TOther)
+  nameWithType.vb: IEqualityOperators(Of TSelf, TOther, TResult).=(TSelf, TOther)
+  fullName.vb: System.Numerics.IEqualityOperators(Of TSelf, TOther, TResult).=(TSelf, TOther)
+  name.vb: =(TSelf, TOther)
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IEqualityOperators`3.op_Equality(`0,`1)
+    name: ==
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3.op_equality
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+  spec.vb:
+  - name: =
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollValue.op_Inequality*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.op_Inequality
+  href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_Inequality_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+  name: operator !=
+  nameWithType: RollValue.operator !=
+  fullName: DiceEngine.Expressions.Dice.RollValue.operator !=
+  nameWithType.vb: RollValue.<>
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue.op_Inequality*
+    name: '!='
+    href: DiceEngine.Expressions.Dice.RollValue.html#DiceEngine_Expressions_Dice_RollValue_op_Inequality_DiceEngine_Expressions_Dice_RollValue_DiceEngine_Expressions_Dice_RollValue_
+- uid: System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_Inequality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  commentId: M:System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_Inequality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+  parent: System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}
+  definition: System.Numerics.IEqualityOperators`3.op_Inequality(`0,`1)
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3.op_inequality
+  name: operator !=(RollValue, RollValue)
+  nameWithType: IEqualityOperators<RollValue, RollValue, bool>.operator !=(RollValue, RollValue)
+  fullName: System.Numerics.IEqualityOperators<DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, bool>.operator !=(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  nameWithType.vb: IEqualityOperators(Of RollValue, RollValue, Boolean).<>(RollValue, RollValue)
+  fullName.vb: System.Numerics.IEqualityOperators(Of DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue, Boolean).<>(DiceEngine.Expressions.Dice.RollValue, DiceEngine.Expressions.Dice.RollValue)
+  name.vb: <>(RollValue, RollValue)
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IEqualityOperators{DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue,System.Boolean}.op_Inequality(DiceEngine.Expressions.Dice.RollValue,DiceEngine.Expressions.Dice.RollValue)
+    name: '!='
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3.op_inequality
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+  spec.vb:
+  - name: <>
+  - name: (
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    href: DiceEngine.Expressions.Dice.RollValue.html
+  - name: )
+- uid: System.Numerics.IEqualityOperators`3.op_Inequality(`0,`1)
+  commentId: M:System.Numerics.IEqualityOperators`3.op_Inequality(`0,`1)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3.op_inequality
+  name: operator !=(TSelf, TOther)
+  nameWithType: IEqualityOperators<TSelf, TOther, TResult>.operator !=(TSelf, TOther)
+  fullName: System.Numerics.IEqualityOperators<TSelf, TOther, TResult>.operator !=(TSelf, TOther)
+  nameWithType.vb: IEqualityOperators(Of TSelf, TOther, TResult).<>(TSelf, TOther)
+  fullName.vb: System.Numerics.IEqualityOperators(Of TSelf, TOther, TResult).<>(TSelf, TOther)
+  name.vb: <>(TSelf, TOther)
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: System.Numerics.IEqualityOperators`3.op_Inequality(`0,`1)
+    name: '!='
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.iequalityoperators-3.op_inequality
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+  spec.vb:
+  - name: <>
+  - name: (
+  - name: TSelf
+  - name: ','
+  - name: " "
+  - name: TOther
+  - name: )
+- uid: DiceEngine.Expressions.Dice.RollValue.op_Implicit*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.op_Implicit
+  name: implicit operator
+  nameWithType: RollValue.implicit operator
+  fullName: DiceEngine.Expressions.Dice.RollValue.implicit operator
+  nameWithType.vb: RollValue.CType
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: DiceEngine.Expressions.Dice.RollValue.op_Explicit*
+  commentId: Overload:DiceEngine.Expressions.Dice.RollValue.op_Explicit
+  name: explicit operator
+  nameWithType: RollValue.explicit operator
+  fullName: DiceEngine.Expressions.Dice.RollValue.explicit operator
+  nameWithType.vb: RollValue.CType
+  fullName.vb: DiceEngine.Expressions.Dice.RollValue.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator

@@ -1,0 +1,974 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Tokenization.Rules.RegexRule
+  commentId: T:DiceEngine.Tokenization.Rules.RegexRule
+  id: RegexRule
+  parent: DiceEngine.Tokenization.Rules
+  children:
+  - DiceEngine.Tokenization.Rules.RegexRule.#ctor(System.String,System.String,System.Func{System.Text.RegularExpressions.Match,System.Int32,DiceEngine.Tokenization.Tokens.IToken},System.Text.RegularExpressions.RegexOptions)
+  - DiceEngine.Tokenization.Rules.RegexRule.Equals(System.Object)
+  - DiceEngine.Tokenization.Rules.RegexRule.GetHashCode
+  - DiceEngine.Tokenization.Rules.RegexRule.Name
+  - DiceEngine.Tokenization.Rules.RegexRule.Options
+  - DiceEngine.Tokenization.Rules.RegexRule.RegularExpression
+  - DiceEngine.Tokenization.Rules.RegexRule.Tokenize(System.String@,System.Int32)
+  - DiceEngine.Tokenization.Rules.RegexRule.op_Equality(DiceEngine.Tokenization.Rules.RegexRule,DiceEngine.Tokenization.Rules.RegexRule)
+  - DiceEngine.Tokenization.Rules.RegexRule.op_Inequality(DiceEngine.Tokenization.Rules.RegexRule,DiceEngine.Tokenization.Rules.RegexRule)
+  langs:
+  - csharp
+  - vb
+  name: RegexRule
+  nameWithType: RegexRule
+  fullName: DiceEngine.Tokenization.Rules.RegexRule
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/RegexRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RegexRule
+    path: ../src/DiceEngine/Tokenization/Rules/RegexRule.cs
+    startLine: 14
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: A rule to be used to tokenize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public class RegexRule : ITokenizerRule'
+    content.vb: Public Class RegexRule Implements ITokenizerRule
+  inheritance:
+  - System.Object
+  implements:
+  - DiceEngine.Tokenization.Rules.ITokenizerRule
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.Tokenization.Rules.RegexRule.#ctor(System.String,System.String,System.Func{System.Text.RegularExpressions.Match,System.Int32,DiceEngine.Tokenization.Tokens.IToken},System.Text.RegularExpressions.RegexOptions)
+  commentId: M:DiceEngine.Tokenization.Rules.RegexRule.#ctor(System.String,System.String,System.Func{System.Text.RegularExpressions.Match,System.Int32,DiceEngine.Tokenization.Tokens.IToken},System.Text.RegularExpressions.RegexOptions)
+  id: '#ctor(System.String,System.String,System.Func{System.Text.RegularExpressions.Match,System.Int32,DiceEngine.Tokenization.Tokens.IToken},System.Text.RegularExpressions.RegexOptions)'
+  parent: DiceEngine.Tokenization.Rules.RegexRule
+  langs:
+  - csharp
+  - vb
+  name: RegexRule(string, string, Func<Match, int, IToken>, RegexOptions)
+  nameWithType: RegexRule.RegexRule(string, string, Func<Match, int, IToken>, RegexOptions)
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.RegexRule(string, string, System.Func<System.Text.RegularExpressions.Match, int, DiceEngine.Tokenization.Tokens.IToken>, System.Text.RegularExpressions.RegexOptions)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/RegexRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Tokenization/Rules/RegexRule.cs
+    startLine: 14
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: A rule to be used to tokenize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public RegexRule(string name, string regex, Func<Match, int, IToken> tokenize, RegexOptions options = RegexOptions.None)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the <xref href="DiceEngine.Tokenization.Rules.RegexRule" data-throw-if-not-resolved="false"></xref>.
+    - id: regex
+      type: System.String
+      description: The regex <xref href="System.String" data-throw-if-not-resolved="false"></xref> to match an expression <xref href="System.String" data-throw-if-not-resolved="false"></xref> to.
+    - id: tokenize
+      type: System.Func{System.Text.RegularExpressions.Match,System.Int32,DiceEngine.Tokenization.Tokens.IToken}
+      description: The function to use to tokenize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+    - id: options
+      type: System.Text.RegularExpressions.RegexOptions
+      description: The options for the regular expression.
+    content.vb: Public Sub New(name As String, regex As String, tokenize As Func(Of Match, Integer, IToken), options As RegexOptions = RegexOptions.None)
+  overload: DiceEngine.Tokenization.Rules.RegexRule.#ctor*
+  nameWithType.vb: RegexRule.New(String, String, Func(Of Match, Integer, IToken), RegexOptions)
+  fullName.vb: DiceEngine.Tokenization.Rules.RegexRule.New(String, String, System.Func(Of System.Text.RegularExpressions.Match, Integer, DiceEngine.Tokenization.Tokens.IToken), System.Text.RegularExpressions.RegexOptions)
+  name.vb: New(String, String, Func(Of Match, Integer, IToken), RegexOptions)
+- uid: DiceEngine.Tokenization.Rules.RegexRule.RegularExpression
+  commentId: F:DiceEngine.Tokenization.Rules.RegexRule.RegularExpression
+  id: RegularExpression
+  parent: DiceEngine.Tokenization.Rules.RegexRule
+  langs:
+  - csharp
+  - vb
+  name: RegularExpression
+  nameWithType: RegexRule.RegularExpression
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.RegularExpression
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/RegexRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RegularExpression
+    path: ../src/DiceEngine/Tokenization/Rules/RegexRule.cs
+    startLine: 18
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  syntax:
+    content: public readonly string RegularExpression
+    return:
+      type: System.String
+    content.vb: Public ReadOnly RegularExpression As String
+- uid: DiceEngine.Tokenization.Rules.RegexRule.Options
+  commentId: F:DiceEngine.Tokenization.Rules.RegexRule.Options
+  id: Options
+  parent: DiceEngine.Tokenization.Rules.RegexRule
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: RegexRule.Options
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.Options
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/RegexRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Options
+    path: ../src/DiceEngine/Tokenization/Rules/RegexRule.cs
+    startLine: 19
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  syntax:
+    content: public readonly RegexOptions Options
+    return:
+      type: System.Text.RegularExpressions.RegexOptions
+    content.vb: Public ReadOnly Options As RegexOptions
+- uid: DiceEngine.Tokenization.Rules.RegexRule.Name
+  commentId: P:DiceEngine.Tokenization.Rules.RegexRule.Name
+  id: Name
+  parent: DiceEngine.Tokenization.Rules.RegexRule
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: RegexRule.Name
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.Name
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/RegexRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Name
+    path: ../src/DiceEngine/Tokenization/Rules/RegexRule.cs
+    startLine: 21
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: DiceEngine.Tokenization.Rules.RegexRule.Name*
+  implements:
+  - DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+- uid: DiceEngine.Tokenization.Rules.RegexRule.Tokenize(System.String@,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Rules.RegexRule.Tokenize(System.String@,System.Int32)
+  id: Tokenize(System.String@,System.Int32)
+  parent: DiceEngine.Tokenization.Rules.RegexRule
+  langs:
+  - csharp
+  - vb
+  name: Tokenize(ref string, int)
+  nameWithType: RegexRule.Tokenize(ref string, int)
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.Tokenize(ref string, int)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/RegexRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Tokenize
+    path: ../src/DiceEngine/Tokenization/Rules/RegexRule.cs
+    startLine: 23
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: Tries to tokenize the input <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IToken? Tokenize(ref string input, int index)
+    parameters:
+    - id: input
+      type: System.String
+      description: The input <xref href="System.String" data-throw-if-not-resolved="false"></xref> to tokenize.
+    - id: index
+      type: System.Int32
+      description: The index of the start of the input string.
+    return:
+      type: DiceEngine.Tokenization.Tokens.IToken
+      description: The tokenized <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the input does not match the rule.
+    content.vb: Public Function Tokenize(input As String, index As Integer) As IToken
+  overload: DiceEngine.Tokenization.Rules.RegexRule.Tokenize*
+  implements:
+  - DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  nameWithType.vb: RegexRule.Tokenize(String, Integer)
+  fullName.vb: DiceEngine.Tokenization.Rules.RegexRule.Tokenize(String, Integer)
+  name.vb: Tokenize(String, Integer)
+- uid: DiceEngine.Tokenization.Rules.RegexRule.Equals(System.Object)
+  commentId: M:DiceEngine.Tokenization.Rules.RegexRule.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: DiceEngine.Tokenization.Rules.RegexRule
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: RegexRule.Equals(object?)
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/RegexRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Equals
+    path: ../src/DiceEngine/Tokenization/Rules/RegexRule.cs
+    startLine: 36
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: Determines whether the specified object is equal to the current object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: DiceEngine.Tokenization.Rules.RegexRule.Equals*
+  nameWithType.vb: RegexRule.Equals(Object)
+  fullName.vb: DiceEngine.Tokenization.Rules.RegexRule.Equals(Object)
+  name.vb: Equals(Object)
+- uid: DiceEngine.Tokenization.Rules.RegexRule.GetHashCode
+  commentId: M:DiceEngine.Tokenization.Rules.RegexRule.GetHashCode
+  id: GetHashCode
+  parent: DiceEngine.Tokenization.Rules.RegexRule
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: RegexRule.GetHashCode()
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/RegexRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetHashCode
+    path: ../src/DiceEngine/Tokenization/Rules/RegexRule.cs
+    startLine: 39
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: Serves as the default hash function.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for the current object.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: DiceEngine.Tokenization.Rules.RegexRule.GetHashCode*
+- uid: DiceEngine.Tokenization.Rules.RegexRule.op_Equality(DiceEngine.Tokenization.Rules.RegexRule,DiceEngine.Tokenization.Rules.RegexRule)
+  commentId: M:DiceEngine.Tokenization.Rules.RegexRule.op_Equality(DiceEngine.Tokenization.Rules.RegexRule,DiceEngine.Tokenization.Rules.RegexRule)
+  id: op_Equality(DiceEngine.Tokenization.Rules.RegexRule,DiceEngine.Tokenization.Rules.RegexRule)
+  parent: DiceEngine.Tokenization.Rules.RegexRule
+  langs:
+  - csharp
+  - vb
+  name: operator ==(RegexRule, RegexRule)
+  nameWithType: RegexRule.operator ==(RegexRule, RegexRule)
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.operator ==(DiceEngine.Tokenization.Rules.RegexRule, DiceEngine.Tokenization.Rules.RegexRule)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/RegexRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Equality
+    path: ../src/DiceEngine/Tokenization/Rules/RegexRule.cs
+    startLine: 42
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  syntax:
+    content: public static bool operator ==(RegexRule a, RegexRule b)
+    parameters:
+    - id: a
+      type: DiceEngine.Tokenization.Rules.RegexRule
+    - id: b
+      type: DiceEngine.Tokenization.Rules.RegexRule
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As RegexRule, b As RegexRule) As Boolean
+  overload: DiceEngine.Tokenization.Rules.RegexRule.op_Equality*
+  nameWithType.vb: RegexRule.=(RegexRule, RegexRule)
+  fullName.vb: DiceEngine.Tokenization.Rules.RegexRule.=(DiceEngine.Tokenization.Rules.RegexRule, DiceEngine.Tokenization.Rules.RegexRule)
+  name.vb: =(RegexRule, RegexRule)
+- uid: DiceEngine.Tokenization.Rules.RegexRule.op_Inequality(DiceEngine.Tokenization.Rules.RegexRule,DiceEngine.Tokenization.Rules.RegexRule)
+  commentId: M:DiceEngine.Tokenization.Rules.RegexRule.op_Inequality(DiceEngine.Tokenization.Rules.RegexRule,DiceEngine.Tokenization.Rules.RegexRule)
+  id: op_Inequality(DiceEngine.Tokenization.Rules.RegexRule,DiceEngine.Tokenization.Rules.RegexRule)
+  parent: DiceEngine.Tokenization.Rules.RegexRule
+  langs:
+  - csharp
+  - vb
+  name: operator !=(RegexRule, RegexRule)
+  nameWithType: RegexRule.operator !=(RegexRule, RegexRule)
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.operator !=(DiceEngine.Tokenization.Rules.RegexRule, DiceEngine.Tokenization.Rules.RegexRule)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/RegexRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Inequality
+    path: ../src/DiceEngine/Tokenization/Rules/RegexRule.cs
+    startLine: 45
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  syntax:
+    content: public static bool operator !=(RegexRule a, RegexRule b)
+    parameters:
+    - id: a
+      type: DiceEngine.Tokenization.Rules.RegexRule
+    - id: b
+      type: DiceEngine.Tokenization.Rules.RegexRule
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As RegexRule, b As RegexRule) As Boolean
+  overload: DiceEngine.Tokenization.Rules.RegexRule.op_Inequality*
+  nameWithType.vb: RegexRule.<>(RegexRule, RegexRule)
+  fullName.vb: DiceEngine.Tokenization.Rules.RegexRule.<>(DiceEngine.Tokenization.Rules.RegexRule, DiceEngine.Tokenization.Rules.RegexRule)
+  name.vb: <>(RegexRule, RegexRule)
+references:
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
+  name: IToken
+  nameWithType: IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+- uid: DiceEngine.Tokenization.Rules.RegexRule
+  commentId: T:DiceEngine.Tokenization.Rules.RegexRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.RegexRule.html
+  name: RegexRule
+  nameWithType: RegexRule
+  fullName: DiceEngine.Tokenization.Rules.RegexRule
+- uid: DiceEngine.Tokenization.Rules
+  commentId: N:DiceEngine.Tokenization.Rules
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Rules
+  nameWithType: DiceEngine.Tokenization.Rules
+  fullName: DiceEngine.Tokenization.Rules
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Rules
+    name: Rules
+    href: DiceEngine.Tokenization.Rules.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Rules
+    name: Rules
+    href: DiceEngine.Tokenization.Rules.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule
+  commentId: T:DiceEngine.Tokenization.Rules.ITokenizerRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html
+  name: ITokenizerRule
+  nameWithType: ITokenizerRule
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+- uid: DiceEngine.Tokenization.Rules.RegexRule.#ctor*
+  commentId: Overload:DiceEngine.Tokenization.Rules.RegexRule.#ctor
+  href: DiceEngine.Tokenization.Rules.RegexRule.html#DiceEngine_Tokenization_Rules_RegexRule__ctor_System_String_System_String_System_Func_System_Text_RegularExpressions_Match_System_Int32_DiceEngine_Tokenization_Tokens_IToken__System_Text_RegularExpressions_RegexOptions_
+  name: RegexRule
+  nameWithType: RegexRule.RegexRule
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.RegexRule
+  nameWithType.vb: RegexRule.New
+  fullName.vb: DiceEngine.Tokenization.Rules.RegexRule.New
+  name.vb: New
+- uid: System.Func{System.Text.RegularExpressions.Match,System.Int32,DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Func{System.Text.RegularExpressions.Match,System.Int32,DiceEngine.Tokenization.Tokens.IToken}
+  parent: System
+  definition: System.Func`3
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<Match, int, IToken>
+  nameWithType: Func<Match, int, IToken>
+  fullName: System.Func<System.Text.RegularExpressions.Match, int, DiceEngine.Tokenization.Tokens.IToken>
+  nameWithType.vb: Func(Of Match, Integer, IToken)
+  fullName.vb: System.Func(Of System.Text.RegularExpressions.Match, Integer, DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: Func(Of Match, Integer, IToken)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - uid: System.Text.RegularExpressions.Match
+    name: Match
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.match
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Text.RegularExpressions.Match
+    name: Match
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.match
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: )
+- uid: System.Text.RegularExpressions.RegexOptions
+  commentId: T:System.Text.RegularExpressions.RegexOptions
+  parent: System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regexoptions
+  name: RegexOptions
+  nameWithType: RegexOptions
+  fullName: System.Text.RegularExpressions.RegexOptions
+- uid: System.Func`3
+  commentId: T:System.Func`3
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<T1, T2, TResult>
+  nameWithType: Func<T1, T2, TResult>
+  fullName: System.Func<T1, T2, TResult>
+  nameWithType.vb: Func(Of T1, T2, TResult)
+  fullName.vb: System.Func(Of T1, T2, TResult)
+  name.vb: Func(Of T1, T2, TResult)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Text.RegularExpressions
+  commentId: N:System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text.RegularExpressions
+  nameWithType: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+- uid: DiceEngine.Tokenization.Rules.RegexRule.Name*
+  commentId: Overload:DiceEngine.Tokenization.Rules.RegexRule.Name
+  href: DiceEngine.Tokenization.Rules.RegexRule.html#DiceEngine_Tokenization_Rules_RegexRule_Name
+  name: Name
+  nameWithType: RegexRule.Name
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.Name
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+  commentId: P:DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+  parent: DiceEngine.Tokenization.Rules.ITokenizerRule
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Name
+  name: Name
+  nameWithType: ITokenizerRule.Name
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+- uid: DiceEngine.Tokenization.Rules.RegexRule.Tokenize*
+  commentId: Overload:DiceEngine.Tokenization.Rules.RegexRule.Tokenize
+  href: DiceEngine.Tokenization.Rules.RegexRule.html#DiceEngine_Tokenization_Rules_RegexRule_Tokenize_System_String__System_Int32_
+  name: Tokenize
+  nameWithType: RegexRule.Tokenize
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.Tokenize
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  parent: DiceEngine.Tokenization.Rules.ITokenizerRule
+  isExternal: true
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
+  name: Tokenize(ref string, int)
+  nameWithType: ITokenizerRule.Tokenize(ref string, int)
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(ref string, int)
+  nameWithType.vb: ITokenizerRule.Tokenize(String, Integer)
+  fullName.vb: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(String, Integer)
+  name.vb: Tokenize(String, Integer)
+  spec.csharp:
+  - uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+    name: Tokenize
+    href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+    name: Tokenize
+    href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DiceEngine.Tokenization.Rules.RegexRule.Equals*
+  commentId: Overload:DiceEngine.Tokenization.Rules.RegexRule.Equals
+  href: DiceEngine.Tokenization.Rules.RegexRule.html#DiceEngine_Tokenization_Rules_RegexRule_Equals_System_Object_
+  name: Equals
+  nameWithType: RegexRule.Equals
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: DiceEngine.Tokenization.Rules.RegexRule.GetHashCode*
+  commentId: Overload:DiceEngine.Tokenization.Rules.RegexRule.GetHashCode
+  href: DiceEngine.Tokenization.Rules.RegexRule.html#DiceEngine_Tokenization_Rules_RegexRule_GetHashCode
+  name: GetHashCode
+  nameWithType: RegexRule.GetHashCode
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.GetHashCode
+- uid: DiceEngine.Tokenization.Rules.RegexRule.op_Equality*
+  commentId: Overload:DiceEngine.Tokenization.Rules.RegexRule.op_Equality
+  href: DiceEngine.Tokenization.Rules.RegexRule.html#DiceEngine_Tokenization_Rules_RegexRule_op_Equality_DiceEngine_Tokenization_Rules_RegexRule_DiceEngine_Tokenization_Rules_RegexRule_
+  name: operator ==
+  nameWithType: RegexRule.operator ==
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.operator ==
+  nameWithType.vb: RegexRule.=
+  fullName.vb: DiceEngine.Tokenization.Rules.RegexRule.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Tokenization.Rules.RegexRule.op_Equality*
+    name: ==
+    href: DiceEngine.Tokenization.Rules.RegexRule.html#DiceEngine_Tokenization_Rules_RegexRule_op_Equality_DiceEngine_Tokenization_Rules_RegexRule_DiceEngine_Tokenization_Rules_RegexRule_
+- uid: DiceEngine.Tokenization.Rules.RegexRule.op_Inequality*
+  commentId: Overload:DiceEngine.Tokenization.Rules.RegexRule.op_Inequality
+  href: DiceEngine.Tokenization.Rules.RegexRule.html#DiceEngine_Tokenization_Rules_RegexRule_op_Inequality_DiceEngine_Tokenization_Rules_RegexRule_DiceEngine_Tokenization_Rules_RegexRule_
+  name: operator !=
+  nameWithType: RegexRule.operator !=
+  fullName: DiceEngine.Tokenization.Rules.RegexRule.operator !=
+  nameWithType.vb: RegexRule.<>
+  fullName.vb: DiceEngine.Tokenization.Rules.RegexRule.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Tokenization.Rules.RegexRule.op_Inequality*
+    name: '!='
+    href: DiceEngine.Tokenization.Rules.RegexRule.html#DiceEngine_Tokenization_Rules_RegexRule_op_Inequality_DiceEngine_Tokenization_Rules_RegexRule_DiceEngine_Tokenization_Rules_RegexRule_

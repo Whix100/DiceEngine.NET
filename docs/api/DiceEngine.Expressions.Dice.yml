@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Dice
+  commentId: N:DiceEngine.Expressions.Dice
+  id: DiceEngine.Expressions.Dice
+  children:
+  - DiceEngine.Expressions.Dice.DiceOperator
+  - DiceEngine.Expressions.Dice.DiceSet
+  - DiceEngine.Expressions.Dice.Die
+  - DiceEngine.Expressions.Dice.FateDie
+  - DiceEngine.Expressions.Dice.IDie
+  - DiceEngine.Expressions.Dice.PercentileDie
+  - DiceEngine.Expressions.Dice.RollResult
+  - DiceEngine.Expressions.Dice.RollValue
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Expressions.Dice
+  nameWithType: DiceEngine.Expressions.Dice
+  fullName: DiceEngine.Expressions.Dice
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Expressions.Dice.DiceOperator
+  commentId: T:DiceEngine.Expressions.Dice.DiceOperator
+  href: DiceEngine.Expressions.Dice.DiceOperator.html
+  name: DiceOperator
+  nameWithType: DiceOperator
+  fullName: DiceEngine.Expressions.Dice.DiceOperator
+- uid: DiceEngine.Expressions.Dice.DiceSet
+  commentId: T:DiceEngine.Expressions.Dice.DiceSet
+  href: DiceEngine.Expressions.Dice.DiceSet.html
+  name: DiceSet
+  nameWithType: DiceSet
+  fullName: DiceEngine.Expressions.Dice.DiceSet
+- uid: DiceEngine.Expressions.Dice.Die
+  commentId: T:DiceEngine.Expressions.Dice.Die
+  parent: DiceEngine.Expressions.Dice
+  href: DiceEngine.Expressions.Dice.Die.html
+  name: Die
+  nameWithType: Die
+  fullName: DiceEngine.Expressions.Dice.Die
+- uid: DiceEngine.Expressions.Dice.IDie
+  commentId: T:DiceEngine.Expressions.Dice.IDie
+  parent: DiceEngine.Expressions.Dice
+  href: DiceEngine.Expressions.Dice.IDie.html
+  name: IDie
+  nameWithType: IDie
+  fullName: DiceEngine.Expressions.Dice.IDie
+- uid: DiceEngine.Expressions.Dice.FateDie
+  commentId: T:DiceEngine.Expressions.Dice.FateDie
+  href: DiceEngine.Expressions.Dice.FateDie.html
+  name: FateDie
+  nameWithType: FateDie
+  fullName: DiceEngine.Expressions.Dice.FateDie
+- uid: DiceEngine.Expressions.Dice.PercentileDie
+  commentId: T:DiceEngine.Expressions.Dice.PercentileDie
+  href: DiceEngine.Expressions.Dice.PercentileDie.html
+  name: PercentileDie
+  nameWithType: PercentileDie
+  fullName: DiceEngine.Expressions.Dice.PercentileDie
+- uid: DiceEngine.Expressions.Dice.RollResult
+  commentId: T:DiceEngine.Expressions.Dice.RollResult
+  href: DiceEngine.Expressions.Dice.RollResult.html
+  name: RollResult
+  nameWithType: RollResult
+  fullName: DiceEngine.Expressions.Dice.RollResult
+- uid: DiceEngine.Expressions.Dice.RollValue
+  commentId: T:DiceEngine.Expressions.Dice.RollValue
+  parent: DiceEngine.Expressions.Dice
+  href: DiceEngine.Expressions.Dice.RollValue.html
+  name: RollValue
+  nameWithType: RollValue
+  fullName: DiceEngine.Expressions.Dice.RollValue
+- uid: DiceEngine.Expressions.Dice
+  commentId: N:DiceEngine.Expressions.Dice
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Dice
+  nameWithType: DiceEngine.Expressions.Dice
+  fullName: DiceEngine.Expressions.Dice
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Dice
+    name: Dice
+    href: DiceEngine.Expressions.Dice.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Dice
+    name: Dice
+    href: DiceEngine.Expressions.Dice.html

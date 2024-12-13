@@ -1,6 +1,4 @@
-using DiceEngine.Expressions.Terminals;
-
-namespace DiceEngine.Expressions;
+namespace DiceEngine.Expressions.Terminals;
 
 public class Undefined : Terminal
 {

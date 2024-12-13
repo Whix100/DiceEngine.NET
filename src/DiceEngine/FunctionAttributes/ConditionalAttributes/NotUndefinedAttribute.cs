@@ -1,4 +1,5 @@
 ﻿using DiceEngine.Expressions;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.FunctionAttributes.ConditionalAttributes;
 

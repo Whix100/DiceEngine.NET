@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.NativeFunctions
+  commentId: N:DiceEngine.NativeFunctions
+  id: DiceEngine.NativeFunctions
+  children:
+  - DiceEngine.NativeFunctions.CollectionFunctions
+  - DiceEngine.NativeFunctions.FactorialFunctions
+  - DiceEngine.NativeFunctions.LogicalFunctions
+  - DiceEngine.NativeFunctions.StatisticalFunctions
+  - DiceEngine.NativeFunctions.TrigonometricFunctions
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.NativeFunctions
+  nameWithType: DiceEngine.NativeFunctions
+  fullName: DiceEngine.NativeFunctions
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.NativeFunctions.CollectionFunctions
+  commentId: T:DiceEngine.NativeFunctions.CollectionFunctions
+  href: DiceEngine.NativeFunctions.CollectionFunctions.html
+  name: CollectionFunctions
+  nameWithType: CollectionFunctions
+  fullName: DiceEngine.NativeFunctions.CollectionFunctions
+- uid: DiceEngine.NativeFunctions.FactorialFunctions
+  commentId: T:DiceEngine.NativeFunctions.FactorialFunctions
+  href: DiceEngine.NativeFunctions.FactorialFunctions.html
+  name: FactorialFunctions
+  nameWithType: FactorialFunctions
+  fullName: DiceEngine.NativeFunctions.FactorialFunctions
+- uid: DiceEngine.NativeFunctions.LogicalFunctions
+  commentId: T:DiceEngine.NativeFunctions.LogicalFunctions
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html
+  name: LogicalFunctions
+  nameWithType: LogicalFunctions
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions
+- uid: DiceEngine.NativeFunctions.StatisticalFunctions
+  commentId: T:DiceEngine.NativeFunctions.StatisticalFunctions
+  href: DiceEngine.NativeFunctions.StatisticalFunctions.html
+  name: StatisticalFunctions
+  nameWithType: StatisticalFunctions
+  fullName: DiceEngine.NativeFunctions.StatisticalFunctions
+- uid: DiceEngine.NativeFunctions.TrigonometricFunctions
+  commentId: T:DiceEngine.NativeFunctions.TrigonometricFunctions
+  href: DiceEngine.NativeFunctions.TrigonometricFunctions.html
+  name: TrigonometricFunctions
+  nameWithType: TrigonometricFunctions
+  fullName: DiceEngine.NativeFunctions.TrigonometricFunctions

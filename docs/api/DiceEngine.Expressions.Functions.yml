@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Functions
+  commentId: N:DiceEngine.Expressions.Functions
+  id: DiceEngine.Expressions.Functions
+  children:
+  - DiceEngine.Expressions.Functions.Function
+  - DiceEngine.Expressions.Functions.LambdaFunction
+  - DiceEngine.Expressions.Functions.NativeFunction
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Expressions.Functions
+  nameWithType: DiceEngine.Expressions.Functions
+  fullName: DiceEngine.Expressions.Functions
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Expressions.Functions.Function
+  commentId: T:DiceEngine.Expressions.Functions.Function
+  parent: DiceEngine.Expressions.Functions
+  href: DiceEngine.Expressions.Functions.Function.html
+  name: Function
+  nameWithType: Function
+  fullName: DiceEngine.Expressions.Functions.Function
+- uid: DiceEngine.Expressions.Functions.LambdaFunction
+  commentId: T:DiceEngine.Expressions.Functions.LambdaFunction
+  href: DiceEngine.Expressions.Functions.LambdaFunction.html
+  name: LambdaFunction
+  nameWithType: LambdaFunction
+  fullName: DiceEngine.Expressions.Functions.LambdaFunction
+- uid: DiceEngine.Expressions.Functions.NativeFunction
+  commentId: T:DiceEngine.Expressions.Functions.NativeFunction
+  href: DiceEngine.Expressions.Functions.NativeFunction.html
+  name: NativeFunction
+  nameWithType: NativeFunction
+  fullName: DiceEngine.Expressions.Functions.NativeFunction
+- uid: DiceEngine.Expressions.Functions
+  commentId: N:DiceEngine.Expressions.Functions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Functions
+  nameWithType: DiceEngine.Expressions.Functions
+  fullName: DiceEngine.Expressions.Functions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Functions
+    name: Functions
+    href: DiceEngine.Expressions.Functions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Functions
+    name: Functions
+    href: DiceEngine.Expressions.Functions.html

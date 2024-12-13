@@ -37,20 +37,20 @@ DiceEngine.NET is a versatile and efficient dice notation expression parsing lib
 1. Create or Open your solution/project
 1. In the Solution Explorer, find the "Dependencies" item in your project
 1. Right click "Dependencies" and select "Manage NuGet packages..."
-1. In the "Browse" tab, search for "CalcExpr.NET"
-1. Install the "CalcExpr.NET" package
+1. In the "Browse" tab, search for "DiceEngine.NET"
+1. Install the "DiceEngine.NET" package
 
 ### From NuGet Using dotnet CLI
 
 1. Launch the terminal of your choice
 1. Navigate to where your csproj file is located
-1. Enter `dotnet add package CalcExpr.NET`
+1. Enter `dotnet add package DiceEngine.NET`
 
 ### From GitHub Releases
 
 1. Go to the Releases section of this repo
 1. Find the version you want
-1. Download the CalcExpr.dll file from that release
+1. Download the DiceEngine.dll file from that release
 1. Add the file as a reference to your project
 
 ## Usage
@@ -80,7 +80,7 @@ Alternatively, a Tokenizer can be provided to specify tokenizing behavior or new
 
 ## Contributing
 
-We welcome contributions to CalcExpr.NET! Whether it's bug fixes, new features, or improvements to the documentation, your help is greatly appreciated. More information can be found in this file repository's [CONTRIBUTING.md](https://github.com/andrewk17111/CalcExpr.NET/blob/dev/CONTRIBUTING.md) file.
+We welcome contributions to DiceEngine.NET! Whether it's bug fixes, new features, or improvements to the documentation, your help is greatly appreciated. More information can be found in this file repository's [CONTRIBUTING.md](https://github.com/andrewk17111/DiceEngine.NET/blob/dev/CONTRIBUTING.md) file.
 
 ### How to Contribute
 
@@ -89,13 +89,9 @@ We welcome contributions to CalcExpr.NET! Whether it's bug fixes, new features, 
 1. **Make Your Changes**: Implement your changes and commit them with clear and descriptive commit messages.
 1. **Submit a Pull Request**: Open a pull request to the `dev` branch of the main repository, detailing the changes you made and why.
 
-### Code of Conduct
-
-We adhere to a Code of Conduct to ensure a welcoming and inclusive environment for everyone. Please read and follow our [Code of Conduct](https://github.com/andrewk17111/CalcExpr.NET/blob/dev/CONTRIBUTING.md) before contributing.
-
 ## License
 
-DiceEngine.NET is released under the GPL-3.0 License.
+DiceEngine.NET is released under the MIT License.
 
 ## Branches
 

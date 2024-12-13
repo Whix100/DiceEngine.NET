@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Parsing.Defaults
+  commentId: N:DiceEngine.Parsing.Defaults
+  id: DiceEngine.Parsing.Defaults
+  children:
+  - DiceEngine.Parsing.Defaults.ParserDefaults
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Parsing.Defaults
+  nameWithType: DiceEngine.Parsing.Defaults
+  fullName: DiceEngine.Parsing.Defaults
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Parsing.Defaults.ParserDefaults
+  commentId: T:DiceEngine.Parsing.Defaults.ParserDefaults
+  href: DiceEngine.Parsing.Defaults.ParserDefaults.html
+  name: ParserDefaults
+  nameWithType: ParserDefaults
+  fullName: DiceEngine.Parsing.Defaults.ParserDefaults

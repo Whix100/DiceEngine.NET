@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  id: DiceEngine.Context
+  children:
+  - DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
+  name: ExpressionContext
+  nameWithType: ExpressionContext
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html

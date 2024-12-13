@@ -1,0 +1,914 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Tokenization.Tokens.NumberToken
+  commentId: T:DiceEngine.Tokenization.Tokens.NumberToken
+  id: NumberToken
+  parent: DiceEngine.Tokenization.Tokens
+  children:
+  - DiceEngine.Tokenization.Tokens.NumberToken.#ctor(System.String,System.Int32)
+  - DiceEngine.Tokenization.Tokens.NumberToken.Equals(System.Object)
+  - DiceEngine.Tokenization.Tokens.NumberToken.GetHashCode
+  - DiceEngine.Tokenization.Tokens.NumberToken.Index
+  - DiceEngine.Tokenization.Tokens.NumberToken.ParsedValue
+  - DiceEngine.Tokenization.Tokens.NumberToken.RegexAlias
+  - DiceEngine.Tokenization.Tokens.NumberToken.Value
+  - DiceEngine.Tokenization.Tokens.NumberToken.op_Equality(DiceEngine.Tokenization.Tokens.NumberToken,DiceEngine.Tokenization.Tokens.IToken)
+  - DiceEngine.Tokenization.Tokens.NumberToken.op_Implicit(DiceEngine.Tokenization.Tokens.NumberToken)~System.String
+  - DiceEngine.Tokenization.Tokens.NumberToken.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.NumberToken
+  - DiceEngine.Tokenization.Tokens.NumberToken.op_Inequality(DiceEngine.Tokenization.Tokens.NumberToken,DiceEngine.Tokenization.Tokens.IToken)
+  langs:
+  - csharp
+  - vb
+  name: NumberToken
+  nameWithType: NumberToken
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: NumberToken
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 5
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: 'public class NumberToken : IToken'
+    content.vb: Public Class NumberToken Implements IToken
+  inheritance:
+  - System.Object
+  implements:
+  - DiceEngine.Tokenization.Tokens.IToken
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.#ctor(System.String,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Tokens.NumberToken.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: NumberToken(string, int)
+  nameWithType: NumberToken.NumberToken(string, int)
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.NumberToken(string, int)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 5
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public NumberToken(string value, int index)
+    parameters:
+    - id: value
+      type: System.String
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub New(value As String, index As Integer)
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.#ctor*
+  nameWithType.vb: NumberToken.New(String, Integer)
+  fullName.vb: DiceEngine.Tokenization.Tokens.NumberToken.New(String, Integer)
+  name.vb: New(String, Integer)
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.NumberToken.Value
+  id: Value
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: NumberToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.Value
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Value
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 7
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The value of the token.
+  example: []
+  syntax:
+    content: public string Value { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Value As String
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.Value*
+  implements:
+  - DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.ParsedValue
+  commentId: P:DiceEngine.Tokenization.Tokens.NumberToken.ParsedValue
+  id: ParsedValue
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: ParsedValue
+  nameWithType: NumberToken.ParsedValue
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.ParsedValue
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ParsedValue
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 12
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The numeric value parsed from the captured string.
+  example: []
+  syntax:
+    content: public double ParsedValue { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property ParsedValue As Double
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.ParsedValue*
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.NumberToken.Index
+  id: Index
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: NumberToken.Index
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.Index
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Index
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 14
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The index of the token in the larger string.
+  example: []
+  syntax:
+    content: public int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Index As Integer
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.Index*
+  implements:
+  - DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.NumberToken.RegexAlias
+  id: RegexAlias
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: RegexAlias
+  nameWithType: NumberToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.RegexAlias
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RegexAlias
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 16
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The value to use in a regular expression.
+  example: []
+  syntax:
+    content: public char RegexAlias { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property RegexAlias As Char
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.RegexAlias*
+  implements:
+  - DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.Equals(System.Object)
+  commentId: M:DiceEngine.Tokenization.Tokens.NumberToken.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: NumberToken.Equals(object?)
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Equals
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 18
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: Determines whether the specified object is equal to the current object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.Equals*
+  nameWithType.vb: NumberToken.Equals(Object)
+  fullName.vb: DiceEngine.Tokenization.Tokens.NumberToken.Equals(Object)
+  name.vb: Equals(Object)
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.GetHashCode
+  commentId: M:DiceEngine.Tokenization.Tokens.NumberToken.GetHashCode
+  id: GetHashCode
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NumberToken.GetHashCode()
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetHashCode
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 21
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: Serves as the default hash function.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for the current object.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.GetHashCode*
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.op_Equality(DiceEngine.Tokenization.Tokens.NumberToken,DiceEngine.Tokenization.Tokens.IToken)
+  commentId: M:DiceEngine.Tokenization.Tokens.NumberToken.op_Equality(DiceEngine.Tokenization.Tokens.NumberToken,DiceEngine.Tokenization.Tokens.IToken)
+  id: op_Equality(DiceEngine.Tokenization.Tokens.NumberToken,DiceEngine.Tokenization.Tokens.IToken)
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NumberToken, IToken)
+  nameWithType: NumberToken.operator ==(NumberToken, IToken)
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.operator ==(DiceEngine.Tokenization.Tokens.NumberToken, DiceEngine.Tokenization.Tokens.IToken)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Equality
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 24
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public static bool operator ==(NumberToken a, IToken b)
+    parameters:
+    - id: a
+      type: DiceEngine.Tokenization.Tokens.NumberToken
+    - id: b
+      type: DiceEngine.Tokenization.Tokens.IToken
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As NumberToken, b As IToken) As Boolean
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.op_Equality*
+  nameWithType.vb: NumberToken.=(NumberToken, IToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.NumberToken.=(DiceEngine.Tokenization.Tokens.NumberToken, DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: =(NumberToken, IToken)
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.op_Inequality(DiceEngine.Tokenization.Tokens.NumberToken,DiceEngine.Tokenization.Tokens.IToken)
+  commentId: M:DiceEngine.Tokenization.Tokens.NumberToken.op_Inequality(DiceEngine.Tokenization.Tokens.NumberToken,DiceEngine.Tokenization.Tokens.IToken)
+  id: op_Inequality(DiceEngine.Tokenization.Tokens.NumberToken,DiceEngine.Tokenization.Tokens.IToken)
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NumberToken, IToken)
+  nameWithType: NumberToken.operator !=(NumberToken, IToken)
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.operator !=(DiceEngine.Tokenization.Tokens.NumberToken, DiceEngine.Tokenization.Tokens.IToken)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Inequality
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 27
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public static bool operator !=(NumberToken a, IToken b)
+    parameters:
+    - id: a
+      type: DiceEngine.Tokenization.Tokens.NumberToken
+    - id: b
+      type: DiceEngine.Tokenization.Tokens.IToken
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As NumberToken, b As IToken) As Boolean
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.op_Inequality*
+  nameWithType.vb: NumberToken.<>(NumberToken, IToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.NumberToken.<>(DiceEngine.Tokenization.Tokens.NumberToken, DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: <>(NumberToken, IToken)
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.NumberToken
+  commentId: M:DiceEngine.Tokenization.Tokens.NumberToken.op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.NumberToken
+  id: op_Implicit(System.Text.RegularExpressions.Match)~DiceEngine.Tokenization.Tokens.NumberToken
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: implicit operator NumberToken(Match)
+  nameWithType: NumberToken.implicit operator NumberToken(Match)
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.implicit operator DiceEngine.Tokenization.Tokens.NumberToken(System.Text.RegularExpressions.Match)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Implicit
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 30
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public static implicit operator NumberToken(Match match)
+    parameters:
+    - id: match
+      type: System.Text.RegularExpressions.Match
+    return:
+      type: DiceEngine.Tokenization.Tokens.NumberToken
+    content.vb: Public Shared Widening Operator CType(match As Match) As NumberToken
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.op_Implicit*
+  nameWithType.vb: NumberToken.CType(Match)
+  fullName.vb: DiceEngine.Tokenization.Tokens.NumberToken.CType(System.Text.RegularExpressions.Match)
+  name.vb: CType(Match)
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.op_Implicit(DiceEngine.Tokenization.Tokens.NumberToken)~System.String
+  commentId: M:DiceEngine.Tokenization.Tokens.NumberToken.op_Implicit(DiceEngine.Tokenization.Tokens.NumberToken)~System.String
+  id: op_Implicit(DiceEngine.Tokenization.Tokens.NumberToken)~System.String
+  parent: DiceEngine.Tokenization.Tokens.NumberToken
+  langs:
+  - csharp
+  - vb
+  name: implicit operator string(NumberToken)
+  nameWithType: NumberToken.implicit operator string(NumberToken)
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.implicit operator string(DiceEngine.Tokenization.Tokens.NumberToken)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Implicit
+    path: ../src/DiceEngine/Tokenization/Tokens/NumberToken.cs
+    startLine: 33
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public static implicit operator string(NumberToken token)
+    parameters:
+    - id: token
+      type: DiceEngine.Tokenization.Tokens.NumberToken
+    return:
+      type: System.String
+    content.vb: Public Shared Widening Operator CType(token As NumberToken) As String
+  overload: DiceEngine.Tokenization.Tokens.NumberToken.op_Implicit*
+  nameWithType.vb: NumberToken.CType(NumberToken)
+  fullName.vb: DiceEngine.Tokenization.Tokens.NumberToken.CType(DiceEngine.Tokenization.Tokens.NumberToken)
+  name.vb: CType(NumberToken)
+references:
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
+  name: IToken
+  nameWithType: IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.#ctor*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.NumberToken.#ctor
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken__ctor_System_String_System_Int32_
+  name: NumberToken
+  nameWithType: NumberToken.NumberToken
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.NumberToken
+  nameWithType.vb: NumberToken.New
+  fullName.vb: DiceEngine.Tokenization.Tokens.NumberToken.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.Value*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.NumberToken.Value
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken_Value
+  name: Value
+  nameWithType: NumberToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.Value
+- uid: DiceEngine.Tokenization.Tokens.IToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Value
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Value
+  name: Value
+  nameWithType: IToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.ParsedValue*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.NumberToken.ParsedValue
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken_ParsedValue
+  name: ParsedValue
+  nameWithType: NumberToken.ParsedValue
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.ParsedValue
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.Index*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.NumberToken.Index
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken_Index
+  name: Index
+  nameWithType: NumberToken.Index
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.Index
+- uid: DiceEngine.Tokenization.Tokens.IToken.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Index
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Index
+  name: Index
+  nameWithType: IToken.Index
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.RegexAlias*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.NumberToken.RegexAlias
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken_RegexAlias
+  name: RegexAlias
+  nameWithType: NumberToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.RegexAlias
+- uid: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_RegexAlias
+  name: RegexAlias
+  nameWithType: IToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.Equals*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.NumberToken.Equals
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken_Equals_System_Object_
+  name: Equals
+  nameWithType: NumberToken.Equals
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.GetHashCode*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.NumberToken.GetHashCode
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken_GetHashCode
+  name: GetHashCode
+  nameWithType: NumberToken.GetHashCode
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.GetHashCode
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.op_Equality*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.NumberToken.op_Equality
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken_op_Equality_DiceEngine_Tokenization_Tokens_NumberToken_DiceEngine_Tokenization_Tokens_IToken_
+  name: operator ==
+  nameWithType: NumberToken.operator ==
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.operator ==
+  nameWithType.vb: NumberToken.=
+  fullName.vb: DiceEngine.Tokenization.Tokens.NumberToken.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.NumberToken.op_Equality*
+    name: ==
+    href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken_op_Equality_DiceEngine_Tokenization_Tokens_NumberToken_DiceEngine_Tokenization_Tokens_IToken_
+- uid: DiceEngine.Tokenization.Tokens.NumberToken
+  commentId: T:DiceEngine.Tokenization.Tokens.NumberToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html
+  name: NumberToken
+  nameWithType: NumberToken
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.op_Inequality*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.NumberToken.op_Inequality
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken_op_Inequality_DiceEngine_Tokenization_Tokens_NumberToken_DiceEngine_Tokenization_Tokens_IToken_
+  name: operator !=
+  nameWithType: NumberToken.operator !=
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.operator !=
+  nameWithType.vb: NumberToken.<>
+  fullName.vb: DiceEngine.Tokenization.Tokens.NumberToken.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.NumberToken.op_Inequality*
+    name: '!='
+    href: DiceEngine.Tokenization.Tokens.NumberToken.html#DiceEngine_Tokenization_Tokens_NumberToken_op_Inequality_DiceEngine_Tokenization_Tokens_NumberToken_DiceEngine_Tokenization_Tokens_IToken_
+- uid: DiceEngine.Tokenization.Tokens.NumberToken.op_Implicit*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.NumberToken.op_Implicit
+  name: implicit operator
+  nameWithType: NumberToken.implicit operator
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken.implicit operator
+  nameWithType.vb: NumberToken.CType
+  fullName.vb: DiceEngine.Tokenization.Tokens.NumberToken.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: System.Text.RegularExpressions.Match
+  commentId: T:System.Text.RegularExpressions.Match
+  parent: System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.match
+  name: Match
+  nameWithType: Match
+  fullName: System.Text.RegularExpressions.Match
+- uid: System.Text.RegularExpressions
+  commentId: N:System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text.RegularExpressions
+  nameWithType: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions

@@ -1,0 +1,429 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Collections.TerminalCollection
+  commentId: T:DiceEngine.Expressions.Collections.TerminalCollection
+  id: TerminalCollection
+  parent: DiceEngine.Expressions.Collections
+  children:
+  - DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  - DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  langs:
+  - csharp
+  - vb
+  name: TerminalCollection
+  nameWithType: TerminalCollection
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Collections/TerminalCollection.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: TerminalCollection
+    path: ../src/DiceEngine/Expressions/Collections/TerminalCollection.cs
+    startLine: 8
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
+  syntax:
+    content: public static class TerminalCollection
+    content.vb: Public Module TerminalCollection
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  commentId: M:DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  id: TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  parent: DiceEngine.Expressions.Collections.TerminalCollection
+  langs:
+  - csharp
+  - vb
+  name: TerminateCollection(IEnumerableExpression?)
+  nameWithType: TerminalCollection.TerminateCollection(IEnumerableExpression?)
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Collections/TerminalCollection.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: TerminateCollection
+    path: ../src/DiceEngine/Expressions/Collections/TerminalCollection.cs
+    startLine: 10
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
+  syntax:
+    content: public static Terminal TerminateCollection(IEnumerableExpression? collection)
+    parameters:
+    - id: collection
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public Shared Function TerminateCollection(collection As IEnumerableExpression) As Terminal
+  overload: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection*
+  nameWithType.vb: TerminalCollection.TerminateCollection(IEnumerableExpression)
+  fullName.vb: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  name.vb: TerminateCollection(IEnumerableExpression)
+- uid: DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  commentId: M:DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  id: ConvertIEnumerable(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  parent: DiceEngine.Expressions.Collections.TerminalCollection
+  langs:
+  - csharp
+  - vb
+  name: ConvertIEnumerable(IEnumerableExpression)
+  nameWithType: TerminalCollection.ConvertIEnumerable(IEnumerableExpression)
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable(DiceEngine.Expressions.Collections.IEnumerableExpression)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Collections/TerminalCollection.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ConvertIEnumerable
+    path: ../src/DiceEngine/Expressions/Collections/TerminalCollection.cs
+    startLine: 31
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Collections
+  syntax:
+    content: public static IEnumerableExpression ConvertIEnumerable(IEnumerableExpression collection)
+    parameters:
+    - id: collection
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
+    return:
+      type: DiceEngine.Expressions.Collections.IEnumerableExpression
+    content.vb: Public Shared Function ConvertIEnumerable(collection As IEnumerableExpression) As IEnumerableExpression
+  overload: DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable*
+references:
+- uid: DiceEngine.Expressions.Collections
+  commentId: N:DiceEngine.Expressions.Collections
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Collections
+  nameWithType: DiceEngine.Expressions.Collections
+  fullName: DiceEngine.Expressions.Collections
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Collections
+    name: Collections
+    href: DiceEngine.Expressions.Collections.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Collections
+    name: Collections
+    href: DiceEngine.Expressions.Collections.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection*
+  commentId: Overload:DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection
+  href: DiceEngine.Expressions.Collections.TerminalCollection.html#DiceEngine_Expressions_Collections_TerminalCollection_TerminateCollection_DiceEngine_Expressions_Collections_IEnumerableExpression_
+  name: TerminateCollection
+  nameWithType: TerminalCollection.TerminateCollection
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection.TerminateCollection
+- uid: DiceEngine.Expressions.Collections.IEnumerableExpression
+  commentId: T:DiceEngine.Expressions.Collections.IEnumerableExpression
+  parent: DiceEngine.Expressions.Collections
+  href: DiceEngine.Expressions.Collections.IEnumerableExpression.html
+  name: IEnumerableExpression
+  nameWithType: IEnumerableExpression
+  fullName: DiceEngine.Expressions.Collections.IEnumerableExpression
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable*
+  commentId: Overload:DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable
+  href: DiceEngine.Expressions.Collections.TerminalCollection.html#DiceEngine_Expressions_Collections_TerminalCollection_ConvertIEnumerable_DiceEngine_Expressions_Collections_IEnumerableExpression_
+  name: ConvertIEnumerable
+  nameWithType: TerminalCollection.ConvertIEnumerable
+  fullName: DiceEngine.Expressions.Collections.TerminalCollection.ConvertIEnumerable

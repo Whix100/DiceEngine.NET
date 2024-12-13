@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.TypeConverters
+  commentId: N:DiceEngine.TypeConverters
+  id: DiceEngine.TypeConverters
+  children:
+  - DiceEngine.TypeConverters.BooleanTypeConverter
+  - DiceEngine.TypeConverters.DecimalTypeConverter
+  - DiceEngine.TypeConverters.FloatTypeConverter`1
+  - DiceEngine.TypeConverters.ITypeConverter
+  - DiceEngine.TypeConverters.ITypeConverter`1
+  - DiceEngine.TypeConverters.IntegerTypeConverter`1
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.TypeConverters
+  nameWithType: DiceEngine.TypeConverters
+  fullName: DiceEngine.TypeConverters
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.TypeConverters.BooleanTypeConverter
+  commentId: T:DiceEngine.TypeConverters.BooleanTypeConverter
+  href: DiceEngine.TypeConverters.BooleanTypeConverter.html
+  name: BooleanTypeConverter
+  nameWithType: BooleanTypeConverter
+  fullName: DiceEngine.TypeConverters.BooleanTypeConverter
+- uid: DiceEngine.TypeConverters.DecimalTypeConverter
+  commentId: T:DiceEngine.TypeConverters.DecimalTypeConverter
+  href: DiceEngine.TypeConverters.DecimalTypeConverter.html
+  name: DecimalTypeConverter
+  nameWithType: DecimalTypeConverter
+  fullName: DiceEngine.TypeConverters.DecimalTypeConverter
+- uid: DiceEngine.TypeConverters.FloatTypeConverter`1
+  commentId: T:DiceEngine.TypeConverters.FloatTypeConverter`1
+  href: DiceEngine.TypeConverters.FloatTypeConverter-1.html
+  name: FloatTypeConverter<T>
+  nameWithType: FloatTypeConverter<T>
+  fullName: DiceEngine.TypeConverters.FloatTypeConverter<T>
+  nameWithType.vb: FloatTypeConverter(Of T)
+  fullName.vb: DiceEngine.TypeConverters.FloatTypeConverter(Of T)
+  name.vb: FloatTypeConverter(Of T)
+  spec.csharp:
+  - uid: DiceEngine.TypeConverters.FloatTypeConverter`1
+    name: FloatTypeConverter
+    href: DiceEngine.TypeConverters.FloatTypeConverter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: DiceEngine.TypeConverters.FloatTypeConverter`1
+    name: FloatTypeConverter
+    href: DiceEngine.TypeConverters.FloatTypeConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.TypeConverters.IntegerTypeConverter`1
+  commentId: T:DiceEngine.TypeConverters.IntegerTypeConverter`1
+  href: DiceEngine.TypeConverters.IntegerTypeConverter-1.html
+  name: IntegerTypeConverter<T>
+  nameWithType: IntegerTypeConverter<T>
+  fullName: DiceEngine.TypeConverters.IntegerTypeConverter<T>
+  nameWithType.vb: IntegerTypeConverter(Of T)
+  fullName.vb: DiceEngine.TypeConverters.IntegerTypeConverter(Of T)
+  name.vb: IntegerTypeConverter(Of T)
+  spec.csharp:
+  - uid: DiceEngine.TypeConverters.IntegerTypeConverter`1
+    name: IntegerTypeConverter
+    href: DiceEngine.TypeConverters.IntegerTypeConverter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: DiceEngine.TypeConverters.IntegerTypeConverter`1
+    name: IntegerTypeConverter
+    href: DiceEngine.TypeConverters.IntegerTypeConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.TypeConverters.ITypeConverter`1
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter`1
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html
+  name: ITypeConverter<T>
+  nameWithType: ITypeConverter<T>
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>
+  nameWithType.vb: ITypeConverter(Of T)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T)
+  name.vb: ITypeConverter(Of T)
+  spec.csharp:
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.TypeConverters.ITypeConverter
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter
+  parent: DiceEngine.TypeConverters
+  href: DiceEngine.TypeConverters.ITypeConverter.html
+  name: ITypeConverter
+  nameWithType: ITypeConverter
+  fullName: DiceEngine.TypeConverters.ITypeConverter
+- uid: DiceEngine.TypeConverters
+  commentId: N:DiceEngine.TypeConverters
+  href: DiceEngine.html
+  name: DiceEngine.TypeConverters
+  nameWithType: DiceEngine.TypeConverters
+  fullName: DiceEngine.TypeConverters
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.TypeConverters
+    name: TypeConverters
+    href: DiceEngine.TypeConverters.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.TypeConverters
+    name: TypeConverters
+    href: DiceEngine.TypeConverters.html

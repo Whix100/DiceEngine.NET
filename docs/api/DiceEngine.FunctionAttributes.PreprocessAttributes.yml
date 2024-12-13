@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes
+  commentId: N:DiceEngine.FunctionAttributes.PreprocessAttributes
+  id: DiceEngine.FunctionAttributes.PreprocessAttributes
+  children:
+  - DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+  - DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
+  - DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.FunctionAttributes.PreprocessAttributes
+  nameWithType: DiceEngine.FunctionAttributes.PreprocessAttributes
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+  commentId: T:DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+  href: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute.html
+  name: AsBooleanAttribute
+  nameWithType: AsBooleanAttribute
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
+  commentId: T:DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
+  href: DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute.html
+  name: AsNumberAttribute
+  nameWithType: AsNumberAttribute
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  commentId: T:DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+  parent: DiceEngine.FunctionAttributes.PreprocessAttributes
+  href: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute.html
+  name: PreprocessAttribute
+  nameWithType: PreprocessAttribute
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes
+  commentId: N:DiceEngine.FunctionAttributes.PreprocessAttributes
+  href: DiceEngine.html
+  name: DiceEngine.FunctionAttributes.PreprocessAttributes
+  nameWithType: DiceEngine.FunctionAttributes.PreprocessAttributes
+  fullName: DiceEngine.FunctionAttributes.PreprocessAttributes
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.FunctionAttributes
+    name: FunctionAttributes
+    href: DiceEngine.FunctionAttributes.html
+  - name: .
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes
+    name: PreprocessAttributes
+    href: DiceEngine.FunctionAttributes.PreprocessAttributes.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.FunctionAttributes
+    name: FunctionAttributes
+    href: DiceEngine.FunctionAttributes.html
+  - name: .
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes
+    name: PreprocessAttributes
+    href: DiceEngine.FunctionAttributes.PreprocessAttributes.html

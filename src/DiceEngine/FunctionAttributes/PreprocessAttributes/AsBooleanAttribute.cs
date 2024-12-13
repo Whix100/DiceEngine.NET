@@ -1,5 +1,6 @@
 ﻿using DiceEngine.Expressions;
 using DiceEngine.Expressions.Interfaces;
+using DiceEngine.Expressions.Terminals;
 
 namespace DiceEngine.FunctionAttributes.PreprocessAttributes;
 

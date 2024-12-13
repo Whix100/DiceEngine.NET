@@ -1,0 +1,352 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  id: IToken
+  parent: DiceEngine.Tokenization.Tokens
+  children:
+  - DiceEngine.Tokenization.Tokens.IToken.Index
+  - DiceEngine.Tokenization.Tokens.IToken.Item(System.Int32)
+  - DiceEngine.Tokenization.Tokens.IToken.Item(System.Range)
+  - DiceEngine.Tokenization.Tokens.IToken.Length
+  - DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  - DiceEngine.Tokenization.Tokens.IToken.Value
+  langs:
+  - csharp
+  - vb
+  name: IToken
+  nameWithType: IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+  type: Interface
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/IToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IToken
+    path: ../src/DiceEngine/Tokenization/Tokens/IToken.cs
+    startLine: 2
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public interface IToken
+    content.vb: Public Interface IToken
+- uid: DiceEngine.Tokenization.Tokens.IToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Value
+  id: Value
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: IToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Value
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/IToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Value
+    path: ../src/DiceEngine/Tokenization/Tokens/IToken.cs
+    startLine: 7
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The value of the token.
+  example: []
+  syntax:
+    content: string Value { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Value As String
+  overload: DiceEngine.Tokenization.Tokens.IToken.Value*
+- uid: DiceEngine.Tokenization.Tokens.IToken.Index
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Index
+  id: Index
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: IToken.Index
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Index
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/IToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Index
+    path: ../src/DiceEngine/Tokenization/Tokens/IToken.cs
+    startLine: 12
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The index of the token in the larger string.
+  example: []
+  syntax:
+    content: int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Index As Integer
+  overload: DiceEngine.Tokenization.Tokens.IToken.Index*
+- uid: DiceEngine.Tokenization.Tokens.IToken.Length
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Length
+  id: Length
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: IToken.Length
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Length
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/IToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Length
+    path: ../src/DiceEngine/Tokenization/Tokens/IToken.cs
+    startLine: 17
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The length of <xref href="DiceEngine.Tokenization.Tokens.IToken.Value" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: int Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Length As Integer
+  overload: DiceEngine.Tokenization.Tokens.IToken.Length*
+- uid: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  id: RegexAlias
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  langs:
+  - csharp
+  - vb
+  name: RegexAlias
+  nameWithType: IToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/IToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RegexAlias
+    path: ../src/DiceEngine/Tokenization/Tokens/IToken.cs
+    startLine: 22
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  summary: The value to use in a regular expression.
+  example: []
+  syntax:
+    content: char RegexAlias { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: ReadOnly Property RegexAlias As Char
+  overload: DiceEngine.Tokenization.Tokens.IToken.RegexAlias*
+- uid: DiceEngine.Tokenization.Tokens.IToken.Item(System.Int32)
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: IToken.this[int]
+  fullName: DiceEngine.Tokenization.Tokens.IToken.this[int]
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/IToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: this[]
+    path: ../src/DiceEngine/Tokenization/Tokens/IToken.cs
+    startLine: 24
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: char this[int index] { get; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Char
+    content.vb: ReadOnly Default Property this[](index As Integer) As Char
+  overload: DiceEngine.Tokenization.Tokens.IToken.Item*
+  nameWithType.vb: IToken.this[](Integer)
+  fullName.vb: DiceEngine.Tokenization.Tokens.IToken.this[](Integer)
+  name.vb: this[](Integer)
+- uid: DiceEngine.Tokenization.Tokens.IToken.Item(System.Range)
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Item(System.Range)
+  id: Item(System.Range)
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  langs:
+  - csharp
+  - vb
+  name: this[Range]
+  nameWithType: IToken.this[Range]
+  fullName: DiceEngine.Tokenization.Tokens.IToken.this[System.Range]
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/IToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: this[]
+    path: ../src/DiceEngine/Tokenization/Tokens/IToken.cs
+    startLine: 26
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: string this[Range range] { get; }
+    parameters:
+    - id: range
+      type: System.Range
+    return:
+      type: System.String
+    content.vb: ReadOnly Default Property this[](range As Range) As String
+  overload: DiceEngine.Tokenization.Tokens.IToken.Item*
+  nameWithType.vb: IToken.this[](Range)
+  fullName.vb: DiceEngine.Tokenization.Tokens.IToken.this[](System.Range)
+  name.vb: this[](Range)
+references:
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+- uid: DiceEngine.Tokenization.Tokens.IToken.Value*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.IToken.Value
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Value
+  name: Value
+  nameWithType: IToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Tokenization.Tokens.IToken.Index*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.IToken.Index
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Index
+  name: Index
+  nameWithType: IToken.Index
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: DiceEngine.Tokenization.Tokens.IToken.Value
+  commentId: P:DiceEngine.Tokenization.Tokens.IToken.Value
+  parent: DiceEngine.Tokenization.Tokens.IToken
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Value
+  name: Value
+  nameWithType: IToken.Value
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Value
+- uid: DiceEngine.Tokenization.Tokens.IToken.Length*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.IToken.Length
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Length
+  name: Length
+  nameWithType: IToken.Length
+  fullName: DiceEngine.Tokenization.Tokens.IToken.Length
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
+  name: IToken
+  nameWithType: IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+- uid: DiceEngine.Tokenization.Tokens.IToken.RegexAlias*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_RegexAlias
+  name: RegexAlias
+  nameWithType: IToken.RegexAlias
+  fullName: DiceEngine.Tokenization.Tokens.IToken.RegexAlias
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: DiceEngine.Tokenization.Tokens.IToken.Item*
+  commentId: Overload:DiceEngine.Tokenization.Tokens.IToken.Item
+  href: DiceEngine.Tokenization.Tokens.IToken.html#DiceEngine_Tokenization_Tokens_IToken_Item_System_Int32_
+  name: this
+  nameWithType: IToken.this
+  fullName: DiceEngine.Tokenization.Tokens.IToken.this
+  nameWithType.vb: IToken.this[]
+  fullName.vb: DiceEngine.Tokenization.Tokens.IToken.this[]
+  name.vb: this[]
+- uid: System.Range
+  commentId: T:System.Range
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.range
+  name: Range
+  nameWithType: Range
+  fullName: System.Range

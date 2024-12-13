@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.TypeConverters.ITypeConverter`1
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter`1
+  id: ITypeConverter`1
+  parent: DiceEngine.TypeConverters
+  children:
+  - DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  - DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  langs:
+  - csharp
+  - vb
+  name: ITypeConverter<T>
+  nameWithType: ITypeConverter<T>
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>
+  type: Interface
+  source:
+    remote:
+      path: src/DiceEngine/TypeConverters/ITypeConverter.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ITypeConverter
+    path: ../src/DiceEngine/TypeConverters/ITypeConverter.cs
+    startLine: 5
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
+  syntax:
+    content: 'public interface ITypeConverter<T> : ITypeConverter'
+    typeParameters:
+    - id: T
+    content.vb: Public Interface ITypeConverter(Of T) Inherits ITypeConverter
+  nameWithType.vb: ITypeConverter(Of T)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T)
+  name.vb: ITypeConverter(Of T)
+- uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  commentId: M:DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression(`0)
+  id: ConvertToExpression(`0)
+  parent: DiceEngine.TypeConverters.ITypeConverter`1
+  langs:
+  - csharp
+  - vb
+  name: ConvertToExpression(T)
+  nameWithType: ITypeConverter<T>.ConvertToExpression(T)
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>.ConvertToExpression(T)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/TypeConverters/ITypeConverter.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ConvertToExpression
+    path: ../src/DiceEngine/TypeConverters/ITypeConverter.cs
+    startLine: 12
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
+  summary: Converts from a value to an expression.
+  example: []
+  syntax:
+    content: Terminal ConvertToExpression(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+      description: The value to convert.
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: An <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> representing the value.
+    content.vb: Function ConvertToExpression(value As T) As Terminal
+  overload: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression*
+  nameWithType.vb: ITypeConverter(Of T).ConvertToExpression(T)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T).ConvertToExpression(T)
+- uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  id: ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.TypeConverters.ITypeConverter`1
+  langs:
+  - csharp
+  - vb
+  name: ConvertFromExpression(IExpression?)
+  nameWithType: ITypeConverter<T>.ConvertFromExpression(IExpression?)
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>.ConvertFromExpression(DiceEngine.Expressions.IExpression?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/TypeConverters/ITypeConverter.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ConvertFromExpression
+    path: ../src/DiceEngine/TypeConverters/ITypeConverter.cs
+    startLine: 19
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
+  summary: Converts from an expression to a value.
+  example: []
+  syntax:
+    content: T? ConvertFromExpression(IExpression? expression)
+    parameters:
+    - id: expression
+      type: DiceEngine.Expressions.IExpression
+      description: The expression to convert.
+    return:
+      type: '{T}'
+      description: A value representing the expression.
+    content.vb: Function ConvertFromExpression(expression As IExpression) As T
+  overload: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression*
+  nameWithType.vb: ITypeConverter(Of T).ConvertFromExpression(IExpression)
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T).ConvertFromExpression(DiceEngine.Expressions.IExpression)
+  name.vb: ConvertFromExpression(IExpression)
+references:
+- uid: DiceEngine.TypeConverters
+  commentId: N:DiceEngine.TypeConverters
+  href: DiceEngine.html
+  name: DiceEngine.TypeConverters
+  nameWithType: DiceEngine.TypeConverters
+  fullName: DiceEngine.TypeConverters
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.TypeConverters
+    name: TypeConverters
+    href: DiceEngine.TypeConverters.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.TypeConverters
+    name: TypeConverters
+    href: DiceEngine.TypeConverters.html
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression*
+  commentId: Overload:DiceEngine.TypeConverters.ITypeConverter`1.ConvertToExpression
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertToExpression__0_
+  name: ConvertToExpression
+  nameWithType: ITypeConverter<T>.ConvertToExpression
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>.ConvertToExpression
+  nameWithType.vb: ITypeConverter(Of T).ConvertToExpression
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T).ConvertToExpression
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression*
+  commentId: Overload:DiceEngine.TypeConverters.ITypeConverter`1.ConvertFromExpression
+  href: DiceEngine.TypeConverters.ITypeConverter-1.html#DiceEngine_TypeConverters_ITypeConverter_1_ConvertFromExpression_DiceEngine_Expressions_IExpression_
+  name: ConvertFromExpression
+  nameWithType: ITypeConverter<T>.ConvertFromExpression
+  fullName: DiceEngine.TypeConverters.ITypeConverter<T>.ConvertFromExpression
+  nameWithType.vb: ITypeConverter(Of T).ConvertFromExpression
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter(Of T).ConvertFromExpression
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html

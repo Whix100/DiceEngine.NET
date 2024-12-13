@@ -1,0 +1,1132 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.NativeFunctions.LogicalFunctions
+  commentId: T:DiceEngine.NativeFunctions.LogicalFunctions
+  id: LogicalFunctions
+  parent: DiceEngine.NativeFunctions
+  children:
+  - DiceEngine.NativeFunctions.LogicalFunctions.And(System.Boolean,System.Boolean)
+  - DiceEngine.NativeFunctions.LogicalFunctions.Bool(System.Boolean)
+  - DiceEngine.NativeFunctions.LogicalFunctions.If(System.Boolean,DiceEngine.Expressions.Terminals.Terminal,DiceEngine.Expressions.Terminals.Terminal)
+  - DiceEngine.NativeFunctions.LogicalFunctions.IsEven(System.Double)
+  - DiceEngine.NativeFunctions.LogicalFunctions.IsInt(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.LogicalFunctions.IsLogical(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.LogicalFunctions.IsNa(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.LogicalFunctions.IsNegative(System.Double,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.LogicalFunctions.IsNum(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  - DiceEngine.NativeFunctions.LogicalFunctions.IsOdd(System.Double)
+  - DiceEngine.NativeFunctions.LogicalFunctions.IsPositive(System.Double)
+  - DiceEngine.NativeFunctions.LogicalFunctions.Not(System.Boolean)
+  - DiceEngine.NativeFunctions.LogicalFunctions.Or(System.Boolean,System.Boolean)
+  - DiceEngine.NativeFunctions.LogicalFunctions.Xor(System.Boolean,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: LogicalFunctions
+  nameWithType: LogicalFunctions
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: LogicalFunctions
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 7
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: public static class LogicalFunctions
+    content.vb: Public Module LogicalFunctions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.And(System.Boolean,System.Boolean)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.And(System.Boolean,System.Boolean)
+  id: And(System.Boolean,System.Boolean)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: And(bool, bool)
+  nameWithType: LogicalFunctions.And(bool, bool)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.And(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: And
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 9
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "and" })]
+
+      public static bool And(bool a, bool b)
+    parameters:
+    - id: a
+      type: System.Boolean
+    - id: b
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NativeFunction(New String() { "and" })>
+
+      Public Shared Function [And](a As Boolean, b As Boolean) As Boolean
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.And*
+  nameWithType.vb: LogicalFunctions.And(Boolean, Boolean)
+  fullName.vb: DiceEngine.NativeFunctions.LogicalFunctions.And(Boolean, Boolean)
+  name.vb: And(Boolean, Boolean)
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.Or(System.Boolean,System.Boolean)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.Or(System.Boolean,System.Boolean)
+  id: Or(System.Boolean,System.Boolean)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: Or(bool, bool)
+  nameWithType: LogicalFunctions.Or(bool, bool)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.Or(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Or
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 14
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "or" })]
+
+      public static bool Or(bool a, bool b)
+    parameters:
+    - id: a
+      type: System.Boolean
+    - id: b
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NativeFunction(New String() { "or" })>
+
+      Public Shared Function [Or](a As Boolean, b As Boolean) As Boolean
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.Or*
+  nameWithType.vb: LogicalFunctions.Or(Boolean, Boolean)
+  fullName.vb: DiceEngine.NativeFunctions.LogicalFunctions.Or(Boolean, Boolean)
+  name.vb: Or(Boolean, Boolean)
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.Xor(System.Boolean,System.Boolean)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.Xor(System.Boolean,System.Boolean)
+  id: Xor(System.Boolean,System.Boolean)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: Xor(bool, bool)
+  nameWithType: LogicalFunctions.Xor(bool, bool)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.Xor(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Xor
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 19
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "xor" })]
+
+      public static bool Xor(bool a, bool b)
+    parameters:
+    - id: a
+      type: System.Boolean
+    - id: b
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NativeFunction(New String() { "xor" })>
+
+      Public Shared Function [Xor](a As Boolean, b As Boolean) As Boolean
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.Xor*
+  nameWithType.vb: LogicalFunctions.Xor(Boolean, Boolean)
+  fullName.vb: DiceEngine.NativeFunctions.LogicalFunctions.Xor(Boolean, Boolean)
+  name.vb: Xor(Boolean, Boolean)
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.Not(System.Boolean)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.Not(System.Boolean)
+  id: Not(System.Boolean)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: Not(bool)
+  nameWithType: LogicalFunctions.Not(bool)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.Not(bool)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Not
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 24
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "not" })]
+
+      public static bool Not(bool x)
+    parameters:
+    - id: x
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NativeFunction(New String() { "not" })>
+
+      Public Shared Function [Not](x As Boolean) As Boolean
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.Not*
+  nameWithType.vb: LogicalFunctions.Not(Boolean)
+  fullName.vb: DiceEngine.NativeFunctions.LogicalFunctions.Not(Boolean)
+  name.vb: Not(Boolean)
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.Bool(System.Boolean)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.Bool(System.Boolean)
+  id: Bool(System.Boolean)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: Bool(bool)
+  nameWithType: LogicalFunctions.Bool(bool)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.Bool(bool)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Bool
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 29
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "bool" })]
+
+      public static bool Bool(bool x)
+    parameters:
+    - id: x
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NativeFunction(New String() { "bool" })>
+
+      Public Shared Function Bool(x As Boolean) As Boolean
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.Bool*
+  nameWithType.vb: LogicalFunctions.Bool(Boolean)
+  fullName.vb: DiceEngine.NativeFunctions.LogicalFunctions.Bool(Boolean)
+  name.vb: Bool(Boolean)
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.If(System.Boolean,DiceEngine.Expressions.Terminals.Terminal,DiceEngine.Expressions.Terminals.Terminal)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.If(System.Boolean,DiceEngine.Expressions.Terminals.Terminal,DiceEngine.Expressions.Terminals.Terminal)
+  id: If(System.Boolean,DiceEngine.Expressions.Terminals.Terminal,DiceEngine.Expressions.Terminals.Terminal)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: If(bool, Terminal, Terminal)
+  nameWithType: LogicalFunctions.If(bool, Terminal, Terminal)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.If(bool, DiceEngine.Expressions.Terminals.Terminal, DiceEngine.Expressions.Terminals.Terminal)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: If
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 34
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "if" })]
+
+      public static Terminal If(bool condition, Terminal isTrue, Terminal isFalse)
+    parameters:
+    - id: condition
+      type: System.Boolean
+    - id: isTrue
+      type: DiceEngine.Expressions.Terminals.Terminal
+    - id: isFalse
+      type: DiceEngine.Expressions.Terminals.Terminal
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: >-
+      <NativeFunction(New String() { "if" })>
+
+      Public Shared Function [If](condition As Boolean, isTrue As Terminal, isFalse As Terminal) As Terminal
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.If*
+  nameWithType.vb: LogicalFunctions.If(Boolean, Terminal, Terminal)
+  fullName.vb: DiceEngine.NativeFunctions.LogicalFunctions.If(Boolean, DiceEngine.Expressions.Terminals.Terminal, DiceEngine.Expressions.Terminals.Terminal)
+  name.vb: If(Boolean, Terminal, Terminal)
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsNa(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.IsNa(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: IsNa(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: IsNa(IExpression, ExpressionContext)
+  nameWithType: LogicalFunctions.IsNa(IExpression, ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsNa(DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsNa
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 39
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "is_na" })]
+
+      public static bool IsNa(IExpression x, ExpressionContext _)
+    parameters:
+    - id: x
+      type: DiceEngine.Expressions.IExpression
+    - id: _
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NativeFunction(New String() { "is_na" })>
+
+      Public Shared Function IsNa(x As IExpression, _ As ExpressionContext) As Boolean
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.IsNa*
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsNum(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.IsNum(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: IsNum(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: IsNum(IExpression, ExpressionContext)
+  nameWithType: LogicalFunctions.IsNum(IExpression, ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsNum(DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsNum
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 43
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "is_num", "is_number" })]
+
+      public static bool IsNum(IExpression x, ExpressionContext _)
+    parameters:
+    - id: x
+      type: DiceEngine.Expressions.IExpression
+    - id: _
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NativeFunction(New String() { "is_num", "is_number" })>
+
+      Public Shared Function IsNum(x As IExpression, _ As ExpressionContext) As Boolean
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.IsNum*
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsInt(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.IsInt(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: IsInt(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: IsInt(IExpression, ExpressionContext)
+  nameWithType: LogicalFunctions.IsInt(IExpression, ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsInt(DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsInt
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 47
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "is_int", "is_integer" })]
+
+      public static bool IsInt(IExpression x, ExpressionContext _)
+    parameters:
+    - id: x
+      type: DiceEngine.Expressions.IExpression
+    - id: _
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NativeFunction(New String() { "is_int", "is_integer" })>
+
+      Public Shared Function IsInt(x As IExpression, _ As ExpressionContext) As Boolean
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.IsInt*
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsLogical(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.IsLogical(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  id: IsLogical(DiceEngine.Expressions.IExpression,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: IsLogical(IExpression, ExpressionContext)
+  nameWithType: LogicalFunctions.IsLogical(IExpression, ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsLogical(DiceEngine.Expressions.IExpression, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsLogical
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 51
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "is_logical" })]
+
+      public static bool IsLogical(IExpression x, ExpressionContext _)
+    parameters:
+    - id: x
+      type: DiceEngine.Expressions.IExpression
+    - id: _
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NativeFunction(New String() { "is_logical" })>
+
+      Public Shared Function IsLogical(x As IExpression, _ As ExpressionContext) As Boolean
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.IsLogical*
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsEven(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.IsEven(System.Double)
+  id: IsEven(System.Double)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: IsEven(double)
+  nameWithType: LogicalFunctions.IsEven(double)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsEven(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsEven
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 55
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "is_even" })]
+
+      public static bool? IsEven(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <NativeFunction(New String() { "is_even" })>
+
+      Public Shared Function IsEven(x As Double) As Boolean?
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.IsEven*
+  nameWithType.vb: LogicalFunctions.IsEven(Double)
+  fullName.vb: DiceEngine.NativeFunctions.LogicalFunctions.IsEven(Double)
+  name.vb: IsEven(Double)
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsOdd(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.IsOdd(System.Double)
+  id: IsOdd(System.Double)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: IsOdd(double)
+  nameWithType: LogicalFunctions.IsOdd(double)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsOdd(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsOdd
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 61
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "is_odd" })]
+
+      public static bool? IsOdd(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <NativeFunction(New String() { "is_odd" })>
+
+      Public Shared Function IsOdd(x As Double) As Boolean?
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.IsOdd*
+  nameWithType.vb: LogicalFunctions.IsOdd(Double)
+  fullName.vb: DiceEngine.NativeFunctions.LogicalFunctions.IsOdd(Double)
+  name.vb: IsOdd(Double)
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsPositive(System.Double)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.IsPositive(System.Double)
+  id: IsPositive(System.Double)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: IsPositive(double)
+  nameWithType: LogicalFunctions.IsPositive(double)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsPositive(double)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsPositive
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 67
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "is_positive" })]
+
+      public static bool? IsPositive(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <NativeFunction(New String() { "is_positive" })>
+
+      Public Shared Function IsPositive(x As Double) As Boolean?
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.IsPositive*
+  nameWithType.vb: LogicalFunctions.IsPositive(Double)
+  fullName.vb: DiceEngine.NativeFunctions.LogicalFunctions.IsPositive(Double)
+  name.vb: IsPositive(Double)
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsNegative(System.Double,DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.NativeFunctions.LogicalFunctions.IsNegative(System.Double,DiceEngine.Context.ExpressionContext)
+  id: IsNegative(System.Double,DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.NativeFunctions.LogicalFunctions
+  langs:
+  - csharp
+  - vb
+  name: IsNegative(double, ExpressionContext)
+  nameWithType: LogicalFunctions.IsNegative(double, ExpressionContext)
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsNegative(double, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsNegative
+    path: ../src/DiceEngine/NativeFunctions/LogicalFunctions.cs
+    startLine: 75
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.NativeFunctions
+  syntax:
+    content: >-
+      [NativeFunction(new string[] { "is_negative" })]
+
+      public static bool? IsNegative(double x, ExpressionContext _)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: _
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <NativeFunction(New String() { "is_negative" })>
+
+      Public Shared Function IsNegative(x As Double, _ As ExpressionContext) As Boolean?
+  overload: DiceEngine.NativeFunctions.LogicalFunctions.IsNegative*
+  nameWithType.vb: LogicalFunctions.IsNegative(Double, ExpressionContext)
+  fullName.vb: DiceEngine.NativeFunctions.LogicalFunctions.IsNegative(Double, DiceEngine.Context.ExpressionContext)
+  name.vb: IsNegative(Double, ExpressionContext)
+references:
+- uid: DiceEngine.NativeFunctions
+  commentId: N:DiceEngine.NativeFunctions
+  href: DiceEngine.html
+  name: DiceEngine.NativeFunctions
+  nameWithType: DiceEngine.NativeFunctions
+  fullName: DiceEngine.NativeFunctions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.NativeFunctions
+    name: NativeFunctions
+    href: DiceEngine.NativeFunctions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.NativeFunctions
+    name: NativeFunctions
+    href: DiceEngine.NativeFunctions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.And*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.And
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_And_System_Boolean_System_Boolean_
+  name: And
+  nameWithType: LogicalFunctions.And
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.And
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.Or*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.Or
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_Or_System_Boolean_System_Boolean_
+  name: Or
+  nameWithType: LogicalFunctions.Or
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.Or
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.Xor*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.Xor
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_Xor_System_Boolean_System_Boolean_
+  name: Xor
+  nameWithType: LogicalFunctions.Xor
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.Xor
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.Not*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.Not
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_Not_System_Boolean_
+  name: Not
+  nameWithType: LogicalFunctions.Not
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.Not
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.Bool*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.Bool
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_Bool_System_Boolean_
+  name: Bool
+  nameWithType: LogicalFunctions.Bool
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.Bool
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.If*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.If
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_If_System_Boolean_DiceEngine_Expressions_Terminals_Terminal_DiceEngine_Expressions_Terminals_Terminal_
+  name: If
+  nameWithType: LogicalFunctions.If
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.If
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsNa*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.IsNa
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_IsNa_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: IsNa
+  nameWithType: LogicalFunctions.IsNa
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsNa
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
+  name: ExpressionContext
+  nameWithType: ExpressionContext
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsNum*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.IsNum
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_IsNum_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: IsNum
+  nameWithType: LogicalFunctions.IsNum
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsNum
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsInt*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.IsInt
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_IsInt_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: IsInt
+  nameWithType: LogicalFunctions.IsInt
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsInt
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsLogical*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.IsLogical
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_IsLogical_DiceEngine_Expressions_IExpression_DiceEngine_Context_ExpressionContext_
+  name: IsLogical
+  nameWithType: LogicalFunctions.IsLogical
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsLogical
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsEven*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.IsEven
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_IsEven_System_Double_
+  name: IsEven
+  nameWithType: LogicalFunctions.IsEven
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsEven
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsOdd*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.IsOdd
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_IsOdd_System_Double_
+  name: IsOdd
+  nameWithType: LogicalFunctions.IsOdd
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsOdd
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsPositive*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.IsPositive
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_IsPositive_System_Double_
+  name: IsPositive
+  nameWithType: LogicalFunctions.IsPositive
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsPositive
+- uid: DiceEngine.NativeFunctions.LogicalFunctions.IsNegative*
+  commentId: Overload:DiceEngine.NativeFunctions.LogicalFunctions.IsNegative
+  href: DiceEngine.NativeFunctions.LogicalFunctions.html#DiceEngine_NativeFunctions_LogicalFunctions_IsNegative_System_Double_DiceEngine_Context_ExpressionContext_
+  name: IsNegative
+  nameWithType: LogicalFunctions.IsNegative
+  fullName: DiceEngine.NativeFunctions.LogicalFunctions.IsNegative

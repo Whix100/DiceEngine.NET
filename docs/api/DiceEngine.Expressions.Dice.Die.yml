@@ -1,0 +1,1601 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Dice.Die
+  commentId: T:DiceEngine.Expressions.Dice.Die
+  id: Die
+  parent: DiceEngine.Expressions.Dice
+  children:
+  - DiceEngine.Expressions.Dice.Die.#ctor(System.Int32)
+  - DiceEngine.Expressions.Dice.Die.#ctor(System.UInt32)
+  - DiceEngine.Expressions.Dice.Die.Equals(System.Object)
+  - DiceEngine.Expressions.Dice.Die.Evaluate
+  - DiceEngine.Expressions.Dice.Die.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Dice.Die.EvaluateDice
+  - DiceEngine.Expressions.Dice.Die.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Dice.Die.GetHashCode
+  - DiceEngine.Expressions.Dice.Die.Roll(System.Random)
+  - DiceEngine.Expressions.Dice.Die.Size
+  - DiceEngine.Expressions.Dice.Die.StepEvaluate
+  - DiceEngine.Expressions.Dice.Die.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Dice.Die.ToString
+  - DiceEngine.Expressions.Dice.Die.ToString(System.String)
+  - DiceEngine.Expressions.Dice.Die.op_Explicit(System.Byte)~DiceEngine.Expressions.Dice.Die
+  - DiceEngine.Expressions.Dice.Die.op_Explicit(System.Int16)~DiceEngine.Expressions.Dice.Die
+  - DiceEngine.Expressions.Dice.Die.op_Explicit(System.Int32)~DiceEngine.Expressions.Dice.Die
+  - DiceEngine.Expressions.Dice.Die.op_Explicit(System.Int64)~DiceEngine.Expressions.Dice.Die
+  - DiceEngine.Expressions.Dice.Die.op_Explicit(System.SByte)~DiceEngine.Expressions.Dice.Die
+  - DiceEngine.Expressions.Dice.Die.op_Explicit(System.UInt16)~DiceEngine.Expressions.Dice.Die
+  - DiceEngine.Expressions.Dice.Die.op_Explicit(System.UInt32)~DiceEngine.Expressions.Dice.Die
+  - DiceEngine.Expressions.Dice.Die.op_Explicit(System.UInt64)~DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: Die
+  nameWithType: Die
+  fullName: DiceEngine.Expressions.Dice.Die
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Die
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 5
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: 'public class Die : IDie, IExpression'
+    content.vb: Public Class Die Implements IDie, IExpression
+  inheritance:
+  - System.Object
+  implements:
+  - DiceEngine.Expressions.Dice.IDie
+  - DiceEngine.Expressions.IExpression
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: DiceEngine.Expressions.Dice.Die.#ctor(System.Int32)
+  commentId: M:DiceEngine.Expressions.Dice.Die.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: Die(int)
+  nameWithType: Die.Die(int)
+  fullName: DiceEngine.Expressions.Dice.Die.Die(int)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 5
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public Die(int size)
+    parameters:
+    - id: size
+      type: System.Int32
+    content.vb: Public Sub New(size As Integer)
+  overload: DiceEngine.Expressions.Dice.Die.#ctor*
+  nameWithType.vb: Die.New(Integer)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.New(Integer)
+  name.vb: New(Integer)
+- uid: DiceEngine.Expressions.Dice.Die.Size
+  commentId: F:DiceEngine.Expressions.Dice.Die.Size
+  id: Size
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: Die.Size
+  fullName: DiceEngine.Expressions.Dice.Die.Size
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Size
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 7
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public readonly int Size
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Size As Integer
+- uid: DiceEngine.Expressions.Dice.Die.#ctor(System.UInt32)
+  commentId: M:DiceEngine.Expressions.Dice.Die.#ctor(System.UInt32)
+  id: '#ctor(System.UInt32)'
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: Die(uint)
+  nameWithType: Die.Die(uint)
+  fullName: DiceEngine.Expressions.Dice.Die.Die(uint)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 9
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public Die(uint size)
+    parameters:
+    - id: size
+      type: System.UInt32
+    content.vb: Public Sub New(size As UInteger)
+  overload: DiceEngine.Expressions.Dice.Die.#ctor*
+  nameWithType.vb: Die.New(UInteger)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.New(UInteger)
+  name.vb: New(UInteger)
+- uid: DiceEngine.Expressions.Dice.Die.Evaluate
+  commentId: M:DiceEngine.Expressions.Dice.Die.Evaluate
+  id: Evaluate
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: Evaluate()
+  nameWithType: Die.Evaluate()
+  fullName: DiceEngine.Expressions.Dice.Die.Evaluate()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Evaluate
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 11
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Terminal Evaluate()
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function Evaluate() As Terminal
+  overload: DiceEngine.Expressions.Dice.Die.Evaluate*
+  implements:
+  - DiceEngine.Expressions.IExpression.Evaluate
+- uid: DiceEngine.Expressions.Dice.Die.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Dice.Die.Evaluate(DiceEngine.Context.ExpressionContext)
+  id: Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: Evaluate(ExpressionContext)
+  nameWithType: Die.Evaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.Dice.Die.Evaluate(DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Evaluate
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 14
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Evaluates and calculates the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Terminal Evaluate(ExpressionContext context)
+    parameters:
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+      description: A new <xref href="DiceEngine.Expressions.Terminals.Terminal" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function Evaluate(context As ExpressionContext) As Terminal
+  overload: DiceEngine.Expressions.Dice.Die.Evaluate*
+  implements:
+  - DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.Dice.Die.StepEvaluate
+  commentId: M:DiceEngine.Expressions.Dice.Die.StepEvaluate
+  id: StepEvaluate
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: StepEvaluate()
+  nameWithType: Die.StepEvaluate()
+  fullName: DiceEngine.Expressions.Dice.Die.StepEvaluate()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: StepEvaluate
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 17
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IExpression StepEvaluate()
+    return:
+      type: DiceEngine.Expressions.IExpression
+      description: >-
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function StepEvaluate() As IExpression
+  overload: DiceEngine.Expressions.Dice.Die.StepEvaluate*
+  implements:
+  - DiceEngine.Expressions.IExpression.StepEvaluate
+- uid: DiceEngine.Expressions.Dice.Die.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Dice.Die.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  id: StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: StepEvaluate(ExpressionContext)
+  nameWithType: Die.StepEvaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.Dice.Die.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: StepEvaluate
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 20
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Evaluates and calculates one step towards the value of the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IExpression StepEvaluate(ExpressionContext context)
+    parameters:
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: DiceEngine.Expressions.IExpression
+      description: >-
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the partially evaluated value of the current 
+
+        <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function StepEvaluate(context As ExpressionContext) As IExpression
+  overload: DiceEngine.Expressions.Dice.Die.StepEvaluate*
+  implements:
+  - DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.Dice.Die.EvaluateDice
+  commentId: M:DiceEngine.Expressions.Dice.Die.EvaluateDice
+  id: EvaluateDice
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: EvaluateDice()
+  nameWithType: Die.EvaluateDice()
+  fullName: DiceEngine.Expressions.Dice.Die.EvaluateDice()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: EvaluateDice
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 23
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Evaluates all dice in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IExpression EvaluateDice()
+    return:
+      type: DiceEngine.Expressions.IExpression
+      description: >-
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> with all dice
+
+        evaluated.
+    content.vb: Public Function EvaluateDice() As IExpression
+  overload: DiceEngine.Expressions.Dice.Die.EvaluateDice*
+  implements:
+  - DiceEngine.Expressions.IExpression.EvaluateDice
+- uid: DiceEngine.Expressions.Dice.Die.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Dice.Die.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  id: EvaluateDice(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: EvaluateDice(ExpressionContext)
+  nameWithType: Die.EvaluateDice(ExpressionContext)
+  fullName: DiceEngine.Expressions.Dice.Die.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: EvaluateDice
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 26
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Evaluates all dice in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IExpression EvaluateDice(ExpressionContext context)
+    parameters:
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+      description: The values for each variable that could appear in the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: DiceEngine.Expressions.IExpression
+      description: >-
+        A new <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> containing the value of the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> with all dice
+
+        evaluated.
+    content.vb: Public Function EvaluateDice(context As ExpressionContext) As IExpression
+  overload: DiceEngine.Expressions.Dice.Die.EvaluateDice*
+  implements:
+  - DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+- uid: DiceEngine.Expressions.Dice.Die.Roll(System.Random)
+  commentId: M:DiceEngine.Expressions.Dice.Die.Roll(System.Random)
+  id: Roll(System.Random)
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: Roll(Random?)
+  nameWithType: Die.Roll(Random?)
+  fullName: DiceEngine.Expressions.Dice.Die.Roll(System.Random?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Roll
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 29
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  example: []
+  syntax:
+    content: public int Roll(Random? random = null)
+    parameters:
+    - id: random
+      type: System.Random
+    return:
+      type: System.Int32
+    content.vb: Public Function Roll(random As Random = Nothing) As Integer
+  overload: DiceEngine.Expressions.Dice.Die.Roll*
+  implements:
+  - DiceEngine.Expressions.Dice.IDie.Roll(System.Random)
+  nameWithType.vb: Die.Roll(Random)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.Roll(System.Random)
+  name.vb: Roll(Random)
+- uid: DiceEngine.Expressions.Dice.Die.GetHashCode
+  commentId: M:DiceEngine.Expressions.Dice.Die.GetHashCode
+  id: GetHashCode
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Die.GetHashCode()
+  fullName: DiceEngine.Expressions.Dice.Die.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetHashCode
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 32
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Serves as the default hash function.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for the current object.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: DiceEngine.Expressions.Dice.Die.GetHashCode*
+- uid: DiceEngine.Expressions.Dice.Die.Equals(System.Object)
+  commentId: M:DiceEngine.Expressions.Dice.Die.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Die.Equals(object?)
+  fullName: DiceEngine.Expressions.Dice.Die.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Equals
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 35
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Determines whether the specified object is equal to the current object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: DiceEngine.Expressions.Dice.Die.Equals*
+  nameWithType.vb: Die.Equals(Object)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.Equals(Object)
+  name.vb: Equals(Object)
+- uid: DiceEngine.Expressions.Dice.Die.ToString
+  commentId: M:DiceEngine.Expressions.Dice.Die.ToString
+  id: ToString
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Die.ToString()
+  fullName: DiceEngine.Expressions.Dice.Die.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ToString
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 38
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: DiceEngine.Expressions.Dice.Die.ToString*
+  implements:
+  - DiceEngine.Expressions.IExpression.ToString
+- uid: DiceEngine.Expressions.Dice.Die.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Dice.Die.ToString(System.String)
+  id: ToString(System.String)
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: ToString(string?)
+  nameWithType: Die.ToString(string?)
+  fullName: DiceEngine.Expressions.Dice.Die.ToString(string?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ToString
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 41
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  summary: >-
+    Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified 
+
+    format <xref href="System.String" data-throw-if-not-resolved="false"></xref> for number formats.
+  example: []
+  syntax:
+    content: public string ToString(string? format)
+    parameters:
+    - id: format
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: >-
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents the current <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> using the specified format 
+
+        <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function ToString(format As String) As String
+  overload: DiceEngine.Expressions.Dice.Die.ToString*
+  implements:
+  - DiceEngine.Expressions.IExpression.ToString(System.String)
+  nameWithType.vb: Die.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.ToString(String)
+  name.vb: ToString(String)
+- uid: DiceEngine.Expressions.Dice.Die.op_Explicit(System.Int64)~DiceEngine.Expressions.Dice.Die
+  commentId: M:DiceEngine.Expressions.Dice.Die.op_Explicit(System.Int64)~DiceEngine.Expressions.Dice.Die
+  id: op_Explicit(System.Int64)~DiceEngine.Expressions.Dice.Die
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Die(long)
+  nameWithType: Die.explicit operator Die(long)
+  fullName: DiceEngine.Expressions.Dice.Die.explicit operator DiceEngine.Expressions.Dice.Die(long)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 44
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public static explicit operator Die(long n)
+    parameters:
+    - id: n
+      type: System.Int64
+    return:
+      type: DiceEngine.Expressions.Dice.Die
+    content.vb: Public Shared Narrowing Operator CType(n As Long) As Die
+  overload: DiceEngine.Expressions.Dice.Die.op_Explicit*
+  nameWithType.vb: Die.CType(Long)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.CType(Long)
+  name.vb: CType(Long)
+- uid: DiceEngine.Expressions.Dice.Die.op_Explicit(System.Int32)~DiceEngine.Expressions.Dice.Die
+  commentId: M:DiceEngine.Expressions.Dice.Die.op_Explicit(System.Int32)~DiceEngine.Expressions.Dice.Die
+  id: op_Explicit(System.Int32)~DiceEngine.Expressions.Dice.Die
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Die(int)
+  nameWithType: Die.explicit operator Die(int)
+  fullName: DiceEngine.Expressions.Dice.Die.explicit operator DiceEngine.Expressions.Dice.Die(int)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 47
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public static explicit operator Die(int n)
+    parameters:
+    - id: n
+      type: System.Int32
+    return:
+      type: DiceEngine.Expressions.Dice.Die
+    content.vb: Public Shared Narrowing Operator CType(n As Integer) As Die
+  overload: DiceEngine.Expressions.Dice.Die.op_Explicit*
+  nameWithType.vb: Die.CType(Integer)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.CType(Integer)
+  name.vb: CType(Integer)
+- uid: DiceEngine.Expressions.Dice.Die.op_Explicit(System.Int16)~DiceEngine.Expressions.Dice.Die
+  commentId: M:DiceEngine.Expressions.Dice.Die.op_Explicit(System.Int16)~DiceEngine.Expressions.Dice.Die
+  id: op_Explicit(System.Int16)~DiceEngine.Expressions.Dice.Die
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Die(short)
+  nameWithType: Die.explicit operator Die(short)
+  fullName: DiceEngine.Expressions.Dice.Die.explicit operator DiceEngine.Expressions.Dice.Die(short)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 50
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public static explicit operator Die(short n)
+    parameters:
+    - id: n
+      type: System.Int16
+    return:
+      type: DiceEngine.Expressions.Dice.Die
+    content.vb: Public Shared Narrowing Operator CType(n As Short) As Die
+  overload: DiceEngine.Expressions.Dice.Die.op_Explicit*
+  nameWithType.vb: Die.CType(Short)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.CType(Short)
+  name.vb: CType(Short)
+- uid: DiceEngine.Expressions.Dice.Die.op_Explicit(System.SByte)~DiceEngine.Expressions.Dice.Die
+  commentId: M:DiceEngine.Expressions.Dice.Die.op_Explicit(System.SByte)~DiceEngine.Expressions.Dice.Die
+  id: op_Explicit(System.SByte)~DiceEngine.Expressions.Dice.Die
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Die(sbyte)
+  nameWithType: Die.explicit operator Die(sbyte)
+  fullName: DiceEngine.Expressions.Dice.Die.explicit operator DiceEngine.Expressions.Dice.Die(sbyte)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 53
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public static explicit operator Die(sbyte n)
+    parameters:
+    - id: n
+      type: System.SByte
+    return:
+      type: DiceEngine.Expressions.Dice.Die
+    content.vb: Public Shared Narrowing Operator CType(n As SByte) As Die
+  overload: DiceEngine.Expressions.Dice.Die.op_Explicit*
+  nameWithType.vb: Die.CType(SByte)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.CType(SByte)
+  name.vb: CType(SByte)
+- uid: DiceEngine.Expressions.Dice.Die.op_Explicit(System.UInt64)~DiceEngine.Expressions.Dice.Die
+  commentId: M:DiceEngine.Expressions.Dice.Die.op_Explicit(System.UInt64)~DiceEngine.Expressions.Dice.Die
+  id: op_Explicit(System.UInt64)~DiceEngine.Expressions.Dice.Die
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Die(ulong)
+  nameWithType: Die.explicit operator Die(ulong)
+  fullName: DiceEngine.Expressions.Dice.Die.explicit operator DiceEngine.Expressions.Dice.Die(ulong)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 56
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public static explicit operator Die(ulong n)
+    parameters:
+    - id: n
+      type: System.UInt64
+    return:
+      type: DiceEngine.Expressions.Dice.Die
+    content.vb: Public Shared Narrowing Operator CType(n As ULong) As Die
+  overload: DiceEngine.Expressions.Dice.Die.op_Explicit*
+  nameWithType.vb: Die.CType(ULong)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.CType(ULong)
+  name.vb: CType(ULong)
+- uid: DiceEngine.Expressions.Dice.Die.op_Explicit(System.UInt32)~DiceEngine.Expressions.Dice.Die
+  commentId: M:DiceEngine.Expressions.Dice.Die.op_Explicit(System.UInt32)~DiceEngine.Expressions.Dice.Die
+  id: op_Explicit(System.UInt32)~DiceEngine.Expressions.Dice.Die
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Die(uint)
+  nameWithType: Die.explicit operator Die(uint)
+  fullName: DiceEngine.Expressions.Dice.Die.explicit operator DiceEngine.Expressions.Dice.Die(uint)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 59
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public static explicit operator Die(uint n)
+    parameters:
+    - id: n
+      type: System.UInt32
+    return:
+      type: DiceEngine.Expressions.Dice.Die
+    content.vb: Public Shared Narrowing Operator CType(n As UInteger) As Die
+  overload: DiceEngine.Expressions.Dice.Die.op_Explicit*
+  nameWithType.vb: Die.CType(UInteger)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.CType(UInteger)
+  name.vb: CType(UInteger)
+- uid: DiceEngine.Expressions.Dice.Die.op_Explicit(System.UInt16)~DiceEngine.Expressions.Dice.Die
+  commentId: M:DiceEngine.Expressions.Dice.Die.op_Explicit(System.UInt16)~DiceEngine.Expressions.Dice.Die
+  id: op_Explicit(System.UInt16)~DiceEngine.Expressions.Dice.Die
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Die(ushort)
+  nameWithType: Die.explicit operator Die(ushort)
+  fullName: DiceEngine.Expressions.Dice.Die.explicit operator DiceEngine.Expressions.Dice.Die(ushort)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 62
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public static explicit operator Die(ushort n)
+    parameters:
+    - id: n
+      type: System.UInt16
+    return:
+      type: DiceEngine.Expressions.Dice.Die
+    content.vb: Public Shared Narrowing Operator CType(n As UShort) As Die
+  overload: DiceEngine.Expressions.Dice.Die.op_Explicit*
+  nameWithType.vb: Die.CType(UShort)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.CType(UShort)
+  name.vb: CType(UShort)
+- uid: DiceEngine.Expressions.Dice.Die.op_Explicit(System.Byte)~DiceEngine.Expressions.Dice.Die
+  commentId: M:DiceEngine.Expressions.Dice.Die.op_Explicit(System.Byte)~DiceEngine.Expressions.Dice.Die
+  id: op_Explicit(System.Byte)~DiceEngine.Expressions.Dice.Die
+  parent: DiceEngine.Expressions.Dice.Die
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Die(byte)
+  nameWithType: Die.explicit operator Die(byte)
+  fullName: DiceEngine.Expressions.Dice.Die.explicit operator DiceEngine.Expressions.Dice.Die(byte)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Dice/Die.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Explicit
+    path: ../src/DiceEngine/Expressions/Dice/Die.cs
+    startLine: 65
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Dice
+  syntax:
+    content: public static explicit operator Die(byte n)
+    parameters:
+    - id: n
+      type: System.Byte
+    return:
+      type: DiceEngine.Expressions.Dice.Die
+    content.vb: Public Shared Narrowing Operator CType(n As Byte) As Die
+  overload: DiceEngine.Expressions.Dice.Die.op_Explicit*
+  nameWithType.vb: Die.CType(Byte)
+  fullName.vb: DiceEngine.Expressions.Dice.Die.CType(Byte)
+  name.vb: CType(Byte)
+references:
+- uid: DiceEngine.Expressions.Dice
+  commentId: N:DiceEngine.Expressions.Dice
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Dice
+  nameWithType: DiceEngine.Expressions.Dice
+  fullName: DiceEngine.Expressions.Dice
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Dice
+    name: Dice
+    href: DiceEngine.Expressions.Dice.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Dice
+    name: Dice
+    href: DiceEngine.Expressions.Dice.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DiceEngine.Expressions.Dice.IDie
+  commentId: T:DiceEngine.Expressions.Dice.IDie
+  parent: DiceEngine.Expressions.Dice
+  href: DiceEngine.Expressions.Dice.IDie.html
+  name: IDie
+  nameWithType: IDie
+  fullName: DiceEngine.Expressions.Dice.IDie
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Expressions.Dice.Die.#ctor*
+  commentId: Overload:DiceEngine.Expressions.Dice.Die.#ctor
+  href: DiceEngine.Expressions.Dice.Die.html#DiceEngine_Expressions_Dice_Die__ctor_System_Int32_
+  name: Die
+  nameWithType: Die.Die
+  fullName: DiceEngine.Expressions.Dice.Die.Die
+  nameWithType.vb: Die.New
+  fullName.vb: DiceEngine.Expressions.Dice.Die.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Dice.Die.Evaluate*
+  commentId: Overload:DiceEngine.Expressions.Dice.Die.Evaluate
+  href: DiceEngine.Expressions.Dice.Die.html#DiceEngine_Expressions_Dice_Die_Evaluate
+  name: Evaluate
+  nameWithType: Die.Evaluate
+  fullName: DiceEngine.Expressions.Dice.Die.Evaluate
+- uid: DiceEngine.Expressions.IExpression.Evaluate
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
+  name: Evaluate()
+  nameWithType: IExpression.Evaluate()
+  fullName: DiceEngine.Expressions.IExpression.Evaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
+  name: Evaluate(ExpressionContext)
+  nameWithType: IExpression.Evaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
+  name: ExpressionContext
+  nameWithType: ExpressionContext
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.Dice.Die.StepEvaluate*
+  commentId: Overload:DiceEngine.Expressions.Dice.Die.StepEvaluate
+  href: DiceEngine.Expressions.Dice.Die.html#DiceEngine_Expressions_Dice_Die_StepEvaluate
+  name: StepEvaluate
+  nameWithType: Die.StepEvaluate
+  fullName: DiceEngine.Expressions.Dice.Die.StepEvaluate
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
+  name: StepEvaluate()
+  nameWithType: IExpression.StepEvaluate()
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  name: StepEvaluate(ExpressionContext)
+  nameWithType: IExpression.StepEvaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Dice.Die.EvaluateDice*
+  commentId: Overload:DiceEngine.Expressions.Dice.Die.EvaluateDice
+  href: DiceEngine.Expressions.Dice.Die.html#DiceEngine_Expressions_Dice_Die_EvaluateDice
+  name: EvaluateDice
+  nameWithType: Die.EvaluateDice
+  fullName: DiceEngine.Expressions.Dice.Die.EvaluateDice
+- uid: DiceEngine.Expressions.IExpression.EvaluateDice
+  commentId: M:DiceEngine.Expressions.IExpression.EvaluateDice
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice
+  name: EvaluateDice()
+  nameWithType: IExpression.EvaluateDice()
+  fullName: DiceEngine.Expressions.IExpression.EvaluateDice()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  name: EvaluateDice(ExpressionContext)
+  nameWithType: IExpression.EvaluateDice(ExpressionContext)
+  fullName: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Dice.Die.Roll*
+  commentId: Overload:DiceEngine.Expressions.Dice.Die.Roll
+  href: DiceEngine.Expressions.Dice.Die.html#DiceEngine_Expressions_Dice_Die_Roll_System_Random_
+  name: Roll
+  nameWithType: Die.Roll
+  fullName: DiceEngine.Expressions.Dice.Die.Roll
+- uid: DiceEngine.Expressions.Dice.IDie.Roll(System.Random)
+  commentId: M:DiceEngine.Expressions.Dice.IDie.Roll(System.Random)
+  parent: DiceEngine.Expressions.Dice.IDie
+  isExternal: true
+  href: DiceEngine.Expressions.Dice.IDie.html#DiceEngine_Expressions_Dice_IDie_Roll_System_Random_
+  name: Roll(Random)
+  nameWithType: IDie.Roll(Random)
+  fullName: DiceEngine.Expressions.Dice.IDie.Roll(System.Random)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Dice.IDie.Roll(System.Random)
+    name: Roll
+    href: DiceEngine.Expressions.Dice.IDie.html#DiceEngine_Expressions_Dice_IDie_Roll_System_Random_
+  - name: (
+  - uid: System.Random
+    name: Random
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.random
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Dice.IDie.Roll(System.Random)
+    name: Roll
+    href: DiceEngine.Expressions.Dice.IDie.html#DiceEngine_Expressions_Dice_IDie_Roll_System_Random_
+  - name: (
+  - uid: System.Random
+    name: Random
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.random
+  - name: )
+- uid: System.Random
+  commentId: T:System.Random
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.random
+  name: Random
+  nameWithType: Random
+  fullName: System.Random
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Dice.Die.GetHashCode*
+  commentId: Overload:DiceEngine.Expressions.Dice.Die.GetHashCode
+  href: DiceEngine.Expressions.Dice.Die.html#DiceEngine_Expressions_Dice_Die_GetHashCode
+  name: GetHashCode
+  nameWithType: Die.GetHashCode
+  fullName: DiceEngine.Expressions.Dice.Die.GetHashCode
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DiceEngine.Expressions.Dice.Die.Equals*
+  commentId: Overload:DiceEngine.Expressions.Dice.Die.Equals
+  href: DiceEngine.Expressions.Dice.Die.html#DiceEngine_Expressions_Dice_Die_Equals_System_Object_
+  name: Equals
+  nameWithType: Die.Equals
+  fullName: DiceEngine.Expressions.Dice.Die.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Dice.Die.ToString*
+  commentId: Overload:DiceEngine.Expressions.Dice.Die.ToString
+  href: DiceEngine.Expressions.Dice.Die.html#DiceEngine_Expressions_Dice_Die_ToString
+  name: ToString
+  nameWithType: Die.ToString
+  fullName: DiceEngine.Expressions.Dice.Die.ToString
+- uid: DiceEngine.Expressions.IExpression.ToString
+  commentId: M:DiceEngine.Expressions.IExpression.ToString
+  parent: DiceEngine.Expressions.IExpression
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
+  name: ToString()
+  nameWithType: IExpression.ToString()
+  fullName: DiceEngine.Expressions.IExpression.ToString()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.ToString
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.ToString
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.IExpression.ToString(System.String)
+  parent: DiceEngine.Expressions.IExpression
+  isExternal: true
+  href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  name: ToString(string)
+  nameWithType: IExpression.ToString(string)
+  fullName: DiceEngine.Expressions.IExpression.ToString(string)
+  nameWithType.vb: IExpression.ToString(String)
+  fullName.vb: DiceEngine.Expressions.IExpression.ToString(String)
+  name.vb: ToString(String)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.IExpression.html#DiceEngine_Expressions_IExpression_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: DiceEngine.Expressions.Dice.Die.op_Explicit*
+  commentId: Overload:DiceEngine.Expressions.Dice.Die.op_Explicit
+  name: explicit operator
+  nameWithType: Die.explicit operator
+  fullName: DiceEngine.Expressions.Dice.Die.explicit operator
+  nameWithType.vb: Die.CType
+  fullName.vb: DiceEngine.Expressions.Dice.Die.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: DiceEngine.Expressions.Dice.Die
+  commentId: T:DiceEngine.Expressions.Dice.Die
+  parent: DiceEngine.Expressions.Dice
+  href: DiceEngine.Expressions.Dice.Die.html
+  name: Die
+  nameWithType: Die
+  fullName: DiceEngine.Expressions.Dice.Die
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.sbyte
+  name: sbyte
+  nameWithType: sbyte
+  fullName: sbyte
+  nameWithType.vb: SByte
+  fullName.vb: SByte
+  name.vb: SByte
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte

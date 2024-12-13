@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Components
+  commentId: N:DiceEngine.Expressions.Components
+  id: DiceEngine.Expressions.Components
+  children:
+  - DiceEngine.Expressions.Components.ContextParameter
+  - DiceEngine.Expressions.Components.IParameter
+  - DiceEngine.Expressions.Components.Parameter
+  - DiceEngine.Expressions.Components.ResultSelector
+  - DiceEngine.Expressions.Components.TypeParameter
+  - DiceEngine.Expressions.Components.TypeParameter`1
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Expressions.Components
+  nameWithType: DiceEngine.Expressions.Components
+  fullName: DiceEngine.Expressions.Components
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Expressions.Components.ContextParameter
+  commentId: T:DiceEngine.Expressions.Components.ContextParameter
+  href: DiceEngine.Expressions.Components.ContextParameter.html
+  name: ContextParameter
+  nameWithType: ContextParameter
+  fullName: DiceEngine.Expressions.Components.ContextParameter
+- uid: DiceEngine.Expressions.Components.Parameter
+  commentId: T:DiceEngine.Expressions.Components.Parameter
+  parent: DiceEngine.Expressions.Components
+  href: DiceEngine.Expressions.Components.Parameter.html
+  name: Parameter
+  nameWithType: Parameter
+  fullName: DiceEngine.Expressions.Components.Parameter
+- uid: DiceEngine.Expressions.Components.IParameter
+  commentId: T:DiceEngine.Expressions.Components.IParameter
+  parent: DiceEngine.Expressions.Components
+  href: DiceEngine.Expressions.Components.IParameter.html
+  name: IParameter
+  nameWithType: IParameter
+  fullName: DiceEngine.Expressions.Components.IParameter
+- uid: DiceEngine.Expressions.Components.ResultSelector
+  commentId: T:DiceEngine.Expressions.Components.ResultSelector
+  parent: DiceEngine.Expressions.Components
+  href: DiceEngine.Expressions.Components.ResultSelector.html
+  name: ResultSelector
+  nameWithType: ResultSelector
+  fullName: DiceEngine.Expressions.Components.ResultSelector
+- uid: DiceEngine.Expressions.Components.TypeParameter`1
+  commentId: T:DiceEngine.Expressions.Components.TypeParameter`1
+  href: DiceEngine.Expressions.Components.TypeParameter-1.html
+  name: TypeParameter<T>
+  nameWithType: TypeParameter<T>
+  fullName: DiceEngine.Expressions.Components.TypeParameter<T>
+  nameWithType.vb: TypeParameter(Of T)
+  fullName.vb: DiceEngine.Expressions.Components.TypeParameter(Of T)
+  name.vb: TypeParameter(Of T)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Components.TypeParameter`1
+    name: TypeParameter
+    href: DiceEngine.Expressions.Components.TypeParameter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: DiceEngine.Expressions.Components.TypeParameter`1
+    name: TypeParameter
+    href: DiceEngine.Expressions.Components.TypeParameter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.Expressions.Components.TypeParameter
+  commentId: T:DiceEngine.Expressions.Components.TypeParameter
+  href: DiceEngine.Expressions.Components.TypeParameter.html
+  name: TypeParameter
+  nameWithType: TypeParameter
+  fullName: DiceEngine.Expressions.Components.TypeParameter
+- uid: DiceEngine.Expressions.Components
+  commentId: N:DiceEngine.Expressions.Components
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Components
+  nameWithType: DiceEngine.Expressions.Components
+  fullName: DiceEngine.Expressions.Components
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Components
+    name: Components
+    href: DiceEngine.Expressions.Components.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Components
+    name: Components
+    href: DiceEngine.Expressions.Components.html

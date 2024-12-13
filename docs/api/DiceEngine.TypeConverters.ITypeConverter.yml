@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.TypeConverters.ITypeConverter
+  commentId: T:DiceEngine.TypeConverters.ITypeConverter
+  id: ITypeConverter
+  parent: DiceEngine.TypeConverters
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ITypeConverter
+  nameWithType: ITypeConverter
+  fullName: DiceEngine.TypeConverters.ITypeConverter
+  type: Interface
+  source:
+    remote:
+      path: src/DiceEngine/TypeConverters/ITypeConverter.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ITypeConverter
+    path: ../src/DiceEngine/TypeConverters/ITypeConverter.cs
+    startLine: 22
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.TypeConverters
+  syntax:
+    content: public interface ITypeConverter
+    content.vb: Public Interface ITypeConverter
+references:
+- uid: DiceEngine.TypeConverters
+  commentId: N:DiceEngine.TypeConverters
+  href: DiceEngine.html
+  name: DiceEngine.TypeConverters
+  nameWithType: DiceEngine.TypeConverters
+  fullName: DiceEngine.TypeConverters
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.TypeConverters
+    name: TypeConverters
+    href: DiceEngine.TypeConverters.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.TypeConverters
+    name: TypeConverters
+    href: DiceEngine.TypeConverters.html

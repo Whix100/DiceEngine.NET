@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Tokenization
+  commentId: N:DiceEngine.Tokenization
+  id: DiceEngine.Tokenization
+  children:
+  - DiceEngine.Tokenization.Tokenizer
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Tokenization
+  nameWithType: DiceEngine.Tokenization
+  fullName: DiceEngine.Tokenization
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Tokenization.Tokenizer
+  commentId: T:DiceEngine.Tokenization.Tokenizer
+  parent: DiceEngine.Tokenization
+  href: DiceEngine.Tokenization.Tokenizer.html
+  name: Tokenizer
+  nameWithType: Tokenizer
+  fullName: DiceEngine.Tokenization.Tokenizer
+- uid: DiceEngine.Tokenization
+  commentId: N:DiceEngine.Tokenization
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization
+  nameWithType: DiceEngine.Tokenization
+  fullName: DiceEngine.Tokenization
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html

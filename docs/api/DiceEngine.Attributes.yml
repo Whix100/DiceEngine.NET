@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Attributes
+  commentId: N:DiceEngine.Attributes
+  id: DiceEngine.Attributes
+  children:
+  - DiceEngine.Attributes.ElementwiseAttribute
+  - DiceEngine.Attributes.NativeFunctionAttribute
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Attributes
+  nameWithType: DiceEngine.Attributes
+  fullName: DiceEngine.Attributes
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Attributes.NativeFunctionAttribute
+  commentId: T:DiceEngine.Attributes.NativeFunctionAttribute
+  parent: DiceEngine.Attributes
+  href: DiceEngine.Attributes.NativeFunctionAttribute.html
+  name: NativeFunctionAttribute
+  nameWithType: NativeFunctionAttribute
+  fullName: DiceEngine.Attributes.NativeFunctionAttribute
+- uid: DiceEngine.Attributes.ElementwiseAttribute
+  commentId: T:DiceEngine.Attributes.ElementwiseAttribute
+  href: DiceEngine.Attributes.ElementwiseAttribute.html
+  name: ElementwiseAttribute
+  nameWithType: ElementwiseAttribute
+  fullName: DiceEngine.Attributes.ElementwiseAttribute
+- uid: DiceEngine.Attributes
+  commentId: N:DiceEngine.Attributes
+  href: DiceEngine.html
+  name: DiceEngine.Attributes
+  nameWithType: DiceEngine.Attributes
+  fullName: DiceEngine.Attributes
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Attributes
+    name: Attributes
+    href: DiceEngine.Attributes.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Attributes
+    name: Attributes
+    href: DiceEngine.Attributes.html

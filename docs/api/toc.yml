@@ -1,0 +1,389 @@
+### YamlMime:TableOfContent
+items:
+- uid: DiceEngine.Attributes
+  name: DiceEngine.Attributes
+  type: Namespace
+  items:
+  - uid: DiceEngine.Attributes.ElementwiseAttribute
+    name: ElementwiseAttribute
+    type: Class
+  - uid: DiceEngine.Attributes.NativeFunctionAttribute
+    name: NativeFunctionAttribute
+    type: Class
+- uid: DiceEngine.Context
+  name: DiceEngine.Context
+  type: Namespace
+  items:
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    type: Class
+- uid: DiceEngine.Exceptions
+  name: DiceEngine.Exceptions
+  type: Namespace
+  items:
+  - uid: DiceEngine.Exceptions.ArgumentValueException
+    name: ArgumentValueException
+    type: Class
+  - uid: DiceEngine.Exceptions.InvalidAssignmentException
+    name: InvalidAssignmentException
+    type: Class
+  - uid: DiceEngine.Exceptions.TooManyDiceRollsException
+    name: TooManyDiceRollsException
+    type: Class
+  - uid: DiceEngine.Exceptions.UnbalancedParenthesesException
+    name: UnbalancedParenthesesException
+    type: Class
+- uid: DiceEngine.Expressions
+  name: DiceEngine.Expressions
+  type: Namespace
+  items:
+  - uid: DiceEngine.Expressions.AssignmentOperator
+    name: AssignmentOperator
+    type: Class
+  - uid: DiceEngine.Expressions.BinaryOperator
+    name: BinaryOperator
+    type: Class
+  - uid: DiceEngine.Expressions.Constant
+    name: Constant
+    type: Class
+  - uid: DiceEngine.Expressions.FunctionCall
+    name: FunctionCall
+    type: Class
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    type: Interface
+  - uid: DiceEngine.Expressions.Indexer
+    name: Indexer
+    type: Class
+  - uid: DiceEngine.Expressions.Parentheses
+    name: Parentheses
+    type: Class
+  - uid: DiceEngine.Expressions.PostfixOperator
+    name: PostfixOperator
+    type: Class
+  - uid: DiceEngine.Expressions.PrefixOperator
+    name: PrefixOperator
+    type: Class
+  - uid: DiceEngine.Expressions.Variable
+    name: Variable
+    type: Class
+- uid: DiceEngine.Expressions.Collections
+  name: DiceEngine.Expressions.Collections
+  type: Namespace
+  items:
+  - uid: DiceEngine.Expressions.Collections.IEnumerableExpression
+    name: IEnumerableExpression
+    type: Interface
+  - uid: DiceEngine.Expressions.Collections.Set
+    name: Set
+    type: Class
+  - uid: DiceEngine.Expressions.Collections.TerminalCollection
+    name: TerminalCollection
+    type: Class
+  - uid: DiceEngine.Expressions.Collections.TerminalCollection`1
+    name: TerminalCollection<T>
+    type: Class
+  - uid: DiceEngine.Expressions.Collections.Vector
+    name: Vector
+    type: Class
+- uid: DiceEngine.Expressions.Components
+  name: DiceEngine.Expressions.Components
+  type: Namespace
+  items:
+  - uid: DiceEngine.Expressions.Components.ContextParameter
+    name: ContextParameter
+    type: Struct
+  - uid: DiceEngine.Expressions.Components.IParameter
+    name: IParameter
+    type: Interface
+  - uid: DiceEngine.Expressions.Components.Parameter
+    name: Parameter
+    type: Struct
+  - uid: DiceEngine.Expressions.Components.ResultSelector
+    name: ResultSelector
+    type: Struct
+  - uid: DiceEngine.Expressions.Components.TypeParameter
+    name: TypeParameter
+    type: Class
+  - uid: DiceEngine.Expressions.Components.TypeParameter`1
+    name: TypeParameter<T>
+    type: Struct
+- uid: DiceEngine.Expressions.Dice
+  name: DiceEngine.Expressions.Dice
+  type: Namespace
+  items:
+  - uid: DiceEngine.Expressions.Dice.DiceOperator
+    name: DiceOperator
+    type: Class
+  - uid: DiceEngine.Expressions.Dice.DiceSet
+    name: DiceSet
+    type: Class
+  - uid: DiceEngine.Expressions.Dice.Die
+    name: Die
+    type: Class
+  - uid: DiceEngine.Expressions.Dice.FateDie
+    name: FateDie
+    type: Class
+  - uid: DiceEngine.Expressions.Dice.IDie
+    name: IDie
+    type: Interface
+  - uid: DiceEngine.Expressions.Dice.PercentileDie
+    name: PercentileDie
+    type: Class
+  - uid: DiceEngine.Expressions.Dice.RollResult
+    name: RollResult
+    type: Class
+  - uid: DiceEngine.Expressions.Dice.RollValue
+    name: RollValue
+    type: Struct
+- uid: DiceEngine.Expressions.Functions
+  name: DiceEngine.Expressions.Functions
+  type: Namespace
+  items:
+  - uid: DiceEngine.Expressions.Functions.Function
+    name: Function
+    type: Class
+  - uid: DiceEngine.Expressions.Functions.LambdaFunction
+    name: LambdaFunction
+    type: Class
+  - uid: DiceEngine.Expressions.Functions.NativeFunction
+    name: NativeFunction
+    type: Class
+- uid: DiceEngine.Expressions.Interfaces
+  name: DiceEngine.Expressions.Interfaces
+  type: Namespace
+  items:
+  - uid: DiceEngine.Expressions.Interfaces.IBinaryOperable
+    name: IBinaryOperable
+    type: Interface
+  - uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+    name: ILogicalConvertible
+    type: Interface
+  - uid: DiceEngine.Expressions.Interfaces.IPostfixOperable
+    name: IPostfixOperable
+    type: Interface
+  - uid: DiceEngine.Expressions.Interfaces.IPrefixOperable
+    name: IPrefixOperable
+    type: Interface
+- uid: DiceEngine.Expressions.Terminals
+  name: DiceEngine.Expressions.Terminals
+  type: Namespace
+  items:
+  - uid: DiceEngine.Expressions.Terminals.Infinity
+    name: Infinity
+    type: Class
+  - uid: DiceEngine.Expressions.Terminals.Logical
+    name: Logical
+    type: Class
+  - uid: DiceEngine.Expressions.Terminals.Number
+    name: Number
+    type: Class
+  - uid: DiceEngine.Expressions.Terminals.Terminal
+    name: Terminal
+    type: Class
+  - uid: DiceEngine.Expressions.Terminals.Undefined
+    name: Undefined
+    type: Class
+- uid: DiceEngine.FunctionAttributes
+  name: DiceEngine.FunctionAttributes
+  type: Namespace
+  items:
+  - uid: DiceEngine.FunctionAttributes.FunctionAttribute
+    name: FunctionAttribute
+    type: Class
+- uid: DiceEngine.FunctionAttributes.ConditionalAttributes
+  name: DiceEngine.FunctionAttributes.ConditionalAttributes
+  type: Namespace
+  items:
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.AreNumbersAttribute
+    name: AreNumbersAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.ConditionAttribute
+    name: ConditionAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.GapAttribute
+    name: GapAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.IsExpressionTypeAttribute
+    name: IsExpressionTypeAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.IsIntegerAttribute
+    name: IsIntegerAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.IsNumberAttribute
+    name: IsNumberAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MaximumAttribute
+    name: MaximumAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.MinimumAttribute
+    name: MinimumAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.NotUndefinedAttribute
+    name: NotUndefinedAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.ConditionalAttributes.RangeAttribute
+    name: RangeAttribute
+    type: Class
+- uid: DiceEngine.FunctionAttributes.PreprocessAttributes
+  name: DiceEngine.FunctionAttributes.PreprocessAttributes
+  type: Namespace
+  items:
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsBooleanAttribute
+    name: AsBooleanAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes.AsNumberAttribute
+    name: AsNumberAttribute
+    type: Class
+  - uid: DiceEngine.FunctionAttributes.PreprocessAttributes.PreprocessAttribute
+    name: PreprocessAttribute
+    type: Class
+- uid: DiceEngine.NativeFunctions
+  name: DiceEngine.NativeFunctions
+  type: Namespace
+  items:
+  - uid: DiceEngine.NativeFunctions.CollectionFunctions
+    name: CollectionFunctions
+    type: Class
+  - uid: DiceEngine.NativeFunctions.FactorialFunctions
+    name: FactorialFunctions
+    type: Class
+  - uid: DiceEngine.NativeFunctions.LogicalFunctions
+    name: LogicalFunctions
+    type: Class
+  - uid: DiceEngine.NativeFunctions.StatisticalFunctions
+    name: StatisticalFunctions
+    type: Class
+  - uid: DiceEngine.NativeFunctions.TrigonometricFunctions
+    name: TrigonometricFunctions
+    type: Class
+- uid: DiceEngine.Parsing
+  name: DiceEngine.Parsing
+  type: Namespace
+  items:
+  - uid: DiceEngine.Parsing.Brackets
+    name: Brackets
+    type: Enum
+  - uid: DiceEngine.Parsing.Parser
+    name: Parser
+    type: Class
+  - uid: DiceEngine.Parsing.TokenMatch
+    name: TokenMatch
+    type: Class
+- uid: DiceEngine.Parsing.Defaults
+  name: DiceEngine.Parsing.Defaults
+  type: Namespace
+  items:
+  - uid: DiceEngine.Parsing.Defaults.ParserDefaults
+    name: ParserDefaults
+    type: Class
+- uid: DiceEngine.Parsing.Rules
+  name: DiceEngine.Parsing.Rules
+  type: Namespace
+  items:
+  - uid: DiceEngine.Parsing.Rules.IParserRule
+    name: IParserRule
+    type: Interface
+  - uid: DiceEngine.Parsing.Rules.OptionRule
+    name: OptionRule
+    type: Class
+  - uid: DiceEngine.Parsing.Rules.ParserRule
+    name: ParserRule
+    type: Class
+  - uid: DiceEngine.Parsing.Rules.RegexRule
+    name: RegexRule
+    type: Class
+  - uid: DiceEngine.Parsing.Rules.TypeRule`1
+    name: TypeRule<T>
+    type: Class
+- uid: DiceEngine.Parsing.Tokens
+  name: DiceEngine.Parsing.Tokens
+  type: Namespace
+  items:
+  - uid: DiceEngine.Parsing.Tokens.CondensedToken
+    name: CondensedToken
+    type: Class
+- uid: DiceEngine.Tokenization
+  name: DiceEngine.Tokenization
+  type: Namespace
+  items:
+  - uid: DiceEngine.Tokenization.Tokenizer
+    name: Tokenizer
+    type: Class
+- uid: DiceEngine.Tokenization.Rules
+  name: DiceEngine.Tokenization.Rules
+  type: Namespace
+  items:
+  - uid: DiceEngine.Tokenization.Rules.CharSetRule
+    name: CharSetRule
+    type: Class
+  - uid: DiceEngine.Tokenization.Rules.ITokenizerRule
+    name: ITokenizerRule
+    type: Interface
+  - uid: DiceEngine.Tokenization.Rules.OptionRule
+    name: OptionRule
+    type: Class
+  - uid: DiceEngine.Tokenization.Rules.RegexRule
+    name: RegexRule
+    type: Class
+  - uid: DiceEngine.Tokenization.Rules.TokenizerRule
+    name: TokenizerRule
+    type: Class
+- uid: DiceEngine.Tokenization.Tokens
+  name: DiceEngine.Tokenization.Tokens
+  type: Namespace
+  items:
+  - uid: DiceEngine.Tokenization.Tokens.Bracket
+    name: Bracket
+    type: Enum
+  - uid: DiceEngine.Tokenization.Tokens.CloseBracketToken
+    name: CloseBracketToken
+    type: Class
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    type: Interface
+  - uid: DiceEngine.Tokenization.Tokens.NumberToken
+    name: NumberToken
+    type: Class
+  - uid: DiceEngine.Tokenization.Tokens.OpenBracketToken
+    name: OpenBracketToken
+    type: Class
+  - uid: DiceEngine.Tokenization.Tokens.SymbolToken
+    name: SymbolToken
+    type: Class
+  - uid: DiceEngine.Tokenization.Tokens.Token
+    name: Token
+    type: Class
+  - uid: DiceEngine.Tokenization.Tokens.WordToken
+    name: WordToken
+    type: Class
+- uid: DiceEngine.Tokenization.Tokens.Defaults
+  name: DiceEngine.Tokenization.Tokens.Defaults
+  type: Namespace
+  items:
+  - uid: DiceEngine.Tokenization.Tokens.Defaults.TokenizerDefaults
+    name: TokenizerDefaults
+    type: Class
+- uid: DiceEngine.TypeConverters
+  name: DiceEngine.TypeConverters
+  type: Namespace
+  items:
+  - uid: DiceEngine.TypeConverters.BooleanTypeConverter
+    name: BooleanTypeConverter
+    type: Class
+  - uid: DiceEngine.TypeConverters.DecimalTypeConverter
+    name: DecimalTypeConverter
+    type: Class
+  - uid: DiceEngine.TypeConverters.FloatTypeConverter`1
+    name: FloatTypeConverter<T>
+    type: Class
+  - uid: DiceEngine.TypeConverters.ITypeConverter
+    name: ITypeConverter
+    type: Interface
+  - uid: DiceEngine.TypeConverters.ITypeConverter`1
+    name: ITypeConverter<T>
+    type: Interface
+  - uid: DiceEngine.TypeConverters.IntegerTypeConverter`1
+    name: IntegerTypeConverter<T>
+    type: Class
+memberLayout: SamePage

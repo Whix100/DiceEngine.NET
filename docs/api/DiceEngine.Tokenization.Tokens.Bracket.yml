@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Tokenization.Tokens.Bracket
+  commentId: T:DiceEngine.Tokenization.Tokens.Bracket
+  id: Bracket
+  parent: DiceEngine.Tokenization.Tokens
+  children:
+  - DiceEngine.Tokenization.Tokens.Bracket.Curly
+  - DiceEngine.Tokenization.Tokens.Bracket.Parenthesis
+  - DiceEngine.Tokenization.Tokens.Bracket.Square
+  langs:
+  - csharp
+  - vb
+  name: Bracket
+  nameWithType: Bracket
+  fullName: DiceEngine.Tokenization.Tokens.Bracket
+  type: Enum
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Bracket
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
+    startLine: 84
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: public enum Bracket
+    content.vb: Public Enum Bracket
+- uid: DiceEngine.Tokenization.Tokens.Bracket.Parenthesis
+  commentId: F:DiceEngine.Tokenization.Tokens.Bracket.Parenthesis
+  id: Parenthesis
+  parent: DiceEngine.Tokenization.Tokens.Bracket
+  langs:
+  - csharp
+  - vb
+  name: Parenthesis
+  nameWithType: Bracket.Parenthesis
+  fullName: DiceEngine.Tokenization.Tokens.Bracket.Parenthesis
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Parenthesis
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
+    startLine: 86
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: Parenthesis = 1
+    return:
+      type: DiceEngine.Tokenization.Tokens.Bracket
+- uid: DiceEngine.Tokenization.Tokens.Bracket.Square
+  commentId: F:DiceEngine.Tokenization.Tokens.Bracket.Square
+  id: Square
+  parent: DiceEngine.Tokenization.Tokens.Bracket
+  langs:
+  - csharp
+  - vb
+  name: Square
+  nameWithType: Bracket.Square
+  fullName: DiceEngine.Tokenization.Tokens.Bracket.Square
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Square
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
+    startLine: 87
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: Square = 2
+    return:
+      type: DiceEngine.Tokenization.Tokens.Bracket
+- uid: DiceEngine.Tokenization.Tokens.Bracket.Curly
+  commentId: F:DiceEngine.Tokenization.Tokens.Bracket.Curly
+  id: Curly
+  parent: DiceEngine.Tokenization.Tokens.Bracket
+  langs:
+  - csharp
+  - vb
+  name: Curly
+  nameWithType: Bracket.Curly
+  fullName: DiceEngine.Tokenization.Tokens.Bracket.Curly
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Tokens/BracketToken.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Curly
+    path: ../src/DiceEngine/Tokenization/Tokens/BracketToken.cs
+    startLine: 88
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Tokens
+  syntax:
+    content: Curly = 4
+    return:
+      type: DiceEngine.Tokenization.Tokens.Bracket
+references:
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+- uid: DiceEngine.Tokenization.Tokens.Bracket
+  commentId: T:DiceEngine.Tokenization.Tokens.Bracket
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.Bracket.html
+  name: Bracket
+  nameWithType: Bracket
+  fullName: DiceEngine.Tokenization.Tokens.Bracket

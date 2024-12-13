@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Exceptions
+  commentId: N:DiceEngine.Exceptions
+  id: DiceEngine.Exceptions
+  children:
+  - DiceEngine.Exceptions.ArgumentValueException
+  - DiceEngine.Exceptions.InvalidAssignmentException
+  - DiceEngine.Exceptions.TooManyDiceRollsException
+  - DiceEngine.Exceptions.UnbalancedParenthesesException
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Exceptions
+  nameWithType: DiceEngine.Exceptions
+  fullName: DiceEngine.Exceptions
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Exceptions.ArgumentValueException
+  commentId: T:DiceEngine.Exceptions.ArgumentValueException
+  href: DiceEngine.Exceptions.ArgumentValueException.html
+  name: ArgumentValueException
+  nameWithType: ArgumentValueException
+  fullName: DiceEngine.Exceptions.ArgumentValueException
+- uid: DiceEngine.Exceptions.InvalidAssignmentException
+  commentId: T:DiceEngine.Exceptions.InvalidAssignmentException
+  href: DiceEngine.Exceptions.InvalidAssignmentException.html
+  name: InvalidAssignmentException
+  nameWithType: InvalidAssignmentException
+  fullName: DiceEngine.Exceptions.InvalidAssignmentException
+- uid: DiceEngine.Exceptions.TooManyDiceRollsException
+  commentId: T:DiceEngine.Exceptions.TooManyDiceRollsException
+  href: DiceEngine.Exceptions.TooManyDiceRollsException.html
+  name: TooManyDiceRollsException
+  nameWithType: TooManyDiceRollsException
+  fullName: DiceEngine.Exceptions.TooManyDiceRollsException
+- uid: DiceEngine.Exceptions.UnbalancedParenthesesException
+  commentId: T:DiceEngine.Exceptions.UnbalancedParenthesesException
+  href: DiceEngine.Exceptions.UnbalancedParenthesesException.html
+  name: UnbalancedParenthesesException
+  nameWithType: UnbalancedParenthesesException
+  fullName: DiceEngine.Exceptions.UnbalancedParenthesesException

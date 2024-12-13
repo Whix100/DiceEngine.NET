@@ -1,0 +1,1108 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Functions.Function
+  commentId: T:DiceEngine.Expressions.Functions.Function
+  id: Function
+  parent: DiceEngine.Expressions.Functions
+  children:
+  - DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext,DiceEngine.Context.ExpressionContext,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter})
+  - DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Functions.Function.IsElementwise
+  - DiceEngine.Expressions.Functions.Function.Parameters
+  - DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  langs:
+  - csharp
+  - vb
+  name: Function
+  nameWithType: Function
+  fullName: DiceEngine.Expressions.Functions.Function
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Functions/Function.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Function
+    path: ../src/DiceEngine/Expressions/Functions/Function.cs
+    startLine: 8
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
+  syntax:
+    content: 'public abstract class Function : Terminal, IExpression'
+    content.vb: Public MustInherit Class [Function] Inherits Terminal Implements IExpression
+  inheritance:
+  - System.Object
+  - DiceEngine.Expressions.Terminals.Terminal
+  derivedClasses:
+  - DiceEngine.Expressions.Functions.LambdaFunction
+  - DiceEngine.Expressions.Functions.NativeFunction
+  implements:
+  - DiceEngine.Expressions.IExpression
+  inheritedMembers:
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  - DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  - DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+  - DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  - DiceEngine.Expressions.Terminals.Terminal.ToString
+  - DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: DiceEngine.Expressions.Functions.Function.Parameters
+  commentId: P:DiceEngine.Expressions.Functions.Function.Parameters
+  id: Parameters
+  parent: DiceEngine.Expressions.Functions.Function
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: Function.Parameters
+  fullName: DiceEngine.Expressions.Functions.Function.Parameters
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Functions/Function.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Parameters
+    path: ../src/DiceEngine/Expressions/Functions/Function.cs
+    startLine: 10
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
+  syntax:
+    content: public abstract IParameter[] Parameters { get; }
+    parameters: []
+    return:
+      type: DiceEngine.Expressions.Components.IParameter[]
+    content.vb: Public MustOverride ReadOnly Property Parameters As IParameter()
+  overload: DiceEngine.Expressions.Functions.Function.Parameters*
+- uid: DiceEngine.Expressions.Functions.Function.IsElementwise
+  commentId: P:DiceEngine.Expressions.Functions.Function.IsElementwise
+  id: IsElementwise
+  parent: DiceEngine.Expressions.Functions.Function
+  langs:
+  - csharp
+  - vb
+  name: IsElementwise
+  nameWithType: Function.IsElementwise
+  fullName: DiceEngine.Expressions.Functions.Function.IsElementwise
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Functions/Function.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: IsElementwise
+    path: ../src/DiceEngine/Expressions/Functions/Function.cs
+    startLine: 12
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
+  syntax:
+    content: public abstract bool IsElementwise { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride ReadOnly Property IsElementwise As Boolean
+  overload: DiceEngine.Expressions.Functions.Function.IsElementwise*
+- uid: DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  id: Invoke(DiceEngine.Expressions.IExpression[],DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Functions.Function
+  langs:
+  - csharp
+  - vb
+  name: Invoke(IExpression[], ExpressionContext)
+  nameWithType: Function.Invoke(IExpression[], ExpressionContext)
+  fullName: DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression[], DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Functions/Function.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Invoke
+    path: ../src/DiceEngine/Expressions/Functions/Function.cs
+    startLine: 14
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
+  syntax:
+    content: public abstract Terminal Invoke(IExpression[] arguments, ExpressionContext context)
+    parameters:
+    - id: arguments
+      type: DiceEngine.Expressions.IExpression[]
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public MustOverride Function Invoke(arguments As IExpression(), context As ExpressionContext) As Terminal
+  overload: DiceEngine.Expressions.Functions.Function.Invoke*
+  nameWithType.vb: Function.Invoke(IExpression(), ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Functions.Function.Invoke(DiceEngine.Expressions.IExpression(), DiceEngine.Context.ExpressionContext)
+  name.vb: Invoke(IExpression(), ExpressionContext)
+- uid: DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  id: ProcessArguments(System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Functions.Function
+  langs:
+  - csharp
+  - vb
+  name: ProcessArguments(IEnumerable<IExpression>, ExpressionContext)
+  nameWithType: Function.ProcessArguments(IEnumerable<IExpression>, ExpressionContext)
+  fullName: DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Functions/Function.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ProcessArguments
+    path: ../src/DiceEngine/Expressions/Functions/Function.cs
+    startLine: 16
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
+  syntax:
+    content: public object?[]? ProcessArguments(IEnumerable<IExpression> arguments, ExpressionContext context)
+    parameters:
+    - id: arguments
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: System.Object[]
+    content.vb: Public Function ProcessArguments(arguments As IEnumerable(Of IExpression), context As ExpressionContext) As Object()
+  overload: DiceEngine.Expressions.Functions.Function.ProcessArguments*
+  nameWithType.vb: Function.ProcessArguments(IEnumerable(Of IExpression), ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Functions.Function.ProcessArguments(System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression), DiceEngine.Context.ExpressionContext)
+  name.vb: ProcessArguments(IEnumerable(Of IExpression), ExpressionContext)
+- uid: DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext,DiceEngine.Context.ExpressionContext,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter})
+  commentId: M:DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext,DiceEngine.Context.ExpressionContext,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter})
+  id: ContextReconciliation(DiceEngine.Context.ExpressionContext,DiceEngine.Context.ExpressionContext,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter})
+  parent: DiceEngine.Expressions.Functions.Function
+  langs:
+  - csharp
+  - vb
+  name: ContextReconciliation(ExpressionContext, ExpressionContext, IEnumerable<Parameter>)
+  nameWithType: Function.ContextReconciliation(ExpressionContext, ExpressionContext, IEnumerable<Parameter>)
+  fullName: DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext, DiceEngine.Context.ExpressionContext, System.Collections.Generic.IEnumerable<DiceEngine.Expressions.Components.Parameter>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Functions/Function.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ContextReconciliation
+    path: ../src/DiceEngine/Expressions/Functions/Function.cs
+    startLine: 35
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
+  syntax:
+    content: public static ExpressionContext ContextReconciliation(ExpressionContext outer_context, ExpressionContext inner_context, IEnumerable<Parameter> parameters)
+    parameters:
+    - id: outer_context
+      type: DiceEngine.Context.ExpressionContext
+    - id: inner_context
+      type: DiceEngine.Context.ExpressionContext
+    - id: parameters
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter}
+    return:
+      type: DiceEngine.Context.ExpressionContext
+    content.vb: Public Shared Function ContextReconciliation(outer_context As ExpressionContext, inner_context As ExpressionContext, parameters As IEnumerable(Of Parameter)) As ExpressionContext
+  overload: DiceEngine.Expressions.Functions.Function.ContextReconciliation*
+  nameWithType.vb: Function.ContextReconciliation(ExpressionContext, ExpressionContext, IEnumerable(Of Parameter))
+  fullName.vb: DiceEngine.Expressions.Functions.Function.ContextReconciliation(DiceEngine.Context.ExpressionContext, DiceEngine.Context.ExpressionContext, System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.Components.Parameter))
+  name.vb: ContextReconciliation(ExpressionContext, ExpressionContext, IEnumerable(Of Parameter))
+- uid: DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  id: ForEach(System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Functions.Function
+  langs:
+  - csharp
+  - vb
+  name: ForEach(MethodInfo, IEnumerable<IExpression>, ExpressionContext)
+  nameWithType: Function.ForEach(MethodInfo, IEnumerable<IExpression>, ExpressionContext)
+  fullName: DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo, System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Functions/Function.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ForEach
+    path: ../src/DiceEngine/Expressions/Functions/Function.cs
+    startLine: 44
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
+  syntax:
+    content: public static Terminal ForEach(MethodInfo function, IEnumerable<IExpression> arguments, ExpressionContext context)
+    parameters:
+    - id: function
+      type: System.Reflection.MethodInfo
+    - id: arguments
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public Shared Function ForEach([function] As MethodInfo, arguments As IEnumerable(Of IExpression), context As ExpressionContext) As Terminal
+  overload: DiceEngine.Expressions.Functions.Function.ForEach*
+  nameWithType.vb: Function.ForEach(MethodInfo, IEnumerable(Of IExpression), ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Functions.Function.ForEach(System.Reflection.MethodInfo, System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression), DiceEngine.Context.ExpressionContext)
+  name.vb: ForEach(MethodInfo, IEnumerable(Of IExpression), ExpressionContext)
+- uid: DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  id: ForEach(DiceEngine.Expressions.Functions.Function,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression},DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Functions.Function
+  langs:
+  - csharp
+  - vb
+  name: ForEach(Function, IEnumerable<IExpression>, ExpressionContext)
+  nameWithType: Function.ForEach(Function, IEnumerable<IExpression>, ExpressionContext)
+  fullName: DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function, System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>, DiceEngine.Context.ExpressionContext)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Expressions/Functions/Function.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ForEach
+    path: ../src/DiceEngine/Expressions/Functions/Function.cs
+    startLine: 47
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Expressions.Functions
+  syntax:
+    content: public static Terminal ForEach(Function function, IEnumerable<IExpression> arguments, ExpressionContext context)
+    parameters:
+    - id: function
+      type: DiceEngine.Expressions.Functions.Function
+    - id: arguments
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+    - id: context
+      type: DiceEngine.Context.ExpressionContext
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public Shared Function ForEach([function] As [Function], arguments As IEnumerable(Of IExpression), context As ExpressionContext) As Terminal
+  overload: DiceEngine.Expressions.Functions.Function.ForEach*
+  nameWithType.vb: Function.ForEach(Function, IEnumerable(Of IExpression), ExpressionContext)
+  fullName.vb: DiceEngine.Expressions.Functions.Function.ForEach(DiceEngine.Expressions.Functions.Function, System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression), DiceEngine.Context.ExpressionContext)
+  name.vb: ForEach(Function, IEnumerable(Of IExpression), ExpressionContext)
+references:
+- uid: DiceEngine.Expressions.Functions
+  commentId: N:DiceEngine.Expressions.Functions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Functions
+  nameWithType: DiceEngine.Expressions.Functions
+  fullName: DiceEngine.Expressions.Functions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Functions
+    name: Functions
+    href: DiceEngine.Expressions.Functions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Functions
+    name: Functions
+    href: DiceEngine.Expressions.Functions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
+  name: Evaluate()
+  nameWithType: Terminal.Evaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
+  name: Evaluate(ExpressionContext)
+  nameWithType: Terminal.Evaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.Evaluate(DiceEngine.Context.ExpressionContext)
+    name: Evaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_Evaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
+  name: StepEvaluate()
+  nameWithType: Terminal.StepEvaluate()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  name: StepEvaluate(ExpressionContext)
+  nameWithType: Terminal.StepEvaluate(ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.StepEvaluate(DiceEngine.Context.ExpressionContext)
+    name: StepEvaluate
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_StepEvaluate_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice
+  name: EvaluateDice()
+  nameWithType: Terminal.EvaluateDice()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  name: EvaluateDice(ExpressionContext)
+  nameWithType: Terminal.EvaluateDice(ExpressionContext)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.EvaluateDice(DiceEngine.Context.ExpressionContext)
+    name: EvaluateDice
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_EvaluateDice_DiceEngine_Context_ExpressionContext_
+  - name: (
+  - uid: DiceEngine.Context.ExpressionContext
+    name: ExpressionContext
+    href: DiceEngine.Context.ExpressionContext.html
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
+  name: ToString()
+  nameWithType: Terminal.ToString()
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  commentId: M:DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+  parent: DiceEngine.Expressions.Terminals.Terminal
+  isExternal: true
+  href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
+  name: ToString(string)
+  nameWithType: Terminal.ToString(string)
+  fullName: DiceEngine.Expressions.Terminals.Terminal.ToString(string)
+  nameWithType.vb: Terminal.ToString(String)
+  fullName.vb: DiceEngine.Expressions.Terminals.Terminal.ToString(String)
+  name.vb: ToString(String)
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Expressions.Terminals.Terminal.ToString(System.String)
+    name: ToString
+    href: DiceEngine.Expressions.Terminals.Terminal.html#DiceEngine_Expressions_Terminals_Terminal_ToString_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+- uid: DiceEngine.Expressions.Functions.Function.Parameters*
+  commentId: Overload:DiceEngine.Expressions.Functions.Function.Parameters
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_Parameters
+  name: Parameters
+  nameWithType: Function.Parameters
+  fullName: DiceEngine.Expressions.Functions.Function.Parameters
+- uid: DiceEngine.Expressions.Components.IParameter[]
+  isExternal: true
+  href: DiceEngine.Expressions.Components.IParameter.html
+  name: IParameter[]
+  nameWithType: IParameter[]
+  fullName: DiceEngine.Expressions.Components.IParameter[]
+  nameWithType.vb: IParameter()
+  fullName.vb: DiceEngine.Expressions.Components.IParameter()
+  name.vb: IParameter()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.Components.IParameter
+    name: IParameter
+    href: DiceEngine.Expressions.Components.IParameter.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: DiceEngine.Expressions.Components.IParameter
+    name: IParameter
+    href: DiceEngine.Expressions.Components.IParameter.html
+  - name: (
+  - name: )
+- uid: DiceEngine.Expressions.Functions.Function.IsElementwise*
+  commentId: Overload:DiceEngine.Expressions.Functions.Function.IsElementwise
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_IsElementwise
+  name: IsElementwise
+  nameWithType: Function.IsElementwise
+  fullName: DiceEngine.Expressions.Functions.Function.IsElementwise
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: DiceEngine.Expressions.Functions.Function.Invoke*
+  commentId: Overload:DiceEngine.Expressions.Functions.Function.Invoke
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_Invoke_DiceEngine_Expressions_IExpression___DiceEngine_Context_ExpressionContext_
+  name: Invoke
+  nameWithType: Function.Invoke
+  fullName: DiceEngine.Expressions.Functions.Function.Invoke
+- uid: DiceEngine.Expressions.IExpression[]
+  isExternal: true
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression[]
+  nameWithType: IExpression[]
+  fullName: DiceEngine.Expressions.IExpression[]
+  nameWithType.vb: IExpression()
+  fullName.vb: DiceEngine.Expressions.IExpression()
+  name.vb: IExpression()
+  spec.csharp:
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: (
+  - name: )
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
+  name: ExpressionContext
+  nameWithType: ExpressionContext
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+- uid: DiceEngine.Expressions.Functions.Function.ProcessArguments*
+  commentId: Overload:DiceEngine.Expressions.Functions.Function.ProcessArguments
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ProcessArguments_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
+  name: ProcessArguments
+  nameWithType: Function.ProcessArguments
+  fullName: DiceEngine.Expressions.Functions.Function.ProcessArguments
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IExpression>
+  nameWithType: IEnumerable<IExpression>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>
+  nameWithType.vb: IEnumerable(Of IExpression)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression)
+  name.vb: IEnumerable(Of IExpression)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: )
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: DiceEngine.Expressions.Functions.Function.ContextReconciliation*
+  commentId: Overload:DiceEngine.Expressions.Functions.Function.ContextReconciliation
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ContextReconciliation_DiceEngine_Context_ExpressionContext_DiceEngine_Context_ExpressionContext_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_Components_Parameter__
+  name: ContextReconciliation
+  nameWithType: Function.ContextReconciliation
+  fullName: DiceEngine.Expressions.Functions.Function.ContextReconciliation
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Expressions.Components.Parameter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Parameter>
+  nameWithType: IEnumerable<Parameter>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Expressions.Components.Parameter>
+  nameWithType.vb: IEnumerable(Of Parameter)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.Components.Parameter)
+  name.vb: IEnumerable(Of Parameter)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: DiceEngine.Expressions.Components.Parameter
+    name: Parameter
+    href: DiceEngine.Expressions.Components.Parameter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.Components.Parameter
+    name: Parameter
+    href: DiceEngine.Expressions.Components.Parameter.html
+  - name: )
+- uid: DiceEngine.Expressions.Functions.Function.ForEach*
+  commentId: Overload:DiceEngine.Expressions.Functions.Function.ForEach
+  href: DiceEngine.Expressions.Functions.Function.html#DiceEngine_Expressions_Functions_Function_ForEach_System_Reflection_MethodInfo_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__DiceEngine_Context_ExpressionContext_
+  name: ForEach
+  nameWithType: Function.ForEach
+  fullName: DiceEngine.Expressions.Functions.Function.ForEach
+- uid: System.Reflection.MethodInfo
+  commentId: T:System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.methodinfo
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: DiceEngine.Expressions.Functions.Function
+  commentId: T:DiceEngine.Expressions.Functions.Function
+  parent: DiceEngine.Expressions.Functions
+  href: DiceEngine.Expressions.Functions.Function.html
+  name: Function
+  nameWithType: Function
+  fullName: DiceEngine.Expressions.Functions.Function

@@ -1,0 +1,2026 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  id: ExpressionContext
+  parent: DiceEngine.Context
+  children:
+  - DiceEngine.Context.ExpressionContext.#ctor(System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Terminals.Terminal},System.Boolean,System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{DiceEngine.TypeConverters.ITypeConverter})
+  - DiceEngine.Context.ExpressionContext.Clone
+  - DiceEngine.Context.ExpressionContext.ContainsFunction(System.String)
+  - DiceEngine.Context.ExpressionContext.ContainsVariable(System.String)
+  - DiceEngine.Context.ExpressionContext.DEFAULT_CONVERTERS
+  - DiceEngine.Context.ExpressionContext.DEFAULT_TYPES
+  - DiceEngine.Context.ExpressionContext.Functions
+  - DiceEngine.Context.ExpressionContext.GetTypeConverters(System.Type)
+  - DiceEngine.Context.ExpressionContext.GetTypeConverters``1
+  - DiceEngine.Context.ExpressionContext.InvokeFunction(System.String,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  - DiceEngine.Context.ExpressionContext.Item(System.String)
+  - DiceEngine.Context.ExpressionContext.Random
+  - DiceEngine.Context.ExpressionContext.RemoveFunction(System.String)
+  - DiceEngine.Context.ExpressionContext.RemoveVariable(System.String)
+  - DiceEngine.Context.ExpressionContext.SetFunction(System.String,DiceEngine.Expressions.Functions.Function)
+  - DiceEngine.Context.ExpressionContext.SetFunctions(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,DiceEngine.Expressions.Functions.Function}})
+  - DiceEngine.Context.ExpressionContext.SetFunctions(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String[],DiceEngine.Expressions.Functions.Function}})
+  - DiceEngine.Context.ExpressionContext.SetFunctions(System.Reflection.Assembly)
+  - DiceEngine.Context.ExpressionContext.SetVariable(System.String,DiceEngine.Expressions.Terminals.Terminal)
+  - DiceEngine.Context.ExpressionContext.Variables
+  - DiceEngine.Context.ExpressionContext._aliases
+  - DiceEngine.Context.ExpressionContext._functions
+  - DiceEngine.Context.ExpressionContext._type_converters
+  - DiceEngine.Context.ExpressionContext._variables
+  langs:
+  - csharp
+  - vb
+  name: ExpressionContext
+  nameWithType: ExpressionContext
+  fullName: DiceEngine.Context.ExpressionContext
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContextFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ExpressionContext
+    path: ../src/DiceEngine/Context/ExpressionContextFunctions.cs
+    startLine: 8
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public class ExpressionContext
+    content.vb: Public Class ExpressionContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.Context.ExpressionContext.DEFAULT_CONVERTERS
+  commentId: F:DiceEngine.Context.ExpressionContext.DEFAULT_CONVERTERS
+  id: DEFAULT_CONVERTERS
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: DEFAULT_CONVERTERS
+  nameWithType: ExpressionContext.DEFAULT_CONVERTERS
+  fullName: DiceEngine.Context.ExpressionContext.DEFAULT_CONVERTERS
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: DEFAULT_CONVERTERS
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 9
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: protected static readonly ReadOnlyDictionary<Type, List<ITypeConverter>> DEFAULT_CONVERTERS
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyDictionary{System.Type,System.Collections.Generic.List{DiceEngine.TypeConverters.ITypeConverter}}
+    content.vb: Protected Shared ReadOnly DEFAULT_CONVERTERS As ReadOnlyDictionary(Of Type, List(Of ITypeConverter))
+- uid: DiceEngine.Context.ExpressionContext.DEFAULT_TYPES
+  commentId: F:DiceEngine.Context.ExpressionContext.DEFAULT_TYPES
+  id: DEFAULT_TYPES
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: DEFAULT_TYPES
+  nameWithType: ExpressionContext.DEFAULT_TYPES
+  fullName: DiceEngine.Context.ExpressionContext.DEFAULT_TYPES
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: DEFAULT_TYPES
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 28
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: protected static readonly IReadOnlyList<Type> DEFAULT_TYPES
+    return:
+      type: System.Collections.Generic.IReadOnlyList{System.Type}
+    content.vb: Protected Shared ReadOnly DEFAULT_TYPES As IReadOnlyList(Of Type)
+- uid: DiceEngine.Context.ExpressionContext._variables
+  commentId: F:DiceEngine.Context.ExpressionContext._variables
+  id: _variables
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: _variables
+  nameWithType: ExpressionContext._variables
+  fullName: DiceEngine.Context.ExpressionContext._variables
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: _variables
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 30
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: protected readonly Dictionary<string, Terminal> _variables
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Terminals.Terminal}
+    content.vb: Protected ReadOnly _variables As Dictionary(Of String, Terminal)
+- uid: DiceEngine.Context.ExpressionContext._type_converters
+  commentId: F:DiceEngine.Context.ExpressionContext._type_converters
+  id: _type_converters
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: _type_converters
+  nameWithType: ExpressionContext._type_converters
+  fullName: DiceEngine.Context.ExpressionContext._type_converters
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: _type_converters
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 31
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: protected readonly ReadOnlyDictionary<Type, List<ITypeConverter>> _type_converters
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyDictionary{System.Type,System.Collections.Generic.List{DiceEngine.TypeConverters.ITypeConverter}}
+    content.vb: Protected ReadOnly _type_converters As ReadOnlyDictionary(Of Type, List(Of ITypeConverter))
+- uid: DiceEngine.Context.ExpressionContext._aliases
+  commentId: F:DiceEngine.Context.ExpressionContext._aliases
+  id: _aliases
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: _aliases
+  nameWithType: ExpressionContext._aliases
+  fullName: DiceEngine.Context.ExpressionContext._aliases
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: _aliases
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 32
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: protected readonly Dictionary<string, bool> _aliases
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+    content.vb: Protected ReadOnly _aliases As Dictionary(Of String, Boolean)
+- uid: DiceEngine.Context.ExpressionContext.Random
+  commentId: F:DiceEngine.Context.ExpressionContext.Random
+  id: Random
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: Random
+  nameWithType: ExpressionContext.Random
+  fullName: DiceEngine.Context.ExpressionContext.Random
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Random
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 34
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public readonly Random Random
+    return:
+      type: System.Random
+    content.vb: Public ReadOnly Random As Random
+- uid: DiceEngine.Context.ExpressionContext.Variables
+  commentId: P:DiceEngine.Context.ExpressionContext.Variables
+  id: Variables
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: ExpressionContext.Variables
+  fullName: DiceEngine.Context.ExpressionContext.Variables
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Variables
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 36
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public string[] Variables { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property Variables As String()
+  overload: DiceEngine.Context.ExpressionContext.Variables*
+- uid: DiceEngine.Context.ExpressionContext.Item(System.String)
+  commentId: P:DiceEngine.Context.ExpressionContext.Item(System.String)
+  id: Item(System.String)
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: this[string]
+  nameWithType: ExpressionContext.this[string]
+  fullName: DiceEngine.Context.ExpressionContext.this[string]
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: this[]
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 39
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual Terminal this[string name] { get; set; }
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public Overridable Default Property this[](name As String) As Terminal
+  overload: DiceEngine.Context.ExpressionContext.Item*
+  nameWithType.vb: ExpressionContext.this[](String)
+  fullName.vb: DiceEngine.Context.ExpressionContext.this[](String)
+  name.vb: this[](String)
+- uid: DiceEngine.Context.ExpressionContext.#ctor(System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Terminals.Terminal},System.Boolean,System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{DiceEngine.TypeConverters.ITypeConverter})
+  commentId: M:DiceEngine.Context.ExpressionContext.#ctor(System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Terminals.Terminal},System.Boolean,System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{DiceEngine.TypeConverters.ITypeConverter})
+  id: '#ctor(System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Terminals.Terminal},System.Boolean,System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{DiceEngine.TypeConverters.ITypeConverter})'
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: ExpressionContext(Dictionary<string, Terminal>?, bool, int?, IEnumerable<ITypeConverter>?)
+  nameWithType: ExpressionContext.ExpressionContext(Dictionary<string, Terminal>?, bool, int?, IEnumerable<ITypeConverter>?)
+  fullName: DiceEngine.Context.ExpressionContext.ExpressionContext(System.Collections.Generic.Dictionary<string, DiceEngine.Expressions.Terminals.Terminal>?, bool, int?, System.Collections.Generic.IEnumerable<DiceEngine.TypeConverters.ITypeConverter>?)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 53
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public ExpressionContext(Dictionary<string, Terminal>? variables = null, bool register_default_functions = true, int? seed = null, IEnumerable<ITypeConverter>? type_converters = null)
+    parameters:
+    - id: variables
+      type: System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Terminals.Terminal}
+    - id: register_default_functions
+      type: System.Boolean
+    - id: seed
+      type: System.Nullable{System.Int32}
+    - id: type_converters
+      type: System.Collections.Generic.IEnumerable{DiceEngine.TypeConverters.ITypeConverter}
+    content.vb: Public Sub New(variables As Dictionary(Of String, Terminal) = Nothing, register_default_functions As Boolean = True, seed As Integer? = Nothing, type_converters As IEnumerable(Of ITypeConverter) = Nothing)
+  overload: DiceEngine.Context.ExpressionContext.#ctor*
+  nameWithType.vb: ExpressionContext.New(Dictionary(Of String, Terminal), Boolean, Integer?, IEnumerable(Of ITypeConverter))
+  fullName.vb: DiceEngine.Context.ExpressionContext.New(System.Collections.Generic.Dictionary(Of String, DiceEngine.Expressions.Terminals.Terminal), Boolean, Integer?, System.Collections.Generic.IEnumerable(Of DiceEngine.TypeConverters.ITypeConverter))
+  name.vb: New(Dictionary(Of String, Terminal), Boolean, Integer?, IEnumerable(Of ITypeConverter))
+- uid: DiceEngine.Context.ExpressionContext.Clone
+  commentId: M:DiceEngine.Context.ExpressionContext.Clone
+  id: Clone
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ExpressionContext.Clone()
+  fullName: DiceEngine.Context.ExpressionContext.Clone()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Clone
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 116
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual ExpressionContext Clone()
+    return:
+      type: DiceEngine.Context.ExpressionContext
+    content.vb: Public Overridable Function Clone() As ExpressionContext
+  overload: DiceEngine.Context.ExpressionContext.Clone*
+- uid: DiceEngine.Context.ExpressionContext.SetVariable(System.String,DiceEngine.Expressions.Terminals.Terminal)
+  commentId: M:DiceEngine.Context.ExpressionContext.SetVariable(System.String,DiceEngine.Expressions.Terminals.Terminal)
+  id: SetVariable(System.String,DiceEngine.Expressions.Terminals.Terminal)
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: SetVariable(string, Terminal)
+  nameWithType: ExpressionContext.SetVariable(string, Terminal)
+  fullName: DiceEngine.Context.ExpressionContext.SetVariable(string, DiceEngine.Expressions.Terminals.Terminal)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: SetVariable
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 136
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual bool SetVariable(string name, Terminal expression)
+    parameters:
+    - id: name
+      type: System.String
+    - id: expression
+      type: DiceEngine.Expressions.Terminals.Terminal
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function SetVariable(name As String, expression As Terminal) As Boolean
+  overload: DiceEngine.Context.ExpressionContext.SetVariable*
+  nameWithType.vb: ExpressionContext.SetVariable(String, Terminal)
+  fullName.vb: DiceEngine.Context.ExpressionContext.SetVariable(String, DiceEngine.Expressions.Terminals.Terminal)
+  name.vb: SetVariable(String, Terminal)
+- uid: DiceEngine.Context.ExpressionContext.RemoveVariable(System.String)
+  commentId: M:DiceEngine.Context.ExpressionContext.RemoveVariable(System.String)
+  id: RemoveVariable(System.String)
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: RemoveVariable(string)
+  nameWithType: ExpressionContext.RemoveVariable(string)
+  fullName: DiceEngine.Context.ExpressionContext.RemoveVariable(string)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RemoveVariable
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 154
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual bool RemoveVariable(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function RemoveVariable(name As String) As Boolean
+  overload: DiceEngine.Context.ExpressionContext.RemoveVariable*
+  nameWithType.vb: ExpressionContext.RemoveVariable(String)
+  fullName.vb: DiceEngine.Context.ExpressionContext.RemoveVariable(String)
+  name.vb: RemoveVariable(String)
+- uid: DiceEngine.Context.ExpressionContext.ContainsVariable(System.String)
+  commentId: M:DiceEngine.Context.ExpressionContext.ContainsVariable(System.String)
+  id: ContainsVariable(System.String)
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: ContainsVariable(string)
+  nameWithType: ExpressionContext.ContainsVariable(string)
+  fullName: DiceEngine.Context.ExpressionContext.ContainsVariable(string)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ContainsVariable
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 157
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual bool ContainsVariable(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function ContainsVariable(name As String) As Boolean
+  overload: DiceEngine.Context.ExpressionContext.ContainsVariable*
+  nameWithType.vb: ExpressionContext.ContainsVariable(String)
+  fullName.vb: DiceEngine.Context.ExpressionContext.ContainsVariable(String)
+  name.vb: ContainsVariable(String)
+- uid: DiceEngine.Context.ExpressionContext.GetTypeConverters``1
+  commentId: M:DiceEngine.Context.ExpressionContext.GetTypeConverters``1
+  id: GetTypeConverters``1
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: GetTypeConverters<T>()
+  nameWithType: ExpressionContext.GetTypeConverters<T>()
+  fullName: DiceEngine.Context.ExpressionContext.GetTypeConverters<T>()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetTypeConverters
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 160
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual ITypeConverter[] GetTypeConverters<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: DiceEngine.TypeConverters.ITypeConverter[]
+    content.vb: Public Overridable Function GetTypeConverters(Of T)() As ITypeConverter()
+  overload: DiceEngine.Context.ExpressionContext.GetTypeConverters*
+  nameWithType.vb: ExpressionContext.GetTypeConverters(Of T)()
+  fullName.vb: DiceEngine.Context.ExpressionContext.GetTypeConverters(Of T)()
+  name.vb: GetTypeConverters(Of T)()
+- uid: DiceEngine.Context.ExpressionContext.GetTypeConverters(System.Type)
+  commentId: M:DiceEngine.Context.ExpressionContext.GetTypeConverters(System.Type)
+  id: GetTypeConverters(System.Type)
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: GetTypeConverters(Type)
+  nameWithType: ExpressionContext.GetTypeConverters(Type)
+  fullName: DiceEngine.Context.ExpressionContext.GetTypeConverters(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContext.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetTypeConverters
+    path: ../src/DiceEngine/Context/ExpressionContext.cs
+    startLine: 163
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual ITypeConverter[] GetTypeConverters(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: DiceEngine.TypeConverters.ITypeConverter[]
+    content.vb: Public Overridable Function GetTypeConverters(type As Type) As ITypeConverter()
+  overload: DiceEngine.Context.ExpressionContext.GetTypeConverters*
+- uid: DiceEngine.Context.ExpressionContext._functions
+  commentId: F:DiceEngine.Context.ExpressionContext._functions
+  id: _functions
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: _functions
+  nameWithType: ExpressionContext._functions
+  fullName: DiceEngine.Context.ExpressionContext._functions
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContextFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: _functions
+    path: ../src/DiceEngine/Context/ExpressionContextFunctions.cs
+    startLine: 10
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: protected readonly Dictionary<string, Function> _functions
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Functions.Function}
+    content.vb: Protected ReadOnly _functions As Dictionary(Of String, [Function])
+- uid: DiceEngine.Context.ExpressionContext.Functions
+  commentId: P:DiceEngine.Context.ExpressionContext.Functions
+  id: Functions
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: Functions
+  nameWithType: ExpressionContext.Functions
+  fullName: DiceEngine.Context.ExpressionContext.Functions
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContextFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Functions
+    path: ../src/DiceEngine/Context/ExpressionContextFunctions.cs
+    startLine: 12
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public string[] Functions { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property Functions As String()
+  overload: DiceEngine.Context.ExpressionContext.Functions*
+- uid: DiceEngine.Context.ExpressionContext.InvokeFunction(System.String,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  commentId: M:DiceEngine.Context.ExpressionContext.InvokeFunction(System.String,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  id: InvokeFunction(System.String,System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression})
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: InvokeFunction(string, IEnumerable<IExpression>)
+  nameWithType: ExpressionContext.InvokeFunction(string, IEnumerable<IExpression>)
+  fullName: DiceEngine.Context.ExpressionContext.InvokeFunction(string, System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContextFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: InvokeFunction
+    path: ../src/DiceEngine/Context/ExpressionContextFunctions.cs
+    startLine: 15
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual Terminal InvokeFunction(string function, IEnumerable<IExpression> arguments)
+    parameters:
+    - id: function
+      type: System.String
+    - id: arguments
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+    return:
+      type: DiceEngine.Expressions.Terminals.Terminal
+    content.vb: Public Overridable Function InvokeFunction([function] As String, arguments As IEnumerable(Of IExpression)) As Terminal
+  overload: DiceEngine.Context.ExpressionContext.InvokeFunction*
+  nameWithType.vb: ExpressionContext.InvokeFunction(String, IEnumerable(Of IExpression))
+  fullName.vb: DiceEngine.Context.ExpressionContext.InvokeFunction(String, System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression))
+  name.vb: InvokeFunction(String, IEnumerable(Of IExpression))
+- uid: DiceEngine.Context.ExpressionContext.SetFunctions(System.Reflection.Assembly)
+  commentId: M:DiceEngine.Context.ExpressionContext.SetFunctions(System.Reflection.Assembly)
+  id: SetFunctions(System.Reflection.Assembly)
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: SetFunctions(Assembly)
+  nameWithType: ExpressionContext.SetFunctions(Assembly)
+  fullName: DiceEngine.Context.ExpressionContext.SetFunctions(System.Reflection.Assembly)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContextFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: SetFunctions
+    path: ../src/DiceEngine/Context/ExpressionContextFunctions.cs
+    startLine: 27
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual void SetFunctions(Assembly assembly)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+    content.vb: Public Overridable Sub SetFunctions(assembly As Assembly)
+  overload: DiceEngine.Context.ExpressionContext.SetFunctions*
+- uid: DiceEngine.Context.ExpressionContext.SetFunctions(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String[],DiceEngine.Expressions.Functions.Function}})
+  commentId: M:DiceEngine.Context.ExpressionContext.SetFunctions(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String[],DiceEngine.Expressions.Functions.Function}})
+  id: SetFunctions(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String[],DiceEngine.Expressions.Functions.Function}})
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: SetFunctions(IEnumerable<KeyValuePair<string[], Function>>)
+  nameWithType: ExpressionContext.SetFunctions(IEnumerable<KeyValuePair<string[], Function>>)
+  fullName: DiceEngine.Context.ExpressionContext.SetFunctions(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string[], DiceEngine.Expressions.Functions.Function>>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContextFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: SetFunctions
+    path: ../src/DiceEngine/Context/ExpressionContextFunctions.cs
+    startLine: 37
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual void SetFunctions(IEnumerable<KeyValuePair<string[], Function>> functions)
+    parameters:
+    - id: functions
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String[],DiceEngine.Expressions.Functions.Function}}
+    content.vb: Public Overridable Sub SetFunctions(functions As IEnumerable(Of KeyValuePair(Of String(), [Function])))
+  overload: DiceEngine.Context.ExpressionContext.SetFunctions*
+  nameWithType.vb: ExpressionContext.SetFunctions(IEnumerable(Of KeyValuePair(Of String(), Function)))
+  fullName.vb: DiceEngine.Context.ExpressionContext.SetFunctions(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String(), DiceEngine.Expressions.Functions.Function)))
+  name.vb: SetFunctions(IEnumerable(Of KeyValuePair(Of String(), Function)))
+- uid: DiceEngine.Context.ExpressionContext.SetFunctions(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,DiceEngine.Expressions.Functions.Function}})
+  commentId: M:DiceEngine.Context.ExpressionContext.SetFunctions(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,DiceEngine.Expressions.Functions.Function}})
+  id: SetFunctions(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,DiceEngine.Expressions.Functions.Function}})
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: SetFunctions(IEnumerable<KeyValuePair<string, Function>>)
+  nameWithType: ExpressionContext.SetFunctions(IEnumerable<KeyValuePair<string, Function>>)
+  fullName: DiceEngine.Context.ExpressionContext.SetFunctions(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, DiceEngine.Expressions.Functions.Function>>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContextFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: SetFunctions
+    path: ../src/DiceEngine/Context/ExpressionContextFunctions.cs
+    startLine: 43
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual void SetFunctions(IEnumerable<KeyValuePair<string, Function>> functions)
+    parameters:
+    - id: functions
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,DiceEngine.Expressions.Functions.Function}}
+    content.vb: Public Overridable Sub SetFunctions(functions As IEnumerable(Of KeyValuePair(Of String, [Function])))
+  overload: DiceEngine.Context.ExpressionContext.SetFunctions*
+  nameWithType.vb: ExpressionContext.SetFunctions(IEnumerable(Of KeyValuePair(Of String, Function)))
+  fullName.vb: DiceEngine.Context.ExpressionContext.SetFunctions(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, DiceEngine.Expressions.Functions.Function)))
+  name.vb: SetFunctions(IEnumerable(Of KeyValuePair(Of String, Function)))
+- uid: DiceEngine.Context.ExpressionContext.SetFunction(System.String,DiceEngine.Expressions.Functions.Function)
+  commentId: M:DiceEngine.Context.ExpressionContext.SetFunction(System.String,DiceEngine.Expressions.Functions.Function)
+  id: SetFunction(System.String,DiceEngine.Expressions.Functions.Function)
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: SetFunction(string, Function)
+  nameWithType: ExpressionContext.SetFunction(string, Function)
+  fullName: DiceEngine.Context.ExpressionContext.SetFunction(string, DiceEngine.Expressions.Functions.Function)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContextFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: SetFunction
+    path: ../src/DiceEngine/Context/ExpressionContextFunctions.cs
+    startLine: 49
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual bool SetFunction(string name, Function function)
+    parameters:
+    - id: name
+      type: System.String
+    - id: function
+      type: DiceEngine.Expressions.Functions.Function
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function SetFunction(name As String, [function] As [Function]) As Boolean
+  overload: DiceEngine.Context.ExpressionContext.SetFunction*
+  nameWithType.vb: ExpressionContext.SetFunction(String, Function)
+  fullName.vb: DiceEngine.Context.ExpressionContext.SetFunction(String, DiceEngine.Expressions.Functions.Function)
+  name.vb: SetFunction(String, Function)
+- uid: DiceEngine.Context.ExpressionContext.RemoveFunction(System.String)
+  commentId: M:DiceEngine.Context.ExpressionContext.RemoveFunction(System.String)
+  id: RemoveFunction(System.String)
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: RemoveFunction(string)
+  nameWithType: ExpressionContext.RemoveFunction(string)
+  fullName: DiceEngine.Context.ExpressionContext.RemoveFunction(string)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContextFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RemoveFunction
+    path: ../src/DiceEngine/Context/ExpressionContextFunctions.cs
+    startLine: 60
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual bool RemoveFunction(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function RemoveFunction(name As String) As Boolean
+  overload: DiceEngine.Context.ExpressionContext.RemoveFunction*
+  nameWithType.vb: ExpressionContext.RemoveFunction(String)
+  fullName.vb: DiceEngine.Context.ExpressionContext.RemoveFunction(String)
+  name.vb: RemoveFunction(String)
+- uid: DiceEngine.Context.ExpressionContext.ContainsFunction(System.String)
+  commentId: M:DiceEngine.Context.ExpressionContext.ContainsFunction(System.String)
+  id: ContainsFunction(System.String)
+  parent: DiceEngine.Context.ExpressionContext
+  langs:
+  - csharp
+  - vb
+  name: ContainsFunction(string)
+  nameWithType: ExpressionContext.ContainsFunction(string)
+  fullName: DiceEngine.Context.ExpressionContext.ContainsFunction(string)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Context/ExpressionContextFunctions.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ContainsFunction
+    path: ../src/DiceEngine/Context/ExpressionContextFunctions.cs
+    startLine: 63
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Context
+  syntax:
+    content: public virtual bool ContainsFunction(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function ContainsFunction(name As String) As Boolean
+  overload: DiceEngine.Context.ExpressionContext.ContainsFunction*
+  nameWithType.vb: ExpressionContext.ContainsFunction(String)
+  fullName.vb: DiceEngine.Context.ExpressionContext.ContainsFunction(String)
+  name.vb: ContainsFunction(String)
+references:
+- uid: DiceEngine.Context
+  commentId: N:DiceEngine.Context
+  href: DiceEngine.html
+  name: DiceEngine.Context
+  nameWithType: DiceEngine.Context
+  fullName: DiceEngine.Context
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Context
+    name: Context
+    href: DiceEngine.Context.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary{System.Type,System.Collections.Generic.List{DiceEngine.TypeConverters.ITypeConverter}}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyDictionary{System.Type,System.Collections.Generic.List{DiceEngine.TypeConverters.ITypeConverter}}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  name: ReadOnlyDictionary<Type, List<ITypeConverter>>
+  nameWithType: ReadOnlyDictionary<Type, List<ITypeConverter>>
+  fullName: System.Collections.ObjectModel.ReadOnlyDictionary<System.Type, System.Collections.Generic.List<DiceEngine.TypeConverters.ITypeConverter>>
+  nameWithType.vb: ReadOnlyDictionary(Of Type, List(Of ITypeConverter))
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyDictionary(Of System.Type, System.Collections.Generic.List(Of DiceEngine.TypeConverters.ITypeConverter))
+  name.vb: ReadOnlyDictionary(Of Type, List(Of ITypeConverter))
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: DiceEngine.TypeConverters.ITypeConverter
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.TypeConverters.ITypeConverter
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter.html
+  - name: )
+  - name: )
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  commentId: T:System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  name: ReadOnlyDictionary<TKey, TValue>
+  nameWithType: ReadOnlyDictionary<TKey, TValue>
+  fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: ReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyDictionary(Of TKey, TValue)
+  name.vb: ReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: System.Collections.Generic.IReadOnlyList{System.Type}
+  commentId: T:System.Collections.Generic.IReadOnlyList{System.Type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<Type>
+  nameWithType: IReadOnlyList<Type>
+  fullName: System.Collections.Generic.IReadOnlyList<System.Type>
+  nameWithType.vb: IReadOnlyList(Of Type)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of System.Type)
+  name.vb: IReadOnlyList(Of Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Terminals.Terminal}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Terminals.Terminal}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, Terminal>
+  nameWithType: Dictionary<string, Terminal>
+  fullName: System.Collections.Generic.Dictionary<string, DiceEngine.Expressions.Terminals.Terminal>
+  nameWithType.vb: Dictionary(Of String, Terminal)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, DiceEngine.Expressions.Terminals.Terminal)
+  name.vb: Dictionary(Of String, Terminal)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Terminals.Terminal
+    name: Terminal
+    href: DiceEngine.Expressions.Terminals.Terminal.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Terminals.Terminal
+    name: Terminal
+    href: DiceEngine.Expressions.Terminals.Terminal.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Boolean}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, bool>
+  nameWithType: Dictionary<string, bool>
+  fullName: System.Collections.Generic.Dictionary<string, bool>
+  nameWithType.vb: Dictionary(Of String, Boolean)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Boolean)
+  name.vb: Dictionary(Of String, Boolean)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Random
+  commentId: T:System.Random
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.random
+  name: Random
+  nameWithType: Random
+  fullName: System.Random
+- uid: DiceEngine.Context.ExpressionContext.Variables*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.Variables
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_Variables
+  name: Variables
+  nameWithType: ExpressionContext.Variables
+  fullName: DiceEngine.Context.ExpressionContext.Variables
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: DiceEngine.Context.ExpressionContext.Item*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.Item
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_Item_System_String_
+  name: this
+  nameWithType: ExpressionContext.this
+  fullName: DiceEngine.Context.ExpressionContext.this
+  nameWithType.vb: ExpressionContext.this[]
+  fullName.vb: DiceEngine.Context.ExpressionContext.this[]
+  name.vb: this[]
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+- uid: DiceEngine.Context.ExpressionContext.#ctor*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.#ctor
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext__ctor_System_Collections_Generic_Dictionary_System_String_DiceEngine_Expressions_Terminals_Terminal__System_Boolean_System_Nullable_System_Int32__System_Collections_Generic_IEnumerable_DiceEngine_TypeConverters_ITypeConverter__
+  name: ExpressionContext
+  nameWithType: ExpressionContext.ExpressionContext
+  fullName: DiceEngine.Context.ExpressionContext.ExpressionContext
+  nameWithType.vb: ExpressionContext.New
+  fullName.vb: DiceEngine.Context.ExpressionContext.New
+  name.vb: New
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.TypeConverters.ITypeConverter}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.TypeConverters.ITypeConverter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<ITypeConverter>
+  nameWithType: IEnumerable<ITypeConverter>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.TypeConverters.ITypeConverter>
+  nameWithType.vb: IEnumerable(Of ITypeConverter)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.TypeConverters.ITypeConverter)
+  name.vb: IEnumerable(Of ITypeConverter)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: DiceEngine.TypeConverters.ITypeConverter
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.TypeConverters.ITypeConverter
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter.html
+  - name: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.Context.ExpressionContext.Clone*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.Clone
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_Clone
+  name: Clone
+  nameWithType: ExpressionContext.Clone
+  fullName: DiceEngine.Context.ExpressionContext.Clone
+- uid: DiceEngine.Context.ExpressionContext
+  commentId: T:DiceEngine.Context.ExpressionContext
+  parent: DiceEngine.Context
+  href: DiceEngine.Context.ExpressionContext.html
+  name: ExpressionContext
+  nameWithType: ExpressionContext
+  fullName: DiceEngine.Context.ExpressionContext
+- uid: DiceEngine.Context.ExpressionContext.SetVariable*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.SetVariable
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_SetVariable_System_String_DiceEngine_Expressions_Terminals_Terminal_
+  name: SetVariable
+  nameWithType: ExpressionContext.SetVariable
+  fullName: DiceEngine.Context.ExpressionContext.SetVariable
+- uid: DiceEngine.Context.ExpressionContext.RemoveVariable*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.RemoveVariable
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_RemoveVariable_System_String_
+  name: RemoveVariable
+  nameWithType: ExpressionContext.RemoveVariable
+  fullName: DiceEngine.Context.ExpressionContext.RemoveVariable
+- uid: DiceEngine.Context.ExpressionContext.ContainsVariable*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.ContainsVariable
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_ContainsVariable_System_String_
+  name: ContainsVariable
+  nameWithType: ExpressionContext.ContainsVariable
+  fullName: DiceEngine.Context.ExpressionContext.ContainsVariable
+- uid: DiceEngine.Context.ExpressionContext.GetTypeConverters*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.GetTypeConverters
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_GetTypeConverters__1
+  name: GetTypeConverters
+  nameWithType: ExpressionContext.GetTypeConverters
+  fullName: DiceEngine.Context.ExpressionContext.GetTypeConverters
+- uid: DiceEngine.TypeConverters.ITypeConverter[]
+  isExternal: true
+  href: DiceEngine.TypeConverters.ITypeConverter.html
+  name: ITypeConverter[]
+  nameWithType: ITypeConverter[]
+  fullName: DiceEngine.TypeConverters.ITypeConverter[]
+  nameWithType.vb: ITypeConverter()
+  fullName.vb: DiceEngine.TypeConverters.ITypeConverter()
+  name.vb: ITypeConverter()
+  spec.csharp:
+  - uid: DiceEngine.TypeConverters.ITypeConverter
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: DiceEngine.TypeConverters.ITypeConverter
+    name: ITypeConverter
+    href: DiceEngine.TypeConverters.ITypeConverter.html
+  - name: (
+  - name: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Functions.Function}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,DiceEngine.Expressions.Functions.Function}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, Function>
+  nameWithType: Dictionary<string, Function>
+  fullName: System.Collections.Generic.Dictionary<string, DiceEngine.Expressions.Functions.Function>
+  nameWithType.vb: Dictionary(Of String, Function)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, DiceEngine.Expressions.Functions.Function)
+  name.vb: Dictionary(Of String, Function)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Functions.Function
+    name: Function
+    href: DiceEngine.Expressions.Functions.Function.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Functions.Function
+    name: Function
+    href: DiceEngine.Expressions.Functions.Function.html
+  - name: )
+- uid: DiceEngine.Context.ExpressionContext.Functions*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.Functions
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_Functions
+  name: Functions
+  nameWithType: ExpressionContext.Functions
+  fullName: DiceEngine.Context.ExpressionContext.Functions
+- uid: DiceEngine.Context.ExpressionContext.InvokeFunction*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.InvokeFunction
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_InvokeFunction_System_String_System_Collections_Generic_IEnumerable_DiceEngine_Expressions_IExpression__
+  name: InvokeFunction
+  nameWithType: ExpressionContext.InvokeFunction
+  fullName: DiceEngine.Context.ExpressionContext.InvokeFunction
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Expressions.IExpression}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IExpression>
+  nameWithType: IEnumerable<IExpression>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Expressions.IExpression>
+  nameWithType.vb: IEnumerable(Of IExpression)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Expressions.IExpression)
+  name.vb: IEnumerable(Of IExpression)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Expressions.IExpression
+    name: IExpression
+    href: DiceEngine.Expressions.IExpression.html
+  - name: )
+- uid: DiceEngine.Context.ExpressionContext.SetFunctions*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.SetFunctions
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_SetFunctions_System_Reflection_Assembly_
+  name: SetFunctions
+  nameWithType: ExpressionContext.SetFunctions
+  fullName: DiceEngine.Context.ExpressionContext.SetFunctions
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String[],DiceEngine.Expressions.Functions.Function}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String[],DiceEngine.Expressions.Functions.Function}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<string[], Function>>
+  nameWithType: IEnumerable<KeyValuePair<string[], Function>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string[], DiceEngine.Expressions.Functions.Function>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of String(), Function))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String(), DiceEngine.Expressions.Functions.Function))
+  name.vb: IEnumerable(Of KeyValuePair(Of String(), Function))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Functions.Function
+    name: Function
+    href: DiceEngine.Expressions.Functions.Function.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Functions.Function
+    name: Function
+    href: DiceEngine.Expressions.Functions.Function.html
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,DiceEngine.Expressions.Functions.Function}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,DiceEngine.Expressions.Functions.Function}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<string, Function>>
+  nameWithType: IEnumerable<KeyValuePair<string, Function>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, DiceEngine.Expressions.Functions.Function>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of String, Function))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, DiceEngine.Expressions.Functions.Function))
+  name.vb: IEnumerable(Of KeyValuePair(Of String, Function))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Functions.Function
+    name: Function
+    href: DiceEngine.Expressions.Functions.Function.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Expressions.Functions.Function
+    name: Function
+    href: DiceEngine.Expressions.Functions.Function.html
+  - name: )
+  - name: )
+- uid: DiceEngine.Context.ExpressionContext.SetFunction*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.SetFunction
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_SetFunction_System_String_DiceEngine_Expressions_Functions_Function_
+  name: SetFunction
+  nameWithType: ExpressionContext.SetFunction
+  fullName: DiceEngine.Context.ExpressionContext.SetFunction
+- uid: DiceEngine.Expressions.Functions.Function
+  commentId: T:DiceEngine.Expressions.Functions.Function
+  parent: DiceEngine.Expressions.Functions
+  href: DiceEngine.Expressions.Functions.Function.html
+  name: Function
+  nameWithType: Function
+  fullName: DiceEngine.Expressions.Functions.Function
+- uid: DiceEngine.Expressions.Functions
+  commentId: N:DiceEngine.Expressions.Functions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Functions
+  nameWithType: DiceEngine.Expressions.Functions
+  fullName: DiceEngine.Expressions.Functions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Functions
+    name: Functions
+    href: DiceEngine.Expressions.Functions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Functions
+    name: Functions
+    href: DiceEngine.Expressions.Functions.html
+- uid: DiceEngine.Context.ExpressionContext.RemoveFunction*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.RemoveFunction
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_RemoveFunction_System_String_
+  name: RemoveFunction
+  nameWithType: ExpressionContext.RemoveFunction
+  fullName: DiceEngine.Context.ExpressionContext.RemoveFunction
+- uid: DiceEngine.Context.ExpressionContext.ContainsFunction*
+  commentId: Overload:DiceEngine.Context.ExpressionContext.ContainsFunction
+  href: DiceEngine.Context.ExpressionContext.html#DiceEngine_Context_ExpressionContext_ContainsFunction_System_String_
+  name: ContainsFunction
+  nameWithType: ExpressionContext.ContainsFunction
+  fullName: DiceEngine.Context.ExpressionContext.ContainsFunction

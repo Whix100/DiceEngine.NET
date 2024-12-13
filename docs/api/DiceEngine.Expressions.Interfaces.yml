@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Interfaces
+  commentId: N:DiceEngine.Expressions.Interfaces
+  id: DiceEngine.Expressions.Interfaces
+  children:
+  - DiceEngine.Expressions.Interfaces.IBinaryOperable
+  - DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  - DiceEngine.Expressions.Interfaces.IPostfixOperable
+  - DiceEngine.Expressions.Interfaces.IPrefixOperable
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Expressions.Interfaces
+  nameWithType: DiceEngine.Expressions.Interfaces
+  fullName: DiceEngine.Expressions.Interfaces
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Expressions.Interfaces.IBinaryOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IBinaryOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IBinaryOperable.html
+  name: IBinaryOperable
+  nameWithType: IBinaryOperable
+  fullName: DiceEngine.Expressions.Interfaces.IBinaryOperable
+- uid: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  commentId: T:DiceEngine.Expressions.Interfaces.ILogicalConvertible
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.ILogicalConvertible.html
+  name: ILogicalConvertible
+  nameWithType: ILogicalConvertible
+  fullName: DiceEngine.Expressions.Interfaces.ILogicalConvertible
+- uid: DiceEngine.Expressions.Interfaces.IPostfixOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IPostfixOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IPostfixOperable.html
+  name: IPostfixOperable
+  nameWithType: IPostfixOperable
+  fullName: DiceEngine.Expressions.Interfaces.IPostfixOperable
+- uid: DiceEngine.Expressions.Interfaces.IPrefixOperable
+  commentId: T:DiceEngine.Expressions.Interfaces.IPrefixOperable
+  parent: DiceEngine.Expressions.Interfaces
+  href: DiceEngine.Expressions.Interfaces.IPrefixOperable.html
+  name: IPrefixOperable
+  nameWithType: IPrefixOperable
+  fullName: DiceEngine.Expressions.Interfaces.IPrefixOperable
+- uid: DiceEngine.Expressions.Interfaces
+  commentId: N:DiceEngine.Expressions.Interfaces
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Interfaces
+  nameWithType: DiceEngine.Expressions.Interfaces
+  fullName: DiceEngine.Expressions.Interfaces
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Interfaces
+    name: Interfaces
+    href: DiceEngine.Expressions.Interfaces.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Interfaces
+    name: Interfaces
+    href: DiceEngine.Expressions.Interfaces.html

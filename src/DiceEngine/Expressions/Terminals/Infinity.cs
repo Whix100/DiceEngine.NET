@@ -3,7 +3,7 @@ using DiceEngine.Expressions.Interfaces;
 using DiceEngine.Expressions.Terminals;
 using DiceEngine.NativeFunctions;
 
-namespace DiceEngine.Expressions;
+namespace DiceEngine.Expressions.Terminals;
 
 /// <summary>
 /// Initializes a new instance of the <see cref="Infinity"/> class.

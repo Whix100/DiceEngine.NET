@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Parsing.Brackets
+  commentId: T:DiceEngine.Parsing.Brackets
+  id: Brackets
+  parent: DiceEngine.Parsing
+  children:
+  - DiceEngine.Parsing.Brackets.All
+  - DiceEngine.Parsing.Brackets.Curly
+  - DiceEngine.Parsing.Brackets.None
+  - DiceEngine.Parsing.Brackets.Parenthesis
+  - DiceEngine.Parsing.Brackets.Square
+  langs:
+  - csharp
+  - vb
+  name: Brackets
+  nameWithType: Brackets
+  fullName: DiceEngine.Parsing.Brackets
+  type: Enum
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Enums.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Brackets
+    path: ../src/DiceEngine/Parsing/Enums.cs
+    startLine: 2
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: public enum Brackets
+    content.vb: Public Enum Brackets
+- uid: DiceEngine.Parsing.Brackets.None
+  commentId: F:DiceEngine.Parsing.Brackets.None
+  id: None
+  parent: DiceEngine.Parsing.Brackets
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: Brackets.None
+  fullName: DiceEngine.Parsing.Brackets.None
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Enums.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: None
+    path: ../src/DiceEngine/Parsing/Enums.cs
+    startLine: 4
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: None = 0
+    return:
+      type: DiceEngine.Parsing.Brackets
+- uid: DiceEngine.Parsing.Brackets.Parenthesis
+  commentId: F:DiceEngine.Parsing.Brackets.Parenthesis
+  id: Parenthesis
+  parent: DiceEngine.Parsing.Brackets
+  langs:
+  - csharp
+  - vb
+  name: Parenthesis
+  nameWithType: Brackets.Parenthesis
+  fullName: DiceEngine.Parsing.Brackets.Parenthesis
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Enums.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Parenthesis
+    path: ../src/DiceEngine/Parsing/Enums.cs
+    startLine: 5
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: Parenthesis = 1
+    return:
+      type: DiceEngine.Parsing.Brackets
+- uid: DiceEngine.Parsing.Brackets.Square
+  commentId: F:DiceEngine.Parsing.Brackets.Square
+  id: Square
+  parent: DiceEngine.Parsing.Brackets
+  langs:
+  - csharp
+  - vb
+  name: Square
+  nameWithType: Brackets.Square
+  fullName: DiceEngine.Parsing.Brackets.Square
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Enums.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Square
+    path: ../src/DiceEngine/Parsing/Enums.cs
+    startLine: 6
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: Square = 2
+    return:
+      type: DiceEngine.Parsing.Brackets
+- uid: DiceEngine.Parsing.Brackets.Curly
+  commentId: F:DiceEngine.Parsing.Brackets.Curly
+  id: Curly
+  parent: DiceEngine.Parsing.Brackets
+  langs:
+  - csharp
+  - vb
+  name: Curly
+  nameWithType: Brackets.Curly
+  fullName: DiceEngine.Parsing.Brackets.Curly
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Enums.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Curly
+    path: ../src/DiceEngine/Parsing/Enums.cs
+    startLine: 7
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: Curly = 4
+    return:
+      type: DiceEngine.Parsing.Brackets
+- uid: DiceEngine.Parsing.Brackets.All
+  commentId: F:DiceEngine.Parsing.Brackets.All
+  id: All
+  parent: DiceEngine.Parsing.Brackets
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: Brackets.All
+  fullName: DiceEngine.Parsing.Brackets.All
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Enums.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: All
+    path: ../src/DiceEngine/Parsing/Enums.cs
+    startLine: 8
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: All = 255
+    return:
+      type: DiceEngine.Parsing.Brackets
+references:
+- uid: DiceEngine.Parsing
+  commentId: N:DiceEngine.Parsing
+  href: DiceEngine.html
+  name: DiceEngine.Parsing
+  nameWithType: DiceEngine.Parsing
+  fullName: DiceEngine.Parsing
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+- uid: DiceEngine.Parsing.Brackets
+  commentId: T:DiceEngine.Parsing.Brackets
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.Brackets.html
+  name: Brackets
+  nameWithType: Brackets
+  fullName: DiceEngine.Parsing.Brackets

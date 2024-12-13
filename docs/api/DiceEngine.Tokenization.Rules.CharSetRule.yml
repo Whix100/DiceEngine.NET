@@ -1,0 +1,1098 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Tokenization.Rules.CharSetRule
+  commentId: T:DiceEngine.Tokenization.Rules.CharSetRule
+  id: CharSetRule
+  parent: DiceEngine.Tokenization.Rules
+  children:
+  - DiceEngine.Tokenization.Rules.CharSetRule.#ctor(System.String,System.Collections.Generic.IEnumerable{System.Char},System.Func{System.Char,System.Int32,DiceEngine.Tokenization.Tokens.IToken})
+  - DiceEngine.Tokenization.Rules.CharSetRule.Characters
+  - DiceEngine.Tokenization.Rules.CharSetRule.Equals(System.Object)
+  - DiceEngine.Tokenization.Rules.CharSetRule.GetHashCode
+  - DiceEngine.Tokenization.Rules.CharSetRule.Name
+  - DiceEngine.Tokenization.Rules.CharSetRule.Tokenize(System.String@,System.Int32)
+  - DiceEngine.Tokenization.Rules.CharSetRule.op_Equality(DiceEngine.Tokenization.Rules.CharSetRule,DiceEngine.Tokenization.Rules.CharSetRule)
+  - DiceEngine.Tokenization.Rules.CharSetRule.op_Inequality(DiceEngine.Tokenization.Rules.CharSetRule,DiceEngine.Tokenization.Rules.CharSetRule)
+  langs:
+  - csharp
+  - vb
+  name: CharSetRule
+  nameWithType: CharSetRule
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: CharSetRule
+    path: ../src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+    startLine: 14
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: A rule to be used to tokenize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public class CharSetRule : ITokenizerRule'
+    content.vb: Public Class CharSetRule Implements ITokenizerRule
+  inheritance:
+  - System.Object
+  implements:
+  - DiceEngine.Tokenization.Rules.ITokenizerRule
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.#ctor(System.String,System.Collections.Generic.IEnumerable{System.Char},System.Func{System.Char,System.Int32,DiceEngine.Tokenization.Tokens.IToken})
+  commentId: M:DiceEngine.Tokenization.Rules.CharSetRule.#ctor(System.String,System.Collections.Generic.IEnumerable{System.Char},System.Func{System.Char,System.Int32,DiceEngine.Tokenization.Tokens.IToken})
+  id: '#ctor(System.String,System.Collections.Generic.IEnumerable{System.Char},System.Func{System.Char,System.Int32,DiceEngine.Tokenization.Tokens.IToken})'
+  parent: DiceEngine.Tokenization.Rules.CharSetRule
+  langs:
+  - csharp
+  - vb
+  name: CharSetRule(string, IEnumerable<char>, Func<char, int, IToken>)
+  nameWithType: CharSetRule.CharSetRule(string, IEnumerable<char>, Func<char, int, IToken>)
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.CharSetRule(string, System.Collections.Generic.IEnumerable<char>, System.Func<char, int, DiceEngine.Tokenization.Tokens.IToken>)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+    startLine: 14
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: A rule to be used to tokenize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public CharSetRule(string name, IEnumerable<char> chars, Func<char, int, IToken> tokenize)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the <xref href="DiceEngine.Tokenization.Rules.CharSetRule" data-throw-if-not-resolved="false"></xref>.
+    - id: chars
+      type: System.Collections.Generic.IEnumerable{System.Char}
+      description: The characters to match.
+    - id: tokenize
+      type: System.Func{System.Char,System.Int32,DiceEngine.Tokenization.Tokens.IToken}
+      description: The function to use to tokenize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub New(name As String, chars As IEnumerable(Of Char), tokenize As Func(Of Char, Integer, IToken))
+  overload: DiceEngine.Tokenization.Rules.CharSetRule.#ctor*
+  nameWithType.vb: CharSetRule.New(String, IEnumerable(Of Char), Func(Of Char, Integer, IToken))
+  fullName.vb: DiceEngine.Tokenization.Rules.CharSetRule.New(String, System.Collections.Generic.IEnumerable(Of Char), System.Func(Of Char, Integer, DiceEngine.Tokenization.Tokens.IToken))
+  name.vb: New(String, IEnumerable(Of Char), Func(Of Char, Integer, IToken))
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.Characters
+  commentId: F:DiceEngine.Tokenization.Rules.CharSetRule.Characters
+  id: Characters
+  parent: DiceEngine.Tokenization.Rules.CharSetRule
+  langs:
+  - csharp
+  - vb
+  name: Characters
+  nameWithType: CharSetRule.Characters
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.Characters
+  type: Field
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Characters
+    path: ../src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+    startLine: 18
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  syntax:
+    content: public readonly ImmutableHashSet<char> Characters
+    return:
+      type: System.Collections.Immutable.ImmutableHashSet{System.Char}
+    content.vb: Public ReadOnly Characters As ImmutableHashSet(Of Char)
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.Name
+  commentId: P:DiceEngine.Tokenization.Rules.CharSetRule.Name
+  id: Name
+  parent: DiceEngine.Tokenization.Rules.CharSetRule
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CharSetRule.Name
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.Name
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Name
+    path: ../src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+    startLine: 20
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: DiceEngine.Tokenization.Rules.CharSetRule.Name*
+  implements:
+  - DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.Tokenize(System.String@,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Rules.CharSetRule.Tokenize(System.String@,System.Int32)
+  id: Tokenize(System.String@,System.Int32)
+  parent: DiceEngine.Tokenization.Rules.CharSetRule
+  langs:
+  - csharp
+  - vb
+  name: Tokenize(ref string, int)
+  nameWithType: CharSetRule.Tokenize(ref string, int)
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.Tokenize(ref string, int)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Tokenize
+    path: ../src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+    startLine: 22
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: Tries to tokenize the input <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IToken? Tokenize(ref string input, int index)
+    parameters:
+    - id: input
+      type: System.String
+      description: The input <xref href="System.String" data-throw-if-not-resolved="false"></xref> to tokenize.
+    - id: index
+      type: System.Int32
+      description: The index of the start of the input string.
+    return:
+      type: DiceEngine.Tokenization.Tokens.IToken
+      description: The tokenized <xref href="DiceEngine.Tokenization.Tokens.IToken" data-throw-if-not-resolved="false"></xref>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the input does not match the rule.
+    content.vb: Public Function Tokenize(input As String, index As Integer) As IToken
+  overload: DiceEngine.Tokenization.Rules.CharSetRule.Tokenize*
+  implements:
+  - DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  nameWithType.vb: CharSetRule.Tokenize(String, Integer)
+  fullName.vb: DiceEngine.Tokenization.Rules.CharSetRule.Tokenize(String, Integer)
+  name.vb: Tokenize(String, Integer)
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.Equals(System.Object)
+  commentId: M:DiceEngine.Tokenization.Rules.CharSetRule.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: DiceEngine.Tokenization.Rules.CharSetRule
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: CharSetRule.Equals(object?)
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Equals
+    path: ../src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+    startLine: 36
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: Determines whether the specified object is equal to the current object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: DiceEngine.Tokenization.Rules.CharSetRule.Equals*
+  nameWithType.vb: CharSetRule.Equals(Object)
+  fullName.vb: DiceEngine.Tokenization.Rules.CharSetRule.Equals(Object)
+  name.vb: Equals(Object)
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.GetHashCode
+  commentId: M:DiceEngine.Tokenization.Rules.CharSetRule.GetHashCode
+  id: GetHashCode
+  parent: DiceEngine.Tokenization.Rules.CharSetRule
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: CharSetRule.GetHashCode()
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetHashCode
+    path: ../src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+    startLine: 39
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  summary: Serves as the default hash function.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for the current object.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: DiceEngine.Tokenization.Rules.CharSetRule.GetHashCode*
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.op_Equality(DiceEngine.Tokenization.Rules.CharSetRule,DiceEngine.Tokenization.Rules.CharSetRule)
+  commentId: M:DiceEngine.Tokenization.Rules.CharSetRule.op_Equality(DiceEngine.Tokenization.Rules.CharSetRule,DiceEngine.Tokenization.Rules.CharSetRule)
+  id: op_Equality(DiceEngine.Tokenization.Rules.CharSetRule,DiceEngine.Tokenization.Rules.CharSetRule)
+  parent: DiceEngine.Tokenization.Rules.CharSetRule
+  langs:
+  - csharp
+  - vb
+  name: operator ==(CharSetRule, CharSetRule)
+  nameWithType: CharSetRule.operator ==(CharSetRule, CharSetRule)
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.operator ==(DiceEngine.Tokenization.Rules.CharSetRule, DiceEngine.Tokenization.Rules.CharSetRule)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Equality
+    path: ../src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+    startLine: 42
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  syntax:
+    content: public static bool operator ==(CharSetRule a, CharSetRule b)
+    parameters:
+    - id: a
+      type: DiceEngine.Tokenization.Rules.CharSetRule
+    - id: b
+      type: DiceEngine.Tokenization.Rules.CharSetRule
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As CharSetRule, b As CharSetRule) As Boolean
+  overload: DiceEngine.Tokenization.Rules.CharSetRule.op_Equality*
+  nameWithType.vb: CharSetRule.=(CharSetRule, CharSetRule)
+  fullName.vb: DiceEngine.Tokenization.Rules.CharSetRule.=(DiceEngine.Tokenization.Rules.CharSetRule, DiceEngine.Tokenization.Rules.CharSetRule)
+  name.vb: =(CharSetRule, CharSetRule)
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.op_Inequality(DiceEngine.Tokenization.Rules.CharSetRule,DiceEngine.Tokenization.Rules.CharSetRule)
+  commentId: M:DiceEngine.Tokenization.Rules.CharSetRule.op_Inequality(DiceEngine.Tokenization.Rules.CharSetRule,DiceEngine.Tokenization.Rules.CharSetRule)
+  id: op_Inequality(DiceEngine.Tokenization.Rules.CharSetRule,DiceEngine.Tokenization.Rules.CharSetRule)
+  parent: DiceEngine.Tokenization.Rules.CharSetRule
+  langs:
+  - csharp
+  - vb
+  name: operator !=(CharSetRule, CharSetRule)
+  nameWithType: CharSetRule.operator !=(CharSetRule, CharSetRule)
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.operator !=(DiceEngine.Tokenization.Rules.CharSetRule, DiceEngine.Tokenization.Rules.CharSetRule)
+  type: Operator
+  source:
+    remote:
+      path: src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: op_Inequality
+    path: ../src/DiceEngine/Tokenization/Rules/CharSetRule.cs
+    startLine: 45
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Tokenization.Rules
+  syntax:
+    content: public static bool operator !=(CharSetRule a, CharSetRule b)
+    parameters:
+    - id: a
+      type: DiceEngine.Tokenization.Rules.CharSetRule
+    - id: b
+      type: DiceEngine.Tokenization.Rules.CharSetRule
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As CharSetRule, b As CharSetRule) As Boolean
+  overload: DiceEngine.Tokenization.Rules.CharSetRule.op_Inequality*
+  nameWithType.vb: CharSetRule.<>(CharSetRule, CharSetRule)
+  fullName.vb: DiceEngine.Tokenization.Rules.CharSetRule.<>(DiceEngine.Tokenization.Rules.CharSetRule, DiceEngine.Tokenization.Rules.CharSetRule)
+  name.vb: <>(CharSetRule, CharSetRule)
+references:
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
+  name: IToken
+  nameWithType: IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+- uid: DiceEngine.Tokenization.Rules.CharSetRule
+  commentId: T:DiceEngine.Tokenization.Rules.CharSetRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.CharSetRule.html
+  name: CharSetRule
+  nameWithType: CharSetRule
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule
+- uid: DiceEngine.Tokenization.Rules
+  commentId: N:DiceEngine.Tokenization.Rules
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Rules
+  nameWithType: DiceEngine.Tokenization.Rules
+  fullName: DiceEngine.Tokenization.Rules
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Rules
+    name: Rules
+    href: DiceEngine.Tokenization.Rules.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Rules
+    name: Rules
+    href: DiceEngine.Tokenization.Rules.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule
+  commentId: T:DiceEngine.Tokenization.Rules.ITokenizerRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html
+  name: ITokenizerRule
+  nameWithType: ITokenizerRule
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.#ctor*
+  commentId: Overload:DiceEngine.Tokenization.Rules.CharSetRule.#ctor
+  href: DiceEngine.Tokenization.Rules.CharSetRule.html#DiceEngine_Tokenization_Rules_CharSetRule__ctor_System_String_System_Collections_Generic_IEnumerable_System_Char__System_Func_System_Char_System_Int32_DiceEngine_Tokenization_Tokens_IToken__
+  name: CharSetRule
+  nameWithType: CharSetRule.CharSetRule
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.CharSetRule
+  nameWithType.vb: CharSetRule.New
+  fullName.vb: DiceEngine.Tokenization.Rules.CharSetRule.New
+  name.vb: New
+- uid: System.Collections.Generic.IEnumerable{System.Char}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Char}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<char>
+  nameWithType: IEnumerable<char>
+  fullName: System.Collections.Generic.IEnumerable<char>
+  nameWithType.vb: IEnumerable(Of Char)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Char)
+  name.vb: IEnumerable(Of Char)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: System.Func{System.Char,System.Int32,DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Func{System.Char,System.Int32,DiceEngine.Tokenization.Tokens.IToken}
+  parent: System
+  definition: System.Func`3
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<char, int, IToken>
+  nameWithType: Func<char, int, IToken>
+  fullName: System.Func<char, int, DiceEngine.Tokenization.Tokens.IToken>
+  nameWithType.vb: Func(Of Char, Integer, IToken)
+  fullName.vb: System.Func(Of Char, Integer, DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: Func(Of Char, Integer, IToken)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Func`3
+  commentId: T:System.Func`3
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<T1, T2, TResult>
+  nameWithType: Func<T1, T2, TResult>
+  fullName: System.Func<T1, T2, TResult>
+  nameWithType.vb: Func(Of T1, T2, TResult)
+  fullName.vb: System.Func(Of T1, T2, TResult)
+  name.vb: Func(Of T1, T2, TResult)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Collections.Immutable.ImmutableHashSet{System.Char}
+  commentId: T:System.Collections.Immutable.ImmutableHashSet{System.Char}
+  parent: System.Collections.Immutable
+  definition: System.Collections.Immutable.ImmutableHashSet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablehashset-1
+  name: ImmutableHashSet<char>
+  nameWithType: ImmutableHashSet<char>
+  fullName: System.Collections.Immutable.ImmutableHashSet<char>
+  nameWithType.vb: ImmutableHashSet(Of Char)
+  fullName.vb: System.Collections.Immutable.ImmutableHashSet(Of Char)
+  name.vb: ImmutableHashSet(Of Char)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableHashSet`1
+    name: ImmutableHashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablehashset-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableHashSet`1
+    name: ImmutableHashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablehashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: System.Collections.Immutable.ImmutableHashSet`1
+  commentId: T:System.Collections.Immutable.ImmutableHashSet`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablehashset-1
+  name: ImmutableHashSet<T>
+  nameWithType: ImmutableHashSet<T>
+  fullName: System.Collections.Immutable.ImmutableHashSet<T>
+  nameWithType.vb: ImmutableHashSet(Of T)
+  fullName.vb: System.Collections.Immutable.ImmutableHashSet(Of T)
+  name.vb: ImmutableHashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableHashSet`1
+    name: ImmutableHashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablehashset-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableHashSet`1
+    name: ImmutableHashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablehashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Immutable
+  commentId: N:System.Collections.Immutable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Immutable
+  nameWithType: System.Collections.Immutable
+  fullName: System.Collections.Immutable
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Immutable
+    name: Immutable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Immutable
+    name: Immutable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.Name*
+  commentId: Overload:DiceEngine.Tokenization.Rules.CharSetRule.Name
+  href: DiceEngine.Tokenization.Rules.CharSetRule.html#DiceEngine_Tokenization_Rules_CharSetRule_Name
+  name: Name
+  nameWithType: CharSetRule.Name
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.Name
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+  commentId: P:DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+  parent: DiceEngine.Tokenization.Rules.ITokenizerRule
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Name
+  name: Name
+  nameWithType: ITokenizerRule.Name
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule.Name
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.Tokenize*
+  commentId: Overload:DiceEngine.Tokenization.Rules.CharSetRule.Tokenize
+  href: DiceEngine.Tokenization.Rules.CharSetRule.html#DiceEngine_Tokenization_Rules_CharSetRule_Tokenize_System_String__System_Int32_
+  name: Tokenize
+  nameWithType: CharSetRule.Tokenize
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.Tokenize
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  commentId: M:DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+  parent: DiceEngine.Tokenization.Rules.ITokenizerRule
+  isExternal: true
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
+  name: Tokenize(ref string, int)
+  nameWithType: ITokenizerRule.Tokenize(ref string, int)
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(ref string, int)
+  nameWithType.vb: ITokenizerRule.Tokenize(String, Integer)
+  fullName.vb: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(String, Integer)
+  name.vb: Tokenize(String, Integer)
+  spec.csharp:
+  - uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+    name: Tokenize
+    href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: DiceEngine.Tokenization.Rules.ITokenizerRule.Tokenize(System.String@,System.Int32)
+    name: Tokenize
+    href: DiceEngine.Tokenization.Rules.ITokenizerRule.html#DiceEngine_Tokenization_Rules_ITokenizerRule_Tokenize_System_String__System_Int32_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.Equals*
+  commentId: Overload:DiceEngine.Tokenization.Rules.CharSetRule.Equals
+  href: DiceEngine.Tokenization.Rules.CharSetRule.html#DiceEngine_Tokenization_Rules_CharSetRule_Equals_System_Object_
+  name: Equals
+  nameWithType: CharSetRule.Equals
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.GetHashCode*
+  commentId: Overload:DiceEngine.Tokenization.Rules.CharSetRule.GetHashCode
+  href: DiceEngine.Tokenization.Rules.CharSetRule.html#DiceEngine_Tokenization_Rules_CharSetRule_GetHashCode
+  name: GetHashCode
+  nameWithType: CharSetRule.GetHashCode
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.GetHashCode
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.op_Equality*
+  commentId: Overload:DiceEngine.Tokenization.Rules.CharSetRule.op_Equality
+  href: DiceEngine.Tokenization.Rules.CharSetRule.html#DiceEngine_Tokenization_Rules_CharSetRule_op_Equality_DiceEngine_Tokenization_Rules_CharSetRule_DiceEngine_Tokenization_Rules_CharSetRule_
+  name: operator ==
+  nameWithType: CharSetRule.operator ==
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.operator ==
+  nameWithType.vb: CharSetRule.=
+  fullName.vb: DiceEngine.Tokenization.Rules.CharSetRule.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Tokenization.Rules.CharSetRule.op_Equality*
+    name: ==
+    href: DiceEngine.Tokenization.Rules.CharSetRule.html#DiceEngine_Tokenization_Rules_CharSetRule_op_Equality_DiceEngine_Tokenization_Rules_CharSetRule_DiceEngine_Tokenization_Rules_CharSetRule_
+- uid: DiceEngine.Tokenization.Rules.CharSetRule.op_Inequality*
+  commentId: Overload:DiceEngine.Tokenization.Rules.CharSetRule.op_Inequality
+  href: DiceEngine.Tokenization.Rules.CharSetRule.html#DiceEngine_Tokenization_Rules_CharSetRule_op_Inequality_DiceEngine_Tokenization_Rules_CharSetRule_DiceEngine_Tokenization_Rules_CharSetRule_
+  name: operator !=
+  nameWithType: CharSetRule.operator !=
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule.operator !=
+  nameWithType.vb: CharSetRule.<>
+  fullName.vb: DiceEngine.Tokenization.Rules.CharSetRule.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: DiceEngine.Tokenization.Rules.CharSetRule.op_Inequality*
+    name: '!='
+    href: DiceEngine.Tokenization.Rules.CharSetRule.html#DiceEngine_Tokenization_Rules_CharSetRule_op_Inequality_DiceEngine_Tokenization_Rules_CharSetRule_DiceEngine_Tokenization_Rules_CharSetRule_

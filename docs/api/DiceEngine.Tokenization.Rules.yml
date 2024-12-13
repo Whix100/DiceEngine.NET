@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Tokenization.Rules
+  commentId: N:DiceEngine.Tokenization.Rules
+  id: DiceEngine.Tokenization.Rules
+  children:
+  - DiceEngine.Tokenization.Rules.CharSetRule
+  - DiceEngine.Tokenization.Rules.ITokenizerRule
+  - DiceEngine.Tokenization.Rules.OptionRule
+  - DiceEngine.Tokenization.Rules.RegexRule
+  - DiceEngine.Tokenization.Rules.TokenizerRule
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Tokenization.Rules
+  nameWithType: DiceEngine.Tokenization.Rules
+  fullName: DiceEngine.Tokenization.Rules
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Tokenization.Rules.CharSetRule
+  commentId: T:DiceEngine.Tokenization.Rules.CharSetRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.CharSetRule.html
+  name: CharSetRule
+  nameWithType: CharSetRule
+  fullName: DiceEngine.Tokenization.Rules.CharSetRule
+- uid: DiceEngine.Tokenization.Rules.ITokenizerRule
+  commentId: T:DiceEngine.Tokenization.Rules.ITokenizerRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.ITokenizerRule.html
+  name: ITokenizerRule
+  nameWithType: ITokenizerRule
+  fullName: DiceEngine.Tokenization.Rules.ITokenizerRule
+- uid: DiceEngine.Tokenization.Rules.OptionRule
+  commentId: T:DiceEngine.Tokenization.Rules.OptionRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.OptionRule.html
+  name: OptionRule
+  nameWithType: OptionRule
+  fullName: DiceEngine.Tokenization.Rules.OptionRule
+- uid: DiceEngine.Tokenization.Rules.RegexRule
+  commentId: T:DiceEngine.Tokenization.Rules.RegexRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.RegexRule.html
+  name: RegexRule
+  nameWithType: RegexRule
+  fullName: DiceEngine.Tokenization.Rules.RegexRule
+- uid: DiceEngine.Tokenization.Rules.TokenizerRule
+  commentId: T:DiceEngine.Tokenization.Rules.TokenizerRule
+  parent: DiceEngine.Tokenization.Rules
+  href: DiceEngine.Tokenization.Rules.TokenizerRule.html
+  name: TokenizerRule
+  nameWithType: TokenizerRule
+  fullName: DiceEngine.Tokenization.Rules.TokenizerRule
+- uid: DiceEngine.Tokenization.Rules
+  commentId: N:DiceEngine.Tokenization.Rules
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Rules
+  nameWithType: DiceEngine.Tokenization.Rules
+  fullName: DiceEngine.Tokenization.Rules
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Rules
+    name: Rules
+    href: DiceEngine.Tokenization.Rules.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Rules
+    name: Rules
+    href: DiceEngine.Tokenization.Rules.html

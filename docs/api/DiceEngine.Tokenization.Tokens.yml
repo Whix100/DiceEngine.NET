@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  id: DiceEngine.Tokenization.Tokens
+  children:
+  - DiceEngine.Tokenization.Tokens.Bracket
+  - DiceEngine.Tokenization.Tokens.CloseBracketToken
+  - DiceEngine.Tokenization.Tokens.IToken
+  - DiceEngine.Tokenization.Tokens.NumberToken
+  - DiceEngine.Tokenization.Tokens.OpenBracketToken
+  - DiceEngine.Tokenization.Tokens.SymbolToken
+  - DiceEngine.Tokenization.Tokens.Token
+  - DiceEngine.Tokenization.Tokens.WordToken
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Tokenization.Tokens.OpenBracketToken
+  commentId: T:DiceEngine.Tokenization.Tokens.OpenBracketToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.OpenBracketToken.html
+  name: OpenBracketToken
+  nameWithType: OpenBracketToken
+  fullName: DiceEngine.Tokenization.Tokens.OpenBracketToken
+- uid: DiceEngine.Tokenization.Tokens.CloseBracketToken
+  commentId: T:DiceEngine.Tokenization.Tokens.CloseBracketToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.CloseBracketToken.html
+  name: CloseBracketToken
+  nameWithType: CloseBracketToken
+  fullName: DiceEngine.Tokenization.Tokens.CloseBracketToken
+- uid: DiceEngine.Tokenization.Tokens.Bracket
+  commentId: T:DiceEngine.Tokenization.Tokens.Bracket
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.Bracket.html
+  name: Bracket
+  nameWithType: Bracket
+  fullName: DiceEngine.Tokenization.Tokens.Bracket
+- uid: DiceEngine.Tokenization.Tokens.IToken
+  commentId: T:DiceEngine.Tokenization.Tokens.IToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.IToken.html
+  name: IToken
+  nameWithType: IToken
+  fullName: DiceEngine.Tokenization.Tokens.IToken
+- uid: DiceEngine.Tokenization.Tokens.NumberToken
+  commentId: T:DiceEngine.Tokenization.Tokens.NumberToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.NumberToken.html
+  name: NumberToken
+  nameWithType: NumberToken
+  fullName: DiceEngine.Tokenization.Tokens.NumberToken
+- uid: DiceEngine.Tokenization.Tokens.SymbolToken
+  commentId: T:DiceEngine.Tokenization.Tokens.SymbolToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.SymbolToken.html
+  name: SymbolToken
+  nameWithType: SymbolToken
+  fullName: DiceEngine.Tokenization.Tokens.SymbolToken
+- uid: DiceEngine.Tokenization.Tokens.Token
+  commentId: T:DiceEngine.Tokenization.Tokens.Token
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.Token.html
+  name: Token
+  nameWithType: Token
+  fullName: DiceEngine.Tokenization.Tokens.Token
+- uid: DiceEngine.Tokenization.Tokens.WordToken
+  commentId: T:DiceEngine.Tokenization.Tokens.WordToken
+  parent: DiceEngine.Tokenization.Tokens
+  href: DiceEngine.Tokenization.Tokens.WordToken.html
+  name: WordToken
+  nameWithType: WordToken
+  fullName: DiceEngine.Tokenization.Tokens.WordToken
+- uid: DiceEngine.Tokenization.Tokens
+  commentId: N:DiceEngine.Tokenization.Tokens
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization.Tokens
+  nameWithType: DiceEngine.Tokenization.Tokens
+  fullName: DiceEngine.Tokenization.Tokens
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  - name: .
+  - uid: DiceEngine.Tokenization.Tokens
+    name: Tokens
+    href: DiceEngine.Tokenization.Tokens.html

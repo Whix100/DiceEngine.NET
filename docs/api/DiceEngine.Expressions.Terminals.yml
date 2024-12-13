@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  id: DiceEngine.Expressions.Terminals
+  children:
+  - DiceEngine.Expressions.Terminals.Infinity
+  - DiceEngine.Expressions.Terminals.Logical
+  - DiceEngine.Expressions.Terminals.Number
+  - DiceEngine.Expressions.Terminals.Terminal
+  - DiceEngine.Expressions.Terminals.Undefined
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Expressions.Terminals.Infinity
+  commentId: T:DiceEngine.Expressions.Terminals.Infinity
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Infinity.html
+  name: Infinity
+  nameWithType: Infinity
+  fullName: DiceEngine.Expressions.Terminals.Infinity
+- uid: DiceEngine.Expressions.Terminals.Logical
+  commentId: T:DiceEngine.Expressions.Terminals.Logical
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Logical.html
+  name: Logical
+  nameWithType: Logical
+  fullName: DiceEngine.Expressions.Terminals.Logical
+- uid: DiceEngine.Expressions.Terminals.Number
+  commentId: T:DiceEngine.Expressions.Terminals.Number
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Number.html
+  name: Number
+  nameWithType: Number
+  fullName: DiceEngine.Expressions.Terminals.Number
+- uid: DiceEngine.Expressions.Terminals.Terminal
+  commentId: T:DiceEngine.Expressions.Terminals.Terminal
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Terminal.html
+  name: Terminal
+  nameWithType: Terminal
+  fullName: DiceEngine.Expressions.Terminals.Terminal
+- uid: DiceEngine.Expressions.Terminals.Undefined
+  commentId: T:DiceEngine.Expressions.Terminals.Undefined
+  parent: DiceEngine.Expressions.Terminals
+  href: DiceEngine.Expressions.Terminals.Undefined.html
+  name: Undefined
+  nameWithType: Undefined
+  fullName: DiceEngine.Expressions.Terminals.Undefined
+- uid: DiceEngine.Expressions.Terminals
+  commentId: N:DiceEngine.Expressions.Terminals
+  href: DiceEngine.html
+  name: DiceEngine.Expressions.Terminals
+  nameWithType: DiceEngine.Expressions.Terminals
+  fullName: DiceEngine.Expressions.Terminals
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  - name: .
+  - uid: DiceEngine.Expressions.Terminals
+    name: Terminals
+    href: DiceEngine.Expressions.Terminals.html

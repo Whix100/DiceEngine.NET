@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  id: DiceEngine.Expressions
+  children:
+  - DiceEngine.Expressions.AssignmentOperator
+  - DiceEngine.Expressions.BinaryOperator
+  - DiceEngine.Expressions.Constant
+  - DiceEngine.Expressions.FunctionCall
+  - DiceEngine.Expressions.IExpression
+  - DiceEngine.Expressions.Indexer
+  - DiceEngine.Expressions.Parentheses
+  - DiceEngine.Expressions.PostfixOperator
+  - DiceEngine.Expressions.PrefixOperator
+  - DiceEngine.Expressions.Variable
+  langs:
+  - csharp
+  - vb
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  type: Namespace
+  assemblies:
+  - DiceEngine
+references:
+- uid: DiceEngine.Expressions.AssignmentOperator
+  commentId: T:DiceEngine.Expressions.AssignmentOperator
+  href: DiceEngine.Expressions.AssignmentOperator.html
+  name: AssignmentOperator
+  nameWithType: AssignmentOperator
+  fullName: DiceEngine.Expressions.AssignmentOperator
+- uid: DiceEngine.Expressions.BinaryOperator
+  commentId: T:DiceEngine.Expressions.BinaryOperator
+  href: DiceEngine.Expressions.BinaryOperator.html
+  name: BinaryOperator
+  nameWithType: BinaryOperator
+  fullName: DiceEngine.Expressions.BinaryOperator
+- uid: DiceEngine.Expressions.Constant
+  commentId: T:DiceEngine.Expressions.Constant
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.Constant.html
+  name: Constant
+  nameWithType: Constant
+  fullName: DiceEngine.Expressions.Constant
+- uid: DiceEngine.Expressions.FunctionCall
+  commentId: T:DiceEngine.Expressions.FunctionCall
+  href: DiceEngine.Expressions.FunctionCall.html
+  name: FunctionCall
+  nameWithType: FunctionCall
+  fullName: DiceEngine.Expressions.FunctionCall
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: DiceEngine.Expressions.Indexer
+  commentId: T:DiceEngine.Expressions.Indexer
+  href: DiceEngine.Expressions.Indexer.html
+  name: Indexer
+  nameWithType: Indexer
+  fullName: DiceEngine.Expressions.Indexer
+- uid: DiceEngine.Expressions.Parentheses
+  commentId: T:DiceEngine.Expressions.Parentheses
+  href: DiceEngine.Expressions.Parentheses.html
+  name: Parentheses
+  nameWithType: Parentheses
+  fullName: DiceEngine.Expressions.Parentheses
+- uid: DiceEngine.Expressions.PostfixOperator
+  commentId: T:DiceEngine.Expressions.PostfixOperator
+  href: DiceEngine.Expressions.PostfixOperator.html
+  name: PostfixOperator
+  nameWithType: PostfixOperator
+  fullName: DiceEngine.Expressions.PostfixOperator
+- uid: DiceEngine.Expressions.PrefixOperator
+  commentId: T:DiceEngine.Expressions.PrefixOperator
+  href: DiceEngine.Expressions.PrefixOperator.html
+  name: PrefixOperator
+  nameWithType: PrefixOperator
+  fullName: DiceEngine.Expressions.PrefixOperator
+- uid: DiceEngine.Expressions.Variable
+  commentId: T:DiceEngine.Expressions.Variable
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.Variable.html
+  name: Variable
+  nameWithType: Variable
+  fullName: DiceEngine.Expressions.Variable
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html

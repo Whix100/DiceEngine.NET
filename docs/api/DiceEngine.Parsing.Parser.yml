@@ -1,0 +1,1642 @@
+### YamlMime:ManagedReference
+items:
+- uid: DiceEngine.Parsing.Parser
+  commentId: T:DiceEngine.Parsing.Parser
+  id: Parser
+  parent: DiceEngine.Parsing
+  children:
+  - DiceEngine.Parsing.Parser.#ctor
+  - DiceEngine.Parsing.Parser.#ctor(DiceEngine.Tokenization.Tokenizer)
+  - DiceEngine.Parsing.Parser.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Tokenization.Tokenizer)
+  - DiceEngine.Parsing.Parser.AddCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Expressions.IExpression)
+  - DiceEngine.Parsing.Parser.AddCache(System.String,DiceEngine.Expressions.IExpression)
+  - DiceEngine.Parsing.Parser.AddGrammarRule(DiceEngine.Parsing.Rules.IParserRule,System.Int32)
+  - DiceEngine.Parsing.Parser.Cache
+  - DiceEngine.Parsing.Parser.ClearCache
+  - DiceEngine.Parsing.Parser.ContainsCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken})
+  - DiceEngine.Parsing.Parser.ContainsCache(System.String)
+  - DiceEngine.Parsing.Parser.GetGrammarRule(System.Int32)
+  - DiceEngine.Parsing.Parser.GetGrammarRule(System.String)
+  - DiceEngine.Parsing.Parser.Grammar
+  - DiceEngine.Parsing.Parser.GrammarContains(System.String)
+  - DiceEngine.Parsing.Parser.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken})
+  - DiceEngine.Parsing.Parser.Parse(System.String)
+  - DiceEngine.Parsing.Parser.RemoveCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken})
+  - DiceEngine.Parsing.Parser.RemoveCache(System.String)
+  - DiceEngine.Parsing.Parser.RemoveGrammarRule(System.String)
+  - DiceEngine.Parsing.Parser.RemoveGrammarRuleAt(System.Int32)
+  - DiceEngine.Parsing.Parser.ReplaceGrammarRule(DiceEngine.Parsing.Rules.IParserRule)
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: Parser
+  fullName: DiceEngine.Parsing.Parser
+  type: Class
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/ParserCache.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Parser
+    path: ../src/DiceEngine/Parsing/ParserCache.cs
+    startLine: 7
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Create a <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref> using the specified grammar.
+  example: []
+  syntax:
+    content: public class Parser
+    content.vb: Public Class Parser
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: DiceEngine.Parsing.Parser.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Tokenization.Tokenizer)
+  commentId: M:DiceEngine.Parsing.Parser.#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Tokenization.Tokenizer)
+  id: '#ctor(System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule},DiceEngine.Tokenization.Tokenizer)'
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: Parser(IEnumerable<IParserRule>, Tokenizer?)
+  nameWithType: Parser.Parser(IEnumerable<IParserRule>, Tokenizer?)
+  fullName: DiceEngine.Parsing.Parser.Parser(System.Collections.Generic.IEnumerable<DiceEngine.Parsing.Rules.IParserRule>, DiceEngine.Tokenization.Tokenizer?)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 18
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Create a <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref> using the specified grammar.
+  example: []
+  syntax:
+    content: public Parser(IEnumerable<IParserRule> grammar, Tokenizer? tokenizer = null)
+    parameters:
+    - id: grammar
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule}
+      description: The specified <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> to be used as the grammar of the <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref>.
+    - id: tokenizer
+      type: DiceEngine.Tokenization.Tokenizer
+    content.vb: Public Sub New(grammar As IEnumerable(Of IParserRule), tokenizer As Tokenizer = Nothing)
+  overload: DiceEngine.Parsing.Parser.#ctor*
+  nameWithType.vb: Parser.New(IEnumerable(Of IParserRule), Tokenizer)
+  fullName.vb: DiceEngine.Parsing.Parser.New(System.Collections.Generic.IEnumerable(Of DiceEngine.Parsing.Rules.IParserRule), DiceEngine.Tokenization.Tokenizer)
+  name.vb: New(IEnumerable(Of IParserRule), Tokenizer)
+- uid: DiceEngine.Parsing.Parser.Grammar
+  commentId: P:DiceEngine.Parsing.Parser.Grammar
+  id: Grammar
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: Grammar
+  nameWithType: Parser.Grammar
+  fullName: DiceEngine.Parsing.Parser.Grammar
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Grammar
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 23
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: public IParserRule[] Grammar { get; }
+    parameters: []
+    return:
+      type: DiceEngine.Parsing.Rules.IParserRule[]
+    content.vb: Public ReadOnly Property Grammar As IParserRule()
+  overload: DiceEngine.Parsing.Parser.Grammar*
+- uid: DiceEngine.Parsing.Parser.#ctor
+  commentId: M:DiceEngine.Parsing.Parser.#ctor
+  id: '#ctor'
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: Parser()
+  nameWithType: Parser.Parser()
+  fullName: DiceEngine.Parsing.Parser.Parser()
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 28
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Creates a <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref> with the default grammar and default tokenizer.
+  example: []
+  syntax:
+    content: public Parser()
+    content.vb: Public Sub New()
+  overload: DiceEngine.Parsing.Parser.#ctor*
+  nameWithType.vb: Parser.New()
+  fullName.vb: DiceEngine.Parsing.Parser.New()
+  name.vb: New()
+- uid: DiceEngine.Parsing.Parser.#ctor(DiceEngine.Tokenization.Tokenizer)
+  commentId: M:DiceEngine.Parsing.Parser.#ctor(DiceEngine.Tokenization.Tokenizer)
+  id: '#ctor(DiceEngine.Tokenization.Tokenizer)'
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: Parser(Tokenizer)
+  nameWithType: Parser.Parser(Tokenizer)
+  fullName: DiceEngine.Parsing.Parser.Parser(DiceEngine.Tokenization.Tokenizer)
+  type: Constructor
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: .ctor
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 33
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Creates a <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref> with the default grammar.
+  example: []
+  syntax:
+    content: public Parser(Tokenizer tokenizer)
+    parameters:
+    - id: tokenizer
+      type: DiceEngine.Tokenization.Tokenizer
+    content.vb: Public Sub New(tokenizer As Tokenizer)
+  overload: DiceEngine.Parsing.Parser.#ctor*
+  nameWithType.vb: Parser.New(Tokenizer)
+  fullName.vb: DiceEngine.Parsing.Parser.New(DiceEngine.Tokenization.Tokenizer)
+  name.vb: New(Tokenizer)
+- uid: DiceEngine.Parsing.Parser.Parse(System.String)
+  commentId: M:DiceEngine.Parsing.Parser.Parse(System.String)
+  id: Parse(System.String)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: Parse(string)
+  nameWithType: Parser.Parse(string)
+  fullName: DiceEngine.Parsing.Parser.Parse(string)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Parse
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 42
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Parses an expression <xref href="System.String" data-throw-if-not-resolved="false"></xref> into an <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IExpression Parse(string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: The expression <xref href="System.String" data-throw-if-not-resolved="false"></xref> to parse.
+    return:
+      type: DiceEngine.Expressions.IExpression
+      description: An <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> parsed from the specified expression <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function Parse(input As String) As IExpression
+  overload: DiceEngine.Parsing.Parser.Parse*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: ''
+  nameWithType.vb: Parser.Parse(String)
+  fullName.vb: DiceEngine.Parsing.Parser.Parse(String)
+  name.vb: Parse(String)
+- uid: DiceEngine.Parsing.Parser.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken})
+  commentId: M:DiceEngine.Parsing.Parser.Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken})
+  id: Parse(System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken})
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: Parse(ImmutableArray<IToken>)
+  nameWithType: Parser.Parse(ImmutableArray<IToken>)
+  fullName: DiceEngine.Parsing.Parser.Parse(System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Parse
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 59
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Parses a tokenized expression into an <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IExpression Parse(ImmutableArray<IToken> input)
+    parameters:
+    - id: input
+      type: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
+      description: The tokenized expression to parse.
+    return:
+      type: DiceEngine.Expressions.IExpression
+      description: An <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> parsed from the specified expression <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function Parse(input As ImmutableArray(Of IToken)) As IExpression
+  overload: DiceEngine.Parsing.Parser.Parse*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: ''
+  nameWithType.vb: Parser.Parse(ImmutableArray(Of IToken))
+  fullName.vb: DiceEngine.Parsing.Parser.Parse(System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken))
+  name.vb: Parse(ImmutableArray(Of IToken))
+- uid: DiceEngine.Parsing.Parser.AddGrammarRule(DiceEngine.Parsing.Rules.IParserRule,System.Int32)
+  commentId: M:DiceEngine.Parsing.Parser.AddGrammarRule(DiceEngine.Parsing.Rules.IParserRule,System.Int32)
+  id: AddGrammarRule(DiceEngine.Parsing.Rules.IParserRule,System.Int32)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: AddGrammarRule(IParserRule, int)
+  nameWithType: Parser.AddGrammarRule(IParserRule, int)
+  fullName: DiceEngine.Parsing.Parser.AddGrammarRule(DiceEngine.Parsing.Rules.IParserRule, int)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: AddGrammarRule
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 84
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Add <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> to the grammar of the <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool AddGrammarRule(IParserRule rule, int index = -1)
+    parameters:
+    - id: rule
+      type: DiceEngine.Parsing.Rules.IParserRule
+      description: The <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> to be added to the grammar.
+    - id: index
+      type: System.Int32
+      description: The index to put the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> in the grammar.
+    return:
+      type: System.Boolean
+      description: >-
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> was successfully added to the grammar; otherwise, 
+
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function AddGrammarRule(rule As IParserRule, index As Integer = -1) As Boolean
+  overload: DiceEngine.Parsing.Parser.AddGrammarRule*
+  nameWithType.vb: Parser.AddGrammarRule(IParserRule, Integer)
+  fullName.vb: DiceEngine.Parsing.Parser.AddGrammarRule(DiceEngine.Parsing.Rules.IParserRule, Integer)
+  name.vb: AddGrammarRule(IParserRule, Integer)
+- uid: DiceEngine.Parsing.Parser.RemoveGrammarRule(System.String)
+  commentId: M:DiceEngine.Parsing.Parser.RemoveGrammarRule(System.String)
+  id: RemoveGrammarRule(System.String)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: RemoveGrammarRule(string)
+  nameWithType: Parser.RemoveGrammarRule(string)
+  fullName: DiceEngine.Parsing.Parser.RemoveGrammarRule(string)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RemoveGrammarRule
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 116
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Removes the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> with the specified name from the grammar of the <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public int RemoveGrammarRule(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> to be removed.
+    return:
+      type: System.Int32
+      description: The index of the removed rule if the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> was successfully removed; otherwise, -1.
+    content.vb: Public Function RemoveGrammarRule(name As String) As Integer
+  overload: DiceEngine.Parsing.Parser.RemoveGrammarRule*
+  nameWithType.vb: Parser.RemoveGrammarRule(String)
+  fullName.vb: DiceEngine.Parsing.Parser.RemoveGrammarRule(String)
+  name.vb: RemoveGrammarRule(String)
+- uid: DiceEngine.Parsing.Parser.RemoveGrammarRuleAt(System.Int32)
+  commentId: M:DiceEngine.Parsing.Parser.RemoveGrammarRuleAt(System.Int32)
+  id: RemoveGrammarRuleAt(System.Int32)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: RemoveGrammarRuleAt(int)
+  nameWithType: Parser.RemoveGrammarRuleAt(int)
+  fullName: DiceEngine.Parsing.Parser.RemoveGrammarRuleAt(int)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RemoveGrammarRuleAt
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 139
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Removes the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> at the specified index from the grammar of the <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool RemoveGrammarRuleAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: The index for the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> to be removed.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> was successfully removed; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function RemoveGrammarRuleAt(index As Integer) As Boolean
+  overload: DiceEngine.Parsing.Parser.RemoveGrammarRuleAt*
+  nameWithType.vb: Parser.RemoveGrammarRuleAt(Integer)
+  fullName.vb: DiceEngine.Parsing.Parser.RemoveGrammarRuleAt(Integer)
+  name.vb: RemoveGrammarRuleAt(Integer)
+- uid: DiceEngine.Parsing.Parser.ReplaceGrammarRule(DiceEngine.Parsing.Rules.IParserRule)
+  commentId: M:DiceEngine.Parsing.Parser.ReplaceGrammarRule(DiceEngine.Parsing.Rules.IParserRule)
+  id: ReplaceGrammarRule(DiceEngine.Parsing.Rules.IParserRule)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: ReplaceGrammarRule(IParserRule)
+  nameWithType: Parser.ReplaceGrammarRule(IParserRule)
+  fullName: DiceEngine.Parsing.Parser.ReplaceGrammarRule(DiceEngine.Parsing.Rules.IParserRule)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ReplaceGrammarRule
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 160
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Replaces the current <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> with the specified name with a new <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public int ReplaceGrammarRule(IParserRule newRule)
+    parameters:
+    - id: newRule
+      type: DiceEngine.Parsing.Rules.IParserRule
+      description: The new rule to replace the old rule.
+    return:
+      type: System.Int32
+      description: The index of the replaced rule if the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> was successfully replaced; otherwise, -1.
+    content.vb: Public Function ReplaceGrammarRule(newRule As IParserRule) As Integer
+  overload: DiceEngine.Parsing.Parser.ReplaceGrammarRule*
+- uid: DiceEngine.Parsing.Parser.GrammarContains(System.String)
+  commentId: M:DiceEngine.Parsing.Parser.GrammarContains(System.String)
+  id: GrammarContains(System.String)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: GrammarContains(string)
+  nameWithType: Parser.GrammarContains(string)
+  fullName: DiceEngine.Parsing.Parser.GrammarContains(string)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GrammarContains
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 181
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Determines whether a rule with the specified name is in the grammar of the <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool GrammarContains(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> to find.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> was successfully found; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function GrammarContains(name As String) As Boolean
+  overload: DiceEngine.Parsing.Parser.GrammarContains*
+  nameWithType.vb: Parser.GrammarContains(String)
+  fullName.vb: DiceEngine.Parsing.Parser.GrammarContains(String)
+  name.vb: GrammarContains(String)
+- uid: DiceEngine.Parsing.Parser.GetGrammarRule(System.String)
+  commentId: M:DiceEngine.Parsing.Parser.GetGrammarRule(System.String)
+  id: GetGrammarRule(System.String)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: GetGrammarRule(string)
+  nameWithType: Parser.GetGrammarRule(string)
+  fullName: DiceEngine.Parsing.Parser.GetGrammarRule(string)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetGrammarRule
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 195
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Gets a <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> from the grammar based on the specified name.
+  example: []
+  syntax:
+    content: public IParserRule? GetGrammarRule(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the grammar rule.
+    return:
+      type: DiceEngine.Parsing.Rules.IParserRule
+      description: The <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> in the grammar with the name <code class="paramref">name</code>.
+    content.vb: Public Function GetGrammarRule(name As String) As IParserRule
+  overload: DiceEngine.Parsing.Parser.GetGrammarRule*
+  nameWithType.vb: Parser.GetGrammarRule(String)
+  fullName.vb: DiceEngine.Parsing.Parser.GetGrammarRule(String)
+  name.vb: GetGrammarRule(String)
+- uid: DiceEngine.Parsing.Parser.GetGrammarRule(System.Int32)
+  commentId: M:DiceEngine.Parsing.Parser.GetGrammarRule(System.Int32)
+  id: GetGrammarRule(System.Int32)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: GetGrammarRule(int)
+  nameWithType: Parser.GetGrammarRule(int)
+  fullName: DiceEngine.Parsing.Parser.GetGrammarRule(int)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/Parser.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: GetGrammarRule
+    path: ../src/DiceEngine/Parsing/Parser.cs
+    startLine: 210
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Gets a <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> from the grammar based on the specified index.
+  example: []
+  syntax:
+    content: public IParserRule? GetGrammarRule(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: The index of the grammar rule.
+    return:
+      type: DiceEngine.Parsing.Rules.IParserRule
+      description: The <xref href="DiceEngine.Parsing.Rules.IParserRule" data-throw-if-not-resolved="false"></xref> in the grammar at the index of <code class="paramref">index</code>.
+    content.vb: Public Function GetGrammarRule(index As Integer) As IParserRule
+  overload: DiceEngine.Parsing.Parser.GetGrammarRule*
+  nameWithType.vb: Parser.GetGrammarRule(Integer)
+  fullName.vb: DiceEngine.Parsing.Parser.GetGrammarRule(Integer)
+  name.vb: GetGrammarRule(Integer)
+- uid: DiceEngine.Parsing.Parser.Cache
+  commentId: P:DiceEngine.Parsing.Parser.Cache
+  id: Cache
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: Cache
+  nameWithType: Parser.Cache
+  fullName: DiceEngine.Parsing.Parser.Cache
+  type: Property
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/ParserCache.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: Cache
+    path: ../src/DiceEngine/Parsing/ParserCache.cs
+    startLine: 11
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  syntax:
+    content: public ImmutableArray<IToken>[] Cache { get; }
+    parameters: []
+    return:
+      type: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}[]
+    content.vb: Public ReadOnly Property Cache As ImmutableArray(Of IToken)()
+  overload: DiceEngine.Parsing.Parser.Cache*
+- uid: DiceEngine.Parsing.Parser.ContainsCache(System.String)
+  commentId: M:DiceEngine.Parsing.Parser.ContainsCache(System.String)
+  id: ContainsCache(System.String)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: ContainsCache(string)
+  nameWithType: Parser.ContainsCache(string)
+  fullName: DiceEngine.Parsing.Parser.ContainsCache(string)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/ParserCache.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ContainsCache
+    path: ../src/DiceEngine/Parsing/ParserCache.cs
+    startLine: 21
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Determines whether the cache of the <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref> contains a specified expression <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool ContainsCache(string expression)
+    parameters:
+    - id: expression
+      type: System.String
+      description: The expression to locate in the cache.
+    return:
+      type: System.Boolean
+      description: >-
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the cache contains an entry with the specified expression; otherwise, 
+
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function ContainsCache(expression As String) As Boolean
+  overload: DiceEngine.Parsing.Parser.ContainsCache*
+  nameWithType.vb: Parser.ContainsCache(String)
+  fullName.vb: DiceEngine.Parsing.Parser.ContainsCache(String)
+  name.vb: ContainsCache(String)
+- uid: DiceEngine.Parsing.Parser.ContainsCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken})
+  commentId: M:DiceEngine.Parsing.Parser.ContainsCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken})
+  id: ContainsCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken})
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: ContainsCache(IEnumerable<IToken>)
+  nameWithType: Parser.ContainsCache(IEnumerable<IToken>)
+  fullName: DiceEngine.Parsing.Parser.ContainsCache(System.Collections.Generic.IEnumerable<DiceEngine.Tokenization.Tokens.IToken>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/ParserCache.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ContainsCache
+    path: ../src/DiceEngine/Parsing/ParserCache.cs
+    startLine: 32
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Determines whether the cache of the <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref> contains a specified token sequence.
+  example: []
+  syntax:
+    content: public bool ContainsCache(IEnumerable<IToken> expression)
+    parameters:
+    - id: expression
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+      description: The expression to locate in the cache.
+    return:
+      type: System.Boolean
+      description: >-
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the cache contains an entry with the specified expression; otherwise, 
+
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function ContainsCache(expression As IEnumerable(Of IToken)) As Boolean
+  overload: DiceEngine.Parsing.Parser.ContainsCache*
+  nameWithType.vb: Parser.ContainsCache(IEnumerable(Of IToken))
+  fullName.vb: DiceEngine.Parsing.Parser.ContainsCache(System.Collections.Generic.IEnumerable(Of DiceEngine.Tokenization.Tokens.IToken))
+  name.vb: ContainsCache(IEnumerable(Of IToken))
+- uid: DiceEngine.Parsing.Parser.AddCache(System.String,DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.Parsing.Parser.AddCache(System.String,DiceEngine.Expressions.IExpression)
+  id: AddCache(System.String,DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: AddCache(string, IExpression)
+  nameWithType: Parser.AddCache(string, IExpression)
+  fullName: DiceEngine.Parsing.Parser.AddCache(string, DiceEngine.Expressions.IExpression)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/ParserCache.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: AddCache
+    path: ../src/DiceEngine/Parsing/ParserCache.cs
+    startLine: 44
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Add expression <xref href="System.String" data-throw-if-not-resolved="false"></xref> to the cache of the <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool AddCache(string key, IExpression value)
+    parameters:
+    - id: key
+      type: System.String
+      description: The expression <xref href="System.String" data-throw-if-not-resolved="false"></xref> of the cached <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    - id: value
+      type: DiceEngine.Expressions.IExpression
+      description: The cached <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Boolean
+      description: >-
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> was successfully added to the cache; otherwise, 
+
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function AddCache(key As String, value As IExpression) As Boolean
+  overload: DiceEngine.Parsing.Parser.AddCache*
+  nameWithType.vb: Parser.AddCache(String, IExpression)
+  fullName.vb: DiceEngine.Parsing.Parser.AddCache(String, DiceEngine.Expressions.IExpression)
+  name.vb: AddCache(String, IExpression)
+- uid: DiceEngine.Parsing.Parser.AddCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Expressions.IExpression)
+  commentId: M:DiceEngine.Parsing.Parser.AddCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Expressions.IExpression)
+  id: AddCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken},DiceEngine.Expressions.IExpression)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: AddCache(IEnumerable<IToken>, IExpression)
+  nameWithType: Parser.AddCache(IEnumerable<IToken>, IExpression)
+  fullName: DiceEngine.Parsing.Parser.AddCache(System.Collections.Generic.IEnumerable<DiceEngine.Tokenization.Tokens.IToken>, DiceEngine.Expressions.IExpression)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/ParserCache.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: AddCache
+    path: ../src/DiceEngine/Parsing/ParserCache.cs
+    startLine: 56
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Add a token sequence to the cache of the <xref href="DiceEngine.Parsing.Parser" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool AddCache(IEnumerable<IToken> key, IExpression value)
+    parameters:
+    - id: key
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+      description: The token sequence of the cached <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    - id: value
+      type: DiceEngine.Expressions.IExpression
+      description: The cached <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Boolean
+      description: >-
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> was successfully added to the cache; otherwise, 
+
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function AddCache(key As IEnumerable(Of IToken), value As IExpression) As Boolean
+  overload: DiceEngine.Parsing.Parser.AddCache*
+  nameWithType.vb: Parser.AddCache(IEnumerable(Of IToken), IExpression)
+  fullName.vb: DiceEngine.Parsing.Parser.AddCache(System.Collections.Generic.IEnumerable(Of DiceEngine.Tokenization.Tokens.IToken), DiceEngine.Expressions.IExpression)
+  name.vb: AddCache(IEnumerable(Of IToken), IExpression)
+- uid: DiceEngine.Parsing.Parser.RemoveCache(System.String)
+  commentId: M:DiceEngine.Parsing.Parser.RemoveCache(System.String)
+  id: RemoveCache(System.String)
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: RemoveCache(string)
+  nameWithType: Parser.RemoveCache(string)
+  fullName: DiceEngine.Parsing.Parser.RemoveCache(string)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/ParserCache.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RemoveCache
+    path: ../src/DiceEngine/Parsing/ParserCache.cs
+    startLine: 77
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Removes a cached <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> based on the specified expression <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool RemoveCache(string expression)
+    parameters:
+    - id: expression
+      type: System.String
+      description: The expression <xref href="System.String" data-throw-if-not-resolved="false"></xref> of the cached <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Boolean
+      description: >-
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> was successfully removed from the cache; otherwise,
+
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function RemoveCache(expression As String) As Boolean
+  overload: DiceEngine.Parsing.Parser.RemoveCache*
+  nameWithType.vb: Parser.RemoveCache(String)
+  fullName.vb: DiceEngine.Parsing.Parser.RemoveCache(String)
+  name.vb: RemoveCache(String)
+- uid: DiceEngine.Parsing.Parser.RemoveCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken})
+  commentId: M:DiceEngine.Parsing.Parser.RemoveCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken})
+  id: RemoveCache(System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken})
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: RemoveCache(IEnumerable<IToken>)
+  nameWithType: Parser.RemoveCache(IEnumerable<IToken>)
+  fullName: DiceEngine.Parsing.Parser.RemoveCache(System.Collections.Generic.IEnumerable<DiceEngine.Tokenization.Tokens.IToken>)
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/ParserCache.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: RemoveCache
+    path: ../src/DiceEngine/Parsing/ParserCache.cs
+    startLine: 88
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Removes a cached <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> based on the specified token sequence.
+  example: []
+  syntax:
+    content: public bool RemoveCache(IEnumerable<IToken> expression)
+    parameters:
+    - id: expression
+      type: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+      description: The token sequence of the cached <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Boolean
+      description: >-
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="DiceEngine.Expressions.IExpression" data-throw-if-not-resolved="false"></xref> was successfully removed from the cache; otherwise,
+
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function RemoveCache(expression As IEnumerable(Of IToken)) As Boolean
+  overload: DiceEngine.Parsing.Parser.RemoveCache*
+  nameWithType.vb: Parser.RemoveCache(IEnumerable(Of IToken))
+  fullName.vb: DiceEngine.Parsing.Parser.RemoveCache(System.Collections.Generic.IEnumerable(Of DiceEngine.Tokenization.Tokens.IToken))
+  name.vb: RemoveCache(IEnumerable(Of IToken))
+- uid: DiceEngine.Parsing.Parser.ClearCache
+  commentId: M:DiceEngine.Parsing.Parser.ClearCache
+  id: ClearCache
+  parent: DiceEngine.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: ClearCache()
+  nameWithType: Parser.ClearCache()
+  fullName: DiceEngine.Parsing.Parser.ClearCache()
+  type: Method
+  source:
+    remote:
+      path: src/DiceEngine/Parsing/ParserCache.cs
+      branch: andrewk17111-dev
+      repo: https://github.com/Whix100/DiceEngine.NET.git
+    id: ClearCache
+    path: ../src/DiceEngine/Parsing/ParserCache.cs
+    startLine: 101
+  assemblies:
+  - DiceEngine
+  namespace: DiceEngine.Parsing
+  summary: Clears the cache of the parser.
+  example: []
+  syntax:
+    content: public bool ClearCache()
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the cache was successfully cleared; otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function ClearCache() As Boolean
+  overload: DiceEngine.Parsing.Parser.ClearCache*
+references:
+- uid: DiceEngine.Parsing.Parser
+  commentId: T:DiceEngine.Parsing.Parser
+  parent: DiceEngine.Parsing
+  href: DiceEngine.Parsing.Parser.html
+  name: Parser
+  nameWithType: Parser
+  fullName: DiceEngine.Parsing.Parser
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: DiceEngine.Parsing
+  commentId: N:DiceEngine.Parsing
+  href: DiceEngine.html
+  name: DiceEngine.Parsing
+  nameWithType: DiceEngine.Parsing
+  fullName: DiceEngine.Parsing
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DiceEngine.Parsing.Parser.#ctor*
+  commentId: Overload:DiceEngine.Parsing.Parser.#ctor
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser__ctor_System_Collections_Generic_IEnumerable_DiceEngine_Parsing_Rules_IParserRule__DiceEngine_Tokenization_Tokenizer_
+  name: Parser
+  nameWithType: Parser.Parser
+  fullName: DiceEngine.Parsing.Parser.Parser
+  nameWithType.vb: Parser.New
+  fullName.vb: DiceEngine.Parsing.Parser.New
+  name.vb: New
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Parsing.Rules.IParserRule}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IParserRule>
+  nameWithType: IEnumerable<IParserRule>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Parsing.Rules.IParserRule>
+  nameWithType.vb: IEnumerable(Of IParserRule)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Parsing.Rules.IParserRule)
+  name.vb: IEnumerable(Of IParserRule)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: DiceEngine.Parsing.Rules.IParserRule
+    name: IParserRule
+    href: DiceEngine.Parsing.Rules.IParserRule.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Parsing.Rules.IParserRule
+    name: IParserRule
+    href: DiceEngine.Parsing.Rules.IParserRule.html
+  - name: )
+- uid: DiceEngine.Tokenization.Tokenizer
+  commentId: T:DiceEngine.Tokenization.Tokenizer
+  parent: DiceEngine.Tokenization
+  href: DiceEngine.Tokenization.Tokenizer.html
+  name: Tokenizer
+  nameWithType: Tokenizer
+  fullName: DiceEngine.Tokenization.Tokenizer
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: DiceEngine.Tokenization
+  commentId: N:DiceEngine.Tokenization
+  href: DiceEngine.html
+  name: DiceEngine.Tokenization
+  nameWithType: DiceEngine.Tokenization
+  fullName: DiceEngine.Tokenization
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Tokenization
+    name: Tokenization
+    href: DiceEngine.Tokenization.html
+- uid: DiceEngine.Parsing.Parser.Grammar*
+  commentId: Overload:DiceEngine.Parsing.Parser.Grammar
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_Grammar
+  name: Grammar
+  nameWithType: Parser.Grammar
+  fullName: DiceEngine.Parsing.Parser.Grammar
+- uid: DiceEngine.Parsing.Rules.IParserRule[]
+  isExternal: true
+  href: DiceEngine.Parsing.Rules.IParserRule.html
+  name: IParserRule[]
+  nameWithType: IParserRule[]
+  fullName: DiceEngine.Parsing.Rules.IParserRule[]
+  nameWithType.vb: IParserRule()
+  fullName.vb: DiceEngine.Parsing.Rules.IParserRule()
+  name.vb: IParserRule()
+  spec.csharp:
+  - uid: DiceEngine.Parsing.Rules.IParserRule
+    name: IParserRule
+    href: DiceEngine.Parsing.Rules.IParserRule.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: DiceEngine.Parsing.Rules.IParserRule
+    name: IParserRule
+    href: DiceEngine.Parsing.Rules.IParserRule.html
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DiceEngine.Expressions.IExpression
+  commentId: T:DiceEngine.Expressions.IExpression
+  parent: DiceEngine.Expressions
+  href: DiceEngine.Expressions.IExpression.html
+  name: IExpression
+  nameWithType: IExpression
+  fullName: DiceEngine.Expressions.IExpression
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: DiceEngine.Parsing.Parser.Parse*
+  commentId: Overload:DiceEngine.Parsing.Parser.Parse
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_Parse_System_String_
+  name: Parse
+  nameWithType: Parser.Parse
+  fullName: DiceEngine.Parsing.Parser.Parse
+- uid: DiceEngine.Expressions
+  commentId: N:DiceEngine.Expressions
+  href: DiceEngine.html
+  name: DiceEngine.Expressions
+  nameWithType: DiceEngine.Expressions
+  fullName: DiceEngine.Expressions
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Expressions
+    name: Expressions
+    href: DiceEngine.Expressions.html
+- uid: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}
+  parent: System.Collections.Immutable
+  definition: System.Collections.Immutable.ImmutableArray`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  name: ImmutableArray<IToken>
+  nameWithType: ImmutableArray<IToken>
+  fullName: System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>
+  nameWithType.vb: ImmutableArray(Of IToken)
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: ImmutableArray(Of IToken)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: <
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: )
+- uid: System.Collections.Immutable.ImmutableArray`1
+  commentId: T:System.Collections.Immutable.ImmutableArray`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  name: ImmutableArray<T>
+  nameWithType: ImmutableArray<T>
+  fullName: System.Collections.Immutable.ImmutableArray<T>
+  nameWithType.vb: ImmutableArray(Of T)
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of T)
+  name.vb: ImmutableArray(Of T)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Immutable
+  commentId: N:System.Collections.Immutable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Immutable
+  nameWithType: System.Collections.Immutable
+  fullName: System.Collections.Immutable
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Immutable
+    name: Immutable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Immutable
+    name: Immutable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
+- uid: DiceEngine.Parsing.Rules.IParserRule
+  commentId: T:DiceEngine.Parsing.Rules.IParserRule
+  parent: DiceEngine.Parsing.Rules
+  href: DiceEngine.Parsing.Rules.IParserRule.html
+  name: IParserRule
+  nameWithType: IParserRule
+  fullName: DiceEngine.Parsing.Rules.IParserRule
+- uid: DiceEngine.Parsing.Parser.AddGrammarRule*
+  commentId: Overload:DiceEngine.Parsing.Parser.AddGrammarRule
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_AddGrammarRule_DiceEngine_Parsing_Rules_IParserRule_System_Int32_
+  name: AddGrammarRule
+  nameWithType: Parser.AddGrammarRule
+  fullName: DiceEngine.Parsing.Parser.AddGrammarRule
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: DiceEngine.Parsing.Rules
+  commentId: N:DiceEngine.Parsing.Rules
+  href: DiceEngine.html
+  name: DiceEngine.Parsing.Rules
+  nameWithType: DiceEngine.Parsing.Rules
+  fullName: DiceEngine.Parsing.Rules
+  spec.csharp:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+  - name: .
+  - uid: DiceEngine.Parsing.Rules
+    name: Rules
+    href: DiceEngine.Parsing.Rules.html
+  spec.vb:
+  - uid: DiceEngine
+    name: DiceEngine
+    href: DiceEngine.html
+  - name: .
+  - uid: DiceEngine.Parsing
+    name: Parsing
+    href: DiceEngine.Parsing.html
+  - name: .
+  - uid: DiceEngine.Parsing.Rules
+    name: Rules
+    href: DiceEngine.Parsing.Rules.html
+- uid: DiceEngine.Parsing.Parser.RemoveGrammarRule*
+  commentId: Overload:DiceEngine.Parsing.Parser.RemoveGrammarRule
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_RemoveGrammarRule_System_String_
+  name: RemoveGrammarRule
+  nameWithType: Parser.RemoveGrammarRule
+  fullName: DiceEngine.Parsing.Parser.RemoveGrammarRule
+- uid: DiceEngine.Parsing.Parser.RemoveGrammarRuleAt*
+  commentId: Overload:DiceEngine.Parsing.Parser.RemoveGrammarRuleAt
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_RemoveGrammarRuleAt_System_Int32_
+  name: RemoveGrammarRuleAt
+  nameWithType: Parser.RemoveGrammarRuleAt
+  fullName: DiceEngine.Parsing.Parser.RemoveGrammarRuleAt
+- uid: DiceEngine.Parsing.Parser.ReplaceGrammarRule*
+  commentId: Overload:DiceEngine.Parsing.Parser.ReplaceGrammarRule
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_ReplaceGrammarRule_DiceEngine_Parsing_Rules_IParserRule_
+  name: ReplaceGrammarRule
+  nameWithType: Parser.ReplaceGrammarRule
+  fullName: DiceEngine.Parsing.Parser.ReplaceGrammarRule
+- uid: DiceEngine.Parsing.Parser.GrammarContains*
+  commentId: Overload:DiceEngine.Parsing.Parser.GrammarContains
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_GrammarContains_System_String_
+  name: GrammarContains
+  nameWithType: Parser.GrammarContains
+  fullName: DiceEngine.Parsing.Parser.GrammarContains
+- uid: DiceEngine.Parsing.Parser.GetGrammarRule*
+  commentId: Overload:DiceEngine.Parsing.Parser.GetGrammarRule
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_GetGrammarRule_System_String_
+  name: GetGrammarRule
+  nameWithType: Parser.GetGrammarRule
+  fullName: DiceEngine.Parsing.Parser.GetGrammarRule
+- uid: DiceEngine.Parsing.Parser.Cache*
+  commentId: Overload:DiceEngine.Parsing.Parser.Cache
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_Cache
+  name: Cache
+  nameWithType: Parser.Cache
+  fullName: DiceEngine.Parsing.Parser.Cache
+- uid: System.Collections.Immutable.ImmutableArray{DiceEngine.Tokenization.Tokens.IToken}[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  name: ImmutableArray<IToken>[]
+  nameWithType: ImmutableArray<IToken>[]
+  fullName: System.Collections.Immutable.ImmutableArray<DiceEngine.Tokenization.Tokens.IToken>[]
+  nameWithType.vb: ImmutableArray(Of IToken)()
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of DiceEngine.Tokenization.Tokens.IToken)()
+  name.vb: ImmutableArray(Of IToken)()
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: <
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: '>'
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: )
+  - name: (
+  - name: )
+- uid: DiceEngine.Parsing.Parser.ContainsCache*
+  commentId: Overload:DiceEngine.Parsing.Parser.ContainsCache
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_ContainsCache_System_String_
+  name: ContainsCache
+  nameWithType: Parser.ContainsCache
+  fullName: DiceEngine.Parsing.Parser.ContainsCache
+- uid: System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+  commentId: T:System.Collections.Generic.IEnumerable{DiceEngine.Tokenization.Tokens.IToken}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IToken>
+  nameWithType: IEnumerable<IToken>
+  fullName: System.Collections.Generic.IEnumerable<DiceEngine.Tokenization.Tokens.IToken>
+  nameWithType.vb: IEnumerable(Of IToken)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DiceEngine.Tokenization.Tokens.IToken)
+  name.vb: IEnumerable(Of IToken)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DiceEngine.Tokenization.Tokens.IToken
+    name: IToken
+    href: DiceEngine.Tokenization.Tokens.IToken.html
+  - name: )
+- uid: DiceEngine.Parsing.Parser.AddCache*
+  commentId: Overload:DiceEngine.Parsing.Parser.AddCache
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_AddCache_System_String_DiceEngine_Expressions_IExpression_
+  name: AddCache
+  nameWithType: Parser.AddCache
+  fullName: DiceEngine.Parsing.Parser.AddCache
+- uid: DiceEngine.Parsing.Parser.RemoveCache*
+  commentId: Overload:DiceEngine.Parsing.Parser.RemoveCache
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_RemoveCache_System_String_
+  name: RemoveCache
+  nameWithType: Parser.RemoveCache
+  fullName: DiceEngine.Parsing.Parser.RemoveCache
+- uid: DiceEngine.Parsing.Parser.ClearCache*
+  commentId: Overload:DiceEngine.Parsing.Parser.ClearCache
+  href: DiceEngine.Parsing.Parser.html#DiceEngine_Parsing_Parser_ClearCache
+  name: ClearCache
+  nameWithType: Parser.ClearCache
+  fullName: DiceEngine.Parsing.Parser.ClearCache
