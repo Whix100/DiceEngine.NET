@@ -67,9 +67,6 @@ internal static partial class ParseMatchFunctions
 
         foreach (IParserRule rule in parser.Grammar)
         {
-            if (rule.GetType().GetCustomAttribute<ReferenceRuleAttribute>() is not null)
-                continue;
-
             TokenMatch? subMatch = rule.Match(condensed, parser.Grammar);
 
             if (subMatch is not null)

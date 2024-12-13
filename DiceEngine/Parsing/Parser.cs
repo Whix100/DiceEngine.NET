@@ -64,9 +64,6 @@ public partial class Parser(IEnumerable<IParserRule> grammar, Tokenizer? tokeniz
 
         foreach (IParserRule rule in _grammar)
         {
-            if (rule.GetType().GetCustomAttribute<ReferenceRuleAttribute>() is not null)
-                continue;
-
             IExpression? expression = rule.Parse(input, this);
 
             if (expression is not null)
