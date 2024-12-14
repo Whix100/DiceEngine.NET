@@ -10,7 +10,7 @@ Issues that are tagged as "Up for grabs" are free to be picked up and worked on 
 
 ### Pull Requests
 
-Pull requests should include a description of the changes that are being made. They aren't required, but will make reviewing the pull request easier. Please also link the PR to the related issue. For now, each pull request is reviewed automatically by [CodeRabbit](https://www.coderabbit.ai/). The automatic AI reviews may change later if this repository gains more activity.
+Pull requests should include a description of the changes that are being made. They aren't required, but will make reviewing the pull request easier. Please also link the PR to the related issue.
 
 ## Semantic Versioning
 
